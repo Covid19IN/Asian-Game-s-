@@ -46,7 +46,7 @@ jobs:
       - name: Render + encode HLS Direct Stream
         run: |
           python -u - <<'PYEOF'
-          import sys, os, math, random, shutil, subprocess, json
+          import sys, os, math, random, shutil, subprocess, json, re
           from pathlib import Path
           import requests
           import numpy as np
@@ -72,8 +72,9 @@ jobs:
           # ══════════════════════════════════════════════════════
           #  THEME & MEDAL PALETTES
           # ══════════════════════════════════════════════════════
-          NAVY_PANEL    = (10, 28, 64, 240)
-          BORDER_BLUE   = (40, 110, 220, 200)
+          NAVY_PANEL    = (10, 28, 64)
+          PANEL_DARK    = (5, 15, 38)
+          BORDER_BLUE   = (40, 110, 220)
           TEXT_WHITE    = (255, 255, 255)
           TEXT_MUTED    = (170, 200, 240)
           TEXT_DARK     = (20, 20, 20)
@@ -196,34 +197,65 @@ jobs:
                   _photo_cache[url] = None; return None
 
           # ══════════════════════════════════════════════════════
-          #  DATA PROCESSING
+          #  DATA PROCESSING (MATCHES WEBSITE LOGIC)
           # ══════════════════════════════════════════════════════
+          def get_participant(a):
+              bio = a.get("bio_data") or {}
+              if not bio: return {}
+              return bio.get("participant") or bio.get("Participant") or bio.get("profile") or bio.get("Profile") or bio
+
+          def is_aggregate_team(a):
+              p = get_participant(a)
+              if p and (p.get("hasMembers") is True or p.get("Type") in ["T", "D"]): return True
+              reg = a.get("reg", "")
+              if re.search(r"^[A-Z]{3}[A-Z0-9]*TEAM", reg, re.I) or re.search(r"DOUBLES", reg, re.I) or re.search(r"SCULL\d", reg, re.I):
+                  return True
+              return False
+
           def collect(data, limit):
               rank_map = {"gold": 3, "silver": 2, "bronze": 1}
               by_sport = {}
+              
               for a in data:
+                  if is_aggregate_team(a): continue
                   if not a.get("photo_url"): continue
                   medals = a.get("medals") or []
                   if not medals: continue
 
-                  g = sum(1 for m in medals if m.get("medal") == "gold")
-                  s = sum(1 for m in medals if m.get("medal") == "silver")
-                  b = sum(1 for m in medals if m.get("medal") == "bronze")
+                  g = sum(1 for m in medals if str(m.get("medal", "")).lower() == "gold")
+                  s = sum(1 for m in medals if str(m.get("medal", "")).lower() == "silver")
+                  b = sum(1 for m in medals if str(m.get("medal", "")).lower() == "bronze")
 
-                  top = sorted(medals, key=lambda m: rank_map.get(str(m.get("medal")).lower(), 0), reverse=True)[0]
+                  top = sorted(medals, key=lambda m: rank_map.get(str(m.get("medal", "")).lower(), 0), reverse=True)[0]
                   sport = a.get("disc_desc") or "Other"
 
-                  gender = a.get("gender") or a.get("gender_desc") or "Athlete"
-                  venue = top.get("venue") or top.get("location") or "Main Aquatics & Athletics Arena"
+                  p = get_participant(a)
+                  gender_raw = p.get("Gender") or a.get("gender") or a.get("gender_desc") or ""
+                  gender = "MALE" if gender_raw == "M" else "FEMALE" if gender_raw == "W" else "ATHLETE"
+
+                  venue = top.get("venue") or top.get("VenueDesc") or top.get("location") or "Main Aquatics & Athletics Arena"
+
+                  # Safe Extraction for Results
+                  res_val = top.get("result") or top.get("Result") or top.get("mark") or top.get("time") or top.get("score")
+                  if not res_val or str(res_val).strip() in ("", "None"):
+                      res_val = "N/A"
+
+                  # Safe Extraction for Standing Rank
+                  raw_rank = top.get("rank") or top.get("Rank") or top.get("rank_num") or top.get("RkPo")
+                  if raw_rank is not None and str(raw_rank).strip() not in ("", "None", "N/A"):
+                      r_str = str(raw_rank).strip()
+                      rank_str = f"2ND PLACE" if r_str == "2" else f"1ST PLACE" if r_str == "1" else f"3RD PLACE" if r_str == "3" else f"RANK {r_str}"
+                  else:
+                      rank_str = ""
 
                   entry = {
                       "name": a.get("name", "Unknown Athlete"), 
                       "disc_desc": sport,
-                      "event": top.get("event", "General Event"), 
+                      "event": top.get("event") or top.get("EventDesc") or top.get("Desc") or "General Event", 
                       "medal": str(top.get("medal", "gold")).lower(),
-                      "result": str(top.get("result") or top.get("mark") or "N/A"),
-                      "rank": str(top.get("rank") or f"Rank {top.get('rank_num', '')}").strip(),
-                      "gender": str(gender).upper(),
+                      "result": str(res_val),
+                      "rank": rank_str,
+                      "gender": gender,
                       "venue": venue,
                       "g_count": g, "s_count": s, "b_count": b,
                       "medal_count": len(medals),
@@ -312,14 +344,14 @@ jobs:
               d.text((wx + 35, wy + 260), "VENUE / LOCATION", font=font(16, "bold"), fill=TEXT_MUTED)
               d.text((wx + 35, wy + 285), ath["venue"].upper(), font=font(24, "bold"), fill=TEXT_WHITE)
 
-              # Performance Stats Panel (Highlights medal accent color)
+              # Performance Stats Panel (Opaque dark fill avoids contrast washouts)
               stat_y = wy + 340
-              d.rounded_rectangle((wx + 35, stat_y, wx + ww - 35, stat_y + 110), radius=10, fill=(5, 15, 38, 220), outline=m_cfg["accent"], width=1)
-              d.text((wx + 55, stat_y + 20), "PERFORMANCE MARK & RESULT", font=font(16, "bold"), fill=TEXT_MUTED)
+              d.rounded_rectangle((wx + 35, stat_y, wx + ww - 35, stat_y + 110), radius=10, fill=PANEL_DARK, outline=m_cfg["accent"], width=1)
+              d.text((wx + 55, stat_y + 20), "PERFORMANCE MARK & STANDING", font=font(16, "bold"), fill=TEXT_MUTED)
               
-              res_str = f"RESULT: {ath['result']}"
-              if ath.get("rank") and ath['rank'].upper() != "NONE":
-                  res_str += f"   |   OFFICIAL STANDING: {ath['rank'].upper()}"
+              res_str = f"TIME / MARK: {ath['result']}"
+              if ath.get("rank"):
+                  res_str += f"   |   OFFICIAL {ath['rank']}"
               d.text((wx + 55, stat_y + 55), res_str, font=font(24, "bold"), fill=m_cfg["accent"])
 
               # Delegation & Career Medals Breakdown
@@ -328,8 +360,8 @@ jobs:
               draw_india_flag(img, x=wx + 260, y=wy + 512, w=58, h=38)
 
               career_str = f"TOTAL MEDALS WON: {ath['medal_count']} ({ath['g_count']} GOLD, {ath['s_count']} SILVER, {ath['b_count']} BRONZE)"
-              d.rounded_rectangle((wx + 35, wy + 580, wx + ww - 35, wy + 640), radius=8, fill=(m_cfg["bg"][0], m_cfg["bg"][1], m_cfg["bg"][2], 25), outline=m_cfg["accent"], width=1)
-              d.text((wx + 55, wy + 610), career_str, font=font(20, "bold"), fill=m_cfg["accent"], anchor="lm")
+              d.rounded_rectangle((wx + 35, wy + 580, wx + ww - 35, wy + 640), radius=8, fill=PANEL_DARK, outline=m_cfg["accent"], width=1)
+              d.text((wx + 55, wy + 610), career_str, font=font(20, "bold"), fill=TEXT_WHITE, anchor="lm")
 
               # Bottom Ticker Bar
               bar_y = H - 120
