@@ -75,6 +75,10 @@ jobs:
           TEXT_WHITE    = (255, 255, 255)
           TEXT_MUTED    = (170, 185, 200)
 
+          GOLD          = (255, 195, 0)
+          SILVER        = (220, 225, 235)
+          BRONZE        = (235, 120, 40)
+
           for d in [PHOTO_DIR, FRAME_DIR, OUT_DIR]:
               Path(d).mkdir(parents=True, exist_ok=True)
 
@@ -143,12 +147,11 @@ jobs:
               return img
 
           # ══════════════════════════════════════════════════════
-          #  DRAW HANGING MEDAL ICON WITH RIBBON (EXACT MATCH)
+          #  DRAW HANGING MEDAL ICON WITH RIBBON
           # ══════════════════════════════════════════════════════
           def draw_hanging_medal(img, cx, cy, medal_type="silver"):
               d = ImageDraw.Draw(img, "RGBA")
               
-              # Palette configurations for Gold, Silver, Bronze
               medal_configs = {
                   "gold": {
                       "disc_outer": (255, 215, 0), "disc_inner": (210, 160, 10),
@@ -165,21 +168,17 @@ jobs:
               }
               cfg = medal_configs.get(medal_type.lower(), medal_configs["silver"])
               
-              # 1. Folded Ribbon Top (V-Shape from card edge)
               rib_w = 26
               d.polygon([(cx - 30, cy - 65), (cx - 30 + rib_w, cy - 65), (cx + 4, cy - 10), (cx - 10, cy - 10)], fill=cfg["ribbon"])
               d.polygon([(cx + 30, cy - 65), (cx + 30 - rib_w, cy - 65), (cx - 4, cy - 10), (cx + 10, cy - 10)], fill=cfg["ribbon_dark"])
               
-              # Ribbon Loop Loop Joint
               d.rectangle((cx - 12, cy - 12, cx + 12, cy - 4), fill=(40, 45, 50, 240), outline=cfg["rim"], width=1)
 
-              # 2. Outer Medal Disc (3D Metallic Gradient Rings)
               r = 46
               d.ellipse((cx - r, cy - r, cx + r, cy + r), fill=cfg["disc_outer"], outline=cfg["rim"], width=2)
               d.ellipse((cx - r + 5, cy - r + 5, cx + r - 5, cy + r - 5), fill=cfg["disc_inner"], outline=(0, 0, 0, 80), width=2)
               d.ellipse((cx - r + 10, cy - r + 10, cx + r - 10, cy + r - 10), outline=cfg["rim"], width=1)
               
-              # Star/Emblem in Medal Center
               sr = 16
               d.ellipse((cx - sr, cy - sr, cx + sr, cy + sr), fill=cfg["disc_outer"], outline=cfg["rim"], width=1)
 
@@ -275,22 +274,19 @@ jobs:
               d.text((W/2, 480), str(total), font=font(250, "black"), fill=ACCENT_AMBER, anchor="mt")
 
           # ══════════════════════════════════════════════════════
-          #  DRAW — EXACT TV CARD DESIGN
+          #  DRAW — TV CARD DESIGN
           # ══════════════════════════════════════════════════════
           def draw_card(img, ath, photo, prog, idx, total):
               d = ImageDraw.Draw(img, "RGBA")
               medal = ath["medal"].lower()
 
-              # ── 1. LEFT PHOTO CONTAINER WITH TARGET RINGS ──
               psize = 640
               px = 120
               py = 180
               pcx, pcy = px + psize // 2, py + psize // 2
 
-              # Outer Dark Bezel
               d.ellipse((pcx - psize//2, pcy - psize//2, pcx + psize//2, pcy + psize//2), fill=(14, 18, 24, 255), outline=(50, 60, 75), width=3)
               
-              # Outer Reticle Tick Marks
               for deg in [0, 45, 90, 135, 180, 225, 270, 315]:
                   rad = math.radians(deg)
                   x1 = pcx + math.cos(rad) * (psize//2 - 2)
@@ -299,11 +295,9 @@ jobs:
                   y2 = pcy + math.sin(rad) * (psize//2 + 12)
                   d.line([(x1, y1), (x2, y2)], fill=ACCENT_AMBER, width=3)
 
-              # Glowing Amber Inner Rings
               d.ellipse((pcx - psize//2 + 28, pcy - psize//2 + 28, pcx + psize//2 - 28, pcy + psize//2 - 28), outline=ACCENT_AMBER, width=6)
               d.ellipse((pcx - psize//2 + 42, pcy - psize//2 + 42, pcx + psize//2 - 42, pcy + psize//2 - 42), outline=(255, 160, 0, 180), width=2)
 
-              # Photo Cutout
               if photo:
                   w, h = photo.size
                   s = min(w, h)
@@ -315,13 +309,11 @@ jobs:
                   
                   img.paste(cropped, (pcx - (psize-100)//2, pcy - (psize-100)//2), mask)
 
-              # ── 2. RIGHT GLASS CARD CONTAINER ──
               wx = 940
               wy = 160
               ww = 860
               wh = 680
 
-              # Chamfered Corner Glass Frame (Exact Silhouette)
               ch = 30
               card_poly = [
                   (wx + ch, wy), (wx + ww - ch, wy), (wx + ww, wy + ch),
@@ -330,11 +322,8 @@ jobs:
               ]
               d.polygon(card_poly, fill=PANEL_DARK, outline=PANEL_BORDER, width=3)
 
-              # ── 3. HANGING MEDAL (RIGHT TOP EDGE) ──
               draw_hanging_medal(img, cx=wx + ww - 110, cy=wy + 110, medal_type=medal)
 
-              # ── 4. CARD TEXT CONTENT ──
-              # Athlete Name
               raw_name = ath["name"].strip()
               parts = raw_name.split()
               formatted_name = f"{parts[-1]} {' '.join(parts[:-1])}" if len(parts) > 1 else raw_name
@@ -342,7 +331,6 @@ jobs:
 
               d.text((wx + 70, wy + 70), "ATHLETE", font=font(22, "bold"), fill=TEXT_MUTED)
               
-              # Handle Two-Line Big Name Layout
               name_parts = formatted_name.split(maxsplit=1)
               if len(name_parts) == 2:
                   d.text((wx + 70, wy + 100), name_parts[0], font=font(64, "black"), fill=TEXT_WHITE)
@@ -352,16 +340,13 @@ jobs:
                   d.text((wx + 70, wy + 105), formatted_name, font=font(64, "black"), fill=TEXT_WHITE)
                   y_cursor = wy + 200
 
-              # Sport
               d.text((wx + 70, y_cursor), "SPORT", font=font(20, "bold"), fill=TEXT_MUTED)
               d.text((wx + 70, y_cursor + 28), ath["disc_desc"].upper(), font=font(44, "black"), fill=TEXT_WHITE)
 
-              # Event
               y_cursor += 105
               d.text((wx + 70, y_cursor), "EVENT", font=font(20, "bold"), fill=TEXT_MUTED)
               d.text((wx + 70, y_cursor + 28), ath["event"].upper(), font=font(42, "black"), fill=TEXT_WHITE)
 
-              # Performance Stats Box
               y_cursor += 105
               stat_w = ww - 140
               stat_h = 70
@@ -372,7 +357,6 @@ jobs:
               stat_text = f"RESULT: {res_str}   |   {rank_str}"
               d.text((wx + 70 + stat_w // 2, y_cursor + stat_h // 2), stat_text, font=font(28, "bold"), fill=ACCENT_AMBER, anchor="mm")
 
-              # ── 5. LOWER THIRD TICKER BAR ──
               bar_y = H - 110
               bar_h = 60
 
@@ -380,9 +364,25 @@ jobs:
               d.line([(0, bar_y), (W, bar_y)], fill=(80, 90, 105), width=2)
               d.line([(0, bar_y + bar_h), (W, bar_y + bar_h)], fill=ACCENT_AMBER, width=2)
 
-              # Clean Dynamic Ticker Text
               ticker_text = f"PROFESSIONAL SPORT  |  {formatted_name}  |  {ath['disc_desc'].upper()} — {ath['event'].upper()} ({res_str})"
               d.text((W // 2, bar_y + bar_h // 2), ticker_text, font=font(22, "bold"), fill=TEXT_WHITE, anchor="mm")
+
+          # ══════════════════════════════════════════════════════
+          #  DRAW — OUTRO (FIXED & RESTORED)
+          # ══════════════════════════════════════════════════════
+          def draw_outro(img, prog, total, bd, n_ath):
+              d = ImageDraw.Draw(img, "RGBA")
+
+              d.text((W/2, 220), "ASIAN GAMES 2026", font=font(40, "black"), fill=ACCENT_AMBER, anchor="mt")
+              d.text((W/2, 290), "OFFICIAL SUMMARY", font=font(100, "black"), fill=TEXT_WHITE, anchor="mt")
+
+              d.text((W/2, 450), f"{total} TOTAL MEDALS  ·  {n_ath} ATHLETES FEATURED", font=font(36, "bold"), fill=TEXT_MUTED, anchor="mt")
+
+              y = 560
+              for label, n, col in [("GOLD MEDALS", bd["gold"], GOLD), ("SILVER MEDALS", bd["silver"], SILVER), ("BRONZE MEDALS", bd["bronze"], BRONZE)]:
+                  d.text((W/2 - 40, y), label, font=font(36, "bold"), fill=col, anchor="rm")
+                  d.text((W/2 + 40, y - 5), str(n), font=font(54, "black"), fill=TEXT_WHITE, anchor="lm")
+                  y += 80
 
           # ══════════════════════════════════════════════════════
           #  MAIN EXECUTION
@@ -469,5 +469,5 @@ jobs:
           git config user.email "actions@github.com"
           git add docs/ data/video-photos/ || true
           git diff --quiet && git diff --staged --quiet || (
-            git commit -m "chore: exact HUD layout with hanging medal [skip ci]" && git push
+            git commit -m "chore: exact HUD layout with fixed draw_outro [skip ci]" && git push
           )
