@@ -76,15 +76,6 @@
         "BirthDate": "2000-08-05"
       },
       {
-        "Reg": "15776637",
-        "Bib": "1037",
-        "Org": "IND",
-        "OrgDesc": "India",
-        "Name": "KUMAR Jay",
-        "Order": 1,
-        "BirthDate": "2006-06-10"
-      },
-      {
         "Reg": "4788190",
         "Bib": "1038",
         "Org": "IND",
@@ -92,6 +83,15 @@
         "Name": "THEKKINALIL Manu",
         "Order": 1,
         "BirthDate": "2001-10-17"
+      },
+      {
+        "Reg": "15776637",
+        "Bib": "1037",
+        "Org": "IND",
+        "OrgDesc": "India",
+        "Name": "KUMAR Jay",
+        "Order": 1,
+        "BirthDate": "2006-06-10"
       },
       {
         "Reg": "7207481",
