@@ -293,11 +293,10 @@ jobs:
           shutil.rmtree(FRAME_DIR, ignore_errors=True)
           Path(FRAME_DIR).mkdir(parents=True, exist_ok=True)
 
-          n = 0
+          counter = [0]
           def save(img):
-              nonlocal n
-              img.convert("RGB").save(f"{FRAME_DIR}/f_{n:05d}.png")
-              n += 1
+              img.convert("RGB").save(f"{FRAME_DIR}/f_{counter[0]:05d}.png")
+              counter[0] += 1
 
           print("Intro…")
           for f in range(INTRO_FRAMES):
@@ -319,7 +318,7 @@ jobs:
               draw_outro(img, f/(OUTRO_FRAMES-1), total, bd)
               save(img)
 
-          print(f"✅ {n} frames")
+          print(f"✅ {counter[0]} frames")
 
           print("Encoding HLS…")
           Path(OUT_DIR).mkdir(parents=True, exist_ok=True)
