@@ -7,7 +7,6 @@
     "disc": "ATH",
     "disc_desc": "Athletics",
     "photo_url": "https://results.asiangames2026.org/ag2026/photos/732155.jpg",
-    "bio_url": "https://back.results.asiangames2026.org/s/AG2026/en/ATH/entries/bio/732155",
     "medals": [
       {
         "medal": "silver",
@@ -307,7 +306,6 @@
     "disc": "ATH",
     "disc_desc": "Athletics",
     "photo_url": "https://results.asiangames2026.org/ag2026/photos/627314.jpg",
-    "bio_url": "https://back.results.asiangames2026.org/s/AG2026/en/ATH/entries/bio/627314",
     "medals": [
       {
         "medal": "silver",
@@ -451,7 +449,6 @@
     "disc": "ATH",
     "disc_desc": "Athletics",
     "photo_url": "https://results.asiangames2026.org/ag2026/photos/2488559.jpg",
-    "bio_url": "https://back.results.asiangames2026.org/s/AG2026/en/ATH/entries/bio/2488559",
     "medals": [
       {
         "medal": "silver",
@@ -593,7 +590,6 @@
     "disc": "ATH",
     "disc_desc": "Athletics",
     "photo_url": null,
-    "bio_url": "https://back.results.asiangames2026.org/s/AG2026/en/ATH/entries/bio/ATHX4X400M-----IND01",
     "medals": [
       {
         "medal": "silver",
@@ -898,7 +894,6 @@
     "disc": "ATH",
     "disc_desc": "Athletics",
     "photo_url": "https://results.asiangames2026.org/ag2026/photos/15420709.jpg",
-    "bio_url": "https://back.results.asiangames2026.org/s/AG2026/en/ATH/entries/bio/15420709",
     "medals": [
       {
         "medal": "silver",
@@ -1212,7 +1207,6 @@
     "disc": "ATH",
     "disc_desc": "Athletics",
     "photo_url": "https://results.asiangames2026.org/ag2026/photos/4788190.jpg",
-    "bio_url": "https://back.results.asiangames2026.org/s/AG2026/en/ATH/entries/bio/4788190",
     "medals": [
       {
         "medal": "silver",
@@ -1435,7 +1429,6 @@
     "disc": "ATH",
     "disc_desc": "Athletics",
     "photo_url": "https://results.asiangames2026.org/ag2026/photos/15776637.jpg",
-    "bio_url": "https://back.results.asiangames2026.org/s/AG2026/en/ATH/entries/bio/15776637",
     "medals": [
       {
         "medal": "silver",
@@ -1572,7 +1565,6 @@
     "disc": "ATH",
     "disc_desc": "Athletics",
     "photo_url": "https://results.asiangames2026.org/ag2026/photos/7207481.jpg",
-    "bio_url": "https://back.results.asiangames2026.org/s/AG2026/en/ATH/entries/bio/7207481",
     "medals": [
       {
         "medal": "silver",
@@ -1809,7 +1801,6 @@
     "disc": "ATH",
     "disc_desc": "Athletics",
     "photo_url": "https://results.asiangames2026.org/ag2026/photos/2034750.jpg",
-    "bio_url": "https://back.results.asiangames2026.org/s/AG2026/en/ATH/entries/bio/2034750",
     "medals": [
       {
         "medal": "silver",
@@ -2130,7 +2121,6 @@
     "disc": "ATH",
     "disc_desc": "Athletics",
     "photo_url": "https://results.asiangames2026.org/ag2026/photos/5547605.jpg",
-    "bio_url": "https://back.results.asiangames2026.org/s/AG2026/en/ATH/entries/bio/5547605",
     "medals": [
       {
         "medal": "silver",
@@ -2412,7 +2402,6 @@
     "disc": "ATH",
     "disc_desc": "Athletics",
     "photo_url": "https://results.asiangames2026.org/ag2026/photos/5320130.jpg",
-    "bio_url": "https://back.results.asiangames2026.org/s/AG2026/en/ATH/entries/bio/5320130",
     "medals": [
       {
         "medal": "bronze",
@@ -2614,7 +2603,6 @@
     "disc": "ATH",
     "disc_desc": "Athletics",
     "photo_url": "https://results.asiangames2026.org/ag2026/photos/3560983.jpg",
-    "bio_url": "https://back.results.asiangames2026.org/s/AG2026/en/ATH/entries/bio/3560983",
     "medals": [
       {
         "medal": "bronze",
@@ -2833,7 +2821,6 @@
     "disc": "ATH",
     "disc_desc": "Athletics",
     "photo_url": "https://results.asiangames2026.org/ag2026/photos/7925520.jpg",
-    "bio_url": "https://back.results.asiangames2026.org/s/AG2026/en/ATH/entries/bio/7925520",
     "medals": [
       {
         "medal": "bronze",
@@ -2971,7 +2958,6 @@
     "disc": "ATH",
     "disc_desc": "Athletics",
     "photo_url": "https://results.asiangames2026.org/ag2026/photos/13358440.jpg",
-    "bio_url": "https://back.results.asiangames2026.org/s/AG2026/en/ATH/entries/bio/13358440",
     "medals": [
       {
         "medal": "bronze",
@@ -3107,7 +3093,6 @@
     "disc": "BDM",
     "disc_desc": "Badminton",
     "photo_url": null,
-    "bio_url": "https://back.results.asiangames2026.org/s/AG2026/en/BDM/entries/bio/BDMMTEAM-------IND01",
     "medals": [
       {
         "medal": "bronze",
@@ -4952,7 +4937,6 @@
     "disc": "BDM",
     "disc_desc": "Badminton",
     "photo_url": "https://results.asiangames2026.org/ag2026/photos/12084045.jpg",
-    "bio_url": "https://back.results.asiangames2026.org/s/AG2026/en/BDM/entries/bio/12084045",
     "medals": [
       {
         "medal": "bronze",
@@ -7741,50 +7725,24 @@
                 "Type": "PREV_RESULT",
                 "Code": "UNIT_KEY",
                 "Pos": 1,
-                "Value": "X.DOUBLES-----------.SFNL.000100--",
-                "Extensions": [
-                  {
-                    "Type": "RESULT",
-                    "Code": "Register",
-                    "Pos": 1,
-                    "Value": "BDMXDOUBLES----CHN01"
-                  },
-                  {
-                    "Type": "RESULT",
-                    "Code": "RegisterOpp",
-                    "Pos": 1,
-                    "Value": "BDMXDOUBLES----INA01"
-                  },
-                  {
-                    "Type": "RESULT",
-                    "Code": "Result",
-                    "Pos": 1,
-                    "Value": ""
-                  }
-                ]
-              },
-              {
-                "Type": "PREV_RESULT",
-                "Code": "UNIT_KEY",
-                "Pos": 2,
                 "Value": "X.DOUBLES-----------.8FNL.000100--",
                 "Extensions": [
                   {
                     "Type": "RESULT",
                     "Code": "Register",
-                    "Pos": 2,
+                    "Pos": 1,
                     "Value": "BDMXDOUBLES----CHN01"
                   },
                   {
                     "Type": "RESULT",
                     "Code": "RegisterOpp",
-                    "Pos": 2,
+                    "Pos": 1,
                     "Value": "BDMXDOUBLES----HKG01"
                   },
                   {
                     "Type": "RESULT",
                     "Code": "Result",
-                    "Pos": 2,
+                    "Pos": 1,
                     "Value": "2-0"
                   }
                 ]
@@ -8083,7 +8041,6 @@
     "disc": "BDM",
     "disc_desc": "Badminton",
     "photo_url": "https://results.asiangames2026.org/ag2026/photos/12086438.jpg",
-    "bio_url": "https://back.results.asiangames2026.org/s/AG2026/en/BDM/entries/bio/12086438",
     "medals": [
       {
         "medal": "bronze",
@@ -9790,7 +9747,6 @@
     "disc": "BDM",
     "disc_desc": "Badminton",
     "photo_url": "https://results.asiangames2026.org/ag2026/photos/12087059.jpg",
-    "bio_url": "https://back.results.asiangames2026.org/s/AG2026/en/BDM/entries/bio/12087059",
     "medals": [
       {
         "medal": "bronze",
@@ -11925,7 +11881,6 @@
     "disc": "BDM",
     "disc_desc": "Badminton",
     "photo_url": "https://results.asiangames2026.org/ag2026/photos/12911698.jpg",
-    "bio_url": "https://back.results.asiangames2026.org/s/AG2026/en/BDM/entries/bio/12911698",
     "medals": [
       {
         "medal": "bronze",
@@ -14489,7 +14444,6 @@
     "disc": "BDM",
     "disc_desc": "Badminton",
     "photo_url": "https://results.asiangames2026.org/ag2026/photos/12919198.jpg",
-    "bio_url": "https://back.results.asiangames2026.org/s/AG2026/en/BDM/entries/bio/12919198",
     "medals": [
       {
         "medal": "bronze",
@@ -16597,7 +16551,6 @@
     "disc": "BDM",
     "disc_desc": "Badminton",
     "photo_url": "https://results.asiangames2026.org/ag2026/photos/13328974.jpg",
-    "bio_url": "https://back.results.asiangames2026.org/s/AG2026/en/BDM/entries/bio/13328974",
     "medals": [
       {
         "medal": "bronze",
@@ -18304,7 +18257,6 @@
     "disc": "BDM",
     "disc_desc": "Badminton",
     "photo_url": "https://results.asiangames2026.org/ag2026/photos/5855067.jpg",
-    "bio_url": "https://back.results.asiangames2026.org/s/AG2026/en/BDM/entries/bio/5855067",
     "medals": [
       {
         "medal": "bronze",
@@ -20011,7 +19963,6 @@
     "disc": "BDM",
     "disc_desc": "Badminton",
     "photo_url": "https://results.asiangames2026.org/ag2026/photos/5857545.jpg",
-    "bio_url": "https://back.results.asiangames2026.org/s/AG2026/en/BDM/entries/bio/5857545",
     "medals": [
       {
         "medal": "bronze",
@@ -22158,7 +22109,6 @@
     "disc": "BDM",
     "disc_desc": "Badminton",
     "photo_url": "https://results.asiangames2026.org/ag2026/photos/6875486.jpg",
-    "bio_url": "https://back.results.asiangames2026.org/s/AG2026/en/BDM/entries/bio/6875486",
     "medals": [
       {
         "medal": "bronze",
@@ -24305,7 +24255,6 @@
     "disc": "BDM",
     "disc_desc": "Badminton",
     "photo_url": "https://results.asiangames2026.org/ag2026/photos/6882820.jpg",
-    "bio_url": "https://back.results.asiangames2026.org/s/AG2026/en/BDM/entries/bio/6882820",
     "medals": [
       {
         "medal": "bronze",
@@ -26440,7 +26389,6 @@
     "disc": "CKT",
     "disc_desc": "Cricket",
     "photo_url": null,
-    "bio_url": "https://back.results.asiangames2026.org/s/AG2026/en/CKT/entries/bio/CKTWTEAM-------IND01",
     "medals": [
       {
         "medal": "gold",
@@ -27688,7 +27636,6 @@
     "disc": "CKT",
     "disc_desc": "Cricket",
     "photo_url": "https://results.asiangames2026.org/ag2026/photos/11041272.jpg",
-    "bio_url": "https://back.results.asiangames2026.org/s/AG2026/en/CKT/entries/bio/11041272",
     "medals": [
       {
         "medal": "gold",
@@ -28729,7 +28676,6 @@
     "disc": "CKT",
     "disc_desc": "Cricket",
     "photo_url": "https://results.asiangames2026.org/ag2026/photos/5538388.jpg",
-    "bio_url": "https://back.results.asiangames2026.org/s/AG2026/en/CKT/entries/bio/5538388",
     "medals": [
       {
         "medal": "gold",
@@ -29770,7 +29716,6 @@
     "disc": "CKT",
     "disc_desc": "Cricket",
     "photo_url": "https://results.asiangames2026.org/ag2026/photos/9278207.jpg",
-    "bio_url": "https://back.results.asiangames2026.org/s/AG2026/en/CKT/entries/bio/9278207",
     "medals": [
       {
         "medal": "gold",
@@ -30811,7 +30756,6 @@
     "disc": "CKT",
     "disc_desc": "Cricket",
     "photo_url": "https://results.asiangames2026.org/ag2026/photos/8677535.jpg",
-    "bio_url": "https://back.results.asiangames2026.org/s/AG2026/en/CKT/entries/bio/8677535",
     "medals": [
       {
         "medal": "gold",
@@ -31852,7 +31796,6 @@
     "disc": "CKT",
     "disc_desc": "Cricket",
     "photo_url": "https://results.asiangames2026.org/ag2026/photos/9280068.jpg",
-    "bio_url": "https://back.results.asiangames2026.org/s/AG2026/en/CKT/entries/bio/9280068",
     "medals": [
       {
         "medal": "gold",
@@ -32893,7 +32836,6 @@
     "disc": "CKT",
     "disc_desc": "Cricket",
     "photo_url": "https://results.asiangames2026.org/ag2026/photos/8690564.jpg",
-    "bio_url": "https://back.results.asiangames2026.org/s/AG2026/en/CKT/entries/bio/8690564",
     "medals": [
       {
         "medal": "gold",
@@ -33934,7 +33876,6 @@
     "disc": "CKT",
     "disc_desc": "Cricket",
     "photo_url": "https://results.asiangames2026.org/ag2026/photos/8677006.jpg",
-    "bio_url": "https://back.results.asiangames2026.org/s/AG2026/en/CKT/entries/bio/8677006",
     "medals": [
       {
         "medal": "gold",
@@ -34975,7 +34916,6 @@
     "disc": "CKT",
     "disc_desc": "Cricket",
     "photo_url": "https://results.asiangames2026.org/ag2026/photos/8682412.jpg",
-    "bio_url": "https://back.results.asiangames2026.org/s/AG2026/en/CKT/entries/bio/8682412",
     "medals": [
       {
         "medal": "gold",
@@ -36016,7 +35956,6 @@
     "disc": "CKT",
     "disc_desc": "Cricket",
     "photo_url": "https://results.asiangames2026.org/ag2026/photos/9281017.jpg",
-    "bio_url": "https://back.results.asiangames2026.org/s/AG2026/en/CKT/entries/bio/9281017",
     "medals": [
       {
         "medal": "gold",
@@ -37057,7 +36996,6 @@
     "disc": "CKT",
     "disc_desc": "Cricket",
     "photo_url": "https://results.asiangames2026.org/ag2026/photos/9266030.jpg",
-    "bio_url": "https://back.results.asiangames2026.org/s/AG2026/en/CKT/entries/bio/9266030",
     "medals": [
       {
         "medal": "gold",
@@ -38098,7 +38036,6 @@
     "disc": "CKT",
     "disc_desc": "Cricket",
     "photo_url": "https://results.asiangames2026.org/ag2026/photos/5546445.jpg",
-    "bio_url": "https://back.results.asiangames2026.org/s/AG2026/en/CKT/entries/bio/5546445",
     "medals": [
       {
         "medal": "gold",
@@ -39139,7 +39076,6 @@
     "disc": "CKT",
     "disc_desc": "Cricket",
     "photo_url": "https://results.asiangames2026.org/ag2026/photos/11039371.jpg",
-    "bio_url": "https://back.results.asiangames2026.org/s/AG2026/en/CKT/entries/bio/11039371",
     "medals": [
       {
         "medal": "gold",
@@ -40180,7 +40116,6 @@
     "disc": "CKT",
     "disc_desc": "Cricket",
     "photo_url": "https://results.asiangames2026.org/ag2026/photos/11040490.jpg",
-    "bio_url": "https://back.results.asiangames2026.org/s/AG2026/en/CKT/entries/bio/11040490",
     "medals": [
       {
         "medal": "gold",
@@ -41221,7 +41156,6 @@
     "disc": "CKT",
     "disc_desc": "Cricket",
     "photo_url": "https://results.asiangames2026.org/ag2026/photos/8682980.jpg",
-    "bio_url": "https://back.results.asiangames2026.org/s/AG2026/en/CKT/entries/bio/8682980",
     "medals": [
       {
         "medal": "gold",
@@ -42262,7 +42196,6 @@
     "disc": "CKT",
     "disc_desc": "Cricket",
     "photo_url": "https://results.asiangames2026.org/ag2026/photos/9263891.jpg",
-    "bio_url": "https://back.results.asiangames2026.org/s/AG2026/en/CKT/entries/bio/9263891",
     "medals": [
       {
         "medal": "gold",
@@ -43303,7 +43236,6 @@
     "disc": "KAB",
     "disc_desc": "Kabaddi",
     "photo_url": null,
-    "bio_url": "https://back.results.asiangames2026.org/s/AG2026/en/KAB/entries/bio/KABMTEAM7------IND01",
     "medals": [
       {
         "medal": "gold",
@@ -45307,7 +45239,6 @@
     "disc": "KAB",
     "disc_desc": "Kabaddi",
     "photo_url": "https://results.asiangames2026.org/ag2026/photos/10045687.jpg",
-    "bio_url": "https://back.results.asiangames2026.org/s/AG2026/en/KAB/entries/bio/10045687",
     "medals": [
       {
         "medal": "gold",
@@ -47154,7 +47085,6 @@
     "disc": "KAB",
     "disc_desc": "Kabaddi",
     "photo_url": "https://results.asiangames2026.org/ag2026/photos/10046544.jpg",
-    "bio_url": "https://back.results.asiangames2026.org/s/AG2026/en/KAB/entries/bio/10046544",
     "medals": [
       {
         "medal": "gold",
@@ -49001,7 +48931,6 @@
     "disc": "KAB",
     "disc_desc": "Kabaddi",
     "photo_url": "https://results.asiangames2026.org/ag2026/photos/10059498.jpg",
-    "bio_url": "https://back.results.asiangames2026.org/s/AG2026/en/KAB/entries/bio/10059498",
     "medals": [
       {
         "medal": "gold",
@@ -50848,7 +50777,6 @@
     "disc": "KAB",
     "disc_desc": "Kabaddi",
     "photo_url": "https://results.asiangames2026.org/ag2026/photos/10060232.jpg",
-    "bio_url": "https://back.results.asiangames2026.org/s/AG2026/en/KAB/entries/bio/10060232",
     "medals": [
       {
         "medal": "gold",
@@ -52695,7 +52623,6 @@
     "disc": "KAB",
     "disc_desc": "Kabaddi",
     "photo_url": "https://results.asiangames2026.org/ag2026/photos/10066002.jpg",
-    "bio_url": "https://back.results.asiangames2026.org/s/AG2026/en/KAB/entries/bio/10066002",
     "medals": [
       {
         "medal": "gold",
@@ -54542,7 +54469,6 @@
     "disc": "KAB",
     "disc_desc": "Kabaddi",
     "photo_url": "https://results.asiangames2026.org/ag2026/photos/10079052.jpg",
-    "bio_url": "https://back.results.asiangames2026.org/s/AG2026/en/KAB/entries/bio/10079052",
     "medals": [
       {
         "medal": "gold",
@@ -56389,7 +56315,6 @@
     "disc": "KAB",
     "disc_desc": "Kabaddi",
     "photo_url": "https://results.asiangames2026.org/ag2026/photos/14019389.jpg",
-    "bio_url": "https://back.results.asiangames2026.org/s/AG2026/en/KAB/entries/bio/14019389",
     "medals": [
       {
         "medal": "gold",
@@ -58236,7 +58161,6 @@
     "disc": "KAB",
     "disc_desc": "Kabaddi",
     "photo_url": "https://results.asiangames2026.org/ag2026/photos/14039681.jpg",
-    "bio_url": "https://back.results.asiangames2026.org/s/AG2026/en/KAB/entries/bio/14039681",
     "medals": [
       {
         "medal": "gold",
@@ -60083,7 +60007,6 @@
     "disc": "KAB",
     "disc_desc": "Kabaddi",
     "photo_url": "https://results.asiangames2026.org/ag2026/photos/3833363.jpg",
-    "bio_url": "https://back.results.asiangames2026.org/s/AG2026/en/KAB/entries/bio/3833363",
     "medals": [
       {
         "medal": "gold",
@@ -61930,7 +61853,6 @@
     "disc": "KAB",
     "disc_desc": "Kabaddi",
     "photo_url": "https://results.asiangames2026.org/ag2026/photos/3836882.jpg",
-    "bio_url": "https://back.results.asiangames2026.org/s/AG2026/en/KAB/entries/bio/3836882",
     "medals": [
       {
         "medal": "gold",
@@ -63777,7 +63699,6 @@
     "disc": "KAB",
     "disc_desc": "Kabaddi",
     "photo_url": "https://results.asiangames2026.org/ag2026/photos/3846610.jpg",
-    "bio_url": "https://back.results.asiangames2026.org/s/AG2026/en/KAB/entries/bio/3846610",
     "medals": [
       {
         "medal": "gold",
@@ -65624,7 +65545,6 @@
     "disc": "KAB",
     "disc_desc": "Kabaddi",
     "photo_url": "https://results.asiangames2026.org/ag2026/photos/3861759.jpg",
-    "bio_url": "https://back.results.asiangames2026.org/s/AG2026/en/KAB/entries/bio/3861759",
     "medals": [
       {
         "medal": "gold",
@@ -67471,7 +67391,6 @@
     "disc": "KAB",
     "disc_desc": "Kabaddi",
     "photo_url": null,
-    "bio_url": "https://back.results.asiangames2026.org/s/AG2026/en/KAB/entries/bio/KABWTEAM7------IND01",
     "medals": [
       {
         "medal": "gold",
@@ -69178,7 +69097,6 @@
     "disc": "KAB",
     "disc_desc": "Kabaddi",
     "photo_url": "https://results.asiangames2026.org/ag2026/photos/10088413.jpg",
-    "bio_url": "https://back.results.asiangames2026.org/s/AG2026/en/KAB/entries/bio/10088413",
     "medals": [
       {
         "medal": "gold",
@@ -70728,7 +70646,6 @@
     "disc": "KAB",
     "disc_desc": "Kabaddi",
     "photo_url": "https://results.asiangames2026.org/ag2026/photos/10116091.jpg",
-    "bio_url": "https://back.results.asiangames2026.org/s/AG2026/en/KAB/entries/bio/10116091",
     "medals": [
       {
         "medal": "gold",
@@ -72278,7 +72195,6 @@
     "disc": "KAB",
     "disc_desc": "Kabaddi",
     "photo_url": "https://results.asiangames2026.org/ag2026/photos/14051515.jpg",
-    "bio_url": "https://back.results.asiangames2026.org/s/AG2026/en/KAB/entries/bio/14051515",
     "medals": [
       {
         "medal": "gold",
@@ -73828,7 +73744,6 @@
     "disc": "KAB",
     "disc_desc": "Kabaddi",
     "photo_url": "https://results.asiangames2026.org/ag2026/photos/14053173.jpg",
-    "bio_url": "https://back.results.asiangames2026.org/s/AG2026/en/KAB/entries/bio/14053173",
     "medals": [
       {
         "medal": "gold",
@@ -75378,7 +75293,6 @@
     "disc": "KAB",
     "disc_desc": "Kabaddi",
     "photo_url": "https://results.asiangames2026.org/ag2026/photos/14055987.jpg",
-    "bio_url": "https://back.results.asiangames2026.org/s/AG2026/en/KAB/entries/bio/14055987",
     "medals": [
       {
         "medal": "gold",
@@ -76928,7 +76842,6 @@
     "disc": "KAB",
     "disc_desc": "Kabaddi",
     "photo_url": "https://results.asiangames2026.org/ag2026/photos/14062174.jpg",
-    "bio_url": "https://back.results.asiangames2026.org/s/AG2026/en/KAB/entries/bio/14062174",
     "medals": [
       {
         "medal": "gold",
@@ -78478,7 +78391,6 @@
     "disc": "KAB",
     "disc_desc": "Kabaddi",
     "photo_url": "https://results.asiangames2026.org/ag2026/photos/14066567.jpg",
-    "bio_url": "https://back.results.asiangames2026.org/s/AG2026/en/KAB/entries/bio/14066567",
     "medals": [
       {
         "medal": "gold",
@@ -80028,7 +79940,6 @@
     "disc": "KAB",
     "disc_desc": "Kabaddi",
     "photo_url": "https://results.asiangames2026.org/ag2026/photos/14070497.jpg",
-    "bio_url": "https://back.results.asiangames2026.org/s/AG2026/en/KAB/entries/bio/14070497",
     "medals": [
       {
         "medal": "gold",
@@ -81578,7 +81489,6 @@
     "disc": "KAB",
     "disc_desc": "Kabaddi",
     "photo_url": "https://results.asiangames2026.org/ag2026/photos/14082522.jpg",
-    "bio_url": "https://back.results.asiangames2026.org/s/AG2026/en/KAB/entries/bio/14082522",
     "medals": [
       {
         "medal": "gold",
@@ -83128,7 +83038,6 @@
     "disc": "KAB",
     "disc_desc": "Kabaddi",
     "photo_url": "https://results.asiangames2026.org/ag2026/photos/14084412.jpg",
-    "bio_url": "https://back.results.asiangames2026.org/s/AG2026/en/KAB/entries/bio/14084412",
     "medals": [
       {
         "medal": "gold",
@@ -84678,7 +84587,6 @@
     "disc": "KAB",
     "disc_desc": "Kabaddi",
     "photo_url": "https://results.asiangames2026.org/ag2026/photos/3867845.jpg",
-    "bio_url": "https://back.results.asiangames2026.org/s/AG2026/en/KAB/entries/bio/3867845",
     "medals": [
       {
         "medal": "gold",
@@ -86228,7 +86136,6 @@
     "disc": "KAB",
     "disc_desc": "Kabaddi",
     "photo_url": "https://results.asiangames2026.org/ag2026/photos/3896653.jpg",
-    "bio_url": "https://back.results.asiangames2026.org/s/AG2026/en/KAB/entries/bio/3896653",
     "medals": [
       {
         "medal": "gold",
@@ -86274,10 +86181,10 @@
           "TeamReg": "KABWTEAM7------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
+          "Medal": "ME_GOLD",
           "Rank": "1",
           "IRM": "",
-          "Result": "",
-          "Medal": "ME_GOLD"
+          "Result": ""
         }
       ],
       "schedule": [
@@ -87778,7 +87685,6 @@
     "disc": "MMA",
     "disc_desc": "Mixed Martial Arts",
     "photo_url": "https://results.asiangames2026.org/ag2026/photos/7555.jpg",
-    "bio_url": "https://back.results.asiangames2026.org/s/AG2026/en/MMA/entries/bio/7555",
     "medals": [
       {
         "medal": "bronze",
@@ -88036,7 +87942,6 @@
     "disc": "ROW",
     "disc_desc": "Rowing",
     "photo_url": null,
-    "bio_url": "https://back.results.asiangames2026.org/s/AG2026/en/ROW/entries/bio/ROWMSCULL2-----IND01",
     "medals": [
       {
         "medal": "bronze",
@@ -88280,7 +88185,6 @@
     "disc": "ROW",
     "disc_desc": "Rowing",
     "photo_url": "https://results.asiangames2026.org/ag2026/photos/11362815.jpg",
-    "bio_url": "https://back.results.asiangames2026.org/s/AG2026/en/ROW/entries/bio/11362815",
     "medals": [
       {
         "medal": "bronze",
@@ -88498,7 +88402,6 @@
     "disc": "ROW",
     "disc_desc": "Rowing",
     "photo_url": "https://results.asiangames2026.org/ag2026/photos/12196447.jpg",
-    "bio_url": "https://back.results.asiangames2026.org/s/AG2026/en/ROW/entries/bio/12196447",
     "medals": [
       {
         "medal": "bronze",
@@ -88716,7 +88619,6 @@
     "disc": "SHO",
     "disc_desc": "Shooting",
     "photo_url": null,
-    "bio_url": "https://back.results.asiangames2026.org/s/AG2026/en/SHO/entries/bio/SHOXAPMT-------IND01",
     "medals": [
       {
         "medal": "gold",
@@ -88911,7 +88813,6 @@
     "disc": "SHO",
     "disc_desc": "Shooting",
     "photo_url": "https://results.asiangames2026.org/ag2026/photos/11923612.jpg",
-    "bio_url": "https://back.results.asiangames2026.org/s/AG2026/en/SHO/entries/bio/11923612",
     "medals": [
       {
         "medal": "gold",
@@ -89233,7 +89134,6 @@
     "disc": "SHO",
     "disc_desc": "Shooting",
     "photo_url": "https://results.asiangames2026.org/ag2026/photos/4635553.jpg",
-    "bio_url": "https://back.results.asiangames2026.org/s/AG2026/en/SHO/entries/bio/4635553",
     "medals": [
       {
         "medal": "gold",
@@ -89555,7 +89455,6 @@
     "disc": "SHO",
     "disc_desc": "Shooting",
     "photo_url": "https://results.asiangames2026.org/ag2026/photos/6256891.jpg",
-    "bio_url": "https://back.results.asiangames2026.org/s/AG2026/en/SHO/entries/bio/6256891",
     "medals": [
       {
         "medal": "silver",
@@ -89797,7 +89696,6 @@
     "disc": "SHO",
     "disc_desc": "Shooting",
     "photo_url": null,
-    "bio_url": "https://back.results.asiangames2026.org/s/AG2026/en/SHO/entries/bio/SHOMARTM-------IND01",
     "medals": [
       {
         "medal": "silver",
@@ -89950,7 +89848,6 @@
     "disc": "SHO",
     "disc_desc": "Shooting",
     "photo_url": "https://results.asiangames2026.org/ag2026/photos/12403803.jpg",
-    "bio_url": "https://back.results.asiangames2026.org/s/AG2026/en/SHO/entries/bio/12403803",
     "medals": [
       {
         "medal": "silver",
@@ -90338,7 +90235,6 @@
     "disc": "SHO",
     "disc_desc": "Shooting",
     "photo_url": "https://results.asiangames2026.org/ag2026/photos/12831771.jpg",
-    "bio_url": "https://back.results.asiangames2026.org/s/AG2026/en/SHO/entries/bio/12831771",
     "medals": [
       {
         "medal": "silver",
@@ -90387,10 +90283,10 @@
           "TeamReg": "SHOMARTM-------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
-          "Medal": "ME_SILVER",
           "Rank": "2",
           "IRM": "",
-          "Result": "1890.1"
+          "Result": "1890.1",
+          "Medal": "ME_SILVER"
         },
         {
           "Disc": "SHO",
@@ -90649,7 +90545,6 @@
     "disc": "SHO",
     "disc_desc": "Shooting",
     "photo_url": null,
-    "bio_url": "https://back.results.asiangames2026.org/s/AG2026/en/SHO/entries/bio/SHOMR3PTM------IND01",
     "medals": [
       {
         "medal": "silver",
@@ -90800,7 +90695,6 @@
     "disc": "SHO",
     "disc_desc": "Shooting",
     "photo_url": "https://results.asiangames2026.org/ag2026/photos/11687574.jpg",
-    "bio_url": "https://back.results.asiangames2026.org/s/AG2026/en/SHO/entries/bio/11687574",
     "medals": [
       {
         "medal": "silver",
@@ -91034,7 +90928,6 @@
     "disc": "SHO",
     "disc_desc": "Shooting",
     "photo_url": "https://results.asiangames2026.org/ag2026/photos/12408255.jpg",
-    "bio_url": "https://back.results.asiangames2026.org/s/AG2026/en/SHO/entries/bio/12408255",
     "medals": [
       {
         "medal": "silver",
@@ -91268,7 +91161,6 @@
     "disc": "SHO",
     "disc_desc": "Shooting",
     "photo_url": null,
-    "bio_url": "https://back.results.asiangames2026.org/s/AG2026/en/SHO/entries/bio/SHOWARTW-------IND01",
     "medals": [
       {
         "medal": "silver",
@@ -91424,7 +91316,6 @@
     "disc": "SHO",
     "disc_desc": "Shooting",
     "photo_url": "https://results.asiangames2026.org/ag2026/photos/12640502.jpg",
-    "bio_url": "https://back.results.asiangames2026.org/s/AG2026/en/SHO/entries/bio/12640502",
     "medals": [
       {
         "medal": "silver",
@@ -91793,7 +91684,6 @@
     "disc": "SHO",
     "disc_desc": "Shooting",
     "photo_url": "https://results.asiangames2026.org/ag2026/photos/12901175.jpg",
-    "bio_url": "https://back.results.asiangames2026.org/s/AG2026/en/SHO/entries/bio/12901175",
     "medals": [
       {
         "medal": "silver",
@@ -92184,7 +92074,6 @@
     "disc": "SHO",
     "disc_desc": "Shooting",
     "photo_url": "https://results.asiangames2026.org/ag2026/photos/6510298.jpg",
-    "bio_url": "https://back.results.asiangames2026.org/s/AG2026/en/SHO/entries/bio/6510298",
     "medals": [
       {
         "medal": "silver",
@@ -92425,7 +92314,6 @@
     "disc": "SHO",
     "disc_desc": "Shooting",
     "photo_url": null,
-    "bio_url": "https://back.results.asiangames2026.org/s/AG2026/en/SHO/entries/bio/SHOWR3PTW------IND01",
     "medals": [
       {
         "medal": "silver",
@@ -92576,7 +92464,6 @@
     "disc": "SHO",
     "disc_desc": "Shooting",
     "photo_url": "https://results.asiangames2026.org/ag2026/photos/12491444.jpg",
-    "bio_url": "https://back.results.asiangames2026.org/s/AG2026/en/SHO/entries/bio/12491444",
     "medals": [
       {
         "medal": "silver",
@@ -92762,7 +92649,6 @@
     "disc": "SHO",
     "disc_desc": "Shooting",
     "photo_url": "https://results.asiangames2026.org/ag2026/photos/6344776.jpg",
-    "bio_url": "https://back.results.asiangames2026.org/s/AG2026/en/SHO/entries/bio/6344776",
     "medals": [
       {
         "medal": "silver",
@@ -92998,7 +92884,6 @@
     "disc": "SHO",
     "disc_desc": "Shooting",
     "photo_url": null,
-    "bio_url": "https://back.results.asiangames2026.org/s/AG2026/en/SHO/entries/bio/SHOMSKTM-------IND01",
     "medals": [
       {
         "medal": "bronze",
@@ -93256,7 +93141,6 @@
     "disc": "SHO",
     "disc_desc": "Shooting",
     "photo_url": "https://results.asiangames2026.org/ag2026/photos/11724392.jpg",
-    "bio_url": "https://back.results.asiangames2026.org/s/AG2026/en/SHO/entries/bio/11724392",
     "medals": [
       {
         "medal": "bronze",
@@ -93681,7 +93565,6 @@
     "disc": "SHO",
     "disc_desc": "Shooting",
     "photo_url": "https://results.asiangames2026.org/ag2026/photos/6408134.jpg",
-    "bio_url": "https://back.results.asiangames2026.org/s/AG2026/en/SHO/entries/bio/6408134",
     "medals": [
       {
         "medal": "bronze",
@@ -94279,7 +94162,6 @@
     "disc": "SHO",
     "disc_desc": "Shooting",
     "photo_url": "https://results.asiangames2026.org/ag2026/photos/6408794.jpg",
-    "bio_url": "https://back.results.asiangames2026.org/s/AG2026/en/SHO/entries/bio/6408794",
     "medals": [
       {
         "medal": "bronze",
@@ -94704,7 +94586,6 @@
     "disc": "SHO",
     "disc_desc": "Shooting",
     "photo_url": null,
-    "bio_url": "https://back.results.asiangames2026.org/s/AG2026/en/SHO/entries/bio/SHOWSKTW-------IND01",
     "medals": [
       {
         "medal": "bronze",
@@ -94953,7 +94834,6 @@
     "disc": "SHO",
     "disc_desc": "Shooting",
     "photo_url": "https://results.asiangames2026.org/ag2026/photos/12555924.jpg",
-    "bio_url": "https://back.results.asiangames2026.org/s/AG2026/en/SHO/entries/bio/12555924",
     "medals": [
       {
         "medal": "bronze",
@@ -95510,7 +95390,6 @@
     "disc": "SHO",
     "disc_desc": "Shooting",
     "photo_url": "https://results.asiangames2026.org/ag2026/photos/12968556.jpg",
-    "bio_url": "https://back.results.asiangames2026.org/s/AG2026/en/SHO/entries/bio/12968556",
     "medals": [
       {
         "medal": "bronze",
@@ -95896,7 +95775,6 @@
     "disc": "SHO",
     "disc_desc": "Shooting",
     "photo_url": "https://results.asiangames2026.org/ag2026/photos/6411822.jpg",
-    "bio_url": "https://back.results.asiangames2026.org/s/AG2026/en/SHO/entries/bio/6411822",
     "medals": [
       {
         "medal": "bronze",
@@ -96331,7 +96209,6 @@
     "disc": "SHO",
     "disc_desc": "Shooting",
     "photo_url": null,
-    "bio_url": "https://back.results.asiangames2026.org/s/AG2026/en/SHO/entries/bio/SHOXSKMT-------IND01",
     "medals": [
       {
         "medal": "bronze",
@@ -96516,7 +96393,6 @@
     "disc": "SQU",
     "disc_desc": "Squash",
     "photo_url": "https://results.asiangames2026.org/ag2026/photos/12542172.jpg",
-    "bio_url": "https://back.results.asiangames2026.org/s/AG2026/en/SQU/entries/bio/12542172",
     "medals": [
       {
         "medal": "silver",
@@ -99346,7 +99222,6 @@
     "disc": "SQU",
     "disc_desc": "Squash",
     "photo_url": null,
-    "bio_url": "https://back.results.asiangames2026.org/s/AG2026/en/SQU/entries/bio/SQUXDOUBLES----IND02",
     "medals": [
       {
         "medal": "bronze",
@@ -100540,7 +100415,6 @@
     "disc": "SQU",
     "disc_desc": "Squash",
     "photo_url": "https://results.asiangames2026.org/ag2026/photos/11718173.jpg",
-    "bio_url": "https://back.results.asiangames2026.org/s/AG2026/en/SQU/entries/bio/11718173",
     "medals": [
       {
         "medal": "bronze",
@@ -102803,7 +102677,6 @@
     "disc": "SQU",
     "disc_desc": "Squash",
     "photo_url": "https://results.asiangames2026.org/ag2026/photos/12544190.jpg",
-    "bio_url": "https://back.results.asiangames2026.org/s/AG2026/en/SQU/entries/bio/12544190",
     "medals": [
       {
         "medal": "bronze",
@@ -104633,7 +104506,6 @@
     "disc": "TST",
     "disc_desc": "Soft Tennis",
     "photo_url": "https://results.asiangames2026.org/ag2026/photos/8028933.jpg",
-    "bio_url": "https://back.results.asiangames2026.org/s/AG2026/en/TST/entries/bio/8028933",
     "medals": [
       {
         "medal": "bronze",
@@ -111190,7 +111062,6 @@
     "disc": "TTE",
     "disc_desc": "Table Tennis",
     "photo_url": null,
-    "bio_url": "https://back.results.asiangames2026.org/s/AG2026/en/TTE/entries/bio/TTEXDOUBLES----IND01",
     "medals": [
       {
         "medal": "bronze",
@@ -113136,7 +113007,6 @@
     "disc": "TTE",
     "disc_desc": "Table Tennis",
     "photo_url": "https://results.asiangames2026.org/ag2026/photos/12171959.jpg",
-    "bio_url": "https://back.results.asiangames2026.org/s/AG2026/en/TTE/entries/bio/12171959",
     "medals": [
       {
         "medal": "bronze",
@@ -118869,7 +118739,6 @@
     "disc": "TTE",
     "disc_desc": "Table Tennis",
     "photo_url": "https://results.asiangames2026.org/ag2026/photos/12185132.jpg",
-    "bio_url": "https://back.results.asiangames2026.org/s/AG2026/en/TTE/entries/bio/12185132",
     "medals": [
       {
         "medal": "bronze",
@@ -124437,7 +124306,6 @@
     "disc": "WLF",
     "disc_desc": "Weightlifting",
     "photo_url": "https://results.asiangames2026.org/ag2026/photos/3810896.jpg",
-    "bio_url": "https://back.results.asiangames2026.org/s/AG2026/en/WLF/entries/bio/3810896",
     "medals": [
       {
         "medal": "silver",
@@ -124542,7 +124410,6 @@
     "disc": "WSU",
     "disc_desc": "Wushu",
     "photo_url": "https://results.asiangames2026.org/ag2026/photos/14006103.jpg",
-    "bio_url": "https://back.results.asiangames2026.org/s/AG2026/en/WSU/entries/bio/14006103",
     "medals": [
       {
         "medal": "silver",
