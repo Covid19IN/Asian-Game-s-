@@ -1,4 +1,4 @@
-name: Build HLS Video (TV)
+Name: Build HLS Video (TV)
 
 on:
   workflow_dispatch:
@@ -58,10 +58,9 @@ jobs:
           FRAME_DIR   = "build/frames"
           OUT_DIR     = "docs/hls"
 
-          TEST_LIMIT  = 10
-          INTRO_FRAMES   = 120    # 4.0 s
-          CARD_FRAMES    = 120    # 4.0 s per athlete
-          OUTRO_FRAMES   = 150    # 5.0 s
+          # 60-second video limit configuration
+          MAX_VIDEO_SEC  = 60
+          MAX_TOTAL_FRAMES = MAX_VIDEO_SEC * FPS  # 1800 frames
 
           SAFE_X = 96
           SAFE_Y = 54
@@ -215,7 +214,7 @@ jobs:
           # ══════════════════════════════════════════════════════
           #  DATA PROCESSING
           # ══════════════════════════════════════════════════════
-          def collect(data, limit):
+          def collect(data):
               rank_map = {"gold": 3, "silver": 2, "bronze": 1}
               by_sport = {}
               
@@ -252,13 +251,12 @@ jobs:
               sports = sorted(by_sport.keys())
               picked = []
               i = 0
-              while len(picked) < limit:
+              while True:
                   added = False
                   for sp in sports:
                       if i < len(by_sport[sp]):
                           picked.append(by_sport[sp][i])
                           added = True
-                          if len(picked) >= limit: break
                   if not added: break
                   i += 1
               return picked
@@ -394,10 +392,17 @@ jobs:
           with open(DATA_IN, encoding="utf-8") as f:
               data = json.load(f)
 
-          athletes = collect(data, TEST_LIMIT)
+          athletes = collect(data)
           n_ath = len(athletes)
           if not n_ath:
               print("✗ No athletes"); sys.exit(1)
+
+          # Calculate dynamic durations fitting strictly within MAX_VIDEO_SEC (60s / 1800 frames)
+          intro_frames = 90   # 3.0 s
+          outro_frames = 120  # 4.0 s
+          avail_frames = MAX_TOTAL_FRAMES - intro_frames - outro_frames
+
+          card_frames = max(15, avail_frames // n_ath) # Ensure at least 15 frames per card
 
           seen = set(); bd = {"gold": 0, "silver": 0, "bronze": 0}
           for a in data:
@@ -407,6 +412,9 @@ jobs:
                   seen.add(k)
                   if m["medal"] in bd: bd[m["medal"]] += 1
           total = sum(bd.values())
+
+          print(f"Loaded {n_ath} athletes.")
+          print(f"Timing breakdown: Intro={intro_frames/FPS:.1f}s | Cards={n_ath}x{card_frames/FPS:.2f}s | Outro={outro_frames/FPS:.1f}s | Total <= {MAX_VIDEO_SEC}s")
 
           print("Loading photos…")
           for a in athletes:
@@ -421,25 +429,25 @@ jobs:
               counter[0] += 1
 
           print("Intro…")
-          for f in range(INTRO_FRAMES):
+          for f in range(intro_frames):
               img = studio_bg(f)
-              draw_intro(img, f / (INTRO_FRAMES - 1), total, bd, n_ath)
+              draw_intro(img, f / max(1, intro_frames - 1), total, bd, n_ath)
               save(img)
 
           print(f"Cards ({n_ath})…")
           for i, ath in enumerate(athletes):
               print(f"  [{i+1}/{n_ath}] {ath['name']}")
-              for f in range(CARD_FRAMES):
-                  frame_num = i * CARD_FRAMES + f
+              for f in range(card_frames):
+                  frame_num = counter[0]
                   img = studio_bg(frame_num)
-                  draw_card(img, ath, ath["_photo"], f / (CARD_FRAMES - 1), i, n_ath)
+                  draw_card(img, ath, ath["_photo"], f / max(1, card_frames - 1), i, n_ath)
                   save(img)
 
           print("Outro…")
-          for f in range(OUTRO_FRAMES):
-              frame_num = n_ath * CARD_FRAMES + INTRO_FRAMES + f
+          for f in range(outro_frames):
+              frame_num = counter[0]
               img = studio_bg(frame_num)
-              draw_outro(img, f / (OUTRO_FRAMES - 1), total, bd, n_ath)
+              draw_outro(img, f / max(1, outro_frames - 1), total, bd, n_ath)
               save(img)
 
           print("Encoding HLS…")
