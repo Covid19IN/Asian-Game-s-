@@ -1,8 +1,8 @@
-name: Fetch Asian Games Medals
+name: Fetch Asian Games Data
 
 on:
   schedule:
-    - cron: "0 * * * *"   # every hour
+    - cron: "0 * * * *"
   workflow_dispatch:
 
 permissions:
@@ -21,19 +21,15 @@ jobs:
       - name: Install dependencies
         run: pip install requests
 
-      - name: Fetch and decode
+      - name: Fetch medals JSON
         run: |
           python - <<'PY'
           import json, os, sys, zlib
           import requests
 
-          URL = "https://back.results.asiangames2026.org/s/AG2026/en/ALL/medals/org/IND"
+          URL = "https://back.results.asiangames2026.org/s/AG2026/en/ALL/medals/multi-medallists"
           HEADERS = {
-              "User-Agent": (
-                  "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
-                  "AppleWebKit/537.36 (KHTML, like Gecko) "
-                  "Chrome/124.0.0.0 Safari/537.36"
-              ),
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
               "Referer": "https://results.asiangames2026.org/",
               "Accept": "*/*",
           }
@@ -50,55 +46,108 @@ jobs:
                           continue
               return cmap
 
-          def candidates(resp):
+          def decode(resp):
               cmap = build_charmap()
-              out = []
+              payloads = []
               try:
-                  out.append(("charmap(resp.text)",
-                              bytes(cmap.get(c, ord(c) & 0xFF) for c in resp.text)))
+                  payloads.append(("charmap", bytes(cmap.get(c, ord(c) & 0xFF) for c in resp.text)))
               except Exception:
                   pass
               for enc in ("cp1252", "latin1"):
                   try:
-                      out.append((f"resp.text.encode({enc})",
-                                  resp.text.encode(enc, errors="replace")))
+                      payloads.append((enc, resp.text.encode(enc, errors="replace")))
                   except Exception:
                       pass
-              out.append(("resp.content", resp.content))
-              return out
-
-          def decompress(payloads):
+              payloads.append(("raw", resp.content))
               for name, data in payloads:
                   for wbits in (zlib.MAX_WBITS, -zlib.MAX_WBITS, 16 + zlib.MAX_WBITS):
                       try:
-                          return zlib.decompress(data, wbits), f"{name} wbits={wbits}"
+                          return zlib.decompress(data, wbits).decode("utf-8")
                       except Exception:
                           continue
-              return None, None
+              return resp.text
 
           r = requests.get(URL, headers=HEADERS, timeout=30)
           print("HTTP", r.status_code)
           r.raise_for_status()
-
-          raw, used = decompress(candidates(r))
-          if raw is None:
-              print("Failed to decompress payload.")
-              sys.exit(1)
-
-          print(f"Decompressed via {used} ({len(raw)} bytes)")
-          data = json.loads(raw.decode("utf-8"))
+          data = json.loads(decode(r))
 
           os.makedirs("data", exist_ok=True)
           with open(OUT, "w", encoding="utf-8") as f:
-              json.dump(data, f, indent=2)
-          print(f"Saved -> {OUT}")
+              json.dump(data, f, indent=2, ensure_ascii=False)
+          print(f"Saved {len(data)} medal entries -> {OUT}")
+          PY
+
+      - name: Build athletes index with URLs
+        run: |
+          python - <<'PY'
+          import json, os
+
+          API_BASE   = "https://back.results.asiangames2026.org/s/AG2026/en"
+          PHOTO_BASE = "https://results.asiangames2026.org/ag2026/photos"
+          MEDAL_MAP  = {"ME_GOLD": "gold", "ME_SILVER": "silver", "ME_BRONZE": "bronze"}
+
+          with open("data/api_sample.json", encoding="utf-8") as f:
+              medals = json.load(f)
+
+          people = {}
+
+          def add(reg, disc, name, org, org_desc, medal_label, event_desc, disc_desc):
+              if not reg:
+                  return
+              if reg not in people:
+                  people[reg] = {
+                      "reg": reg,
+                      "name": name,
+                      "org": org,
+                      "org_desc": org_desc,
+                      "disc": disc,
+                      "disc_desc": disc_desc,
+                      "photo_url": f"{PHOTO_BASE}/{reg}.jpg" if reg.isdigit() else None,
+                      "bio_url":   f"{API_BASE}/{disc}/entries/bio/{reg}" if disc else None,
+                      "medals": [],
+                  }
+              people[reg]["medals"].append({
+                  "medal": medal_label,
+                  "event": event_desc,
+              })
+
+          for m in medals:
+              label = MEDAL_MAP.get(m.get("Medal"), m.get("Medal", "").lower())
+              event = m.get("EventDesc", "")
+              disc  = m.get("Disc", "")
+              ddesc = m.get("DiscDesc", "")
+              add(m.get("Reg"), disc, m.get("Name"), m.get("Org"),
+                  m.get("OrgDesc"), label, event, ddesc)
+              for member in m.get("Members", []) or []:
+                  add(member.get("Reg"), disc, member.get("Name"),
+                      member.get("Org"), member.get("OrgDesc"),
+                      label, event, ddesc)
+
+          # Write athletes index
+          with open("data/athletes.json", "w", encoding="utf-8") as f:
+              json.dump(list(people.values()), f, indent=2, ensure_ascii=False)
+          print(f"Saved data/athletes.json with {len(people)} entries")
+
+          # Write URL-only list
+          urls = {
+              "photos": sorted({
+                  p["photo_url"] for p in people.values() if p["photo_url"]
+              }),
+              "bios": sorted({
+                  p["bio_url"] for p in people.values() if p["bio_url"]
+              }),
+          }
+          with open("data/urls.json", "w", encoding="utf-8") as f:
+              json.dump(urls, f, indent=2)
+          print(f"Saved data/urls.json — {len(urls['photos'])} photos, {len(urls['bios'])} bios")
           PY
 
       - name: Commit and push
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/api_sample.json
+          git add data/
           git diff --quiet && git diff --staged --quiet || (
-            git commit -m "chore: update medals data [skip ci]" && git push
+            git commit -m "chore: update medals + athlete urls [skip ci]" && git push
           )
