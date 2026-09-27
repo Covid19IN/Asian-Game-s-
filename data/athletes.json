@@ -28294,10 +28294,10 @@
           "Desc": "Women",
           "DescS": "Women",
           "isMember": false,
-          "Medal": "ME_GOLD",
           "Rank": "1",
           "IRM": "",
-          "Result": ""
+          "Result": "",
+          "Medal": "ME_GOLD"
         }
       ],
       "schedule": [
@@ -72352,10 +72352,10 @@
           "TeamReg": "KABWTEAM7------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
-          "Medal": "ME_GOLD",
           "Rank": "1",
           "IRM": "",
-          "Result": ""
+          "Result": "",
+          "Medal": "ME_GOLD"
         }
       ],
       "schedule": [
@@ -89380,10 +89380,10 @@
           "Desc": "Women's Traditional -60kg",
           "DescS": "Women's Traditional -60kg",
           "isMember": false,
+          "Medal": "ME_BRONZE",
           "Rank": "3",
           "IRM": "",
-          "Result": "",
-          "Medal": "ME_BRONZE"
+          "Result": ""
         }
       ],
       "schedule": [
@@ -93386,10 +93386,10 @@
           "TeamReg": "SHOWARTW-------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
+          "Medal": "ME_SILVER",
           "Rank": "2",
           "IRM": "",
-          "Result": "1898.0",
-          "Medal": "ME_SILVER"
+          "Result": "1898.0"
         },
         {
           "Disc": "SHO",
