@@ -15,7 +15,7 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 60
 
     steps:
       - uses: actions/checkout@v4
@@ -23,9 +23,8 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
-          cache: "pip"
 
-      - name: Install System Dependencies
+      - name: Install dependencies
         run: |
           sudo apt-get update
           sudo apt-get install -y ffmpeg fonts-roboto fonts-dejavu
@@ -39,12 +38,12 @@ jobs:
           restore-keys: |
             video-photos-
 
-      - name: Setup Folders
+      - name: Setup folders
         run: |
           mkdir -p docs/data docs/hls data/video-photos
           [ -f data/athletes.json ] && cp data/athletes.json docs/data/athletes.json || true
 
-      - name: Render + Encode HLS Direct Stream
+      - name: Render + encode HLS Direct Stream
         run: |
           python -u - <<'PYEOF'
           import sys, os, math, random, shutil, subprocess, json
@@ -53,6 +52,9 @@ jobs:
           import numpy as np
           from PIL import Image, ImageDraw, ImageFont, ImageFilter
 
+          # ══════════════════════════════════════════════════════
+          #  CONFIG — SCI-FI / AMBER HUD THEME (1920×1080)
+          # ══════════════════════════════════════════════════════
           W, H        = 1920, 1080
           FPS         = 30
           DATA_IN     = "docs/data/athletes.json"
@@ -60,24 +62,40 @@ jobs:
           OUT_DIR     = "docs/hls"
 
           TEST_LIMIT  = 10
-          INTRO_FRAMES = 120
-          CARD_FRAMES  = 120
-          OUTRO_FRAMES = 150
-          SAFE_X, SAFE_Y = 96, 54
+          INTRO_FRAMES   = 120    # 4.0 s
+          CARD_FRAMES    = 120    # 4.0 s per athlete
+          OUTRO_FRAMES   = 150    # 5.0 s
 
-          BG_CORE       = (8, 7, 10)
-          ACCENT_AMBER  = (255, 119, 0)
-          ACCENT_GLOW   = (255, 170, 0)
-          PANEL_DARK    = (16, 14, 18, 240)
-          PANEL_BORDER  = (255, 119, 0, 180)
+          SAFE_X = 96
+          SAFE_Y = 54
+
+          # ══════════════════════════════════════════════════════
+          #  COLOR PALETTE (AMBER / CYBERPUNK HUD)
+          # ══════════════════════════════════════════════════════
+          BG_CORE       = (8, 7, 10)          # Dark Obsidian Pitch
+          ACCENT_AMBER  = (255, 119, 0)       # Neon Cyber Orange
+          ACCENT_GLOW   = (255, 170, 0)       # Core Solar Flare
+          PANEL_DARK    = (16, 14, 18, 240)   # Matte Dark Metallic Panel
+          PANEL_BORDER  = (255, 119, 0, 180)  # Glowing Amber Border Line
+
           TEXT_WHITE    = (255, 255, 255)
           TEXT_MUTED    = (180, 160, 140)
-          GOLD, SILVER, BRONZE = (255, 195, 0), (220, 225, 235), (235, 120, 40)
+
+          GOLD          = (255, 195, 0)
+          SILVER        = (220, 225, 235)
+          BRONZE        = (235, 120, 40)
 
           for d in [PHOTO_DIR, OUT_DIR]:
               Path(d).mkdir(parents=True, exist_ok=True)
 
-          FONT_DIRS = ["/usr/share/fonts/truetype/roboto/hinted/", "/usr/share/fonts/truetype/dejavu/"]
+          # ══════════════════════════════════════════════════════
+          #  FONTS
+          # ══════════════════════════════════════════════════════
+          FONT_DIRS = [
+              "/usr/share/fonts/truetype/roboto/hinted/",
+              "/usr/share/fonts/truetype/roboto/unhinted/RobotoTTF/",
+              "/usr/share/fonts/truetype/dejavu/",
+          ]
           def _find(names):
               for d in FONT_DIRS:
                   for n in names:
@@ -85,108 +103,407 @@ jobs:
                       if os.path.exists(p): return p
               return None
 
-          F_BLACK = _find(["Roboto-Black.ttf", "DejaVuSans-Bold.ttf"])
+          F_BLACK = _find(["Roboto-Black.ttf", "Roboto-Bold.ttf", "DejaVuSans-Bold.ttf"])
           F_BOLD  = _find(["Roboto-Bold.ttf", "DejaVuSans-Bold.ttf"])
+          F_MED   = _find(["Roboto-Medium.ttf", "DejaVuSans-Bold.ttf"])
           F_REG   = _find(["Roboto-Regular.ttf", "DejaVuSans.ttf"])
 
           def font(size, w="reg"):
-              path = {"black": F_BLACK, "bold": F_BOLD, "reg": F_REG}.get(w, F_REG)
-              return ImageFont.truetype(path, max(8, int(size))) if path else ImageFont.load_default()
+              size = max(8, int(size))
+              path = {"black": F_BLACK, "bold": F_BOLD, "med": F_MED, "reg": F_REG}[w]
+              return ImageFont.truetype(path, size) if path else ImageFont.load_default()
 
-          # Pre-generate particles
+          # ══════════════════════════════════════════════════════
+          #  DYNAMIC AMBER BACKGROUND LIGHTING & HUD RINGS
+          # ══════════════════════════════════════════════════════
           random.seed(101)
-          LIGHT_PARTICLES = [{
-              "x": random.randint(0, W), "y": random.randint(0, H),
-              "r": random.randint(15, 60), "speed": random.uniform(0.3, 1.2),
-              "alpha": random.randint(20, 60),
-              "color": random.choice([ACCENT_AMBER, ACCENT_GLOW, (255, 80, 0)])
-          } for _ in range(30)]
+          LIGHT_PARTICLES = []
+          for _ in range(40):
+              LIGHT_PARTICLES.append({
+                  "x": random.randint(0, W),
+                  "y": random.randint(0, H),
+                  "r": random.randint(15, 60),
+                  "speed": random.uniform(0.3, 1.2),
+                  "alpha": random.randint(20, 60),
+                  "color": random.choice([ACCENT_AMBER, ACCENT_GLOW, (255, 80, 0)])
+              })
 
           def news_studio_bg(frame):
               img = Image.new("RGBA", (W, H), BG_CORE + (255,))
-              d = ImageDraw.Draw(img, "RGBA")
-              
-              # Lightweight Ambient Glow
+              flare_layer = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+              fd = ImageDraw.Draw(flare_layer)
+
+              # Ambient Orange Central Glow
               cx1 = int(W // 2 + math.sin(frame * 0.02) * 40)
               cy1 = int(H // 2 + math.cos(frame * 0.02) * 30)
-              d.ellipse((cx1 - 500, cy1 - 400, cx1 + 500, cy1 + 400), fill=(255, 100, 0, 15))
+              fd.ellipse((cx1 - 600, cy1 - 500, cx1 + 600, cy1 + 500), fill=(255, 100, 0, 25))
 
-              # Corner Brackets
+              flare_layer = flare_layer.filter(ImageFilter.GaussianBlur(140))
+              img.paste(flare_layer, (0, 0), flare_layer)
+
+              # Floating Amber Particles
+              bokeh = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+              bd = ImageDraw.Draw(bokeh)
+              for p in LIGHT_PARTICLES:
+                  py = (p["y"] - frame * p["speed"]) % H
+                  px = p["x"] + math.sin(frame * 0.03 + p["y"]) * 15
+                  r = p["r"]
+                  bd.ellipse((px - r, py - r, px + r, py + r), fill=p["color"] + (p["alpha"],))
+
+              bokeh = bokeh.filter(ImageFilter.GaussianBlur(10))
+              img.paste(bokeh, (0, 0), bokeh)
+
+              # Background HUD Grid Overlay & Corner Brackets
+              d = ImageDraw.Draw(img, "RGBA")
               bw = 40
               d.line([(30, 30), (30 + bw, 30)], fill=ACCENT_AMBER, width=2)
               d.line([(30, 30), (30, 30 + bw)], fill=ACCENT_AMBER, width=2)
+              
               d.line([(W - 30, 30), (W - 30 - bw, 30)], fill=ACCENT_AMBER, width=2)
               d.line([(W - 30, 30), (W - 30, 30 + bw)], fill=ACCENT_AMBER, width=2)
+              
+              d.line([(30, H - 30), (30 + bw, H - 30)], fill=ACCENT_AMBER, width=2)
+              d.line([(30, H - 30), (30, H - 30 - bw)], fill=ACCENT_AMBER, width=2)
+              
+              d.line([(W - 30, H - 30), (W - 30 - bw, H - 30)], fill=ACCENT_AMBER, width=2)
+              d.line([(W - 30, H - 30), (W - 30, H - 30 - bw)], fill=ACCENT_AMBER, width=2)
+
               return img
 
+          # ══════════════════════════════════════════════════════
+          #  DRAW INDIA FLAG BADGE
+          # ══════════════════════════════════════════════════════
+          def draw_india_flag(img, x, y, w=58, h=38):
+              d = ImageDraw.Draw(img, "RGBA")
+              d.rounded_rectangle((x - 2, y - 2, x + w + 2, y + h + 2), radius=6, fill=(255, 255, 255, 30), outline=ACCENT_AMBER, width=1)
+              
+              bh = h // 3
+              d.rectangle((x, y, x + w, y + bh), fill=(255, 153, 51))
+              d.rectangle((x, y + bh, x + w, y + 2 * bh), fill=(255, 255, 255))
+              d.rectangle((x, y + 2 * bh, x + w, y + h), fill=(19, 136, 8))
+              
+              cx, cy = x + w // 2, y + h // 2
+              r = bh // 2
+              d.ellipse((cx - r, cy - r, cx + r, cy + r), outline=(0, 0, 128), width=2)
+              d.ellipse((cx - 1, cy - 1, cx + 1, cy + 1), fill=(0, 0, 128))
+
+          # ══════════════════════════════════════════════════════
+          #  PHOTO LOADER
+          # ══════════════════════════════════════════════════════
+          _photo_cache = {}
+          PHOTO_HEADERS = {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
+              "Referer": "https://results.asiangames2026.org/",
+          }
           def load_photo(url):
               if not url: return None
+              if url in _photo_cache: return _photo_cache[url]
+              Path(PHOTO_DIR).mkdir(parents=True, exist_ok=True)
               fn = url.rsplit("/", 1)[-1]
               path = f"{PHOTO_DIR}/{fn}"
               if not os.path.exists(path):
                   try:
-                      r = requests.get(url, headers={"User-Agent": "Mozilla/5.0"}, timeout=10)
-                      if r.ok: open(path, "wb").write(r.content)
-                      else: return None
-                  except: return None
-              try: return Image.open(path).convert("RGBA")
-              except: return None
+                      r = requests.get(url, headers=PHOTO_HEADERS, timeout=20)
+                      if r.ok and (r.content[:2] in (b"\xff\xd8", b"\x89P") or r.content[:4] == b"RIFF"):
+                          open(path, "wb").write(r.content)
+                      else:
+                          _photo_cache[url] = None; return None
+                  except Exception:
+                      _photo_cache[url] = None; return None
+              try:
+                  img = Image.open(path).convert("RGBA")
+                  _photo_cache[url] = img
+                  return img
+              except:
+                  _photo_cache[url] = None; return None
 
+          # ══════════════════════════════════════════════════════
+          #  DATA PROCESSING
+          # ══════════════════════════════════════════════════════
           def collect(data, limit):
               rank_map = {"gold": 3, "silver": 2, "bronze": 1}
-              picked = []
+              by_sport = {}
+              
               for a in data:
-                  if not a.get("photo_url") or not a.get("medals"): continue
-                  top = sorted(a["medals"], key=lambda m: rank_map.get(m["medal"], 0), reverse=True)[0]
-                  picked.append({
-                      "name": a["name"], "disc_desc": a.get("disc_desc", "Sports"),
-                      "event": top["event"], "medal": top["medal"],
-                      "result": top.get("result") or top.get("mark") or "",
-                      "photo_url": a["photo_url"], "medal_count": len(a["medals"])
-                  })
-                  if len(picked) >= limit: break
+                  if not a.get("photo_url"): continue
+                  medals = a.get("medals") or []
+                  if not medals: continue
+
+                  g = sum(1 for m in medals if m["medal"] == "gold")
+                  s = sum(1 for m in medals if m["medal"] == "silver")
+                  b = sum(1 for m in medals if m["medal"] == "bronze")
+                  
+                  top = sorted(medals, key=lambda m: rank_map.get(m["medal"], 0), reverse=True)[0]
+                  sport = a.get("disc_desc", "Other")
+
+                  result_val = top.get("result") or top.get("mark") or ""
+                  rank_val   = top.get("rank") or f"Rank {top.get('rank_num', '')}".strip()
+
+                  entry = {
+                      "name": a["name"], 
+                      "disc_desc": sport,
+                      "event": top["event"], 
+                      "medal": top["medal"],
+                      "result": result_val,
+                      "rank": rank_val if rank_val != "Rank " else "",
+                      "score": g*100 + s*10 + b,
+                      "photo_url": a["photo_url"],
+                      "medal_count": len(medals),
+                  }
+                  by_sport.setdefault(sport, []).append(entry)
+
+              for k in by_sport:
+                  by_sport[k].sort(key=lambda x: x["score"], reverse=True)
+
+              sports = sorted(by_sport.keys())
+              picked = []
+              i = 0
+              while len(picked) < limit:
+                  added = False
+                  for sp in sports:
+                      if i < len(by_sport[sp]):
+                          picked.append(by_sport[sp][i])
+                          added = True
+                          if len(picked) >= limit: break
+                  if not added: break
+                  i += 1
               return picked
 
+          # ══════════════════════════════════════════════════════
+          #  DRAW — INTRO
+          # ══════════════════════════════════════════════════════
+          def draw_intro(img, prog, total, bd, n_ath):
+              d = ImageDraw.Draw(img, "RGBA")
+
+              d.rectangle((0, 0, W, 6), fill=ACCENT_AMBER)
+              d.text((SAFE_X, SAFE_Y), "ASIAN GAMES 2026 // AMBER HUD SPECIAL", font=font(26, "black"), fill=ACCENT_AMBER)
+
+              d.text((W/2, 320), "MEDAL WINNERS", font=font(130, "black"), fill=TEXT_WHITE, anchor="mt")
+              d.text((W/2, 480), str(total), font=font(250, "black"), fill=ACCENT_AMBER, anchor="mt")
+
+              pw, ph, gap = 340, 110, 40
+              x0 = (W - (3 * pw + 2 * gap)) // 2
+              y0 = 840
+              for i, (label, n, col) in enumerate([("GOLD", bd["gold"], GOLD), ("SILVER", bd["silver"], SILVER), ("BRONZE", bd["bronze"], BRONZE)]):
+                  x = x0 + i * (pw + gap)
+                  d.rounded_rectangle((x, y0, x + pw, y0 + ph), radius=8, fill=PANEL_DARK, outline=col, width=2)
+                  d.text((x + 30, y0 + 25), label, font=font(24, "bold"), fill=col)
+                  d.text((x + pw - 30, y0 + 15), str(n), font=font(64, "black"), fill=TEXT_WHITE, anchor="rt")
+
+          # ══════════════════════════════════════════════════════
+          #  DRAW — TV CARD
+          # ══════════════════════════════════════════════════════
+          def draw_card(img, ath, photo, prog, idx, total):
+              d = ImageDraw.Draw(img, "RGBA")
+              medal = ath["medal"].lower()
+              
+              medal_themes = {
+                  "gold":   {"bg": GOLD, "text": (20, 15, 0), "border": (255, 230, 120)},
+                  "silver": {"bg": SILVER, "text": (10, 15, 25), "border": (240, 245, 255)},
+                  "bronze": {"bg": BRONZE, "text": (20, 10, 5), "border": (255, 160, 100)},
+              }
+              m_style = medal_themes.get(medal, {"bg": ACCENT_AMBER, "text": BG_CORE, "border": ACCENT_AMBER})
+
+              # Top Ticker
+              d.rectangle((0, 0, W, 70), fill=(10, 8, 12, 240))
+              d.line([(0, 70), (W, 70)], fill=ACCENT_AMBER, width=2)
+              d.text((SAFE_X, 18), "ASIAN GAMES 2026", font=font(28, "black"), fill=TEXT_WHITE)
+              d.rectangle((SAFE_X + 280, 22, SAFE_X + 284, 48), fill=ACCENT_AMBER)
+              d.text((SAFE_X + 300, 20), "OFFICIAL BROADCAST", font=font(20, "bold"), fill=ACCENT_AMBER)
+              d.text((W - SAFE_X, 18), f"MEDALIST {idx+1:02d}/{total:02d}", font=font(28, "black"), fill=TEXT_WHITE, anchor="rt")
+
+              # Photo Container & HUD Rings
+              psize = 680
+              px = SAFE_X + 20
+              py = 180
+
+              d.polygon([
+                  (px, py), (px + psize - 60, py),
+                  (px + psize, py + 60), (px + psize, py + psize),
+                  (px + 60, py + psize), (px, py + psize - 60)
+              ], fill=PANEL_DARK, outline=PANEL_BORDER, width=2)
+
+              d.ellipse((px + 10, py + 10, px + psize - 10, py + psize - 10), outline=ACCENT_AMBER, width=2)
+              d.ellipse((px + 22, py + 22, px + psize - 22, py + psize - 22), outline=(255, 119, 0, 80), width=1)
+
+              if photo:
+                  w, h = photo.size
+                  s = min(w, h)
+                  cropped = photo.crop(((w-s)//2, (h-s)//2, (w+s)//2, (h+s)//2)).resize((psize-50, psize-50), Image.LANCZOS)
+                  
+                  mask = Image.new("L", (psize-50, psize-50), 0)
+                  mdraw = ImageDraw.Draw(mask)
+                  mdraw.ellipse((0, 0, psize-50, psize-50), fill=255)
+                  
+                  img.paste(cropped, (px + 25, py + 25), mask)
+
+              d.line([(px, py), (px + psize - 60, py)], fill=m_style["bg"], width=6)
+
+              # Broadcast Widget Panel
+              wx = SAFE_X + 740
+              wy = 180
+              ww = W - wx - SAFE_X
+              wh = 680
+
+              d.rounded_rectangle((wx, wy, wx + ww, wy + wh), radius=16, fill=PANEL_DARK, outline=PANEL_BORDER, width=2)
+              d.line([(wx + 30, wy), (wx + 180, wy)], fill=m_style["bg"], width=6)
+
+              # Medal Badge
+              bw, bh = 180, 56
+              bx, by = wx + ww - bw - 40, wy + 35
+              d.rounded_rectangle((bx, by, bx + bw, by + bh), radius=8, fill=m_style["bg"], outline=m_style["border"], width=2)
+              d.text((bx + bw // 2, by + bh // 2), medal.upper(), font=font(28, "black"), fill=m_style["text"], anchor="mm")
+
+              d.text((wx + 40, wy + 42), ath["disc_desc"].upper(), font=font(24, "bold"), fill=ACCENT_AMBER)
+
+              raw_name = ath["name"].strip()
+              parts = raw_name.split()
+              formatted_name = f"{parts[-1]} {' '.join(parts[:-1])}" if len(parts) > 1 else raw_name
+              formatted_name = formatted_name.upper()
+
+              fname = font(64, "black")
+              while d.textlength(formatted_name, font=fname) > ww - 260 and fname.size > 34:
+                  fname = font(fname.size - 4, "black")
+              d.text((wx + 40, wy + 88), formatted_name, font=fname, fill=TEXT_WHITE)
+
+              d.line([(wx + 40, wy + 185), (wx + ww - 40, wy + 185)], fill=(255, 119, 0, 50), width=2)
+
+              d.text((wx + 40, wy + 215), "EVENT / CATEGORY", font=font(18, "bold"), fill=TEXT_MUTED)
+              ev_text = ath["event"].upper()
+              fev = font(34, "bold")
+              while d.textlength(ev_text, font=fev) > ww - 80 and fev.size > 22:
+                  fev = font(fev.size - 2, "bold")
+              d.text((wx + 40, wy + 248), ev_text, font=fev, fill=TEXT_WHITE)
+
+              if ath.get("result") or ath.get("rank"):
+                  stat_y = wy + 310
+                  stat_box_w = ww - 80
+                  d.rounded_rectangle((wx + 40, stat_y, wx + 40 + stat_box_w, stat_y + 65), radius=8, fill=(30, 20, 15, 220), outline=ACCENT_AMBER, width=1)
+                  
+                  stat_str = ""
+                  if ath.get("result"): stat_str += f"RESULT: {ath['result']}   "
+                  if ath.get("rank"): stat_str += f"|   {ath['rank'].upper()}"
+                  
+                  d.text((wx + 60, stat_y + 32), stat_str.strip(), font=font(22, "bold"), fill=ACCENT_AMBER, anchor="lm")
+
+              d.text((wx + 40, wy + 410), "NATIONAL DELEGATION", font=font(18, "bold"), fill=TEXT_MUTED)
+              d.text((wx + 40, wy + 445), "TEAM INDIA", font=font(36, "black"), fill=TEXT_WHITE)
+              draw_india_flag(img, x=wx + 275, y=wy + 448, w=58, h=38)
+
+              if ath["medal_count"] > 1:
+                  d.rounded_rectangle((wx + 40, wy + 520, wx + ww - 40, wy + 590), radius=8, fill=(255, 119, 0, 20), outline=ACCENT_AMBER, width=1)
+                  d.text((wx + 60, wy + 555), f"MULTIPLE MEDALIST ({ath['medal_count']} MEDALS WON)", font=font(22, "bold"), fill=ACCENT_AMBER, anchor="lm")
+
+              bar_y = H - 120
+              bar_h = 66
+              d.rectangle((0, bar_y, W, bar_y + bar_h), fill=(10, 8, 12, 250))
+              d.rectangle((0, bar_y, 16, bar_y + bar_h), fill=m_style["bg"])
+
+              ticker_text = f"ASIAN GAMES 2026  //  {ath['disc_desc'].upper()}  —  {ath['event'].upper()}"
+              if ath.get("result"): ticker_text += f" ({ath['result']})"
+              ticker_text += f"  —  {medal.upper()} MEDALIST"
+
+              d.text((40, bar_y + 33), ticker_text, font=font(22, "bold"), fill=TEXT_WHITE, anchor="lm")
+
+          # ══════════════════════════════════════════════════════
+          #  DRAW — OUTRO
+          # ══════════════════════════════════════════════════════
+          def draw_outro(img, prog, total, bd, n_ath):
+              d = ImageDraw.Draw(img, "RGBA")
+
+              d.text((W/2, 220), "ASIAN GAMES 2026", font=font(40, "black"), fill=ACCENT_AMBER, anchor="mt")
+              d.text((W/2, 290), "OFFICIAL SUMMARY", font=font(100, "black"), fill=TEXT_WHITE, anchor="mt")
+
+              d.text((W/2, 450), f"{total} TOTAL MEDALS  ·  {n_ath} ATHLETES FEATURED", font=font(36, "bold"), fill=TEXT_MUTED, anchor="mt")
+
+              y = 560
+              for label, n, col in [("GOLD MEDALS", bd["gold"], GOLD), ("SILVER MEDALS", bd["silver"], SILVER), ("BRONZE MEDALS", bd["bronze"], BRONZE)]:
+                  d.text((W/2 - 40, y), label, font=font(36, "bold"), fill=col, anchor="rm")
+                  d.text((W/2 + 40, y - 5), str(n), font=font(54, "black"), fill=TEXT_WHITE, anchor="lm")
+                  y += 80
+
+          # ══════════════════════════════════════════════════════
+          #  MAIN EXECUTION (PIPELINED TO FFMPEG DIRECTLY)
+          # ══════════════════════════════════════════════════════
           if not os.path.exists(DATA_IN):
-              print(f"✗ {DATA_IN} missing"); sys.exit(1)
+              print(f"✗ {DATA_IN} not found"); sys.exit(1)
 
-          with open(DATA_IN, encoding="utf-8") as f: data = json.load(f)
+          print("Loading athletes…")
+          with open(DATA_IN, encoding="utf-8") as f:
+              data = json.load(f)
+
           athletes = collect(data, TEST_LIMIT)
-          for a in athletes: a["_photo"] = load_photo(a["photo_url"])
+          n_ath = len(athletes)
+          if not n_ath:
+              print("✗ No athletes"); sys.exit(1)
 
-          # Stream directly to FFmpeg pipe to avoid saving frames to disk
+          seen = set(); bd = {"gold": 0, "silver": 0, "bronze": 0}
+          for a in data:
+              for m in a.get("medals", []):
+                  k = m["medal"] + "|" + m["event"]
+                  if k in seen: continue
+                  seen.add(k)
+                  if m["medal"] in bd: bd[m["medal"]] += 1
+          total = sum(bd.values())
+
+          print("Loading photos…")
+          for a in athletes:
+              a["_photo"] = load_photo(a["photo_url"])
+
+          Path(OUT_DIR).mkdir(parents=True, exist_ok=True)
+          for old in Path(OUT_DIR).glob("*.ts"): old.unlink()
+          for old in Path(OUT_DIR).glob("*.m3u8"): old.unlink()
+
           ffmpeg_cmd = [
               "ffmpeg", "-y",
-              "-f", "rawvideo", "-vcodec", "rawvideo",
-              "-s", f"{W}x{H}", "-pix_fmt", "rgb24", "-r", str(FPS),
+              "-f", "rawvideo",
+              "-vcodec", "rawvideo",
+              "-s", f"{W}x{H}",
+              "-pix_fmt", "rgb24",
+              "-r", str(FPS),
               "-i", "-",
-              "-c:v", "libx264", "-preset", "fast", "-crf", "22",
-              "-pix_fmt", "yuv420p", "-g", "60",
+              "-c:v", "libx264", "-preset", "medium", "-crf", "20",
+              "-pix_fmt", "yuv420p",
+              "-g", "60", "-keyint_min", "60", "-sc_threshold", "0",
               "-f", "hls", "-hls_time", "2", "-hls_playlist_type", "vod",
               "-hls_segment_filename", f"{OUT_DIR}/seg_%03d.ts",
-              f"{OUT_DIR}/index.m3u8"
+              f"{OUT_DIR}/index.m3u8",
           ]
 
           proc = subprocess.Popen(ffmpeg_cmd, stdin=subprocess.PIPE)
 
-          def send_frame(img):
+          def push_frame(img):
               proc.stdin.write(img.convert("RGB").tobytes())
 
-          print("Streaming intro to FFmpeg...")
+          print("Rendering Intro…")
           for f in range(INTRO_FRAMES):
-              send_frame(news_studio_bg(f))
+              img = news_studio_bg(f)
+              draw_intro(img, f / (INTRO_FRAMES - 1), total, bd, n_ath)
+              push_frame(img)
 
-          print("Streaming cards...")
+          print(f"Rendering Cards ({n_ath})…")
           for i, ath in enumerate(athletes):
+              print(f"  [{i+1}/{n_ath}] {ath['name']}")
               for f in range(CARD_FRAMES):
-                  send_frame(news_studio_bg(i * CARD_FRAMES + f))
+                  frame_num = i * CARD_FRAMES + f
+                  img = news_studio_bg(frame_num)
+                  draw_card(img, ath, ath["_photo"], f / (CARD_FRAMES - 1), i, n_ath)
+                  push_frame(img)
 
-          print("Streaming outro...")
+          print("Rendering Outro…")
           for f in range(OUTRO_FRAMES):
-              send_frame(news_studio_bg(f))
+              frame_num = n_ath * CARD_FRAMES + INTRO_FRAMES + f
+              img = news_studio_bg(frame_num)
+              draw_outro(img, f / (OUTRO_FRAMES - 1), total, bd, n_ath)
+              push_frame(img)
 
           proc.stdin.close()
           proc.wait()
+
+          if proc.returncode != 0:
+              print("✗ FFmpeg encoding failed")
+              sys.exit(1)
+
           print(f"✅ HLS Exported successfully to {OUT_DIR}/")
           PYEOF
 
