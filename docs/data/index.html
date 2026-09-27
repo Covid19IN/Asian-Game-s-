@@ -1017,7 +1017,7 @@
 
     if (a.bio_data && Object.keys(p).length) {
       const kv = [
-        ["Reg", p.Reg || a.reg],
+        
         ["Gender", p.Gender === "M" ? "Male" : p.Gender === "W" ? "Female" : p.Gender === "X" ? "Mixed" : "—"],
         ["Date of birth", p.BirthDateRaw || p.BirthDate || "—"],
         ["Type", p.Type === "T" ? "Team member" : p.Type === "D" ? "Doubles player" : "Athlete"]
