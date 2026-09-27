@@ -114,7 +114,7 @@ jobs:
           def _find(names):
               for d in FONT_DIRS:
                   for n in names:
-                      p = d + n
+                      p = os.path.join(d, n)
                       if os.path.exists(p): return p
               return None
 
@@ -125,7 +125,7 @@ jobs:
 
           def font(size, w="reg"):
               size = max(8, int(size))
-              path = {"black": F_BLACK, "bold": F_BOLD, "med": F_MED, "reg": F_REG}[w]
+              path = {"black": F_BLACK, "bold": F_BOLD, "med": F_MED, "reg": F_REG}.get(w, F_REG)
               return ImageFont.truetype(path, size) if path else ImageFont.load_default()
 
           # ══════════════════════════════════════════════════════
@@ -178,11 +178,11 @@ jobs:
               if url in _photo_cache: return _photo_cache[url]
               Path(PHOTO_DIR).mkdir(parents=True, exist_ok=True)
               fn = url.rsplit("/", 1)[-1]
-              path = f"{PHOTO_DIR}/{fn}"
+              path = os.path.join(PHOTO_DIR, fn)
               if not os.path.exists(path):
                   try:
                       r = requests.get(url, headers=PHOTO_HEADERS, timeout=20)
-                      if r.ok and (r.content[:2] in (b"\xff\xd8", b"\x89P") or r.content[:4] == b"RIFF"):
+                      if r.ok and len(r.content) > 0:
                           open(path, "wb").write(r.content)
                       else:
                           _photo_cache[url] = None; return None
@@ -192,7 +192,7 @@ jobs:
                   img = Image.open(path).convert("RGBA")
                   _photo_cache[url] = img
                   return img
-              except:
+              except Exception:
                   _photo_cache[url] = None; return None
 
           # ══════════════════════════════════════════════════════
@@ -210,20 +210,20 @@ jobs:
                   s = sum(1 for m in medals if m.get("medal") == "silver")
                   b = sum(1 for m in medals if m.get("medal") == "bronze")
 
-                  top = sorted(medals, key=lambda m: rank_map.get(m.get("medal"), 0), reverse=True)[0]
-                  sport = a.get("disc_desc", "Other")
+                  top = sorted(medals, key=lambda m: rank_map.get(str(m.get("medal")).lower(), 0), reverse=True)[0]
+                  sport = a.get("disc_desc") or "Other"
 
                   gender = a.get("gender") or a.get("gender_desc") or "Athlete"
                   venue = top.get("venue") or top.get("location") or "Main Aquatics & Athletics Arena"
 
                   entry = {
-                      "name": a["name"], 
+                      "name": a.get("name", "Unknown Athlete"), 
                       "disc_desc": sport,
                       "event": top.get("event", "General Event"), 
-                      "medal": top.get("medal", "gold").lower(),
-                      "result": top.get("result") or top.get("mark") or "N/A",
-                      "rank": top.get("rank") or f"Rank {top.get('rank_num', '')}".strip(),
-                      "gender": gender.upper(),
+                      "medal": str(top.get("medal", "gold")).lower(),
+                      "result": str(top.get("result") or top.get("mark") or "N/A"),
+                      "rank": str(top.get("rank") or f"Rank {top.get('rank_num', '')}").strip(),
+                      "gender": str(gender).upper(),
                       "venue": venue,
                       "g_count": g, "s_count": s, "b_count": b,
                       "medal_count": len(medals),
@@ -269,10 +269,13 @@ jobs:
               if photo:
                   w, h = photo.size
                   s = min(w, h)
-                  cropped = photo.crop(((w-s)//2, (h-s)//2, (w+s)//2, (h+s)//2)).resize((psize-40, psize-40), Image.LANCZOS)
-                  mask = Image.new("L", (psize-40, psize-40), 0)
+                  crop_w, crop_h = psize - 40, psize - 40
+                  cropped = photo.crop(((w - s) // 2, (h - s) // 2, (w + s) // 2, (h + s) // 2)).resize((crop_w, crop_h), Image.LANCZOS)
+                  
+                  mask = Image.new("L", (crop_w, crop_h), 0)
                   mdraw = ImageDraw.Draw(mask)
-                  mdraw.rounded_rectangle((0, 0, psize-40, psize-40), radius=12, fill=255)
+                  mdraw.rounded_rectangle((0, 0, crop_w, crop_h), radius=12, fill=255)
+                  
                   img.paste(cropped, (px + 20, py + 20), mask)
 
               # Main Content Panel
@@ -315,7 +318,8 @@ jobs:
               d.text((wx + 55, stat_y + 20), "PERFORMANCE MARK & RESULT", font=font(16, "bold"), fill=TEXT_MUTED)
               
               res_str = f"RESULT: {ath['result']}"
-              if ath.get("rank"): res_str += f"   |   OFFICIAL STANDING: {ath['rank'].upper()}"
+              if ath.get("rank") and ath['rank'].upper() != "NONE":
+                  res_str += f"   |   OFFICIAL STANDING: {ath['rank'].upper()}"
               d.text((wx + 55, stat_y + 55), res_str, font=font(24, "bold"), fill=m_cfg["accent"])
 
               # Delegation & Career Medals Breakdown
@@ -346,6 +350,10 @@ jobs:
           athletes = collect(data, TEST_LIMIT)
           n_ath = len(athletes)
 
+          if n_ath == 0:
+              print("⚠️ No valid athlete records with photos and medals found.")
+              sys.exit(0)
+
           for a in athletes:
               a["_photo"] = load_photo(a["photo_url"])
 
@@ -362,37 +370,44 @@ jobs:
           proc = subprocess.Popen(ffmpeg_cmd, stdin=subprocess.PIPE)
 
           def push_frame(img):
-              proc.stdin.write(img.convert("RGB").tobytes())
+              try:
+                  proc.stdin.write(img.convert("RGB").tobytes())
+              except IOError as e:
+                  print(f"FFmpeg stdin pipe error: {e}")
+                  sys.exit(1)
 
-          # Render Intro
-          print("Rendering Classic Intro…")
-          for f in range(INTRO_FRAMES):
-              img = generate_classic_bg(f)
-              d = ImageDraw.Draw(img, "RGBA")
-              d.text((W/2, 380), "ASIAN GAMES 2026", font=font(100, "black"), fill=TEXT_WHITE, anchor="mt")
-              d.text((W/2, 520), "OFFICIAL MEDALISTS & PROFILE BROADCAST", font=font(44, "bold"), fill=MEDAL_STYLES["gold"]["bg"], anchor="mt")
-              push_frame(img)
-
-          # Render Cards
-          print(f"Rendering {n_ath} Classic Athlete Cards with medal-specific colors…")
-          for i, ath in enumerate(athletes):
-              print(f"  [{i+1}/{n_ath}] {ath['name']} ({ath['medal'].upper()})")
-              for f in range(CARD_FRAMES):
-                  img = generate_classic_bg(i * CARD_FRAMES + f)
-                  draw_card(img, ath, ath["_photo"], i, n_ath)
+          try:
+              # Render Intro
+              print("Rendering Classic Intro…")
+              for f in range(INTRO_FRAMES):
+                  img = generate_classic_bg(f)
+                  d = ImageDraw.Draw(img, "RGBA")
+                  d.text((W/2, 380), "ASIAN GAMES 2026", font=font(100, "black"), fill=TEXT_WHITE, anchor="mt")
+                  d.text((W/2, 520), "OFFICIAL MEDALISTS & PROFILE BROADCAST", font=font(44, "bold"), fill=MEDAL_STYLES["gold"]["bg"], anchor="mt")
                   push_frame(img)
 
-          # Render Outro
-          print("Rendering Classic Outro…")
-          for f in range(OUTRO_FRAMES):
-              img = generate_classic_bg(n_ath * CARD_FRAMES + INTRO_FRAMES + f)
-              d = ImageDraw.Draw(img, "RGBA")
-              d.text((W/2, 420), "OFFICIAL BROADCAST COMPLETE", font=font(70, "black"), fill=TEXT_WHITE, anchor="mt")
-              d.text((W/2, 530), "TEAM INDIA SUMMARY", font=font(36, "bold"), fill=MEDAL_STYLES["gold"]["bg"], anchor="mt")
-              push_frame(img)
+              # Render Cards
+              print(f"Rendering {n_ath} Classic Athlete Cards with medal-specific colors…")
+              for i, ath in enumerate(athletes):
+                  print(f"  [{i+1}/{n_ath}] {ath['name']} ({ath['medal'].upper()})")
+                  for f in range(CARD_FRAMES):
+                      img = generate_classic_bg(i * CARD_FRAMES + f)
+                      draw_card(img, ath, ath["_photo"], i, n_ath)
+                      push_frame(img)
 
-          proc.stdin.close()
-          proc.wait()
+              # Render Outro
+              print("Rendering Classic Outro…")
+              for f in range(OUTRO_FRAMES):
+                  img = generate_classic_bg(n_ath * CARD_FRAMES + INTRO_FRAMES + f)
+                  d = ImageDraw.Draw(img, "RGBA")
+                  d.text((W/2, 420), "OFFICIAL BROADCAST COMPLETE", font=font(70, "black"), fill=TEXT_WHITE, anchor="mt")
+                  d.text((W/2, 530), "TEAM INDIA SUMMARY", font=font(36, "bold"), fill=MEDAL_STYLES["gold"]["bg"], anchor="mt")
+                  push_frame(img)
+
+          finally:
+              proc.stdin.close()
+              proc.wait()
+
           print("✅ Classic HLS video with authentic medal colors rendered successfully!")
           PYEOF
 
