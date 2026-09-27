@@ -2,13 +2,8 @@ name: Build HLS Video
 
 on:
   schedule:
-    - cron: "0 */4 * * *"        # every 4 hours
+    - cron: "0 */4 * * *"
   workflow_dispatch:
-  push:
-    branches: [main]
-    paths:
-      - "scripts/render_frames.py"
-      - ".github/workflows/build-video.yml"
 
 permissions:
   contents: write
@@ -21,7 +16,6 @@ jobs:
   build:
     runs-on: ubuntu-latest
     timeout-minutes: 30
-
     steps:
       - uses: actions/checkout@v4
 
@@ -29,39 +23,30 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: System dependencies
+      - name: Install ffmpeg + fonts
         run: |
           sudo apt-get update
           sudo apt-get install -y ffmpeg fonts-roboto fonts-dejavu
 
-      - name: Python dependencies
+      - name: Install Python deps
         run: pip install requests pillow numpy
 
-      - name: Render frames
+      - name: Render + encode
         run: python scripts/render_frames.py
 
-      - name: Encode HLS (m3u8 + .ts)
+      - name: Verify output
         run: |
-          mkdir -p docs/hls
-          rm -f docs/hls/*.ts docs/hls/*.m3u8
-          ffmpeg -y -framerate 30 -i build/frames/f_%05d.png \
-            -c:v libx264 -preset medium -crf 21 \
-            -pix_fmt yuv420p \
-            -g 60 -keyint_min 60 -sc_threshold 0 \
-            -f hls -hls_time 2 -hls_playlist_type vod \
-            -hls_segment_filename "docs/hls/seg_%03d.ts" \
-            docs/hls/index.m3u8
-          ls -lh docs/hls/ | head -20
-
-      - name: Cleanup frames
-        if: always()
-        run: rm -rf build/
+          echo "--- docs/hls ---"
+          ls -lah docs/hls/ || echo "NO HLS OUTPUT!"
+          echo "--- data/video-photos ---"
+          ls data/video-photos/ | head || true
 
       - name: Commit and push
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add docs/hls/ docs/video-photos/ 2>/dev/null || true
+          git add docs/hls/ data/video-photos/ 2>/dev/null || true
+          git status
           git diff --quiet && git diff --staged --quiet || (
             git commit -m "chore: rebuild HLS video [skip ci]" && git push
           )
