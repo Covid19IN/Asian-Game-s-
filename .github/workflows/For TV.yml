@@ -43,12 +43,13 @@ jobs:
 
           import json, os, math, random, shutil, subprocess
           from pathlib import Path
+          from datetime import datetime
           import requests
           import numpy as np
           from PIL import Image, ImageDraw, ImageFont, ImageFilter
 
           # ══════════════════════════════════════════════════════
-          #  CONFIG — SCI-FI / AMBER HUD THEME (1920×1080)
+          #  CONFIG — AMBER HUD BROADCAST THEME (1920×1080)
           # ══════════════════════════════════════════════════════
           W, H        = 1920, 1080
           FPS         = 30
@@ -66,16 +67,15 @@ jobs:
           SAFE_Y = 54
 
           # ══════════════════════════════════════════════════════
-          #  COLOR PALETTE (AMBER / CYBERPUNK HUD)
+          #  COLOR PALETTE (AMBER / CYBER HUD)
           # ══════════════════════════════════════════════════════
-          BG_CORE       = (8, 7, 10)          # Dark Obsidian Pitch
-          ACCENT_AMBER  = (255, 119, 0)       # Neon Cyber Orange
-          ACCENT_GLOW   = (255, 170, 0)       # Core Solar Flare
-          PANEL_DARK    = (16, 14, 18, 240)   # Matte Dark Metallic Panel
-          PANEL_BORDER  = (255, 119, 0, 180)  # Glowing Amber Border Line
+          BG_CORE       = (10, 9, 12)         # Pitch Metallic Black
+          ACCENT_AMBER  = (255, 120, 0)       # Cyber Orange
+          PANEL_DARK    = (18, 16, 22, 245)   # Matte Slate Panel
+          PANEL_BORDER  = (255, 120, 0, 180)  # Glowing Amber Border
 
           TEXT_WHITE    = (255, 255, 255)
-          TEXT_MUTED    = (180, 160, 140)
+          TEXT_MUTED    = (170, 155, 140)
 
           GOLD          = (255, 195, 0)
           SILVER        = (220, 225, 235)
@@ -110,60 +110,49 @@ jobs:
               return ImageFont.truetype(path, size) if path else ImageFont.load_default()
 
           # ══════════════════════════════════════════════════════
-          #  DYNAMIC AMBER BACKGROUND LIGHTING & HUD RINGS
+          #  DYNAMIC BACKGROUND LIGHTING
           # ══════════════════════════════════════════════════════
           random.seed(101)
           LIGHT_PARTICLES = []
-          for _ in range(40):
+          for _ in range(35):
               LIGHT_PARTICLES.append({
                   "x": random.randint(0, W),
                   "y": random.randint(0, H),
-                  "r": random.randint(15, 60),
-                  "speed": random.uniform(0.3, 1.2),
-                  "alpha": random.randint(20, 60),
-                  "color": random.choice([ACCENT_AMBER, ACCENT_GLOW, (255, 80, 0)])
+                  "r": random.randint(15, 50),
+                  "speed": random.uniform(0.3, 1.0),
+                  "alpha": random.randint(20, 50),
+                  "color": random.choice([ACCENT_AMBER, (255, 160, 0), (255, 80, 0)])
               })
 
-          def news_studio_bg(frame):
+          def studio_bg(frame):
               img = Image.new("RGBA", (W, H), BG_CORE + (255,))
               flare_layer = Image.new("RGBA", (W, H), (0, 0, 0, 0))
               fd = ImageDraw.Draw(flare_layer)
 
-              # Ambient Orange Central Glow
-              cx1 = int(W // 2 + math.sin(frame * 0.02) * 40)
-              cy1 = int(H // 2 + math.cos(frame * 0.02) * 30)
-              fd.ellipse((cx1 - 600, cy1 - 500, cx1 + 600, cy1 + 500), fill=(255, 100, 0, 25))
+              cx1 = int(W // 2 + math.sin(frame * 0.02) * 30)
+              cy1 = int(H // 2 + math.cos(frame * 0.02) * 20)
+              fd.ellipse((cx1 - 500, cy1 - 400, cx1 + 500, cy1 + 400), fill=(255, 100, 0, 20))
 
-              flare_layer = flare_layer.filter(ImageFilter.GaussianBlur(140))
+              flare_layer = flare_layer.filter(ImageFilter.GaussianBlur(120))
               img.paste(flare_layer, (0, 0), flare_layer)
 
-              # Floating Amber Particles
               bokeh = Image.new("RGBA", (W, H), (0, 0, 0, 0))
               bd = ImageDraw.Draw(bokeh)
               for p in LIGHT_PARTICLES:
                   py = (p["y"] - frame * p["speed"]) % H
-                  px = p["x"] + math.sin(frame * 0.03 + p["y"]) * 15
+                  px = p["x"] + math.sin(frame * 0.03 + p["y"]) * 12
                   r = p["r"]
                   bd.ellipse((px - r, py - r, px + r, py + r), fill=p["color"] + (p["alpha"],))
 
-              bokeh = bokeh.filter(ImageFilter.GaussianBlur(10))
+              bokeh = bokeh.filter(ImageFilter.GaussianBlur(8))
               img.paste(bokeh, (0, 0), bokeh)
 
-              # Background HUD Grid Overlay & Corner Brackets
               d = ImageDraw.Draw(img, "RGBA")
-              # Corner Brackets
               bw = 40
               d.line([(30, 30), (30 + bw, 30)], fill=ACCENT_AMBER, width=2)
               d.line([(30, 30), (30, 30 + bw)], fill=ACCENT_AMBER, width=2)
-              
               d.line([(W - 30, 30), (W - 30 - bw, 30)], fill=ACCENT_AMBER, width=2)
               d.line([(W - 30, 30), (W - 30, 30 + bw)], fill=ACCENT_AMBER, width=2)
-              
-              d.line([(30, H - 30), (30 + bw, H - 30)], fill=ACCENT_AMBER, width=2)
-              d.line([(30, H - 30), (30, H - 30 - bw)], fill=ACCENT_AMBER, width=2)
-              
-              d.line([(W - 30, H - 30), (W - 30 - bw, H - 30)], fill=ACCENT_AMBER, width=2)
-              d.line([(W - 30, H - 30), (W - 30, H - 30 - bw)], fill=ACCENT_AMBER, width=2)
 
               return img
 
@@ -215,8 +204,17 @@ jobs:
                   _photo_cache[url] = None; return None
 
           # ══════════════════════════════════════════════════════
-          #  DATA PROCESSING
+          #  DATA PROCESSING (USEFUL PEOPLE DATA ONLY)
           # ══════════════════════════════════════════════════════
+          def get_age(dob_str):
+              if not dob_str: return ""
+              try:
+                  dob = datetime.strptime(dob_str, "%Y-%m-%d")
+                  today = datetime.now()
+                  return f"{today.year - dob.year - ((today.month, today.day) < (dob.month, dob.day))} YRS"
+              except:
+                  return ""
+
           def collect(data, limit):
               rank_map = {"gold": 3, "silver": 2, "bronze": 1}
               by_sport = {}
@@ -243,6 +241,7 @@ jobs:
                       "medal": top["medal"],
                       "result": result_val,
                       "rank": rank_val if rank_val != "Rank " else "",
+                      "age": get_age(a.get("dob")),
                       "score": g*100 + s*10 + b,
                       "photo_url": a["photo_url"],
                       "medal_count": len(medals),
@@ -273,7 +272,7 @@ jobs:
               d = ImageDraw.Draw(img, "RGBA")
 
               d.rectangle((0, 0, W, 6), fill=ACCENT_AMBER)
-              d.text((SAFE_X, SAFE_Y), "ASIAN GAMES 2026 // AMBER HUD SPECIAL", font=font(26, "black"), fill=ACCENT_AMBER)
+              d.text((SAFE_X, SAFE_Y), "ASIAN GAMES 2026 // ATHLETE PROFILE", font=font(26, "black"), fill=ACCENT_AMBER)
 
               d.text((W/2, 320), "MEDAL WINNERS", font=font(130, "black"), fill=TEXT_WHITE, anchor="mt")
               d.text((W/2, 480), str(total), font=font(250, "black"), fill=ACCENT_AMBER, anchor="mt")
@@ -288,7 +287,7 @@ jobs:
                   d.text((x + pw - 30, y0 + 15), str(n), font=font(64, "black"), fill=TEXT_WHITE, anchor="rt")
 
           # ══════════════════════════════════════════════════════
-          #  DRAW — TV CARD (AMBER HUD THEME, ALL ELEMENTS INSTANT)
+          #  DRAW — TV CARD (AMBER HUD, CLEAN TEXT ONLY)
           # ══════════════════════════════════════════════════════
           def draw_card(img, ath, photo, prog, idx, total):
               d = ImageDraw.Draw(img, "RGBA")
@@ -301,29 +300,29 @@ jobs:
               }
               m_style = medal_themes.get(medal, {"bg": ACCENT_AMBER, "text": BG_CORE, "border": ACCENT_AMBER})
 
-              # ── 1. TV TOP TICKER ──
-              d.rectangle((0, 0, W, 70), fill=(10, 8, 12, 240))
+              # ── 1. TV TOP HEADER BAR ──
+              d.rectangle((0, 0, W, 70), fill=(12, 10, 15, 240))
               d.line([(0, 70), (W, 70)], fill=ACCENT_AMBER, width=2)
               d.text((SAFE_X, 18), "ASIAN GAMES 2026", font=font(28, "black"), fill=TEXT_WHITE)
               d.rectangle((SAFE_X + 280, 22, SAFE_X + 284, 48), fill=ACCENT_AMBER)
               d.text((SAFE_X + 300, 20), "OFFICIAL BROADCAST", font=font(20, "bold"), fill=ACCENT_AMBER)
-              d.text((W - SAFE_X, 18), f"MEDALIST {idx+1:02d}/{total:02d}", font=font(28, "black"), fill=TEXT_WHITE, anchor="rt")
+              d.text((W - SAFE_X, 18), f"ATHLETE {idx+1:02d}/{total:02d}", font=font(28, "black"), fill=TEXT_WHITE, anchor="rt")
 
-              # ── 2. ROUNDED ATHLETE PHOTO CONTAINER & HUD RINGS ──
+              # ── 2. ATHLETE PHOTO WITH HUD RINGS ──
               psize = 680
               px = SAFE_X + 20
               py = 180
 
-              # Outer Tech Panel Frame
+              # Tech Border Outer Frame
               d.polygon([
                   (px, py), (px + psize - 60, py),
                   (px + psize, py + 60), (px + psize, py + psize),
                   (px + 60, py + psize), (px, py + psize - 60)
               ], fill=PANEL_DARK, outline=PANEL_BORDER, width=2)
 
-              # Orange Outer HUD Target Ring
+              # Glowing Amber Target Rings
               d.ellipse((px + 10, py + 10, px + psize - 10, py + psize - 10), outline=ACCENT_AMBER, width=2)
-              d.ellipse((px + 22, py + 22, px + psize - 22, py + psize - 22), outline=(255, 119, 0, 80), width=1)
+              d.ellipse((px + 22, py + 22, px + psize - 22, py + psize - 22), outline=(255, 120, 0, 90), width=1)
 
               if photo:
                   w, h = photo.size
@@ -338,7 +337,7 @@ jobs:
 
               d.line([(px, py), (px + psize - 60, py)], fill=m_style["bg"], width=6)
 
-              # ── 3. RIGHT SIDE: BROADCAST WIDGET ──
+              # ── 3. RIGHT SIDE: STATS CARD ──
               wx = SAFE_X + 740
               wy = 180
               ww = W - wx - SAFE_X
@@ -353,33 +352,36 @@ jobs:
               d.rounded_rectangle((bx, by, bx + bw, by + bh), radius=8, fill=m_style["bg"], outline=m_style["border"], width=2)
               d.text((bx + bw // 2, by + bh // 2), medal.upper(), font=font(28, "black"), fill=m_style["text"], anchor="mm")
 
-              # Sport / Discipline
-              d.text((wx + 40, wy + 42), ath["disc_desc"].upper(), font=font(24, "bold"), fill=ACCENT_AMBER)
+              # Discipline
+              d.text((wx + 40, wy + 38), "SPORT", font=font(18, "bold"), fill=TEXT_MUTED)
+              d.text((wx + 40, wy + 62), ath["disc_desc"].upper(), font=font(28, "bold"), fill=ACCENT_AMBER)
 
-              # Name Formatting ("SINGH Gulveer" -> "GULVEER SINGH")
+              # Athlete Name Formatting ("SINGH Gulveer" -> "GULVEER SINGH")
               raw_name = ath["name"].strip()
               parts = raw_name.split()
               formatted_name = f"{parts[-1]} {' '.join(parts[:-1])}" if len(parts) > 1 else raw_name
               formatted_name = formatted_name.upper()
 
-              fname = font(64, "black")
+              fname = font(58, "black")
               while d.textlength(formatted_name, font=fname) > ww - 260 and fname.size > 34:
                   fname = font(fname.size - 4, "black")
-              d.text((wx + 40, wy + 88), formatted_name, font=fname, fill=TEXT_WHITE)
+              
+              d.text((wx + 40, wy + 110), "ATHLETE", font=font(18, "bold"), fill=TEXT_MUTED)
+              d.text((wx + 40, wy + 135), formatted_name, font=fname, fill=TEXT_WHITE)
 
-              d.line([(wx + 40, wy + 185), (wx + ww - 40, wy + 185)], fill=(255, 119, 0, 50), width=2)
+              d.line([(wx + 40, wy + 215), (wx + ww - 40, wy + 215)], fill=(255, 120, 0, 50), width=2)
 
-              # Event Info
-              d.text((wx + 40, wy + 215), "EVENT / CATEGORY", font=font(18, "bold"), fill=TEXT_MUTED)
+              # Primary Event Title
+              d.text((wx + 40, wy + 235), "EVENT", font=font(18, "bold"), fill=TEXT_MUTED)
               ev_text = ath["event"].upper()
               fev = font(34, "bold")
               while d.textlength(ev_text, font=fev) > ww - 80 and fev.size > 22:
                   fev = font(fev.size - 2, "bold")
-              d.text((wx + 40, wy + 248), ev_text, font=fev, fill=TEXT_WHITE)
+              d.text((wx + 40, wy + 265), ev_text, font=fev, fill=TEXT_WHITE)
 
-              # PERFORMANCE STATS (Time/Mark & Rank)
+              # PERFORMANCE STATS BADGE (Time/Mark & Rank)
               if ath.get("result") or ath.get("rank"):
-                  stat_y = wy + 310
+                  stat_y = wy + 330
                   stat_box_w = ww - 80
                   d.rounded_rectangle((wx + 40, stat_y, wx + 40 + stat_box_w, stat_y + 65), radius=8, fill=(30, 20, 15, 220), outline=ACCENT_AMBER, width=1)
                   
@@ -389,24 +391,26 @@ jobs:
                   
                   d.text((wx + 60, stat_y + 32), stat_str.strip(), font=font(22, "bold"), fill=ACCENT_AMBER, anchor="lm")
 
-              # Delegation + Flag
-              d.text((wx + 40, wy + 410), "NATIONAL DELEGATION", font=font(18, "bold"), fill=TEXT_MUTED)
-              d.text((wx + 40, wy + 445), "TEAM INDIA", font=font(36, "black"), fill=TEXT_WHITE)
-              draw_india_flag(img, x=wx + 275, y=wy + 448, w=58, h=38)
+              # Delegation & Age
+              d.text((wx + 40, wy + 425), "NATIONAL DELEGATION", font=font(18, "bold"), fill=TEXT_MUTED)
+              team_str = "TEAM INDIA"
+              if ath.get("age"): team_str += f"   |   AGE: {ath['age']}"
+              d.text((wx + 40, wy + 458), team_str, font=font(34, "black"), fill=TEXT_WHITE)
+              draw_india_flag(img, x=wx + 250, y=wy + 460, w=58, h=38)
 
               # Multi-Medal Indicator
               if ath["medal_count"] > 1:
-                  d.rounded_rectangle((wx + 40, wy + 520, wx + ww - 40, wy + 590), radius=8, fill=(255, 119, 0, 20), outline=ACCENT_AMBER, width=1)
-                  d.text((wx + 60, wy + 555), f"MULTIPLE MEDALIST ({ath['medal_count']} MEDALS WON)", font=font(22, "bold"), fill=ACCENT_AMBER, anchor="lm")
+                  d.rounded_rectangle((wx + 40, wy + 530, wx + ww - 40, wy + 600), radius=8, fill=(255, 120, 0, 20), outline=ACCENT_AMBER, width=1)
+                  d.text((wx + 60, wy + 565), f"MULTIPLE MEDALIST ({ath['medal_count']} MEDALS WON)", font=font(22, "bold"), fill=ACCENT_AMBER, anchor="lm")
 
-              # ── 4. LOWER THIRD TICKER BAR (LIVE REMOVED) ──
+              # ── 4. LOWER THIRD TICKER BAR (CLEAN DYNAMIC TEXT) ──
               bar_y = H - 120
               bar_h = 66
 
               d.rectangle((0, bar_y, W, bar_y + bar_h), fill=(10, 8, 12, 250))
               d.rectangle((0, bar_y, 16, bar_y + bar_h), fill=m_style["bg"])
 
-              ticker_text = f"ASIAN GAMES 2026  //  {ath['disc_desc'].upper()}  —  {ath['event'].upper()}"
+              ticker_text = f"ASIAN GAMES 2026  //  {formatted_name}  —  {ath['disc_desc'].upper()}  —  {ath['event'].upper()}"
               if ath.get("result"): ticker_text += f" ({ath['result']})"
               ticker_text += f"  —  {medal.upper()} MEDALIST"
 
@@ -467,7 +471,7 @@ jobs:
 
           print("Intro…")
           for f in range(INTRO_FRAMES):
-              img = news_studio_bg(f)
+              img = studio_bg(f)
               draw_intro(img, f / (INTRO_FRAMES - 1), total, bd, n_ath)
               save(img)
 
@@ -476,14 +480,14 @@ jobs:
               print(f"  [{i+1}/{n_ath}] {ath['name']}")
               for f in range(CARD_FRAMES):
                   frame_num = i * CARD_FRAMES + f
-                  img = news_studio_bg(frame_num)
+                  img = studio_bg(frame_num)
                   draw_card(img, ath, ath["_photo"], f / (CARD_FRAMES - 1), i, n_ath)
                   save(img)
 
           print("Outro…")
           for f in range(OUTRO_FRAMES):
               frame_num = n_ath * CARD_FRAMES + INTRO_FRAMES + f
-              img = news_studio_bg(frame_num)
+              img = studio_bg(frame_num)
               draw_outro(img, f / (OUTRO_FRAMES - 1), total, bd, n_ath)
               save(img)
 
@@ -514,5 +518,5 @@ jobs:
           git config user.email "actions@github.com"
           git add docs/ data/video-photos/ || true
           git diff --quiet && git diff --staged --quiet || (
-            git commit -m "chore: amber HUD theme update [skip ci]" && git push
+            git commit -m "chore: amber HUD layout update [skip ci]" && git push
           )
