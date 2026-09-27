@@ -27,7 +27,7 @@ jobs:
           import json, os, sys, zlib
           import requests
 
-          URL = "https://back.results.asiangames2026.org/s/AG2026/en/ALL/medals/multi-medallists"
+          URL = "https://back.results.asiangames2026.org/s/AG2026/en/ALL/medals/org/IND"
           HEADERS = {
               "User-Agent": (
                   "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
