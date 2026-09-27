@@ -1,4 +1,4 @@
-name: Build HLS Video (TV)
+Name: Build HLS Video (TV)
 
 on:
   workflow_dispatch:
@@ -53,7 +53,7 @@ jobs:
           from PIL import Image, ImageDraw, ImageFont, ImageFilter
 
           # ══════════════════════════════════════════════════════
-          #  CONFIG — 1920×1080 HIGH DEFINITION
+          #  CONFIG — 1920×1080 CLASSIC BROADCAST
           # ══════════════════════════════════════════════════════
           W, H        = 1920, 1080
           FPS         = 30
@@ -61,13 +61,44 @@ jobs:
           PHOTO_DIR   = "data/video-photos"
           OUT_DIR     = "docs/hls"
 
-          TEST_LIMIT  = 12
+          TEST_LIMIT  = 10
           INTRO_FRAMES   = 120    # 4.0 s
           CARD_FRAMES    = 120    # 4.0 s per athlete
           OUTRO_FRAMES   = 150    # 5.0 s
 
-          SAFE_X = 96
-          SAFE_Y = 54
+          SAFE_X = 80
+          SAFE_Y = 50
+
+          # ══════════════════════════════════════════════════════
+          #  THEME & MEDAL PALETTES
+          # ══════════════════════════════════════════════════════
+          NAVY_PANEL    = (10, 28, 64, 240)
+          BORDER_BLUE   = (40, 110, 220, 200)
+          TEXT_WHITE    = (255, 255, 255)
+          TEXT_MUTED    = (170, 200, 240)
+          TEXT_DARK     = (20, 20, 20)
+
+          # Authentic Medal Palette
+          MEDAL_STYLES = {
+              "gold": {
+                  "bg": (255, 215, 0),          # Genuine Metallic Gold
+                  "border": (218, 165, 32),      # Darker Goldenrod
+                  "text": (30, 20, 0),
+                  "accent": (255, 215, 0),
+              },
+              "silver": {
+                  "bg": (224, 232, 240),        # Pure Platinum Silver
+                  "border": (160, 175, 195),     # Metallic Slate Silver
+                  "text": (15, 25, 35),
+                  "accent": (200, 215, 230),
+              },
+              "bronze": {
+                  "bg": (205, 127, 50),         # Authentic Copper Bronze
+                  "border": (140, 75, 25),       # Deep Bronze Outer
+                  "text": (25, 10, 0),
+                  "accent": (225, 140, 65),
+              }
+          }
 
           for d in [PHOTO_DIR, OUT_DIR]:
               Path(d).mkdir(parents=True, exist_ok=True)
@@ -98,102 +129,25 @@ jobs:
               return ImageFont.truetype(path, size) if path else ImageFont.load_default()
 
           # ══════════════════════════════════════════════════════
-          #  THEME DEFINITIONS
+          #  BACKGROUND — CLASSIC ROYAL BLUE GRADIENT
           # ══════════════════════════════════════════════════════
-          THEMES = {
-              "espn": {
-                  "name": "ESPN BROADCAST",
-                  "bg_type": "espn_mesh",
-                  "panel_bg": (15, 23, 42, 245),
-                  "panel_border": (59, 130, 246, 200),
-                  "accent": (239, 68, 68),
-                  "accent_glow": (59, 130, 246),
-                  "text_main": (255, 255, 255),
-                  "text_muted": (148, 163, 184),
-              },
-              "minimal": {
-                  "name": "MINIMAL PREMIUM",
-                  "bg_type": "pitch_black",
-                  "panel_bg": (20, 20, 20, 255),
-                  "panel_border": (60, 60, 60, 255),
-                  "accent": (212, 175, 55), # Fine Gold
-                  "accent_glow": (180, 180, 180),
-                  "text_main": (250, 250, 250),
-                  "text_muted": (130, 130, 130),
-              },
-              "synthwave": {
-                  "name": "NEON SYNTHWAVE",
-                  "bg_type": "synth_grid",
-                  "panel_bg": (25, 10, 40, 235),
-                  "panel_border": (255, 0, 127, 220),
-                  "accent": (0, 240, 255),
-                  "accent_glow": (255, 0, 127),
-                  "text_main": (255, 255, 255),
-                  "text_muted": (200, 140, 255),
-              },
-              "classic": {
-                  "name": "ASIAN GAMES CLASSIC",
-                  "bg_type": "royal_glow",
-                  "panel_bg": (10, 30, 70, 240),
-                  "panel_border": (255, 215, 0, 200),
-                  "accent": (255, 215, 0),
-                  "accent_glow": (0, 150, 255),
-                  "text_main": (255, 255, 255),
-                  "text_muted": (180, 210, 255),
-              }
-          }
-
-          THEME_KEYS = ["espn", "minimal", "synthwave", "classic"]
-
-          # ══════════════════════════════════════════════════════
-          #  BACKGROUND GENERATORS
-          # ══════════════════════════════════════════════════════
-          def generate_bg(frame, theme_key):
-              t = THEMES[theme_key]
-              bg_type = t["bg_type"]
+          def generate_classic_bg(frame):
               img = Image.new("RGBA", (W, H), (0, 0, 0, 255))
               d = ImageDraw.Draw(img, "RGBA")
 
-              if bg_type == "pitch_black":
-                  d.rectangle((0, 0, W, H), fill=(10, 10, 12, 255))
+              for y in range(H):
+                  interp = y / H
+                  r = int(6 + interp * 12)
+                  g = int(22 + interp * 28)
+                  b = int(60 + interp * 70)
+                  d.line([(0, y), (W, y)], fill=(r, g, b, 255))
 
-              elif bg_type == "espn_mesh":
-                  d.rectangle((0, 0, W, H), fill=(8, 14, 28, 255))
-                  for y in range(-H, H*2, 24):
-                      d.line([(0, y), (W, y + W//2)], fill=(20, 35, 65, 120), width=3)
-
-              elif bg_type == "synth_grid":
-                  for y in range(H):
-                      interp = y / H
-                      r = int(15 + interp * 30)
-                      g = int(5 + interp * 10)
-                      b = int(35 + interp * 45)
-                      d.line([(0, y), (W, y)], fill=(r, g, b, 255))
-                  
-                  # Perspective Grid
-                  cx = W // 2
-                  horizon = 400
-                  for x in range(-W, W * 2, 80):
-                      d.line([(cx + (x - cx) * 0.1, horizon), (x, H)], fill=(255, 0, 127, 40), width=1)
-                  
-                  grid_offset = int((frame * 2) % 40)
-                  for y in range(horizon, H, 40):
-                      d.line([(0, y + grid_offset), (W, y + grid_offset)], fill=(0, 240, 255, 30), width=1)
-
-              elif bg_type == "royal_glow":
-                  for y in range(H):
-                      interp = y / H
-                      r = int(5 + interp * 10)
-                      g = int(20 + interp * 25)
-                      b = int(55 + interp * 65)
-                      d.line([(0, y), (W, y)], fill=(r, g, b, 255))
-                  
-                  glow = Image.new("RGBA", (W, H), (0, 0, 0, 0))
-                  gd = ImageDraw.Draw(glow)
-                  cx = int(W / 2 + math.sin(frame * 0.03) * 60)
-                  gd.ellipse((cx - 500, 100, cx + 500, 900), fill=(0, 140, 255, 35))
-                  glow = glow.filter(ImageFilter.GaussianBlur(120))
-                  img.paste(glow, (0, 0), glow)
+              glow = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+              gd = ImageDraw.Draw(glow)
+              cx = int(W / 2 + math.sin(frame * 0.02) * 50)
+              gd.ellipse((cx - 600, -100, cx + 600, 800), fill=(0, 140, 255, 30))
+              glow = glow.filter(ImageFilter.GaussianBlur(130))
+              img.paste(glow, (0, 0), glow)
 
               return img
 
@@ -202,7 +156,7 @@ jobs:
           # ══════════════════════════════════════════════════════
           def draw_india_flag(img, x, y, w=58, h=38):
               d = ImageDraw.Draw(img, "RGBA")
-              d.rounded_rectangle((x - 2, y - 2, x + w + 2, y + h + 2), radius=6, fill=(255, 255, 255, 30), outline=(255, 255, 255, 100), width=1)
+              d.rounded_rectangle((x - 2, y - 2, x + w + 2, y + h + 2), radius=6, fill=(255, 255, 255, 30), outline=(255, 215, 0), width=1)
               bh = h // 3
               d.rectangle((x, y, x + w, y + bh), fill=(255, 153, 51))
               d.rectangle((x, y + bh, x + w, y + 2 * bh), fill=(255, 255, 255))
@@ -251,21 +205,30 @@ jobs:
                   if not a.get("photo_url"): continue
                   medals = a.get("medals") or []
                   if not medals: continue
-                  g = sum(1 for m in medals if m["medal"] == "gold")
-                  s = sum(1 for m in medals if m["medal"] == "silver")
-                  b = sum(1 for m in medals if m["medal"] == "bronze")
-                  top = sorted(medals, key=lambda m: rank_map.get(m["medal"], 0), reverse=True)[0]
+
+                  g = sum(1 for m in medals if m.get("medal") == "gold")
+                  s = sum(1 for m in medals if m.get("medal") == "silver")
+                  b = sum(1 for m in medals if m.get("medal") == "bronze")
+
+                  top = sorted(medals, key=lambda m: rank_map.get(m.get("medal"), 0), reverse=True)[0]
                   sport = a.get("disc_desc", "Other")
+
+                  gender = a.get("gender") or a.get("gender_desc") or "Athlete"
+                  venue = top.get("venue") or top.get("location") or "Main Aquatics & Athletics Arena"
+
                   entry = {
                       "name": a["name"], 
                       "disc_desc": sport,
-                      "event": top["event"], 
-                      "medal": top["medal"],
-                      "result": top.get("result") or top.get("mark") or "",
+                      "event": top.get("event", "General Event"), 
+                      "medal": top.get("medal", "gold").lower(),
+                      "result": top.get("result") or top.get("mark") or "N/A",
                       "rank": top.get("rank") or f"Rank {top.get('rank_num', '')}".strip(),
+                      "gender": gender.upper(),
+                      "venue": venue,
+                      "g_count": g, "s_count": s, "b_count": b,
+                      "medal_count": len(medals),
                       "score": g*100 + s*10 + b,
                       "photo_url": a["photo_url"],
-                      "medal_count": len(medals),
                   }
                   by_sport.setdefault(sport, []).append(entry)
 
@@ -276,10 +239,7 @@ jobs:
                   added = False
                   for sp in sports:
                       if i < len(by_sport[sp]):
-                          item = by_sport[sp][i]
-                          # Assign theme in repeating loop order across option 1, 2, 3, 4
-                          item["theme_key"] = THEME_KEYS[len(picked) % len(THEME_KEYS)]
-                          picked.append(item)
+                          picked.append(by_sport[sp][i])
                           added = True
                           if len(picked) >= limit: break
                   if not added: break
@@ -287,26 +247,24 @@ jobs:
               return picked
 
           # ══════════════════════════════════════════════════════
-          #  DRAW — CARD
+          #  DRAW — CARD WITH AUTHENTIC MEDAL COLORS
           # ══════════════════════════════════════════════════════
           def draw_card(img, ath, photo, idx, total):
               d = ImageDraw.Draw(img, "RGBA")
-              t = THEMES[ath["theme_key"]]
-              medal = ath["medal"].lower()
+              medal_type = ath["medal"] if ath["medal"] in MEDAL_STYLES else "gold"
+              m_cfg = MEDAL_STYLES[medal_type]
 
               # Top Ticker Header
-              d.rectangle((0, 0, W, 70), fill=(10, 10, 14, 240))
-              d.line([(0, 70), (W, 70)], fill=t["accent"], width=2)
-              d.text((SAFE_X, 18), "ASIAN GAMES 2026", font=font(28, "black"), fill=t["text_main"])
-              d.rectangle((SAFE_X + 280, 22, SAFE_X + 284, 48), fill=t["accent"])
-              d.text((SAFE_X + 300, 20), f"STYLE: {t['name']}", font=font(20, "bold"), fill=t["accent"])
-              d.text((W - SAFE_X, 18), f"MEDALIST {idx+1:02d}/{total:02d}", font=font(28, "black"), fill=t["text_main"], anchor="rt")
+              d.rectangle((0, 0, W, 70), fill=(8, 20, 48, 245))
+              d.line([(0, 70), (W, 70)], fill=m_cfg["accent"], width=2)
+              d.text((SAFE_X, 18), "ASIAN GAMES 2026  |  OFFICIAL ATHLETE PROFILE", font=font(26, "black"), fill=TEXT_WHITE)
+              d.text((W - SAFE_X, 18), f"FEATURED {idx+1:02d} / {total:02d}", font=font(26, "black"), fill=m_cfg["accent"], anchor="rt")
 
-              # Photo Frame
+              # Photo Frame Box
               psize = 680
-              px, py = SAFE_X + 20, 180
+              px, py = SAFE_X, 150
 
-              d.rounded_rectangle((px, py, px + psize, py + psize), radius=20, fill=t["panel_bg"], outline=t["panel_border"], width=3)
+              d.rounded_rectangle((px, py, px + psize, py + psize), radius=16, fill=NAVY_PANEL, outline=BORDER_BLUE, width=2)
 
               if photo:
                   w, h = photo.size
@@ -314,53 +272,67 @@ jobs:
                   cropped = photo.crop(((w-s)//2, (h-s)//2, (w+s)//2, (h+s)//2)).resize((psize-40, psize-40), Image.LANCZOS)
                   mask = Image.new("L", (psize-40, psize-40), 0)
                   mdraw = ImageDraw.Draw(mask)
-                  mdraw.rounded_rectangle((0, 0, psize-40, psize-40), radius=16, fill=255)
+                  mdraw.rounded_rectangle((0, 0, psize-40, psize-40), radius=12, fill=255)
                   img.paste(cropped, (px + 20, py + 20), mask)
 
               # Main Content Panel
-              wx, wy = SAFE_X + 740, 180
+              wx, wy = SAFE_X + 720, 150
               ww, wh = W - wx - SAFE_X, 680
 
-              d.rounded_rectangle((wx, wy, wx + ww, wy + wh), radius=20, fill=t["panel_bg"], outline=t["panel_border"], width=3)
+              d.rounded_rectangle((wx, wy, wx + ww, wy + wh), radius=16, fill=NAVY_PANEL, outline=BORDER_BLUE, width=2)
 
-              # Medal Pill
-              bw, bh = 180, 56
-              bx, by = wx + ww - bw - 40, wy + 35
-              d.rounded_rectangle((bx, by, bx + bw, by + bh), radius=12, fill=t["accent"], outline=t["panel_border"], width=1)
-              d.text((bx + bw // 2, by + bh // 2), medal.upper(), font=font(28, "black"), fill=(10, 10, 10), anchor="mm")
+              # Authentic Medal Badge Pill
+              bw, bh = 200, 56
+              bx, by = wx + ww - bw - 35, wy + 30
+              d.rounded_rectangle((bx, by, bx + bw, by + bh), radius=8, fill=m_cfg["bg"], outline=m_cfg["border"], width=2)
+              d.text((bx + bw // 2, by + bh // 2), medal_type.upper(), font=font(28, "black"), fill=m_cfg["text"], anchor="mm")
 
-              d.text((wx + 40, wy + 42), ath["disc_desc"].upper(), font=font(24, "bold"), fill=t["accent"])
+              # Sport Discipline + Gender Tag
+              d.text((wx + 35, wy + 35), f"{ath['disc_desc'].upper()}  •  {ath['gender']}", font=font(22, "bold"), fill=m_cfg["accent"])
 
+              # Formatted Name
               raw_name = ath["name"].strip()
               parts = raw_name.split()
               formatted_name = f"{parts[-1]} {' '.join(parts[:-1])}".upper() if len(parts) > 1 else raw_name.upper()
 
-              fname = font(64, "black")
-              while d.textlength(formatted_name, font=fname) > ww - 260 and fname.size > 34:
+              fname = font(58, "black")
+              while d.textlength(formatted_name, font=fname) > ww - 270 and fname.size > 32:
                   fname = font(fname.size - 4, "black")
-              d.text((wx + 40, wy + 88), formatted_name, font=fname, fill=t["text_main"])
+              d.text((wx + 35, wy + 75), formatted_name, font=fname, fill=TEXT_WHITE)
 
-              d.line([(wx + 40, wy + 185), (wx + ww - 40, wy + 185)], fill=t["panel_border"], width=1)
+              d.line([(wx + 35, wy + 160), (wx + ww - 35, wy + 160)], fill=(255, 255, 255, 40), width=1)
 
-              d.text((wx + 40, wy + 215), "EVENT / CATEGORY", font=font(18, "bold"), fill=t["text_muted"])
-              d.text((wx + 40, wy + 248), ath["event"].upper(), font=font(34, "bold"), fill=t["text_main"])
+              # Detailed Info Sections
+              d.text((wx + 35, wy + 180), "EVENT / CATEGORY", font=font(16, "bold"), fill=TEXT_MUTED)
+              d.text((wx + 35, wy + 205), ath["event"].upper(), font=font(28, "bold"), fill=TEXT_WHITE)
 
-              if ath.get("result") or ath.get("rank"):
-                  stat_y = wy + 320
-                  d.rounded_rectangle((wx + 40, stat_y, wx + ww - 40, stat_y + 65), radius=10, fill=(0, 0, 0, 120), outline=t["accent"], width=1)
-                  stat_str = f"RESULT: {ath.get('result', '')}   |   {ath.get('rank', '').upper()}"
-                  d.text((wx + 60, stat_y + 32), stat_str, font=font(22, "bold"), fill=t["accent"], anchor="lm")
+              d.text((wx + 35, wy + 260), "VENUE / LOCATION", font=font(16, "bold"), fill=TEXT_MUTED)
+              d.text((wx + 35, wy + 285), ath["venue"].upper(), font=font(24, "bold"), fill=TEXT_WHITE)
 
-              d.text((wx + 40, wy + 430), "NATIONAL DELEGATION", font=font(18, "bold"), fill=t["text_muted"])
-              d.text((wx + 40, wy + 465), "TEAM INDIA", font=font(36, "black"), fill=t["text_main"])
-              draw_india_flag(img, x=wx + 275, y=wy + 468, w=58, h=38)
+              # Performance Stats Panel (Highlights medal accent color)
+              stat_y = wy + 340
+              d.rounded_rectangle((wx + 35, stat_y, wx + ww - 35, stat_y + 110), radius=10, fill=(5, 15, 38, 220), outline=m_cfg["accent"], width=1)
+              d.text((wx + 55, stat_y + 20), "PERFORMANCE MARK & RESULT", font=font(16, "bold"), fill=TEXT_MUTED)
+              
+              res_str = f"RESULT: {ath['result']}"
+              if ath.get("rank"): res_str += f"   |   OFFICIAL STANDING: {ath['rank'].upper()}"
+              d.text((wx + 55, stat_y + 55), res_str, font=font(24, "bold"), fill=m_cfg["accent"])
+
+              # Delegation & Career Medals Breakdown
+              d.text((wx + 35, wy + 480), "NATIONAL DELEGATION", font=font(16, "bold"), fill=TEXT_MUTED)
+              d.text((wx + 35, wy + 510), "TEAM INDIA", font=font(34, "black"), fill=TEXT_WHITE)
+              draw_india_flag(img, x=wx + 260, y=wy + 512, w=58, h=38)
+
+              career_str = f"TOTAL MEDALS WON: {ath['medal_count']} ({ath['g_count']} GOLD, {ath['s_count']} SILVER, {ath['b_count']} BRONZE)"
+              d.rounded_rectangle((wx + 35, wy + 580, wx + ww - 35, wy + 640), radius=8, fill=(m_cfg["bg"][0], m_cfg["bg"][1], m_cfg["bg"][2], 25), outline=m_cfg["accent"], width=1)
+              d.text((wx + 55, wy + 610), career_str, font=font(20, "bold"), fill=m_cfg["accent"], anchor="lm")
 
               # Bottom Ticker Bar
               bar_y = H - 120
-              d.rectangle((0, bar_y, W, bar_y + 66), fill=(10, 10, 14, 250))
-              d.rectangle((0, bar_y, 16, bar_y + 66), fill=t["accent"])
-              ticker_text = f"ASIAN GAMES 2026  //  {ath['disc_desc'].upper()}  —  {ath['event'].upper()}  —  {medal.upper()} MEDALIST"
-              d.text((40, bar_y + 33), ticker_text, font=font(22, "bold"), fill=t["text_main"], anchor="lm")
+              d.rectangle((0, bar_y, W, bar_y + 66), fill=(6, 16, 40, 250))
+              d.rectangle((0, bar_y, 16, bar_y + 66), fill=m_cfg["bg"])
+              ticker_text = f"ASIAN GAMES 2026  //  {ath['disc_desc'].upper()}  —  {ath['event'].upper()}  —  {medal_type.upper()} MEDALIST ({ath['result']})"
+              d.text((40, bar_y + 33), ticker_text, font=font(22, "bold"), fill=TEXT_WHITE, anchor="lm")
 
           # ══════════════════════════════════════════════════════
           #  MAIN PIPELINE EXECUTION
@@ -392,32 +364,36 @@ jobs:
           def push_frame(img):
               proc.stdin.write(img.convert("RGB").tobytes())
 
-          # Render Intro (Uses Asian Games Classic Style)
+          # Render Intro
+          print("Rendering Classic Intro…")
           for f in range(INTRO_FRAMES):
-              img = generate_bg(f, "classic")
+              img = generate_classic_bg(f)
               d = ImageDraw.Draw(img, "RGBA")
-              d.text((W/2, 400), "ASIAN GAMES 2026", font=font(100, "black"), fill=(255, 255, 255), anchor="mt")
-              d.text((W/2, 540), "MULTI-THEME SHOWCASE", font=font(50, "bold"), fill=(255, 215, 0), anchor="mt")
+              d.text((W/2, 380), "ASIAN GAMES 2026", font=font(100, "black"), fill=TEXT_WHITE, anchor="mt")
+              d.text((W/2, 520), "OFFICIAL MEDALISTS & PROFILE BROADCAST", font=font(44, "bold"), fill=MEDAL_STYLES["gold"]["bg"], anchor="mt")
               push_frame(img)
 
-          # Render Cards with Rotated Themes
+          # Render Cards
+          print(f"Rendering {n_ath} Classic Athlete Cards with medal-specific colors…")
           for i, ath in enumerate(athletes):
-              print(f"  [{i+1}/{n_ath}] {ath['name']} -> Theme: {ath['theme_key'].upper()}")
+              print(f"  [{i+1}/{n_ath}] {ath['name']} ({ath['medal'].upper()})")
               for f in range(CARD_FRAMES):
-                  img = generate_bg(f, ath["theme_key"])
+                  img = generate_classic_bg(i * CARD_FRAMES + f)
                   draw_card(img, ath, ath["_photo"], i, n_ath)
                   push_frame(img)
 
           # Render Outro
+          print("Rendering Classic Outro…")
           for f in range(OUTRO_FRAMES):
-              img = generate_bg(f, "synthwave")
+              img = generate_classic_bg(n_ath * CARD_FRAMES + INTRO_FRAMES + f)
               d = ImageDraw.Draw(img, "RGBA")
-              d.text((W/2, 450), "OFFICIAL BROADCAST COMPLETE", font=font(70, "black"), fill=(255, 255, 255), anchor="mt")
+              d.text((W/2, 420), "OFFICIAL BROADCAST COMPLETE", font=font(70, "black"), fill=TEXT_WHITE, anchor="mt")
+              d.text((W/2, 530), "TEAM INDIA SUMMARY", font=font(36, "bold"), fill=MEDAL_STYLES["gold"]["bg"], anchor="mt")
               push_frame(img)
 
           proc.stdin.close()
           proc.wait()
-          print("✅ HLS multi-theme video rendered successfully!")
+          print("✅ Classic HLS video with authentic medal colors rendered successfully!")
           PYEOF
 
       - name: Commit
@@ -426,5 +402,5 @@ jobs:
           git config user.email "actions@github.com"
           git add docs/ data/video-photos/ || true
           git diff --quiet && git diff --staged --quiet || (
-            git commit -m "chore: multi-theme HLS update [skip ci]" && git push
+            git commit -m "chore: apply authentic gold, silver, bronze medal colors [skip ci]" && git push
           )
