@@ -11,8 +11,8 @@ from PIL import Image, ImageDraw, ImageFont
 # ─────────── Config ───────────
 W, H        = 1080, 1920
 FPS         = 30
-DATA_IN     = "docs/data/athletes.json"
-PHOTO_DIR   = "docs/video-photos"
+DATA_IN     = "data/athletes.json"
+PHOTO_DIR   = "data/video-photos"
 FRAME_DIR   = "build/frames"
 MAX_CARDS   = 12                # top N athletes to feature
 
