@@ -1,4 +1,4 @@
-Name: Build HLS Video (TV)
+name: Build HLS Video (TV)
 
 on:
   workflow_dispatch:
