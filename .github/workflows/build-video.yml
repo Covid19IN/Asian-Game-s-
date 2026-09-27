@@ -3,7 +3,7 @@ name: Build HLS Video
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 */4 * * *"
+    - cron: "0 */6 * * *"
 
 permissions:
   contents: write
@@ -15,7 +15,7 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 60
 
     steps:
       - uses: actions/checkout@v4
@@ -46,19 +46,22 @@ jobs:
           import numpy as np
           from PIL import Image, ImageDraw, ImageFont
 
+          # ─────────── Config ───────────
           W, H        = 1080, 1920
           FPS         = 30
           DATA_IN     = "docs/data/athletes.json"
           PHOTO_DIR   = "data/video-photos"
           FRAME_DIR   = "build/frames"
           OUT_DIR     = "docs/hls"
-          MAX_CARDS   = 12
 
-          INTRO_FRAMES  = 90
-          CARD_FRAMES   = 75
-          OUTRO_FRAMES  = 120
-          TRANS_FRAMES  = 18
+          # ── Timings ──
+          INTRO_FRAMES   = 90      # 3.0s intro
+          SPORT_FRAMES   = 60      # 2.0s per-sport intro card
+          CARD_FRAMES    = 50      # 1.67s per athlete
+          OUTRO_FRAMES   = 120     # 4.0s outro
+          TRANS_FRAMES   = 12      # slide-in time
 
+          # ─────────── Palette ───────────
           BG_TOP    = (5,  8,  22)
           BG_BOT    = (14, 10, 40)
           CARD_BG   = (18, 25, 52)
@@ -69,11 +72,13 @@ jobs:
           WHITE     = (255, 255, 255)
           MUTED     = (140, 150, 180)
           DIM       = (90, 100, 130)
+          ACCENT    = (91, 140, 255)
           MEDAL_COLOR = {"gold": GOLD, "silver": SILVER, "bronze": BRONZE}
 
           for d in [PHOTO_DIR, FRAME_DIR, OUT_DIR]:
               Path(d).mkdir(parents=True, exist_ok=True)
 
+          # ─────────── Fonts ───────────
           FONT_DIRS = [
               "/usr/share/fonts/truetype/roboto/hinted/",
               "/usr/share/fonts/truetype/roboto/unhinted/RobotoTTF/",
@@ -92,6 +97,7 @@ jobs:
               path = {"bold": F_BOLD, "med": F_MED, "reg": F_REG}[w]
               return ImageFont.truetype(path, size) if path else ImageFont.load_default()
 
+          # ─────────── Background ───────────
           _bg = None
           def background():
               global _bg
@@ -108,6 +114,7 @@ jobs:
           def lerp(a, b, t):  return a + (b - a) * t
           def clamp(v, lo=0, hi=1): return max(lo, min(hi, v))
 
+          # ─────────── Photos ───────────
           _photo_cache = {}
           PHOTO_HEADERS = {
               "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
@@ -123,13 +130,11 @@ jobs:
               if not os.path.exists(path):
                   try:
                       r = requests.get(url, headers=PHOTO_HEADERS, timeout=20)
-                      print(f"  {url} -> {r.status_code} ({len(r.content)}B)")
                       if r.ok and (r.content[:2] in (b"\xff\xd8", b"\x89P") or r.content[:4] == b"RIFF"):
                           open(path, "wb").write(r.content)
                       else:
                           _photo_cache[url] = None; return None
-                  except Exception as e:
-                      print(f"  ERR {url}: {e}")
+                  except Exception:
                       _photo_cache[url] = None; return None
               try:
                   img = Image.open(path).convert("RGBA")
@@ -154,64 +159,160 @@ jobs:
               d.ellipse((0,0,size-1,size-1), outline=ring_color + (255,), width=ring_w)
               return out
 
+          # ─────────── Data ───────────
           def is_numeric(r): return str(r or "").isdigit()
 
-          def pick_athletes(data):
+          def extract_stage(event_str):
+              if not event_str: return None
+              e = event_str.lower()
+              if "semifinal" in e or "semi-final" in e or "semi final" in e: return "SEMIFINAL"
+              if "quarterfinal" in e or "quarter-final" in e or "quarter final" in e: return "QUARTERFINAL"
+              if "bronze" in e and "final" in e: return "BRONZE FINAL"
+              if "final" in e: return "FINAL"
+              if "heat" in e: return "HEAT"
+              if "qualification" in e or "qualifier" in e: return "QUALIFICATION"
+              return None
+
+          def collect_all(data):
+              """Return EVERY medalist, grouped by sport."""
               rank = {"gold":3, "silver":2, "bronze":1}
-              out = []
+              by_sport = {}
+              seen_reg = set()   # avoid duplicate entries (same reg appearing twice)
+
               for a in data:
                   if not is_numeric(a.get("reg")): continue
                   if not a.get("photo_url"): continue
                   medals = a.get("medals") or []
                   if not medals: continue
+                  if a["reg"] in seen_reg: continue
+                  seen_reg.add(a["reg"])
+
                   g = sum(1 for m in medals if m["medal"]=="gold")
                   s = sum(1 for m in medals if m["medal"]=="silver")
                   b = sum(1 for m in medals if m["medal"]=="bronze")
                   top = sorted(medals, key=lambda m: rank.get(m["medal"],0), reverse=True)[0]
-                  out.append({"reg": a["reg"], "name": a["name"], "disc_desc": a["disc_desc"],
-                              "event": top["event"], "medal": top["medal"],
-                              "score": g*100+s*10+b, "photo_url": a["photo_url"],
-                              "medal_count": len(medals)})
-              out.sort(key=lambda x: x["score"], reverse=True)
-              return out[:MAX_CARDS]
+                  sport = a.get("disc_desc", "Other")
 
-          def draw_intro(img, prog, total, bd):
+                  entry = {
+                      "reg": a["reg"],
+                      "name": a["name"],
+                      "disc_desc": sport,
+                      "event": top["event"],
+                      "medal": top["medal"],
+                      "score": g*100 + s*10 + b,
+                      "photo_url": a["photo_url"],
+                      "medal_count": len(medals),
+                      "stage": extract_stage(top["event"]),
+                  }
+                  by_sport.setdefault(sport, []).append(entry)
+
+              # Sort athletes within each sport
+              for sport in by_sport:
+                  by_sport[sport].sort(key=lambda x: x["score"], reverse=True)
+
+              # Sort sports alphabetically
+              return dict(sorted(by_sport.items()))
+
+          # ─────────── Scenes ───────────
+          def draw_intro(img, prog, total, bd, total_athletes, total_sports):
               d = ImageDraw.Draw(img, "RGBA")
               p = ease_out(clamp(prog))
-              d.text((W/2, lerp(600,520,p)), "INDIA", font=font(150,"bold"), fill=WHITE+(int(255*p),), anchor="mt")
-              d.text((W/2, lerp(810,760,p)), "ASIAN GAMES 2026", font=font(42,"med"), fill=GOLD+(int(255*p),), anchor="mt")
+              d.text((W/2, lerp(520,460,p)), "INDIA", font=font(150,"bold"),
+                     fill=WHITE+(int(255*p),), anchor="mt")
+              d.text((W/2, lerp(730,690,p)), "ASIAN GAMES 2026", font=font(42,"med"),
+                     fill=GOLD+(int(255*p),), anchor="mt")
               if p > 0.3:
                   cp = clamp((p-0.3)/0.4)
-                  d.text((W/2, 1000), str(int(total*cp)), font=font(240,"bold"), fill=WHITE+(int(255*p),), anchor="mt")
-                  d.text((W/2, 1280), "MEDALS", font=font(48,"med"), fill=MUTED+(int(255*p),), anchor="mt")
+                  d.text((W/2, 920), str(int(total*cp)), font=font(240,"bold"),
+                         fill=WHITE+(int(255*p),), anchor="mt")
+                  d.text((W/2, 1200), "MEDALS", font=font(48,"med"),
+                         fill=MUTED+(int(255*p),), anchor="mt")
+              if p > 0.55:
+                  ap = clamp((p-0.55)/0.3)
+                  d.text((W/2, 1280), f"{total_athletes} ATHLETES · {total_sports} SPORTS",
+                         font=font(28,"med"), fill=ACCENT+(int(200*ap),), anchor="mt")
               if p > 0.7:
                   bp = clamp((p-0.7)/0.3)
                   items = [("GOLD",bd["gold"],GOLD),("SILVER",bd["silver"],SILVER),("BRONZE",bd["bronze"],BRONZE)]
                   x0 = (W - (3*260+2*20))//2
                   for i,(label,n,col) in enumerate(items):
                       x = x0 + i*280
-                      d.rounded_rectangle((x,1400,x+260,1540), radius=24, fill=(20,28,56,int(230*bp)), outline=col+(int(180*bp),), width=2)
-                      d.text((x+130,1430), str(n), font=font(64,"bold"), fill=col+(int(255*bp),), anchor="mt")
-                      d.text((x+130,1505), label, font=font(22,"med"), fill=MUTED+(int(255*bp),), anchor="mt")
+                      d.rounded_rectangle((x,1400,x+260,1540), radius=24,
+                          fill=(20,28,56,int(230*bp)), outline=col+(int(180*bp),), width=2)
+                      d.text((x+130,1430), str(n), font=font(64,"bold"),
+                             fill=col+(int(255*bp),), anchor="mt")
+                      d.text((x+130,1505), label, font=font(22,"med"),
+                             fill=MUTED+(int(255*bp),), anchor="mt")
 
-          def draw_card(img, ath, photo, prog, idx, total):
+          def draw_sport_header(img, sport_name, count, prog):
+              """Full-screen 'NOW SHOWING: SPORT' transition."""
               d = ImageDraw.Draw(img, "RGBA")
               p = ease_out(clamp(prog))
+
+              # Sport name — big
+              d.text((W/2, 780), sport_name.upper(), font=font(96,"bold"),
+                     fill=WHITE+(int(255*p),), anchor="mt")
+
+              # Count pill
+              if p > 0.3:
+                  cp = clamp((p-0.3)/0.4)
+                  label = f"{count} MEDALIST{'S' if count != 1 else ''}"
+                  f = font(34,"med")
+                  tw = d.textlength(label, font=f)
+                  pw = tw + 80
+                  x = (W - pw) / 2
+                  d.rounded_rectangle((x, 950, x+pw, 950+70), radius=35,
+                      fill=ACCENT+(int(80*cp),), outline=ACCENT+(int(200*cp),), width=2)
+                  d.text((W/2, 950+35), label, font=f,
+                         fill=WHITE+(int(255*cp),), anchor="mm")
+
+              # Accent line
+              if p > 0.5:
+                  lp = clamp((p-0.5)/0.3)
+                  lw = int(300 * lp)
+                  d.rectangle((W/2-lw, 1070, W/2+lw, 1074), fill=GOLD+(255,))
+
+              # "UP NEXT" small label
+              if p > 0.7:
+                  np_ = clamp((p-0.7)/0.3)
+                  d.text((W/2, 1160), "INDIA MEDALIST", font=font(24,"med"),
+                         fill=MUTED+(int(255*np_),), anchor="mt")
+
+          def draw_card(img, ath, photo, prog, idx, total, sport_idx):
+              d = ImageDraw.Draw(img, "RGBA")
+              p = ease_out(clamp(prog))
+
+              # Progress bar
               d.rectangle((0,0,W,8), fill=(30,40,70,255))
               d.rectangle((0,0,int(W*((idx+clamp(prog))/total)),8), fill=GOLD+(255,))
-              d.text((W-50,50), f"{idx+1}/{total}", font=font(30,"med"), fill=MUTED+(255,), anchor="rt")
+
+              # Counter
+              d.text((W-50,50), f"{idx+1}/{total}", font=font(30,"med"),
+                     fill=MUTED+(255,), anchor="rt")
+
+              # Sport index
+              d.text((50,50), f"SPORT {sport_idx}", font=font(28,"med"),
+                     fill=MUTED+(255,), anchor="lt")
+
               y_slide = int((1-p)*120)
               cx, cy = 80, 480+y_slide
               cw, ch = W-160, 940
               mc = MEDAL_COLOR[ath["medal"]]
-              d.rounded_rectangle((cx,cy,cx+cw,cy+ch), radius=52, fill=CARD_BG+(int(245*clamp(p*1.4)),), outline=CARD_BR+(int(255*clamp(p*1.4)),), width=2)
+
+              d.rounded_rectangle((cx,cy,cx+cw,cy+ch), radius=52,
+                  fill=CARD_BG+(int(245*clamp(p*1.4)),),
+                  outline=CARD_BR+(int(255*clamp(p*1.4)),), width=2)
+
               sp = clamp(p*1.6)
-              d.rounded_rectangle((cx+36,cy+36,cx+36+int((cw-72)*sp),cy+60), radius=14, fill=mc+(255,))
+              d.rounded_rectangle((cx+36,cy+36,cx+36+int((cw-72)*sp),cy+60),
+                  radius=14, fill=mc+(255,))
+
               psize = 380
               px = cx + (cw-psize)//2
               py = cy + 130
               cp = circular_photo(photo, psize, mc, ring_w=12)
               img.paste(cp, (px,py), cp)
+
               if p > 0.35:
                   bp = clamp((p-0.35)/0.35)
                   bw, bh = 240, 72
@@ -220,9 +321,11 @@ jobs:
                   d.rounded_rectangle((bx,by,bx+bw,by+bh), radius=36, fill=mc+(int(255*bp),))
                   label = ath["medal"].upper()
                   if ath["medal_count"] > 1: label += f"  ×{ath['medal_count']}"
-                  d.text((bx+bw/2,by+bh/2+2), label, font=font(30,"bold"), fill=(5,8,22,int(255*bp)), anchor="mm")
+                  d.text((bx+bw/2,by+bh/2+2), label, font=font(30,"bold"),
+                         fill=(5,8,22,int(255*bp)), anchor="mm")
               else:
                   by = py + psize + 40
+
               if p > 0.5:
                   np_ = clamp((p-0.5)/0.35)
                   name = ath["name"]; fname = font(64,"bold"); ny = by+130
@@ -236,42 +339,76 @@ jobs:
                   sy = ny + 110
               else:
                   sy = by + 240
+
               if p > 0.65:
                   sp_ = clamp((p-0.65)/0.35)
-                  d.text((cx+cw/2,sy), ath["disc_desc"].upper(), font=font(34,"med"), fill=MUTED+(int(255*sp_),), anchor="mt")
+                  d.text((cx+cw/2,sy), ath["disc_desc"].upper(), font=font(34,"med"),
+                         fill=MUTED+(int(255*sp_),), anchor="mt")
+
               if p > 0.78:
                   ep = clamp((p-0.78)/0.22)
                   ev = ath["event"]; fe = font(26,"reg")
                   while d.textlength(ev, font=fe) > cw-100 and len(ev) > 5:
                       ev = ev[:-2] + "…"
-                  d.text((cx+cw/2,sy+60), ev, font=fe, fill=DIM+(int(255*ep),), anchor="mt")
+                  d.text((cx+cw/2,sy+60), ev, font=fe,
+                         fill=DIM+(int(255*ep),), anchor="mt")
 
-          def draw_outro(img, prog, total, bd):
+              if p > 0.88 and ath.get("stage"):
+                  sp2 = clamp((p-0.88)/0.12)
+                  stage = ath["stage"]
+                  fstage = font(22, "med")
+                  tw = d.textlength(stage, font=fstage)
+                  pw = tw + 40
+                  ph = 42
+                  px2 = cx + (cw - pw) / 2
+                  py2 = sy + 110
+                  d.rounded_rectangle((px2, py2, px2+pw, py2+ph), radius=21,
+                      fill=ACCENT+(int(50*sp2),),
+                      outline=ACCENT+(int(160*sp2),), width=2)
+                  d.text((cx+cw/2, py2+ph/2), stage, font=fstage,
+                         fill=(180, 200, 255, int(255*sp2)), anchor="mm")
+
+          def draw_outro(img, prog, total, bd, total_athletes, total_sports):
               d = ImageDraw.Draw(img, "RGBA")
               p = ease_out(clamp(prog))
-              d.text((W/2,720), "INDIA", font=font(140,"bold"), fill=WHITE+(int(255*p),), anchor="mt")
-              d.text((W/2,900), f"{total} MEDALS", font=font(72,"bold"), fill=GOLD+(int(255*p),), anchor="mt")
-              y = 1180
-              for label, n, col in [("GOLD",bd["gold"],GOLD),("SILVER",bd["silver"],SILVER),("BRONZE",bd["bronze"],BRONZE)]:
-                  d.text((W/2-80,y), label, font=font(42,"med"), fill=col+(int(255*p),), anchor="rm")
-                  d.text((W/2+80,y), str(n), font=font(54,"bold"), fill=WHITE+(int(255*p),), anchor="lm")
-                  y += 110
-              d.text((W/2,1750), "FOLLOW FOR LIVE UPDATES", font=font(30,"med"), fill=MUTED+(int(255*p),), anchor="mt")
+              d.text((W/2,600), "INDIA", font=font(140,"bold"),
+                     fill=WHITE+(int(255*p),), anchor="mt")
+              d.text((W/2,780), f"{total} MEDALS", font=font(72,"bold"),
+                     fill=GOLD+(int(255*p),), anchor="mt")
+              d.text((W/2,900), f"{total_athletes} ATHLETES · {total_sports} SPORTS",
+                     font=font(30,"med"), fill=ACCENT+(int(200*p),), anchor="mt")
 
+              y = 1080
+              for label, n, col in [("GOLD",bd["gold"],GOLD),("SILVER",bd["silver"],SILVER),("BRONZE",bd["bronze"],BRONZE)]:
+                  d.text((W/2-80,y), label, font=font(42,"med"),
+                         fill=col+(int(255*p),), anchor="rm")
+                  d.text((W/2+80,y), str(n), font=font(54,"bold"),
+                         fill=WHITE+(int(255*p),), anchor="lm")
+                  y += 110
+
+              d.text((W/2,1700), "THANK YOU FOR WATCHING", font=font(34,"med"),
+                     fill=MUTED+(int(255*p),), anchor="mt")
+              d.text((W/2,1760), "FOLLOW FOR LIVE UPDATES", font=font(26,"med"),
+                     fill=DIM+(int(255*p),), anchor="mt")
+
+          # ─────────── Main ───────────
           if not os.path.exists(DATA_IN):
-              print(f"✗ {DATA_IN} not found")
-              sys.exit(1)
+              print(f"✗ {DATA_IN} not found"); sys.exit(1)
 
           print("Loading athletes…")
           with open(DATA_IN, encoding="utf-8") as f:
               data = json.load(f)
 
-          athletes = pick_athletes(data)
-          if not athletes:
+          by_sport = collect_all(data)
+          total_athletes = sum(len(v) for v in by_sport.values())
+          total_sports   = len(by_sport)
+
+          if not total_athletes:
               print("✗ No athletes")
               open(f"{OUT_DIR}/index.m3u8","w").write("#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-ENDLIST\n")
               sys.exit(0)
 
+          # Overall medal breakdown (unique medal+event)
           seen = set(); bd = {"gold":0,"silver":0,"bronze":0}
           for a in data:
               for m in a.get("medals", []):
@@ -280,15 +417,23 @@ jobs:
                   seen.add(k)
                   if m["medal"] in bd: bd[m["medal"]] += 1
           total = sum(bd.values())
-          print(f"Total: {total}  {bd}")
-          print(f"Cards: {len(athletes)}")
 
+          print(f"Total medals: {total}  {bd}")
+          print(f"Total athletes: {total_athletes}")
+          print(f"Total sports: {total_sports}")
+          print()
+          print("Breakdown by sport:")
+          for sport, list_ in by_sport.items():
+              print(f"  {sport}: {len(list_)}")
+
+          print()
           print("Loading photos…")
           ok = 0
-          for a in athletes:
-              a["_photo"] = load_photo(a["photo_url"])
-              if a["_photo"]: ok += 1
-          print(f"  → {ok}/{len(athletes)} photos loaded")
+          for sport, list_ in by_sport.items():
+              for a in list_:
+                  a["_photo"] = load_photo(a["photo_url"])
+                  if a["_photo"]: ok += 1
+          print(f"  → {ok}/{total_athletes} photos loaded")
 
           shutil.rmtree(FRAME_DIR, ignore_errors=True)
           Path(FRAME_DIR).mkdir(parents=True, exist_ok=True)
@@ -298,28 +443,46 @@ jobs:
               img.convert("RGB").save(f"{FRAME_DIR}/f_{counter[0]:05d}.png")
               counter[0] += 1
 
+          # ── Intro ──
           print("Intro…")
           for f in range(INTRO_FRAMES):
               img = background().convert("RGBA")
-              draw_intro(img, f/(INTRO_FRAMES-1), total, bd)
+              draw_intro(img, f/(INTRO_FRAMES-1), total, bd, total_athletes, total_sports)
               save(img)
 
-          print(f"Cards ({len(athletes)})…")
-          for i, ath in enumerate(athletes):
-              for f in range(CARD_FRAMES):
+          # ── Sports + Athletes ──
+          global_idx = 0
+          sport_idx = 0
+          for sport, list_ in by_sport.items():
+              sport_idx += 1
+
+              # Sport transition card
+              print(f"Sport {sport_idx}: {sport} ({len(list_)} athletes)")
+              for f in range(SPORT_FRAMES):
                   img = background().convert("RGBA")
-                  prog = (f/TRANS_FRAMES)*0.5 if f < TRANS_FRAMES else 0.5 + ((f-TRANS_FRAMES)/(CARD_FRAMES-TRANS_FRAMES))*0.5
-                  draw_card(img, ath, ath["_photo"], prog, i, len(athletes))
+                  draw_sport_header(img, sport, len(list_), f/(SPORT_FRAMES-1))
                   save(img)
 
+              # Athletes within sport
+              for ath in list_:
+                  global_idx += 1
+                  for f in range(CARD_FRAMES):
+                      img = background().convert("RGBA")
+                      prog = (f/TRANS_FRAMES)*0.5 if f < TRANS_FRAMES \
+                             else 0.5 + ((f-TRANS_FRAMES)/(CARD_FRAMES-TRANS_FRAMES))*0.5
+                      draw_card(img, ath, ath["_photo"], prog, global_idx-1, total_athletes, sport_idx)
+                      save(img)
+
+          # ── Outro ──
           print("Outro…")
           for f in range(OUTRO_FRAMES):
               img = background().convert("RGBA")
-              draw_outro(img, f/(OUTRO_FRAMES-1), total, bd)
+              draw_outro(img, f/(OUTRO_FRAMES-1), total, bd, total_athletes, total_sports)
               save(img)
 
           print(f"✅ {counter[0]} frames")
 
+          # ── Encode HLS ──
           print("Encoding HLS…")
           Path(OUT_DIR).mkdir(parents=True, exist_ok=True)
           for old in Path(OUT_DIR).glob("*.ts"): old.unlink()
@@ -329,7 +492,7 @@ jobs:
               "ffmpeg", "-y",
               "-framerate", str(FPS),
               "-i", f"{FRAME_DIR}/f_%05d.png",
-              "-c:v", "libx264", "-preset", "medium", "-crf", "21",
+              "-c:v", "libx264", "-preset", "medium", "-crf", "23",
               "-pix_fmt", "yuv420p",
               "-g", "60", "-keyint_min", "60", "-sc_threshold", "0",
               "-f", "hls", "-hls_time", "2", "-hls_playlist_type", "vod",
@@ -338,7 +501,6 @@ jobs:
           ], check=True)
 
           shutil.rmtree("build", ignore_errors=True)
-
           files = sorted(Path(OUT_DIR).glob("*"))
           print(f"✅ HLS → {OUT_DIR}/ ({len(files)} files)")
           PYEOF
