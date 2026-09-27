@@ -265,7 +265,7 @@
           "Medal": "1",
           "Status": "START_LIST",
           "StatusDesc": "Start List",
-          "DateTimeRaw": "2026-09-28T20:05:00+09:00",
+          "DateTimeRaw": "2026-09-28T20:08:00+09:00",
           "HideStartDate": false,
           "Estimated": false,
           "EstText": "",
@@ -293,6 +293,147 @@
             "Partics": 12,
             "Orgs": 7
           }
+        }
+      ],
+      "historical": null
+    }
+  },
+  {
+    "reg": "1182617",
+    "name": "KUSHARE Sarvesh ANIL",
+    "org": "IND",
+    "org_desc": "India",
+    "disc": "ATH",
+    "disc_desc": "Athletics",
+    "photo_url": "https://results.asiangames2026.org/ag2026/photos/1182617.jpg",
+    "medals": [
+      {
+        "medal": "silver",
+        "event": "Men's High Jump"
+      }
+    ],
+    "bio_data": {
+      "participant": {
+        "Reg": "1182617",
+        "Disc": "ATH",
+        "DiscDesc": "Athletics",
+        "hasMembers": false,
+        "Org": "IND",
+        "OrgDesc": "India",
+        "Type": "A",
+        "Gender": "M",
+        "BirthDateRaw": "1995-06-17",
+        "Name": "KUSHARE Sarvesh ANIL",
+        "NameS": "KUSHARE S",
+        "GivenName": "Sarvesh",
+        "FamilyName": "KUSHARE",
+        "IFId": "14675319",
+        "Height": null,
+        "Weight": null
+      },
+      "entries": [
+        {
+          "Disc": "ATH",
+          "Reg": "1182617",
+          "EvKey": "M.HIGHJUMP----------",
+          "Desc": "Men's High Jump",
+          "DescS": "Men's High Jump",
+          "isMember": false,
+          "Medal": "ME_SILVER",
+          "Rank": "2",
+          "IRM": "OK",
+          "Result": "2.25"
+        }
+      ],
+      "schedule": [
+        {
+          "Orgs": [
+            "TPE",
+            "IND",
+            "KOR",
+            "JPN",
+            "THA",
+            "OMA",
+            "SGP",
+            "PHI",
+            "HKG",
+            "BRN",
+            "QAT"
+          ],
+          "IsPhase": false,
+          "ResCode": "M.HIGHJUMP----------.FNL-.000100--",
+          "ShowLink": true,
+          "Disc": "ATH",
+          "DiscDesc": "Athletics",
+          "Key": "M.HIGHJUMP----------.FNL-.000100--",
+          "isH2H": false,
+          "Type": "A",
+          "Medal": "1",
+          "Status": "OFFICIAL",
+          "StatusDesc": "Official",
+          "DateTimeRaw": "2026-09-27T19:45:00+09:00",
+          "HideStartDate": false,
+          "Estimated": false,
+          "EstText": "",
+          "HideLocation": false,
+          "Venue": "MPA",
+          "VenueDesc": "Nagoya City Mizuho Park Athletic Stadium",
+          "VenueDescS": "Nagoya City Mizuho Park Athletic Stadium",
+          "Loc": "001",
+          "LocDesc": "National Stadium",
+          "LocDescS": "National Stadium",
+          "Event": "M.HIGHJUMP----------",
+          "EventDesc": "Men's High Jump",
+          "Phase": "M.HIGHJUMP----------.FNL-",
+          "PhaseOrder": 1,
+          "PhaseDesc": "Men's High Jump Final",
+          "PhaseDescS": "Men's High Jump F",
+          "PhaseDescA": "Final",
+          "UnitDesc": "Men's High Jump Final",
+          "UnitDescS": "Men's High Jump F",
+          "UnitDescA": "",
+          "UnitNum": "1",
+          "IsLive": false,
+          "ShowResults": true,
+          "Counters": {
+            "Partics": 14,
+            "Orgs": 11
+          },
+          "Results": [
+            {
+              "Reg": "998221",
+              "Org": "TPE",
+              "Name": "FU Chao-hsuan",
+              "NameS": "FU C",
+              "Result": "2.25",
+              "Winner": false,
+              "RkPo": 1,
+              "HasData": true,
+              "Medal": "ME_GOLD"
+            },
+            {
+              "Reg": "1182617",
+              "Org": "IND",
+              "Name": "KUSHARE Sarvesh ANIL",
+              "NameS": "KUSHARE S",
+              "Result": "2.25",
+              "Winner": false,
+              "RkPo": 2,
+              "HasData": true,
+              "Medal": "ME_SILVER"
+            },
+            {
+              "Reg": "16745212",
+              "Org": "KOR",
+              "Name": "WOO Sanghyeok",
+              "NameS": "WOO S",
+              "Result": "2.22",
+              "Winner": false,
+              "RkPo": 3,
+              "HasData": true,
+              "Medal": "ME_BRONZE"
+            }
+          ]
         }
       ],
       "historical": null
@@ -583,6 +724,147 @@
     }
   },
   {
+    "reg": "7019692",
+    "name": "SOJAN EDAPPILLY Ancy",
+    "org": "IND",
+    "org_desc": "India",
+    "disc": "ATH",
+    "disc_desc": "Athletics",
+    "photo_url": "https://results.asiangames2026.org/ag2026/photos/7019692.jpg",
+    "medals": [
+      {
+        "medal": "silver",
+        "event": "Women's Long Jump"
+      }
+    ],
+    "bio_data": {
+      "participant": {
+        "Reg": "7019692",
+        "Disc": "ATH",
+        "DiscDesc": "Athletics",
+        "hasMembers": false,
+        "Org": "IND",
+        "OrgDesc": "India",
+        "Type": "A",
+        "Gender": "W",
+        "BirthDateRaw": "2001-03-01",
+        "Name": "SOJAN EDAPPILLY Ancy",
+        "NameS": "SOJAN EDAPPILLY A",
+        "GivenName": "Ancy",
+        "FamilyName": "SOJAN EDAPPILLY",
+        "IFId": "14791355",
+        "Height": null,
+        "Weight": null
+      },
+      "entries": [
+        {
+          "Disc": "ATH",
+          "Reg": "7019692",
+          "EvKey": "W.LONGJUMP----------",
+          "Desc": "Women's Long Jump",
+          "DescS": "Women's Long Jump",
+          "isMember": false,
+          "Medal": "ME_SILVER",
+          "Rank": "2",
+          "IRM": "OK",
+          "Result": "6.53"
+        }
+      ],
+      "schedule": [
+        {
+          "Orgs": [
+            "CHN",
+            "IND",
+            "JPN",
+            "UZB",
+            "VIE",
+            "IRI",
+            "HKG",
+            "SRI",
+            "KAZ",
+            "BAN",
+            "MGL"
+          ],
+          "IsPhase": false,
+          "ResCode": "W.LONGJUMP----------.FNL-.000100--",
+          "ShowLink": true,
+          "Disc": "ATH",
+          "DiscDesc": "Athletics",
+          "Key": "W.LONGJUMP----------.FNL-.000100--",
+          "isH2H": false,
+          "Type": "A",
+          "Medal": "1",
+          "Status": "OFFICIAL",
+          "StatusDesc": "Official",
+          "DateTimeRaw": "2026-09-27T18:55:00+09:00",
+          "HideStartDate": false,
+          "Estimated": false,
+          "EstText": "",
+          "HideLocation": false,
+          "Venue": "MPA",
+          "VenueDesc": "Nagoya City Mizuho Park Athletic Stadium",
+          "VenueDescS": "Nagoya City Mizuho Park Athletic Stadium",
+          "Loc": "001",
+          "LocDesc": "National Stadium",
+          "LocDescS": "National Stadium",
+          "Event": "W.LONGJUMP----------",
+          "EventDesc": "Women's Long Jump",
+          "Phase": "W.LONGJUMP----------.FNL-",
+          "PhaseOrder": 1,
+          "PhaseDesc": "Women's Long Jump Final",
+          "PhaseDescS": "Women's Long Jump F",
+          "PhaseDescA": "Final",
+          "UnitDesc": "Women's Long Jump Final",
+          "UnitDescS": "Women's Long Jump F",
+          "UnitDescA": "",
+          "UnitNum": "1",
+          "IsLive": false,
+          "ShowResults": true,
+          "Counters": {
+            "Partics": 16,
+            "Orgs": 11
+          },
+          "Results": [
+            {
+              "Reg": "12313678",
+              "Org": "CHN",
+              "Name": "HUANG Yingying",
+              "NameS": "HUANG Y",
+              "Result": "6.55",
+              "Winner": false,
+              "RkPo": 1,
+              "HasData": true,
+              "Medal": "ME_GOLD"
+            },
+            {
+              "Reg": "7019692",
+              "Org": "IND",
+              "Name": "SOJAN EDAPPILLY Ancy",
+              "NameS": "SOJAN EDAPPILLY A",
+              "Result": "6.53",
+              "Winner": false,
+              "RkPo": 2,
+              "HasData": true,
+              "Medal": "ME_SILVER"
+            },
+            {
+              "Reg": "12311829",
+              "Org": "CHN",
+              "Name": "TAN Mengyi",
+              "NameS": "TAN M",
+              "Result": "6.46",
+              "Winner": false,
+              "RkPo": 3,
+              "HasData": true,
+              "Medal": "ME_BRONZE"
+            }
+          ]
+        }
+      ],
+      "historical": null
+    }
+  },
+  {
     "reg": "ATHX4X400M-----IND01",
     "name": "India",
     "org": "IND",
@@ -629,20 +911,6 @@
             "Substitute": false
           },
           {
-            "Reg": "4788190",
-            "Org": "IND",
-            "Gender": "M",
-            "Order": 1,
-            "Bib": "1038",
-            "Name": "THEKKINALIL Manu",
-            "BirthDateRaw": "2001-10-17",
-            "Position": "",
-            "PosDesc": "",
-            "Function": "AA01",
-            "FuncDesc": "Athlete",
-            "Substitute": false
-          },
-          {
             "Reg": "15776637",
             "Org": "IND",
             "Gender": "M",
@@ -650,6 +918,20 @@
             "Bib": "1037",
             "Name": "KUMAR Jay",
             "BirthDateRaw": "2006-06-10",
+            "Position": "",
+            "PosDesc": "",
+            "Function": "AA01",
+            "FuncDesc": "Athlete",
+            "Substitute": false
+          },
+          {
+            "Reg": "4788190",
+            "Org": "IND",
+            "Gender": "M",
+            "Order": 1,
+            "Bib": "1038",
+            "Name": "THEKKINALIL Manu",
+            "BirthDateRaw": "2001-10-17",
             "Position": "",
             "PosDesc": "",
             "Function": "AA01",
@@ -1200,6 +1482,142 @@
     }
   },
   {
+    "reg": "15776637",
+    "name": "KUMAR Jay",
+    "org": "IND",
+    "org_desc": "India",
+    "disc": "ATH",
+    "disc_desc": "Athletics",
+    "photo_url": "https://results.asiangames2026.org/ag2026/photos/15776637.jpg",
+    "medals": [
+      {
+        "medal": "silver",
+        "event": "4 x 400m Relay Mixed"
+      }
+    ],
+    "bio_data": {
+      "participant": {
+        "Reg": "15776637",
+        "Disc": "ATH",
+        "DiscDesc": "Athletics",
+        "hasMembers": false,
+        "Org": "IND",
+        "OrgDesc": "India",
+        "Type": "A",
+        "Gender": "M",
+        "BirthDateRaw": "2006-06-10",
+        "Name": "KUMAR Jay",
+        "NameS": "KUMAR J",
+        "GivenName": "Jay",
+        "FamilyName": "KUMAR",
+        "IFId": "15162076",
+        "Height": null,
+        "Weight": null
+      },
+      "entries": [
+        {
+          "Disc": "ATH",
+          "Reg": "15776637",
+          "EvKey": "X.4X400M------------",
+          "Desc": "4 x 400m Relay Mixed",
+          "DescS": "4 x 400m Relay Mixed",
+          "isMember": true,
+          "TeamReg": "ATHX4X400M-----IND01",
+          "TeamOrg": "IND",
+          "TeamName": "India",
+          "Medal": "ME_SILVER",
+          "Rank": "2",
+          "IRM": "OK",
+          "Result": "3:14.46"
+        }
+      ],
+      "schedule": [
+        {
+          "Orgs": [
+            "CHN",
+            "IND",
+            "UAE",
+            "KOR",
+            "SRI",
+            "KAZ"
+          ],
+          "IsPhase": false,
+          "ResCode": "X.4X400M------------.RND1.000200--",
+          "ShowLink": true,
+          "Disc": "ATH",
+          "DiscDesc": "Athletics",
+          "Key": "X.4X400M------------.RND1.000200--",
+          "isH2H": false,
+          "Type": "T",
+          "Medal": "",
+          "Status": "OFFICIAL",
+          "StatusDesc": "Official",
+          "DateTimeRaw": "2026-09-24T10:31:00+09:00",
+          "HideStartDate": false,
+          "Estimated": false,
+          "EstText": "",
+          "HideLocation": false,
+          "Venue": "MPA",
+          "VenueDesc": "Nagoya City Mizuho Park Athletic Stadium",
+          "VenueDescS": "Nagoya City Mizuho Park Athletic Stadium",
+          "Loc": "001",
+          "LocDesc": "National Stadium",
+          "LocDescS": "National Stadium",
+          "Event": "X.4X400M------------",
+          "EventDesc": "4 x 400m Relay Mixed",
+          "Phase": "X.4X400M------------.RND1",
+          "PhaseOrder": 5,
+          "PhaseDesc": "4 x 400m Relay Mixed Round 1",
+          "PhaseDescS": "4 x 400m Relay Mixed R1",
+          "PhaseDescA": "Round 1",
+          "UnitDesc": "4 x 400m Relay Mixed Round 1 Heat 2",
+          "UnitDescS": "4 x 400m Relay Mixed R1 Heat 2",
+          "UnitDescA": "Heat 2",
+          "UnitNum": "2",
+          "IsLive": false,
+          "ShowResults": true,
+          "Counters": {
+            "Partics": 6,
+            "Orgs": 6
+          },
+          "Results": [
+            {
+              "Reg": "ATHX4X400M-----CHN01",
+              "Org": "CHN",
+              "Name": "People's Republic of China",
+              "NameS": "China",
+              "Result": "3:15.97",
+              "Winner": false,
+              "RkPo": 1,
+              "HasData": true
+            },
+            {
+              "Reg": "ATHX4X400M-----IND01",
+              "Org": "IND",
+              "Name": "India",
+              "NameS": "India",
+              "Result": "3:16.23",
+              "Winner": false,
+              "RkPo": 2,
+              "HasData": true
+            },
+            {
+              "Reg": "ATHX4X400M-----UAE01",
+              "Org": "UAE",
+              "Name": "United Arab Emirates",
+              "NameS": "UA Emirates",
+              "Result": "3:17.00",
+              "Winner": false,
+              "RkPo": 3,
+              "HasData": true
+            }
+          ]
+        }
+      ],
+      "historical": null
+    }
+  },
+  {
     "reg": "4788190",
     "name": "THEKKINALIL Manu",
     "org": "IND",
@@ -1414,142 +1832,6 @@
               "RkPo": 3,
               "HasData": true,
               "Medal": "ME_BRONZE"
-            }
-          ]
-        }
-      ],
-      "historical": null
-    }
-  },
-  {
-    "reg": "15776637",
-    "name": "KUMAR Jay",
-    "org": "IND",
-    "org_desc": "India",
-    "disc": "ATH",
-    "disc_desc": "Athletics",
-    "photo_url": "https://results.asiangames2026.org/ag2026/photos/15776637.jpg",
-    "medals": [
-      {
-        "medal": "silver",
-        "event": "4 x 400m Relay Mixed"
-      }
-    ],
-    "bio_data": {
-      "participant": {
-        "Reg": "15776637",
-        "Disc": "ATH",
-        "DiscDesc": "Athletics",
-        "hasMembers": false,
-        "Org": "IND",
-        "OrgDesc": "India",
-        "Type": "A",
-        "Gender": "M",
-        "BirthDateRaw": "2006-06-10",
-        "Name": "KUMAR Jay",
-        "NameS": "KUMAR J",
-        "GivenName": "Jay",
-        "FamilyName": "KUMAR",
-        "IFId": "15162076",
-        "Height": null,
-        "Weight": null
-      },
-      "entries": [
-        {
-          "Disc": "ATH",
-          "Reg": "15776637",
-          "EvKey": "X.4X400M------------",
-          "Desc": "4 x 400m Relay Mixed",
-          "DescS": "4 x 400m Relay Mixed",
-          "isMember": true,
-          "TeamReg": "ATHX4X400M-----IND01",
-          "TeamOrg": "IND",
-          "TeamName": "India",
-          "Medal": "ME_SILVER",
-          "Rank": "2",
-          "IRM": "OK",
-          "Result": "3:14.46"
-        }
-      ],
-      "schedule": [
-        {
-          "Orgs": [
-            "CHN",
-            "IND",
-            "UAE",
-            "KOR",
-            "SRI",
-            "KAZ"
-          ],
-          "IsPhase": false,
-          "ResCode": "X.4X400M------------.RND1.000200--",
-          "ShowLink": true,
-          "Disc": "ATH",
-          "DiscDesc": "Athletics",
-          "Key": "X.4X400M------------.RND1.000200--",
-          "isH2H": false,
-          "Type": "T",
-          "Medal": "",
-          "Status": "OFFICIAL",
-          "StatusDesc": "Official",
-          "DateTimeRaw": "2026-09-24T10:31:00+09:00",
-          "HideStartDate": false,
-          "Estimated": false,
-          "EstText": "",
-          "HideLocation": false,
-          "Venue": "MPA",
-          "VenueDesc": "Nagoya City Mizuho Park Athletic Stadium",
-          "VenueDescS": "Nagoya City Mizuho Park Athletic Stadium",
-          "Loc": "001",
-          "LocDesc": "National Stadium",
-          "LocDescS": "National Stadium",
-          "Event": "X.4X400M------------",
-          "EventDesc": "4 x 400m Relay Mixed",
-          "Phase": "X.4X400M------------.RND1",
-          "PhaseOrder": 5,
-          "PhaseDesc": "4 x 400m Relay Mixed Round 1",
-          "PhaseDescS": "4 x 400m Relay Mixed R1",
-          "PhaseDescA": "Round 1",
-          "UnitDesc": "4 x 400m Relay Mixed Round 1 Heat 2",
-          "UnitDescS": "4 x 400m Relay Mixed R1 Heat 2",
-          "UnitDescA": "Heat 2",
-          "UnitNum": "2",
-          "IsLive": false,
-          "ShowResults": true,
-          "Counters": {
-            "Partics": 6,
-            "Orgs": 6
-          },
-          "Results": [
-            {
-              "Reg": "ATHX4X400M-----CHN01",
-              "Org": "CHN",
-              "Name": "People's Republic of China",
-              "NameS": "China",
-              "Result": "3:15.97",
-              "Winner": false,
-              "RkPo": 1,
-              "HasData": true
-            },
-            {
-              "Reg": "ATHX4X400M-----IND01",
-              "Org": "IND",
-              "Name": "India",
-              "NameS": "India",
-              "Result": "3:16.23",
-              "Winner": false,
-              "RkPo": 2,
-              "HasData": true
-            },
-            {
-              "Reg": "ATHX4X400M-----UAE01",
-              "Org": "UAE",
-              "Name": "United Arab Emirates",
-              "NameS": "UA Emirates",
-              "Result": "3:17.00",
-              "Winner": false,
-              "RkPo": 3,
-              "HasData": true
             }
           ]
         }
@@ -2395,6 +2677,871 @@
     }
   },
   {
+    "reg": "16164087",
+    "name": "SHANKAR Tejaswin",
+    "org": "IND",
+    "org_desc": "India",
+    "disc": "ATH",
+    "disc_desc": "Athletics",
+    "photo_url": "https://results.asiangames2026.org/ag2026/photos/16164087.jpg",
+    "medals": [
+      {
+        "medal": "bronze",
+        "event": "Men's Decathlon"
+      }
+    ],
+    "bio_data": {
+      "participant": {
+        "Reg": "16164087",
+        "Disc": "ATH",
+        "DiscDesc": "Athletics",
+        "hasMembers": false,
+        "Org": "IND",
+        "OrgDesc": "India",
+        "Type": "A",
+        "Gender": "M",
+        "BirthDateRaw": "1998-12-21",
+        "Name": "SHANKAR Tejaswin",
+        "NameS": "SHANKAR T",
+        "GivenName": "Tejaswin",
+        "FamilyName": "SHANKAR",
+        "IFId": "14714481",
+        "Height": null,
+        "Weight": null
+      },
+      "entries": [
+        {
+          "Disc": "ATH",
+          "Reg": "16164087",
+          "EvKey": "M.DECATH------------",
+          "Desc": "Men's Decathlon",
+          "DescS": "Men's Decathlon",
+          "isMember": false,
+          "Medal": "ME_BRONZE",
+          "Rank": "3",
+          "IRM": "OK",
+          "Result": "7934"
+        }
+      ],
+      "schedule": [
+        {
+          "Orgs": [
+            "CHN",
+            "JPN",
+            "IND",
+            "UZB",
+            "TPE",
+            "KOR"
+          ],
+          "IsPhase": false,
+          "ResCode": "M.DECATH------------.100-.000200--",
+          "ShowLink": true,
+          "Disc": "ATH",
+          "DiscDesc": "Athletics",
+          "Key": "M.DECATH------------.100-.000200--",
+          "isH2H": false,
+          "Type": "A",
+          "Medal": "",
+          "Status": "OFFICIAL",
+          "StatusDesc": "Official",
+          "DateTimeRaw": "2026-09-26T09:13:00+09:00",
+          "HideStartDate": false,
+          "Estimated": false,
+          "EstText": "",
+          "HideLocation": false,
+          "Venue": "MPA",
+          "VenueDesc": "Nagoya City Mizuho Park Athletic Stadium",
+          "VenueDescS": "Nagoya City Mizuho Park Athletic Stadium",
+          "Loc": "001",
+          "LocDesc": "National Stadium",
+          "LocDescS": "National Stadium",
+          "Event": "M.DECATH------------",
+          "EventDesc": "Men's Decathlon",
+          "Phase": "M.DECATH------------.100-",
+          "PhaseOrder": 19,
+          "PhaseDesc": "Men's Decathlon 100 Metres",
+          "PhaseDescS": "Men's Decathlon 100 Metres",
+          "PhaseDescA": "100 Metres",
+          "UnitDesc": "Men's Decathlon 100 Metres Heat 2",
+          "UnitDescS": "Men's Decathlon 100 Metres Heat 2",
+          "UnitDescA": "Heat 2",
+          "UnitNum": "2",
+          "IsLive": false,
+          "ShowResults": true,
+          "Counters": {
+            "Partics": 6,
+            "Orgs": 6
+          },
+          "Results": [
+            {
+              "Reg": "3656141",
+              "Org": "CHN",
+              "Name": "CHEN Xinghua",
+              "NameS": "CHEN X",
+              "Result": "10.72",
+              "Winner": false,
+              "RkPo": 1,
+              "HasData": true
+            },
+            {
+              "Reg": "10883719",
+              "Org": "JPN",
+              "Name": "MARUYAMA Yuma",
+              "NameS": "MARUYAMA Y",
+              "Result": "10.75",
+              "Winner": false,
+              "RkPo": 2,
+              "HasData": true
+            },
+            {
+              "Reg": "16164087",
+              "Org": "IND",
+              "Name": "SHANKAR Tejaswin",
+              "NameS": "SHANKAR T",
+              "Result": "10.98",
+              "Winner": false,
+              "RkPo": 3,
+              "HasData": true
+            }
+          ]
+        },
+        {
+          "Orgs": [
+            "IND",
+            "CHN",
+            "UZB",
+            "JPN",
+            "TPE",
+            "KSA",
+            "KOR"
+          ],
+          "IsPhase": false,
+          "ResCode": "M.DECATH------------.LJ--.000100--",
+          "ShowLink": true,
+          "Disc": "ATH",
+          "DiscDesc": "Athletics",
+          "Key": "M.DECATH------------.LJ--.000100--",
+          "isH2H": false,
+          "Type": "A",
+          "Medal": "",
+          "Status": "OFFICIAL",
+          "StatusDesc": "Official",
+          "DateTimeRaw": "2026-09-26T09:45:00+09:00",
+          "HideStartDate": false,
+          "Estimated": false,
+          "EstText": "",
+          "HideLocation": false,
+          "Venue": "MPA",
+          "VenueDesc": "Nagoya City Mizuho Park Athletic Stadium",
+          "VenueDescS": "Nagoya City Mizuho Park Athletic Stadium",
+          "Loc": "001",
+          "LocDesc": "National Stadium",
+          "LocDescS": "National Stadium",
+          "Event": "M.DECATH------------",
+          "EventDesc": "Men's Decathlon",
+          "Phase": "M.DECATH------------.LJ--",
+          "PhaseOrder": 18,
+          "PhaseDesc": "Men's Decathlon Long Jump",
+          "PhaseDescS": "Men's Decathlon Long Jump",
+          "PhaseDescA": "Long Jump",
+          "UnitDesc": "Men's Decathlon Long Jump",
+          "UnitDescS": "Men's Decathlon Long Jump",
+          "UnitDescA": "",
+          "UnitNum": "1",
+          "IsLive": false,
+          "ShowResults": true,
+          "Counters": {
+            "Partics": 12,
+            "Orgs": 7
+          },
+          "Results": [
+            {
+              "Reg": "16164087",
+              "Org": "IND",
+              "Name": "SHANKAR Tejaswin",
+              "NameS": "SHANKAR T",
+              "Result": "7.53",
+              "Winner": false,
+              "RkPo": 1,
+              "HasData": true
+            },
+            {
+              "Reg": "3656141",
+              "Org": "CHN",
+              "Name": "CHEN Xinghua",
+              "NameS": "CHEN X",
+              "Result": "7.43",
+              "Winner": false,
+              "RkPo": 2,
+              "HasData": true
+            },
+            {
+              "Reg": "14184956",
+              "Org": "IND",
+              "Name": "NOUSHAD Thowfeeq",
+              "NameS": "NOUSHAD T",
+              "Result": "7.37",
+              "Winner": false,
+              "RkPo": 3,
+              "HasData": true
+            }
+          ]
+        },
+        {
+          "Orgs": [
+            "JPN",
+            "TPE",
+            "CHN",
+            "KSA",
+            "IND",
+            "UZB",
+            "KOR"
+          ],
+          "IsPhase": false,
+          "ResCode": "M.DECATH------------.SP--.000100--",
+          "ShowLink": true,
+          "Disc": "ATH",
+          "DiscDesc": "Athletics",
+          "Key": "M.DECATH------------.SP--.000100--",
+          "isH2H": false,
+          "Type": "A",
+          "Medal": "",
+          "Status": "OFFICIAL",
+          "StatusDesc": "Official",
+          "DateTimeRaw": "2026-09-26T11:25:00+09:00",
+          "HideStartDate": false,
+          "Estimated": false,
+          "EstText": "",
+          "HideLocation": false,
+          "Venue": "MPA",
+          "VenueDesc": "Nagoya City Mizuho Park Athletic Stadium",
+          "VenueDescS": "Nagoya City Mizuho Park Athletic Stadium",
+          "Loc": "001",
+          "LocDesc": "National Stadium",
+          "LocDescS": "National Stadium",
+          "Event": "M.DECATH------------",
+          "EventDesc": "Men's Decathlon",
+          "Phase": "M.DECATH------------.SP--",
+          "PhaseOrder": 17,
+          "PhaseDesc": "Men's Decathlon Shot Put",
+          "PhaseDescS": "Men's Decathlon Shot Put",
+          "PhaseDescA": "Shot Put",
+          "UnitDesc": "Men's Decathlon Shot Put",
+          "UnitDescS": "Men's Decathlon Shot Put",
+          "UnitDescA": "",
+          "UnitNum": "1",
+          "IsLive": false,
+          "ShowResults": true,
+          "Counters": {
+            "Partics": 12,
+            "Orgs": 7
+          },
+          "Results": [
+            {
+              "Reg": "10883719",
+              "Org": "JPN",
+              "Name": "MARUYAMA Yuma",
+              "NameS": "MARUYAMA Y",
+              "Result": "14.03",
+              "Winner": false,
+              "RkPo": 1,
+              "HasData": true
+            },
+            {
+              "Reg": "5036850",
+              "Org": "TPE",
+              "Name": "WANG Chen-yu",
+              "NameS": "WANG C",
+              "Result": "13.56",
+              "Winner": false,
+              "RkPo": 2,
+              "HasData": true
+            },
+            {
+              "Reg": "3656141",
+              "Org": "CHN",
+              "Name": "CHEN Xinghua",
+              "NameS": "CHEN X",
+              "Result": "13.25",
+              "Winner": false,
+              "RkPo": 3,
+              "HasData": true
+            }
+          ]
+        },
+        {
+          "Orgs": [
+            "IND",
+            "UZB",
+            "JPN",
+            "CHN",
+            "TPE",
+            "KOR",
+            "KSA"
+          ],
+          "IsPhase": false,
+          "ResCode": "M.DECATH------------.HJ--.000100--",
+          "ShowLink": true,
+          "Disc": "ATH",
+          "DiscDesc": "Athletics",
+          "Key": "M.DECATH------------.HJ--.000100--",
+          "isH2H": false,
+          "Type": "A",
+          "Medal": "",
+          "Status": "OFFICIAL",
+          "StatusDesc": "Official",
+          "DateTimeRaw": "2026-09-26T18:05:00+09:00",
+          "HideStartDate": false,
+          "Estimated": false,
+          "EstText": "",
+          "HideLocation": false,
+          "Venue": "MPA",
+          "VenueDesc": "Nagoya City Mizuho Park Athletic Stadium",
+          "VenueDescS": "Nagoya City Mizuho Park Athletic Stadium",
+          "Loc": "001",
+          "LocDesc": "National Stadium",
+          "LocDescS": "National Stadium",
+          "Event": "M.DECATH------------",
+          "EventDesc": "Men's Decathlon",
+          "Phase": "M.DECATH------------.HJ--",
+          "PhaseOrder": 16,
+          "PhaseDesc": "Men's Decathlon High Jump",
+          "PhaseDescS": "Men's Decathlon High Jump",
+          "PhaseDescA": "High Jump",
+          "UnitDesc": "Men's Decathlon High Jump",
+          "UnitDescS": "Men's Decathlon High Jump",
+          "UnitDescA": "",
+          "UnitNum": "1",
+          "IsLive": false,
+          "ShowResults": true,
+          "Counters": {
+            "Partics": 12,
+            "Orgs": 7
+          },
+          "Results": [
+            {
+              "Reg": "16164087",
+              "Org": "IND",
+              "Name": "SHANKAR Tejaswin",
+              "NameS": "SHANKAR T",
+              "Result": "2.18",
+              "Winner": false,
+              "RkPo": 1,
+              "HasData": true
+            },
+            {
+              "Reg": "5476159",
+              "Org": "UZB",
+              "Name": "NORBAEV Nodir",
+              "NameS": "NORBAEV N",
+              "Result": "2.03",
+              "Winner": false,
+              "RkPo": 2,
+              "HasData": true
+            },
+            {
+              "Reg": "10883719",
+              "Org": "JPN",
+              "Name": "MARUYAMA Yuma",
+              "NameS": "MARUYAMA Y",
+              "Result": "2.00",
+              "Winner": false,
+              "RkPo": 3,
+              "HasData": true
+            }
+          ]
+        },
+        {
+          "Orgs": [
+            "CHN",
+            "JPN",
+            "IND",
+            "UZB",
+            "TPE",
+            "KOR"
+          ],
+          "IsPhase": false,
+          "ResCode": "M.DECATH------------.400-.000200--",
+          "ShowLink": true,
+          "Disc": "ATH",
+          "DiscDesc": "Athletics",
+          "Key": "M.DECATH------------.400-.000200--",
+          "isH2H": false,
+          "Type": "A",
+          "Medal": "",
+          "Status": "OFFICIAL",
+          "StatusDesc": "Official",
+          "DateTimeRaw": "2026-09-26T21:30:00+09:00",
+          "HideStartDate": false,
+          "Estimated": false,
+          "EstText": "",
+          "HideLocation": false,
+          "Venue": "MPA",
+          "VenueDesc": "Nagoya City Mizuho Park Athletic Stadium",
+          "VenueDescS": "Nagoya City Mizuho Park Athletic Stadium",
+          "Loc": "001",
+          "LocDesc": "National Stadium",
+          "LocDescS": "National Stadium",
+          "Event": "M.DECATH------------",
+          "EventDesc": "Men's Decathlon",
+          "Phase": "M.DECATH------------.400-",
+          "PhaseOrder": 15,
+          "PhaseDesc": "Men's Decathlon 400 Metres",
+          "PhaseDescS": "Men's Decathlon 400 Metres",
+          "PhaseDescA": "400 Metres",
+          "UnitDesc": "Men's Decathlon 400 Metres Heat 2",
+          "UnitDescS": "Men's Decathlon 400 Metres Heat 2",
+          "UnitDescA": "Heat 2",
+          "UnitNum": "2",
+          "IsLive": false,
+          "ShowResults": true,
+          "Counters": {
+            "Partics": 6,
+            "Orgs": 6
+          },
+          "Results": [
+            {
+              "Reg": "3656141",
+              "Org": "CHN",
+              "Name": "CHEN Xinghua",
+              "NameS": "CHEN X",
+              "Result": "46.63",
+              "Winner": false,
+              "RkPo": 1,
+              "HasData": true
+            },
+            {
+              "Reg": "10883719",
+              "Org": "JPN",
+              "Name": "MARUYAMA Yuma",
+              "NameS": "MARUYAMA Y",
+              "Result": "48.28",
+              "Winner": false,
+              "RkPo": 2,
+              "HasData": true
+            },
+            {
+              "Reg": "16164087",
+              "Org": "IND",
+              "Name": "SHANKAR Tejaswin",
+              "NameS": "SHANKAR T",
+              "Result": "48.59",
+              "Winner": false,
+              "RkPo": 3,
+              "HasData": true
+            }
+          ]
+        },
+        {
+          "Orgs": [
+            "JPN",
+            "CHN",
+            "IND",
+            "TPE"
+          ],
+          "IsPhase": false,
+          "ResCode": "M.DECATH------------.110H.000100--",
+          "ShowLink": true,
+          "Disc": "ATH",
+          "DiscDesc": "Athletics",
+          "Key": "M.DECATH------------.110H.000100--",
+          "isH2H": false,
+          "Type": "A",
+          "Medal": "",
+          "Status": "OFFICIAL",
+          "StatusDesc": "Official",
+          "DateTimeRaw": "2026-09-27T11:00:00+09:00",
+          "HideStartDate": false,
+          "Estimated": false,
+          "EstText": "",
+          "HideLocation": false,
+          "Venue": "MPA",
+          "VenueDesc": "Nagoya City Mizuho Park Athletic Stadium",
+          "VenueDescS": "Nagoya City Mizuho Park Athletic Stadium",
+          "Loc": "001",
+          "LocDesc": "National Stadium",
+          "LocDescS": "National Stadium",
+          "Event": "M.DECATH------------",
+          "EventDesc": "Men's Decathlon",
+          "Phase": "M.DECATH------------.110H",
+          "PhaseOrder": 14,
+          "PhaseDesc": "Men's Decathlon 110 Metres Hurdles",
+          "PhaseDescS": "Men's Decathlon 110 Metres Hurdles",
+          "PhaseDescA": "110 Metres Hurdles",
+          "UnitDesc": "Men's Decathlon 110 Metres Hurdles Heat 1",
+          "UnitDescS": "Men's Decathlon 110 Metres Hurdles Heat 1",
+          "UnitDescA": "Heat 1",
+          "UnitNum": "1",
+          "IsLive": false,
+          "ShowResults": true,
+          "Counters": {
+            "Partics": 6,
+            "Orgs": 4
+          },
+          "Results": [
+            {
+              "Reg": "10883719",
+              "Org": "JPN",
+              "Name": "MARUYAMA Yuma",
+              "NameS": "MARUYAMA Y",
+              "Result": "14.00",
+              "Winner": false,
+              "RkPo": 1,
+              "HasData": true
+            },
+            {
+              "Reg": "3656141",
+              "Org": "CHN",
+              "Name": "CHEN Xinghua",
+              "NameS": "CHEN X",
+              "Result": "14.01",
+              "Winner": false,
+              "RkPo": 2,
+              "HasData": true
+            },
+            {
+              "Reg": "16164087",
+              "Org": "IND",
+              "Name": "SHANKAR Tejaswin",
+              "NameS": "SHANKAR T",
+              "Result": "14.33",
+              "Winner": false,
+              "RkPo": 3,
+              "HasData": true
+            }
+          ]
+        },
+        {
+          "Orgs": [
+            "JPN",
+            "UZB",
+            "CHN",
+            "TPE",
+            "IND",
+            "KOR"
+          ],
+          "IsPhase": false,
+          "ResCode": "M.DECATH------------.DT--.000100--",
+          "ShowLink": true,
+          "Disc": "ATH",
+          "DiscDesc": "Athletics",
+          "Key": "M.DECATH------------.DT--.000100--",
+          "isH2H": false,
+          "Type": "A",
+          "Medal": "",
+          "Status": "OFFICIAL",
+          "StatusDesc": "Official",
+          "DateTimeRaw": "2026-09-27T11:40:00+09:00",
+          "HideStartDate": false,
+          "Estimated": false,
+          "EstText": "",
+          "HideLocation": false,
+          "Venue": "MPA",
+          "VenueDesc": "Nagoya City Mizuho Park Athletic Stadium",
+          "VenueDescS": "Nagoya City Mizuho Park Athletic Stadium",
+          "Loc": "001",
+          "LocDesc": "National Stadium",
+          "LocDescS": "National Stadium",
+          "Event": "M.DECATH------------",
+          "EventDesc": "Men's Decathlon",
+          "Phase": "M.DECATH------------.DT--",
+          "PhaseOrder": 13,
+          "PhaseDesc": "Men's Decathlon Discus Throw",
+          "PhaseDescS": "Men's Decathlon Discus Throw",
+          "PhaseDescA": "Discus Throw",
+          "UnitDesc": "Men's Decathlon Discus Throw",
+          "UnitDescS": "Men's Decathlon Discus Throw",
+          "UnitDescA": "",
+          "UnitNum": "1",
+          "IsLive": false,
+          "ShowResults": true,
+          "Counters": {
+            "Partics": 11,
+            "Orgs": 6
+          },
+          "Results": [
+            {
+              "Reg": "10883719",
+              "Org": "JPN",
+              "Name": "MARUYAMA Yuma",
+              "NameS": "MARUYAMA Y",
+              "Result": "44.21",
+              "Winner": false,
+              "RkPo": 1,
+              "HasData": true
+            },
+            {
+              "Reg": "10882550",
+              "Org": "JPN",
+              "Name": "OKUDA Keisuke",
+              "NameS": "OKUDA K",
+              "Result": "43.91",
+              "Winner": false,
+              "RkPo": 2,
+              "HasData": true
+            },
+            {
+              "Reg": "5479404",
+              "Org": "UZB",
+              "Name": "SHOKIROV Zakhiriddin",
+              "NameS": "SHOKIROV Z",
+              "Result": "41.98",
+              "Winner": false,
+              "RkPo": 3,
+              "HasData": true
+            }
+          ]
+        },
+        {
+          "Orgs": [
+            "UZB",
+            "JPN",
+            "KOR",
+            "IND",
+            "TPE"
+          ],
+          "IsPhase": false,
+          "ResCode": "M.DECATH------------.PV--.000100--",
+          "ShowLink": true,
+          "Disc": "ATH",
+          "DiscDesc": "Athletics",
+          "Key": "M.DECATH------------.PV--.000100--",
+          "isH2H": false,
+          "Type": "A",
+          "Medal": "",
+          "Status": "OFFICIAL",
+          "StatusDesc": "Official",
+          "DateTimeRaw": "2026-09-27T13:20:00+09:00",
+          "HideStartDate": false,
+          "Estimated": false,
+          "EstText": "",
+          "HideLocation": false,
+          "Venue": "MPA",
+          "VenueDesc": "Nagoya City Mizuho Park Athletic Stadium",
+          "VenueDescS": "Nagoya City Mizuho Park Athletic Stadium",
+          "Loc": "001",
+          "LocDesc": "National Stadium",
+          "LocDescS": "National Stadium",
+          "Event": "M.DECATH------------",
+          "EventDesc": "Men's Decathlon",
+          "Phase": "M.DECATH------------.PV--",
+          "PhaseOrder": 12,
+          "PhaseDesc": "Men's Decathlon Pole Vault",
+          "PhaseDescS": "Men's Decathlon Pole Vault",
+          "PhaseDescA": "Pole Vault",
+          "UnitDesc": "Men's Decathlon Pole Vault Group A",
+          "UnitDescS": "Men's Decathlon Pole Vault Gp A",
+          "UnitDescA": "Group A",
+          "UnitNum": "1",
+          "IsLive": false,
+          "ShowResults": true,
+          "Counters": {
+            "Partics": 5,
+            "Orgs": 5
+          },
+          "Results": [
+            {
+              "Reg": "5479404",
+              "Org": "UZB",
+              "Name": "SHOKIROV Zakhiriddin",
+              "NameS": "SHOKIROV Z",
+              "Result": "4.70",
+              "Winner": false,
+              "RkPo": 1,
+              "HasData": true
+            },
+            {
+              "Reg": "10882550",
+              "Org": "JPN",
+              "Name": "OKUDA Keisuke",
+              "NameS": "OKUDA K",
+              "Result": "4.50",
+              "Winner": false,
+              "RkPo": 2,
+              "HasData": true
+            },
+            {
+              "Reg": "16728969",
+              "Org": "KOR",
+              "Name": "LEE Yuseong",
+              "NameS": "LEE Y",
+              "Result": "4.50",
+              "Winner": false,
+              "RkPo": 3,
+              "HasData": true
+            }
+          ]
+        },
+        {
+          "Orgs": [
+            "UZB",
+            "TPE",
+            "KOR",
+            "IND",
+            "CHN",
+            "JPN"
+          ],
+          "IsPhase": false,
+          "ResCode": "M.DECATH------------.JT--.000100--",
+          "ShowLink": true,
+          "Disc": "ATH",
+          "DiscDesc": "Athletics",
+          "Key": "M.DECATH------------.JT--.000100--",
+          "isH2H": false,
+          "Type": "A",
+          "Medal": "",
+          "Status": "OFFICIAL",
+          "StatusDesc": "Official",
+          "DateTimeRaw": "2026-09-27T19:05:00+09:00",
+          "HideStartDate": false,
+          "Estimated": false,
+          "EstText": "",
+          "HideLocation": false,
+          "Venue": "MPA",
+          "VenueDesc": "Nagoya City Mizuho Park Athletic Stadium",
+          "VenueDescS": "Nagoya City Mizuho Park Athletic Stadium",
+          "Loc": "001",
+          "LocDesc": "National Stadium",
+          "LocDescS": "National Stadium",
+          "Event": "M.DECATH------------",
+          "EventDesc": "Men's Decathlon",
+          "Phase": "M.DECATH------------.JT--",
+          "PhaseOrder": 11,
+          "PhaseDesc": "Men's Decathlon Javelin Throw",
+          "PhaseDescS": "Men's Decathlon Javelin Throw",
+          "PhaseDescA": "Javelin Throw",
+          "UnitDesc": "Men's Decathlon Javelin Throw",
+          "UnitDescS": "Men's Decathlon Javelin Throw",
+          "UnitDescA": "",
+          "UnitNum": "1",
+          "IsLive": false,
+          "ShowResults": true,
+          "Counters": {
+            "Partics": 10,
+            "Orgs": 6
+          },
+          "Results": [
+            {
+              "Reg": "5476159",
+              "Org": "UZB",
+              "Name": "NORBAEV Nodir",
+              "NameS": "NORBAEV N",
+              "Result": "62.12",
+              "Winner": false,
+              "RkPo": 1,
+              "HasData": true
+            },
+            {
+              "Reg": "5038063",
+              "Org": "TPE",
+              "Name": "CHO Chia-hsuan",
+              "NameS": "CHO C",
+              "Result": "61.94",
+              "Winner": false,
+              "RkPo": 2,
+              "HasData": true
+            },
+            {
+              "Reg": "5036850",
+              "Org": "TPE",
+              "Name": "WANG Chen-yu",
+              "NameS": "WANG C",
+              "Result": "59.81",
+              "Winner": false,
+              "RkPo": 3,
+              "HasData": true
+            }
+          ]
+        },
+        {
+          "Orgs": [
+            "IND",
+            "JPN",
+            "CHN",
+            "UZB",
+            "KOR",
+            "TPE"
+          ],
+          "IsPhase": false,
+          "ResCode": "M.DECATH------------.1500.000100--",
+          "ShowLink": true,
+          "Disc": "ATH",
+          "DiscDesc": "Athletics",
+          "Key": "M.DECATH------------.1500.000100--",
+          "isH2H": false,
+          "Type": "A",
+          "Medal": "1",
+          "Status": "OFFICIAL",
+          "StatusDesc": "Official",
+          "DateTimeRaw": "2026-09-27T21:10:00+09:00",
+          "HideStartDate": false,
+          "Estimated": false,
+          "EstText": "",
+          "HideLocation": false,
+          "Venue": "MPA",
+          "VenueDesc": "Nagoya City Mizuho Park Athletic Stadium",
+          "VenueDescS": "Nagoya City Mizuho Park Athletic Stadium",
+          "Loc": "001",
+          "LocDesc": "National Stadium",
+          "LocDescS": "National Stadium",
+          "Event": "M.DECATH------------",
+          "EventDesc": "Men's Decathlon",
+          "Phase": "M.DECATH------------.1500",
+          "PhaseOrder": 10,
+          "PhaseDesc": "Men's Decathlon 1500 Metres",
+          "PhaseDescS": "Men's Decathlon 1500 Metres",
+          "PhaseDescA": "1500 Metres",
+          "UnitDesc": "Men's Decathlon 1500 Metres",
+          "UnitDescS": "Men's Decathlon 1500 Metres",
+          "UnitDescA": "",
+          "UnitNum": "1",
+          "IsLive": false,
+          "ShowResults": true,
+          "Counters": {
+            "Partics": 10,
+            "Orgs": 6
+          },
+          "Results": [
+            {
+              "Reg": "16164087",
+              "Org": "IND",
+              "Name": "SHANKAR Tejaswin",
+              "NameS": "SHANKAR T",
+              "Result": "4:33.09",
+              "Winner": false,
+              "RkPo": 1,
+              "HasData": true,
+              "Medal": "ME_BRONZE"
+            },
+            {
+              "Reg": "10883719",
+              "Org": "JPN",
+              "Name": "MARUYAMA Yuma",
+              "NameS": "MARUYAMA Y",
+              "Result": "4:33.92",
+              "Winner": false,
+              "RkPo": 2,
+              "HasData": true,
+              "Medal": "ME_GOLD"
+            },
+            {
+              "Reg": "3656141",
+              "Org": "CHN",
+              "Name": "CHEN Xinghua",
+              "NameS": "CHEN X",
+              "Result": "4:37.38",
+              "Winner": false,
+              "RkPo": 3,
+              "HasData": true,
+              "Medal": "ME_SILVER"
+            }
+          ]
+        }
+      ],
+      "historical": null
+    }
+  },
+  {
     "reg": "5320130",
     "name": "SEEMA",
     "org": "IND",
@@ -2534,6 +3681,520 @@
               "Name": "SEEMA",
               "NameS": "SEEMA",
               "Result": "32:50.05",
+              "Winner": false,
+              "RkPo": 3,
+              "HasData": true,
+              "Medal": "ME_BRONZE"
+            }
+          ]
+        },
+        {
+          "Orgs": [
+            "IND",
+            "BRN",
+            "JPN",
+            "KOR",
+            "KAZ",
+            "KGZ",
+            "NEP"
+          ],
+          "IsPhase": false,
+          "ResCode": "W.5000M-------------.FNL-.000100--",
+          "ShowLink": true,
+          "Disc": "ATH",
+          "DiscDesc": "Athletics",
+          "Key": "W.5000M-------------.FNL-.000100--",
+          "isH2H": false,
+          "Type": "A",
+          "Medal": "1",
+          "Status": "START_LIST",
+          "StatusDesc": "Start List",
+          "DateTimeRaw": "2026-09-28T20:43:00+09:00",
+          "HideStartDate": false,
+          "Estimated": false,
+          "EstText": "",
+          "HideLocation": false,
+          "Venue": "MPA",
+          "VenueDesc": "Nagoya City Mizuho Park Athletic Stadium",
+          "VenueDescS": "Nagoya City Mizuho Park Athletic Stadium",
+          "Loc": "001",
+          "LocDesc": "National Stadium",
+          "LocDescS": "National Stadium",
+          "Event": "W.5000M-------------",
+          "EventDesc": "Women's 5000m",
+          "Phase": "W.5000M-------------.FNL-",
+          "PhaseOrder": 1,
+          "PhaseDesc": "Women's 5000m Final",
+          "PhaseDescS": "Women's 5000m F",
+          "PhaseDescA": "Final",
+          "UnitDesc": "Women's 5000m Final",
+          "UnitDescS": "Women's 5000m F",
+          "UnitDescA": "",
+          "UnitNum": "1",
+          "IsLive": false,
+          "ShowResults": false,
+          "Counters": {
+            "Partics": 12,
+            "Orgs": 7
+          }
+        }
+      ],
+      "historical": null
+    }
+  },
+  {
+    "reg": "16628668",
+    "name": "BHADRA Harita",
+    "org": "IND",
+    "org_desc": "India",
+    "disc": "ATH",
+    "disc_desc": "Athletics",
+    "photo_url": "https://results.asiangames2026.org/ag2026/photos/16628668.jpg",
+    "medals": [
+      {
+        "medal": "bronze",
+        "event": "Women's 200m"
+      }
+    ],
+    "bio_data": {
+      "participant": {
+        "Reg": "16628668",
+        "Disc": "ATH",
+        "DiscDesc": "Athletics",
+        "hasMembers": false,
+        "Org": "IND",
+        "OrgDesc": "India",
+        "Type": "A",
+        "Gender": "W",
+        "BirthDateRaw": "2003-06-06",
+        "Name": "BHADRA Harita",
+        "NameS": "BHADRA H",
+        "GivenName": "Harita",
+        "FamilyName": "BHADRA",
+        "IFId": "",
+        "Height": null,
+        "Weight": null
+      },
+      "entries": [
+        {
+          "Disc": "ATH",
+          "Reg": "16628668",
+          "EvKey": "W.200M--------------",
+          "Desc": "Women's 200m",
+          "DescS": "Women's 200m",
+          "isMember": false,
+          "Medal": "ME_BRONZE",
+          "Rank": "3",
+          "IRM": "OK",
+          "Result": "23.20"
+        }
+      ],
+      "schedule": [
+        {
+          "Orgs": [
+            "SGP",
+            "IND",
+            "BRN",
+            "IRI",
+            "JPN",
+            "THA",
+            "HKG",
+            "OMA",
+            "PAK"
+          ],
+          "IsPhase": false,
+          "ResCode": "W.200M--------------.RND1.000200--",
+          "ShowLink": true,
+          "Disc": "ATH",
+          "DiscDesc": "Athletics",
+          "Key": "W.200M--------------.RND1.000200--",
+          "isH2H": false,
+          "Type": "A",
+          "Medal": "",
+          "Status": "OFFICIAL",
+          "StatusDesc": "Official",
+          "DateTimeRaw": "2026-09-26T20:03:00+09:00",
+          "HideStartDate": false,
+          "Estimated": false,
+          "EstText": "",
+          "HideLocation": false,
+          "Venue": "MPA",
+          "VenueDesc": "Nagoya City Mizuho Park Athletic Stadium",
+          "VenueDescS": "Nagoya City Mizuho Park Athletic Stadium",
+          "Loc": "001",
+          "LocDesc": "National Stadium",
+          "LocDescS": "National Stadium",
+          "Event": "W.200M--------------",
+          "EventDesc": "Women's 200m",
+          "Phase": "W.200M--------------.RND1",
+          "PhaseOrder": 5,
+          "PhaseDesc": "Women's 200m Round 1",
+          "PhaseDescS": "Women's 200m R1",
+          "PhaseDescA": "Round 1",
+          "UnitDesc": "Women's 200m Round 1 Heat 2",
+          "UnitDescS": "Women's 200m R1 Heat 2",
+          "UnitDescA": "Heat 2",
+          "UnitNum": "2",
+          "IsLive": false,
+          "ShowResults": true,
+          "Counters": {
+            "Partics": 9,
+            "Orgs": 9
+          },
+          "Results": [
+            {
+              "Reg": "12329723",
+              "Org": "SGP",
+              "Name": "PEREIRA Shanti",
+              "NameS": "PEREIRA S",
+              "Result": "23.10",
+              "Winner": false,
+              "RkPo": 1,
+              "HasData": true
+            },
+            {
+              "Reg": "16628668",
+              "Org": "IND",
+              "Name": "BHADRA Harita",
+              "NameS": "BHADRA H",
+              "Result": "23.31",
+              "Winner": false,
+              "RkPo": 2,
+              "HasData": true
+            },
+            {
+              "Reg": "6656001",
+              "Org": "BRN",
+              "Name": "ODIONG Edidiong",
+              "NameS": "ODIONG E",
+              "Result": "23.56",
+              "Winner": false,
+              "RkPo": 3,
+              "HasData": true
+            }
+          ]
+        },
+        {
+          "Orgs": [
+            "SGP",
+            "CHN",
+            "IND",
+            "JPN",
+            "BRN",
+            "VIE",
+            "THA"
+          ],
+          "IsPhase": false,
+          "ResCode": "W.200M--------------.FNL-.000100--",
+          "ShowLink": true,
+          "Disc": "ATH",
+          "DiscDesc": "Athletics",
+          "Key": "W.200M--------------.FNL-.000100--",
+          "isH2H": false,
+          "Type": "A",
+          "Medal": "1",
+          "Status": "OFFICIAL",
+          "StatusDesc": "Official",
+          "DateTimeRaw": "2026-09-27T19:25:00+09:00",
+          "HideStartDate": false,
+          "Estimated": false,
+          "EstText": "",
+          "HideLocation": false,
+          "Venue": "MPA",
+          "VenueDesc": "Nagoya City Mizuho Park Athletic Stadium",
+          "VenueDescS": "Nagoya City Mizuho Park Athletic Stadium",
+          "Loc": "001",
+          "LocDesc": "National Stadium",
+          "LocDescS": "National Stadium",
+          "Event": "W.200M--------------",
+          "EventDesc": "Women's 200m",
+          "Phase": "W.200M--------------.FNL-",
+          "PhaseOrder": 1,
+          "PhaseDesc": "Women's 200m Final",
+          "PhaseDescS": "Women's 200m F",
+          "PhaseDescA": "Final",
+          "UnitDesc": "Women's 200m Final",
+          "UnitDescS": "Women's 200m F",
+          "UnitDescA": "",
+          "UnitNum": "1",
+          "IsLive": false,
+          "ShowResults": true,
+          "Counters": {
+            "Partics": 8,
+            "Orgs": 7
+          },
+          "Results": [
+            {
+              "Reg": "12329723",
+              "Org": "SGP",
+              "Name": "PEREIRA Shanti",
+              "NameS": "PEREIRA S",
+              "Result": "22.78",
+              "Winner": false,
+              "RkPo": 1,
+              "HasData": true,
+              "Medal": "ME_GOLD"
+            },
+            {
+              "Reg": "4278270",
+              "Org": "CHN",
+              "Name": "CHEN Yujie",
+              "NameS": "CHEN Y",
+              "Result": "22.93",
+              "Winner": false,
+              "RkPo": 2,
+              "HasData": true,
+              "Medal": "ME_SILVER"
+            },
+            {
+              "Reg": "16628668",
+              "Org": "IND",
+              "Name": "BHADRA Harita",
+              "NameS": "BHADRA H",
+              "Result": "23.20",
+              "Winner": false,
+              "RkPo": 3,
+              "HasData": true,
+              "Medal": "ME_BRONZE"
+            }
+          ]
+        }
+      ],
+      "historical": null
+    }
+  },
+  {
+    "reg": "1443836",
+    "name": "CHAUDHARY Parul",
+    "org": "IND",
+    "org_desc": "India",
+    "disc": "ATH",
+    "disc_desc": "Athletics",
+    "photo_url": "https://results.asiangames2026.org/ag2026/photos/1443836.jpg",
+    "medals": [
+      {
+        "medal": "bronze",
+        "event": "Women's 3000m Steeplechase"
+      }
+    ],
+    "bio_data": {
+      "participant": {
+        "Reg": "1443836",
+        "Disc": "ATH",
+        "DiscDesc": "Athletics",
+        "hasMembers": false,
+        "Org": "IND",
+        "OrgDesc": "India",
+        "Type": "A",
+        "Gender": "W",
+        "BirthDateRaw": "1995-04-15",
+        "Name": "CHAUDHARY Parul",
+        "NameS": "CHAUDHARY P",
+        "GivenName": "Parul",
+        "FamilyName": "CHAUDHARY",
+        "IFId": "14497992",
+        "Height": null,
+        "Weight": null
+      },
+      "entries": [
+        {
+          "Disc": "ATH",
+          "Reg": "1443836",
+          "EvKey": "W.1500M-------------",
+          "Desc": "Women's 1500m",
+          "DescS": "Women's 1500m",
+          "isMember": false,
+          "Rank": "4",
+          "IRM": "OK",
+          "Result": "4:09.46"
+        },
+        {
+          "Disc": "ATH",
+          "Reg": "1443836",
+          "EvKey": "W.3000MST-----------",
+          "Desc": "Women's 3000m Steeplechase",
+          "DescS": "Women's 3000m Steeplechase",
+          "isMember": false,
+          "Medal": "ME_BRONZE",
+          "Rank": "3",
+          "IRM": "OK",
+          "Result": "9:08.67"
+        },
+        {
+          "Disc": "ATH",
+          "Reg": "1443836",
+          "EvKey": "W.5000M-------------",
+          "Desc": "Women's 5000m",
+          "DescS": "Women's 5000m",
+          "isMember": false,
+          "Rank": "",
+          "IRM": "OK",
+          "Result": ""
+        }
+      ],
+      "schedule": [
+        {
+          "Orgs": [
+            "BRN",
+            "CHN",
+            "JPN",
+            "IND",
+            "KOR",
+            "UZB",
+            "KAZ",
+            "NEP"
+          ],
+          "IsPhase": false,
+          "ResCode": "W.1500M-------------.FNL-.000100--",
+          "ShowLink": true,
+          "Disc": "ATH",
+          "DiscDesc": "Athletics",
+          "Key": "W.1500M-------------.FNL-.000100--",
+          "isH2H": false,
+          "Type": "A",
+          "Medal": "1",
+          "Status": "OFFICIAL",
+          "StatusDesc": "Official",
+          "DateTimeRaw": "2026-09-26T22:15:00+09:00",
+          "HideStartDate": false,
+          "Estimated": false,
+          "EstText": "",
+          "HideLocation": false,
+          "Venue": "MPA",
+          "VenueDesc": "Nagoya City Mizuho Park Athletic Stadium",
+          "VenueDescS": "Nagoya City Mizuho Park Athletic Stadium",
+          "Loc": "001",
+          "LocDesc": "National Stadium",
+          "LocDescS": "National Stadium",
+          "Event": "W.1500M-------------",
+          "EventDesc": "Women's 1500m",
+          "Phase": "W.1500M-------------.FNL-",
+          "PhaseOrder": 1,
+          "PhaseDesc": "Women's 1500m Final",
+          "PhaseDescS": "Women's 1500m F",
+          "PhaseDescA": "Final",
+          "UnitDesc": "Women's 1500m Final",
+          "UnitDescS": "Women's 1500m F",
+          "UnitDescA": "",
+          "UnitNum": "1",
+          "IsLive": false,
+          "ShowResults": true,
+          "Counters": {
+            "Partics": 11,
+            "Orgs": 8
+          },
+          "Results": [
+            {
+              "Reg": "7150269",
+              "Org": "BRN",
+              "Name": "KORIR Nelly",
+              "NameS": "KORIR N",
+              "Result": "4:04.50",
+              "Winner": false,
+              "RkPo": 1,
+              "HasData": true,
+              "Medal": "ME_GOLD"
+            },
+            {
+              "Reg": "3646298",
+              "Org": "CHN",
+              "Name": "LI Chunhui",
+              "NameS": "LI C",
+              "Result": "4:05.50",
+              "Winner": false,
+              "RkPo": 2,
+              "HasData": true,
+              "Medal": "ME_SILVER"
+            },
+            {
+              "Reg": "1372241",
+              "Org": "JPN",
+              "Name": "TANAKA Nozomi",
+              "NameS": "TANAKA N",
+              "Result": "4:06.14",
+              "Winner": false,
+              "RkPo": 3,
+              "HasData": true,
+              "Medal": "ME_BRONZE"
+            }
+          ]
+        },
+        {
+          "Orgs": [
+            "BRN",
+            "KAZ",
+            "IND",
+            "JPN",
+            "KOR"
+          ],
+          "IsPhase": false,
+          "ResCode": "W.3000MST-----------.FNL-.000100--",
+          "ShowLink": true,
+          "Disc": "ATH",
+          "DiscDesc": "Athletics",
+          "Key": "W.3000MST-----------.FNL-.000100--",
+          "isH2H": false,
+          "Type": "A",
+          "Medal": "1",
+          "Status": "OFFICIAL",
+          "StatusDesc": "Official",
+          "DateTimeRaw": "2026-09-27T21:22:00+09:00",
+          "HideStartDate": false,
+          "Estimated": false,
+          "EstText": "",
+          "HideLocation": false,
+          "Venue": "MPA",
+          "VenueDesc": "Nagoya City Mizuho Park Athletic Stadium",
+          "VenueDescS": "Nagoya City Mizuho Park Athletic Stadium",
+          "Loc": "001",
+          "LocDesc": "National Stadium",
+          "LocDescS": "National Stadium",
+          "Event": "W.3000MST-----------",
+          "EventDesc": "Women's 3000m Steeplechase",
+          "Phase": "W.3000MST-----------.FNL-",
+          "PhaseOrder": 1,
+          "PhaseDesc": "Women's 3000m Steeplechase Final",
+          "PhaseDescS": "Women's 3000m Steeplechase F",
+          "PhaseDescA": "Final",
+          "UnitDesc": "Women's 3000m Steeplechase Final",
+          "UnitDescS": "Women's 3000m Steeplechase F",
+          "UnitDescA": "",
+          "UnitNum": "1",
+          "IsLive": false,
+          "ShowResults": true,
+          "Counters": {
+            "Partics": 8,
+            "Orgs": 5
+          },
+          "Results": [
+            {
+              "Reg": "7153190",
+              "Org": "BRN",
+              "Name": "YAVI Winfred",
+              "NameS": "YAVI W",
+              "Result": "9:04.36",
+              "Winner": false,
+              "RkPo": 1,
+              "HasData": true,
+              "Medal": "ME_GOLD"
+            },
+            {
+              "Reg": "16515531",
+              "Org": "KAZ",
+              "Name": "TANUI Norah Jeruto",
+              "NameS": "TANUI NJ",
+              "Result": "9:06.82",
+              "Winner": false,
+              "RkPo": 2,
+              "HasData": true,
+              "Medal": "ME_SILVER"
+            },
+            {
+              "Reg": "1443836",
+              "Org": "IND",
+              "Name": "CHAUDHARY Parul",
+              "NameS": "CHAUDHARY P",
+              "Result": "9:08.67",
               "Winner": false,
               "RkPo": 3,
               "HasData": true,
@@ -11928,10 +13589,10 @@
           "TeamReg": "BDMMTEAM-------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
+          "Medal": "ME_BRONZE",
           "Rank": "3",
           "IRM": "OK",
-          "Result": "",
-          "Medal": "ME_BRONZE"
+          "Result": ""
         }
       ],
       "schedule": [
@@ -20013,10 +21674,10 @@
           "TeamReg": "BDMMTEAM-------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
-          "Medal": "ME_BRONZE",
           "Rank": "3",
           "IRM": "OK",
-          "Result": ""
+          "Result": "",
+          "Medal": "ME_BRONZE"
         }
       ],
       "schedule": [
@@ -27673,10 +29334,10 @@
           "TeamReg": "CKTWTEAM-------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
+          "Medal": "ME_GOLD",
           "Rank": "1",
           "IRM": "",
-          "Result": "",
-          "Medal": "ME_GOLD"
+          "Result": ""
         }
       ],
       "schedule": [
@@ -63744,10 +65405,10 @@
           "TeamReg": "KABMTEAM7------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
+          "Medal": "ME_GOLD",
           "Rank": "1",
           "IRM": "",
-          "Result": "",
-          "Medal": "ME_GOLD"
+          "Result": ""
         }
       ],
       "schedule": [
@@ -70691,10 +72352,10 @@
           "TeamReg": "KABWTEAM7------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
+          "Medal": "ME_GOLD",
           "Rank": "1",
           "IRM": "",
-          "Result": "",
-          "Medal": "ME_GOLD"
+          "Result": ""
         }
       ],
       "schedule": [
@@ -72240,10 +73901,10 @@
           "TeamReg": "KABWTEAM7------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
+          "Medal": "ME_GOLD",
           "Rank": "1",
           "IRM": "",
-          "Result": "",
-          "Medal": "ME_GOLD"
+          "Result": ""
         }
       ],
       "schedule": [
@@ -73789,10 +75450,10 @@
           "TeamReg": "KABWTEAM7------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
-          "Medal": "ME_GOLD",
           "Rank": "1",
           "IRM": "",
-          "Result": ""
+          "Result": "",
+          "Medal": "ME_GOLD"
         }
       ],
       "schedule": [
@@ -75338,10 +76999,10 @@
           "TeamReg": "KABWTEAM7------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
+          "Medal": "ME_GOLD",
           "Rank": "1",
           "IRM": "",
-          "Result": "",
-          "Medal": "ME_GOLD"
+          "Result": ""
         }
       ],
       "schedule": [
@@ -87719,10 +89380,10 @@
           "Desc": "Women's Traditional -60kg",
           "DescS": "Women's Traditional -60kg",
           "isMember": false,
-          "Medal": "ME_BRONZE",
           "Rank": "3",
           "IRM": "",
-          "Result": ""
+          "Result": "",
+          "Medal": "ME_BRONZE"
         }
       ],
       "schedule": [
@@ -91369,10 +93030,10 @@
           "Desc": "10m Air Rifle Women Individual",
           "DescS": "10m Air Rifle Women Individual",
           "isMember": false,
-          "Medal": "ME_SILVER",
           "Rank": "2",
           "IRM": "",
-          "Result": "252.4"
+          "Result": "252.4",
+          "Medal": "ME_SILVER"
         },
         {
           "Disc": "SHO",
@@ -91725,10 +93386,10 @@
           "TeamReg": "SHOWARTW-------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
-          "Medal": "ME_SILVER",
           "Rank": "2",
           "IRM": "",
-          "Result": "1898.0"
+          "Result": "1898.0",
+          "Medal": "ME_SILVER"
         },
         {
           "Disc": "SHO",
@@ -91751,10 +93412,10 @@
           "TeamReg": "SHOWR3PTW------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
+          "Medal": "ME_SILVER",
           "Rank": "2",
           "IRM": "",
-          "Result": "1763",
-          "Medal": "ME_SILVER"
+          "Result": "1763"
         },
         {
           "Disc": "SHO",
@@ -93617,10 +95278,10 @@
           "TeamReg": "SHOMSKTM-------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
+          "Medal": "ME_BRONZE",
           "Rank": "3",
           "IRM": "",
-          "Result": "346",
-          "Medal": "ME_BRONZE"
+          "Result": "346"
         },
         {
           "Disc": "SHO",
@@ -94662,10 +96323,10 @@
           "Desc": "Skeet Women Team",
           "DescS": "Skeet Women Team",
           "isMember": false,
-          "Medal": "ME_BRONZE",
           "Rank": "3",
           "IRM": "",
-          "Result": "331"
+          "Result": "331",
+          "Medal": "ME_BRONZE"
         }
       ],
       "schedule": [
@@ -94901,10 +96562,10 @@
           "TeamReg": "SHOXSKMT-------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
-          "Medal": "ME_BRONZE",
           "Rank": "3",
           "IRM": "",
-          "Result": "44"
+          "Result": "44",
+          "Medal": "ME_BRONZE"
         }
       ],
       "schedule": [
@@ -95427,10 +97088,10 @@
           "TeamReg": "SHOWSKTW-------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
+          "Medal": "ME_BRONZE",
           "Rank": "3",
           "IRM": "",
-          "Result": "331",
-          "Medal": "ME_BRONZE"
+          "Result": "331"
         },
         {
           "Disc": "SHO",
@@ -96426,10 +98087,10 @@
           "Desc": "Men's Singles",
           "DescS": "Men's Singles",
           "isMember": false,
+          "Medal": "ME_SILVER",
           "Rank": "2",
           "IRM": "OK",
-          "Result": "",
-          "Medal": "ME_SILVER"
+          "Result": ""
         },
         {
           "Disc": "SQU",
@@ -99127,6 +100788,2816 @@
                 "Pos": 0,
                 "Value": "0",
                 "Extensions": []
+              },
+              {
+                "Type": "SERVICE",
+                "Code": "MemberServer",
+                "Pos": 0,
+                "Value": "",
+                "Extensions": []
+              },
+              {
+                "Type": "SERVICE",
+                "Code": "Server",
+                "Pos": 0,
+                "Value": "false",
+                "Extensions": []
+              }
+            ]
+          },
+          "Extensions": [
+            {
+              "Type": "UNIT_INFO",
+              "Code": "InfoMatch",
+              "Pos": 0,
+              "Value": "0",
+              "Extensions": []
+            },
+            {
+              "Type": "UNIT_INFO",
+              "Code": "InfoTeam",
+              "Pos": 0,
+              "Value": "0",
+              "Extensions": []
+            },
+            {
+              "Type": "UNIT_INFO",
+              "Code": "ReceivedDuration",
+              "Pos": 0,
+              "Value": "0min",
+              "Extensions": []
+            },
+            {
+              "Type": "UNIT_INFO",
+              "Code": "ResultDetailWinner",
+              "Pos": 0,
+              "Value": "",
+              "Extensions": []
+            },
+            {
+              "Type": "UNIT_INFO",
+              "Code": "RoundNum",
+              "Pos": 0,
+              "Value": "",
+              "Extensions": []
+            },
+            {
+              "Type": "UNIT_INFO",
+              "Code": "ServerHomeAway",
+              "Pos": 0,
+              "Value": "",
+              "Extensions": []
+            },
+            {
+              "Type": "UNIT_INFO",
+              "Code": "SubMatchNum",
+              "Pos": 0,
+              "Value": "",
+              "Extensions": []
+            },
+            {
+              "Type": "UNIT_INFO",
+              "Code": "SubunitOrder",
+              "Pos": 0,
+              "Value": "0",
+              "Extensions": []
+            },
+            {
+              "Type": "UNIT_INFO",
+              "Code": "TeamMatchDuration",
+              "Pos": 0,
+              "Value": "0min",
+              "Extensions": []
+            }
+          ]
+        }
+      ],
+      "historical": null
+    }
+  },
+  {
+    "reg": "12546089",
+    "name": "SINGH Anahat",
+    "org": "IND",
+    "org_desc": "India",
+    "disc": "SQU",
+    "disc_desc": "Squash",
+    "photo_url": "https://results.asiangames2026.org/ag2026/photos/12546089.jpg",
+    "medals": [
+      {
+        "medal": "silver",
+        "event": "Women's Singles"
+      }
+    ],
+    "bio_data": {
+      "participant": {
+        "Reg": "12546089",
+        "Disc": "SQU",
+        "DiscDesc": "Squash",
+        "hasMembers": false,
+        "Org": "IND",
+        "OrgDesc": "India",
+        "Type": "A",
+        "Gender": "W",
+        "BirthDateRaw": "2008-03-13",
+        "Name": "SINGH Anahat",
+        "NameS": "SINGH A",
+        "GivenName": "Anahat",
+        "FamilyName": "SINGH",
+        "IFId": "",
+        "Height": null,
+        "Weight": null
+      },
+      "entries": [
+        {
+          "Disc": "SQU",
+          "Reg": "12546089",
+          "EvKey": "W.SINGLES-----------",
+          "Desc": "Women's Singles",
+          "DescS": "Women's Singles",
+          "isMember": false,
+          "Medal": "ME_SILVER",
+          "Rank": "2",
+          "IRM": "OK",
+          "Result": ""
+        },
+        {
+          "Disc": "SQU",
+          "Reg": "12546089",
+          "EvKey": "W.TEAM--------------",
+          "Desc": "Women's Team",
+          "DescS": "Women's Team",
+          "isMember": true,
+          "TeamReg": "SQUWTEAM-------IND01",
+          "TeamOrg": "IND",
+          "TeamName": "India",
+          "Rank": "",
+          "IRM": "OK",
+          "Result": ""
+        }
+      ],
+      "schedule": [
+        {
+          "Orgs": [
+            "IND",
+            "SGP"
+          ],
+          "IsPhase": false,
+          "ResCode": "W.SINGLES-----------.8FNL.000500--",
+          "ShowLink": true,
+          "Disc": "SQU",
+          "DiscDesc": "Squash",
+          "Key": "W.SINGLES-----------.8FNL.000500--",
+          "isH2H": true,
+          "Type": "A",
+          "Medal": "",
+          "Status": "OFFICIAL",
+          "StatusDesc": "Official",
+          "DateTimeRaw": "2026-09-24T14:00:00+09:00",
+          "HideStartDate": false,
+          "Estimated": false,
+          "EstText": "",
+          "HideLocation": false,
+          "Venue": "KFA",
+          "VenueDesc": "Nagoya Kinjo Futo Arena",
+          "VenueDescS": "Nagoya Kinjo Futo Arena",
+          "Loc": "004",
+          "LocDesc": "Court 4",
+          "LocDescS": "Court 4",
+          "Event": "W.SINGLES-----------",
+          "EventDesc": "Women's Singles",
+          "Phase": "W.SINGLES-----------.8FNL",
+          "PhaseOrder": 15,
+          "PhaseDesc": "Women's Singles Round of 16",
+          "PhaseDescS": "WS R16",
+          "PhaseDescA": "Round of 16",
+          "UnitDesc": "Women's Singles Round of 16 Match 5",
+          "UnitDescS": "WS R16 M 5",
+          "UnitDescA": "Match 5",
+          "UnitNum": "21",
+          "IsLive": false,
+          "ShowResults": true,
+          "Periods": [
+            {
+              "Order": 1,
+              "Desc": "Game 1",
+              "DescS": "1",
+              "Extensions": [
+                {
+                  "Type": "PERIOD_INFO",
+                  "Code": "Actions",
+                  "Pos": 0,
+                  "Value": "1|0,1|1,2|1,3|1,4|1,5|1,6|1,7|1,7|2,8|2,9|2,9|3,10|3,10|4,11|4,",
+                  "Extensions": []
+                }
+              ]
+            },
+            {
+              "Order": 2,
+              "Desc": "Game 2",
+              "DescS": "2",
+              "Extensions": [
+                {
+                  "Type": "PERIOD_INFO",
+                  "Code": "Actions",
+                  "Pos": 0,
+                  "Value": "1|0,2|0,2|1,3|1,3|2,4|2,5|2,6|2,7|2,7|3,8|3,9|3,10|3,10|4,10|5,11|5,",
+                  "Extensions": []
+                }
+              ]
+            },
+            {
+              "Order": 3,
+              "Desc": "Game 3",
+              "DescS": "3",
+              "Extensions": [
+                {
+                  "Type": "PERIOD_INFO",
+                  "Code": "Actions",
+                  "Pos": 0,
+                  "Value": "0|1,0|2,0|3,1|3,2|3,2|4,2|5,3|5,4|5,5|5,6|5,6|6,7|6,8|6,9|6,10|6,10|7,11|7,",
+                  "Extensions": []
+                }
+              ]
+            },
+            {
+              "Order": 4,
+              "Desc": "Game 4",
+              "DescS": "4",
+              "Extensions": [
+                {
+                  "Type": "PERIOD_INFO",
+                  "Code": "Actions",
+                  "Pos": 0,
+                  "Value": "",
+                  "Extensions": []
+                }
+              ]
+            },
+            {
+              "Order": 5,
+              "Desc": "Game 5",
+              "DescS": "5",
+              "Extensions": [
+                {
+                  "Type": "PERIOD_INFO",
+                  "Code": "Actions",
+                  "Pos": 0,
+                  "Value": "",
+                  "Extensions": []
+                }
+              ]
+            }
+          ],
+          "Home": {
+            "Org": "IND",
+            "Reg": "12546089",
+            "Name": "SINGH Anahat",
+            "Result": "3",
+            "Winner": true,
+            "HasData": true,
+            "NameS": "SINGH A",
+            "Medal": "",
+            "Splits": [
+              {
+                "Rk": "1",
+                "RkPo": 1,
+                "Res": "11",
+                "Extensions": []
+              },
+              {
+                "Rk": "1",
+                "RkPo": 1,
+                "Res": "11",
+                "Extensions": []
+              },
+              {
+                "Rk": "1",
+                "RkPo": 1,
+                "Res": "11",
+                "Extensions": []
+              }
+            ],
+            "Extensions": [
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "Card1",
+                "Pos": 0,
+                "Value": "0",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "Card2",
+                "Pos": 0,
+                "Value": "0",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "CardT",
+                "Pos": 0,
+                "Value": "0",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "CardY",
+                "Pos": 0,
+                "Value": "0",
+                "Extensions": []
+              },
+              {
+                "Type": "SERVICE",
+                "Code": "MemberServer",
+                "Pos": 0,
+                "Value": "1",
+                "Extensions": []
+              },
+              {
+                "Type": "SERVICE",
+                "Code": "Server",
+                "Pos": 0,
+                "Value": "true",
+                "Extensions": []
+              }
+            ]
+          },
+          "Away": {
+            "Org": "SGP",
+            "Reg": "1978750",
+            "Name": "AU YEONG Wai Iynn",
+            "Result": "0",
+            "Winner": false,
+            "HasData": true,
+            "NameS": "AU YEONG W.I",
+            "Medal": "",
+            "Splits": [
+              {
+                "Rk": "2",
+                "RkPo": 2,
+                "Res": "4",
+                "Extensions": []
+              },
+              {
+                "Rk": "2",
+                "RkPo": 2,
+                "Res": "5",
+                "Extensions": []
+              },
+              {
+                "Rk": "2",
+                "RkPo": 2,
+                "Res": "7",
+                "Extensions": []
+              }
+            ],
+            "Extensions": [
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "Card1",
+                "Pos": 0,
+                "Value": "0",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "Card2",
+                "Pos": 0,
+                "Value": "0",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "CardT",
+                "Pos": 0,
+                "Value": "0",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "CardY",
+                "Pos": 0,
+                "Value": "0",
+                "Extensions": []
+              },
+              {
+                "Type": "PREV_RESULT",
+                "Code": "UNIT_KEY",
+                "Pos": 1,
+                "Value": "W.SINGLES-----------.R32-.001000--",
+                "Extensions": [
+                  {
+                    "Type": "RESULT",
+                    "Code": "Register",
+                    "Pos": 1,
+                    "Value": "1978750"
+                  },
+                  {
+                    "Type": "RESULT",
+                    "Code": "RegisterOpp",
+                    "Pos": 1,
+                    "Value": "6820525"
+                  },
+                  {
+                    "Type": "RESULT",
+                    "Code": "Result",
+                    "Pos": 1,
+                    "Value": "3-0"
+                  }
+                ]
+              },
+              {
+                "Type": "SERVICE",
+                "Code": "MemberServer",
+                "Pos": 0,
+                "Value": "1",
+                "Extensions": []
+              },
+              {
+                "Type": "SERVICE",
+                "Code": "Server",
+                "Pos": 0,
+                "Value": "false",
+                "Extensions": []
+              }
+            ]
+          },
+          "Extensions": [
+            {
+              "Type": "UNIT_INFO",
+              "Code": "InfoMatch",
+              "Pos": 0,
+              "Value": "0",
+              "Extensions": []
+            },
+            {
+              "Type": "UNIT_INFO",
+              "Code": "InfoTeam",
+              "Pos": 0,
+              "Value": "0",
+              "Extensions": []
+            },
+            {
+              "Type": "UNIT_INFO",
+              "Code": "ReceivedDuration",
+              "Pos": 0,
+              "Value": "19min",
+              "Extensions": []
+            },
+            {
+              "Type": "UNIT_INFO",
+              "Code": "ResultDetailWinner",
+              "Pos": 0,
+              "Value": "11-4, 11-5, 11-7",
+              "Extensions": []
+            },
+            {
+              "Type": "UNIT_INFO",
+              "Code": "RoundNum",
+              "Pos": 0,
+              "Value": "",
+              "Extensions": []
+            },
+            {
+              "Type": "UNIT_INFO",
+              "Code": "ServerHomeAway",
+              "Pos": 0,
+              "Value": "1",
+              "Extensions": []
+            },
+            {
+              "Type": "UNIT_INFO",
+              "Code": "SubMatchNum",
+              "Pos": 0,
+              "Value": "",
+              "Extensions": []
+            },
+            {
+              "Type": "UNIT_INFO",
+              "Code": "SubunitOrder",
+              "Pos": 0,
+              "Value": "0",
+              "Extensions": []
+            }
+          ]
+        },
+        {
+          "Orgs": [
+            "IND"
+          ],
+          "IsPhase": false,
+          "ResCode": "W.SINGLES-----------.QFNL.000300--",
+          "ShowLink": true,
+          "Disc": "SQU",
+          "DiscDesc": "Squash",
+          "Key": "W.SINGLES-----------.QFNL.000300--",
+          "isH2H": true,
+          "Type": "A",
+          "Medal": "",
+          "Status": "OFFICIAL",
+          "StatusDesc": "Official",
+          "DateTimeRaw": "2026-09-25T13:30:00+09:00",
+          "HideStartDate": false,
+          "Estimated": false,
+          "EstText": "",
+          "HideLocation": false,
+          "Venue": "KFA",
+          "VenueDesc": "Nagoya Kinjo Futo Arena",
+          "VenueDescS": "Nagoya Kinjo Futo Arena",
+          "Loc": "001",
+          "LocDesc": "Court 1",
+          "LocDescS": "Court 1",
+          "Event": "W.SINGLES-----------",
+          "EventDesc": "Women's Singles",
+          "Phase": "W.SINGLES-----------.QFNL",
+          "PhaseOrder": 10,
+          "PhaseDesc": "Women's Singles Quarterfinals",
+          "PhaseDescS": "WS 1/4",
+          "PhaseDescA": "Quarterfinals",
+          "UnitDesc": "Women's Singles Quarterfinals Match 3",
+          "UnitDescS": "WS 1/4 M 3",
+          "UnitDescA": "Match 3",
+          "UnitNum": "27",
+          "IsLive": false,
+          "ShowResults": true,
+          "Periods": [
+            {
+              "Order": 1,
+              "Desc": "Game 1",
+              "DescS": "1",
+              "Extensions": [
+                {
+                  "Type": "PERIOD_INFO",
+                  "Code": "Actions",
+                  "Pos": 0,
+                  "Value": "0|1,1|1,2|1,2|2,3|2,4|2,5|2,6|2,7|2,8|2,9|2,10|2,11|2,",
+                  "Extensions": []
+                }
+              ]
+            },
+            {
+              "Order": 2,
+              "Desc": "Game 2",
+              "DescS": "2",
+              "Extensions": [
+                {
+                  "Type": "PERIOD_INFO",
+                  "Code": "Actions",
+                  "Pos": 0,
+                  "Value": "0|1,1|1,2|1,3|1,4|1,5|1,5|2,6|2,7|2,8|2,8|3,8|4,9|4,9|5,10|5,11|5,",
+                  "Extensions": []
+                }
+              ]
+            },
+            {
+              "Order": 3,
+              "Desc": "Game 3",
+              "DescS": "3",
+              "Extensions": [
+                {
+                  "Type": "PERIOD_INFO",
+                  "Code": "Actions",
+                  "Pos": 0,
+                  "Value": "1|0,1|1,2|1,3|1,4|1,5|1,5|2,6|2,7|2,8|2,9|2,10|2,10|3,11|3,",
+                  "Extensions": []
+                }
+              ]
+            },
+            {
+              "Order": 4,
+              "Desc": "Game 4",
+              "DescS": "4",
+              "Extensions": [
+                {
+                  "Type": "PERIOD_INFO",
+                  "Code": "Actions",
+                  "Pos": 0,
+                  "Value": "",
+                  "Extensions": []
+                }
+              ]
+            },
+            {
+              "Order": 5,
+              "Desc": "Game 5",
+              "DescS": "5",
+              "Extensions": [
+                {
+                  "Type": "PERIOD_INFO",
+                  "Code": "Actions",
+                  "Pos": 0,
+                  "Value": "",
+                  "Extensions": []
+                }
+              ]
+            }
+          ],
+          "Home": {
+            "Org": "IND",
+            "Reg": "12546089",
+            "Name": "SINGH Anahat",
+            "Result": "3",
+            "Winner": true,
+            "HasData": true,
+            "NameS": "SINGH A",
+            "Medal": "",
+            "Splits": [
+              {
+                "Rk": "1",
+                "RkPo": 1,
+                "Res": "11",
+                "Extensions": []
+              },
+              {
+                "Rk": "1",
+                "RkPo": 1,
+                "Res": "11",
+                "Extensions": []
+              },
+              {
+                "Rk": "1",
+                "RkPo": 1,
+                "Res": "11",
+                "Extensions": []
+              }
+            ],
+            "Extensions": [
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "Card1",
+                "Pos": 0,
+                "Value": "0",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "Card2",
+                "Pos": 0,
+                "Value": "0",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "CardT",
+                "Pos": 0,
+                "Value": "0",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "CardY",
+                "Pos": 0,
+                "Value": "0",
+                "Extensions": []
+              },
+              {
+                "Type": "PREV_RESULT",
+                "Code": "UNIT_KEY",
+                "Pos": 1,
+                "Value": "W.SINGLES-----------.8FNL.000500--",
+                "Extensions": [
+                  {
+                    "Type": "RESULT",
+                    "Code": "Register",
+                    "Pos": 1,
+                    "Value": "12546089"
+                  },
+                  {
+                    "Type": "RESULT",
+                    "Code": "RegisterOpp",
+                    "Pos": 1,
+                    "Value": "1978750"
+                  },
+                  {
+                    "Type": "RESULT",
+                    "Code": "Result",
+                    "Pos": 1,
+                    "Value": "3-0"
+                  }
+                ]
+              },
+              {
+                "Type": "SERVICE",
+                "Code": "MemberServer",
+                "Pos": 0,
+                "Value": "1",
+                "Extensions": []
+              },
+              {
+                "Type": "SERVICE",
+                "Code": "Server",
+                "Pos": 0,
+                "Value": "true",
+                "Extensions": []
+              }
+            ]
+          },
+          "Away": {
+            "Org": "IND",
+            "Reg": "11721187",
+            "Name": "KHANNA Tanvi",
+            "Result": "0",
+            "Winner": false,
+            "HasData": true,
+            "NameS": "KHANNA T",
+            "Medal": "",
+            "Splits": [
+              {
+                "Rk": "2",
+                "RkPo": 2,
+                "Res": "2",
+                "Extensions": []
+              },
+              {
+                "Rk": "2",
+                "RkPo": 2,
+                "Res": "5",
+                "Extensions": []
+              },
+              {
+                "Rk": "2",
+                "RkPo": 2,
+                "Res": "3",
+                "Extensions": []
+              }
+            ],
+            "Extensions": [
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "Card1",
+                "Pos": 0,
+                "Value": "0",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "Card2",
+                "Pos": 0,
+                "Value": "0",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "CardT",
+                "Pos": 0,
+                "Value": "0",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "CardY",
+                "Pos": 0,
+                "Value": "0",
+                "Extensions": []
+              },
+              {
+                "Type": "PREV_RESULT",
+                "Code": "UNIT_KEY",
+                "Pos": 1,
+                "Value": "W.SINGLES-----------.R32-.001200--",
+                "Extensions": [
+                  {
+                    "Type": "RESULT",
+                    "Code": "Register",
+                    "Pos": 1,
+                    "Value": "11721187"
+                  },
+                  {
+                    "Type": "RESULT",
+                    "Code": "RegisterOpp",
+                    "Pos": 1,
+                    "Value": "4545336"
+                  },
+                  {
+                    "Type": "RESULT",
+                    "Code": "Result",
+                    "Pos": 1,
+                    "Value": "3-0"
+                  }
+                ]
+              },
+              {
+                "Type": "PREV_RESULT",
+                "Code": "UNIT_KEY",
+                "Pos": 2,
+                "Value": "W.SINGLES-----------.8FNL.000600--",
+                "Extensions": [
+                  {
+                    "Type": "RESULT",
+                    "Code": "Register",
+                    "Pos": 2,
+                    "Value": "11721187"
+                  },
+                  {
+                    "Type": "RESULT",
+                    "Code": "RegisterOpp",
+                    "Pos": 2,
+                    "Value": "1975078"
+                  },
+                  {
+                    "Type": "RESULT",
+                    "Code": "Result",
+                    "Pos": 2,
+                    "Value": "3-1"
+                  }
+                ]
+              },
+              {
+                "Type": "SERVICE",
+                "Code": "MemberServer",
+                "Pos": 0,
+                "Value": "1",
+                "Extensions": []
+              },
+              {
+                "Type": "SERVICE",
+                "Code": "Server",
+                "Pos": 0,
+                "Value": "false",
+                "Extensions": []
+              }
+            ]
+          },
+          "Extensions": [
+            {
+              "Type": "UNIT_INFO",
+              "Code": "InfoMatch",
+              "Pos": 0,
+              "Value": "0",
+              "Extensions": []
+            },
+            {
+              "Type": "UNIT_INFO",
+              "Code": "InfoTeam",
+              "Pos": 0,
+              "Value": "0",
+              "Extensions": []
+            },
+            {
+              "Type": "UNIT_INFO",
+              "Code": "ReceivedDuration",
+              "Pos": 0,
+              "Value": "19min",
+              "Extensions": []
+            },
+            {
+              "Type": "UNIT_INFO",
+              "Code": "ResultDetailWinner",
+              "Pos": 0,
+              "Value": "11-2, 11-5, 11-3",
+              "Extensions": []
+            },
+            {
+              "Type": "UNIT_INFO",
+              "Code": "RoundNum",
+              "Pos": 0,
+              "Value": "",
+              "Extensions": []
+            },
+            {
+              "Type": "UNIT_INFO",
+              "Code": "ServerHomeAway",
+              "Pos": 0,
+              "Value": "1",
+              "Extensions": []
+            },
+            {
+              "Type": "UNIT_INFO",
+              "Code": "SubMatchNum",
+              "Pos": 0,
+              "Value": "",
+              "Extensions": []
+            },
+            {
+              "Type": "UNIT_INFO",
+              "Code": "SubunitOrder",
+              "Pos": 0,
+              "Value": "0",
+              "Extensions": []
+            }
+          ]
+        },
+        {
+          "Orgs": [
+            "IND",
+            "JPN"
+          ],
+          "IsPhase": false,
+          "ResCode": "W.SINGLES-----------.SFNL.000200--",
+          "ShowLink": true,
+          "Disc": "SQU",
+          "DiscDesc": "Squash",
+          "Key": "W.SINGLES-----------.SFNL.000200--",
+          "isH2H": true,
+          "Type": "A",
+          "Medal": "2",
+          "Status": "OFFICIAL",
+          "StatusDesc": "Official",
+          "DateTimeRaw": "2026-09-26T14:00:00+09:00",
+          "HideStartDate": false,
+          "Estimated": false,
+          "EstText": "",
+          "HideLocation": false,
+          "Venue": "KFA",
+          "VenueDesc": "Nagoya Kinjo Futo Arena",
+          "VenueDescS": "Nagoya Kinjo Futo Arena",
+          "Loc": "001",
+          "LocDesc": "Court 1",
+          "LocDescS": "Court 1",
+          "Event": "W.SINGLES-----------",
+          "EventDesc": "Women's Singles",
+          "Phase": "W.SINGLES-----------.SFNL",
+          "PhaseOrder": 5,
+          "PhaseDesc": "Women's Singles Semifinals",
+          "PhaseDescS": "WS 1/2",
+          "PhaseDescA": "Semifinals",
+          "UnitDesc": "Women's Singles Semifinals Match 2",
+          "UnitDescS": "WS 1/2 M 2",
+          "UnitDescA": "Match 2",
+          "UnitNum": "30",
+          "IsLive": false,
+          "ShowResults": true,
+          "Periods": [
+            {
+              "Order": 1,
+              "Desc": "Game 1",
+              "DescS": "1",
+              "Extensions": [
+                {
+                  "Type": "PERIOD_INFO",
+                  "Code": "Actions",
+                  "Pos": 0,
+                  "Value": "0|1,1|1,1|2,1|3,2|3,3|3,3|4,3|5,4|5,4|6,5|6,6|6,6|7,6|8,7|8,7|9,7|10,8|10,9|10,9|11,",
+                  "Extensions": []
+                }
+              ]
+            },
+            {
+              "Order": 2,
+              "Desc": "Game 2",
+              "DescS": "2",
+              "Extensions": [
+                {
+                  "Type": "PERIOD_INFO",
+                  "Code": "Actions",
+                  "Pos": 0,
+                  "Value": "0|1,0|2,1|2,2|2,2|3,2|4,3|4,3|5,3|6,4|6,4|7,5|7,5|8,6|8,6|9,7|9,8|9,8|10,9|10,10|10,11|10,11|11,11|12,11|13,",
+                  "Extensions": []
+                }
+              ]
+            },
+            {
+              "Order": 3,
+              "Desc": "Game 3",
+              "DescS": "3",
+              "Extensions": [
+                {
+                  "Type": "PERIOD_INFO",
+                  "Code": "Actions",
+                  "Pos": 0,
+                  "Value": "0|1,1|1,1|2,1|3,2|3,3|3,3|4,3|5,4|5,4|6,4|7,5|7,5|8,6|8,7|8,7|9,8|9,8|10,9|10,10|10,11|10,12|10,",
+                  "Extensions": []
+                }
+              ]
+            },
+            {
+              "Order": 4,
+              "Desc": "Game 4",
+              "DescS": "4",
+              "Extensions": [
+                {
+                  "Type": "PERIOD_INFO",
+                  "Code": "Actions",
+                  "Pos": 0,
+                  "Value": "0|1,1|1,1|2,2|2,2|3,2|4,3|4,4|4,5|4,5|5,5|6,6|6,7|6,8|6,9|6,10|6,11|6,",
+                  "Extensions": []
+                }
+              ]
+            },
+            {
+              "Order": 5,
+              "Desc": "Game 5",
+              "DescS": "5",
+              "Extensions": [
+                {
+                  "Type": "PERIOD_INFO",
+                  "Code": "Actions",
+                  "Pos": 0,
+                  "Value": "1|0,2|0,2|1,3|1,3|2,4|2,5|2,6|2,7|2,7|3,8|3,9|3,10|3,11|3,",
+                  "Extensions": []
+                }
+              ]
+            }
+          ],
+          "Home": {
+            "Org": "IND",
+            "Reg": "12546089",
+            "Name": "SINGH Anahat",
+            "Result": "3",
+            "Winner": true,
+            "HasData": true,
+            "NameS": "SINGH A",
+            "Medal": "",
+            "Splits": [
+              {
+                "Rk": "2",
+                "RkPo": 2,
+                "Res": "9",
+                "Extensions": []
+              },
+              {
+                "Rk": "2",
+                "RkPo": 2,
+                "Res": "11",
+                "Extensions": []
+              },
+              {
+                "Rk": "1",
+                "RkPo": 1,
+                "Res": "12",
+                "Extensions": []
+              },
+              {
+                "Rk": "1",
+                "RkPo": 1,
+                "Res": "11",
+                "Extensions": []
+              },
+              {
+                "Rk": "1",
+                "RkPo": 1,
+                "Res": "11",
+                "Extensions": []
+              }
+            ],
+            "Extensions": [
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "Card1",
+                "Pos": 0,
+                "Value": "0",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "Card2",
+                "Pos": 0,
+                "Value": "0",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "CardT",
+                "Pos": 0,
+                "Value": "0",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "CardY",
+                "Pos": 0,
+                "Value": "0",
+                "Extensions": []
+              },
+              {
+                "Type": "PREV_RESULT",
+                "Code": "UNIT_KEY",
+                "Pos": 1,
+                "Value": "W.SINGLES-----------.8FNL.000500--",
+                "Extensions": [
+                  {
+                    "Type": "RESULT",
+                    "Code": "Register",
+                    "Pos": 1,
+                    "Value": "12546089"
+                  },
+                  {
+                    "Type": "RESULT",
+                    "Code": "RegisterOpp",
+                    "Pos": 1,
+                    "Value": "1978750"
+                  },
+                  {
+                    "Type": "RESULT",
+                    "Code": "Result",
+                    "Pos": 1,
+                    "Value": "3-0"
+                  }
+                ]
+              },
+              {
+                "Type": "PREV_RESULT",
+                "Code": "UNIT_KEY",
+                "Pos": 2,
+                "Value": "W.SINGLES-----------.QFNL.000300--",
+                "Extensions": [
+                  {
+                    "Type": "RESULT",
+                    "Code": "Register",
+                    "Pos": 2,
+                    "Value": "12546089"
+                  },
+                  {
+                    "Type": "RESULT",
+                    "Code": "RegisterOpp",
+                    "Pos": 2,
+                    "Value": "11721187"
+                  },
+                  {
+                    "Type": "RESULT",
+                    "Code": "Result",
+                    "Pos": 2,
+                    "Value": "3-0"
+                  }
+                ]
+              },
+              {
+                "Type": "SERVICE",
+                "Code": "MemberServer",
+                "Pos": 0,
+                "Value": "1",
+                "Extensions": []
+              },
+              {
+                "Type": "SERVICE",
+                "Code": "Server",
+                "Pos": 0,
+                "Value": "true",
+                "Extensions": []
+              }
+            ]
+          },
+          "Away": {
+            "Org": "JPN",
+            "Reg": "12005189",
+            "Name": "WATANABE Satomi",
+            "Result": "2",
+            "Winner": false,
+            "HasData": true,
+            "NameS": "WATANABE S",
+            "Medal": "ME_BRONZE",
+            "Splits": [
+              {
+                "Rk": "1",
+                "RkPo": 1,
+                "Res": "11",
+                "Extensions": []
+              },
+              {
+                "Rk": "1",
+                "RkPo": 1,
+                "Res": "13",
+                "Extensions": []
+              },
+              {
+                "Rk": "2",
+                "RkPo": 2,
+                "Res": "10",
+                "Extensions": []
+              },
+              {
+                "Rk": "2",
+                "RkPo": 2,
+                "Res": "6",
+                "Extensions": []
+              },
+              {
+                "Rk": "2",
+                "RkPo": 2,
+                "Res": "3",
+                "Extensions": []
+              }
+            ],
+            "Extensions": [
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "Card1",
+                "Pos": 0,
+                "Value": "0",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "Card2",
+                "Pos": 0,
+                "Value": "0",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "CardT",
+                "Pos": 0,
+                "Value": "0",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "CardY",
+                "Pos": 0,
+                "Value": "0",
+                "Extensions": []
+              },
+              {
+                "Type": "PREV_RESULT",
+                "Code": "UNIT_KEY",
+                "Pos": 1,
+                "Value": "W.SINGLES-----------.8FNL.000800--",
+                "Extensions": [
+                  {
+                    "Type": "RESULT",
+                    "Code": "Register",
+                    "Pos": 1,
+                    "Value": "12005189"
+                  },
+                  {
+                    "Type": "RESULT",
+                    "Code": "RegisterOpp",
+                    "Pos": 1,
+                    "Value": "6028578"
+                  },
+                  {
+                    "Type": "RESULT",
+                    "Code": "Result",
+                    "Pos": 1,
+                    "Value": "3-0"
+                  }
+                ]
+              },
+              {
+                "Type": "PREV_RESULT",
+                "Code": "UNIT_KEY",
+                "Pos": 2,
+                "Value": "W.SINGLES-----------.QFNL.000400--",
+                "Extensions": [
+                  {
+                    "Type": "RESULT",
+                    "Code": "Register",
+                    "Pos": 2,
+                    "Value": "12005189"
+                  },
+                  {
+                    "Type": "RESULT",
+                    "Code": "RegisterOpp",
+                    "Pos": 2,
+                    "Value": "12005295"
+                  },
+                  {
+                    "Type": "RESULT",
+                    "Code": "Result",
+                    "Pos": 2,
+                    "Value": "3-0"
+                  }
+                ]
+              },
+              {
+                "Type": "SERVICE",
+                "Code": "MemberServer",
+                "Pos": 0,
+                "Value": "1",
+                "Extensions": []
+              },
+              {
+                "Type": "SERVICE",
+                "Code": "Server",
+                "Pos": 0,
+                "Value": "false",
+                "Extensions": []
+              }
+            ]
+          },
+          "Extensions": [
+            {
+              "Type": "UNIT_INFO",
+              "Code": "InfoMatch",
+              "Pos": 0,
+              "Value": "0",
+              "Extensions": []
+            },
+            {
+              "Type": "UNIT_INFO",
+              "Code": "InfoTeam",
+              "Pos": 0,
+              "Value": "0",
+              "Extensions": []
+            },
+            {
+              "Type": "UNIT_INFO",
+              "Code": "ReceivedDuration",
+              "Pos": 0,
+              "Value": "51min",
+              "Extensions": []
+            },
+            {
+              "Type": "UNIT_INFO",
+              "Code": "ResultDetailWinner",
+              "Pos": 0,
+              "Value": "9-11, 11-13, 12-10, 11-6, 11-3",
+              "Extensions": []
+            },
+            {
+              "Type": "UNIT_INFO",
+              "Code": "RoundNum",
+              "Pos": 0,
+              "Value": "",
+              "Extensions": []
+            },
+            {
+              "Type": "UNIT_INFO",
+              "Code": "ServerHomeAway",
+              "Pos": 0,
+              "Value": "1",
+              "Extensions": []
+            },
+            {
+              "Type": "UNIT_INFO",
+              "Code": "SubMatchNum",
+              "Pos": 0,
+              "Value": "",
+              "Extensions": []
+            },
+            {
+              "Type": "UNIT_INFO",
+              "Code": "SubunitOrder",
+              "Pos": 0,
+              "Value": "0",
+              "Extensions": []
+            }
+          ]
+        },
+        {
+          "Orgs": [
+            "MAS",
+            "IND"
+          ],
+          "IsPhase": false,
+          "ResCode": "W.SINGLES-----------.FNL-.000200--",
+          "ShowLink": true,
+          "Disc": "SQU",
+          "DiscDesc": "Squash",
+          "Key": "W.SINGLES-----------.FNL-.000200--",
+          "isH2H": true,
+          "Type": "A",
+          "Medal": "1",
+          "Status": "OFFICIAL",
+          "StatusDesc": "Official",
+          "DateTimeRaw": "2026-09-27T17:00:00+09:00",
+          "HideStartDate": false,
+          "Estimated": false,
+          "EstText": "",
+          "HideLocation": false,
+          "Venue": "KFA",
+          "VenueDesc": "Nagoya Kinjo Futo Arena",
+          "VenueDescS": "Nagoya Kinjo Futo Arena",
+          "Loc": "001",
+          "LocDesc": "Court 1",
+          "LocDescS": "Court 1",
+          "Event": "W.SINGLES-----------",
+          "EventDesc": "Women's Singles",
+          "Phase": "W.SINGLES-----------.FNL-",
+          "PhaseOrder": 1,
+          "PhaseDesc": "Women's Singles Final",
+          "PhaseDescS": "WS F",
+          "PhaseDescA": "Final",
+          "UnitDesc": "Women's Singles Final Gold Medal Match",
+          "UnitDescS": "WS F GM",
+          "UnitDescA": "Gold Medal Match",
+          "UnitNum": "32",
+          "IsLive": false,
+          "ShowResults": true,
+          "Periods": [
+            {
+              "Order": 1,
+              "Desc": "Game 1",
+              "DescS": "1",
+              "Extensions": [
+                {
+                  "Type": "PERIOD_INFO",
+                  "Code": "Actions",
+                  "Pos": 0,
+                  "Value": "0|1,1|1,1|2,1|3,2|3,3|3,4|3,5|3,6|3,7|3,8|3,9|3,9|4,10|4,11|4,",
+                  "Extensions": []
+                }
+              ]
+            },
+            {
+              "Order": 2,
+              "Desc": "Game 2",
+              "DescS": "2",
+              "Extensions": [
+                {
+                  "Type": "PERIOD_INFO",
+                  "Code": "Actions",
+                  "Pos": 0,
+                  "Value": "1|0,2|0,3|0,4|0,4|1,4|2,5|2,6|2,7|2,8|2,8|3,9|3,9|4,10|4,11|4,",
+                  "Extensions": []
+                }
+              ]
+            },
+            {
+              "Order": 3,
+              "Desc": "Game 3",
+              "DescS": "3",
+              "Extensions": [
+                {
+                  "Type": "PERIOD_INFO",
+                  "Code": "Actions",
+                  "Pos": 0,
+                  "Value": "1|0,2|0,3|0,4|0,4|1,4|2,5|2,5|3,6|3,6|4,7|4,8|4,8|5,8|6,9|6,10|6,10|7,11|7,",
+                  "Extensions": []
+                }
+              ]
+            },
+            {
+              "Order": 4,
+              "Desc": "Game 4",
+              "DescS": "4",
+              "Extensions": [
+                {
+                  "Type": "PERIOD_INFO",
+                  "Code": "Actions",
+                  "Pos": 0,
+                  "Value": "",
+                  "Extensions": []
+                }
+              ]
+            },
+            {
+              "Order": 5,
+              "Desc": "Game 5",
+              "DescS": "5",
+              "Extensions": [
+                {
+                  "Type": "PERIOD_INFO",
+                  "Code": "Actions",
+                  "Pos": 0,
+                  "Value": "",
+                  "Extensions": []
+                }
+              ]
+            }
+          ],
+          "Home": {
+            "Org": "MAS",
+            "Reg": "5109276",
+            "Name": "SUBRAMANIAM Sivasangari",
+            "Result": "3",
+            "Winner": true,
+            "HasData": true,
+            "NameS": "SUBRAMANIAM S",
+            "Medal": "ME_GOLD",
+            "Splits": [
+              {
+                "Rk": "1",
+                "RkPo": 1,
+                "Res": "11",
+                "Extensions": []
+              },
+              {
+                "Rk": "1",
+                "RkPo": 1,
+                "Res": "11",
+                "Extensions": []
+              },
+              {
+                "Rk": "1",
+                "RkPo": 1,
+                "Res": "11",
+                "Extensions": []
+              }
+            ],
+            "Extensions": [
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "Card1",
+                "Pos": 0,
+                "Value": "0",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "Card2",
+                "Pos": 0,
+                "Value": "0",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "CardT",
+                "Pos": 0,
+                "Value": "0",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "CardY",
+                "Pos": 0,
+                "Value": "0",
+                "Extensions": []
+              },
+              {
+                "Type": "PREV_RESULT",
+                "Code": "UNIT_KEY",
+                "Pos": 1,
+                "Value": "W.SINGLES-----------.8FNL.000100--",
+                "Extensions": [
+                  {
+                    "Type": "RESULT",
+                    "Code": "Register",
+                    "Pos": 1,
+                    "Value": "5109276"
+                  },
+                  {
+                    "Type": "RESULT",
+                    "Code": "RegisterOpp",
+                    "Pos": 1,
+                    "Value": "13992126"
+                  },
+                  {
+                    "Type": "RESULT",
+                    "Code": "Result",
+                    "Pos": 1,
+                    "Value": "3-0"
+                  }
+                ]
+              },
+              {
+                "Type": "PREV_RESULT",
+                "Code": "UNIT_KEY",
+                "Pos": 2,
+                "Value": "W.SINGLES-----------.QFNL.000100--",
+                "Extensions": [
+                  {
+                    "Type": "RESULT",
+                    "Code": "Register",
+                    "Pos": 2,
+                    "Value": "5109276"
+                  },
+                  {
+                    "Type": "RESULT",
+                    "Code": "RegisterOpp",
+                    "Pos": 2,
+                    "Value": "12262421"
+                  },
+                  {
+                    "Type": "RESULT",
+                    "Code": "Result",
+                    "Pos": 2,
+                    "Value": "3-0"
+                  }
+                ]
+              },
+              {
+                "Type": "PREV_RESULT",
+                "Code": "UNIT_KEY",
+                "Pos": 3,
+                "Value": "W.SINGLES-----------.SFNL.000100--",
+                "Extensions": [
+                  {
+                    "Type": "RESULT",
+                    "Code": "Register",
+                    "Pos": 3,
+                    "Value": "5109276"
+                  },
+                  {
+                    "Type": "RESULT",
+                    "Code": "RegisterOpp",
+                    "Pos": 3,
+                    "Value": "12262318"
+                  },
+                  {
+                    "Type": "RESULT",
+                    "Code": "Result",
+                    "Pos": 3,
+                    "Value": "3-0"
+                  }
+                ]
+              },
+              {
+                "Type": "SERVICE",
+                "Code": "MemberServer",
+                "Pos": 0,
+                "Value": "1",
+                "Extensions": []
+              },
+              {
+                "Type": "SERVICE",
+                "Code": "Server",
+                "Pos": 0,
+                "Value": "true",
+                "Extensions": []
+              }
+            ]
+          },
+          "Away": {
+            "Org": "IND",
+            "Reg": "12546089",
+            "Name": "SINGH Anahat",
+            "Result": "0",
+            "Winner": false,
+            "HasData": true,
+            "NameS": "SINGH A",
+            "Medal": "ME_SILVER",
+            "Splits": [
+              {
+                "Rk": "2",
+                "RkPo": 2,
+                "Res": "4",
+                "Extensions": []
+              },
+              {
+                "Rk": "2",
+                "RkPo": 2,
+                "Res": "4",
+                "Extensions": []
+              },
+              {
+                "Rk": "2",
+                "RkPo": 2,
+                "Res": "7",
+                "Extensions": []
+              }
+            ],
+            "Extensions": [
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "Card1",
+                "Pos": 0,
+                "Value": "0",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "Card2",
+                "Pos": 0,
+                "Value": "0",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "CardT",
+                "Pos": 0,
+                "Value": "0",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "CardY",
+                "Pos": 0,
+                "Value": "0",
+                "Extensions": []
+              },
+              {
+                "Type": "PREV_RESULT",
+                "Code": "UNIT_KEY",
+                "Pos": 1,
+                "Value": "W.SINGLES-----------.8FNL.000500--",
+                "Extensions": [
+                  {
+                    "Type": "RESULT",
+                    "Code": "Register",
+                    "Pos": 1,
+                    "Value": "12546089"
+                  },
+                  {
+                    "Type": "RESULT",
+                    "Code": "RegisterOpp",
+                    "Pos": 1,
+                    "Value": "1978750"
+                  },
+                  {
+                    "Type": "RESULT",
+                    "Code": "Result",
+                    "Pos": 1,
+                    "Value": "3-0"
+                  }
+                ]
+              },
+              {
+                "Type": "PREV_RESULT",
+                "Code": "UNIT_KEY",
+                "Pos": 2,
+                "Value": "W.SINGLES-----------.QFNL.000300--",
+                "Extensions": [
+                  {
+                    "Type": "RESULT",
+                    "Code": "Register",
+                    "Pos": 2,
+                    "Value": "12546089"
+                  },
+                  {
+                    "Type": "RESULT",
+                    "Code": "RegisterOpp",
+                    "Pos": 2,
+                    "Value": "11721187"
+                  },
+                  {
+                    "Type": "RESULT",
+                    "Code": "Result",
+                    "Pos": 2,
+                    "Value": "3-0"
+                  }
+                ]
+              },
+              {
+                "Type": "PREV_RESULT",
+                "Code": "UNIT_KEY",
+                "Pos": 3,
+                "Value": "W.SINGLES-----------.SFNL.000200--",
+                "Extensions": [
+                  {
+                    "Type": "RESULT",
+                    "Code": "Register",
+                    "Pos": 3,
+                    "Value": "12546089"
+                  },
+                  {
+                    "Type": "RESULT",
+                    "Code": "RegisterOpp",
+                    "Pos": 3,
+                    "Value": "12005189"
+                  },
+                  {
+                    "Type": "RESULT",
+                    "Code": "Result",
+                    "Pos": 3,
+                    "Value": "3-2"
+                  }
+                ]
+              },
+              {
+                "Type": "SERVICE",
+                "Code": "MemberServer",
+                "Pos": 0,
+                "Value": "1",
+                "Extensions": []
+              },
+              {
+                "Type": "SERVICE",
+                "Code": "Server",
+                "Pos": 0,
+                "Value": "false",
+                "Extensions": []
+              }
+            ]
+          },
+          "Extensions": [
+            {
+              "Type": "UNIT_INFO",
+              "Code": "InfoMatch",
+              "Pos": 0,
+              "Value": "0",
+              "Extensions": []
+            },
+            {
+              "Type": "UNIT_INFO",
+              "Code": "InfoTeam",
+              "Pos": 0,
+              "Value": "0",
+              "Extensions": []
+            },
+            {
+              "Type": "UNIT_INFO",
+              "Code": "ReceivedDuration",
+              "Pos": 0,
+              "Value": "27min",
+              "Extensions": []
+            },
+            {
+              "Type": "UNIT_INFO",
+              "Code": "ResultDetailWinner",
+              "Pos": 0,
+              "Value": "11-4, 11-4, 11-7",
+              "Extensions": []
+            },
+            {
+              "Type": "UNIT_INFO",
+              "Code": "RoundNum",
+              "Pos": 0,
+              "Value": "",
+              "Extensions": []
+            },
+            {
+              "Type": "UNIT_INFO",
+              "Code": "ServerHomeAway",
+              "Pos": 0,
+              "Value": "1",
+              "Extensions": []
+            },
+            {
+              "Type": "UNIT_INFO",
+              "Code": "SubMatchNum",
+              "Pos": 0,
+              "Value": "",
+              "Extensions": []
+            },
+            {
+              "Type": "UNIT_INFO",
+              "Code": "SubunitOrder",
+              "Pos": 0,
+              "Value": "0",
+              "Extensions": []
+            }
+          ]
+        },
+        {
+          "Orgs": [
+            "IND",
+            "CHN"
+          ],
+          "IsPhase": false,
+          "ResCode": "W.TEAM--------------.GPC-.00050000",
+          "ShowLink": true,
+          "Disc": "SQU",
+          "DiscDesc": "Squash",
+          "Key": "W.TEAM--------------.GPC-.00050000",
+          "isH2H": true,
+          "Type": "T",
+          "Medal": "",
+          "Status": "SCHEDULED",
+          "StatusDesc": "Scheduled",
+          "DateTimeRaw": "2026-09-28T10:00:00+09:00",
+          "HideStartDate": false,
+          "Estimated": false,
+          "EstText": "",
+          "HideLocation": false,
+          "Venue": "KFA",
+          "VenueDesc": "Nagoya Kinjo Futo Arena",
+          "VenueDescS": "Nagoya Kinjo Futo Arena",
+          "Loc": "004",
+          "LocDesc": "Court 4",
+          "LocDescS": "Court 4",
+          "Event": "W.TEAM--------------",
+          "EventDesc": "Women's Team",
+          "Phase": "W.TEAM--------------.GPC-",
+          "PhaseOrder": 33,
+          "PhaseDesc": "Women's Team Pool C",
+          "PhaseDescS": "WT PC",
+          "PhaseDescA": "Pool C",
+          "UnitDesc": "Women's Team Pool C Match 5",
+          "UnitDescS": "WT PC M 5",
+          "UnitDescA": "Match 5",
+          "UnitNum": "16",
+          "IsLive": false,
+          "ShowResults": false,
+          "Periods": [
+            {
+              "Order": 1,
+              "Desc": "Game 1",
+              "DescS": "1"
+            },
+            {
+              "Order": 2,
+              "Desc": "Game 2",
+              "DescS": "2"
+            },
+            {
+              "Order": 3,
+              "Desc": "Game 3",
+              "DescS": "3"
+            },
+            {
+              "Order": 4,
+              "Desc": "Game 4",
+              "DescS": "4"
+            },
+            {
+              "Order": 5,
+              "Desc": "Game 5",
+              "DescS": "5"
+            }
+          ],
+          "Home": {
+            "Org": "IND",
+            "Reg": "SQUWTEAM-------IND01",
+            "Name": "India",
+            "Result": "",
+            "Winner": false,
+            "HasData": true,
+            "NameS": "India",
+            "Medal": "",
+            "Members": [
+              {
+                "Org": "IND",
+                "Bib": "",
+                "Name": "CHINAPPA Joshana",
+                "NameS": "CHINAPPA Joshana",
+                "FuncDesc": "Athlete",
+                "PosDesc": ""
+              },
+              {
+                "Org": "IND",
+                "Bib": "",
+                "Name": "KHANNA Tanvi",
+                "NameS": "KHANNA Tanvi",
+                "FuncDesc": "Athlete",
+                "PosDesc": ""
+              },
+              {
+                "Org": "IND",
+                "Bib": "",
+                "Name": "SINGH Anahat",
+                "NameS": "SINGH Anahat",
+                "FuncDesc": "Athlete",
+                "PosDesc": ""
+              },
+              {
+                "Org": "IND",
+                "Bib": "",
+                "Name": "RIAZ Shameena",
+                "NameS": "RIAZ Shameena",
+                "FuncDesc": "Athlete",
+                "PosDesc": ""
+              }
+            ],
+            "Splits": [],
+            "Extensions": [
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "Card1",
+                "Pos": 0,
+                "Value": "0",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "Card2",
+                "Pos": 0,
+                "Value": "0",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "CardT",
+                "Pos": 0,
+                "Value": "0",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "CardY",
+                "Pos": 0,
+                "Value": "0",
+                "Extensions": []
+              },
+              {
+                "Type": "SERVICE",
+                "Code": "MemberServer",
+                "Pos": 0,
+                "Value": "",
+                "Extensions": []
+              },
+              {
+                "Type": "SERVICE",
+                "Code": "Server",
+                "Pos": 0,
+                "Value": "false",
+                "Extensions": []
+              }
+            ]
+          },
+          "Away": {
+            "Org": "CHN",
+            "Reg": "SQUWTEAM-------CHN01",
+            "Name": "People's Republic of China",
+            "Result": "",
+            "Winner": false,
+            "HasData": true,
+            "NameS": "China",
+            "Medal": "",
+            "Members": [
+              {
+                "Org": "CHN",
+                "Bib": "",
+                "Name": "CHENG Linglu",
+                "NameS": "CHENG Linglu",
+                "FuncDesc": "Athlete",
+                "PosDesc": ""
+              },
+              {
+                "Org": "CHN",
+                "Bib": "",
+                "Name": "LIU Ziyi",
+                "NameS": "LIU Ziyi",
+                "FuncDesc": "Athlete",
+                "PosDesc": ""
+              },
+              {
+                "Org": "CHN",
+                "Bib": "",
+                "Name": "YIN Ziyuan",
+                "NameS": "YIN Ziyuan",
+                "FuncDesc": "Athlete",
+                "PosDesc": ""
+              },
+              {
+                "Org": "CHN",
+                "Bib": "",
+                "Name": "ZHANG Yuning",
+                "NameS": "ZHANG Yuning",
+                "FuncDesc": "Athlete",
+                "PosDesc": ""
+              }
+            ],
+            "Splits": [],
+            "Extensions": [
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "Card1",
+                "Pos": 0,
+                "Value": "0",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "Card2",
+                "Pos": 0,
+                "Value": "0",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "CardT",
+                "Pos": 0,
+                "Value": "0",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "CardY",
+                "Pos": 0,
+                "Value": "0",
+                "Extensions": []
+              },
+              {
+                "Type": "SERVICE",
+                "Code": "MemberServer",
+                "Pos": 0,
+                "Value": "",
+                "Extensions": []
+              },
+              {
+                "Type": "SERVICE",
+                "Code": "Server",
+                "Pos": 0,
+                "Value": "false",
+                "Extensions": []
+              }
+            ]
+          },
+          "Extensions": [
+            {
+              "Type": "UNIT_INFO",
+              "Code": "InfoMatch",
+              "Pos": 0,
+              "Value": "0",
+              "Extensions": []
+            },
+            {
+              "Type": "UNIT_INFO",
+              "Code": "InfoTeam",
+              "Pos": 0,
+              "Value": "0",
+              "Extensions": []
+            },
+            {
+              "Type": "UNIT_INFO",
+              "Code": "ReceivedDuration",
+              "Pos": 0,
+              "Value": "0min",
+              "Extensions": []
+            },
+            {
+              "Type": "UNIT_INFO",
+              "Code": "ResultDetailWinner",
+              "Pos": 0,
+              "Value": "",
+              "Extensions": []
+            },
+            {
+              "Type": "UNIT_INFO",
+              "Code": "RoundNum",
+              "Pos": 0,
+              "Value": "",
+              "Extensions": []
+            },
+            {
+              "Type": "UNIT_INFO",
+              "Code": "ServerHomeAway",
+              "Pos": 0,
+              "Value": "",
+              "Extensions": []
+            },
+            {
+              "Type": "UNIT_INFO",
+              "Code": "SubMatchNum",
+              "Pos": 0,
+              "Value": "",
+              "Extensions": []
+            },
+            {
+              "Type": "UNIT_INFO",
+              "Code": "SubunitOrder",
+              "Pos": 0,
+              "Value": "0",
+              "Extensions": []
+            },
+            {
+              "Type": "UNIT_INFO",
+              "Code": "TeamMatchDuration",
+              "Pos": 0,
+              "Value": "0min",
+              "Extensions": []
+            }
+          ]
+        },
+        {
+          "Orgs": [
+            "IND",
+            "JPN"
+          ],
+          "IsPhase": false,
+          "ResCode": "W.TEAM--------------.GPC-.00030000",
+          "ShowLink": true,
+          "Disc": "SQU",
+          "DiscDesc": "Squash",
+          "Key": "W.TEAM--------------.GPC-.00030000",
+          "isH2H": true,
+          "Type": "T",
+          "Medal": "",
+          "Status": "SCHEDULED",
+          "StatusDesc": "Scheduled",
+          "DateTimeRaw": "2026-09-28T15:30:00+09:00",
+          "HideStartDate": false,
+          "Estimated": false,
+          "EstText": "",
+          "HideLocation": false,
+          "Venue": "KFA",
+          "VenueDesc": "Nagoya Kinjo Futo Arena",
+          "VenueDescS": "Nagoya Kinjo Futo Arena",
+          "Loc": "003",
+          "LocDesc": "Court 3",
+          "LocDescS": "Court 3",
+          "Event": "W.TEAM--------------",
+          "EventDesc": "Women's Team",
+          "Phase": "W.TEAM--------------.GPC-",
+          "PhaseOrder": 33,
+          "PhaseDesc": "Women's Team Pool C",
+          "PhaseDescS": "WT PC",
+          "PhaseDescA": "Pool C",
+          "UnitDesc": "Women's Team Pool C Match 3",
+          "UnitDescS": "WT PC M 3",
+          "UnitDescA": "Match 3",
+          "UnitNum": "11",
+          "IsLive": false,
+          "ShowResults": false,
+          "Periods": [
+            {
+              "Order": 1,
+              "Desc": "Game 1",
+              "DescS": "1"
+            },
+            {
+              "Order": 2,
+              "Desc": "Game 2",
+              "DescS": "2"
+            },
+            {
+              "Order": 3,
+              "Desc": "Game 3",
+              "DescS": "3"
+            },
+            {
+              "Order": 4,
+              "Desc": "Game 4",
+              "DescS": "4"
+            },
+            {
+              "Order": 5,
+              "Desc": "Game 5",
+              "DescS": "5"
+            }
+          ],
+          "Home": {
+            "Org": "IND",
+            "Reg": "SQUWTEAM-------IND01",
+            "Name": "India",
+            "Result": "",
+            "Winner": false,
+            "HasData": true,
+            "NameS": "India",
+            "Medal": "",
+            "Members": [
+              {
+                "Org": "IND",
+                "Bib": "",
+                "Name": "CHINAPPA Joshana",
+                "NameS": "CHINAPPA Joshana",
+                "FuncDesc": "Athlete",
+                "PosDesc": ""
+              },
+              {
+                "Org": "IND",
+                "Bib": "",
+                "Name": "KHANNA Tanvi",
+                "NameS": "KHANNA Tanvi",
+                "FuncDesc": "Athlete",
+                "PosDesc": ""
+              },
+              {
+                "Org": "IND",
+                "Bib": "",
+                "Name": "SINGH Anahat",
+                "NameS": "SINGH Anahat",
+                "FuncDesc": "Athlete",
+                "PosDesc": ""
+              },
+              {
+                "Org": "IND",
+                "Bib": "",
+                "Name": "RIAZ Shameena",
+                "NameS": "RIAZ Shameena",
+                "FuncDesc": "Athlete",
+                "PosDesc": ""
+              }
+            ],
+            "Splits": [],
+            "Extensions": [
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "Card1",
+                "Pos": 0,
+                "Value": "0",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "Card2",
+                "Pos": 0,
+                "Value": "0",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "CardT",
+                "Pos": 0,
+                "Value": "0",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "CardY",
+                "Pos": 0,
+                "Value": "0",
+                "Extensions": []
+              },
+              {
+                "Type": "PREV_RESULT",
+                "Code": "UNIT_KEY",
+                "Pos": 1,
+                "Value": "W.TEAM--------------.GPC-.00050000",
+                "Extensions": [
+                  {
+                    "Type": "RESULT",
+                    "Code": "Register",
+                    "Pos": 1,
+                    "Value": "SQUWTEAM-------IND01"
+                  },
+                  {
+                    "Type": "RESULT",
+                    "Code": "RegisterOpp",
+                    "Pos": 1,
+                    "Value": "SQUWTEAM-------CHN01"
+                  },
+                  {
+                    "Type": "RESULT",
+                    "Code": "Result",
+                    "Pos": 1,
+                    "Value": ""
+                  }
+                ]
+              },
+              {
+                "Type": "SERVICE",
+                "Code": "MemberServer",
+                "Pos": 0,
+                "Value": "",
+                "Extensions": []
+              },
+              {
+                "Type": "SERVICE",
+                "Code": "Server",
+                "Pos": 0,
+                "Value": "false",
+                "Extensions": []
+              }
+            ]
+          },
+          "Away": {
+            "Org": "JPN",
+            "Reg": "SQUWTEAM-------JPN01",
+            "Name": "Japan",
+            "Result": "",
+            "Winner": false,
+            "HasData": true,
+            "NameS": "Japan",
+            "Medal": "",
+            "Members": [
+              {
+                "Org": "JPN",
+                "Bib": "",
+                "Name": "SANO Erisa",
+                "NameS": "SANO Erisa",
+                "FuncDesc": "Athlete",
+                "PosDesc": ""
+              },
+              {
+                "Org": "JPN",
+                "Bib": "",
+                "Name": "WATANABE Satomi",
+                "NameS": "WATANABE Satomi",
+                "FuncDesc": "Athlete",
+                "PosDesc": ""
+              },
+              {
+                "Org": "JPN",
+                "Bib": "",
+                "Name": "MIDORIKAWA Akari",
+                "NameS": "MIDORIKAWA Akari",
+                "FuncDesc": "Athlete",
+                "PosDesc": ""
+              },
+              {
+                "Org": "JPN",
+                "Bib": "",
+                "Name": "SUGIMOTO Risa",
+                "NameS": "SUGIMOTO Risa",
+                "FuncDesc": "Athlete",
+                "PosDesc": ""
+              }
+            ],
+            "Splits": [],
+            "Extensions": [
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "Card1",
+                "Pos": 0,
+                "Value": "0",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "Card2",
+                "Pos": 0,
+                "Value": "0",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "CardT",
+                "Pos": 0,
+                "Value": "0",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "CardY",
+                "Pos": 0,
+                "Value": "0",
+                "Extensions": []
+              },
+              {
+                "Type": "PREV_RESULT",
+                "Code": "UNIT_KEY",
+                "Pos": 1,
+                "Value": "W.TEAM--------------.GPC-.00060000",
+                "Extensions": [
+                  {
+                    "Type": "RESULT",
+                    "Code": "Register",
+                    "Pos": 1,
+                    "Value": "SQUWTEAM-------JPN01"
+                  },
+                  {
+                    "Type": "RESULT",
+                    "Code": "RegisterOpp",
+                    "Pos": 1,
+                    "Value": "SQUWTEAM-------IRI01"
+                  },
+                  {
+                    "Type": "RESULT",
+                    "Code": "Result",
+                    "Pos": 1,
+                    "Value": ""
+                  }
+                ]
+              },
+              {
+                "Type": "SERVICE",
+                "Code": "MemberServer",
+                "Pos": 0,
+                "Value": "",
+                "Extensions": []
+              },
+              {
+                "Type": "SERVICE",
+                "Code": "Server",
+                "Pos": 0,
+                "Value": "false",
+                "Extensions": []
+              }
+            ]
+          },
+          "Extensions": [
+            {
+              "Type": "UNIT_INFO",
+              "Code": "InfoMatch",
+              "Pos": 0,
+              "Value": "0",
+              "Extensions": []
+            },
+            {
+              "Type": "UNIT_INFO",
+              "Code": "InfoTeam",
+              "Pos": 0,
+              "Value": "0",
+              "Extensions": []
+            },
+            {
+              "Type": "UNIT_INFO",
+              "Code": "ReceivedDuration",
+              "Pos": 0,
+              "Value": "0min",
+              "Extensions": []
+            },
+            {
+              "Type": "UNIT_INFO",
+              "Code": "ResultDetailWinner",
+              "Pos": 0,
+              "Value": "",
+              "Extensions": []
+            },
+            {
+              "Type": "UNIT_INFO",
+              "Code": "RoundNum",
+              "Pos": 0,
+              "Value": "",
+              "Extensions": []
+            },
+            {
+              "Type": "UNIT_INFO",
+              "Code": "ServerHomeAway",
+              "Pos": 0,
+              "Value": "",
+              "Extensions": []
+            },
+            {
+              "Type": "UNIT_INFO",
+              "Code": "SubMatchNum",
+              "Pos": 0,
+              "Value": "",
+              "Extensions": []
+            },
+            {
+              "Type": "UNIT_INFO",
+              "Code": "SubunitOrder",
+              "Pos": 0,
+              "Value": "0",
+              "Extensions": []
+            },
+            {
+              "Type": "UNIT_INFO",
+              "Code": "TeamMatchDuration",
+              "Pos": 0,
+              "Value": "0min",
+              "Extensions": []
+            }
+          ]
+        },
+        {
+          "Orgs": [
+            "IND",
+            "IRI"
+          ],
+          "IsPhase": false,
+          "ResCode": "W.TEAM--------------.GPC-.00020000",
+          "ShowLink": true,
+          "Disc": "SQU",
+          "DiscDesc": "Squash",
+          "Key": "W.TEAM--------------.GPC-.00020000",
+          "isH2H": true,
+          "Type": "T",
+          "Medal": "",
+          "Status": "SCHEDULED",
+          "StatusDesc": "Scheduled",
+          "DateTimeRaw": "2026-09-29T10:00:00+09:00",
+          "HideStartDate": false,
+          "Estimated": false,
+          "EstText": "",
+          "HideLocation": false,
+          "Venue": "KFA",
+          "VenueDesc": "Nagoya Kinjo Futo Arena",
+          "VenueDescS": "Nagoya Kinjo Futo Arena",
+          "Loc": "004",
+          "LocDesc": "Court 4",
+          "LocDescS": "Court 4",
+          "Event": "W.TEAM--------------",
+          "EventDesc": "Women's Team",
+          "Phase": "W.TEAM--------------.GPC-",
+          "PhaseOrder": 33,
+          "PhaseDesc": "Women's Team Pool C",
+          "PhaseDescS": "WT PC",
+          "PhaseDescA": "Pool C",
+          "UnitDesc": "Women's Team Pool C Match 2",
+          "UnitDescS": "WT PC M 2",
+          "UnitDescA": "Match 2",
+          "UnitNum": "7",
+          "IsLive": false,
+          "ShowResults": false,
+          "Periods": [
+            {
+              "Order": 1,
+              "Desc": "Game 1",
+              "DescS": "1"
+            },
+            {
+              "Order": 2,
+              "Desc": "Game 2",
+              "DescS": "2"
+            },
+            {
+              "Order": 3,
+              "Desc": "Game 3",
+              "DescS": "3"
+            },
+            {
+              "Order": 4,
+              "Desc": "Game 4",
+              "DescS": "4"
+            },
+            {
+              "Order": 5,
+              "Desc": "Game 5",
+              "DescS": "5"
+            }
+          ],
+          "Home": {
+            "Org": "IND",
+            "Reg": "SQUWTEAM-------IND01",
+            "Name": "India",
+            "Result": "",
+            "Winner": false,
+            "HasData": true,
+            "NameS": "India",
+            "Medal": "",
+            "Members": [
+              {
+                "Org": "IND",
+                "Bib": "",
+                "Name": "CHINAPPA Joshana",
+                "NameS": "CHINAPPA Joshana",
+                "FuncDesc": "Athlete",
+                "PosDesc": ""
+              },
+              {
+                "Org": "IND",
+                "Bib": "",
+                "Name": "KHANNA Tanvi",
+                "NameS": "KHANNA Tanvi",
+                "FuncDesc": "Athlete",
+                "PosDesc": ""
+              },
+              {
+                "Org": "IND",
+                "Bib": "",
+                "Name": "SINGH Anahat",
+                "NameS": "SINGH Anahat",
+                "FuncDesc": "Athlete",
+                "PosDesc": ""
+              },
+              {
+                "Org": "IND",
+                "Bib": "",
+                "Name": "RIAZ Shameena",
+                "NameS": "RIAZ Shameena",
+                "FuncDesc": "Athlete",
+                "PosDesc": ""
+              }
+            ],
+            "Splits": [],
+            "Extensions": [
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "Card1",
+                "Pos": 0,
+                "Value": "0",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "Card2",
+                "Pos": 0,
+                "Value": "0",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "CardT",
+                "Pos": 0,
+                "Value": "0",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "CardY",
+                "Pos": 0,
+                "Value": "0",
+                "Extensions": []
+              },
+              {
+                "Type": "PREV_RESULT",
+                "Code": "UNIT_KEY",
+                "Pos": 1,
+                "Value": "W.TEAM--------------.GPC-.00050000",
+                "Extensions": [
+                  {
+                    "Type": "RESULT",
+                    "Code": "Register",
+                    "Pos": 1,
+                    "Value": "SQUWTEAM-------IND01"
+                  },
+                  {
+                    "Type": "RESULT",
+                    "Code": "RegisterOpp",
+                    "Pos": 1,
+                    "Value": "SQUWTEAM-------CHN01"
+                  },
+                  {
+                    "Type": "RESULT",
+                    "Code": "Result",
+                    "Pos": 1,
+                    "Value": ""
+                  }
+                ]
+              },
+              {
+                "Type": "PREV_RESULT",
+                "Code": "UNIT_KEY",
+                "Pos": 2,
+                "Value": "W.TEAM--------------.GPC-.00030000",
+                "Extensions": [
+                  {
+                    "Type": "RESULT",
+                    "Code": "Register",
+                    "Pos": 2,
+                    "Value": "SQUWTEAM-------IND01"
+                  },
+                  {
+                    "Type": "RESULT",
+                    "Code": "RegisterOpp",
+                    "Pos": 2,
+                    "Value": "SQUWTEAM-------JPN01"
+                  },
+                  {
+                    "Type": "RESULT",
+                    "Code": "Result",
+                    "Pos": 2,
+                    "Value": ""
+                  }
+                ]
+              },
+              {
+                "Type": "SERVICE",
+                "Code": "MemberServer",
+                "Pos": 0,
+                "Value": "",
+                "Extensions": []
+              },
+              {
+                "Type": "SERVICE",
+                "Code": "Server",
+                "Pos": 0,
+                "Value": "false",
+                "Extensions": []
+              }
+            ]
+          },
+          "Away": {
+            "Org": "IRI",
+            "Reg": "SQUWTEAM-------IRI01",
+            "Name": "Islamic Republic of Iran",
+            "Result": "",
+            "Winner": false,
+            "HasData": true,
+            "NameS": "IR Iran",
+            "Medal": "",
+            "Members": [
+              {
+                "Org": "IRI",
+                "Bib": "",
+                "Name": "EGHTEDARI Fereshteh",
+                "NameS": "EGHTEDARI Fereshteh",
+                "FuncDesc": "Athlete",
+                "PosDesc": ""
+              },
+              {
+                "Org": "IRI",
+                "Bib": "",
+                "Name": "BOUSHEHRIZADEH Najmeh",
+                "NameS": "BOUSHEHRIZADEH Najmeh",
+                "FuncDesc": "Athlete",
+                "PosDesc": ""
+              },
+              {
+                "Org": "IRI",
+                "Bib": "",
+                "Name": "SOLTANI Narges",
+                "NameS": "SOLTANI Narges",
+                "FuncDesc": "Athlete",
+                "PosDesc": ""
+              }
+            ],
+            "Splits": [],
+            "Extensions": [
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "Card1",
+                "Pos": 0,
+                "Value": "0",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "Card2",
+                "Pos": 0,
+                "Value": "0",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "CardT",
+                "Pos": 0,
+                "Value": "0",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "CardY",
+                "Pos": 0,
+                "Value": "0",
+                "Extensions": []
+              },
+              {
+                "Type": "PREV_RESULT",
+                "Code": "UNIT_KEY",
+                "Pos": 1,
+                "Value": "W.TEAM--------------.GPC-.00060000",
+                "Extensions": [
+                  {
+                    "Type": "RESULT",
+                    "Code": "Register",
+                    "Pos": 1,
+                    "Value": "SQUWTEAM-------IRI01"
+                  },
+                  {
+                    "Type": "RESULT",
+                    "Code": "RegisterOpp",
+                    "Pos": 1,
+                    "Value": "SQUWTEAM-------JPN01"
+                  },
+                  {
+                    "Type": "RESULT",
+                    "Code": "Result",
+                    "Pos": 1,
+                    "Value": ""
+                  }
+                ]
+              },
+              {
+                "Type": "PREV_RESULT",
+                "Code": "UNIT_KEY",
+                "Pos": 2,
+                "Value": "W.TEAM--------------.GPC-.00040000",
+                "Extensions": [
+                  {
+                    "Type": "RESULT",
+                    "Code": "Register",
+                    "Pos": 2,
+                    "Value": "SQUWTEAM-------IRI01"
+                  },
+                  {
+                    "Type": "RESULT",
+                    "Code": "RegisterOpp",
+                    "Pos": 2,
+                    "Value": "SQUWTEAM-------CHN01"
+                  },
+                  {
+                    "Type": "RESULT",
+                    "Code": "Result",
+                    "Pos": 2,
+                    "Value": ""
+                  }
+                ]
               },
               {
                 "Type": "SERVICE",
@@ -102727,10 +107198,10 @@
           "TeamReg": "SQUXDOUBLES----IND02",
           "TeamOrg": "IND",
           "TeamName": "CHINAPPA J. /SENTHILKUMAR V.",
+          "Medal": "ME_BRONZE",
           "Rank": "3",
           "IRM": "OK",
-          "Result": "",
-          "Medal": "ME_BRONZE"
+          "Result": ""
         }
       ],
       "schedule": [
@@ -118803,10 +123274,10 @@
           "TeamReg": "TTEXDOUBLES----IND01",
           "TeamOrg": "IND",
           "TeamName": "SHAH Manush/CHITALE Diya",
+          "Medal": "ME_BRONZE",
           "Rank": "3",
           "IRM": "OK",
-          "Result": "",
-          "Medal": "ME_BRONZE"
+          "Result": ""
         }
       ],
       "schedule": [
