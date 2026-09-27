@@ -3,298 +3,573 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
-<meta name="theme-color" content="#0b1020" />
-<title>Asian Games 2026 — India</title>
+<meta name="theme-color" content="#05070f" />
+<title>Asian Games 2026 — India Medalists</title>
+<meta name="description" content="Live medal tracker for India at Asian Games 2026." />
 <style>
+  /* ============================================================
+     DESIGN TOKENS
+     ============================================================ */
   :root{
-    --bg:#0a0f1e;
-    --bg-soft:#111832;
-    --card:#151d33;
+    --bg-0:#05070f;
+    --bg-1:#0a0f1e;
+    --bg-2:#0f1530;
+    --card:#141a2f;
     --card-2:#1a2340;
-    --text:#e9eefb;
-    --muted:#8d99b8;
+    --glass:rgba(255,255,255,.04);
+    --glass-hi:rgba(255,255,255,.08);
     --line:rgba(255,255,255,.08);
+    --line-hi:rgba(255,255,255,.14);
+    --text:#eef2fb;
+    --muted:#8b97b8;
+    --muted-2:#5c688a;
     --accent:#5b8cff;
     --accent-2:#8a5bff;
-    --gold:#ffd35c;
-    --silver:#c9d2e3;
-    --bronze:#e29a5c;
-    --radius:18px;
+    --gold:#ffcf4d;
+    --gold-2:#ffa726;
+    --silver:#cdd6e8;
+    --bronze:#e39a5a;
+    --green:#3ddc84;
+    --red:#ff5c7a;
+    --radius:20px;
+    --radius-sm:14px;
+    --shadow:0 20px 60px rgba(0,0,0,.5);
+    --shadow-sm:0 8px 24px rgba(0,0,0,.35);
   }
   *{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
   html,body{height:100%}
+  html{scroll-behavior:smooth}
   body{
     margin:0;
-    font-family:system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",sans-serif;
+    font-family:"Inter",system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",sans-serif;
+    font-feature-settings:"cv02","cv03","cv04","cv11";
     color:var(--text);
-    background:
-      radial-gradient(900px 500px at 12% -10%, rgba(91,140,255,.18), transparent 60%),
-      radial-gradient(700px 500px at 100% 0%, rgba(138,91,255,.16), transparent 55%),
-      var(--bg);
+    background:var(--bg-0);
     min-height:100%;
-    padding-bottom:40px;
+    padding-bottom:60px;
+    overflow-x:hidden;
   }
   img{display:block;max-width:100%}
-  button{font:inherit;color:inherit;cursor:pointer}
+  button{font:inherit;color:inherit;cursor:pointer;border:0;background:none}
+  ::selection{background:rgba(91,140,255,.35)}
 
-  /* ---------- Top bar ---------- */
+  /* ============================================================
+     BACKGROUND — layered gradients + subtle grain
+     ============================================================ */
+  .bg-layer{
+    position:fixed;inset:0;z-index:-1;pointer-events:none;
+    background:
+      radial-gradient(1200px 700px at 15% -10%, rgba(91,140,255,.22), transparent 60%),
+      radial-gradient(900px 600px at 100% 0%, rgba(138,91,255,.18), transparent 55%),
+      radial-gradient(700px 500px at 50% 110%, rgba(255,207,77,.06), transparent 60%),
+      linear-gradient(180deg,var(--bg-1),var(--bg-0) 60%);
+  }
+  .bg-layer::after{
+    content:"";position:absolute;inset:0;
+    background-image:
+      repeating-linear-gradient(0deg, rgba(255,255,255,.014) 0 1px, transparent 1px 3px);
+    mix-blend-mode:overlay;
+    opacity:.6;
+  }
+
+  /* ============================================================
+     HEADER
+     ============================================================ */
   .topbar{
     position:sticky;top:0;z-index:40;
-    padding:14px 16px 10px;
-    background:rgba(10,15,30,.78);
-    backdrop-filter:blur(14px);
-    -webkit-backdrop-filter:blur(14px);
+    padding:14px 16px 12px;
+    background:rgba(5,7,15,.72);
+    backdrop-filter:blur(20px) saturate(140%);
+    -webkit-backdrop-filter:blur(20px) saturate(140%);
     border-bottom:1px solid var(--line);
   }
-  .brand{display:flex;align-items:center;gap:12px;margin-bottom:12px}
+  .brand-row{display:flex;align-items:center;gap:12px}
   .logo{
-    width:42px;height:42px;border-radius:13px;flex:0 0 auto;
-    display:grid;place-items:center;
-    font-weight:800;font-size:15px;letter-spacing:.5px;
+    width:44px;height:44px;border-radius:14px;flex:0 0 auto;
+    display:grid;place-items:center;position:relative;
+    font-weight:800;font-size:14px;letter-spacing:.5px;color:#fff;
     background:linear-gradient(135deg,var(--accent),var(--accent-2));
-    box-shadow:0 8px 22px rgba(91,140,255,.35);
+    box-shadow:
+      0 10px 26px rgba(91,140,255,.42),
+      inset 0 1px 0 rgba(255,255,255,.25);
   }
-  .brand h1{font-size:16px;margin:0;font-weight:700;letter-spacing:.2px}
-  .brand p{margin:2px 0 0;font-size:12px;color:var(--muted)}
-  .brand .open-btn{
-    margin-left:auto;border:1px solid var(--line);background:var(--card);
-    border-radius:12px;padding:8px 11px;font-size:12px;color:var(--muted);
+  .logo::after{
+    content:"";position:absolute;inset:1px;border-radius:13px;
+    background:linear-gradient(180deg,rgba(255,255,255,.14),transparent 45%);
   }
+  .brand-text h1{
+    font-size:16.5px;margin:0;font-weight:800;letter-spacing:-.2px;
+    background:linear-gradient(180deg,#fff,#c9d4f5);
+    -webkit-background-clip:text;background-clip:text;color:transparent;
+  }
+  .brand-text p{margin:2px 0 0;font-size:11.5px;color:var(--muted);letter-spacing:.2px}
+  .live-badge{
+    margin-left:auto;display:flex;align-items:center;gap:6px;
+    padding:7px 11px;border-radius:999px;
+    background:rgba(255,92,122,.1);
+    border:1px solid rgba(255,92,122,.28);
+    font-size:11px;font-weight:800;letter-spacing:.8px;
+    color:#ff8fa3;
+  }
+  .live-dot{
+    width:7px;height:7px;border-radius:50%;background:var(--red);
+    box-shadow:0 0 10px var(--red);
+    animation:pulse 1.6s ease-in-out infinite;
+  }
+  @keyframes pulse{
+    0%,100%{opacity:1;transform:scale(1)}
+    50%{opacity:.4;transform:scale(.85)}
+  }
+  .live-badge.stale{background:rgba(255,184,77,.1);border-color:rgba(255,184,77,.28);color:#ffcf7a}
+  .live-badge.stale .live-dot{background:#ffb84d;box-shadow:0 0 10px #ffb84d}
+  .live-badge.err{background:rgba(255,92,122,.1);border-color:rgba(255,92,122,.28);color:#ff8fa3}
+  .live-badge.err .live-dot{background:var(--red);box-shadow:0 0 10px var(--red)}
 
-  .search{position:relative;display:block}
+  /* Search */
+  .search{position:relative;display:block;margin-top:12px}
   .search svg{
-    position:absolute;left:13px;top:50%;transform:translateY(-50%);
-    width:17px;height:17px;opacity:.55;pointer-events:none;
+    position:absolute;left:14px;top:50%;transform:translateY(-50%);
+    width:17px;height:17px;opacity:.6;pointer-events:none;color:var(--muted);
   }
   .search input{
-    width:100%;padding:12px 40px 12px 38px;
-    background:var(--bg-soft);border:1px solid var(--line);
-    border-radius:14px;color:var(--text);font-size:14px;outline:none;
-    transition:border-color .2s, box-shadow .2s;
+    width:100%;padding:13px 42px 13px 40px;
+    background:var(--glass);border:1px solid var(--line);
+    border-radius:var(--radius-sm);color:var(--text);font-size:14px;
+    outline:none;transition:border-color .2s, background .2s, box-shadow .2s;
+    font-family:inherit;
   }
-  .search input::placeholder{color:#69769180}
-  .search input:focus{border-color:rgba(91,140,255,.6);box-shadow:0 0 0 3px rgba(91,140,255,.15)}
+  .search input::placeholder{color:var(--muted-2)}
+  .search input:focus{
+    border-color:rgba(91,140,255,.55);
+    background:rgba(91,140,255,.06);
+    box-shadow:0 0 0 3px rgba(91,140,255,.14);
+  }
   .search .clear{
     position:absolute;right:8px;top:50%;transform:translateY(-50%);
-    border:0;background:transparent;color:var(--muted);font-size:18px;
-    width:28px;height:28px;border-radius:50%;display:none;
+    color:var(--muted);font-size:18px;
+    width:30px;height:30px;border-radius:50%;display:none;
+    transition:background .15s;
   }
+  .search .clear:hover{background:var(--glass-hi)}
   .search.has-value .clear{display:block}
 
-  /* ---------- Status strip ---------- */
-  .status{
-    display:flex;align-items:center;gap:8px;
-    padding:8px 16px 0;font-size:11px;color:var(--muted);
+  /* ============================================================
+     HERO — total medals + podium
+     ============================================================ */
+  .hero{
+    padding:20px 16px 8px;
   }
-  .status .dot{
-    width:7px;height:7px;border-radius:50%;background:#43d17d;
-    box-shadow:0 0 8px rgba(67,209,125,.6);
+  .hero-inner{
+    position:relative;overflow:hidden;
+    padding:20px 18px 22px;
+    border-radius:22px;
+    background:
+      radial-gradient(120% 140% at 0% 0%, rgba(255,207,77,.1), transparent 55%),
+      linear-gradient(160deg,var(--card),var(--card-2));
+    border:1px solid var(--line);
+    box-shadow:var(--shadow-sm);
   }
-  .status .dot.stale{background:#ffb84d;box-shadow:0 0 8px rgba(255,184,77,.6)}
-  .status .dot.err{background:#ff5c7a;box-shadow:0 0 8px rgba(255,92,122,.6)}
-  .status .refresh{
-    margin-left:auto;border:1px solid var(--line);background:var(--card);
-    border-radius:10px;padding:5px 9px;font-size:11px;color:var(--muted);
+  .hero-inner::before{
+    content:"";position:absolute;top:-40%;right:-20%;width:300px;height:300px;
+    border-radius:50%;
+    background:radial-gradient(closest-side, rgba(255,207,77,.18), transparent);
+    pointer-events:none;
   }
-  .status .refresh:active{transform:scale(.96)}
+  .hero-kicker{
+    font-size:11px;font-weight:800;letter-spacing:1.6px;
+    color:var(--muted);text-transform:uppercase;margin-bottom:8px;
+  }
+  .hero-title{
+    font-size:36px;font-weight:900;letter-spacing:-1px;line-height:1;
+    background:linear-gradient(135deg,#fff 30%, #ffd98a 80%);
+    -webkit-background-clip:text;background-clip:text;color:transparent;
+    margin-bottom:4px;
+  }
+  .hero-sub{font-size:12.5px;color:var(--muted);margin-bottom:16px}
 
-  /* ---------- Chips ---------- */
+  .medal-row{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}
+  .medal-box{
+    display:flex;flex-direction:column;align-items:flex-start;gap:4px;
+    padding:12px 12px 11px;border-radius:14px;
+    background:rgba(255,255,255,.03);
+    border:1px solid var(--line);
+    position:relative;overflow:hidden;
+  }
+  .medal-box .tier{
+    display:flex;align-items:center;gap:6px;
+    font-size:10px;font-weight:800;letter-spacing:1px;text-transform:uppercase;
+  }
+  .medal-box .tier i{
+    width:8px;height:8px;border-radius:2px;display:inline-block;
+  }
+  .medal-box b{font-size:26px;font-weight:900;letter-spacing:-.5px;line-height:1}
+  .medal-box.gold .tier{color:var(--gold)} .medal-box.gold .tier i{background:var(--gold);box-shadow:0 0 10px rgba(255,207,77,.5)}
+  .medal-box.silver .tier{color:var(--silver)} .medal-box.silver .tier i{background:var(--silver);box-shadow:0 0 10px rgba(205,214,232,.4)}
+  .medal-box.bronze .tier{color:var(--bronze)} .medal-box.bronze .tier i{background:var(--bronze);box-shadow:0 0 10px rgba(227,154,90,.4)}
+  .medal-box b{color:#fff}
+  .medal-box::after{
+    content:"";position:absolute;inset:auto 0 0 0;height:2px;
+    background:currentColor;opacity:.35;
+  }
+  .medal-box.gold::after{background:linear-gradient(90deg,var(--gold),transparent)}
+  .medal-box.silver::after{background:linear-gradient(90deg,var(--silver),transparent)}
+  .medal-box.bronze::after{background:linear-gradient(90deg,var(--bronze),transparent)}
+
+  /* ============================================================
+     SPOTLIGHT — top multi-medal athletes
+     ============================================================ */
+  .spotlight{padding:14px 0 6px}
+  .sec-label{
+    padding:0 16px;margin-bottom:10px;
+    display:flex;align-items:center;gap:8px;
+    font-size:11px;font-weight:800;letter-spacing:1.4px;
+    color:var(--muted);text-transform:uppercase;
+  }
+  .sec-label .line{flex:1;height:1px;background:linear-gradient(90deg,var(--line),transparent)}
+
+  .spot-scroll{
+    display:flex;gap:10px;overflow-x:auto;padding:0 16px 4px;
+    scrollbar-width:none;-ms-overflow-style:none;
+  }
+  .spot-scroll::-webkit-scrollbar{display:none}
+  .spot-card{
+    flex:0 0 auto;width:170px;position:relative;overflow:hidden;
+    border-radius:18px;padding:12px;
+    background:linear-gradient(165deg,var(--card),var(--card-2));
+    border:1px solid var(--line);
+    cursor:pointer;transition:transform .2s, border-color .2s;
+  }
+  .spot-card:active{transform:scale(.97)}
+  .spot-card.rank-1{
+    border-color:rgba(255,207,77,.4);
+    box-shadow:0 12px 30px rgba(255,207,77,.12), inset 0 0 0 1px rgba(255,207,77,.08);
+  }
+  .spot-photo{
+    width:100%;aspect-ratio:1;border-radius:12px;overflow:hidden;
+    background:linear-gradient(135deg,#2a3557,#1b2340);
+    display:grid;place-items:center;
+    font-size:28px;font-weight:900;color:#7f8fb8;position:relative;
+    margin-bottom:10px;
+  }
+  .spot-photo img{width:100%;height:100%;object-fit:cover;position:absolute;inset:0}
+  .spot-medal-tag{
+    position:absolute;top:8px;right:8px;
+    padding:3px 8px;border-radius:999px;
+    font-size:10px;font-weight:900;letter-spacing:.5px;
+    background:rgba(5,7,15,.75);backdrop-filter:blur(8px);
+    border:1px solid rgba(255,255,255,.15);
+    color:var(--gold);
+  }
+  .spot-name{
+    font-size:12.5px;font-weight:800;line-height:1.25;
+    overflow:hidden;text-overflow:ellipsis;display:-webkit-box;
+    -webkit-line-clamp:2;-webkit-box-orient:vertical;
+    margin:0 0 3px;
+  }
+  .spot-meta{font-size:10.5px;color:var(--muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .spot-pills{display:flex;gap:4px;margin-top:6px;flex-wrap:wrap}
+  .spot-pills .dot{
+    width:10px;height:10px;border-radius:50%;
+    display:inline-block;
+  }
+  .spot-pills .dot.gold{background:var(--gold)}
+  .spot-pills .dot.silver{background:var(--silver)}
+  .spot-pills .dot.bronze{background:var(--bronze)}
+
+  /* ============================================================
+     FILTERS
+     ============================================================ */
+  .filters{padding:6px 0 0}
   .chips{
-    display:flex;gap:8px;overflow-x:auto;padding:12px 16px 4px;
+    display:flex;gap:8px;overflow-x:auto;padding:8px 16px;
     scrollbar-width:none;-ms-overflow-style:none;
   }
   .chips::-webkit-scrollbar{display:none}
-  .chips + .chips{padding-top:8px}
   .chip{
-    flex:0 0 auto;padding:7px 13px;border-radius:999px;
-    background:var(--card);border:1px solid var(--line);
-    color:var(--muted);font-size:12.5px;font-weight:600;white-space:nowrap;
-    transition:.18s;
+    flex:0 0 auto;padding:8px 14px;border-radius:999px;
+    background:var(--glass);border:1px solid var(--line);
+    color:var(--muted);font-size:12.5px;font-weight:700;
+    white-space:nowrap;transition:all .18s;
+    display:inline-flex;align-items:center;gap:6px;
   }
+  .chip:hover{background:var(--glass-hi);color:var(--text)}
   .chip:active{transform:scale(.96)}
   .chip.on{
     background:linear-gradient(135deg,var(--accent),var(--accent-2));
     color:#fff;border-color:transparent;
-    box-shadow:0 6px 16px rgba(91,140,255,.3);
+    box-shadow:0 6px 18px rgba(91,140,255,.32);
   }
   .chip .dot{
-    display:inline-block;width:7px;height:7px;border-radius:50%;
-    margin-right:6px;vertical-align:1px;
+    width:8px;height:8px;border-radius:50%;display:inline-block;
   }
+  .chip.on .dot{box-shadow:0 0 8px rgba(255,255,255,.5)}
 
-  /* ---------- Stats ---------- */
-  .stats{
-    display:grid;grid-template-columns:repeat(4,1fr);gap:8px;
-    padding:12px 16px 6px;
+  /* ============================================================
+     ATHLETE LIST
+     ============================================================ */
+  main{padding:6px 16px 60px;display:flex;flex-direction:column;gap:10px}
+  .count-row{
+    display:flex;align-items:center;justify-content:space-between;
+    padding:2px 2px 4px;
+    font-size:11.5px;color:var(--muted);font-weight:600;
+    letter-spacing:.3px;
   }
-  .stat{
-    background:var(--card);border:1px solid var(--line);border-radius:14px;
-    padding:10px 6px;text-align:center;
-  }
-  .stat b{display:block;font-size:17px;font-weight:800;line-height:1.1}
-  .stat span{font-size:10.5px;color:var(--muted);letter-spacing:.4px;text-transform:uppercase}
-  .stat.g b{color:var(--gold)}
-  .stat.s b{color:var(--silver)}
-  .stat.br b{color:var(--bronze)}
+  .count-row b{color:var(--text)}
 
-  /* ---------- List ---------- */
-  main{padding:8px 16px 30px;display:flex;flex-direction:column;gap:10px}
   .card{
-    display:flex;align-items:center;gap:12px;
+    display:flex;align-items:center;gap:14px;
     background:linear-gradient(160deg,var(--card),var(--card-2));
     border:1px solid var(--line);border-radius:var(--radius);
-    padding:11px 12px;cursor:pointer;
-    transition:transform .16s, border-color .16s;
-    animation:rise .35s backwards;
+    padding:12px;cursor:pointer;position:relative;overflow:hidden;
+    transition:transform .18s, border-color .18s, box-shadow .18s;
+    animation:rise .4s cubic-bezier(.2,.7,.3,1) backwards;
   }
-  .card:active{transform:scale(.985);border-color:rgba(91,140,255,.4)}
-  @keyframes rise{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+  .card::before{
+    content:"";position:absolute;inset:0;pointer-events:none;
+    background:radial-gradient(60% 120% at 0% 50%, rgba(91,140,255,.08), transparent 70%);
+    opacity:0;transition:opacity .25s;
+  }
+  .card:hover{border-color:var(--line-hi);box-shadow:var(--shadow-sm)}
+  .card:hover::before{opacity:1}
+  .card:active{transform:scale(.985)}
+  @keyframes rise{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:none}}
 
   .avatar{
-    position:relative;width:54px;height:54px;flex:0 0 auto;border-radius:15px;
+    position:relative;width:58px;height:58px;flex:0 0 auto;
+    border-radius:16px;overflow:hidden;
     background:linear-gradient(135deg,#2a3557,#1b2340);
-    display:grid;place-items:center;overflow:hidden;
+    display:grid;place-items:center;
     font-weight:800;font-size:15px;color:#93a3cc;letter-spacing:.5px;
     border:1px solid var(--line);
   }
   .avatar img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+  .avatar .medal-count{
+    position:absolute;bottom:-2px;right:-2px;
+    min-width:22px;height:22px;padding:0 6px;border-radius:999px;
+    display:grid;place-items:center;
+    font-size:10.5px;font-weight:900;color:#05070f;
+    background:linear-gradient(135deg,var(--gold),var(--gold-2));
+    border:2px solid var(--card);
+    box-shadow:0 4px 12px rgba(255,207,77,.35);
+  }
 
   .info{min-width:0;flex:1}
   .info h3{
-    margin:0 0 3px;font-size:14.5px;font-weight:700;line-height:1.25;
+    margin:0 0 3px;font-size:14.5px;font-weight:800;line-height:1.25;
     overflow:hidden;text-overflow:ellipsis;display:-webkit-box;
     -webkit-line-clamp:2;-webkit-box-orient:vertical;
+    letter-spacing:-.1px;
   }
   .info .sub{
     margin:0;font-size:11.5px;color:var(--muted);
     white-space:nowrap;overflow:hidden;text-overflow:ellipsis;
+    display:flex;align-items:center;gap:6px;
   }
-  .pills{display:flex;flex-wrap:wrap;gap:5px;margin-top:6px}
+  .info .sub .sep{color:var(--muted-2)}
+  .pills{display:flex;flex-wrap:wrap;gap:5px;margin-top:7px}
   .pill{
-    font-size:10.5px;font-weight:700;padding:3px 8px;border-radius:999px;
+    font-size:10.5px;font-weight:800;padding:3.5px 9px;border-radius:999px;
     border:1px solid transparent;white-space:nowrap;max-width:100%;
     overflow:hidden;text-overflow:ellipsis;
+    display:inline-flex;align-items:center;gap:4px;
+    letter-spacing:.1px;
   }
-  .pill.gold{background:rgba(255,211,92,.14);color:var(--gold);border-color:rgba(255,211,92,.3)}
-  .pill.silver{background:rgba(201,210,227,.14);color:var(--silver);border-color:rgba(201,210,227,.28)}
-  .pill.bronze{background:rgba(226,154,92,.14);color:var(--bronze);border-color:rgba(226,154,92,.3)}
-  .chev{color:#4c5878;font-size:20px;line-height:1;flex:0 0 auto}
+  .pill.gold{background:rgba(255,207,77,.12);color:var(--gold);border-color:rgba(255,207,77,.28)}
+  .pill.silver{background:rgba(205,214,232,.1);color:var(--silver);border-color:rgba(205,214,232,.24)}
+  .pill.bronze{background:rgba(227,154,90,.12);color:var(--bronze);border-color:rgba(227,154,90,.28)}
+  .chev{color:var(--muted-2);font-size:20px;line-height:1;flex:0 0 auto;transition:transform .2s}
+  .card:hover .chev{transform:translateX(2px);color:var(--muted)}
 
-  /* ---------- Empty / loader ---------- */
+  /* ============================================================
+     EMPTY / LOADING
+     ============================================================ */
   .empty{
-    text-align:center;color:var(--muted);padding:60px 20px;font-size:14px;
+    text-align:center;color:var(--muted);padding:70px 24px;
+    font-size:14px;
   }
-  .empty .big{font-size:36px;margin-bottom:10px}
-  .drop{
-    margin:30px 16px;padding:28px 20px;text-align:center;
-    border:1.5px dashed rgba(91,140,255,.4);border-radius:20px;
-    background:rgba(91,140,255,.05);
-  }
-  .drop p{color:var(--muted);font-size:13px;margin:0 0 16px}
-  .drop label{
-    display:inline-block;padding:11px 20px;border-radius:13px;
-    background:linear-gradient(135deg,var(--accent),var(--accent-2));
-    font-size:13.5px;font-weight:700;cursor:pointer;
-    box-shadow:0 8px 20px rgba(91,140,255,.3);
-  }
-  .drop input{display:none}
+  .empty .big{font-size:44px;margin-bottom:14px;opacity:.6}
+  .empty h3{color:var(--text);font-size:16px;font-weight:800;margin:0 0 6px}
 
-  /* ---------- Detail sheet ---------- */
-  .backdrop{
-    position:fixed;inset:0;background:rgba(4,7,16,.65);
-    backdrop-filter:blur(3px);z-index:60;opacity:0;transition:opacity .25s;
+  .skeleton{
+    height:86px;border-radius:var(--radius);
+    background:linear-gradient(90deg,#141a2f 0%,#1a2340 50%,#141a2f 100%);
+    background-size:200% 100%;
+    animation:shimmer 1.4s ease-in-out infinite;
+    border:1px solid var(--line);
   }
-  .backdrop.show{opacity:1}
+  @keyframes shimmer{0%{background-position:200% 0}100%{background-position:-200% 0}}
+
+  /* ============================================================
+     DETAIL SHEET
+     ============================================================ */
+  .backdrop{
+    position:fixed;inset:0;background:rgba(3,5,12,.7);
+    backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px);
+    z-index:60;opacity:0;pointer-events:none;transition:opacity .28s;
+  }
+  .backdrop.show{opacity:1;pointer-events:auto}
   .sheet{
     position:fixed;left:0;right:0;bottom:0;z-index:70;
-    max-width:660px;margin:0 auto;
-    background:linear-gradient(180deg,#141c33,#0e1428);
-    border-radius:24px 24px 0 0;
-    border:1px solid var(--line);border-bottom:0;
-    max-height:90dvh;display:flex;flex-direction:column;
-    transform:translateY(102%);transition:transform .32s cubic-bezier(.3,.8,.3,1);
-    box-shadow:0 -20px 50px rgba(0,0,0,.55);
+    max-width:680px;margin:0 auto;
+    background:linear-gradient(180deg,#141c33,#0c1122);
+    border-radius:26px 26px 0 0;
+    border:1px solid var(--line-hi);border-bottom:0;
+    max-height:92dvh;display:flex;flex-direction:column;
+    transform:translateY(102%);
+    transition:transform .38s cubic-bezier(.22,.9,.28,1);
+    box-shadow:0 -30px 60px rgba(0,0,0,.6);
   }
   .sheet.show{transform:translateY(0)}
-  .grab{width:42px;height:4px;border-radius:99px;background:#39445f;margin:10px auto 2px;flex:0 0 auto}
-  .sheet-body{overflow-y:auto;padding:12px 18px 34px;-webkit-overflow-scrolling:touch}
-
-  .hero{display:flex;gap:14px;align-items:center;padding-bottom:16px;border-bottom:1px solid var(--line)}
-  .hero .avatar{width:72px;height:72px;border-radius:20px;font-size:19px}
-  .hero h2{margin:0 0 4px;font-size:17px;line-height:1.25;font-weight:800}
-  .hero .meta{font-size:12px;color:var(--muted)}
-
-  .sec{margin-top:18px}
-  .sec h4{
-    margin:0 0 10px;font-size:11px;letter-spacing:1.2px;text-transform:uppercase;
-    color:var(--muted);font-weight:700;
+  .grab{
+    width:44px;height:4px;border-radius:99px;background:#39445f;
+    margin:10px auto 0;flex:0 0 auto;
   }
+  .sheet-body{
+    overflow-y:auto;padding:14px 20px 40px;
+    -webkit-overflow-scrolling:touch;
+    overscroll-behavior:contain;
+  }
+
+  .hero-card{
+    display:flex;gap:16px;align-items:center;
+    padding:0 0 18px;border-bottom:1px solid var(--line);
+    margin-bottom:4px;
+  }
+  .hero-card .avatar{width:80px;height:80px;border-radius:22px;font-size:22px}
+  .hero-card h2{
+    margin:0 0 4px;font-size:19px;line-height:1.2;font-weight:900;
+    letter-spacing:-.3px;
+  }
+  .hero-card .meta{font-size:12.5px;color:var(--muted)}
+
+  .sec{margin-top:22px}
+  .sec h4{
+    margin:0 0 10px;font-size:11px;letter-spacing:1.4px;
+    text-transform:uppercase;color:var(--muted);font-weight:800;
+    display:flex;align-items:center;gap:8px;
+  }
+  .sec h4::after{content:"";flex:1;height:1px;background:linear-gradient(90deg,var(--line),transparent)}
+
   .grid{display:grid;grid-template-columns:1fr 1fr;gap:8px}
   .kv{
-    background:rgba(255,255,255,.035);border:1px solid var(--line);
-    border-radius:12px;padding:9px 11px;min-width:0;
+    background:rgba(255,255,255,.035);
+    border:1px solid var(--line);
+    border-radius:12px;padding:10px 12px;min-width:0;
   }
-  .kv span{display:block;font-size:10px;color:var(--muted);letter-spacing:.5px;text-transform:uppercase}
-  .kv b{display:block;font-size:13px;font-weight:600;margin-top:2px;word-break:break-word}
+  .kv span{
+    display:block;font-size:9.5px;color:var(--muted);
+    letter-spacing:.7px;text-transform:uppercase;font-weight:700;
+    margin-bottom:3px;
+  }
+  .kv b{display:block;font-size:13.5px;font-weight:700;word-break:break-word}
 
   .item{
-    display:flex;gap:10px;align-items:flex-start;
-    background:rgba(255,255,255,.035);border:1px solid var(--line);
-    border-radius:13px;padding:11px 12px;margin-bottom:8px;
+    display:flex;gap:12px;align-items:center;
+    background:rgba(255,255,255,.035);
+    border:1px solid var(--line);
+    border-radius:14px;padding:12px 14px;margin-bottom:8px;
   }
   .item .grow{flex:1;min-width:0}
-  .item .t{font-size:13.5px;font-weight:650;line-height:1.3}
+  .item .t{font-size:13.5px;font-weight:700;line-height:1.35}
   .item .d{font-size:11.5px;color:var(--muted);margin-top:3px;line-height:1.45}
 
-  .tl{position:relative;padding-left:20px;margin-bottom:12px}
+  .tl{position:relative;padding-left:22px;margin-bottom:14px}
   .tl::before{
-    content:"";position:absolute;left:5px;top:6px;bottom:-6px;width:1.5px;
-    background:linear-gradient(var(--accent),transparent);
+    content:"";position:absolute;left:6px;top:8px;bottom:-8px;width:1.5px;
+    background:linear-gradient(180deg,var(--accent),transparent 90%);
+    opacity:.5;
   }
   .tl:last-child::before{display:none}
   .tl::after{
-    content:"";position:absolute;left:0;top:5px;width:11px;height:11px;border-radius:50%;
-    background:var(--bg);border:2.5px solid var(--accent);
+    content:"";position:absolute;left:0;top:5px;
+    width:13px;height:13px;border-radius:50%;
+    background:var(--bg-0);
+    border:2.5px solid var(--accent);
+    box-shadow:0 0 10px rgba(91,140,255,.45);
   }
-  .tl .date{font-size:11px;color:var(--accent);font-weight:700;letter-spacing:.3px}
-  .tl .title{font-size:13.5px;font-weight:650;margin:3px 0 2px;line-height:1.3}
+  .tl .date{
+    font-size:11px;color:var(--accent);font-weight:800;letter-spacing:.4px;
+  }
+  .tl .title{font-size:13.5px;font-weight:700;margin:4px 0 2px;line-height:1.35}
   .tl .venue{font-size:11.5px;color:var(--muted)}
   .tl .res{
-    display:inline-flex;align-items:center;gap:7px;margin-top:6px;
-    font-size:12px;font-weight:700;padding:4px 9px;border-radius:9px;
-    background:rgba(91,140,255,.12);color:#a9c1ff;border:1px solid rgba(91,140,255,.22);
+    display:inline-flex;align-items:center;gap:7px;margin-top:8px;
+    font-size:12px;font-weight:800;padding:5px 11px;border-radius:10px;
+    background:rgba(91,140,255,.12);color:#a9c1ff;
+    border:1px solid rgba(91,140,255,.24);
   }
-  .close-x{
-    position:absolute;right:14px;top:12px;width:32px;height:32px;border-radius:50%;
-    background:rgba(255,255,255,.07);border:1px solid var(--line);
-    display:grid;place-items:center;font-size:16px;color:var(--muted);z-index:2;
-  }
+
   .member{
-    display:flex;justify-content:space-between;gap:8px;font-size:12.5px;
-    padding:8px 0;border-bottom:1px dashed rgba(255,255,255,.07);
+    display:flex;justify-content:space-between;gap:8px;
+    font-size:13px;padding:9px 0;
+    border-bottom:1px dashed rgba(255,255,255,.06);
   }
   .member:last-child{border-bottom:0}
-  .member span{color:var(--muted);font-size:11px}
+  .member span{color:var(--muted);font-size:11.5px}
+
+  .close-x{
+    position:absolute;right:14px;top:14px;
+    width:34px;height:34px;border-radius:50%;
+    background:rgba(255,255,255,.06);
+    border:1px solid var(--line-hi);
+    display:grid;place-items:center;
+    font-size:17px;color:var(--muted);z-index:2;
+    transition:background .18s, transform .18s;
+  }
+  .close-x:hover{background:rgba(255,255,255,.1);transform:rotate(90deg)}
+
   .raw{
     font-family:ui-monospace,SFMono-Regular,Menlo,monospace;
-    font-size:10.5px;color:var(--muted);line-height:1.5;
-    background:rgba(0,0,0,.25);border:1px solid var(--line);
-    border-radius:10px;padding:9px 11px;max-height:220px;overflow:auto;
+    font-size:10.5px;color:var(--muted);line-height:1.55;
+    background:rgba(0,0,0,.3);
+    border:1px solid var(--line);
+    border-radius:12px;padding:11px 13px;
+    max-height:240px;overflow:auto;
     white-space:pre-wrap;word-break:break-word;
+  }
+
+  /* ============================================================
+     FOOTER
+     ============================================================ */
+  footer{
+    text-align:center;padding:24px 20px 40px;
+    font-size:11px;color:var(--muted-2);line-height:1.6;
+  }
+  footer a{color:var(--muted);text-decoration:none;border-bottom:1px solid var(--line)}
+  footer a:hover{color:var(--text)}
+
+  /* ============================================================
+     RESPONSIVE — bigger screen tweaks
+     ============================================================ */
+  @media (min-width:640px){
+    .hero-title{font-size:44px}
+    main{padding-left:24px;padding-right:24px}
+    .topbar{padding-left:24px;padding-right:24px}
+    .hero{padding-left:24px;padding-right:24px}
+    .sec-label{padding-left:24px;padding-right:24px}
+    .spot-scroll{padding-left:24px;padding-right:24px}
+    .chips{padding-left:24px;padding-right:24px}
   }
 </style>
 </head>
 <body>
 
+<div class="bg-layer"></div>
+
+<!-- ============ HEADER ============ -->
 <header class="topbar">
-  <div class="brand">
+  <div class="brand-row">
     <div class="logo">AG</div>
-    <div>
+    <div class="brand-text">
       <h1>Asian Games 2026</h1>
-      <p>India · Athletes &amp; Results</p>
+      <p>India · Medalist Tracker</p>
     </div>
-    <button class="open-btn" id="openFileBtn">Open JSON</button>
+    <div class="live-badge" id="liveBadge">
+      <span class="live-dot"></span>
+      <span id="liveLabel">LIVE</span>
+    </div>
   </div>
+
   <label class="search" id="searchWrap">
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round">
       <circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/>
@@ -304,56 +579,95 @@
   </label>
 </header>
 
-<div class="status" id="status">
-  <span class="dot" id="statusDot"></span>
-  <span id="statusText">Loading athletes.json…</span>
-  <button class="refresh" id="refreshBtn">Refresh</button>
-</div>
+<!-- ============ HERO ============ -->
+<section class="hero">
+  <div class="hero-inner">
+    <div class="hero-kicker">Total medals won</div>
+    <div class="hero-title" id="heroTotal">0</div>
+    <div class="hero-sub" id="heroSub">Loading live data…</div>
 
-<div class="chips" id="medalChips"></div>
-<div class="chips" id="sportChips"></div>
-<div class="stats" id="stats"></div>
+    <div class="medal-row">
+      <div class="medal-box gold">
+        <div class="tier"><i></i>Gold</div>
+        <b id="statGold">0</b>
+      </div>
+      <div class="medal-box silver">
+        <div class="tier"><i></i>Silver</div>
+        <b id="statSilver">0</b>
+      </div>
+      <div class="medal-box bronze">
+        <div class="tier"><i></i>Bronze</div>
+        <b id="statBronze">0</b>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SPOTLIGHT ============ -->
+<section class="spotlight" id="spotlightSec" hidden>
+  <div class="sec-label"><span>🏆</span> Top medalists <span class="line"></span></div>
+  <div class="spot-scroll" id="spotScroll"></div>
+</section>
+
+<!-- ============ FILTERS ============ -->
+<section class="filters">
+  <div class="chips" id="medalChips"></div>
+  <div class="chips" id="sportChips"></div>
+</section>
+
+<!-- ============ LIST ============ -->
+<div class="count-row" id="countRow" hidden>
+  <span><b id="countNum">0</b> athletes</span>
+  <span id="countFilter"></span>
+</div>
 <main id="list"></main>
 
+<footer>
+  <div>Unofficial fan tracker · Data from Olympic Council of Asia</div>
+  <div style="margin-top:6px">
+    <span id="footerUpdated">Synced —</span>
+  </div>
+</footer>
+
+<!-- ============ DETAIL SHEET ============ -->
 <div class="backdrop" id="backdrop"></div>
 <section class="sheet" id="sheet" role="dialog" aria-modal="true">
-  <button class="close-x" id="closeSheet">×</button>
+  <button class="close-x" id="closeSheet" aria-label="Close">×</button>
   <div class="grab"></div>
   <div class="sheet-body" id="sheetBody"></div>
 </section>
-
-<input type="file" id="fileInput" accept=".json,application/json" style="display:none" />
 
 <script>
 (() => {
   "use strict";
 
-  // Try these paths in order — first that loads wins.
   const DATA_SOURCES = [
     "data/athletes.json",
     "athletes.json",
   ];
-
-  const AUTO_REFRESH_MS = 5 * 60 * 1000;   // refetch every 5 min
-  const STALE_MS        = 60 * 60 * 1000;  // warn if > 1 hour old
+  const AUTO_REFRESH_MS = 5 * 60 * 1000;
+  const STALE_MS        = 75 * 60 * 1000;
 
   let DATA = [];
   let LAST_LOADED_AT = null;
   const state = { q: "", medal: "all", sport: "all" };
 
   const $ = (s) => document.querySelector(s);
-  const listEl     = $("#list");
-  const statsEl    = $("#stats");
-  const medalEl    = $("#medalChips");
-  const sportEl    = $("#sportChips");
-  const sheet      = $("#sheet");
-  const sheetBody  = $("#sheetBody");
-  const backdrop   = $("#backdrop");
-  const searchWrap = $("#searchWrap");
-  const qInput     = $("#q");
-  const statusEl   = $("#status");
-  const statusDot  = $("#statusDot");
-  const statusText = $("#statusText");
+  const listEl      = $("#list");
+  const medalEl     = $("#medalChips");
+  const sportEl     = $("#sportChips");
+  const sheet       = $("#sheet");
+  const sheetBody   = $("#sheetBody");
+  const backdrop    = $("#backdrop");
+  const searchWrap  = $("#searchWrap");
+  const qInput      = $("#q");
+  const liveBadge   = $("#liveBadge");
+  const liveLabel   = $("#liveLabel");
+  const countRow    = $("#countRow");
+  const countNum    = $("#countNum");
+  const countFilter = $("#countFilter");
+  const spotSec     = $("#spotlightSec");
+  const spotScroll  = $("#spotScroll");
 
   /* ---------------- helpers ---------------- */
   const esc = (v) => String(v ?? "").replace(/[&<>"']/g,
@@ -393,32 +707,37 @@
     if (!ts) return "";
     const s = Math.floor((Date.now() - ts) / 1000);
     if (s < 60)   return s + "s ago";
-    if (s < 3600) return Math.floor(s / 60) + "m ago";
-    if (s < 86400) return Math.floor(s / 3600) + "h ago";
-    return Math.floor(s / 86400) + "d ago";
+    if (s < 3600) return Math.floor(s / 60) + " min ago";
+    if (s < 86400) return Math.floor(s / 3600) + " h ago";
+    return Math.floor(s / 86400) + " d ago";
   };
 
-  const plural = (n, w) => `${n} ${w}${n === 1 ? "" : "s"}`;
+  const medalRank = (m) => ({ gold:3, silver:2, bronze:1 }[m] || 0);
 
-  /* ---------------- status bar ---------------- */
-  function setStatus(text, level) {
-    statusText.textContent = text;
-    statusDot.className = "dot" + (level ? " " + level : "");
-  }
-
-  function refreshStatus() {
-    if (!LAST_LOADED_AT) return;
+  /* ---------------- live badge ---------------- */
+  function updateLive() {
+    if (!LAST_LOADED_AT) {
+      liveBadge.classList.add("stale");
+      liveLabel.textContent = "SYNCING";
+      return;
+    }
     const age = Date.now() - LAST_LOADED_AT;
-    const level = age > STALE_MS ? "stale" : "";
-    setStatus(
-      `${plural(DATA.length, "entry").replace("entrys", "entries")} · updated ${relTime(LAST_LOADED_AT)}`,
-      level
-    );
+    liveBadge.classList.remove("err");
+    if (age > STALE_MS) {
+      liveBadge.classList.add("stale");
+      liveLabel.textContent = "STALE";
+    } else {
+      liveBadge.classList.remove("stale");
+      liveLabel.textContent = "LIVE";
+    }
+    $("#footerUpdated").textContent = "Synced " + relTime(LAST_LOADED_AT);
   }
 
   /* ---------------- data loading ---------------- */
   async function loadData() {
-    setStatus("Loading athletes.json…");
+    liveBadge.classList.add("stale");
+    liveLabel.textContent = "SYNCING";
+
     for (const url of DATA_SOURCES) {
       try {
         const res = await fetch(url + "?t=" + Date.now(), { cache: "no-store" });
@@ -428,67 +747,116 @@
         DATA = data;
         LAST_LOADED_AT = Date.now();
         boot();
-        setStatus(`Loaded ${plural(DATA.length, "entry").replace("entrys", "entries")} · ${relTime(LAST_LOADED_AT)}`);
+        updateLive();
         return;
-      } catch (e) {
-        // try next
-      }
+      } catch (e) { /* try next */ }
     }
-    showDropZone();
-    setStatus("Could not auto-load athletes.json", "err");
-  }
-
-  function showDropZone() {
+    liveBadge.classList.add("err");
+    liveLabel.textContent = "OFFLINE";
     listEl.innerHTML = `
-      <div class="drop">
-        <div style="font-size:34px">📂</div>
-        <p>Couldn't auto-load <b>athletes.json</b>.<br>Pick the file manually to continue.</p>
-        <label for="fileInput">Choose athletes.json</label>
+      <div class="empty">
+        <div class="big">📡</div>
+        <h3>Couldn't load data</h3>
+        <div>athletes.json is unreachable. It updates hourly via GitHub Actions.</div>
       </div>`;
   }
 
-  $("#openFileBtn").addEventListener("click", () => $("#fileInput").click());
-  $("#fileInput").addEventListener("change", (e) => {
-    const f = e.target.files?.[0];
-    if (!f) return;
-    const r = new FileReader();
-    r.onload = () => {
-      try {
-        DATA = JSON.parse(r.result);
-        LAST_LOADED_AT = Date.now();
-        boot();
-        setStatus(`Loaded ${DATA.length} entries (local file)`, "stale");
-      } catch {
-        setStatus("Invalid JSON file", "err");
-      }
-    };
-    r.readAsText(f);
-  });
-
-  $("#refreshBtn").addEventListener("click", () => {
-    if (LAST_LOADED_AT && DATA.length) {
-      // soft refresh — no network, just re-render
-      boot();
-      setStatus(`Refreshed · ${relTime(LAST_LOADED_AT)}`);
-    } else {
-      loadData();
-    }
-  });
-
   /* ---------------- boot ---------------- */
   function boot() {
+    renderHero();
+    renderSpotlight();
     buildMedalChips();
     buildSportChips();
-    buildStats();
     render();
   }
 
+  /* ---------------- hero ---------------- */
+  function renderHero() {
+    const seen = new Set();
+    const count = { gold:0, silver:0, bronze:0 };
+    DATA.forEach(a => (a.medals || []).forEach(m => {
+      const key = m.medal + "|" + m.event;
+      if (!seen.has(key) && count[m.medal] !== undefined) {
+        seen.add(key); count[m.medal]++;
+      }
+    }));
+    const total = count.gold + count.silver + count.bronze;
+
+    // Count-up animation
+    animateNumber($("#heroTotal"), total, 900);
+    animateNumber($("#statGold"),  count.gold,   800);
+    animateNumber($("#statSilver"),count.silver, 800);
+    animateNumber($("#statBronze"),count.bronze, 800);
+
+    $("#heroSub").textContent =
+      `${DATA.length} athletes and teams tracked · India at Asian Games 2026`;
+  }
+
+  function animateNumber(el, to, duration) {
+    const from = parseInt(el.textContent.replace(/\D/g, ""), 10) || 0;
+    if (from === to) { el.textContent = to; return; }
+    const start = performance.now();
+    const ease = (t) => 1 - Math.pow(1 - t, 3);
+    function tick(now) {
+      const t = Math.min(1, (now - start) / duration);
+      el.textContent = Math.round(from + (to - from) * ease(t));
+      if (t < 1) requestAnimationFrame(tick);
+      else el.textContent = to;
+    }
+    requestAnimationFrame(tick);
+  }
+
+  /* ---------------- spotlight (top multi-medal athletes) ---------------- */
+  function renderSpotlight() {
+    // Exclude team-only entries (photo_url null / non-numeric reg)
+    const scored = DATA
+      .filter(a => a.photo_url && Array.isArray(a.medals) && a.medals.length)
+      .map(a => {
+        const counts = { gold:0, silver:0, bronze:0 };
+        a.medals.forEach(m => { if (counts[m.medal] !== undefined) counts[m.medal]++; });
+        const score = counts.gold*100 + counts.silver*10 + counts.bronze;
+        return { a, counts, score };
+      })
+      .filter(x => x.a.medals.length >= 2)
+      .sort((x, y) => y.score - x.score)
+      .slice(0, 12);
+
+    if (!scored.length) { spotSec.hidden = true; return; }
+    spotSec.hidden = false;
+
+    spotScroll.innerHTML = scored.map((s, i) => {
+      const a = s.a;
+      const dots = [
+        ...Array(s.counts.gold).fill("gold"),
+        ...Array(s.counts.silver).fill("silver"),
+        ...Array(s.counts.bronze).fill("bronze")
+      ].slice(0, 5).map(c => `<i class="dot ${c}"></i>`).join("");
+      const total = a.medals.length;
+      return `
+        <div class="spot-card ${i === 0 ? "rank-1" : ""}" data-reg="${esc(a.reg)}">
+          <div class="spot-photo">
+            <span>${esc(initials(a.name))}</span>
+            <img src="${esc(a.photo_url)}" alt="" loading="lazy" onerror="this.remove()">
+            <div class="spot-medal-tag">${total}×</div>
+          </div>
+          <h4 class="spot-name">${esc(a.name)}</h4>
+          <div class="spot-meta">${esc(a.disc_desc)}</div>
+          <div class="spot-pills">${dots}</div>
+        </div>`;
+    }).join("");
+
+    spotScroll.querySelectorAll(".spot-card").forEach(el => {
+      el.addEventListener("click", () => openDetail(el.dataset.reg));
+    });
+  }
+
+  /* ---------------- chips ---------------- */
   function buildMedalChips() {
     const opts = [
       { k:"all",    label:"All medals" },
-      { k:"gold",   label:"🥇 Gold",   color:"var(--gold)"   },
-      { k:"silver", label:"🥈 Silver", color:"var(--silver)" },
-      { k:"bronze", label:"🥉 Bronze", color:"var(--bronze)" }
+      { k:"gold",   label:"Gold",   color:"var(--gold)"   },
+      { k:"silver", label:"Silver", color:"var(--silver)" },
+      { k:"bronze", label:"Bronze", color:"var(--bronze)" }
     ];
     medalEl.innerHTML = opts.map(o => `
       <button class="chip ${state.medal === o.k ? "on" : ""}" data-medal="${o.k}">
@@ -519,38 +887,20 @@
     });
   }
 
-  function buildStats() {
-    const seen = new Set();
-    const count = { gold:0, silver:0, bronze:0 };
-    DATA.forEach(a => (a.medals || []).forEach(m => {
-      const key = m.medal + "|" + m.event;
-      if (!seen.has(key) && count[m.medal] !== undefined) {
-        seen.add(key); count[m.medal]++;
-      }
-    }));
-    statsEl.innerHTML = `
-      <div class="stat"><b>${DATA.length}</b><span>Entries</span></div>
-      <div class="stat g"><b>${count.gold}</b><span>Gold</span></div>
-      <div class="stat s"><b>${count.silver}</b><span>Silver</span></div>
-      <div class="stat br"><b>${count.bronze}</b><span>Bronze</span></div>`;
-  }
-
   /* ---------------- filtering ---------------- */
   function haystack(a) {
-    const bio = a.bio_data || {};
     const parts = [
       a.name, a.disc_desc, a.disc, a.org_desc, a.reg,
       ...(a.medals || []).map(m => m.event),
     ];
-    // add bio participant fields if present
-    const p = bio.participant || bio.Participant || bio;
-    if (p && typeof p === "object") {
-      parts.push(p.Name, p.BirthDateRaw, p.IFId, p.Org, p.OrgDesc);
-    }
-    // entries
-    const entries = bio.entries || bio.Entries || [];
-    if (Array.isArray(entries)) {
-      entries.forEach(e => parts.push(e.Desc, e.EventDesc, e.Event));
+    const bio = a.bio_data;
+    if (bio && typeof bio === "object") {
+      const p = bio.participant || bio.Participant || bio;
+      if (p && typeof p === "object") {
+        parts.push(p.Name, p.BirthDateRaw, p.IFId, p.Org, p.OrgDesc);
+      }
+      const entries = bio.entries || bio.Entries;
+      if (Array.isArray(entries)) entries.forEach(e => parts.push(e.Desc, e.EventDesc));
     }
     return parts.filter(Boolean).join(" ").toLowerCase();
   }
@@ -567,12 +917,24 @@
     });
   }
 
-  /* ---------------- list rendering ---------------- */
+  /* ---------------- list render ---------------- */
   function render() {
     const rows = filtered();
 
+    countRow.hidden = false;
+    countNum.textContent = rows.length;
+    const tags = [];
+    if (state.medal !== "all") tags.push(state.medal);
+    if (state.sport !== "all") tags.push(state.sport);
+    countFilter.textContent = tags.length ? tags.join(" · ") : "";
+
     if (!rows.length) {
-      listEl.innerHTML = `<div class="empty"><div class="big">🔍</div>No athletes match your filters.</div>`;
+      listEl.innerHTML = `
+        <div class="empty">
+          <div class="big">🔍</div>
+          <h3>No athletes match</h3>
+          <div>Try clearing filters or search</div>
+        </div>`;
       return;
     }
 
@@ -580,7 +942,7 @@
     rows.forEach((a, i) => {
       const el = document.createElement("article");
       el.className = "card";
-      el.style.animationDelay = Math.min(i * 22, 300) + "ms";
+      el.style.animationDelay = Math.min(i * 18, 320) + "ms";
       el.dataset.reg = a.reg;
 
       const pills = (a.medals || []).map(m => {
@@ -588,15 +950,23 @@
         return `<span class="pill ${info.cls}">${info.icon} ${esc(m.event)}</span>`;
       }).join("");
 
+      const medalCount = (a.medals || []).length;
+      const showBadge = medalCount > 1;
+
       el.innerHTML = `
         <div class="avatar">
           <span>${esc(initials(a.name))}</span>
           ${a.photo_url ? `<img src="${esc(a.photo_url)}" alt="" loading="lazy"
               onerror="this.remove()">` : ""}
+          ${showBadge ? `<span class="medal-count">${medalCount}</span>` : ""}
         </div>
         <div class="info">
           <h3>${esc(a.name)}</h3>
-          <p class="sub">${esc(a.disc_desc)} · ${esc(a.org_desc)}</p>
+          <p class="sub">
+            <span>${esc(a.disc_desc)}</span>
+            <span class="sep">·</span>
+            <span>${esc(a.org_desc)}</span>
+          </p>
           ${pills ? `<div class="pills">${pills}</div>` : ""}
         </div>
         <span class="chev">›</span>`;
@@ -623,26 +993,22 @@
 
   /* ---------------- detail sheet ---------------- */
   function getParticipant(a) {
-    const bio = a.bio_data;
-    if (!bio) return {};
-    // support a few possible shapes
-    return bio.participant || bio.Participant || bio.profile || bio.Profile || bio;
+    const b = a.bio_data;
+    if (!b) return {};
+    return b.participant || b.Participant || b.profile || b.Profile || b;
   }
-
   function getEntries(a) {
-    const bio = a.bio_data;
-    if (!bio) return [];
-    const e = bio.entries || bio.Entries || bio.events || bio.Events;
+    const b = a.bio_data;
+    if (!b) return [];
+    const e = b.entries || b.Entries || b.events || b.Events;
     return Array.isArray(e) ? e : [];
   }
-
   function getSchedule(a) {
-    const bio = a.bio_data;
-    if (!bio) return [];
-    const s = bio.schedule || bio.Schedule || bio.results || bio.Results;
+    const b = a.bio_data;
+    if (!b) return [];
+    const s = b.schedule || b.Schedule || b.results || b.Results;
     return Array.isArray(s) ? s : [];
   }
-
   function getMembers(a) {
     const p = getParticipant(a);
     const m = p.Members || p.members || a.members;
@@ -651,7 +1017,7 @@
 
   function findResult(item, a) {
     if (Array.isArray(item.Results)) {
-      const r = item.Results.find(x => x.Reg === a.reg || x.Reg === a.reg);
+      const r = item.Results.find(x => x.Reg === a.reg);
       if (r) return { result:r.Result, rank:r.RkPo, medal:codeToMedal(r.Medal) };
     }
     const sides = [item.Home, item.Away].filter(Boolean);
@@ -682,7 +1048,7 @@
     }).join("");
 
     let html = `
-      <div class="hero">
+      <div class="hero-card">
         <div class="avatar">
           <span>${esc(initials(a.name))}</span>
           ${a.photo_url ? `<img src="${esc(a.photo_url)}" alt="" onerror="this.remove()">` : ""}
@@ -690,11 +1056,10 @@
         <div style="min-width:0">
           <h2>${esc(a.name)}</h2>
           <div class="meta">${esc(a.disc_desc)} · ${esc(a.org_desc)}</div>
-          ${heroPills ? `<div class="pills" style="margin-top:7px">${heroPills}</div>` : ""}
+          ${heroPills ? `<div class="pills" style="margin-top:8px">${heroPills}</div>` : ""}
         </div>
       </div>`;
 
-    /* bio — only render if we actually have bio_data */
     if (a.bio_data && Object.keys(p).length) {
       const kv = [
         ["Reg", p.Reg || a.reg],
@@ -711,9 +1076,8 @@
       </div></div>`;
     }
 
-    /* team members */
     if (members.length) {
-      html += `<div class="sec"><h4>Squad (${members.length})</h4>
+      html += `<div class="sec"><h4>Squad · ${members.length}</h4>
         ${members.map(m => `
           <div class="member">
             <div>${esc(m.Name || m.name)}</div>
@@ -722,7 +1086,6 @@
       </div>`;
     }
 
-    /* entries */
     if (entries.length) {
       html += `<div class="sec"><h4>Entries</h4>${entries.map(e => {
         const info = medalInfo(codeToMedal(e.Medal));
@@ -739,7 +1102,6 @@
       }).join("")}</div>`;
     }
 
-    /* schedule / timeline */
     if (schedule.length) {
       html += `<div class="sec"><h4>Schedule &amp; Results</h4>`;
       schedule.forEach(item => {
@@ -761,14 +1123,12 @@
       html += `</div>`;
     }
 
-    /* fallback — show raw bio when nothing was recognized */
     if (a.bio_data && !Object.keys(p).length && !entries.length && !schedule.length) {
       html += `<div class="sec"><h4>Raw bio data</h4>
         <div class="raw">${esc(JSON.stringify(a.bio_data, null, 2))}</div>
       </div>`;
     }
 
-    /* empty bio note */
     if (!a.bio_data) {
       html += `<div class="sec"><h4>Bio</h4>
         <div class="item"><div class="grow">
@@ -803,8 +1163,7 @@
     sheet.addEventListener("touchmove", (e) => {
       if (!dragging) return;
       curY = e.touches[0].clientY;
-      const dy = Math.max(0, curY - startY);
-      sheet.style.transform = `translateY(${dy}px)`;
+      sheet.style.transform = `translateY(${Math.max(0, curY - startY)}px)`;
     }, { passive:true });
     sheet.addEventListener("touchend", () => {
       if (!dragging) return;
@@ -816,16 +1175,12 @@
     });
   })();
 
-  /* ---------------- auto refresh ---------------- */
-  setInterval(() => {
-    refreshStatus();
-  }, 30 * 1000);   // update "x min ago" label every 30s
-
-  setInterval(() => {
-    loadData();
-  }, AUTO_REFRESH_MS);
+  /* ---------------- loops ---------------- */
+  setInterval(updateLive, 30 * 1000);
+  setInterval(loadData, AUTO_REFRESH_MS);
 
   /* ---------------- start ---------------- */
+  listEl.innerHTML = Array.from({length:5}, () => `<div class="skeleton"></div>`).join("");
   loadData();
 })();
 </script>
