@@ -65,7 +65,7 @@ jobs:
           # ══════════════════════════════════════════════════════
           #  PALETTE — NDTV Winner Style
           # ══════════════════════════════════════════════════════
-          ORANGE_TOP = (255, 165, 40)   # top gradient
+          ORANGE_TOP = (255, 165, 40)
           ORANGE_MID = (255, 200, 80)
           YELLOW     = (255, 235, 140)
           CREAM      = (255, 250, 235)
@@ -110,6 +110,7 @@ jobs:
           F_REG   = _find(["Roboto-Regular.ttf", "DejaVuSans.ttf"])
 
           def font(size, w="reg"):
+              size = max(6, int(size))          # ← clamp to minimum 6
               path = {"black": F_BLACK, "bold": F_BOLD, "med": F_MED, "reg": F_REG}[w]
               return ImageFont.truetype(path, size) if path else ImageFont.load_default()
 
@@ -121,7 +122,6 @@ jobs:
               if "base" in _bg_cache:
                   return _bg_cache["base"].copy()
 
-              # Vertical gradient: orange → yellow → cream → green
               stops = [
                   (0.00, ORANGE_TOP),
                   (0.20, ORANGE_MID),
@@ -134,7 +134,6 @@ jobs:
               arr = np.zeros((H, W, 3), dtype=np.uint8)
               for y in range(H):
                   t = y / H
-                  # find segment
                   for i in range(len(stops) - 1):
                       t0, c0 = stops[i]
                       t1, c1 = stops[i + 1]
@@ -150,7 +149,7 @@ jobs:
               _bg_cache["base"] = base
               return base.copy()
 
-          # Confetti — precomputed particles
+          # Confetti particles
           random.seed(42)
           CONFETTI = []
           for _ in range(140):
@@ -175,7 +174,6 @@ jobs:
                   x = p["x"] + math.sin(frame * 0.05 + p["y0"] * 0.01) * p["sway"] * 20
                   s = p["size"]
                   rot = p["rot"] + p["rot_spd"] * frame
-                  # draw as rotated rectangle
                   cx, cy = x, y
                   pts = []
                   for dx, dy in [(-s, -s//2), (s, -s//2), (s, s//2), (-s, s//2)]:
@@ -227,14 +225,13 @@ jobs:
               except:
                   _photo_cache[url] = None; return None
 
-          def round_photo(img, size, border_col=WHITE, border_w=8, shadow=True):
-              """Circular photo with white border — matches NDTV style."""
+          def round_photo(img, size, border_col=WHITE, border_w=8):
               out = Image.new("RGBA", (size, size), (0, 0, 0, 0))
               if img is None:
                   d = ImageDraw.Draw(out)
                   d.ellipse((0, 0, size, size), fill=(220, 220, 230))
                   d.text((size/2, size/2), "?",
-                         font=font(int(size*0.4), "bold"),
+                         font(int(size*0.4), "bold"),
                          fill=(140, 140, 150), anchor="mm")
               else:
                   w, h = img.size
@@ -244,7 +241,6 @@ jobs:
                   ImageDraw.Draw(mask).ellipse((0, 0, size, size), fill=255)
                   out.paste(img, (0, 0), mask)
 
-              # white border ring
               d = ImageDraw.Draw(out)
               d.ellipse((0, 0, size-1, size-1), outline=border_col + (255,), width=border_w)
               return out
@@ -299,22 +295,20 @@ jobs:
           #  MEDAL ILLUSTRATION
           # ══════════════════════════════════════════════════════
           def draw_medal(img, cx, cy, size, medal):
-              """Big medal with ribbon."""
+              if size < 20:                        # ← safe guard
+                  return
               d = ImageDraw.Draw(img, "RGBA")
               fill = MEDAL_FILL[medal]
               dark = MEDAL_DARK[medal]
               r = size // 2
 
-              # Ribbon (V shape, goes up from medal)
               ribbon_w = int(size * 0.35)
-              # Left ribbon
               d.polygon([
                   (cx - ribbon_w, cy - r - int(size*0.9)),
                   (cx - int(ribbon_w*0.2), cy - r - int(size*0.15)),
                   (cx + int(ribbon_w*0.2), cy - r - int(size*0.15)),
                   (cx + int(ribbon_w*0.5), cy - r - int(size*1.1)),
               ], fill=(90, 130, 200, 255))
-              # Right ribbon
               d.polygon([
                   (cx + ribbon_w, cy - r - int(size*0.9)),
                   (cx + int(ribbon_w*0.2), cy - r - int(size*0.15)),
@@ -322,39 +316,32 @@ jobs:
                   (cx - int(ribbon_w*0.5), cy - r - int(size*1.1)),
               ], fill=(70, 110, 180, 255))
 
-              # Ribbon text "Aichi-Nagoya 2026"
               f_rb = font(int(size*0.09), "bold")
               d.text((cx, cy - r - int(size*0.5)), "Aichi-Nagoya 2026",
                      font=f_rb, fill=(255, 255, 255, 230), anchor="mm")
 
-              # Red sun circle on ribbon
               d.ellipse((cx - int(size*0.08), cy - r - int(size*0.32),
                          cx + int(size*0.08), cy - r - int(size*0.16)),
                         fill=(220, 40, 40, 255))
 
-              # Medal shadow
               sh = Image.new("RGBA", (size + 40, size + 40), (0, 0, 0, 0))
               sd = ImageDraw.Draw(sh)
               sd.ellipse((20, 20, size + 20, size + 20), fill=(0, 0, 0, 80))
               sh = sh.filter(ImageFilter.GaussianBlur(12))
               img.paste(sh, (cx - r - 20, cy - r - 20), sh)
 
-              # Medal disk — outer ring
               d.ellipse((cx - r, cy - r, cx + r, cy + r), fill=dark + (255,))
-              # Inner face
               d.ellipse((cx - r + 8, cy - r + 8, cx + r - 8, cy + r - 8),
                         fill=fill + (255,))
-              # Inner circle detail
               d.ellipse((cx - r + int(size*0.12), cy - r + int(size*0.12),
                          cx + r - int(size*0.12), cy + r - int(size*0.12)),
                         outline=dark + (180,), width=3)
 
-              # Medal rank number
               fnum = font(int(size*0.55), "black")
-              d.text((cx, cy + int(size*0.02)), "1" if medal == "gold" else ("2" if medal == "silver" else "3"),
+              d.text((cx, cy + int(size*0.02)),
+                     "1" if medal == "gold" else ("2" if medal == "silver" else "3"),
                      font=fnum, fill=dark + (255,), anchor="mm")
 
-              # Subtle highlight on top of medal
               hl = Image.new("RGBA", (size, size), (0, 0, 0, 0))
               hd = ImageDraw.Draw(hl)
               hd.ellipse((int(size*0.15), int(size*0.1),
@@ -370,16 +357,13 @@ jobs:
               d = ImageDraw.Draw(img, "RGBA")
               p = ease_out(clamp(prog))
 
-              # Big "INDIA" title in orange gradient area
               d.text((W/2, 300), "ASIAN GAMES 2026",
                      font=font(44, "black"),
                      fill=(70, 40, 10, int(255*p)), anchor="mt")
 
-              # WINNER text (matches NDTV)
               y_w = int(lerp(500, 420, p))
               draw_winner_text(img, y_w, p)
 
-              # Medal count
               if p > 0.3:
                   cp = clamp((p - 0.3) / 0.4)
                   d.text((W/2, 900), str(int(total * ease_out(cp))),
@@ -417,54 +401,40 @@ jobs:
                              fill=(80, 50, 20, int(255 * bp)), anchor="mt")
 
           def draw_winner_text(img, y_center, p):
-              """Draw the massive WINNER text NDTV style."""
               d = ImageDraw.Draw(img, "RGBA")
-
-              # WINNER is big — we scale it
-              f_winner = font(220, "black")
               text = "WINNER"
-
-              # Measure
-              bb = d.textbbox((0, 0), text, font=f_winner)
-              tw = bb[2] - bb[0]
-              th = bb[3] - bb[1]
-
-              # Draw with layered offsets for that thick 3D look
-              cx = W // 2
-              cy = y_center + th // 2
-
-              # Slight scale animation
+              base_size = 220
               scale = 0.85 + 0.15 * p
-              f_scaled = font(int(220 * scale), "black")
+              f_scaled = font(int(base_size * scale), "black")
+
               bb2 = d.textbbox((0, 0), text, font=f_scaled)
               tw2 = bb2[2] - bb2[0]
               th2 = bb2[3] - bb2[1]
 
-              # Shadow layer (darker offset)
+              cx = W // 2
+              cy = y_center + th2 // 2
+
               for off in [(6, 6), (4, 4), (2, 2)]:
                   d.text((cx - tw2/2 + off[0], cy - th2/2 + off[1]),
                          text, font=f_scaled,
                          fill=(180, 90, 10, int(200 * p)), anchor="lt")
 
-              # Main text
               d.text((cx - tw2/2, cy - th2/2), text,
                      font=f_scaled, fill=(255, 255, 255, int(255 * p)),
                      anchor="lt")
 
           # ══════════════════════════════════════════════════════
-          #  DRAW — CARD (NDTV style)
+          #  DRAW — CARD
           # ══════════════════════════════════════════════════════
           def draw_card(img, ath, photo, prog, idx, total):
               d = ImageDraw.Draw(img, "RGBA")
               p = ease_out(clamp(prog))
               medal = ath["medal"]
 
-              # ── Top header (dark band) ──
               d.rectangle((0, 0, W, 130), fill=(20, 15, 10, 200))
               d.text((60, 40), "INDIA", font=font(48, "black"),
                      fill=(255, 255, 255, 255), anchor="lt")
 
-              # counter
               d.text((W - 60, 40), f"{idx+1}/{total}",
                      font=font(36, "black"),
                      fill=(255, 255, 255, 255), anchor="rt")
@@ -472,30 +442,25 @@ jobs:
                      font=font(20, "med"),
                      fill=(255, 220, 140, 220), anchor="rt")
 
-              # ── ASIAN GAMES 2026 label ──
               d.text((W/2, 190), "ASIAN GAMES 2026",
                      font=font(38, "black"),
                      fill=(70, 40, 10, 255), anchor="mt")
 
-              # ── WINNER text ──
               if p > 0.1:
                   wp = ease_back(clamp((p - 0.1) / 0.35))
                   draw_winner_text_scaled(img, 260, wp, medal)
 
-              # ── Names (below WINNER) ──
               if p > 0.4:
                   np_ = clamp((p - 0.4) / 0.3)
                   name = ath["name"]
                   fname = font(56, "black")
 
-                  # Fit to width
                   while d.textlength(name, font=fname) > W - 120 and fname.size > 30:
                       fname = font(fname.size - 2, "black")
 
                   d.text((W/2, 620), name, font=fname,
                          fill=(15, 10, 5, int(255 * np_)), anchor="mt")
 
-              # ── Event name ──
               if p > 0.55:
                   ep = clamp((p - 0.55) / 0.25)
                   ev = ath["event"]
@@ -505,14 +470,12 @@ jobs:
                   d.text((W/2, 700), ev.upper(), font=fe,
                          fill=(50, 30, 10, int(255 * ep)), anchor="mt")
 
-              # ── Photo (large, centered) ──
               if p > 0.15:
                   pp = ease_back(clamp((p - 0.15) / 0.4))
                   psize = 620
                   px = (W - psize) // 2
                   py = 810
 
-                  # shadow
                   shadow = Image.new("RGBA", (psize + 60, psize + 60), (0, 0, 0, 0))
                   sd = ImageDraw.Draw(shadow)
                   sd.ellipse((30, 30, psize + 30, psize + 30), fill=(0, 0, 0, 100))
@@ -521,7 +484,6 @@ jobs:
 
                   cp = round_photo(photo, psize, WHITE, border_w=14)
 
-                  # Scale-in animation
                   if pp < 1:
                       ns = max(20, int((psize + 60) * pp))
                       cp2 = cp.resize((ns, ns), Image.LANCZOS)
@@ -530,19 +492,16 @@ jobs:
                   else:
                       img.paste(cp, (px, py), cp)
 
-              # ── Medal illustration (bottom-left) ──
               if p > 0.3:
                   mp = ease_back(clamp((p - 0.3) / 0.4))
                   medal_size = 260
                   mx = 200
                   my = 1650
                   if mp < 1:
-                      # fade in
                       draw_medal(img, mx, my, int(medal_size * mp), medal)
                   else:
                       draw_medal(img, mx, my, medal_size, medal)
 
-              # ── Bottom banner with medal + sport ──
               if p > 0.5:
                   bp = clamp((p - 0.5) / 0.3)
                   d.rectangle((0, 1760, W, 1920), fill=(20, 15, 10, int(230 * bp)))
@@ -551,7 +510,6 @@ jobs:
                          font=font(36, "black"),
                          fill=(255, 220, 140, int(255 * bp)), anchor="mt")
 
-                  # medal name pill
                   label = medal.upper()
                   if ath["medal_count"] > 1:
                       label += f"  ×{ath['medal_count']}"
@@ -560,7 +518,6 @@ jobs:
                          fill=WHITE + (int(255 * bp),), anchor="mt")
 
           def draw_winner_text_scaled(img, y_center, p, medal):
-              """WINNER text that animates in."""
               d = ImageDraw.Draw(img, "RGBA")
               text = "WINNER"
               base_size = 200
@@ -574,13 +531,11 @@ jobs:
               cx = W // 2
               cy = y_center + th // 2
 
-              # shadow
               for off in [(5, 5), (3, 3)]:
                   d.text((cx - tw/2 + off[0], cy - th/2 + off[1]),
                          text, font=f_w,
                          fill=(180, 90, 10, int(220 * p)), anchor="lt")
 
-              # main
               d.text((cx - tw/2, cy - th/2), text,
                      font=f_w, fill=WHITE + (int(255 * p),), anchor="lt")
 
@@ -659,7 +614,6 @@ jobs:
               img.convert("RGB").save(f"{FRAME_DIR}/f_{counter[0]:05d}.png")
               counter[0] += 1
 
-          # ── INTRO ──
           print("Intro…")
           for f in range(INTRO_FRAMES):
               img = winner_bg().convert("RGBA")
@@ -667,18 +621,15 @@ jobs:
               draw_intro(img, f / (INTRO_FRAMES - 1), total, bd, n_ath)
               save(img)
 
-          # ── CARDS ──
           print(f"Cards ({n_ath})…")
           for i, ath in enumerate(athletes):
               print(f"  [{i+1}/{n_ath}] {ath['name']}")
               for f in range(CARD_FRAMES):
                   img = winner_bg().convert("RGBA")
-                  # fresh confetti per card so it feels alive
                   draw_confetti(img, i * CARD_FRAMES + f)
                   draw_card(img, ath, ath["_photo"], f / (CARD_FRAMES - 1), i, n_ath)
                   save(img)
 
-          # ── OUTRO ──
           print("Outro…")
           for f in range(OUTRO_FRAMES):
               img = winner_bg().convert("RGBA")
