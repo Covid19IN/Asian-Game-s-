@@ -1,8 +1,8 @@
 """
 Asian Games 2026 — India medalists
-Vertical 1080×1920 · 30fps · HLS-ready frame sequence
+Render frames → encode HLS (m3u8 + .ts)
 """
-import json, os, sys, math
+import json, os, sys, math, shutil, subprocess
 from pathlib import Path
 import requests
 import numpy as np
@@ -14,12 +14,13 @@ FPS         = 30
 DATA_IN     = "data/athletes.json"
 PHOTO_DIR   = "data/video-photos"
 FRAME_DIR   = "build/frames"
-MAX_CARDS   = 12                # top N athletes to feature
+OUT_DIR     = "docs/hls"                 # ← HLS output lands here
+MAX_CARDS   = 12
 
-INTRO_FRAMES  = 90              # 3.0 s
-CARD_FRAMES   = 75              # 2.5 s each
-OUTRO_FRAMES  = 120             # 4.0 s
-TRANS_FRAMES  = 18              # slide-in duration
+INTRO_FRAMES  = 90
+CARD_FRAMES   = 75
+OUTRO_FRAMES  = 120
+TRANS_FRAMES  = 18
 
 # ─────────── Palette ───────────
 BG_TOP    = (5,  8,  22)
@@ -56,7 +57,7 @@ F_REG  = _find(["Roboto-Regular.ttf", "Inter-Regular.ttf", "DejaVuSans.ttf"])
 def font(size, w="reg"):
     return ImageFont.truetype({"bold": F_BOLD, "med": F_MED, "reg": F_REG}[w], size)
 
-# ─────────── Background (cached) ───────────
+# ─────────── Background ───────────
 _bg = None
 def background():
     global _bg
@@ -71,7 +72,6 @@ def background():
 
 # ─────────── Easing ───────────
 def ease_out(t):    return 1 - (1 - t) ** 3
-def ease_io(t):     return t * t * (3 - 2 * t)
 def lerp(a, b, t):  return a + (b - a) * t
 def clamp(v, lo=0, hi=1): return max(lo, min(hi, v))
 
@@ -112,12 +112,11 @@ def circular_photo(img, size, ring_color, ring_w=10):
         mask = Image.new("L", (size, size), 0)
         ImageDraw.Draw(mask).ellipse((0, 0, size, size), fill=255)
         out.paste(img, (0, 0), mask)
-
     d = ImageDraw.Draw(out)
     d.ellipse((0, 0, size-1, size-1), outline=ring_color + (255,), width=ring_w)
     return out
 
-# ─────────── Data prep ───────────
+# ─────────── Data ───────────
 def is_numeric(r): return str(r or "").isdigit()
 
 def pick_athletes(data):
@@ -128,24 +127,16 @@ def pick_athletes(data):
         if not a.get("photo_url"): continue
         medals = a.get("medals") or []
         if not medals: continue
-
         golds   = sum(1 for m in medals if m["medal"] == "gold")
         silvers = sum(1 for m in medals if m["medal"] == "silver")
         bronzes = sum(1 for m in medals if m["medal"] == "bronze")
-        score   = golds * 100 + silvers * 10 + bronzes
-
         top = sorted(medals, key=lambda m: rank.get(m["medal"], 0), reverse=True)[0]
         out.append({
-            "reg": a["reg"],
-            "name": a["name"],
-            "disc_desc": a["disc_desc"],
-            "event": top["event"],
-            "medal": top["medal"],
-            "score": score,
-            "photo_url": a["photo_url"],
-            "medal_count": len(medals),
+            "reg": a["reg"], "name": a["name"],
+            "disc_desc": a["disc_desc"], "event": top["event"],
+            "medal": top["medal"], "score": golds*100 + silvers*10 + bronzes,
+            "photo_url": a["photo_url"], "medal_count": len(medals),
         })
-
     out.sort(key=lambda x: x["score"], reverse=True)
     return out[:MAX_CARDS]
 
@@ -153,20 +144,16 @@ def pick_athletes(data):
 def draw_intro(img, prog, total, bd):
     d = ImageDraw.Draw(img, "RGBA")
     p = ease_out(clamp(prog))
-
     d.text((W/2, lerp(600, 520, p)), "INDIA",
            font=font(150, "bold"), fill=WHITE + (int(255*p),), anchor="mt")
     d.text((W/2, lerp(810, 760, p)), "ASIAN GAMES 2026",
            font=font(42, "med"), fill=GOLD + (int(255*p),), anchor="mt")
-
     if p > 0.3:
         cp = clamp((p - 0.3) / 0.4)
-        shown = int(total * cp)
-        d.text((W/2, 1000), str(shown),
+        d.text((W/2, 1000), str(int(total * cp)),
                font=font(240, "bold"), fill=WHITE + (int(255*p),), anchor="mt")
         d.text((W/2, 1280), "MEDALS",
                font=font(48, "med"), fill=MUTED + (int(255*p),), anchor="mt")
-
     if p > 0.7:
         bp = clamp((p - 0.7) / 0.3)
         items = [("GOLD", bd["gold"], GOLD), ("SILVER", bd["silver"], SILVER), ("BRONZE", bd["bronze"], BRONZE)]
@@ -183,83 +170,57 @@ def draw_intro(img, prog, total, bd):
 def draw_card(img, ath, photo, prog, idx, total):
     d  = ImageDraw.Draw(img, "RGBA")
     p  = ease_out(clamp(prog))
-
-    # progress bar
-    bar_w = int(W * ((idx + clamp(prog)) / total))
     d.rectangle((0, 0, W, 8), fill=(30, 40, 70, 255))
-    d.rectangle((0, 0, bar_w, 8), fill=GOLD + (255,))
-
-    # counter
+    d.rectangle((0, 0, int(W * ((idx + clamp(prog)) / total)), 8), fill=GOLD + (255,))
     d.text((W-50, 50), f"{idx+1}/{total}",
            font=font(30, "med"), fill=MUTED + (255,), anchor="rt")
-
     y_slide = int((1 - p) * 120)
     cx, cy  = 80, 480 + y_slide
     cw, ch  = W - 160, 940
     mc = MEDAL_COLOR[ath["medal"]]
-
-    # card panel
     d.rounded_rectangle((cx, cy, cx+cw, cy+ch), radius=52,
         fill=CARD_BG + (int(245*clamp(p*1.4)),),
         outline=CARD_BR + (int(255*clamp(p*1.4)),), width=2)
-
-    # medal strip top
     sp = clamp(p * 1.6)
     d.rounded_rectangle((cx+36, cy+36, cx+36+int((cw-72)*sp), cy+60),
         radius=14, fill=mc + (255,))
-
-    # photo
     psize = 380
     px = cx + (cw - psize) // 2
     py = cy + 130
     cp = circular_photo(photo, psize, mc, ring_w=12)
     img.paste(cp, (px, py), cp)
-
-    # medal pill
     if p > 0.35:
         bp = clamp((p - 0.35) / 0.35)
         bw, bh = 240, 72
         bx = cx + (cw - bw) // 2
         by = py + psize + 40
-        d.rounded_rectangle((bx, by, bx+bw, by+bh), radius=36,
-            fill=mc + (int(255*bp),))
+        d.rounded_rectangle((bx, by, bx+bw, by+bh), radius=36, fill=mc + (int(255*bp),))
         label = ath["medal"].upper()
         if ath["medal_count"] > 1: label += f"  ×{ath['medal_count']}"
         d.text((bx+bw/2, by+bh/2+2), label, font=font(30, "bold"),
                fill=(5, 8, 22, int(255*bp)), anchor="mm")
     else:
         by = py + psize + 40
-
-    # name
     if p > 0.5:
         np_ = clamp((p - 0.5) / 0.35)
-        name = ath["name"]
-        fname = font(64, "bold")
-        ny = by + 130
+        name = ath["name"]; fname = font(64, "bold"); ny = by + 130
         if d.textlength(name, font=fname) > cw - 120:
-            words = name.split()
-            mid = len(words)//2 if len(words) > 2 else 1
-            l1, l2 = " ".join(words[:mid]), " ".join(words[mid:])
-            d.text((cx+cw/2, ny), l1, font=fname, fill=WHITE + (int(255*np_),), anchor="mt")
-            d.text((cx+cw/2, ny+76), l2, font=fname, fill=WHITE + (int(255*np_),), anchor="mt")
+            words = name.split(); mid = len(words)//2 if len(words) > 2 else 1
+            d.text((cx+cw/2, ny), " ".join(words[:mid]), font=fname, fill=WHITE + (int(255*np_),), anchor="mt")
+            d.text((cx+cw/2, ny+76), " ".join(words[mid:]), font=fname, fill=WHITE + (int(255*np_),), anchor="mt")
             ny += 76
         else:
             d.text((cx+cw/2, ny), name, font=fname, fill=WHITE + (int(255*np_),), anchor="mt")
         sy = ny + 110
     else:
         sy = by + 240
-
-    # sport
     if p > 0.65:
         sp_ = clamp((p - 0.65) / 0.35)
         d.text((cx+cw/2, sy), ath["disc_desc"].upper(), font=font(34, "med"),
                fill=MUTED + (int(255*sp_),), anchor="mt")
-
-    # event
     if p > 0.78:
         ep = clamp((p - 0.78) / 0.22)
-        ev = ath["event"]
-        fe = font(26, "reg")
+        ev = ath["event"]; fe = font(26, "reg")
         while d.textlength(ev, font=fe) > cw - 100 and len(ev) > 5:
             ev = ev[:-2] + "…"
         d.text((cx+cw/2, sy+60), ev, font=fe, fill=DIM + (int(255*ep),), anchor="mt")
@@ -267,26 +228,17 @@ def draw_card(img, ath, photo, prog, idx, total):
 def draw_outro(img, prog, total, bd):
     d = ImageDraw.Draw(img, "RGBA")
     p = ease_out(clamp(prog))
-
-    d.text((W/2, 720), "INDIA", font=font(140, "bold"),
-           fill=WHITE + (int(255*p),), anchor="mt")
-    d.text((W/2, 900), f"{total} MEDALS", font=font(72, "bold"),
-           fill=GOLD + (int(255*p),), anchor="mt")
-
+    d.text((W/2, 720), "INDIA", font=font(140, "bold"), fill=WHITE + (int(255*p),), anchor="mt")
+    d.text((W/2, 900), f"{total} MEDALS", font=font(72, "bold"), fill=GOLD + (int(255*p),), anchor="mt")
     y = 1180
-    for label, n, col in [("GOLD", bd["gold"], GOLD),
-                          ("SILVER", bd["silver"], SILVER),
-                          ("BRONZE", bd["bronze"], BRONZE)]:
-        d.text((W/2-80, y), label, font=font(42, "med"),
-               fill=col + (int(255*p),), anchor="rm")
-        d.text((W/2+80, y), str(n), font=font(54, "bold"),
-               fill=WHITE + (int(255*p),), anchor="lm")
+    for label, n, col in [("GOLD", bd["gold"], GOLD), ("SILVER", bd["silver"], SILVER), ("BRONZE", bd["bronze"], BRONZE)]:
+        d.text((W/2-80, y), label, font=font(42, "med"), fill=col + (int(255*p),), anchor="rm")
+        d.text((W/2+80, y), str(n), font=font(54, "bold"), fill=WHITE + (int(255*p),), anchor="lm")
         y += 110
-
     d.text((W/2, 1750), "FOLLOW FOR LIVE UPDATES", font=font(30, "med"),
            fill=MUTED + (int(255*p),), anchor="mt")
 
-# ─────────── Render ───────────
+# ─────────── Render + Encode ───────────
 def render():
     print("Loading athletes…")
     with open(DATA_IN, encoding="utf-8") as f:
@@ -296,7 +248,6 @@ def render():
     if not athletes:
         print("No athletes with photos. Aborting."); sys.exit(1)
 
-    # totals
     seen = set(); bd = {"gold": 0, "silver": 0, "bronze": 0}
     for a in data:
         for m in a.get("medals", []):
@@ -308,13 +259,11 @@ def render():
     print(f"Total medals: {total}  {bd}")
     print(f"Cards: {len(athletes)}")
 
-    # preload
     print("Loading photos…")
     for a in athletes:
         a["_photo"] = load_photo(a["photo_url"])
 
-    # clean
-    import shutil
+    # clean frames dir
     shutil.rmtree(FRAME_DIR, ignore_errors=True)
     Path(FRAME_DIR).mkdir(parents=True, exist_ok=True)
 
@@ -324,33 +273,63 @@ def render():
         img.convert("RGB").save(f"{FRAME_DIR}/f_{n:05d}.png")
         n += 1
 
-    # INTRO
     print("Intro…")
     for f in range(INTRO_FRAMES):
         img = background().convert("RGBA")
         draw_intro(img, f / (INTRO_FRAMES - 1), total, bd)
         save(img)
 
-    # CARDS
     print(f"Cards ({len(athletes)})…")
     for i, ath in enumerate(athletes):
         for f in range(CARD_FRAMES):
             img = background().convert("RGBA")
-            if f < TRANS_FRAMES:
-                prog = (f / TRANS_FRAMES) * 0.5
-            else:
-                prog = 0.5 + ((f - TRANS_FRAMES) / (CARD_FRAMES - TRANS_FRAMES)) * 0.5
+            prog = (f / TRANS_FRAMES) * 0.5 if f < TRANS_FRAMES \
+                   else 0.5 + ((f - TRANS_FRAMES) / (CARD_FRAMES - TRANS_FRAMES)) * 0.5
             draw_card(img, ath, ath["_photo"], prog, i, len(athletes))
             save(img)
 
-    # OUTRO
     print("Outro…")
     for f in range(OUTRO_FRAMES):
         img = background().convert("RGBA")
         draw_outro(img, f / (OUTRO_FRAMES - 1), total, bd)
         save(img)
 
-    print(f"✅ {n} frames → {FRAME_DIR}")
+    print(f"✅ {n} frames rendered")
+
+    # ──────── Encode HLS ────────
+    print("Encoding HLS (m3u8 + .ts)…")
+    Path(OUT_DIR).mkdir(parents=True, exist_ok=True)
+    for old in Path(OUT_DIR).glob("*.ts"):   old.unlink()
+    for old in Path(OUT_DIR).glob("*.m3u8"): old.unlink()
+
+    cmd = [
+        "ffmpeg", "-y",
+        "-framerate", str(FPS),
+        "-i", f"{FRAME_DIR}/f_%05d.png",
+        "-c:v", "libx264",
+        "-preset", "medium",
+        "-crf", "21",
+        "-pix_fmt", "yuv420p",
+        "-g", "60", "-keyint_min", "60", "-sc_threshold", "0",
+        "-f", "hls",
+        "-hls_time", "2",
+        "-hls_playlist_type", "vod",
+        "-hls_segment_filename", f"{OUT_DIR}/seg_%03d.ts",
+        f"{OUT_DIR}/index.m3u8",
+    ]
+    subprocess.run(cmd, check=True)
+
+    # cleanup frames
+    shutil.rmtree("build", ignore_errors=True)
+
+    # list outputs
+    files = sorted(Path(OUT_DIR).glob("*"))
+    print(f"✅ HLS written to {OUT_DIR}/  ({len(files)} files)")
+    for f in files[:5]:
+        print(f"   {f.name}  ({f.stat().st_size} bytes)")
+    if len(files) > 5:
+        print(f"   … and {len(files)-5} more")
+
 
 if __name__ == "__main__":
     render()
