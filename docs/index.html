@@ -1,0 +1,43 @@
+<!-- ============ HIGHLIGHT REEL ============ -->
+<section class="reel" id="reelSec" style="display:none;padding:14px 16px 6px">
+  <div style="font-size:11px;font-weight:800;letter-spacing:1.4px;color:#8b97b8;text-transform:uppercase;margin-bottom:10px">
+    🎬 MEDALIST REEL
+  </div>
+  <div style="position:relative;border-radius:22px;overflow:hidden;background:#000;aspect-ratio:9/16;max-height:620px;border:1px solid rgba(255,255,255,.08)">
+    <video id="reelVideo" muted playsinline loop preload="metadata" style="width:100%;height:100%;object-fit:cover;display:block">
+      <source src="hls/index.m3u8" type="application/vnd.apple.mpegurl">
+    </video>
+    <button id="reelPlay" style="position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:84px;height:84px;border-radius:50%;background:rgba(255,255,255,.15);backdrop-filter:blur(12px);border:2px solid rgba(255,255,255,.35);color:#fff;font-size:30px;padding-left:6px;cursor:pointer">▶</button>
+  </div>
+</section>
+<script src="https://cdn.jsdelivr.net/npm/hls.js@1"></script>
+<script>
+(function(){
+  const reelSec = document.getElementById("reelSec");
+  const video   = document.getElementById("reelVideo");
+  const playBtn = document.getElementById("reelPlay");
+  if (!video) return;
+  const wrap = video.parentElement;
+
+  if (window.Hls && Hls.isSupported()) {
+    const hls = new Hls();
+    hls.loadSource("hls/index.m3u8");
+    hls.attachMedia(video);
+    hls.on(Hls.Events.MANIFEST_PARSED, () => { reelSec.style.display = "block"; });
+    hls.on(Hls.Events.ERROR, (_, data) => { if (data.fatal) reelSec.style.display = "none"; });
+  } else if (video.canPlayType("application/vnd.apple.mpegurl")) {
+    video.src = "hls/index.m3u8";
+    video.addEventListener("loadedmetadata", () => { reelSec.style.display = "block"; });
+    video.addEventListener("error", () => { reelSec.style.display = "none"; });
+  }
+
+  function toggle(){
+    if (video.paused) { video.muted = false; video.play().catch(()=>{}); }
+    else video.pause();
+  }
+  playBtn.addEventListener("click", toggle);
+  video.addEventListener("click", toggle);
+  video.addEventListener("play",  () => { playBtn.style.opacity = "0"; });
+  video.addEventListener("pause", () => { playBtn.style.opacity = "1"; });
+})();
+</script>
