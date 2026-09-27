@@ -66,10 +66,10 @@ jobs:
           SAFE_Y = 54
 
           # ══════════════════════════════════════════════════════
-          #  BBC / SKY NEWS PALETTE
+          #  COLOR PALETTE
           # ══════════════════════════════════════════════════════
-          BG_CORE       = (6, 9, 15)         # Premium Deep Obsidian Slate
-          ACCENT_CYAN   = (0, 220, 255)      # Broadcast Electric Cyan
+          BG_CORE       = (6, 9, 15)         # Deep Obsidian
+          ACCENT_CYAN   = (0, 220, 255)      # Broadcast Cyan
           PANEL_DARK    = (12, 18, 28, 230)   # Glassmorphic Slate
           PANEL_BORDER  = (50, 75, 110, 200)  # Polished Metallic Border
 
@@ -77,10 +77,8 @@ jobs:
           TEXT_MUTED    = (140, 160, 190)
 
           GOLD          = (255, 195, 0)
-          SILVER        = (225, 230, 240)
-          BRONZE        = (240, 130, 50)
-
-          MEDAL_COLOR = {"gold": GOLD, "silver": SILVER, "bronze": BRONZE}
+          SILVER        = (210, 220, 235)
+          BRONZE        = (225, 120, 50)
 
           for d in [PHOTO_DIR, FRAME_DIR, OUT_DIR]:
               Path(d).mkdir(parents=True, exist_ok=True)
@@ -111,7 +109,7 @@ jobs:
               return ImageFont.truetype(path, size) if path else ImageFont.load_default()
 
           # ══════════════════════════════════════════════════════
-          #  DYNAMIC BBC / SKY NEWS AMBIENT BACKGROUND
+          #  DYNAMIC BACKGROUND LIGHTING
           # ══════════════════════════════════════════════════════
           random.seed(101)
           LIGHT_PARTICLES = []
@@ -126,19 +124,14 @@ jobs:
               })
 
           def news_studio_bg(frame):
-              # Deep dark base
               img = Image.new("RGBA", (W, H), BG_CORE + (255,))
-              
-              # Volumetric Ambient Flares
               flare_layer = Image.new("RGBA", (W, H), (0, 0, 0, 0))
               fd = ImageDraw.Draw(flare_layer)
 
-              # Moving Spotlight 1 (Athlete Left Backdrop)
               cx1 = int(350 + math.sin(frame * 0.02) * 80)
               cy1 = int(500 + math.cos(frame * 0.02) * 50)
               fd.ellipse((cx1 - 500, cy1 - 400, cx1 + 500, cy1 + 400), fill=(0, 180, 255, 35))
 
-              # Moving Spotlight 2 (Right Panel Accent)
               cx2 = int(W - 300 + math.cos(frame * 0.015) * 60)
               cy2 = int(300 + math.sin(frame * 0.025) * 60)
               fd.ellipse((cx2 - 450, cy2 - 350, cx2 + 450, cy2 + 350), fill=(255, 180, 0, 18))
@@ -146,7 +139,6 @@ jobs:
               flare_layer = flare_layer.filter(ImageFilter.GaussianBlur(130))
               img.paste(flare_layer, (0, 0), flare_layer)
 
-              # Floating Lens Bokeh & Particles
               bokeh = Image.new("RGBA", (W, H), (0, 0, 0, 0))
               bd = ImageDraw.Draw(bokeh)
               for p in LIGHT_PARTICLES:
@@ -163,9 +155,9 @@ jobs:
           # ══════════════════════════════════════════════════════
           #  DRAW INDIA FLAG BADGE
           # ══════════════════════════════════════════════════════
-          def draw_india_flag(img, x, y, w=54, h=36):
+          def draw_india_flag(img, x, y, w=58, h=38):
               d = ImageDraw.Draw(img, "RGBA")
-              d.rounded_rectangle((x - 2, y - 2, x + w + 2, y + h + 2), radius=4, fill=(255, 255, 255, 30))
+              d.rounded_rectangle((x - 2, y - 2, x + w + 2, y + h + 2), radius=6, fill=(255, 255, 255, 30), outline=(255, 255, 255, 80))
               
               bh = h // 3
               d.rectangle((x, y, x + w, y + bh), fill=(255, 153, 51))
@@ -174,14 +166,10 @@ jobs:
               
               cx, cy = x + w // 2, y + h // 2
               r = bh // 2
-              d.ellipse((cx - r, cy - r, cx + r, cy + r), outline=(0, 0, 128), width=1)
+              d.ellipse((cx - r, cy - r, cx + r, cy + r), outline=(0, 0, 128), width=2)
               d.ellipse((cx - 1, cy - 1, cx + 1, cy + 1), fill=(0, 0, 128))
 
-          # ══════════════════════════════════════════════════════
-          #  EASING & HELPERS
-          # ══════════════════════════════════════════════════════
           def ease_out(t):    return 1 - (1 - t) ** 3
-          def ease_back(t):   return 1 + 2.7 * (t-1)**3 + 1.7 * (t-1)**2
           def clamp(v, lo=0, hi=1): return max(lo, min(hi, v))
 
           # ══════════════════════════════════════════════════════
@@ -215,15 +203,13 @@ jobs:
                   _photo_cache[url] = None; return None
 
           # ══════════════════════════════════════════════════════
-          #  DATA PROCESSING
+          #  DATA PROCESSING (NO REG IDs)
           # ══════════════════════════════════════════════════════
-          def is_numeric(r): return str(r or "").isdigit()
-
           def collect(data, limit):
-              rank = {"gold": 3, "silver": 2, "bronze": 1}
+              rank_map = {"gold": 3, "silver": 2, "bronze": 1}
               by_sport = {}
+              
               for a in data:
-                  if not is_numeric(a.get("reg")): continue
                   if not a.get("photo_url"): continue
                   medals = a.get("medals") or []
                   if not medals: continue
@@ -231,12 +217,20 @@ jobs:
                   g = sum(1 for m in medals if m["medal"] == "gold")
                   s = sum(1 for m in medals if m["medal"] == "silver")
                   b = sum(1 for m in medals if m["medal"] == "bronze")
-                  top = sorted(medals, key=lambda m: rank.get(m["medal"], 0), reverse=True)[0]
+                  
+                  top = sorted(medals, key=lambda m: rank_map.get(m["medal"], 0), reverse=True)[0]
                   sport = a.get("disc_desc", "Other")
 
+                  result_val = top.get("result") or top.get("mark") or ""
+                  rank_val   = top.get("rank") or f"Rank {top.get('rank_num', '')}".strip()
+
                   entry = {
-                      "reg": a["reg"], "name": a["name"], "disc_desc": sport,
-                      "event": top["event"], "medal": top["medal"],
+                      "name": a["name"], 
+                      "disc_desc": sport,
+                      "event": top["event"], 
+                      "medal": top["medal"],
+                      "result": result_val,
+                      "rank": rank_val if rank_val != "Rank " else "",
                       "score": g*100 + s*10 + b,
                       "photo_url": a["photo_url"],
                       "medal_count": len(medals),
@@ -267,7 +261,6 @@ jobs:
               d = ImageDraw.Draw(img, "RGBA")
               p = ease_out(clamp(prog))
 
-              # Top Accent Line
               d.rectangle((0, 0, W, 6), fill=ACCENT_CYAN + (255,))
               d.text((SAFE_X, SAFE_Y), "ASIAN GAMES 2026 // BROADCAST SPECIAL", font=font(26, "black"), fill=ACCENT_CYAN)
 
@@ -289,31 +282,34 @@ jobs:
                       d.text((x + pw - 30, y0 + 15), str(n), font=font(64, "black"), fill=TEXT_WHITE + (int(255*bp),), anchor="rt")
 
           # ══════════════════════════════════════════════════════
-          #  DRAW — BROADCAST SPORTS UI CARD
+          #  DRAW — TV CARD
           # ══════════════════════════════════════════════════════
           def draw_card(img, ath, photo, prog, idx, total):
               d = ImageDraw.Draw(img, "RGBA")
               p = ease_out(clamp(prog))
-              medal = ath["medal"]
-              m_col = MEDAL_COLOR.get(medal, ACCENT_CYAN)
+              medal = ath["medal"].lower()
+              
+              medal_themes = {
+                  "gold":   {"bg": GOLD, "text": (20, 15, 0), "border": (255, 220, 100)},
+                  "silver": {"bg": SILVER, "text": (10, 15, 25), "border": (240, 245, 255)},
+                  "bronze": {"bg": BRONZE, "text": (20, 10, 5), "border": (255, 160, 100)},
+              }
+              m_style = medal_themes.get(medal, {"bg": ACCENT_CYAN, "text": BG_CORE, "border": ACCENT_CYAN})
 
-              # ── 1. TV TOP TICKER HEADER ──
+              # ── 1. TV TOP TICKER ──
               d.rectangle((0, 0, W, 70), fill=(8, 12, 18, 240))
               d.line([(0, 70), (W, 70)], fill=ACCENT_CYAN, width=2)
-
               d.text((SAFE_X, 18), "ASIAN GAMES 2026", font=font(28, "black"), fill=TEXT_WHITE)
               d.rectangle((SAFE_X + 280, 22, SAFE_X + 284, 48), fill=ACCENT_CYAN)
               d.text((SAFE_X + 300, 20), "OFFICIAL BROADCAST", font=font(20, "bold"), fill=ACCENT_CYAN)
-
               d.text((W - SAFE_X, 18), f"MEDALIST {idx+1:02d}/{total:02d}", font=font(28, "black"), fill=TEXT_WHITE, anchor="rt")
 
-              # ── 2. ATHLETE FEATURED PHOTO ──
+              # ── 2. ROUNDED ATHLETE PHOTO CONTAINER ──
               if p > 0.05:
                   psize = 680
                   px = SAFE_X + 20
                   py = 180
 
-                  # Glass Frame Backing
                   d.polygon([
                       (px, py), (px + psize - 60, py),
                       (px + psize, py + 60), (px + psize, py + psize),
@@ -324,56 +320,77 @@ jobs:
                       w, h = photo.size
                       s = min(w, h)
                       cropped = photo.crop(((w-s)//2, (h-s)//2, (w+s)//2, (h+s)//2)).resize((psize-40, psize-40), Image.LANCZOS)
-                      mask = Image.new("L", (psize-40, psize-40), 255)
+                      
+                      mask = Image.new("L", (psize-40, psize-40), 0)
+                      mdraw = ImageDraw.Draw(mask)
+                      mdraw.ellipse((0, 0, psize-40, psize-40), fill=255)
+                      
+                      d.ellipse((px + 16, py + 16, px + psize - 16, py + psize - 16), fill=(18, 26, 38, 255), outline=ACCENT_CYAN, width=2)
                       img.paste(cropped, (px + 20, py + 20), mask)
 
-                  # Top Accent Stripe
-                  d.line([(px, py), (px + psize - 60, py)], fill=m_col, width=6)
+                  d.line([(px, py), (px + psize - 60, py)], fill=m_style["bg"], width=6)
 
-              # ── 3. RIGHT SIDE: BROADCAST WIDGET PANEL ──
+              # ── 3. RIGHT SIDE: BROADCAST WIDGET ──
               if p > 0.2:
                   wx = SAFE_X + 740
                   wy = 180
                   ww = W - wx - SAFE_X
                   wh = 680
 
-                  # Glass Drawer Panel
                   d.rounded_rectangle((wx, wy, wx + ww, wy + wh), radius=16, fill=PANEL_DARK, outline=PANEL_BORDER, width=2)
-                  d.line([(wx + 30, wy), (wx + 180, wy)], fill=m_col, width=6)
+                  d.line([(wx + 30, wy), (wx + 180, wy)], fill=m_style["bg"], width=6)
 
-                  # Medal Badge Top Right
-                  d.rounded_rectangle((wx + ww - 220, wy + 30, wx + ww - 30, wy + 90), radius=6, fill=m_col)
-                  d.text((wx + ww - 125, wy + 60), medal.upper(), font=font(28, "black"), fill=BG_CORE, anchor="mm")
+                  # Medal Badge
+                  bw, bh = 180, 56
+                  bx, by = wx + ww - bw - 40, wy + 35
+                  d.rounded_rectangle((bx, by, bx + bw, by + bh), radius=8, fill=m_style["bg"], outline=m_style["border"], width=2)
+                  d.text((bx + bw // 2, by + bh // 2), medal.upper(), font=font(28, "black"), fill=m_style["text"], anchor="mm")
 
                   # Sport / Discipline
-                  d.text((wx + 40, wy + 40), ath["disc_desc"].upper(), font=font(24, "bold"), fill=ACCENT_CYAN)
+                  d.text((wx + 40, wy + 42), ath["disc_desc"].upper(), font=font(24, "bold"), fill=ACCENT_CYAN)
 
-                  # Athlete Name
-                  name = ath["name"].upper()
-                  fname = font(76, "black")
-                  while d.textlength(name, font=fname) > ww - 80 and fname.size > 36:
+                  # Name Re-formatting ("SINGH Gulveer" -> "GULVEER SINGH")
+                  raw_name = ath["name"].strip()
+                  parts = raw_name.split()
+                  formatted_name = f"{parts[-1]} {' '.join(parts[:-1])}" if len(parts) > 1 else raw_name
+                  formatted_name = formatted_name.upper()
+
+                  fname = font(64, "black")
+                  while d.textlength(formatted_name, font=fname) > ww - 260 and fname.size > 34:
                       fname = font(fname.size - 4, "black")
-                  d.text((wx + 40, wy + 80), name, font=fname, fill=TEXT_WHITE)
+                  d.text((wx + 40, wy + 88), formatted_name, font=fname, fill=TEXT_WHITE)
 
-                  d.line([(wx + 40, wy + 190), (wx + ww - 40, wy + 190)], fill=(255, 255, 255, 30), width=2)
+                  d.line([(wx + 40, wy + 185), (wx + ww - 40, wy + 185)], fill=(255, 255, 255, 30), width=2)
 
-                  # Event Details
-                  d.text((wx + 40, wy + 220), "EVENT / CATEGORY", font=font(18, "bold"), fill=TEXT_MUTED)
+                  # Event Info
+                  d.text((wx + 40, wy + 215), "EVENT / CATEGORY", font=font(18, "bold"), fill=TEXT_MUTED)
                   ev_text = ath["event"].upper()
-                  fev = font(32, "bold")
-                  while d.textlength(ev_text, font=fev) > ww - 80 and fev.size > 20:
+                  fev = font(34, "bold")
+                  while d.textlength(ev_text, font=fev) > ww - 80 and fev.size > 22:
                       fev = font(fev.size - 2, "bold")
-                  d.text((wx + 40, wy + 255), ev_text, font=fev, fill=TEXT_WHITE)
+                  d.text((wx + 40, wy + 248), ev_text, font=fev, fill=TEXT_WHITE)
 
-                  # Delegation + Indian Flag Badge
-                  d.text((wx + 40, wy + 340), "NATIONAL DELEGATION", font=font(18, "bold"), fill=TEXT_MUTED)
-                  d.text((wx + 40, wy + 375), "TEAM INDIA", font=font(36, "black"), fill=TEXT_WHITE)
-                  draw_india_flag(img, x=wx + 265, y=wy + 382, w=54, h=36)
+                  # PERFORMANCE STATS (Time/Mark & Rank)
+                  if ath.get("result") or ath.get("rank"):
+                      stat_y = wy + 310
+                      stat_box_w = ww - 80
+                      d.rounded_rectangle((wx + 40, stat_y, wx + 40 + stat_box_w, stat_y + 65), radius=8, fill=(18, 28, 42, 220), outline=(40, 60, 90, 200), width=1)
+                      
+                      stat_str = ""
+                      if ath.get("result"): stat_str += f"RESULT: {ath['result']}   "
+                      if ath.get("rank"): stat_str += f"|   {ath['rank'].upper()}"
+                      
+                      d.text((wx + 60, stat_y + 32), stat_str.strip(), font=font(22, "bold"), fill=ACCENT_CYAN, anchor="lm")
 
-                  # Multiple Medals Badge
+                  # Delegation + Flag
+                  d.text((wx + 40, wy + 410), "NATIONAL DELEGATION", font=font(18, "bold"), fill=TEXT_MUTED)
+                  d.text((wx + 40, wy + 445), "TEAM INDIA", font=font(36, "black"), fill=TEXT_WHITE)
+                  draw_india_flag(img, x=wx + 275, y=wy + 448, w=58, h=38)
+
+                  # Multi-Medal Indicator
                   if ath["medal_count"] > 1:
-                      d.rounded_rectangle((wx + 40, wy + 460, wx + ww - 40, wy + 540), radius=8, fill=(0, 240, 255, 20), outline=ACCENT_CYAN, width=1)
-                      d.text((wx + 60, wy + 500), f"MULTIPLE MEDALIST ({ath['medal_count']} MEDALS WON)", font=font(22, "bold"), fill=ACCENT_CYAN, anchor="lm")
+                      d.rounded_rectangle((wx + 40, wy + 520, wx + ww - 40, wy + 590), radius=8, fill=(0, 240, 255, 20), outline=ACCENT_CYAN, width=1)
+                      d.text((wx + 60, wy + 555), f"MULTIPLE MEDALIST ({ath['medal_count']} MEDALS WON)", font=font(22, "bold"), fill=ACCENT_CYAN, anchor="lm")
 
               # ── 4. LOWER THIRD TICKER ──
               if p > 0.6:
@@ -382,13 +399,16 @@ jobs:
                   bar_h = 66
 
                   d.rectangle((0, bar_y, W, bar_y + bar_h), fill=(8, 12, 20, 250))
-                  d.rectangle((0, bar_y, 16, bar_y + bar_h), fill=m_col)
+                  d.rectangle((0, bar_y, 16, bar_y + bar_h), fill=m_style["bg"])
 
                   d.rectangle((30, bar_y + 16, 110, bar_y + 50), fill=(230, 30, 30))
                   d.text((70, bar_y + 33), "LIVE", font=font(18, "black"), fill=TEXT_WHITE, anchor="mm")
 
-                  ticker = f"ASIAN GAMES 2026  //  {ath['disc_desc'].upper()}  —  {ath['event'].upper()}  —  {medal.upper()} MEDALIST"
-                  d.text((140, bar_y + 33), ticker, font=font(22, "bold"), fill=TEXT_WHITE + (int(255*lp),), anchor="lm")
+                  ticker_text = f"ASIAN GAMES 2026  //  {ath['disc_desc'].upper()}  —  {ath['event'].upper()}"
+                  if ath.get("result"): ticker_text += f" ({ath['result']})"
+                  ticker_text += f"  —  {medal.upper()} MEDALIST"
+
+                  d.text((140, bar_y + 33), ticker_text, font=font(22, "bold"), fill=TEXT_WHITE + (int(255*lp),), anchor="lm")
 
           # ══════════════════════════════════════════════════════
           #  DRAW — OUTRO
