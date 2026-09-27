@@ -48,7 +48,7 @@ jobs:
           from PIL import Image, ImageDraw, ImageFont, ImageFilter
 
           # ══════════════════════════════════════════════════════
-          #  CONFIG — TV BROADCAST (1920×1080)
+          #  CONFIG — BBC / SKY NEWS BROADCAST (1920×1080)
           # ══════════════════════════════════════════════════════
           W, H        = 1920, 1080
           FPS         = 30
@@ -66,19 +66,19 @@ jobs:
           SAFE_Y = 54
 
           # ══════════════════════════════════════════════════════
-          #  SPORTS BROADCAST PALETTE
+          #  BBC / SKY NEWS PALETTE
           # ══════════════════════════════════════════════════════
-          BG_CORE       = (11, 14, 20)       # Deep Obsidian
-          ACCENT_CYAN   = (0, 240, 255)      # Electric Cyan
-          PANEL_DARK    = (18, 24, 38, 235)   # Semi-trans Dark Slate
-          PANEL_BORDER  = (40, 55, 80, 255)   # Metallic Slate
+          BG_CORE       = (6, 9, 15)         # Premium Deep Obsidian Slate
+          ACCENT_CYAN   = (0, 220, 255)      # Broadcast Electric Cyan
+          PANEL_DARK    = (12, 18, 28, 230)   # Glassmorphic Slate
+          PANEL_BORDER  = (50, 75, 110, 200)  # Polished Metallic Border
 
           TEXT_WHITE    = (255, 255, 255)
-          TEXT_MUTED    = (130, 150, 180)
+          TEXT_MUTED    = (140, 160, 190)
 
-          GOLD          = (255, 184, 0)
-          SILVER        = (220, 225, 235)
-          BRONZE        = (240, 120, 40)
+          GOLD          = (255, 195, 0)
+          SILVER        = (225, 230, 240)
+          BRONZE        = (240, 130, 50)
 
           MEDAL_COLOR = {"gold": GOLD, "silver": SILVER, "bronze": BRONZE}
 
@@ -111,65 +111,74 @@ jobs:
               return ImageFont.truetype(path, size) if path else ImageFont.load_default()
 
           # ══════════════════════════════════════════════════════
-          #  DYNAMIC BACKGROUND GENERATOR
+          #  DYNAMIC BBC / SKY NEWS AMBIENT BACKGROUND
           # ══════════════════════════════════════════════════════
-          _bg_cache = {}
-          def sports_bg():
-              if "sports_base" in _bg_cache:
-                  return _bg_cache["sports_base"].copy()
-
-              img = Image.new("RGBA", (W, H), BG_CORE + (255,))
-              d = ImageDraw.Draw(img)
-
-              # Diagonal Speed lines background pattern
-              for x in range(-H, W + H, 40):
-                  d.line([(x, 0), (x + H, H)], fill=(255, 255, 255, 3), width=8)
-
-              # Radial Cyan Lighting Flare on bottom-right
-              flare = Image.new("RGBA", (W, H), (0, 0, 0, 0))
-              fd = ImageDraw.Draw(flare)
-              fd.ellipse((W - 800, H - 800, W + 200, H + 200), fill=(0, 240, 255, 25))
-              flare = flare.filter(ImageFilter.GaussianBlur(120))
-              img.paste(flare, (0, 0), flare)
-
-              _bg_cache["sports_base"] = img
-              return img.copy()
-
-          # Confetti
-          random.seed(42)
-          CONFETTI = []
-          for _ in range(180):
-              CONFETTI.append({
+          random.seed(101)
+          LIGHT_PARTICLES = []
+          for _ in range(40):
+              LIGHT_PARTICLES.append({
                   "x": random.randint(0, W),
-                  "y0": random.randint(-H, 0),
-                  "speed": random.uniform(6, 16),
-                  "size": random.randint(6, 16),
-                  "rot": random.uniform(0, math.pi),
-                  "rot_spd": random.uniform(-0.1, 0.1),
-                  "sway": random.uniform(0.5, 2.5),
-                  "col": random.choice([TEXT_WHITE, ACCENT_CYAN, GOLD, BRONZE]),
+                  "y": random.randint(0, H),
+                  "r": random.randint(15, 60),
+                  "speed": random.uniform(0.3, 1.2),
+                  "alpha": random.randint(20, 70),
+                  "color": random.choice([ACCENT_CYAN, GOLD, (180, 220, 255)])
               })
 
-          def draw_confetti(img, frame):
-              d = ImageDraw.Draw(img, "RGBA")
-              for p in CONFETTI:
-                  y = (p["y0"] + p["speed"] * frame) % (H + 200) - 100
-                  x = p["x"] + math.sin(frame * 0.05 + p["y0"] * 0.01) * p["sway"] * 20
-                  s = p["size"]
-                  rot = p["rot"] + p["rot_spd"] * frame
-                  cx, cy = x, y
-                  pts = []
-                  for dx, dy in [(-s, -s//2), (s, -s//2), (s, s//2), (-s, s//2)]:
-                      rx = dx * math.cos(rot) - dy * math.sin(rot)
-                      ry = dx * math.sin(rot) + dy * math.cos(rot)
-                      pts.append((cx + rx, cy + ry))
-                  try:
-                      d.polygon(pts, fill=p["col"] + (200,))
-                  except:
-                      pass
+          def news_studio_bg(frame):
+              # Deep dark base
+              img = Image.new("RGBA", (W, H), BG_CORE + (255,))
+              
+              # Volumetric Ambient Flares
+              flare_layer = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+              fd = ImageDraw.Draw(flare_layer)
+
+              # Moving Spotlight 1 (Athlete Left Backdrop)
+              cx1 = int(350 + math.sin(frame * 0.02) * 80)
+              cy1 = int(500 + math.cos(frame * 0.02) * 50)
+              fd.ellipse((cx1 - 500, cy1 - 400, cx1 + 500, cy1 + 400), fill=(0, 180, 255, 35))
+
+              # Moving Spotlight 2 (Right Panel Accent)
+              cx2 = int(W - 300 + math.cos(frame * 0.015) * 60)
+              cy2 = int(300 + math.sin(frame * 0.025) * 60)
+              fd.ellipse((cx2 - 450, cy2 - 350, cx2 + 450, cy2 + 350), fill=(255, 180, 0, 18))
+
+              flare_layer = flare_layer.filter(ImageFilter.GaussianBlur(130))
+              img.paste(flare_layer, (0, 0), flare_layer)
+
+              # Floating Lens Bokeh & Particles
+              bokeh = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+              bd = ImageDraw.Draw(bokeh)
+              for p in LIGHT_PARTICLES:
+                  py = (p["y"] - frame * p["speed"]) % H
+                  px = p["x"] + math.sin(frame * 0.03 + p["y"]) * 15
+                  r = p["r"]
+                  bd.ellipse((px - r, py - r, px + r, py + r), fill=p["color"] + (p["alpha"],))
+
+              bokeh = bokeh.filter(ImageFilter.GaussianBlur(12))
+              img.paste(bokeh, (0, 0), bokeh)
+
+              return img
 
           # ══════════════════════════════════════════════════════
-          #  EASING
+          #  DRAW INDIA FLAG BADGE
+          # ══════════════════════════════════════════════════════
+          def draw_india_flag(img, x, y, w=54, h=36):
+              d = ImageDraw.Draw(img, "RGBA")
+              d.rounded_rectangle((x - 2, y - 2, x + w + 2, y + h + 2), radius=4, fill=(255, 255, 255, 30))
+              
+              bh = h // 3
+              d.rectangle((x, y, x + w, y + bh), fill=(255, 153, 51))
+              d.rectangle((x, y + bh, x + w, y + 2 * bh), fill=(255, 255, 255))
+              d.rectangle((x, y + 2 * bh, x + w, y + h), fill=(19, 136, 8))
+              
+              cx, cy = x + w // 2, y + h // 2
+              r = bh // 2
+              d.ellipse((cx - r, cy - r, cx + r, cy + r), outline=(0, 0, 128), width=1)
+              d.ellipse((cx - 1, cy - 1, cx + 1, cy + 1), fill=(0, 0, 128))
+
+          # ══════════════════════════════════════════════════════
+          #  EASING & HELPERS
           # ══════════════════════════════════════════════════════
           def ease_out(t):    return 1 - (1 - t) ** 3
           def ease_back(t):   return 1 + 2.7 * (t-1)**3 + 1.7 * (t-1)**2
@@ -258,14 +267,15 @@ jobs:
               d = ImageDraw.Draw(img, "RGBA")
               p = ease_out(clamp(prog))
 
-              d.rectangle((0, 0, W, 8), fill=ACCENT_CYAN + (255,))
-              d.text((SAFE_X, SAFE_Y), "ASIAN GAMES 2026 // BROADCAST", font=font(28, "black"), fill=ACCENT_CYAN)
+              # Top Accent Line
+              d.rectangle((0, 0, W, 6), fill=ACCENT_CYAN + (255,))
+              d.text((SAFE_X, SAFE_Y), "ASIAN GAMES 2026 // BROADCAST SPECIAL", font=font(26, "black"), fill=ACCENT_CYAN)
 
-              d.text((W/2, 320), "MEDAL WINNERS", font=font(140, "black"), fill=TEXT_WHITE + (int(255*p),), anchor="mt")
+              d.text((W/2, 320), "MEDAL WINNERS", font=font(130, "black"), fill=TEXT_WHITE + (int(255*p),), anchor="mt")
 
               if p > 0.3:
                   cp = clamp((p - 0.3) / 0.4)
-                  d.text((W/2, 490), str(int(total * ease_out(cp))), font=font(260, "black"), fill=ACCENT_CYAN + (int(255*p),), anchor="mt")
+                  d.text((W/2, 480), str(int(total * ease_out(cp))), font=font(250, "black"), fill=ACCENT_CYAN + (int(255*p),), anchor="mt")
 
               if p > 0.6:
                   bp = clamp((p - 0.6) / 0.3)
@@ -287,8 +297,8 @@ jobs:
               medal = ath["medal"]
               m_col = MEDAL_COLOR.get(medal, ACCENT_CYAN)
 
-              # ── 1. TV TOP TICKER ──
-              d.rectangle((0, 0, W, 70), fill=(8, 11, 16, 240))
+              # ── 1. TV TOP TICKER HEADER ──
+              d.rectangle((0, 0, W, 70), fill=(8, 12, 18, 240))
               d.line([(0, 70), (W, 70)], fill=ACCENT_CYAN, width=2)
 
               d.text((SAFE_X, 18), "ASIAN GAMES 2026", font=font(28, "black"), fill=TEXT_WHITE)
@@ -297,9 +307,8 @@ jobs:
 
               d.text((W - SAFE_X, 18), f"MEDALIST {idx+1:02d}/{total:02d}", font=font(28, "black"), fill=TEXT_WHITE, anchor="rt")
 
-              # ── 2. ATHLETE FEATURED PHOTO (CENTER/LEFT CUTOUT) ──
+              # ── 2. ATHLETE FEATURED PHOTO ──
               if p > 0.05:
-                  pp = ease_back(clamp((p - 0.05) / 0.45))
                   psize = 680
                   px = SAFE_X + 20
                   py = 180
@@ -318,22 +327,21 @@ jobs:
                       mask = Image.new("L", (psize-40, psize-40), 255)
                       img.paste(cropped, (px + 20, py + 20), mask)
 
-                  # Hexagon Accent Outline
+                  # Top Accent Stripe
                   d.line([(px, py), (px + psize - 60, py)], fill=m_col, width=6)
 
               # ── 3. RIGHT SIDE: BROADCAST WIDGET PANEL ──
               if p > 0.2:
-                  wp = ease_out(clamp((p - 0.2) / 0.4))
                   wx = SAFE_X + 740
                   wy = 180
                   ww = W - wx - SAFE_X
                   wh = 680
 
-                  # Slanted Broadcast Drawer Panel
+                  # Glass Drawer Panel
                   d.rounded_rectangle((wx, wy, wx + ww, wy + wh), radius=16, fill=PANEL_DARK, outline=PANEL_BORDER, width=2)
                   d.line([(wx + 30, wy), (wx + 180, wy)], fill=m_col, width=6)
 
-                  # Medal Badge Top Right of Widget
+                  # Medal Badge Top Right
                   d.rounded_rectangle((wx + ww - 220, wy + 30, wx + ww - 30, wy + 90), radius=6, fill=m_col)
                   d.text((wx + ww - 125, wy + 60), medal.upper(), font=font(28, "black"), fill=BG_CORE, anchor="mm")
 
@@ -349,7 +357,7 @@ jobs:
 
                   d.line([(wx + 40, wy + 190), (wx + ww - 40, wy + 190)], fill=(255, 255, 255, 30), width=2)
 
-                  # Detailed Event Box
+                  # Event Details
                   d.text((wx + 40, wy + 220), "EVENT / CATEGORY", font=font(18, "bold"), fill=TEXT_MUTED)
                   ev_text = ath["event"].upper()
                   fev = font(32, "bold")
@@ -357,26 +365,25 @@ jobs:
                       fev = font(fev.size - 2, "bold")
                   d.text((wx + 40, wy + 255), ev_text, font=fev, fill=TEXT_WHITE)
 
-                  # Representation Tag
+                  # Delegation + Indian Flag Badge
                   d.text((wx + 40, wy + 340), "NATIONAL DELEGATION", font=font(18, "bold"), fill=TEXT_MUTED)
-                  d.text((wx + 40, wy + 375), "TEAM INDIA 🇮🇳", font=font(36, "black"), fill=TEXT_WHITE)
+                  d.text((wx + 40, wy + 375), "TEAM INDIA", font=font(36, "black"), fill=TEXT_WHITE)
+                  draw_india_flag(img, x=wx + 265, y=wy + 382, w=54, h=36)
 
-                  # Multiple Medals Indicator
+                  # Multiple Medals Badge
                   if ath["medal_count"] > 1:
                       d.rounded_rectangle((wx + 40, wy + 460, wx + ww - 40, wy + 540), radius=8, fill=(0, 240, 255, 20), outline=ACCENT_CYAN, width=1)
                       d.text((wx + 60, wy + 500), f"MULTIPLE MEDALIST ({ath['medal_count']} MEDALS WON)", font=font(22, "bold"), fill=ACCENT_CYAN, anchor="lm")
 
-              # ── 4. LOWER THIRD LIVE BROADCAST TICKER ──
+              # ── 4. LOWER THIRD TICKER ──
               if p > 0.6:
                   lp = ease_out(clamp((p - 0.6) / 0.4))
                   bar_y = H - 120
                   bar_h = 66
 
-                  # Base bar
-                  d.rectangle((0, bar_y, W, bar_y + bar_h), fill=(10, 14, 22, 250))
+                  d.rectangle((0, bar_y, W, bar_y + bar_h), fill=(8, 12, 20, 250))
                   d.rectangle((0, bar_y, 16, bar_y + bar_h), fill=m_col)
 
-                  # Live Tag
                   d.rectangle((30, bar_y + 16, 110, bar_y + 50), fill=(230, 30, 30))
                   d.text((70, bar_y + 33), "LIVE", font=font(18, "black"), fill=TEXT_WHITE, anchor="mm")
 
@@ -439,8 +446,7 @@ jobs:
 
           print("Intro…")
           for f in range(INTRO_FRAMES):
-              img = sports_bg().convert("RGBA")
-              draw_confetti(img, f)
+              img = news_studio_bg(f)
               draw_intro(img, f / (INTRO_FRAMES - 1), total, bd, n_ath)
               save(img)
 
@@ -448,15 +454,15 @@ jobs:
           for i, ath in enumerate(athletes):
               print(f"  [{i+1}/{n_ath}] {ath['name']}")
               for f in range(CARD_FRAMES):
-                  img = sports_bg().convert("RGBA")
-                  draw_confetti(img, i * CARD_FRAMES + f)
+                  frame_num = i * CARD_FRAMES + f
+                  img = news_studio_bg(frame_num)
                   draw_card(img, ath, ath["_photo"], f / (CARD_FRAMES - 1), i, n_ath)
                   save(img)
 
           print("Outro…")
           for f in range(OUTRO_FRAMES):
-              img = sports_bg().convert("RGBA")
-              draw_confetti(img, n_ath * CARD_FRAMES + INTRO_FRAMES + f)
+              frame_num = n_ath * CARD_FRAMES + INTRO_FRAMES + f
+              img = news_studio_bg(frame_num)
               draw_outro(img, f / (OUTRO_FRAMES - 1), total, bd, n_ath)
               save(img)
 
