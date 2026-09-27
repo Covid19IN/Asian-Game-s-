@@ -292,7 +292,7 @@ jobs:
               d.line([(0, 70), (W, 70)], fill=ACCENT_CYAN, width=2)
 
               d.text((SAFE_X, 18), "ASIAN GAMES 2026", font=font(28, "black"), fill=TEXT_WHITE)
-              d.rectangle((SAFE_X + 280, 22), (SAFE_X + 284, 48), fill=ACCENT_CYAN)
+              d.rectangle((SAFE_X + 280, 22, SAFE_X + 284, 48), fill=ACCENT_CYAN)
               d.text((SAFE_X + 300, 20), "OFFICIAL BROADCAST", font=font(20, "bold"), fill=ACCENT_CYAN)
 
               d.text((W - SAFE_X, 18), f"MEDALIST {idx+1:02d}/{total:02d}", font=font(28, "black"), fill=TEXT_WHITE, anchor="rt")
@@ -364,7 +364,7 @@ jobs:
                   # Multiple Medals Indicator
                   if ath["medal_count"] > 1:
                       d.rounded_rectangle((wx + 40, wy + 460, wx + ww - 40, wy + 540), radius=8, fill=(0, 240, 255, 20), outline=ACCENT_CYAN, width=1)
-                      d.text((wx + 60, wy + 500), f"MULTIPLE MEDALIST ({ath['medal_count']} MEDALS WUN)", font=font(22, "bold"), fill=ACCENT_CYAN, anchor="lm")
+                      d.text((wx + 60, wy + 500), f"MULTIPLE MEDALIST ({ath['medal_count']} MEDALS WON)", font=font(22, "bold"), fill=ACCENT_CYAN, anchor="lm")
 
               # ── 4. LOWER THIRD LIVE BROADCAST TICKER ──
               if p > 0.6:
