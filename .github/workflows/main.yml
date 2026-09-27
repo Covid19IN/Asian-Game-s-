@@ -1,106 +1,104 @@
-name: Fetch API Sample
-on: workflow_dispatch
+name: Fetch Asian Games Medals
+
+on:
+  schedule:
+    - cron: "0 * * * *"   # every hour
+  workflow_dispatch:
 
 permissions:
   contents: write
 
 jobs:
-  fetch-sample:
+  fetch:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
 
-      - name: Set up Python
-        uses: actions/setup-python@v5
+      - uses: actions/setup-python@v5
         with:
-          python-version: '3.11'
+          python-version: "3.11"
 
       - name: Install dependencies
         run: pip install requests
 
-      - name: Download and Decode
+      - name: Fetch and decode
         run: |
-          python -c "
-          import requests, zlib, json, sys
+          python - <<'PY'
+          import json, os, sys, zlib
+          import requests
 
-          url = 'https://back.results.asiangames2026.org/s/AG2026/en/ALL/medals/multi-medallists'
-          headers = {
-              'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36',
-              'Referer': 'https://results.asiangames2026.org/',
-              'Accept': '*/*'
+          URL = "https://back.results.asiangames2026.org/s/AG2026/en/ALL/medals/multi-medallists"
+          HEADERS = {
+              "User-Agent": (
+                  "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+                  "AppleWebKit/537.36 (KHTML, like Gecko) "
+                  "Chrome/124.0.0.0 Safari/537.36"
+              ),
+              "Referer": "https://results.asiangames2026.org/",
+              "Accept": "*/*",
           }
+          OUT = "data/api_sample.json"
 
-          resp = requests.get(url, headers=headers)
-          print('HTTP Status:', resp.status_code)
+          def build_charmap():
+              cmap = {}
+              for b in range(256):
+                  for enc in ("cp1252", "latin1"):
+                      try:
+                          cmap[bytes([b]).decode(enc)] = b
+                          break
+                      except Exception:
+                          continue
+              return cmap
 
-          # Build Windows-1252 / Latin-1 reverse byte map
-          charmap = {}
-          for b in range(256):
+          def candidates(resp):
+              cmap = build_charmap()
+              out = []
               try:
-                  ch = bytes([b]).decode('cp1252')
-                  charmap[ch] = b
+                  out.append(("charmap(resp.text)",
+                              bytes(cmap.get(c, ord(c) & 0xFF) for c in resp.text)))
               except Exception:
+                  pass
+              for enc in ("cp1252", "latin1"):
                   try:
-                      ch = bytes([b]).decode('latin1')
-                      charmap[ch] = b
+                      out.append((f"resp.text.encode({enc})",
+                                  resp.text.encode(enc, errors="replace")))
                   except Exception:
                       pass
+              out.append(("resp.content", resp.content))
+              return out
 
-          candidates = []
+          def decompress(payloads):
+              for name, data in payloads:
+                  for wbits in (zlib.MAX_WBITS, -zlib.MAX_WBITS, 16 + zlib.MAX_WBITS):
+                      try:
+                          return zlib.decompress(data, wbits), f"{name} wbits={wbits}"
+                      except Exception:
+                          continue
+              return None, None
 
-          # Candidate 1: Reverse mapping from resp.text
-          try:
-              b1 = bytes([charmap.get(c, ord(c) & 0xFF) for c in resp.text])
-              candidates.append(('charmap(resp.text)', b1))
-          except Exception as e:
-              print('Candidate 1 build error:', e)
+          r = requests.get(URL, headers=HEADERS, timeout=30)
+          print("HTTP", r.status_code)
+          r.raise_for_status()
 
-          # Candidate 2: CP1252 encode
-          try:
-              candidates.append(('resp.text.encode(cp1252)', resp.text.encode('cp1252', errors='replace')))
-          except Exception:
-              pass
-
-          # Candidate 3: Latin-1 encode
-          try:
-              candidates.append(('resp.text.encode(latin1)', resp.text.encode('latin1', errors='replace')))
-          except Exception:
-              pass
-
-          # Candidate 4: Raw bytes directly
-          candidates.append(('resp.content', resp.content))
-
-          decompressed_bytes = None
-          used_name = None
-
-          for name, byte_payload in candidates:
-              print(f'Testing {name}: First 4 bytes = {byte_payload[:4].hex()}')
-              for wbits in [zlib.MAX_WBITS, -zlib.MAX_WBITS, 16 + zlib.MAX_WBITS]:
-                  try:
-                      decompressed_bytes = zlib.decompress(byte_payload, wbits)
-                      used_name = f'{name} with wbits={wbits}'
-                      break
-                  except Exception:
-                      continue
-              if decompressed_bytes:
-                  break
-
-          if not decompressed_bytes:
-              print('Could not decompress payload with any candidate.')
+          raw, used = decompress(candidates(r))
+          if raw is None:
+              print("Failed to decompress payload.")
               sys.exit(1)
 
-          print(f'SUCCESS! Decompressed using {used_name}. Length: {len(decompressed_bytes)} bytes')
+          print(f"Decompressed via {used} ({len(raw)} bytes)")
+          data = json.loads(raw.decode("utf-8"))
 
-          json_data = json.loads(decompressed_bytes.decode('utf-8'))
-          with open('data/api_sample.json', 'w', encoding='utf-8') as f:
-              json.dump(json_data, f, indent=2)
+          os.makedirs("data", exist_ok=True)
+          with open(OUT, "w", encoding="utf-8") as f:
+              json.dump(data, f, indent=2)
+          print(f"Saved -> {OUT}")
+          PY
 
-          print('Saved parsed JSON to data/api_sample.json')
-          "
-
-      - name: Commit and Push
+      - name: Commit and push
         run: |
-          git config --global user.name 'github-actions[bot]'
-          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
           git add data/api_sample.json
-          git diff --quiet && git diff --staged --quiet || (git commit -m 'Fetch decoded API sample' && git push)
+          git diff --quiet && git diff --staged --quiet || (
+            git commit -m "chore: update medals data [skip ci]" && git push
+          )
