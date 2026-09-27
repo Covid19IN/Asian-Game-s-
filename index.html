@@ -1020,11 +1020,7 @@
         ["Reg", p.Reg || a.reg],
         ["Gender", p.Gender === "M" ? "Male" : p.Gender === "W" ? "Female" : p.Gender === "X" ? "Mixed" : "—"],
         ["Date of birth", p.BirthDateRaw || p.BirthDate || "—"],
-        ["Type", p.Type === "T" ? "Team member" : p.Type === "D" ? "Doubles player" : "Athlete"],
-        ["IF Id", p.IFId || "—"],
-        ["Weight", p.Weight ? p.Weight + " kg" : "—"],
-        ["Height", p.Height ? p.Height + " cm" : "—"],
-        ["Sport code", a.disc || "—"]
+        ["Type", p.Type === "T" ? "Team member" : p.Type === "D" ? "Doubles player" : "Athlete"]
       ];
       html += `<div class="sec"><h4>Profile</h4><div class="grid">
         ${kv.map(([k, v]) => `<div class="kv"><span>${esc(k)}</span><b>${esc(v)}</b></div>`).join("")}
