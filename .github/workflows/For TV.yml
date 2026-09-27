@@ -1,0 +1,729 @@
+name: Build HLS Video (TV)
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 */6 * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: build-video
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg fonts-roboto fonts-dejavu
+          pip install requests pillow numpy
+
+      - name: Setup folders
+        run: |
+          mkdir -p docs/data docs/hls data/video-photos
+          [ -f data/athletes.json ] && cp data/athletes.json docs/data/athletes.json || true
+
+      - name: Render + encode
+        run: |
+          python -u - <<'PYEOF'
+          import sys
+          sys.stdout.reconfigure(line_buffering=True)
+
+          import json, os, math, random, shutil, subprocess
+          from pathlib import Path
+          import requests
+          import numpy as np
+          from PIL import Image, ImageDraw, ImageFont, ImageFilter
+
+          # ══════════════════════════════════════════════════════
+          #  CONFIG — TV (1920×1080 landscape)
+          # ══════════════════════════════════════════════════════
+          W, H        = 1920, 1080
+          FPS         = 30
+          DATA_IN     = "docs/data/athletes.json"
+          PHOTO_DIR   = "data/video-photos"
+          FRAME_DIR   = "build/frames"
+          OUT_DIR     = "docs/hls"
+
+          TEST_LIMIT  = 10
+          INTRO_FRAMES   = 120    # 4.0 s
+          CARD_FRAMES    = 120    # 4.0 s per athlete
+          OUTRO_FRAMES   = 150    # 5.0 s
+
+          # Broadcast safe margins (90% title-safe)
+          SAFE_X = 96
+          SAFE_Y = 54
+
+          # ══════════════════════════════════════════════════════
+          #  PALETTE
+          # ══════════════════════════════════════════════════════
+          ORANGE_TOP = (255, 165, 40)
+          ORANGE_MID = (255, 200, 80)
+          YELLOW     = (255, 235, 140)
+          CREAM      = (255, 250, 235)
+          GREEN_BOT  = (60, 175, 95)
+          GREEN_DARK = (25, 120, 60)
+
+          WHITE      = (255, 255, 255)
+          BLACK      = (10, 10, 15)
+
+          GOLD       = (255, 195, 30)
+          GOLD_DK    = (180, 110, 15)
+          SILVER     = (205, 210, 220)
+          SILVER_DK  = (120, 125, 140)
+          BRONZE     = (200, 125, 60)
+          BRONZE_DK  = (115, 65, 25)
+
+          MEDAL_FILL = {"gold": GOLD, "silver": SILVER, "bronze": BRONZE}
+          MEDAL_DARK = {"gold": GOLD_DK, "silver": SILVER_DK, "bronze": BRONZE_DK}
+
+          for d in [PHOTO_DIR, FRAME_DIR, OUT_DIR]:
+              Path(d).mkdir(parents=True, exist_ok=True)
+
+          # ══════════════════════════════════════════════════════
+          #  FONTS
+          # ══════════════════════════════════════════════════════
+          FONT_DIRS = [
+              "/usr/share/fonts/truetype/roboto/hinted/",
+              "/usr/share/fonts/truetype/roboto/unhinted/RobotoTTF/",
+              "/usr/share/fonts/truetype/dejavu/",
+          ]
+          def _find(names):
+              for d in FONT_DIRS:
+                  for n in names:
+                      p = d + n
+                      if os.path.exists(p): return p
+              return None
+
+          F_BLACK = _find(["Roboto-Black.ttf", "Roboto-Bold.ttf", "DejaVuSans-Bold.ttf"])
+          F_BOLD  = _find(["Roboto-Bold.ttf", "DejaVuSans-Bold.ttf"])
+          F_MED   = _find(["Roboto-Medium.ttf", "DejaVuSans-Bold.ttf"])
+          F_REG   = _find(["Roboto-Regular.ttf", "DejaVuSans.ttf"])
+
+          def font(size, w="reg"):
+              size = max(8, int(size))
+              path = {"black": F_BLACK, "bold": F_BOLD, "med": F_MED, "reg": F_REG}[w]
+              return ImageFont.truetype(path, size) if path else ImageFont.load_default()
+
+          # ══════════════════════════════════════════════════════
+          #  BACKGROUND
+          # ══════════════════════════════════════════════════════
+          _bg_cache = {}
+          def winner_bg():
+              if "base" in _bg_cache:
+                  return _bg_cache["base"].copy()
+
+              stops = [
+                  (0.00, ORANGE_TOP),
+                  (0.18, ORANGE_MID),
+                  (0.32, YELLOW),
+                  (0.52, CREAM),
+                  (0.70, (220, 245, 210)),
+                  (0.88, GREEN_BOT),
+                  (1.00, GREEN_DARK),
+              ]
+              arr = np.zeros((H, W, 3), dtype=np.uint8)
+              for y in range(H):
+                  t = y / H
+                  for i in range(len(stops) - 1):
+                      t0, c0 = stops[i]
+                      t1, c1 = stops[i + 1]
+                      if t0 <= t <= t1:
+                          tt = (t - t0) / (t1 - t0)
+                          col = tuple(int(c0[j] + (c1[j] - c0[j]) * tt) for j in range(3))
+                          arr[y, :] = col
+                          break
+                  else:
+                      arr[y, :] = stops[-1][1]
+
+              base = Image.fromarray(arr, "RGB")
+              _bg_cache["base"] = base
+              return base.copy()
+
+          # Confetti
+          random.seed(42)
+          CONFETTI = []
+          for _ in range(220):
+              CONFETTI.append({
+                  "x": random.randint(0, W),
+                  "y0": random.randint(-H, 0),
+                  "speed": random.uniform(4, 14),
+                  "size": random.randint(6, 18),
+                  "rot": random.uniform(0, math.pi),
+                  "rot_spd": random.uniform(-0.1, 0.1),
+                  "sway": random.uniform(0.5, 2.5),
+                  "col": random.choice([
+                      (255, 255, 255), (245, 245, 255), (255, 220, 100),
+                      (255, 180, 90), (220, 240, 200), (255, 255, 255),
+                  ]),
+              })
+
+          def draw_confetti(img, frame):
+              d = ImageDraw.Draw(img, "RGBA")
+              for p in CONFETTI:
+                  y = (p["y0"] + p["speed"] * frame) % (H + 200) - 100
+                  x = p["x"] + math.sin(frame * 0.05 + p["y0"] * 0.01) * p["sway"] * 20
+                  s = p["size"]
+                  rot = p["rot"] + p["rot_spd"] * frame
+                  cx, cy = x, y
+                  pts = []
+                  for dx, dy in [(-s, -s//2), (s, -s//2), (s, s//2), (-s, s//2)]:
+                      rx = dx * math.cos(rot) - dy * math.sin(rot)
+                      ry = dx * math.sin(rot) + dy * math.cos(rot)
+                      pts.append((cx + rx, cy + ry))
+                  try:
+                      d.polygon(pts, fill=p["col"] + (220,))
+                  except:
+                      pass
+
+          # ══════════════════════════════════════════════════════
+          #  EASING
+          # ══════════════════════════════════════════════════════
+          def ease_out(t):    return 1 - (1 - t) ** 3
+          def ease_io(t):     return t * t * (3 - 2 * t)
+          def ease_back(t):   return 1 + 2.7 * (t-1)**3 + 1.7 * (t-1)**2
+          def lerp(a, b, t):  return a + (b - a) * t
+          def clamp(v, lo=0, hi=1): return max(lo, min(hi, v))
+
+          # ══════════════════════════════════════════════════════
+          #  PHOTOS
+          # ══════════════════════════════════════════════════════
+          _photo_cache = {}
+          PHOTO_HEADERS = {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+              "Referer": "https://results.asiangames2026.org/",
+              "Accept": "image/avif,image/webp,image/apng,image/*,*/*;q=0.8",
+          }
+          def load_photo(url):
+              if not url: return None
+              if url in _photo_cache: return _photo_cache[url]
+              Path(PHOTO_DIR).mkdir(parents=True, exist_ok=True)
+              fn = url.rsplit("/", 1)[-1]
+              path = f"{PHOTO_DIR}/{fn}"
+              if not os.path.exists(path):
+                  try:
+                      r = requests.get(url, headers=PHOTO_HEADERS, timeout=20)
+                      if r.ok and (r.content[:2] in (b"\xff\xd8", b"\x89P") or r.content[:4] == b"RIFF"):
+                          open(path, "wb").write(r.content)
+                      else:
+                          _photo_cache[url] = None; return None
+                  except Exception:
+                      _photo_cache[url] = None; return None
+              try:
+                  img = Image.open(path).convert("RGBA")
+                  _photo_cache[url] = img
+                  return img
+              except:
+                  _photo_cache[url] = None; return None
+
+          def round_photo(img, size, border_col=WHITE, border_w=12):
+              out = Image.new("RGBA", (size, size), (0, 0, 0, 0))
+              if img is None:
+                  d = ImageDraw.Draw(out)
+                  d.ellipse((0, 0, size, size), fill=(220, 220, 230))
+                  d.text((size/2, size/2), "?",
+                         font(int(size*0.4), "bold"),
+                         fill=(140, 140, 150), anchor="mm")
+              else:
+                  w, h = img.size
+                  s = min(w, h)
+                  img = img.crop(((w-s)//2, (h-s)//2, (w+s)//2, (h+s)//2)).resize((size, size), Image.LANCZOS)
+                  mask = Image.new("L", (size, size), 0)
+                  ImageDraw.Draw(mask).ellipse((0, 0, size, size), fill=255)
+                  out.paste(img, (0, 0), mask)
+
+              d = ImageDraw.Draw(out)
+              d.ellipse((0, 0, size-1, size-1), outline=border_col + (255,), width=border_w)
+              return out
+
+          # ══════════════════════════════════════════════════════
+          #  DATA
+          # ══════════════════════════════════════════════════════
+          def is_numeric(r): return str(r or "").isdigit()
+
+          def collect(data, limit):
+              rank = {"gold": 3, "silver": 2, "bronze": 1}
+              by_sport = {}
+              for a in data:
+                  if not is_numeric(a.get("reg")): continue
+                  if not a.get("photo_url"): continue
+                  medals = a.get("medals") or []
+                  if not medals: continue
+
+                  g = sum(1 for m in medals if m["medal"] == "gold")
+                  s = sum(1 for m in medals if m["medal"] == "silver")
+                  b = sum(1 for m in medals if m["medal"] == "bronze")
+                  top = sorted(medals, key=lambda m: rank.get(m["medal"], 0), reverse=True)[0]
+                  sport = a.get("disc_desc", "Other")
+
+                  entry = {
+                      "reg": a["reg"], "name": a["name"], "disc_desc": sport,
+                      "event": top["event"], "medal": top["medal"],
+                      "score": g*100 + s*10 + b,
+                      "photo_url": a["photo_url"],
+                      "medal_count": len(medals),
+                  }
+                  by_sport.setdefault(sport, []).append(entry)
+
+              for k in by_sport:
+                  by_sport[k].sort(key=lambda x: x["score"], reverse=True)
+
+              sports = sorted(by_sport.keys())
+              picked = []
+              i = 0
+              while len(picked) < limit:
+                  added = False
+                  for sp in sports:
+                      if i < len(by_sport[sp]):
+                          picked.append(by_sport[sp][i])
+                          added = True
+                          if len(picked) >= limit: break
+                  if not added: break
+                  i += 1
+              return picked
+
+          # ══════════════════════════════════════════════════════
+          #  MEDAL ILLUSTRATION
+          # ══════════════════════════════════════════════════════
+          def draw_medal(img, cx, cy, size, medal):
+              if size < 30: return
+              d = ImageDraw.Draw(img, "RGBA")
+              fill = MEDAL_FILL[medal]
+              dark = MEDAL_DARK[medal]
+              r = size // 2
+
+              ribbon_w = int(size * 0.30)
+              d.polygon([
+                  (cx - ribbon_w, cy - r - int(size*0.8)),
+                  (cx - int(ribbon_w*0.2), cy - r - int(size*0.15)),
+                  (cx + int(ribbon_w*0.2), cy - r - int(size*0.15)),
+                  (cx + int(ribbon_w*0.5), cy - r - int(size*1.0)),
+              ], fill=(90, 130, 200, 255))
+              d.polygon([
+                  (cx + ribbon_w, cy - r - int(size*0.8)),
+                  (cx + int(ribbon_w*0.2), cy - r - int(size*0.15)),
+                  (cx - int(ribbon_w*0.2), cy - r - int(size*0.15)),
+                  (cx - int(ribbon_w*0.5), cy - r - int(size*1.0)),
+              ], fill=(70, 110, 180, 255))
+
+              f_rb = font(int(size*0.10), "bold")
+              d.text((cx, cy - r - int(size*0.45)), "Aichi-Nagoya 2026",
+                     font=f_rb, fill=(255, 255, 255, 240), anchor="mm")
+
+              d.ellipse((cx - int(size*0.07), cy - r - int(size*0.30),
+                         cx + int(size*0.07), cy - r - int(size*0.16)),
+                        fill=(220, 40, 40, 255))
+
+              sh = Image.new("RGBA", (size + 50, size + 50), (0, 0, 0, 0))
+              sd = ImageDraw.Draw(sh)
+              sd.ellipse((25, 25, size + 25, size + 25), fill=(0, 0, 0, 90))
+              sh = sh.filter(ImageFilter.GaussianBlur(15))
+              img.paste(sh, (cx - r - 25, cy - r - 25), sh)
+
+              d.ellipse((cx - r, cy - r, cx + r, cy + r), fill=dark + (255,))
+              d.ellipse((cx - r + 10, cy - r + 10, cx + r - 10, cy + r - 10),
+                        fill=fill + (255,))
+              d.ellipse((cx - r + int(size*0.12), cy - r + int(size*0.12),
+                         cx + r - int(size*0.12), cy + r - int(size*0.12)),
+                        outline=dark + (200,), width=4)
+
+              fnum = font(int(size*0.55), "black")
+              d.text((cx, cy + int(size*0.02)),
+                     "1" if medal == "gold" else ("2" if medal == "silver" else "3"),
+                     font=fnum, fill=dark + (255,), anchor="mm")
+
+              hl = Image.new("RGBA", (size, size), (0, 0, 0, 0))
+              hd = ImageDraw.Draw(hl)
+              hd.ellipse((int(size*0.15), int(size*0.10),
+                          int(size*0.70), int(size*0.40)),
+                         fill=(255, 255, 255, 70))
+              hl = hl.filter(ImageFilter.GaussianBlur(18))
+              img.paste(hl, (cx - r, cy - r), hl)
+
+          # ══════════════════════════════════════════════════════
+          #  WINNER TEXT — large for TV
+          # ══════════════════════════════════════════════════════
+          def draw_winner_large(img, x_center, y_center, p, size_base=260):
+              d = ImageDraw.Draw(img, "RGBA")
+              text = "WINNER"
+              scale = 0.85 + 0.15 * p
+              f = font(int(size_base * scale), "black")
+              bb = d.textbbox((0, 0), text, font=f)
+              tw = bb[2] - bb[0]
+              th = bb[3] - bb[1]
+
+              for off in [(8, 8), (5, 5), (3, 3)]:
+                  d.text((x_center - tw/2 + off[0], y_center - th/2 + off[1]),
+                         text, font=f, fill=(180, 90, 10, int(220 * p)), anchor="lt")
+              d.text((x_center - tw/2, y_center - th/2),
+                     text, font=f, fill=WHITE + (int(255 * p),), anchor="lt")
+
+          # ══════════════════════════════════════════════════════
+          #  DRAW — INTRO
+          # ══════════════════════════════════════════════════════
+          def draw_intro(img, prog, total, bd, n_ath):
+              d = ImageDraw.Draw(img, "RGBA")
+              p = ease_out(clamp(prog))
+
+              # Top label
+              d.text((W/2, SAFE_Y + 20), "ASIAN GAMES 2026",
+                     font=font(56, "black"),
+                     fill=(70, 40, 10, int(255*p)), anchor="mt")
+
+              # WINNER big
+              draw_winner_large(img, W/2, 300, p, size_base=280)
+
+              # Big count
+              if p > 0.3:
+                  cp = clamp((p - 0.3) / 0.4)
+                  d.text((W/2, 470), str(int(total * ease_out(cp))),
+                         font=font(320, "black"),
+                         fill=(50, 25, 5, int(255*p)), anchor="mt")
+                  d.text((W/2, 830), "MEDALS",
+                         font=font(72, "black"),
+                         fill=(70, 40, 10, int(255*p)), anchor="mt")
+
+              if p > 0.55:
+                  ap = clamp((p - 0.55) / 0.3)
+                  d.text((W/2, 920), f"{n_ath} ATHLETES",
+                         font=font(44, "bold"),
+                         fill=(40, 80, 40, int(255*ap)), anchor="mt")
+
+              # Breakdown pills
+              if p > 0.7:
+                  bp = clamp((p - 0.7) / 0.3)
+                  items = [
+                      ("GOLD", bd["gold"], GOLD),
+                      ("SILVER", bd["silver"], SILVER),
+                      ("BRONZE", bd["bronze"], BRONZE),
+                  ]
+                  pw, ph, gap = 300, 130, 30
+                  x0 = (W - (3 * pw + 2 * gap)) // 2
+                  y0 = 970
+                  for i, (label, n, col) in enumerate(items):
+                      x = x0 + i * (pw + gap)
+                      d.rounded_rectangle((x, y0, x + pw, y0 + ph), radius=20,
+                          fill=(255, 255, 255, int(230 * bp)),
+                          outline=MEDAL_DARK[label.lower()] + (int(220 * bp),), width=4)
+                      d.text((x + pw / 2, y0 + 20), str(n),
+                             font=font(72, "black"),
+                             fill=MEDAL_DARK[label.lower()] + (int(255 * bp),), anchor="mt")
+                      d.text((x + pw / 2, y0 + 98), label,
+                             font=font(24, "bold"),
+                             fill=(80, 50, 20, int(255 * bp)), anchor="mt")
+
+          # ══════════════════════════════════════════════════════
+          #  DRAW — CARD (TV two-column layout)
+          # ══════════════════════════════════════════════════════
+          def draw_card(img, ath, photo, prog, idx, total):
+              d = ImageDraw.Draw(img, "RGBA")
+              p = ease_out(clamp(prog))
+              medal = ath["medal"]
+              fill_col = MEDAL_FILL[medal]
+              dark_col = MEDAL_DARK[medal]
+
+              # ── TOP BAR ──
+              d.rectangle((0, 0, W, 110), fill=(20, 15, 10, 210))
+              d.text((SAFE_X, 30), "INDIA", font=font(56, "black"),
+                     fill=WHITE + (255,), anchor="lt")
+              d.text((SAFE_X, 90), "OFFICIAL MEDALIST", font=font(20, "med"),
+                     fill=(255, 220, 140, 220), anchor="lt")
+
+              # Center label
+              d.text((W/2, 55), "ASIAN GAMES 2026",
+                     font=font(36, "black"),
+                     fill=(255, 220, 140, 240), anchor="mm")
+
+              # Right counter
+              d.text((W - SAFE_X, 30), f"{idx+1:02d} / {total:02d}",
+                     font=font(56, "black"),
+                     fill=WHITE + (255,), anchor="rt")
+              d.text((W - SAFE_X, 90), ath["disc_desc"].upper(),
+                     font=font(22, "med"),
+                     fill=(255, 220, 140, 220), anchor="rt")
+
+              # ── LEFT COLUMN: PHOTO + MEDAL ──
+              # Photo (large)
+              if p > 0.1:
+                  pp = ease_back(clamp((p - 0.1) / 0.4))
+                  psize = 560
+                  px = SAFE_X + 40
+                  py = 200
+
+                  # shadow
+                  shadow = Image.new("RGBA", (psize + 80, psize + 80), (0, 0, 0, 0))
+                  sd = ImageDraw.Draw(shadow)
+                  sd.ellipse((40, 40, psize + 40, psize + 40), fill=(0, 0, 0, 110))
+                  shadow = shadow.filter(ImageFilter.GaussianBlur(30))
+                  img.paste(shadow, (px - 40, py - 40), shadow)
+
+                  cp = round_photo(photo, psize, WHITE, border_w=16)
+
+                  if pp < 1:
+                      ns = max(30, int((psize + 80) * pp))
+                      cp2 = cp.resize((ns, ns), Image.LANCZOS)
+                      off = ((psize + 80) - ns) // 2
+                      img.paste(cp2, (px - 40 + off, py - 40 + off), cp2)
+                  else:
+                      img.paste(cp, (px, py), cp)
+
+              # Medal illustration (below photo, left)
+              if p > 0.4:
+                  mp = ease_back(clamp((p - 0.4) / 0.35))
+                  medal_size = 220
+                  mx = SAFE_X + 40 + 560 // 2
+                  my = 200 + 560 + 40 + medal_size // 2
+                  if mp < 1:
+                      draw_medal(img, mx, my, int(medal_size * mp), medal)
+                  else:
+                      draw_medal(img, mx, my, medal_size, medal)
+
+              # ── RIGHT COLUMN: TEXT ──
+              tx = SAFE_X + 40 + 560 + 80  # right column start
+              tw = W - tx - SAFE_X          # available width
+              tcenter = tx + tw // 2
+
+              # WINNER text
+              if p > 0.1:
+                  wp = ease_back(clamp((p - 0.1) / 0.35))
+                  f_w = font(int(200 * (0.7 + 0.3 * wp)), "black")
+                  text = "WINNER"
+                  bb = d.textbbox((0, 0), text, font=f_w)
+                  twt = bb[2] - bb[0]
+                  tht = bb[3] - bb[1]
+                  cx = tcenter
+                  cy = 240
+
+                  # shadow
+                  for off in [(6, 6), (4, 4), (2, 2)]:
+                      d.text((cx - twt/2 + off[0], cy - tht/2 + off[1]),
+                             text, font=f_w,
+                             fill=(180, 90, 10, int(220 * wp)), anchor="lt")
+                  d.text((cx - twt/2, cy - tht/2), text,
+                         font=f_w, fill=WHITE + (int(255 * wp),), anchor="lt")
+
+              # Name
+              if p > 0.35:
+                  np_ = clamp((p - 0.35) / 0.3)
+                  name = ath["name"]
+                  fname = font(96, "black")
+                  while d.textlength(name, font=fname) > tw and fname.size > 40:
+                      fname = font(fname.size - 4, "black")
+                  d.text((tcenter, 420), name, font=fname,
+                         fill=(15, 10, 5, int(255 * np_)), anchor="mt")
+
+                  # Gradient hairline under name
+                  line_y = 540
+                  lw = int(lerp(0, tw - 80, np_))
+                  d.rounded_rectangle((tcenter - lw//2, line_y,
+                                       tcenter + lw//2, line_y + 4),
+                                       radius=2,
+                                       fill=dark_col + (int(180 * np_),))
+
+              # Sport
+              if p > 0.5:
+                  sp_ = clamp((p - 0.5) / 0.25)
+                  d.text((tcenter, 580), ath["disc_desc"].upper(),
+                         font=font(42, "black"),
+                         fill=(70, 40, 10, int(255 * sp_)), anchor="mt")
+
+              # Event
+              if p > 0.6:
+                  ep = clamp((p - 0.6) / 0.25)
+                  ev = ath["event"]
+                  fe = font(32, "bold")
+                  while d.textlength(ev, font=fe) > tw - 40 and fe.size > 20:
+                      fe = font(fe.size - 1, "bold")
+                  d.text((tcenter, 640), ev.upper(), font=fe,
+                         fill=(60, 40, 20, int(255 * ep)), anchor="mt")
+
+              # Medal pill (big)
+              if p > 0.7:
+                  bpl = ease_back(clamp((p - 0.7) / 0.3))
+                  label = medal.upper()
+                  if ath["medal_count"] > 1:
+                      label += f"  ×{ath['medal_count']}"
+
+                  fpl = font(46, "black")
+                  pill_w = d.textlength(label, font=fpl) + 90
+                  pill_h = 96
+                  px2 = tcenter - pill_w // 2
+                  py2 = 720
+
+                  pill = Image.new("RGBA", (int(pill_w), pill_h), (0, 0, 0, 0))
+                  pd = ImageDraw.Draw(pill)
+                  pd.rounded_rectangle((0, 0, pill_w, pill_h), radius=48,
+                                       fill=fill_col + (255,))
+                  pd.rounded_rectangle((8, 8, pill_w - 8, pill_h // 2), radius=42,
+                                       fill=(255, 255, 255, 50))
+                  if bpl < 1:
+                      ns_w = max(30, int(pill_w * bpl))
+                      ns_h = max(20, int(pill_h * bpl))
+                      pill = pill.resize((ns_w, ns_h), Image.LANCZOS)
+                      img.paste(pill,
+                                (int(px2 + (pill_w - ns_w) // 2),
+                                 int(py2 + (pill_h - ns_h) // 2)),
+                                pill)
+                  else:
+                      img.paste(pill, (int(px2), int(py2)), pill)
+
+                  d.text((tcenter, py2 + pill_h // 2 + 2), label,
+                         font=fpl, fill=(15, 10, 5, int(255 * bpl)), anchor="mm")
+
+              # ── LOWER THIRD BANNER ──
+              if p > 0.85:
+                  lp = clamp((p - 0.85) / 0.15)
+                  lh = 70
+                  ly = H - lh
+                  d.rectangle((0, ly, W, H), fill=(20, 15, 10, int(240 * lp)))
+
+                  info = f"{ath['disc_desc'].upper()}   ·   {ath['event'].upper()}   ·   {medal.upper()}"
+                  f_info = font(30, "black")
+                  # shrink if too long
+                  while d.textlength(info, font=f_info) > W - 2 * SAFE_X and f_info.size > 18:
+                      f_info = font(f_info.size - 1, "black")
+                  d.text((W/2, ly + lh // 2), info,
+                         font=f_info, fill=WHITE + (int(255 * lp),), anchor="mm")
+
+          # ══════════════════════════════════════════════════════
+          #  DRAW — OUTRO
+          # ══════════════════════════════════════════════════════
+          def draw_outro(img, prog, total, bd, n_ath):
+              d = ImageDraw.Draw(img, "RGBA")
+              p = ease_out(clamp(prog))
+
+              d.text((W/2, SAFE_Y + 20), "ASIAN GAMES 2026",
+                     font=font(56, "black"),
+                     fill=(70, 40, 10, 255), anchor="mt")
+
+              draw_winner_large(img, W/2, 280, min(1, p * 1.5), size_base=260)
+
+              d.text((W/2, 470), f"{total} MEDALS · {n_ath} ATHLETES",
+                     font=font(52, "black"),
+                     fill=(50, 25, 5, int(255*p)), anchor="mt")
+
+              y = 620
+              for label, n, col in [("GOLD", bd["gold"], GOLD),
+                                    ("SILVER", bd["silver"], SILVER),
+                                    ("BRONZE", bd["bronze"], BRONZE)]:
+                  d.text((W/2 - 120, y), label, font=font(64, "black"),
+                         fill=MEDAL_DARK[label.lower()] + (int(255*p),), anchor="rm")
+                  d.text((W/2 + 120, y), str(n), font=font(88, "black"),
+                         fill=(30, 15, 5, int(255*p)), anchor="lm")
+                  y += 120
+
+              d.text((W/2, H - 100), "THANK YOU FOR WATCHING",
+                     font=font(44, "black"),
+                     fill=(30, 60, 30, int(255*p)), anchor="mt")
+
+          # ══════════════════════════════════════════════════════
+          #  MAIN
+          # ══════════════════════════════════════════════════════
+          if not os.path.exists(DATA_IN):
+              print(f"✗ {DATA_IN} not found"); sys.exit(1)
+
+          print("Loading athletes…")
+          with open(DATA_IN, encoding="utf-8") as f:
+              data = json.load(f)
+
+          athletes = collect(data, TEST_LIMIT)
+          n_ath = len(athletes)
+          if not n_ath:
+              print("✗ No athletes"); sys.exit(1)
+
+          seen = set(); bd = {"gold": 0, "silver": 0, "bronze": 0}
+          for a in data:
+              for m in a.get("medals", []):
+                  k = m["medal"] + "|" + m["event"]
+                  if k in seen: continue
+                  seen.add(k)
+                  if m["medal"] in bd: bd[m["medal"]] += 1
+          total = sum(bd.values())
+
+          print(f"Medals: {total}  {bd}")
+          print(f"Showing {n_ath} athletes:")
+          for a in athletes:
+              print(f"  • {a['name']} — {a['medal'].upper()} ({a['disc_desc']})")
+
+          print("Loading photos…")
+          ok = 0
+          for a in athletes:
+              a["_photo"] = load_photo(a["photo_url"])
+              if a["_photo"]: ok += 1
+          print(f"  → {ok}/{n_ath} photos loaded")
+
+          shutil.rmtree(FRAME_DIR, ignore_errors=True)
+          Path(FRAME_DIR).mkdir(parents=True, exist_ok=True)
+
+          counter = [0]
+          def save(img):
+              img.convert("RGB").save(f"{FRAME_DIR}/f_{counter[0]:05d}.png")
+              counter[0] += 1
+
+          print("Intro…")
+          for f in range(INTRO_FRAMES):
+              img = winner_bg().convert("RGBA")
+              draw_confetti(img, f)
+              draw_intro(img, f / (INTRO_FRAMES - 1), total, bd, n_ath)
+              save(img)
+
+          print(f"Cards ({n_ath})…")
+          for i, ath in enumerate(athletes):
+              print(f"  [{i+1}/{n_ath}] {ath['name']}")
+              for f in range(CARD_FRAMES):
+                  img = winner_bg().convert("RGBA")
+                  draw_confetti(img, i * CARD_FRAMES + f)
+                  draw_card(img, ath, ath["_photo"], f / (CARD_FRAMES - 1), i, n_ath)
+                  save(img)
+
+          print("Outro…")
+          for f in range(OUTRO_FRAMES):
+              img = winner_bg().convert("RGBA")
+              draw_confetti(img, n_ath * CARD_FRAMES + INTRO_FRAMES + f)
+              draw_outro(img, f / (OUTRO_FRAMES - 1), total, bd, n_ath)
+              save(img)
+
+          print(f"✅ {counter[0]} frames")
+
+          print("Encoding HLS…")
+          Path(OUT_DIR).mkdir(parents=True, exist_ok=True)
+          for old in Path(OUT_DIR).glob("*.ts"): old.unlink()
+          for old in Path(OUT_DIR).glob("*.m3u8"): old.unlink()
+
+          subprocess.run([
+              "ffmpeg", "-y",
+              "-framerate", str(FPS),
+              "-i", f"{FRAME_DIR}/f_%05d.png",
+              "-c:v", "libx264", "-preset", "medium", "-crf", "20",
+              "-pix_fmt", "yuv420p",
+              "-g", "60", "-keyint_min", "60", "-sc_threshold", "0",
+              "-f", "hls", "-hls_time", "2", "-hls_playlist_type", "vod",
+              "-hls_segment_filename", f"{OUT_DIR}/seg_%03d.ts",
+              f"{OUT_DIR}/index.m3u8",
+          ], check=True)
+
+          shutil.rmtree("build", ignore_errors=True)
+          files = sorted(Path(OUT_DIR).glob("*"))
+          print(f"✅ HLS → {OUT_DIR}/ ({len(files)} files)")
+          PYEOF
+
+      - name: Commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "actions@github.com"
+          git add docs/ data/video-photos/ || true
+          git diff --quiet && git diff --staged --quiet || (
+            git commit -m "chore: rebuild HLS [skip ci]" && git push
+          )
