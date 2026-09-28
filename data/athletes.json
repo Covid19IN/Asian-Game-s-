@@ -11,6 +11,10 @@
       {
         "medal": "silver",
         "event": "Men's 10,000m"
+      },
+      {
+        "medal": "silver",
+        "event": "Men's 1500m"
       }
     ],
     "bio_data": {
@@ -52,9 +56,10 @@
           "Desc": "Men's 1500m",
           "DescS": "Men's 1500m",
           "isMember": false,
-          "Rank": "",
+          "Medal": "ME_SILVER",
+          "Rank": "2",
           "IRM": "OK",
-          "Result": ""
+          "Result": "3:36.72"
         },
         {
           "Disc": "ATH",
@@ -247,12 +252,12 @@
         {
           "Orgs": [
             "JPN",
-            "QAT",
-            "CHN",
             "IND",
+            "CHN",
+            "QAT",
             "TPE",
-            "KUW",
-            "KOR"
+            "KOR",
+            "KUW"
           ],
           "IsPhase": false,
           "ResCode": "M.1500M-------------.FNL-.000100--",
@@ -263,8 +268,8 @@
           "isH2H": false,
           "Type": "A",
           "Medal": "1",
-          "Status": "GETTING_READY",
-          "StatusDesc": "Getting Ready",
+          "Status": "OFFICIAL",
+          "StatusDesc": "Official",
           "DateTimeRaw": "2026-09-28T20:08:00+09:00",
           "HideStartDate": false,
           "Estimated": false,
@@ -287,12 +292,47 @@
           "UnitDescS": "Men's 1500m F",
           "UnitDescA": "",
           "UnitNum": "1",
-          "IsLive": true,
+          "IsLive": false,
           "ShowResults": true,
           "Counters": {
             "Partics": 12,
             "Orgs": 7
-          }
+          },
+          "Results": [
+            {
+              "Reg": "10851881",
+              "Org": "JPN",
+              "Name": "IIZAWA Kazuto",
+              "NameS": "IIZAWA K",
+              "Result": "3:36.35",
+              "Winner": false,
+              "RkPo": 1,
+              "HasData": true,
+              "Medal": "ME_GOLD"
+            },
+            {
+              "Reg": "732155",
+              "Org": "IND",
+              "Name": "SINGH Gulveer",
+              "NameS": "SINGH G",
+              "Result": "3:36.72",
+              "Winner": false,
+              "RkPo": 2,
+              "HasData": true,
+              "Medal": "ME_SILVER"
+            },
+            {
+              "Reg": "3887874",
+              "Org": "JPN",
+              "Name": "MORI Nagiya",
+              "NameS": "MORI N",
+              "Result": "3:37.92",
+              "Winner": false,
+              "RkPo": 3,
+              "HasData": true,
+              "Medal": "ME_BRONZE"
+            }
+          ]
         },
         {
           "Orgs": [
@@ -1574,6 +1614,20 @@
         {
           "Disc": "ATH",
           "Reg": "15776637",
+          "EvKey": "M.4X400M------------",
+          "Desc": "Men's 4 x 400m Relay",
+          "DescS": "Men's 4 x 400m Relay",
+          "isMember": true,
+          "TeamReg": "ATHM4X400M-----IND01",
+          "TeamOrg": "IND",
+          "TeamName": "India",
+          "Rank": "",
+          "IRM": "OK",
+          "Result": ""
+        },
+        {
+          "Disc": "ATH",
+          "Reg": "15776637",
           "EvKey": "X.4X400M------------",
           "Desc": "4 x 400m Relay Mixed",
           "DescS": "4 x 400m Relay Mixed",
@@ -1668,6 +1722,55 @@
               "HasData": true
             }
           ]
+        },
+        {
+          "Orgs": [
+            "CHN",
+            "IND",
+            "KSA",
+            "THA",
+            "QAT",
+            "KOR"
+          ],
+          "IsPhase": false,
+          "ResCode": "M.4X400M------------.RND1.000200--",
+          "ShowLink": true,
+          "Disc": "ATH",
+          "DiscDesc": "Athletics",
+          "Key": "M.4X400M------------.RND1.000200--",
+          "isH2H": false,
+          "Type": "T",
+          "Medal": "",
+          "Status": "START_LIST",
+          "StatusDesc": "Start List",
+          "DateTimeRaw": "2026-09-28T21:31:00+09:00",
+          "HideStartDate": false,
+          "Estimated": false,
+          "EstText": "",
+          "HideLocation": false,
+          "Venue": "MPA",
+          "VenueDesc": "Nagoya City Mizuho Park Athletic Stadium",
+          "VenueDescS": "Nagoya City Mizuho Park Athletic Stadium",
+          "Loc": "001",
+          "LocDesc": "National Stadium",
+          "LocDescS": "National Stadium",
+          "Event": "M.4X400M------------",
+          "EventDesc": "Men's 4 x 400m Relay",
+          "Phase": "M.4X400M------------.RND1",
+          "PhaseOrder": 5,
+          "PhaseDesc": "Men's 4 x 400m Relay Round 1",
+          "PhaseDescS": "Men's 4 x 400m Relay R1",
+          "PhaseDescA": "Round 1",
+          "UnitDesc": "Men's 4 x 400m Relay Round 1 Heat 2",
+          "UnitDescS": "Men's 4 x 400m Relay R1 Heat 2",
+          "UnitDescA": "Heat 2",
+          "UnitNum": "2",
+          "IsLive": false,
+          "ShowResults": false,
+          "Counters": {
+            "Partics": 6,
+            "Orgs": 6
+          }
         }
       ],
       "historical": null
@@ -1707,6 +1810,20 @@
         "Weight": null
       },
       "entries": [
+        {
+          "Disc": "ATH",
+          "Reg": "4788190",
+          "EvKey": "M.4X400M------------",
+          "Desc": "Men's 4 x 400m Relay",
+          "DescS": "Men's 4 x 400m Relay",
+          "isMember": true,
+          "TeamReg": "ATHM4X400M-----IND01",
+          "TeamOrg": "IND",
+          "TeamName": "India",
+          "Rank": "",
+          "IRM": "OK",
+          "Result": ""
+        },
         {
           "Disc": "ATH",
           "Reg": "4788190",
@@ -1890,6 +2007,55 @@
               "Medal": "ME_BRONZE"
             }
           ]
+        },
+        {
+          "Orgs": [
+            "CHN",
+            "IND",
+            "KSA",
+            "THA",
+            "QAT",
+            "KOR"
+          ],
+          "IsPhase": false,
+          "ResCode": "M.4X400M------------.RND1.000200--",
+          "ShowLink": true,
+          "Disc": "ATH",
+          "DiscDesc": "Athletics",
+          "Key": "M.4X400M------------.RND1.000200--",
+          "isH2H": false,
+          "Type": "T",
+          "Medal": "",
+          "Status": "START_LIST",
+          "StatusDesc": "Start List",
+          "DateTimeRaw": "2026-09-28T21:31:00+09:00",
+          "HideStartDate": false,
+          "Estimated": false,
+          "EstText": "",
+          "HideLocation": false,
+          "Venue": "MPA",
+          "VenueDesc": "Nagoya City Mizuho Park Athletic Stadium",
+          "VenueDescS": "Nagoya City Mizuho Park Athletic Stadium",
+          "Loc": "001",
+          "LocDesc": "National Stadium",
+          "LocDescS": "National Stadium",
+          "Event": "M.4X400M------------",
+          "EventDesc": "Men's 4 x 400m Relay",
+          "Phase": "M.4X400M------------.RND1",
+          "PhaseOrder": 5,
+          "PhaseDesc": "Men's 4 x 400m Relay Round 1",
+          "PhaseDescS": "Men's 4 x 400m Relay R1",
+          "PhaseDescA": "Round 1",
+          "UnitDesc": "Men's 4 x 400m Relay Round 1 Heat 2",
+          "UnitDescS": "Men's 4 x 400m Relay R1 Heat 2",
+          "UnitDescA": "Heat 2",
+          "UnitNum": "2",
+          "IsLive": false,
+          "ShowResults": false,
+          "Counters": {
+            "Partics": 6,
+            "Orgs": 6
+          }
         }
       ],
       "historical": null
@@ -2497,10 +2663,10 @@
           "TeamReg": "ATHX4X400M-----IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
-          "Medal": "ME_SILVER",
           "Rank": "2",
           "IRM": "OK",
-          "Result": "3:14.46"
+          "Result": "3:14.46",
+          "Medal": "ME_SILVER"
         }
       ],
       "schedule": [
@@ -3772,12 +3938,12 @@
         },
         {
           "Orgs": [
-            "IND",
             "BRN",
             "JPN",
-            "KOR",
+            "IND",
             "KAZ",
             "KGZ",
+            "KOR",
             "NEP"
           ],
           "IsPhase": false,
@@ -3789,8 +3955,8 @@
           "isH2H": false,
           "Type": "A",
           "Medal": "1",
-          "Status": "START_LIST",
-          "StatusDesc": "Start List",
+          "Status": "OFFICIAL",
+          "StatusDesc": "Official",
           "DateTimeRaw": "2026-09-28T20:43:00+09:00",
           "HideStartDate": false,
           "Estimated": false,
@@ -3814,11 +3980,43 @@
           "UnitDescA": "",
           "UnitNum": "1",
           "IsLive": false,
-          "ShowResults": false,
+          "ShowResults": true,
           "Counters": {
             "Partics": 12,
             "Orgs": 7
-          }
+          },
+          "Results": [
+            {
+              "Reg": "7153190",
+              "Org": "BRN",
+              "Name": "YAVI Winfred",
+              "NameS": "YAVI W",
+              "Result": "15:10.18",
+              "Winner": false,
+              "RkPo": 1,
+              "HasData": true
+            },
+            {
+              "Reg": "1372241",
+              "Org": "JPN",
+              "Name": "TANAKA Nozomi",
+              "NameS": "TANAKA N",
+              "Result": "15:11.65",
+              "Winner": false,
+              "RkPo": 2,
+              "HasData": true
+            },
+            {
+              "Reg": "1443836",
+              "Org": "IND",
+              "Name": "CHAUDHARY Parul",
+              "NameS": "CHAUDHARY P",
+              "Result": "15:14.61",
+              "Winner": false,
+              "RkPo": 3,
+              "HasData": true
+            }
+          ]
         }
       ],
       "historical": null
@@ -4152,6 +4350,10 @@
       {
         "medal": "bronze",
         "event": "Women's 3000m Steeplechase"
+      },
+      {
+        "medal": "bronze",
+        "event": "Women's 5000m"
       }
     ],
     "bio_data": {
@@ -4192,10 +4394,10 @@
           "Desc": "Women's 3000m Steeplechase",
           "DescS": "Women's 3000m Steeplechase",
           "isMember": false,
-          "Medal": "ME_BRONZE",
           "Rank": "3",
           "IRM": "OK",
-          "Result": "9:08.67"
+          "Result": "9:08.67",
+          "Medal": "ME_BRONZE"
         },
         {
           "Disc": "ATH",
@@ -4204,9 +4406,10 @@
           "Desc": "Women's 5000m",
           "DescS": "Women's 5000m",
           "isMember": false,
-          "Rank": "",
+          "Medal": "ME_BRONZE",
+          "Rank": "3",
           "IRM": "OK",
-          "Result": ""
+          "Result": "15:14.61"
         }
       ],
       "schedule": [
@@ -4381,12 +4584,12 @@
         },
         {
           "Orgs": [
-            "IND",
             "BRN",
             "JPN",
-            "KOR",
+            "IND",
             "KAZ",
             "KGZ",
+            "KOR",
             "NEP"
           ],
           "IsPhase": false,
@@ -4398,8 +4601,8 @@
           "isH2H": false,
           "Type": "A",
           "Medal": "1",
-          "Status": "START_LIST",
-          "StatusDesc": "Start List",
+          "Status": "OFFICIAL",
+          "StatusDesc": "Official",
           "DateTimeRaw": "2026-09-28T20:43:00+09:00",
           "HideStartDate": false,
           "Estimated": false,
@@ -4423,11 +4626,46 @@
           "UnitDescA": "",
           "UnitNum": "1",
           "IsLive": false,
-          "ShowResults": false,
+          "ShowResults": true,
           "Counters": {
             "Partics": 12,
             "Orgs": 7
-          }
+          },
+          "Results": [
+            {
+              "Reg": "7153190",
+              "Org": "BRN",
+              "Name": "YAVI Winfred",
+              "NameS": "YAVI W",
+              "Result": "15:10.18",
+              "Winner": false,
+              "RkPo": 1,
+              "HasData": true,
+              "Medal": "ME_GOLD"
+            },
+            {
+              "Reg": "1372241",
+              "Org": "JPN",
+              "Name": "TANAKA Nozomi",
+              "NameS": "TANAKA N",
+              "Result": "15:11.65",
+              "Winner": false,
+              "RkPo": 2,
+              "HasData": true,
+              "Medal": "ME_SILVER"
+            },
+            {
+              "Reg": "1443836",
+              "Org": "IND",
+              "Name": "CHAUDHARY Parul",
+              "NameS": "CHAUDHARY P",
+              "Result": "15:14.61",
+              "Winner": false,
+              "RkPo": 3,
+              "HasData": true,
+              "Medal": "ME_BRONZE"
+            }
+          ]
         }
       ],
       "historical": null
@@ -6811,10 +7049,10 @@
           "TeamReg": "BDMMTEAM-------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
+          "Medal": "ME_BRONZE",
           "Rank": "3",
           "IRM": "OK",
-          "Result": "",
-          "Medal": "ME_BRONZE"
+          "Result": ""
         },
         {
           "Disc": "BDM",
@@ -23997,10 +24235,10 @@
           "TeamReg": "BDMMTEAM-------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
+          "Medal": "ME_BRONZE",
           "Rank": "3",
           "IRM": "OK",
-          "Result": "",
-          "Medal": "ME_BRONZE"
+          "Result": ""
         }
       ],
       "schedule": [
@@ -54506,10 +54744,10 @@
           "TeamReg": "KABMTEAM7------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
-          "Medal": "ME_GOLD",
           "Rank": "1",
           "IRM": "",
-          "Result": ""
+          "Result": "",
+          "Medal": "ME_GOLD"
         }
       ],
       "schedule": [
@@ -65582,10 +65820,10 @@
           "TeamReg": "KABMTEAM7------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
+          "Medal": "ME_GOLD",
           "Rank": "1",
           "IRM": "",
-          "Result": "",
-          "Medal": "ME_GOLD"
+          "Result": ""
         }
       ],
       "schedule": [
@@ -74078,10 +74316,10 @@
           "TeamReg": "KABWTEAM7------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
-          "Medal": "ME_GOLD",
           "Rank": "1",
           "IRM": "",
-          "Result": ""
+          "Result": "",
+          "Medal": "ME_GOLD"
         }
       ],
       "schedule": [
@@ -77176,10 +77414,10 @@
           "TeamReg": "KABWTEAM7------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
-          "Medal": "ME_GOLD",
           "Rank": "1",
           "IRM": "",
-          "Result": ""
+          "Result": "",
+          "Medal": "ME_GOLD"
         }
       ],
       "schedule": [
@@ -92103,10 +92341,10 @@
           "Desc": "10m Air Rifle Men Team",
           "DescS": "10m Air Rifle Men Team",
           "isMember": false,
+          "Medal": "ME_SILVER",
           "Rank": "2",
           "IRM": "",
-          "Result": "1890.1",
-          "Medal": "ME_SILVER"
+          "Result": "1890.1"
         }
       ],
       "schedule": [
@@ -92236,10 +92474,10 @@
           "TeamReg": "SHOMARTM-------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
+          "Medal": "ME_SILVER",
           "Rank": "2",
           "IRM": "",
-          "Result": "1890.1",
-          "Medal": "ME_SILVER"
+          "Result": "1890.1"
         },
         {
           "Disc": "SHO",
@@ -92262,10 +92500,10 @@
           "TeamReg": "SHOMR3PTM------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
-          "Medal": "ME_SILVER",
           "Rank": "2",
           "IRM": "",
-          "Result": "1762"
+          "Result": "1762",
+          "Medal": "ME_SILVER"
         }
       ],
       "schedule": [
@@ -94082,10 +94320,10 @@
           "TeamReg": "SHOWR3PTW------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
+          "Medal": "ME_SILVER",
           "Rank": "2",
           "IRM": "",
-          "Result": "1763",
-          "Medal": "ME_SILVER"
+          "Result": "1763"
         },
         {
           "Disc": "SHO",
@@ -97738,10 +97976,10 @@
           "TeamReg": "SHOXSKMT-------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
-          "Medal": "ME_BRONZE",
           "Rank": "3",
           "IRM": "",
-          "Result": "44"
+          "Result": "44",
+          "Medal": "ME_BRONZE"
         }
       ],
       "schedule": [
@@ -98649,10 +98887,10 @@
           "TeamReg": "SHOWSKTW-------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
+          "Medal": "ME_BRONZE",
           "Rank": "3",
           "IRM": "",
-          "Result": "331",
-          "Medal": "ME_BRONZE"
+          "Result": "331"
         },
         {
           "Disc": "SHO",
@@ -99108,10 +99346,10 @@
           "Desc": "Skeet Mixed Team",
           "DescS": "Skeet Mixed Team",
           "isMember": false,
-          "Medal": "ME_BRONZE",
           "Rank": "3",
           "IRM": "",
-          "Result": "44"
+          "Result": "44",
+          "Medal": "ME_BRONZE"
         }
       ],
       "schedule": [
@@ -108374,10 +108612,10 @@
           "TeamReg": "SQUXDOUBLES----IND02",
           "TeamOrg": "IND",
           "TeamName": "CHINAPPA J. /SENTHILKUMAR V.",
-          "Medal": "ME_BRONZE",
           "Rank": "3",
           "IRM": "OK",
-          "Result": ""
+          "Result": "",
+          "Medal": "ME_BRONZE"
         }
       ],
       "schedule": [
@@ -110186,10 +110424,10 @@
           "Desc": "Men's Singles",
           "DescS": "Men's Singles",
           "isMember": false,
+          "Medal": "ME_BRONZE",
           "Rank": "3",
           "IRM": "OK",
-          "Result": "",
-          "Medal": "ME_BRONZE"
+          "Result": ""
         },
         {
           "Disc": "TST",
@@ -118729,10 +118967,10 @@
           "TeamReg": "TTEXDOUBLES----IND01",
           "TeamOrg": "IND",
           "TeamName": "SHAH Manush/CHITALE Diya",
-          "Medal": "ME_BRONZE",
           "Rank": "3",
           "IRM": "OK",
-          "Result": ""
+          "Result": "",
+          "Medal": "ME_BRONZE"
         }
       ],
       "schedule": [
