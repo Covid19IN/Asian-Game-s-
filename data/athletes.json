@@ -2737,9 +2737,34 @@
         "Reg": "16164087",
         "Disc": "ATH",
         "DiscDesc": "Athletics",
-        "hasMembers": false
+        "hasMembers": false,
+        "Org": "IND",
+        "OrgDesc": "India",
+        "Type": "A",
+        "Gender": "M",
+        "BirthDateRaw": "1998-12-21",
+        "Name": "SHANKAR Tejaswin",
+        "NameS": "SHANKAR T",
+        "GivenName": "Tejaswin",
+        "FamilyName": "SHANKAR",
+        "IFId": "14714481",
+        "Height": null,
+        "Weight": null
       },
-      "entries": [],
+      "entries": [
+        {
+          "Disc": "ATH",
+          "Reg": "16164087",
+          "EvKey": "M.DECATH------------",
+          "Desc": "Men's Decathlon",
+          "DescS": "Men's Decathlon",
+          "isMember": false,
+          "Medal": "ME_BRONZE",
+          "Rank": "3",
+          "IRM": "OK",
+          "Result": "7934"
+        }
+      ],
       "schedule": [
         {
           "Orgs": [
@@ -3577,9 +3602,45 @@
         "Reg": "5320130",
         "Disc": "ATH",
         "DiscDesc": "Athletics",
-        "hasMembers": false
+        "hasMembers": false,
+        "Org": "IND",
+        "OrgDesc": "India",
+        "Type": "A",
+        "Gender": "W",
+        "BirthDateRaw": "2001-01-10",
+        "Name": "SEEMA",
+        "NameS": "SEEMA",
+        "GivenName": "",
+        "FamilyName": "Seema",
+        "IFId": "14734780",
+        "Height": null,
+        "Weight": null
       },
-      "entries": [],
+      "entries": [
+        {
+          "Disc": "ATH",
+          "Reg": "5320130",
+          "EvKey": "W.10000M------------",
+          "Desc": "Women's 10,000m",
+          "DescS": "Women's 10,000m",
+          "isMember": false,
+          "Medal": "ME_BRONZE",
+          "Rank": "3",
+          "IRM": "OK",
+          "Result": "32:50.05"
+        },
+        {
+          "Disc": "ATH",
+          "Reg": "5320130",
+          "EvKey": "W.5000M-------------",
+          "Desc": "Women's 5000m",
+          "DescS": "Women's 5000m",
+          "isMember": false,
+          "Rank": "",
+          "IRM": "OK",
+          "Result": ""
+        }
+      ],
       "schedule": [
         {
           "Orgs": [
@@ -3742,9 +3803,48 @@
         "Reg": "16628668",
         "Disc": "ATH",
         "DiscDesc": "Athletics",
-        "hasMembers": false
+        "hasMembers": false,
+        "Org": "IND",
+        "OrgDesc": "India",
+        "Type": "A",
+        "Gender": "W",
+        "BirthDateRaw": "2003-06-06",
+        "Name": "BHADRA Harita",
+        "NameS": "BHADRA H",
+        "GivenName": "Harita",
+        "FamilyName": "BHADRA",
+        "IFId": "",
+        "Height": null,
+        "Weight": null
       },
-      "entries": [],
+      "entries": [
+        {
+          "Disc": "ATH",
+          "Reg": "16628668",
+          "EvKey": "W.200M--------------",
+          "Desc": "Women's 200m",
+          "DescS": "Women's 200m",
+          "isMember": false,
+          "Medal": "ME_BRONZE",
+          "Rank": "3",
+          "IRM": "OK",
+          "Result": "23.20"
+        },
+        {
+          "Disc": "ATH",
+          "Reg": "16628668",
+          "EvKey": "X.4X100M------------",
+          "Desc": "4 x 100m Relay Mixed",
+          "DescS": "4 x 100m Relay Mixed",
+          "isMember": true,
+          "TeamReg": "ATHX4X100M-----IND01",
+          "TeamOrg": "IND",
+          "TeamName": "India",
+          "Rank": "",
+          "IRM": "OK",
+          "Result": ""
+        }
+      ],
       "schedule": [
         {
           "Orgs": [
@@ -3914,6 +4014,55 @@
               "Medal": "ME_BRONZE"
             }
           ]
+        },
+        {
+          "Orgs": [
+            "CHN",
+            "IND",
+            "OMA",
+            "UZB",
+            "IRI",
+            "KOR"
+          ],
+          "IsPhase": false,
+          "ResCode": "X.4X100M------------.RND1.000200--",
+          "ShowLink": true,
+          "Disc": "ATH",
+          "DiscDesc": "Athletics",
+          "Key": "X.4X100M------------.RND1.000200--",
+          "isH2H": false,
+          "Type": "T",
+          "Medal": "",
+          "Status": "UNOFFICIAL",
+          "StatusDesc": "Unofficial",
+          "DateTimeRaw": "2026-09-28T18:39:00+09:00",
+          "HideStartDate": false,
+          "Estimated": false,
+          "EstText": "",
+          "HideLocation": false,
+          "Venue": "MPA",
+          "VenueDesc": "Nagoya City Mizuho Park Athletic Stadium",
+          "VenueDescS": "Nagoya City Mizuho Park Athletic Stadium",
+          "Loc": "001",
+          "LocDesc": "National Stadium",
+          "LocDescS": "National Stadium",
+          "Event": "X.4X100M------------",
+          "EventDesc": "4 x 100m Relay Mixed",
+          "Phase": "X.4X100M------------.RND1",
+          "PhaseOrder": 5,
+          "PhaseDesc": "4 x 100m Relay Mixed Round 1",
+          "PhaseDescS": "4 x 100m Relay Mixed R1",
+          "PhaseDescA": "Round 1",
+          "UnitDesc": "4 x 100m Relay Mixed Round 1 Heat 2",
+          "UnitDescS": "4 x 100m Relay Mixed R1 Heat 2",
+          "UnitDescA": "Heat 2",
+          "UnitNum": "2",
+          "IsLive": false,
+          "ShowResults": true,
+          "Counters": {
+            "Partics": 6,
+            "Orgs": 6
+          }
         }
       ],
       "historical": null
@@ -3938,9 +4087,56 @@
         "Reg": "1443836",
         "Disc": "ATH",
         "DiscDesc": "Athletics",
-        "hasMembers": false
+        "hasMembers": false,
+        "Org": "IND",
+        "OrgDesc": "India",
+        "Type": "A",
+        "Gender": "W",
+        "BirthDateRaw": "1995-04-15",
+        "Name": "CHAUDHARY Parul",
+        "NameS": "CHAUDHARY P",
+        "GivenName": "Parul",
+        "FamilyName": "CHAUDHARY",
+        "IFId": "14497992",
+        "Height": null,
+        "Weight": null
       },
-      "entries": [],
+      "entries": [
+        {
+          "Disc": "ATH",
+          "Reg": "1443836",
+          "EvKey": "W.1500M-------------",
+          "Desc": "Women's 1500m",
+          "DescS": "Women's 1500m",
+          "isMember": false,
+          "Rank": "4",
+          "IRM": "OK",
+          "Result": "4:09.46"
+        },
+        {
+          "Disc": "ATH",
+          "Reg": "1443836",
+          "EvKey": "W.3000MST-----------",
+          "Desc": "Women's 3000m Steeplechase",
+          "DescS": "Women's 3000m Steeplechase",
+          "isMember": false,
+          "Medal": "ME_BRONZE",
+          "Rank": "3",
+          "IRM": "OK",
+          "Result": "9:08.67"
+        },
+        {
+          "Disc": "ATH",
+          "Reg": "1443836",
+          "EvKey": "W.5000M-------------",
+          "Desc": "Women's 5000m",
+          "DescS": "Women's 5000m",
+          "isMember": false,
+          "Rank": "",
+          "IRM": "OK",
+          "Result": ""
+        }
+      ],
       "schedule": [
         {
           "Orgs": [
@@ -4184,9 +4380,34 @@
         "Reg": "3560983",
         "Disc": "ATH",
         "DiscDesc": "Athletics",
-        "hasMembers": false
+        "hasMembers": false,
+        "Org": "IND",
+        "OrgDesc": "India",
+        "Type": "A",
+        "Gender": "W",
+        "BirthDateRaw": "1996-12-20",
+        "Name": "PRACHI",
+        "NameS": "PRACHI",
+        "GivenName": "",
+        "FamilyName": "Prachi",
+        "IFId": "14821639",
+        "Height": null,
+        "Weight": null
       },
-      "entries": [],
+      "entries": [
+        {
+          "Disc": "ATH",
+          "Reg": "3560983",
+          "EvKey": "W.400M--------------",
+          "Desc": "Women's 400m",
+          "DescS": "Women's 400m",
+          "isMember": false,
+          "Medal": "ME_BRONZE",
+          "Rank": "3",
+          "IRM": "OK",
+          "Result": "53.21"
+        }
+      ],
       "schedule": [
         {
           "Orgs": [
@@ -4391,7 +4612,20 @@
         "Height": null,
         "Weight": null
       },
-      "entries": [],
+      "entries": [
+        {
+          "Disc": "ATH",
+          "Reg": "7925520",
+          "EvKey": "W.PLEVAULT----------",
+          "Desc": "Women's Pole Vault",
+          "DescS": "Women's Pole Vault",
+          "isMember": false,
+          "Medal": "ME_BRONZE",
+          "Rank": "3",
+          "IRM": "OK",
+          "Result": "4.15"
+        }
+      ],
       "schedule": [
         {
           "Orgs": [
@@ -4515,7 +4749,20 @@
         "Height": null,
         "Weight": null
       },
-      "entries": [],
+      "entries": [
+        {
+          "Disc": "ATH",
+          "Reg": "13358440",
+          "EvKey": "W.SHOTPUT-----------",
+          "Desc": "Women's Shot Put",
+          "DescS": "Women's Shot Put",
+          "isMember": false,
+          "Medal": "ME_BRONZE",
+          "Rank": "3",
+          "IRM": "OK",
+          "Result": "17.17"
+        }
+      ],
       "schedule": [
         {
           "Orgs": [
@@ -65263,10 +65510,10 @@
           "TeamReg": "KABMTEAM7------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
-          "Medal": "ME_GOLD",
           "Rank": "1",
           "IRM": "",
-          "Result": ""
+          "Result": "",
+          "Medal": "ME_GOLD"
         }
       ],
       "schedule": [
@@ -101462,8 +101709,8 @@
             "Org": "IND",
             "Reg": "SQUMTEAM-------IND01",
             "Name": "India",
-            "Result": "0",
-            "Winner": false,
+            "Result": "2",
+            "Winner": true,
             "HasData": true,
             "NameS": "India",
             "Medal": "",
@@ -101723,7 +101970,7 @@
               "Type": "UNIT_INFO",
               "Code": "TeamMatchDuration",
               "Pos": 0,
-              "Value": "0min",
+              "Value": "56min",
               "Extensions": []
             }
           ]
@@ -109556,8 +109803,8 @@
             "Org": "IND",
             "Reg": "SQUMTEAM-------IND01",
             "Name": "India",
-            "Result": "0",
-            "Winner": false,
+            "Result": "2",
+            "Winner": true,
             "HasData": true,
             "NameS": "India",
             "Medal": "",
@@ -109817,7 +110064,7 @@
               "Type": "UNIT_INFO",
               "Code": "TeamMatchDuration",
               "Pos": 0,
-              "Value": "0min",
+              "Value": "56min",
               "Extensions": []
             }
           ]
