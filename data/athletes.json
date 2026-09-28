@@ -1996,10 +1996,10 @@
           "TeamReg": "ATHX4X400M-----IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
+          "Medal": "ME_SILVER",
           "Rank": "2",
           "IRM": "OK",
-          "Result": "3:14.46",
-          "Medal": "ME_SILVER"
+          "Result": "3:14.46"
         }
       ],
       "schedule": [
@@ -2164,57 +2164,6 @@
               "HasData": true
             }
           ]
-        },
-        {
-          "Orgs": [
-            "THA",
-            "KOR",
-            "PHI",
-            "IND",
-            "QAT",
-            "JPN",
-            "VIE",
-            "CHN"
-          ],
-          "IsPhase": false,
-          "ResCode": "M.4X400M------------.FNL-.000100--",
-          "ShowLink": true,
-          "Disc": "ATH",
-          "DiscDesc": "Athletics",
-          "Key": "M.4X400M------------.FNL-.000100--",
-          "isH2H": false,
-          "Type": "T",
-          "Medal": "1",
-          "Status": "START_LIST",
-          "StatusDesc": "Start List",
-          "DateTimeRaw": "2026-09-29T21:17:00+09:00",
-          "HideStartDate": false,
-          "Estimated": false,
-          "EstText": "",
-          "HideLocation": false,
-          "Venue": "MPA",
-          "VenueDesc": "Nagoya City Mizuho Park Athletic Stadium",
-          "VenueDescS": "Nagoya City Mizuho Park Athletic Stadium",
-          "Loc": "001",
-          "LocDesc": "National Stadium",
-          "LocDescS": "National Stadium",
-          "Event": "M.4X400M------------",
-          "EventDesc": "Men's 4 x 400m Relay",
-          "Phase": "M.4X400M------------.FNL-",
-          "PhaseOrder": 1,
-          "PhaseDesc": "Men's 4 x 400m Relay Final",
-          "PhaseDescS": "Men's 4 x 400m Relay F",
-          "PhaseDescA": "Final",
-          "UnitDesc": "Men's 4 x 400m Relay Final",
-          "UnitDescS": "Men's 4 x 400m Relay F",
-          "UnitDescA": "",
-          "UnitNum": "1",
-          "IsLive": false,
-          "ShowResults": false,
-          "Counters": {
-            "Partics": 8,
-            "Orgs": 8
-          }
         }
       ],
       "historical": null
@@ -2532,57 +2481,6 @@
               "HasData": true
             }
           ]
-        },
-        {
-          "Orgs": [
-            "THA",
-            "KOR",
-            "PHI",
-            "IND",
-            "QAT",
-            "JPN",
-            "VIE",
-            "CHN"
-          ],
-          "IsPhase": false,
-          "ResCode": "M.4X400M------------.FNL-.000100--",
-          "ShowLink": true,
-          "Disc": "ATH",
-          "DiscDesc": "Athletics",
-          "Key": "M.4X400M------------.FNL-.000100--",
-          "isH2H": false,
-          "Type": "T",
-          "Medal": "1",
-          "Status": "START_LIST",
-          "StatusDesc": "Start List",
-          "DateTimeRaw": "2026-09-29T21:17:00+09:00",
-          "HideStartDate": false,
-          "Estimated": false,
-          "EstText": "",
-          "HideLocation": false,
-          "Venue": "MPA",
-          "VenueDesc": "Nagoya City Mizuho Park Athletic Stadium",
-          "VenueDescS": "Nagoya City Mizuho Park Athletic Stadium",
-          "Loc": "001",
-          "LocDesc": "National Stadium",
-          "LocDescS": "National Stadium",
-          "Event": "M.4X400M------------",
-          "EventDesc": "Men's 4 x 400m Relay",
-          "Phase": "M.4X400M------------.FNL-",
-          "PhaseOrder": 1,
-          "PhaseDesc": "Men's 4 x 400m Relay Final",
-          "PhaseDescS": "Men's 4 x 400m Relay F",
-          "PhaseDescA": "Final",
-          "UnitDesc": "Men's 4 x 400m Relay Final",
-          "UnitDescS": "Men's 4 x 400m Relay F",
-          "UnitDescA": "",
-          "UnitNum": "1",
-          "IsLive": false,
-          "ShowResults": false,
-          "Counters": {
-            "Partics": 8,
-            "Orgs": 8
-          }
         }
       ],
       "historical": null
@@ -3190,10 +3088,10 @@
           "TeamReg": "ATHX4X400M-----IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
-          "Medal": "ME_SILVER",
           "Rank": "2",
           "IRM": "OK",
-          "Result": "3:14.46"
+          "Result": "3:14.46",
+          "Medal": "ME_SILVER"
         }
       ],
       "schedule": [
@@ -4732,10 +4630,10 @@
           "Desc": "Women's 200m",
           "DescS": "Women's 200m",
           "isMember": false,
-          "Medal": "ME_BRONZE",
           "Rank": "3",
           "IRM": "OK",
-          "Result": "23.20"
+          "Result": "23.20",
+          "Medal": "ME_BRONZE"
         },
         {
           "Disc": "ATH",
@@ -5002,57 +4900,6 @@
               "HasData": true
             }
           ]
-        },
-        {
-          "Orgs": [
-            "BRN",
-            "PHI",
-            "OMA",
-            "SGP",
-            "IND",
-            "THA",
-            "CHN",
-            "JPN"
-          ],
-          "IsPhase": false,
-          "ResCode": "X.4X100M------------.FNL-.000100--",
-          "ShowLink": true,
-          "Disc": "ATH",
-          "DiscDesc": "Athletics",
-          "Key": "X.4X100M------------.FNL-.000100--",
-          "isH2H": false,
-          "Type": "T",
-          "Medal": "1",
-          "Status": "START_LIST",
-          "StatusDesc": "Start List",
-          "DateTimeRaw": "2026-09-29T20:48:00+09:00",
-          "HideStartDate": false,
-          "Estimated": false,
-          "EstText": "",
-          "HideLocation": false,
-          "Venue": "MPA",
-          "VenueDesc": "Nagoya City Mizuho Park Athletic Stadium",
-          "VenueDescS": "Nagoya City Mizuho Park Athletic Stadium",
-          "Loc": "001",
-          "LocDesc": "National Stadium",
-          "LocDescS": "National Stadium",
-          "Event": "X.4X100M------------",
-          "EventDesc": "4 x 100m Relay Mixed",
-          "Phase": "X.4X100M------------.FNL-",
-          "PhaseOrder": 1,
-          "PhaseDesc": "4 x 100m Relay Mixed Final",
-          "PhaseDescS": "4 x 100m Relay Mixed F",
-          "PhaseDescA": "Final",
-          "UnitDesc": "4 x 100m Relay Mixed Final",
-          "UnitDescS": "4 x 100m Relay Mixed F",
-          "UnitDescA": "",
-          "UnitNum": "1",
-          "IsLive": false,
-          "ShowResults": false,
-          "Counters": {
-            "Partics": 8,
-            "Orgs": 8
-          }
         }
       ],
       "historical": null
@@ -5114,10 +4961,10 @@
           "Desc": "Women's 3000m Steeplechase",
           "DescS": "Women's 3000m Steeplechase",
           "isMember": false,
+          "Medal": "ME_BRONZE",
           "Rank": "3",
           "IRM": "OK",
-          "Result": "9:08.67",
-          "Medal": "ME_BRONZE"
+          "Result": "9:08.67"
         },
         {
           "Disc": "ATH",
@@ -5126,10 +4973,10 @@
           "Desc": "Women's 5000m",
           "DescS": "Women's 5000m",
           "isMember": false,
+          "Medal": "ME_BRONZE",
           "Rank": "3",
           "IRM": "OK",
-          "Result": "15:14.61",
-          "Medal": "ME_BRONZE"
+          "Result": "15:14.61"
         }
       ],
       "schedule": [
@@ -17287,10 +17134,10 @@
           "TeamReg": "BDMMTEAM-------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
+          "Medal": "ME_BRONZE",
           "Rank": "3",
           "IRM": "OK",
-          "Result": "",
-          "Medal": "ME_BRONZE"
+          "Result": ""
         }
       ],
       "schedule": [
@@ -37749,10 +37596,10 @@
           "TeamReg": "CKTWTEAM-------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
-          "Medal": "ME_GOLD",
           "Rank": "1",
           "IRM": "",
-          "Result": ""
+          "Result": "",
+          "Medal": "ME_GOLD"
         }
       ],
       "schedule": [
@@ -46234,10 +46081,10 @@
           "Desc": "Men's Team",
           "DescS": "Men's Team",
           "isMember": false,
-          "Medal": "ME_GOLD",
           "Rank": "1",
           "IRM": "",
-          "Result": ""
+          "Result": "",
+          "Medal": "ME_GOLD"
         }
       ],
       "schedule": [
@@ -51772,10 +51619,10 @@
           "TeamReg": "KABMTEAM7------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
-          "Medal": "ME_GOLD",
           "Rank": "1",
           "IRM": "",
-          "Result": ""
+          "Result": "",
+          "Medal": "ME_GOLD"
         }
       ],
       "schedule": [
@@ -53618,10 +53465,10 @@
           "TeamReg": "KABMTEAM7------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
-          "Medal": "ME_GOLD",
           "Rank": "1",
           "IRM": "",
-          "Result": ""
+          "Result": "",
+          "Medal": "ME_GOLD"
         }
       ],
       "schedule": [
@@ -55464,10 +55311,10 @@
           "TeamReg": "KABMTEAM7------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
+          "Medal": "ME_GOLD",
           "Rank": "1",
           "IRM": "",
-          "Result": "",
-          "Medal": "ME_GOLD"
+          "Result": ""
         }
       ],
       "schedule": [
@@ -57310,10 +57157,10 @@
           "TeamReg": "KABMTEAM7------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
-          "Medal": "ME_GOLD",
           "Rank": "1",
           "IRM": "",
-          "Result": ""
+          "Result": "",
+          "Medal": "ME_GOLD"
         }
       ],
       "schedule": [
@@ -68386,10 +68233,10 @@
           "TeamReg": "KABMTEAM7------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
+          "Medal": "ME_GOLD",
           "Rank": "1",
           "IRM": "",
-          "Result": "",
-          "Medal": "ME_GOLD"
+          "Result": ""
         }
       ],
       "schedule": [
@@ -70389,10 +70236,10 @@
           "Desc": "Women's Team",
           "DescS": "Women's Team",
           "isMember": false,
-          "Medal": "ME_GOLD",
           "Rank": "1",
           "IRM": "",
-          "Result": ""
+          "Result": "",
+          "Medal": "ME_GOLD"
         }
       ],
       "schedule": [
@@ -73487,10 +73334,10 @@
           "TeamReg": "KABWTEAM7------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
-          "Medal": "ME_GOLD",
           "Rank": "1",
           "IRM": "",
-          "Result": ""
+          "Result": "",
+          "Medal": "ME_GOLD"
         }
       ],
       "schedule": [
@@ -76585,10 +76432,10 @@
           "TeamReg": "KABWTEAM7------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
+          "Medal": "ME_GOLD",
           "Rank": "1",
           "IRM": "",
-          "Result": "",
-          "Medal": "ME_GOLD"
+          "Result": ""
         }
       ],
       "schedule": [
@@ -81232,10 +81079,10 @@
           "TeamReg": "KABWTEAM7------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
+          "Medal": "ME_GOLD",
           "Rank": "1",
           "IRM": "",
-          "Result": "",
-          "Medal": "ME_GOLD"
+          "Result": ""
         }
       ],
       "schedule": [
@@ -82781,10 +82628,10 @@
           "TeamReg": "KABWTEAM7------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
+          "Medal": "ME_GOLD",
           "Rank": "1",
           "IRM": "",
-          "Result": "",
-          "Medal": "ME_GOLD"
+          "Result": ""
         }
       ],
       "schedule": [
@@ -88977,10 +88824,10 @@
           "TeamReg": "KABWTEAM7------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
-          "Medal": "ME_GOLD",
           "Rank": "1",
           "IRM": "",
-          "Result": ""
+          "Result": "",
+          "Medal": "ME_GOLD"
         }
       ],
       "schedule": [
@@ -91008,10 +90855,10 @@
           "Desc": "Women's Traditional -60kg",
           "DescS": "Women's Traditional -60kg",
           "isMember": false,
-          "Medal": "ME_BRONZE",
           "Rank": "3",
           "IRM": "",
-          "Result": ""
+          "Result": "",
+          "Medal": "ME_BRONZE"
         }
       ],
       "schedule": [
@@ -91728,10 +91575,10 @@
           "TeamReg": "ROWMSCULL2-----IND01",
           "TeamOrg": "IND",
           "TeamName": "Satnam Singh/KHAN Salman",
+          "Medal": "ME_BRONZE",
           "Rank": "3",
           "IRM": "",
-          "Result": "6:13.25",
-          "Medal": "ME_BRONZE"
+          "Result": "6:13.25"
         }
       ],
       "schedule": [
@@ -98005,10 +97852,10 @@
           "TeamReg": "SHOMSKTM-------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
-          "Medal": "ME_BRONZE",
           "Rank": "3",
           "IRM": "",
-          "Result": "346"
+          "Result": "346",
+          "Medal": "ME_BRONZE"
         }
       ],
       "schedule": [
@@ -99607,10 +99454,10 @@
           "TeamReg": "SHOWSKTW-------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
-          "Medal": "ME_BRONZE",
           "Rank": "3",
           "IRM": "",
-          "Result": "331"
+          "Result": "331",
+          "Medal": "ME_BRONZE"
         },
         {
           "Disc": "SHO",
