@@ -6634,10 +6634,10 @@
           "TeamReg": "BDMMTEAM-------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
-          "Medal": "ME_BRONZE",
           "Rank": "3",
           "IRM": "OK",
-          "Result": ""
+          "Result": "",
+          "Medal": "ME_BRONZE"
         },
         {
           "Disc": "BDM",
@@ -61713,10 +61713,10 @@
           "TeamReg": "KABMTEAM7------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
+          "Medal": "ME_GOLD",
           "Rank": "1",
           "IRM": "",
-          "Result": "",
-          "Medal": "ME_GOLD"
+          "Result": ""
         }
       ],
       "schedule": [
@@ -89380,10 +89380,10 @@
           "Desc": "Women's Traditional -60kg",
           "DescS": "Women's Traditional -60kg",
           "isMember": false,
-          "Medal": "ME_BRONZE",
           "Rank": "3",
           "IRM": "",
-          "Result": ""
+          "Result": "",
+          "Medal": "ME_BRONZE"
         }
       ],
       "schedule": [
@@ -90857,10 +90857,10 @@
           "TeamReg": "SHOXAPMT-------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
-          "Medal": "ME_GOLD",
           "Rank": "1",
           "IRM": "",
-          "Result": "484.6"
+          "Result": "484.6",
+          "Medal": "ME_GOLD"
         }
       ],
       "schedule": [
@@ -100237,8 +100237,8 @@
           "isH2H": true,
           "Type": "T",
           "Medal": "",
-          "Status": "SCHEDULED",
-          "StatusDesc": "Scheduled",
+          "Status": "RUNNING",
+          "StatusDesc": "Running",
           "DateTimeRaw": "2026-09-28T12:00:00+09:00",
           "HideStartDate": false,
           "Estimated": false,
@@ -100261,8 +100261,8 @@
           "UnitDescS": "MT PA M 3",
           "UnitDescA": "Match 3",
           "UnitNum": "9",
-          "IsLive": false,
-          "ShowResults": false,
+          "IsLive": true,
+          "ShowResults": true,
           "Periods": [
             {
               "Order": 1,
@@ -100294,8 +100294,8 @@
             "Org": "IND",
             "Reg": "SQUMTEAM-------IND01",
             "Name": "India",
-            "Result": "",
-            "Winner": false,
+            "Result": "2",
+            "Winner": true,
             "HasData": true,
             "NameS": "India",
             "Medal": "",
@@ -100383,7 +100383,7 @@
             "Org": "CHN",
             "Reg": "SQUMTEAM-------CHN01",
             "Name": "People's Republic of China",
-            "Result": "",
+            "Result": "0",
             "Winner": false,
             "HasData": true,
             "NameS": "China",
@@ -100529,7 +100529,7 @@
               "Type": "UNIT_INFO",
               "Code": "TeamMatchDuration",
               "Pos": 0,
-              "Value": "0min",
+              "Value": "52min",
               "Extensions": []
             }
           ]
@@ -108331,8 +108331,8 @@
           "isH2H": true,
           "Type": "T",
           "Medal": "",
-          "Status": "SCHEDULED",
-          "StatusDesc": "Scheduled",
+          "Status": "OFFICIAL",
+          "StatusDesc": "Official",
           "DateTimeRaw": "2026-09-28T12:00:00+09:00",
           "HideStartDate": false,
           "Estimated": false,
@@ -108356,7 +108356,7 @@
           "UnitDescA": "Match 3",
           "UnitNum": "9",
           "IsLive": false,
-          "ShowResults": false,
+          "ShowResults": true,
           "Periods": [
             {
               "Order": 1,
@@ -108388,8 +108388,8 @@
             "Org": "IND",
             "Reg": "SQUMTEAM-------IND01",
             "Name": "India",
-            "Result": "",
-            "Winner": false,
+            "Result": "2",
+            "Winner": true,
             "HasData": true,
             "NameS": "India",
             "Medal": "",
@@ -108477,7 +108477,7 @@
             "Org": "CHN",
             "Reg": "SQUMTEAM-------CHN01",
             "Name": "People's Republic of China",
-            "Result": "",
+            "Result": "0",
             "Winner": false,
             "HasData": true,
             "NameS": "China",
@@ -108623,7 +108623,7 @@
               "Type": "UNIT_INFO",
               "Code": "TeamMatchDuration",
               "Pos": 0,
-              "Value": "0min",
+              "Value": "52min",
               "Extensions": []
             }
           ]
@@ -117553,10 +117553,10 @@
           "TeamReg": "TTEXDOUBLES----IND01",
           "TeamOrg": "IND",
           "TeamName": "SHAH Manush/CHITALE Diya",
+          "Medal": "ME_BRONZE",
           "Rank": "3",
           "IRM": "OK",
-          "Result": "",
-          "Medal": "ME_BRONZE"
+          "Result": ""
         }
       ],
       "schedule": [
@@ -123274,10 +123274,10 @@
           "TeamReg": "TTEXDOUBLES----IND01",
           "TeamOrg": "IND",
           "TeamName": "SHAH Manush/CHITALE Diya",
-          "Medal": "ME_BRONZE",
           "Rank": "3",
           "IRM": "OK",
-          "Result": ""
+          "Result": "",
+          "Medal": "ME_BRONZE"
         }
       ],
       "schedule": [
