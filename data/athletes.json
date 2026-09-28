@@ -263,8 +263,8 @@
           "isH2H": false,
           "Type": "A",
           "Medal": "1",
-          "Status": "START_LIST",
-          "StatusDesc": "Start List",
+          "Status": "GETTING_READY",
+          "StatusDesc": "Getting Ready",
           "DateTimeRaw": "2026-09-28T20:08:00+09:00",
           "HideStartDate": false,
           "Estimated": false,
@@ -287,8 +287,8 @@
           "UnitDescS": "Men's 1500m F",
           "UnitDescA": "",
           "UnitNum": "1",
-          "IsLive": false,
-          "ShowResults": false,
+          "IsLive": true,
+          "ShowResults": true,
           "Counters": {
             "Partics": 12,
             "Orgs": 7
@@ -2449,6 +2449,10 @@
       {
         "medal": "silver",
         "event": "4 x 400m Relay Mixed"
+      },
+      {
+        "medal": "bronze",
+        "event": "Women's 400m Hurdles"
       }
     ],
     "bio_data": {
@@ -2478,9 +2482,10 @@
           "Desc": "Women's 400m Hurdles",
           "DescS": "Women's 400m Hurdles",
           "isMember": false,
-          "Rank": "",
+          "Medal": "ME_BRONZE",
+          "Rank": "3",
           "IRM": "OK",
-          "Result": ""
+          "Result": "54.75"
         },
         {
           "Disc": "ATH",
@@ -2667,12 +2672,12 @@
         },
         {
           "Orgs": [
-            "TPE",
-            "JPN",
-            "CHN",
-            "IND",
             "UAE",
-            "KAZ"
+            "KAZ",
+            "IND",
+            "CHN",
+            "JPN",
+            "TPE"
           ],
           "IsPhase": false,
           "ResCode": "W.400MHURD----------.FNL-.000100--",
@@ -2683,8 +2688,8 @@
           "isH2H": false,
           "Type": "A",
           "Medal": "1",
-          "Status": "START_LIST",
-          "StatusDesc": "Start List",
+          "Status": "OFFICIAL",
+          "StatusDesc": "Official",
           "DateTimeRaw": "2026-09-28T19:23:00+09:00",
           "HideStartDate": false,
           "Estimated": false,
@@ -2708,11 +2713,46 @@
           "UnitDescA": "",
           "UnitNum": "1",
           "IsLive": false,
-          "ShowResults": false,
+          "ShowResults": true,
           "Counters": {
             "Partics": 8,
             "Orgs": 6
-          }
+          },
+          "Results": [
+            {
+              "Reg": "10466601",
+              "Org": "UAE",
+              "Name": "KAREEM Mariam",
+              "NameS": "KAREEM M",
+              "Result": "54.31",
+              "Winner": false,
+              "RkPo": 1,
+              "HasData": true,
+              "Medal": "ME_GOLD"
+            },
+            {
+              "Reg": "16513679",
+              "Org": "KAZ",
+              "Name": "ZEMS Adelina",
+              "NameS": "ZEMS A",
+              "Result": "54.58",
+              "Winner": false,
+              "RkPo": 2,
+              "HasData": true,
+              "Medal": "ME_SILVER"
+            },
+            {
+              "Reg": "5547605",
+              "Org": "IND",
+              "Name": "RAMRAJ Vithya",
+              "NameS": "RAMRAJ V",
+              "Result": "54.75",
+              "Winner": false,
+              "RkPo": 3,
+              "HasData": true,
+              "Medal": "ME_BRONZE"
+            }
+          ]
         }
       ],
       "historical": null
@@ -4033,8 +4073,8 @@
           "isH2H": false,
           "Type": "T",
           "Medal": "",
-          "Status": "UNOFFICIAL",
-          "StatusDesc": "Unofficial",
+          "Status": "OFFICIAL",
+          "StatusDesc": "Official",
           "DateTimeRaw": "2026-09-28T18:39:00+09:00",
           "HideStartDate": false,
           "Estimated": false,
@@ -4062,7 +4102,39 @@
           "Counters": {
             "Partics": 6,
             "Orgs": 6
-          }
+          },
+          "Results": [
+            {
+              "Reg": "ATHX4X100M-----CHN01",
+              "Org": "CHN",
+              "Name": "People's Republic of China",
+              "NameS": "China",
+              "Result": "41.52",
+              "Winner": false,
+              "RkPo": 1,
+              "HasData": true
+            },
+            {
+              "Reg": "ATHX4X100M-----IND01",
+              "Org": "IND",
+              "Name": "India",
+              "NameS": "India",
+              "Result": "41.54",
+              "Winner": false,
+              "RkPo": 2,
+              "HasData": true
+            },
+            {
+              "Reg": "ATHX4X100M-----OMA01",
+              "Org": "OMA",
+              "Name": "Oman",
+              "NameS": "Oman",
+              "Result": "43.76",
+              "Winner": false,
+              "RkPo": 3,
+              "HasData": true
+            }
+          ]
         }
       ],
       "historical": null
@@ -50742,10 +50814,10 @@
           "TeamReg": "KABMTEAM7------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
+          "Medal": "ME_GOLD",
           "Rank": "1",
           "IRM": "",
-          "Result": "",
-          "Medal": "ME_GOLD"
+          "Result": ""
         }
       ],
       "schedule": [
@@ -63664,10 +63736,10 @@
           "TeamReg": "KABMTEAM7------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
-          "Medal": "ME_GOLD",
           "Rank": "1",
           "IRM": "",
-          "Result": ""
+          "Result": "",
+          "Medal": "ME_GOLD"
         }
       ],
       "schedule": [
@@ -70908,10 +70980,10 @@
           "TeamReg": "KABWTEAM7------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
-          "Medal": "ME_GOLD",
           "Rank": "1",
           "IRM": "",
-          "Result": ""
+          "Result": "",
+          "Medal": "ME_GOLD"
         }
       ],
       "schedule": [
@@ -75555,10 +75627,10 @@
           "TeamReg": "KABWTEAM7------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
-          "Medal": "ME_GOLD",
           "Rank": "1",
           "IRM": "",
-          "Result": ""
+          "Result": "",
+          "Medal": "ME_GOLD"
         }
       ],
       "schedule": [
@@ -101652,8 +101724,8 @@
           "isH2H": true,
           "Type": "T",
           "Medal": "",
-          "Status": "RUNNING",
-          "StatusDesc": "Running",
+          "Status": "OFFICIAL",
+          "StatusDesc": "Official",
           "DateTimeRaw": "2026-09-28T17:30:00+09:00",
           "HideStartDate": false,
           "Estimated": false,
@@ -101676,7 +101748,7 @@
           "UnitDescS": "MT PA M 2",
           "UnitDescA": "Match 2",
           "UnitNum": "5",
-          "IsLive": true,
+          "IsLive": false,
           "ShowResults": true,
           "Periods": [
             {
@@ -101709,7 +101781,7 @@
             "Org": "IND",
             "Reg": "SQUMTEAM-------IND01",
             "Name": "India",
-            "Result": "2",
+            "Result": "3",
             "Winner": true,
             "HasData": true,
             "NameS": "India",
@@ -101935,7 +102007,7 @@
               "Type": "UNIT_INFO",
               "Code": "ResultDetailWinner",
               "Pos": 0,
-              "Value": "",
+              "Value": "3-0,3-0,3-0",
               "Extensions": []
             },
             {
@@ -101970,7 +102042,7 @@
               "Type": "UNIT_INFO",
               "Code": "TeamMatchDuration",
               "Pos": 0,
-              "Value": "56min",
+              "Value": "1h26min",
               "Extensions": []
             }
           ]
@@ -109746,8 +109818,8 @@
           "isH2H": true,
           "Type": "T",
           "Medal": "",
-          "Status": "RUNNING",
-          "StatusDesc": "Running",
+          "Status": "OFFICIAL",
+          "StatusDesc": "Official",
           "DateTimeRaw": "2026-09-28T17:30:00+09:00",
           "HideStartDate": false,
           "Estimated": false,
@@ -109770,7 +109842,7 @@
           "UnitDescS": "MT PA M 2",
           "UnitDescA": "Match 2",
           "UnitNum": "5",
-          "IsLive": true,
+          "IsLive": false,
           "ShowResults": true,
           "Periods": [
             {
@@ -109803,7 +109875,7 @@
             "Org": "IND",
             "Reg": "SQUMTEAM-------IND01",
             "Name": "India",
-            "Result": "2",
+            "Result": "3",
             "Winner": true,
             "HasData": true,
             "NameS": "India",
@@ -110029,7 +110101,7 @@
               "Type": "UNIT_INFO",
               "Code": "ResultDetailWinner",
               "Pos": 0,
-              "Value": "",
+              "Value": "3-0,3-0,3-0",
               "Extensions": []
             },
             {
@@ -110064,7 +110136,7 @@
               "Type": "UNIT_INFO",
               "Code": "TeamMatchDuration",
               "Pos": 0,
-              "Value": "56min",
+              "Value": "1h26min",
               "Extensions": []
             }
           ]
@@ -118657,10 +118729,10 @@
           "TeamReg": "TTEXDOUBLES----IND01",
           "TeamOrg": "IND",
           "TeamName": "SHAH Manush/CHITALE Diya",
+          "Medal": "ME_BRONZE",
           "Rank": "3",
           "IRM": "OK",
-          "Result": "",
-          "Medal": "ME_BRONZE"
+          "Result": ""
         }
       ],
       "schedule": [
@@ -129915,10 +129987,10 @@
           "Desc": "Women's 49kg",
           "DescS": "Women's 49kg",
           "isMember": false,
+          "Medal": "ME_SILVER",
           "Rank": "2",
           "IRM": "",
-          "Result": "198",
-          "Medal": "ME_SILVER"
+          "Result": "198"
         }
       ],
       "schedule": [
