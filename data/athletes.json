@@ -61713,10 +61713,10 @@
           "TeamReg": "KABMTEAM7------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
-          "Medal": "ME_GOLD",
           "Rank": "1",
           "IRM": "",
-          "Result": ""
+          "Result": "",
+          "Medal": "ME_GOLD"
         }
       ],
       "schedule": [
@@ -63559,10 +63559,10 @@
           "TeamReg": "KABMTEAM7------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
-          "Medal": "ME_GOLD",
           "Rank": "1",
           "IRM": "",
-          "Result": ""
+          "Result": "",
+          "Medal": "ME_GOLD"
         }
       ],
       "schedule": [
@@ -89666,10 +89666,10 @@
           "Desc": "Men's Double Sculls",
           "DescS": "Men's Double Sculls",
           "isMember": false,
+          "Medal": "ME_BRONZE",
           "Rank": "3",
           "IRM": "",
-          "Result": "6:13.25",
-          "Medal": "ME_BRONZE"
+          "Result": "6:13.25"
         }
       ],
       "schedule": [
@@ -91169,10 +91169,10 @@
           "TeamReg": "SHOMARTM-------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
+          "Medal": "ME_SILVER",
           "Rank": "2",
           "IRM": "",
-          "Result": "1890.1",
-          "Medal": "ME_SILVER"
+          "Result": "1890.1"
         }
       ],
       "schedule": [
@@ -102614,8 +102614,8 @@
           "isH2H": true,
           "Type": "T",
           "Medal": "",
-          "Status": "SCHEDULED",
-          "StatusDesc": "Scheduled",
+          "Status": "INTERMEDIATE",
+          "StatusDesc": "Intermediate",
           "DateTimeRaw": "2026-09-28T10:00:00+09:00",
           "HideStartDate": false,
           "Estimated": false,
@@ -102638,8 +102638,8 @@
           "UnitDescS": "WT PC M 5",
           "UnitDescA": "Match 5",
           "UnitNum": "16",
-          "IsLive": false,
-          "ShowResults": false,
+          "IsLive": true,
+          "ShowResults": true,
           "Periods": [
             {
               "Order": 1,
@@ -102671,7 +102671,7 @@
             "Org": "IND",
             "Reg": "SQUWTEAM-------IND01",
             "Name": "India",
-            "Result": "",
+            "Result": "0",
             "Winner": false,
             "HasData": true,
             "NameS": "India",
@@ -102760,7 +102760,7 @@
             "Org": "CHN",
             "Reg": "SQUWTEAM-------CHN01",
             "Name": "People's Republic of China",
-            "Result": "",
+            "Result": "1",
             "Winner": false,
             "HasData": true,
             "NameS": "China",
@@ -102906,7 +102906,7 @@
               "Type": "UNIT_INFO",
               "Code": "TeamMatchDuration",
               "Pos": 0,
-              "Value": "0min",
+              "Value": "33min",
               "Extensions": []
             }
           ]
@@ -104936,10 +104936,10 @@
           "TeamReg": "SQUXDOUBLES----IND02",
           "TeamOrg": "IND",
           "TeamName": "CHINAPPA J. /SENTHILKUMAR V.",
+          "Medal": "ME_BRONZE",
           "Rank": "3",
           "IRM": "OK",
-          "Result": "",
-          "Medal": "ME_BRONZE"
+          "Result": ""
         }
       ],
       "schedule": [
@@ -106069,8 +106069,8 @@
           "isH2H": true,
           "Type": "T",
           "Medal": "",
-          "Status": "SCHEDULED",
-          "StatusDesc": "Scheduled",
+          "Status": "INTERMEDIATE",
+          "StatusDesc": "Intermediate",
           "DateTimeRaw": "2026-09-28T10:00:00+09:00",
           "HideStartDate": false,
           "Estimated": false,
@@ -106093,8 +106093,8 @@
           "UnitDescS": "WT PC M 5",
           "UnitDescA": "Match 5",
           "UnitNum": "16",
-          "IsLive": false,
-          "ShowResults": false,
+          "IsLive": true,
+          "ShowResults": true,
           "Periods": [
             {
               "Order": 1,
@@ -106126,7 +106126,7 @@
             "Org": "IND",
             "Reg": "SQUWTEAM-------IND01",
             "Name": "India",
-            "Result": "",
+            "Result": "0",
             "Winner": false,
             "HasData": true,
             "NameS": "India",
@@ -106215,7 +106215,7 @@
             "Org": "CHN",
             "Reg": "SQUWTEAM-------CHN01",
             "Name": "People's Republic of China",
-            "Result": "",
+            "Result": "0",
             "Winner": false,
             "HasData": true,
             "NameS": "China",
