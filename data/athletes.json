@@ -1223,10 +1223,10 @@
           "TeamReg": "ATHX4X400M-----IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
-          "Medal": "ME_SILVER",
           "Rank": "2",
           "IRM": "OK",
-          "Result": "3:14.46"
+          "Result": "3:14.46",
+          "Medal": "ME_SILVER"
         }
       ],
       "schedule": [
@@ -13589,10 +13589,10 @@
           "TeamReg": "BDMMTEAM-------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
-          "Medal": "ME_BRONZE",
           "Rank": "3",
           "IRM": "OK",
-          "Result": ""
+          "Result": "",
+          "Medal": "ME_BRONZE"
         }
       ],
       "schedule": [
@@ -32454,10 +32454,10 @@
           "TeamReg": "CKTWTEAM-------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
-          "Medal": "ME_GOLD",
           "Rank": "1",
           "IRM": "",
-          "Result": ""
+          "Result": "",
+          "Medal": "ME_GOLD"
         }
       ],
       "schedule": [
@@ -36614,10 +36614,10 @@
           "TeamReg": "CKTWTEAM-------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
+          "Medal": "ME_GOLD",
           "Rank": "1",
           "IRM": "",
-          "Result": "",
-          "Medal": "ME_GOLD"
+          "Result": ""
         }
       ],
       "schedule": [
@@ -37654,10 +37654,10 @@
           "TeamReg": "CKTWTEAM-------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
-          "Medal": "ME_GOLD",
           "Rank": "1",
           "IRM": "",
-          "Result": ""
+          "Result": "",
+          "Medal": "ME_GOLD"
         }
       ],
       "schedule": [
@@ -54329,10 +54329,10 @@
           "TeamReg": "KABMTEAM7------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
+          "Medal": "ME_GOLD",
           "Rank": "1",
           "IRM": "",
-          "Result": "",
-          "Medal": "ME_GOLD"
+          "Result": ""
         }
       ],
       "schedule": [
@@ -56175,10 +56175,10 @@
           "TeamReg": "KABMTEAM7------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
+          "Medal": "ME_GOLD",
           "Rank": "1",
           "IRM": "",
-          "Result": "",
-          "Medal": "ME_GOLD"
+          "Result": ""
         }
       ],
       "schedule": [
@@ -63559,10 +63559,10 @@
           "TeamReg": "KABMTEAM7------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
+          "Medal": "ME_GOLD",
           "Rank": "1",
           "IRM": "",
-          "Result": "",
-          "Medal": "ME_GOLD"
+          "Result": ""
         }
       ],
       "schedule": [
@@ -70803,10 +70803,10 @@
           "TeamReg": "KABWTEAM7------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
-          "Medal": "ME_GOLD",
           "Rank": "1",
           "IRM": "",
-          "Result": ""
+          "Result": "",
+          "Medal": "ME_GOLD"
         }
       ],
       "schedule": [
@@ -75450,10 +75450,10 @@
           "TeamReg": "KABWTEAM7------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
+          "Medal": "ME_GOLD",
           "Rank": "1",
           "IRM": "",
-          "Result": "",
-          "Medal": "ME_GOLD"
+          "Result": ""
         }
       ],
       "schedule": [
@@ -81646,10 +81646,10 @@
           "TeamReg": "KABWTEAM7------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
+          "Medal": "ME_GOLD",
           "Rank": "1",
           "IRM": "",
-          "Result": "",
-          "Medal": "ME_GOLD"
+          "Result": ""
         }
       ],
       "schedule": [
@@ -86293,10 +86293,10 @@
           "TeamReg": "KABWTEAM7------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
+          "Medal": "ME_GOLD",
           "Rank": "1",
           "IRM": "",
-          "Result": "",
-          "Medal": "ME_GOLD"
+          "Result": ""
         }
       ],
       "schedule": [
@@ -87842,10 +87842,10 @@
           "TeamReg": "KABWTEAM7------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
+          "Medal": "ME_GOLD",
           "Rank": "1",
           "IRM": "",
-          "Result": "",
-          "Medal": "ME_GOLD"
+          "Result": ""
         }
       ],
       "schedule": [
@@ -89339,6 +89339,499 @@
     }
   },
   {
+    "reg": "3974004",
+    "name": "BALHARA Pincky",
+    "org": "IND",
+    "org_desc": "India",
+    "disc": "KUR",
+    "disc_desc": "Kurash",
+    "photo_url": "https://results.asiangames2026.org/ag2026/photos/3974004.jpg",
+    "medals": [
+      {
+        "medal": "bronze",
+        "event": "Women -78kg Final"
+      }
+    ],
+    "bio_data": {
+      "participant": {
+        "Reg": "3974004",
+        "Disc": "KUR",
+        "DiscDesc": "Kurash",
+        "hasMembers": false,
+        "Org": "IND",
+        "OrgDesc": "India",
+        "Type": "A",
+        "MedClass": "",
+        "Gender": "W",
+        "BirthDateRaw": "1998-10-20",
+        "Name": "BALHARA Pincky",
+        "NameS": "BALHARA P",
+        "GivenName": "Pincky",
+        "FamilyName": "BALHARA",
+        "IFId": "",
+        "Height": null,
+        "Weight": null
+      },
+      "entries": [
+        {
+          "Disc": "KUR",
+          "Reg": "3974004",
+          "EvKey": "W.78KG--------------",
+          "Desc": "Women -78kg",
+          "DescS": "Women -78kg",
+          "isMember": false,
+          "Rank": "3",
+          "IRM": "",
+          "Result": "",
+          "Medal": "ME_BRONZE"
+        }
+      ],
+      "schedule": [
+        {
+          "Orgs": [
+            "IND",
+            "KOR"
+          ],
+          "IsPhase": false,
+          "ResCode": "W.78KG--------------.QFNL.000300--",
+          "ShowLink": true,
+          "Disc": "KUR",
+          "DiscDesc": "Kurash",
+          "Key": "W.78KG--------------.QFNL.000300--",
+          "isH2H": true,
+          "Type": "A",
+          "Medal": "0",
+          "Status": "OFFICIAL",
+          "StatusDesc": "Official",
+          "DateTimeRaw": "2026-09-28T11:30:00+09:00",
+          "HideStartDate": false,
+          "Estimated": false,
+          "EstText": "",
+          "HideLocation": false,
+          "Venue": "PMA",
+          "VenueDesc": "Aichi Prefectural Martial Arts Hall",
+          "VenueDescS": "Aichi Prefectural Martial Arts Hall",
+          "Loc": "KU2",
+          "LocDesc": "Aichi Prefectural Martial Arts Hall Gilam 2",
+          "LocDescS": "Aichi Prefectural Martial Arts Hall Gilam 2",
+          "Event": "W.78KG--------------",
+          "EventDesc": "Women -78kg",
+          "Phase": "W.78KG--------------.QFNL",
+          "PhaseOrder": 23,
+          "PhaseDesc": "Women -78kg Quarterfinals",
+          "PhaseDescS": "Women -78kg Quarterfinals",
+          "PhaseDescA": "Quarterfinals",
+          "UnitDesc": "Quarterfinal Bout 3",
+          "UnitDescS": "Quarterfinal Bout 3",
+          "UnitDescA": "Quarterfinal Bout 3",
+          "UnitNum": "207",
+          "IsLive": false,
+          "ShowResults": true,
+          "Periods": [
+            {
+              "Order": 1,
+              "Desc": "1st Round",
+              "DescS": "R1"
+            }
+          ],
+          "Home": {
+            "Org": "IND",
+            "Reg": "3974004",
+            "Name": "BALHARA Pincky",
+            "Result": "3",
+            "Winner": true,
+            "HasData": true,
+            "NameS": "BALHARA P",
+            "Medal": "",
+            "Members": [
+              {
+                "Org": "IND",
+                "Bib": "",
+                "Name": "BALHARA Pincky",
+                "NameS": "BALHARA Pincky",
+                "FuncDesc": "Athlete",
+                "PosDesc": ""
+              }
+            ],
+            "Splits": [],
+            "Extensions": [
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "Color",
+                "Pos": 0,
+                "Value": "BLUE",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "WorldRanking",
+                "Pos": 0,
+                "Value": "",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "BestResult",
+                "Pos": 0,
+                "Value": "3",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "Khalol",
+                "Pos": 0,
+                "Value": "0",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "Yonbosh",
+                "Pos": 0,
+                "Value": "0",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "Chala",
+                "Pos": 0,
+                "Value": "1",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "Girrom",
+                "Pos": 0,
+                "Value": "0",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "Dakki",
+                "Pos": 0,
+                "Value": "0",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "Tanbekh",
+                "Pos": 0,
+                "Value": "0",
+                "Extensions": []
+              }
+            ]
+          },
+          "Away": {
+            "Org": "KOR",
+            "Reg": "14117225",
+            "Name": "LIM Garam",
+            "Result": "0",
+            "Winner": false,
+            "HasData": true,
+            "NameS": "LIM G",
+            "Medal": "",
+            "Members": [
+              {
+                "Org": "KOR",
+                "Bib": "",
+                "Name": "LIM Garam",
+                "NameS": "LIM Garam",
+                "FuncDesc": "Athlete",
+                "PosDesc": ""
+              }
+            ],
+            "Splits": [],
+            "Extensions": [
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "Color",
+                "Pos": 0,
+                "Value": "GREEN",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "WorldRanking",
+                "Pos": 0,
+                "Value": "",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "BestResult",
+                "Pos": 0,
+                "Value": "0",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "Khalol",
+                "Pos": 0,
+                "Value": "0",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "Yonbosh",
+                "Pos": 0,
+                "Value": "0",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "Chala",
+                "Pos": 0,
+                "Value": "0",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "Girrom",
+                "Pos": 0,
+                "Value": "0",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "Dakki",
+                "Pos": 0,
+                "Value": "0",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "Tanbekh",
+                "Pos": 0,
+                "Value": "1",
+                "Extensions": []
+              }
+            ]
+          }
+        },
+        {
+          "Orgs": [
+            "IND",
+            "KOR"
+          ],
+          "IsPhase": false,
+          "ResCode": "W.78KG--------------.SFNL.000200--",
+          "ShowLink": true,
+          "Disc": "KUR",
+          "DiscDesc": "Kurash",
+          "Key": "W.78KG--------------.SFNL.000200--",
+          "isH2H": true,
+          "Type": "A",
+          "Medal": "2",
+          "Status": "OFFICIAL",
+          "StatusDesc": "Official",
+          "DateTimeRaw": "2026-09-28T14:10:00+09:00",
+          "HideStartDate": false,
+          "Estimated": false,
+          "EstText": "",
+          "HideLocation": false,
+          "Venue": "PMA",
+          "VenueDesc": "Aichi Prefectural Martial Arts Hall",
+          "VenueDescS": "Aichi Prefectural Martial Arts Hall",
+          "Loc": "KU2",
+          "LocDesc": "Aichi Prefectural Martial Arts Hall Gilam 2",
+          "LocDescS": "Aichi Prefectural Martial Arts Hall Gilam 2",
+          "Event": "W.78KG--------------",
+          "EventDesc": "Women -78kg",
+          "Phase": "W.78KG--------------.SFNL",
+          "PhaseOrder": 24,
+          "PhaseDesc": "Women -78kg Semifinals",
+          "PhaseDescS": "Women -78kg Semifinals",
+          "PhaseDescA": "Semifinals",
+          "UnitDesc": "Semifinal Bout 2",
+          "UnitDescS": "Semifinal Bout 2",
+          "UnitDescA": "Semifinal Bout 2",
+          "UnitNum": "210",
+          "IsLive": false,
+          "ShowResults": true,
+          "Periods": [
+            {
+              "Order": 1,
+              "Desc": "1st Round",
+              "DescS": "R1"
+            }
+          ],
+          "Home": {
+            "Org": "IND",
+            "Reg": "3974004",
+            "Name": "BALHARA Pincky",
+            "Result": "0",
+            "Winner": false,
+            "HasData": true,
+            "NameS": "BALHARA P",
+            "Medal": "ME_BRONZE",
+            "Members": [
+              {
+                "Org": "IND",
+                "Bib": "",
+                "Name": "BALHARA Pincky",
+                "NameS": "BALHARA Pincky",
+                "FuncDesc": "Athlete",
+                "PosDesc": ""
+              }
+            ],
+            "Splits": [],
+            "Extensions": [
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "Color",
+                "Pos": 0,
+                "Value": "BLUE",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "WorldRanking",
+                "Pos": 0,
+                "Value": "",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "BestResult",
+                "Pos": 0,
+                "Value": "0",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "Khalol",
+                "Pos": 0,
+                "Value": "0",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "Yonbosh",
+                "Pos": 0,
+                "Value": "0",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "Chala",
+                "Pos": 0,
+                "Value": "0",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "Girrom",
+                "Pos": 0,
+                "Value": "0",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "Dakki",
+                "Pos": 0,
+                "Value": "1",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "Tanbekh",
+                "Pos": 0,
+                "Value": "0",
+                "Extensions": []
+              }
+            ]
+          },
+          "Away": {
+            "Org": "KOR",
+            "Reg": "14116599",
+            "Name": "MO Sumin",
+            "Result": "5",
+            "Winner": true,
+            "HasData": true,
+            "NameS": "MO S",
+            "Medal": "",
+            "Members": [
+              {
+                "Org": "KOR",
+                "Bib": "",
+                "Name": "MO Sumin",
+                "NameS": "MO Sumin",
+                "FuncDesc": "Athlete",
+                "PosDesc": ""
+              }
+            ],
+            "Splits": [],
+            "Extensions": [
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "Color",
+                "Pos": 0,
+                "Value": "GREEN",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "WorldRanking",
+                "Pos": 0,
+                "Value": "",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "BestResult",
+                "Pos": 0,
+                "Value": "5",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "Khalol",
+                "Pos": 0,
+                "Value": "0",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "Yonbosh",
+                "Pos": 0,
+                "Value": "1",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "Chala",
+                "Pos": 0,
+                "Value": "0",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "Girrom",
+                "Pos": 0,
+                "Value": "0",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "Dakki",
+                "Pos": 0,
+                "Value": "0",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "Tanbekh",
+                "Pos": 0,
+                "Value": "0",
+                "Extensions": []
+              }
+            ]
+          }
+        }
+      ],
+      "historical": null
+    }
+  },
+  {
     "reg": "7555",
     "name": "TARIYAL Suchika",
     "org": "IND",
@@ -89380,10 +89873,10 @@
           "Desc": "Women's Traditional -60kg",
           "DescS": "Women's Traditional -60kg",
           "isMember": false,
+          "Medal": "ME_BRONZE",
           "Rank": "3",
           "IRM": "",
-          "Result": "",
-          "Medal": "ME_BRONZE"
+          "Result": ""
         }
       ],
       "schedule": [
@@ -94530,6 +95023,512 @@
           "Counters": {
             "Partics": 8,
             "Orgs": 6
+          },
+          "Results": []
+        }
+      ],
+      "historical": null
+    }
+  },
+  {
+    "reg": "12855344",
+    "name": "SINGH Esha",
+    "org": "IND",
+    "org_desc": "India",
+    "disc": "SHO",
+    "disc_desc": "Shooting",
+    "photo_url": "https://results.asiangames2026.org/ag2026/photos/12855344.jpg",
+    "medals": [
+      {
+        "medal": "silver",
+        "event": "25m Pistol Women Individual"
+      }
+    ],
+    "bio_data": {
+      "participant": {
+        "Reg": "12855344",
+        "Disc": "SHO",
+        "DiscDesc": "Shooting",
+        "hasMembers": false,
+        "Org": "IND",
+        "OrgDesc": "India",
+        "Type": "A",
+        "MedClass": "",
+        "Gender": "W",
+        "BirthDateRaw": "2005-01-01",
+        "Name": "SINGH Esha",
+        "NameS": "SINGH E",
+        "GivenName": "Esha",
+        "FamilyName": "SINGH",
+        "IFId": "SHINDW0101200501",
+        "Height": 0,
+        "Weight": 0
+      },
+      "entries": [
+        {
+          "Disc": "SHO",
+          "Reg": "12855344",
+          "EvKey": "W.APTW--------------",
+          "Desc": "10m Air Pistol Women Team",
+          "DescS": "10m Air Pistol Women Team",
+          "isMember": true,
+          "TeamReg": "SHOWAPTW-------IND01",
+          "TeamOrg": "IND",
+          "TeamName": "India",
+          "Rank": "4",
+          "IRM": "",
+          "Result": "1719"
+        },
+        {
+          "Disc": "SHO",
+          "Reg": "12855344",
+          "EvKey": "W.APW---------------",
+          "Desc": "10m Air Pistol Women Individual",
+          "DescS": "10m Air Pistol Women Individual",
+          "isMember": false,
+          "Rank": "15",
+          "IRM": "",
+          "Result": ""
+        },
+        {
+          "Disc": "SHO",
+          "Reg": "12855344",
+          "EvKey": "W.SPTW--------------",
+          "Desc": "25m Pistol Women Team",
+          "DescS": "25m Pistol Women Team",
+          "isMember": true,
+          "TeamReg": "SHOWSPTW-------IND01",
+          "TeamOrg": "IND",
+          "TeamName": "India",
+          "Rank": "5",
+          "IRM": "",
+          "Result": "1727"
+        },
+        {
+          "Disc": "SHO",
+          "Reg": "12855344",
+          "EvKey": "W.SPW---------------",
+          "Desc": "25m Pistol Women Individual",
+          "DescS": "25m Pistol Women Individual",
+          "isMember": false,
+          "Medal": "ME_SILVER",
+          "Rank": "2",
+          "IRM": "",
+          "Result": "38"
+        }
+      ],
+      "schedule": [
+        {
+          "Orgs": [
+            "KOR",
+            "CHN",
+            "IND",
+            "VIE",
+            "IRI",
+            "KAZ",
+            "TPE",
+            "HKG",
+            "INA",
+            "JPN",
+            "UZB",
+            "PRK",
+            "PAK",
+            "MAS",
+            "THA",
+            "SGP",
+            "KGZ",
+            "MGL",
+            "BAN",
+            "QAT",
+            "MDV",
+            "PHI",
+            "UAE",
+            "TJK",
+            "YEM"
+          ],
+          "IsPhase": false,
+          "ResCode": "W.APW---------------.QUAL.000100--",
+          "ShowLink": true,
+          "Disc": "SHO",
+          "DiscDesc": "Shooting",
+          "Key": "W.APW---------------.QUAL.000100--",
+          "isH2H": false,
+          "Type": "A",
+          "Medal": "0",
+          "Status": "OFFICIAL",
+          "StatusDesc": "Official",
+          "DateTimeRaw": "2026-09-23T09:45:00+09:00",
+          "HideStartDate": false,
+          "Estimated": false,
+          "EstText": "Followed by",
+          "HideLocation": false,
+          "Venue": "PGS",
+          "VenueDesc": "Aichi Prefectural General Shooting Gallery",
+          "VenueDescS": "Aichi Pref. General Shooting Gallery",
+          "Loc": "SH2",
+          "LocDesc": "10m Range",
+          "LocDescS": "10m Range",
+          "Event": "W.APW---------------",
+          "EventDesc": "10m Air Pistol Women Individual",
+          "Phase": "W.APW---------------.QUAL",
+          "PhaseOrder": 1,
+          "PhaseDesc": "10m Air Pistol Women Individual Qualification",
+          "PhaseDescS": "10m Air Pistol Women Individual Qualification",
+          "PhaseDescA": "Qualification",
+          "UnitDesc": "10m Air Pistol Women Individual - Qualification",
+          "UnitDescS": "10m Air Pistol Women Individual - Qualification",
+          "UnitDescA": "Qualification",
+          "UnitNum": "1",
+          "IsLive": false,
+          "ShowResults": true,
+          "Counters": {
+            "Partics": 59,
+            "Orgs": 25
+          },
+          "Results": []
+        },
+        {
+          "Orgs": [
+            "CHN",
+            "KOR",
+            "VIE",
+            "IND",
+            "TPE",
+            "IRI",
+            "JPN",
+            "PRK",
+            "INA",
+            "KAZ",
+            "THA",
+            "MGL",
+            "MDV",
+            "QAT"
+          ],
+          "IsPhase": false,
+          "ResCode": "W.APTW--------------.FNL-.000100--",
+          "ShowLink": true,
+          "Disc": "SHO",
+          "DiscDesc": "Shooting",
+          "Key": "W.APTW--------------.FNL-.000100--",
+          "isH2H": false,
+          "Type": "T",
+          "Medal": "1",
+          "Status": "OFFICIAL",
+          "StatusDesc": "Official",
+          "DateTimeRaw": "2026-09-23T09:45:00+09:00",
+          "HideStartDate": false,
+          "Estimated": false,
+          "EstText": "Followed by",
+          "HideLocation": false,
+          "Venue": "PGS",
+          "VenueDesc": "Aichi Prefectural General Shooting Gallery",
+          "VenueDescS": "Aichi Pref. General Shooting Gallery",
+          "Loc": "SH2",
+          "LocDesc": "10m Range",
+          "LocDescS": "10m Range",
+          "Event": "W.APTW--------------",
+          "EventDesc": "10m Air Pistol Women Team",
+          "Phase": "W.APTW--------------.FNL-",
+          "PhaseOrder": 2,
+          "PhaseDesc": "10m Air Pistol Women Team Final",
+          "PhaseDescS": "10m Air Pistol Women Team Final",
+          "PhaseDescA": "Final",
+          "UnitDesc": "10m Air Pistol Women Team - Final",
+          "UnitDescS": "10m Air Pistol Women Team - Final",
+          "UnitDescA": "Final",
+          "UnitNum": "1",
+          "IsLive": false,
+          "ShowResults": true,
+          "Counters": {
+            "Partics": 14,
+            "Orgs": 14
+          },
+          "Results": []
+        },
+        {
+          "Orgs": [
+            "KOR",
+            "IRI",
+            "VIE",
+            "PRK",
+            "CHN",
+            "IND",
+            "UZB",
+            "KAZ",
+            "SGP",
+            "TPE",
+            "MAS",
+            "PHI",
+            "MGL",
+            "JPN",
+            "INA",
+            "THA",
+            "QAT",
+            "PAK"
+          ],
+          "IsPhase": false,
+          "ResCode": "W.SPW---------------.QUAL.000100--",
+          "ShowLink": true,
+          "Disc": "SHO",
+          "DiscDesc": "Shooting",
+          "Key": "W.SPW---------------.QUAL.000100--",
+          "isH2H": false,
+          "Type": "A",
+          "Medal": "0",
+          "Status": "OFFICIAL",
+          "StatusDesc": "Official",
+          "DateTimeRaw": "2026-09-27T09:40:00+09:00",
+          "HideStartDate": false,
+          "Estimated": false,
+          "EstText": "Followed by",
+          "HideLocation": false,
+          "Venue": "PGS",
+          "VenueDesc": "Aichi Prefectural General Shooting Gallery",
+          "VenueDescS": "Aichi Pref. General Shooting Gallery",
+          "Loc": "SH3",
+          "LocDesc": "25m Range",
+          "LocDescS": "25m Range",
+          "Event": "W.SPW---------------",
+          "EventDesc": "25m Pistol Women Individual",
+          "Phase": "W.SPW---------------.QUAL",
+          "PhaseOrder": 1,
+          "PhaseDesc": "25m Pistol Women Individual Qualification",
+          "PhaseDescS": "25m Pistol Women Individual Qualification",
+          "PhaseDescA": "Qualification",
+          "UnitDesc": "25m Pistol Women Individual - Qualification - Qualification Precision",
+          "UnitDescS": "25m Pistol Women Individual - Qualification - Qualification Precision",
+          "UnitDescA": "Precision",
+          "UnitNum": "1",
+          "IsLive": false,
+          "ShowResults": true,
+          "Counters": {
+            "Partics": 45,
+            "Orgs": 18
+          },
+          "Results": []
+        },
+        {
+          "Orgs": [
+            "KOR",
+            "CHN",
+            "IND",
+            "TPE",
+            "PRK",
+            "KAZ",
+            "VIE",
+            "THA",
+            "MGL",
+            "IRI",
+            "JPN",
+            "INA"
+          ],
+          "IsPhase": false,
+          "ResCode": "W.SPTW--------------.FNL-.000100--",
+          "ShowLink": true,
+          "Disc": "SHO",
+          "DiscDesc": "Shooting",
+          "Key": "W.SPTW--------------.FNL-.000100--",
+          "isH2H": false,
+          "Type": "T",
+          "Medal": "0",
+          "Status": "OFFICIAL",
+          "StatusDesc": "Official",
+          "DateTimeRaw": "2026-09-27T09:40:00+09:00",
+          "HideStartDate": false,
+          "Estimated": false,
+          "EstText": "Followed by",
+          "HideLocation": false,
+          "Venue": "PGS",
+          "VenueDesc": "Aichi Prefectural General Shooting Gallery",
+          "VenueDescS": "Aichi Pref. General Shooting Gallery",
+          "Loc": "SH3",
+          "LocDesc": "25m Range",
+          "LocDescS": "25m Range",
+          "Event": "W.SPTW--------------",
+          "EventDesc": "25m Pistol Women Team",
+          "Phase": "W.SPTW--------------.FNL-",
+          "PhaseOrder": 2,
+          "PhaseDesc": "25m Pistol Women Team Final",
+          "PhaseDescS": "25m Pistol Women Team Final",
+          "PhaseDescA": "Final",
+          "UnitDesc": "25m Pistol Women Team - Final - Final Precision",
+          "UnitDescS": "25m Pistol Women Team - Final - Final Precision",
+          "UnitDescA": "Precision",
+          "UnitNum": "1",
+          "IsLive": false,
+          "ShowResults": true,
+          "Counters": {
+            "Partics": 12,
+            "Orgs": 12
+          },
+          "Results": []
+        },
+        {
+          "Orgs": [
+            "IRI",
+            "CHN",
+            "VIE",
+            "PRK",
+            "TPE",
+            "KOR",
+            "IND",
+            "SGP",
+            "MGL",
+            "KAZ",
+            "MAS",
+            "JPN",
+            "INA",
+            "QAT",
+            "THA",
+            "PAK",
+            "UZB",
+            "PHI"
+          ],
+          "IsPhase": false,
+          "ResCode": "W.SPW---------------.QUAL.000200--",
+          "ShowLink": true,
+          "Disc": "SHO",
+          "DiscDesc": "Shooting",
+          "Key": "W.SPW---------------.QUAL.000200--",
+          "isH2H": false,
+          "Type": "A",
+          "Medal": "0",
+          "Status": "OFFICIAL",
+          "StatusDesc": "Official",
+          "DateTimeRaw": "2026-09-28T09:40:00+09:00",
+          "HideStartDate": false,
+          "Estimated": false,
+          "EstText": "Followed by",
+          "HideLocation": false,
+          "Venue": "PGS",
+          "VenueDesc": "Aichi Prefectural General Shooting Gallery",
+          "VenueDescS": "Aichi Pref. General Shooting Gallery",
+          "Loc": "SH3",
+          "LocDesc": "25m Range",
+          "LocDescS": "25m Range",
+          "Event": "W.SPW---------------",
+          "EventDesc": "25m Pistol Women Individual",
+          "Phase": "W.SPW---------------.QUAL",
+          "PhaseOrder": 1,
+          "PhaseDesc": "25m Pistol Women Individual Qualification",
+          "PhaseDescS": "25m Pistol Women Individual Qualification",
+          "PhaseDescA": "Qualification",
+          "UnitDesc": "25m Pistol Women Individual - Qualification - Qualification Rapid",
+          "UnitDescS": "25m Pistol Women Individual - Qualification - Qualification Rapid",
+          "UnitDescA": "Rapid",
+          "UnitNum": "2",
+          "IsLive": false,
+          "ShowResults": true,
+          "Counters": {
+            "Partics": 45,
+            "Orgs": 18
+          },
+          "Results": []
+        },
+        {
+          "Orgs": [
+            "CHN",
+            "KOR",
+            "TPE",
+            "VIE",
+            "IND",
+            "PRK",
+            "MGL",
+            "IRI",
+            "KAZ",
+            "JPN",
+            "THA",
+            "INA"
+          ],
+          "IsPhase": false,
+          "ResCode": "W.SPTW--------------.FNL-.000200--",
+          "ShowLink": true,
+          "Disc": "SHO",
+          "DiscDesc": "Shooting",
+          "Key": "W.SPTW--------------.FNL-.000200--",
+          "isH2H": false,
+          "Type": "T",
+          "Medal": "1",
+          "Status": "OFFICIAL",
+          "StatusDesc": "Official",
+          "DateTimeRaw": "2026-09-28T09:40:00+09:00",
+          "HideStartDate": false,
+          "Estimated": false,
+          "EstText": "Followed by",
+          "HideLocation": false,
+          "Venue": "PGS",
+          "VenueDesc": "Aichi Prefectural General Shooting Gallery",
+          "VenueDescS": "Aichi Pref. General Shooting Gallery",
+          "Loc": "SH3",
+          "LocDesc": "25m Range",
+          "LocDescS": "25m Range",
+          "Event": "W.SPTW--------------",
+          "EventDesc": "25m Pistol Women Team",
+          "Phase": "W.SPTW--------------.FNL-",
+          "PhaseOrder": 2,
+          "PhaseDesc": "25m Pistol Women Team Final",
+          "PhaseDescS": "25m Pistol Women Team Final",
+          "PhaseDescA": "Final",
+          "UnitDesc": "25m Pistol Women Team - Final - Final Rapid",
+          "UnitDescS": "25m Pistol Women Team - Final - Final Rapid",
+          "UnitDescA": "Rapid",
+          "UnitNum": "2",
+          "IsLive": false,
+          "ShowResults": true,
+          "Counters": {
+            "Partics": 12,
+            "Orgs": 12
+          },
+          "Results": []
+        },
+        {
+          "Orgs": [
+            "CHN",
+            "IND",
+            "PRK",
+            "VIE",
+            "TPE",
+            "IRI",
+            "KOR"
+          ],
+          "IsPhase": false,
+          "ResCode": "W.SPW---------------.FNL-.000100--",
+          "ShowLink": true,
+          "Disc": "SHO",
+          "DiscDesc": "Shooting",
+          "Key": "W.SPW---------------.FNL-.000100--",
+          "isH2H": false,
+          "Type": "A",
+          "Medal": "1",
+          "Status": "OFFICIAL",
+          "StatusDesc": "Official",
+          "DateTimeRaw": "2026-09-28T14:15:00+09:00",
+          "HideStartDate": false,
+          "Estimated": false,
+          "EstText": "Followed by",
+          "HideLocation": false,
+          "Venue": "PGS",
+          "VenueDesc": "Aichi Prefectural General Shooting Gallery",
+          "VenueDescS": "Aichi Pref. General Shooting Gallery",
+          "Loc": "SH1",
+          "LocDesc": "Final Range",
+          "LocDescS": "Final Range",
+          "Event": "W.SPW---------------",
+          "EventDesc": "25m Pistol Women Individual",
+          "Phase": "W.SPW---------------.FNL-",
+          "PhaseOrder": 2,
+          "PhaseDesc": "25m Pistol Women Individual Final",
+          "PhaseDescS": "25m Pistol Women Individual Final",
+          "PhaseDescA": "Final",
+          "UnitDesc": "25m Pistol Women Individual - Final",
+          "UnitDescS": "25m Pistol Women Individual - Final",
+          "UnitDescA": "Final",
+          "UnitNum": "1",
+          "IsLive": false,
+          "ShowResults": true,
+          "Counters": {
+            "Partics": 8,
+            "Orgs": 7
           },
           "Results": []
         }
@@ -109010,10 +110009,10 @@
           "Desc": "Men's Singles",
           "DescS": "Men's Singles",
           "isMember": false,
+          "Medal": "ME_BRONZE",
           "Rank": "3",
           "IRM": "OK",
-          "Result": "",
-          "Medal": "ME_BRONZE"
+          "Result": ""
         },
         {
           "Disc": "TST",
