@@ -97,10 +97,10 @@
           "Desc": "Women's 4 x 400m Relay",
           "DescS": "Women's 4 x 400m Relay",
           "isMember": false,
+          "Medal": "ME_GOLD",
           "Rank": "1",
           "IRM": "OK",
-          "Result": "3:29.69",
-          "Medal": "ME_GOLD"
+          "Result": "3:29.69"
         }
       ],
       "schedule": [
@@ -256,10 +256,10 @@
           "TeamReg": "ATHW4X400M-----IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
+          "Medal": "ME_GOLD",
           "Rank": "1",
           "IRM": "OK",
-          "Result": "3:29.69",
-          "Medal": "ME_GOLD"
+          "Result": "3:29.69"
         },
         {
           "Disc": "ATH",
