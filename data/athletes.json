@@ -22822,10 +22822,10 @@
           "TeamReg": "BDMMTEAM-------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
-          "Medal": "ME_BRONZE",
           "Rank": "3",
           "IRM": "OK",
-          "Result": ""
+          "Result": "",
+          "Medal": "ME_BRONZE"
         }
       ],
       "schedule": [
@@ -48225,10 +48225,10 @@
           "TeamReg": "KABMTEAM7------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
+          "Medal": "ME_GOLD",
           "Rank": "1",
           "IRM": "",
-          "Result": "",
-          "Medal": "ME_GOLD"
+          "Result": ""
         }
       ],
       "schedule": [
@@ -53799,10 +53799,10 @@
           "TeamReg": "KABMTEAM7------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
+          "Medal": "ME_GOLD",
           "Rank": "1",
           "IRM": "",
-          "Result": "",
-          "Medal": "ME_GOLD"
+          "Result": ""
         }
       ],
       "schedule": [
@@ -72237,10 +72237,10 @@
           "TeamReg": "KABWTEAM7------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
-          "Medal": "ME_GOLD",
           "Rank": "1",
           "IRM": "",
-          "Result": ""
+          "Result": "",
+          "Medal": "ME_GOLD"
         }
       ],
       "schedule": [
@@ -81591,10 +81591,10 @@
           "TeamReg": "KABWTEAM7------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
-          "Medal": "ME_GOLD",
           "Rank": "1",
           "IRM": "",
-          "Result": ""
+          "Result": "",
+          "Medal": "ME_GOLD"
         }
       ],
       "schedule": [
@@ -84709,10 +84709,10 @@
           "TeamReg": "KABWTEAM7------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
+          "Medal": "ME_GOLD",
           "Rank": "1",
           "IRM": "",
-          "Result": "",
-          "Medal": "ME_GOLD"
+          "Result": ""
         }
       ],
       "schedule": [
@@ -89386,10 +89386,10 @@
           "TeamReg": "KABWTEAM7------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
+          "Medal": "ME_GOLD",
           "Rank": "1",
           "IRM": "",
-          "Result": "",
-          "Medal": "ME_GOLD"
+          "Result": ""
         }
       ],
       "schedule": [
@@ -91431,10 +91431,10 @@
           "Desc": "Women's Traditional -60kg",
           "DescS": "Women's Traditional -60kg",
           "isMember": false,
+          "Medal": "ME_BRONZE",
           "Rank": "3",
           "IRM": "",
-          "Result": "",
-          "Medal": "ME_BRONZE"
+          "Result": ""
         }
       ],
       "schedule": [
@@ -92607,10 +92607,10 @@
           "TeamReg": "SHOXAPMT-------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
+          "Medal": "ME_GOLD",
           "Rank": "1",
           "IRM": "",
-          "Result": "484.6",
-          "Medal": "ME_GOLD"
+          "Result": "484.6"
         }
       ],
       "schedule": [
@@ -94049,10 +94049,10 @@
           "TeamReg": "SHOMARTM-------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
-          "Medal": "ME_SILVER",
           "Rank": "2",
           "IRM": "",
-          "Result": "1890.1"
+          "Result": "1890.1",
+          "Medal": "ME_SILVER"
         },
         {
           "Disc": "SHO",
@@ -94758,10 +94758,10 @@
           "TeamReg": "SHOMR3PTM------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
+          "Medal": "ME_SILVER",
           "Rank": "2",
           "IRM": "",
-          "Result": "1762",
-          "Medal": "ME_SILVER"
+          "Result": "1762"
         }
       ],
       "schedule": [
@@ -95525,10 +95525,10 @@
           "TeamReg": "SHOWARTW-------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
-          "Medal": "ME_SILVER",
           "Rank": "2",
           "IRM": "",
-          "Result": "1898.0"
+          "Result": "1898.0",
+          "Medal": "ME_SILVER"
         },
         {
           "Disc": "SHO",
@@ -97225,6 +97225,1504 @@
     }
   },
   {
+    "reg": "SHOWTRTW-------IND01",
+    "name": "India",
+    "org": "IND",
+    "org_desc": "India",
+    "disc": "SHO",
+    "disc_desc": "Shooting",
+    "photo_url": null,
+    "medals": [
+      {
+        "medal": "silver",
+        "event": "Trap Women Team"
+      }
+    ],
+    "bio_data": {
+      "participant": {
+        "Reg": "SHOWTRTW-------IND01",
+        "Disc": "SHO",
+        "DiscDesc": "Shooting",
+        "hasMembers": true,
+        "Org": "IND",
+        "OrgDesc": "India",
+        "Type": "T",
+        "MedClass": "",
+        "Gender": "W",
+        "Name": "India",
+        "NameS": "India",
+        "GivenName": "",
+        "FamilyName": "",
+        "Height": 0,
+        "Weight": 0,
+        "Members": [
+          {
+            "Reg": "12617084",
+            "Org": "IND",
+            "Gender": "W",
+            "Order": 1,
+            "Bib": "1087",
+            "Name": "AHLAWAT Aashima",
+            "BirthDateRaw": "2003-09-27",
+            "Position": "",
+            "PosDesc": "",
+            "Function": "AA01",
+            "FuncDesc": "Athlete",
+            "Substitute": false
+          },
+          {
+            "Reg": "13021576",
+            "Org": "IND",
+            "Gender": "W",
+            "Order": 2,
+            "Bib": "1095",
+            "Name": "NEERU",
+            "BirthDateRaw": "2000-05-25",
+            "Position": "",
+            "PosDesc": "",
+            "Function": "AA01",
+            "FuncDesc": "Athlete",
+            "Substitute": false
+          },
+          {
+            "Reg": "13031940",
+            "Org": "IND",
+            "Gender": "W",
+            "Order": 3,
+            "Bib": "1096",
+            "Name": "KEER Manisha",
+            "BirthDateRaw": "1999-07-15",
+            "Position": "",
+            "PosDesc": "",
+            "Function": "AA01",
+            "FuncDesc": "Athlete",
+            "Substitute": false
+          }
+        ]
+      },
+      "entries": [
+        {
+          "Disc": "SHO",
+          "Reg": "SHOWTRTW-------IND01",
+          "EvKey": "W.TRTW--------------",
+          "Desc": "Trap Women Team",
+          "DescS": "Trap Women Team",
+          "isMember": false,
+          "Medal": "ME_SILVER",
+          "Rank": "2",
+          "IRM": "",
+          "Result": "328"
+        }
+      ],
+      "schedule": [
+        {
+          "Orgs": [
+            "CHN",
+            "IND",
+            "QAT",
+            "KUW",
+            "KAZ",
+            "JPN"
+          ],
+          "IsPhase": false,
+          "ResCode": "W.TRTW--------------.FNL-.000100--",
+          "ShowLink": true,
+          "Disc": "SHO",
+          "DiscDesc": "Shooting",
+          "Key": "W.TRTW--------------.FNL-.000100--",
+          "isH2H": false,
+          "Type": "T",
+          "Medal": "0",
+          "Status": "OFFICIAL",
+          "StatusDesc": "Official",
+          "DateTimeRaw": "2026-09-27T10:00:00+09:00",
+          "HideStartDate": false,
+          "Estimated": false,
+          "EstText": "Followed by",
+          "HideLocation": false,
+          "Venue": "PGS",
+          "VenueDesc": "Aichi Prefectural General Shooting Gallery",
+          "VenueDescS": "Aichi Pref. General Shooting Gallery",
+          "Loc": "SH5",
+          "LocDesc": "Shotgun Range",
+          "LocDescS": "Shotgun Range",
+          "Event": "W.TRTW--------------",
+          "EventDesc": "Trap Women Team",
+          "Phase": "W.TRTW--------------.FNL-",
+          "PhaseOrder": 2,
+          "PhaseDesc": "Trap Women Team Final",
+          "PhaseDescS": "Trap Women Team Final",
+          "PhaseDescA": "Final",
+          "UnitDesc": "Trap Women Team - Final - Day 1",
+          "UnitDescS": "Trap Women Team - Final - Day 1",
+          "UnitDescA": "Day 1",
+          "EndDateTimeRaw": "2026-09-27T12:45:00+09:00",
+          "ActualEndDateTimeRaw": "2026-09-27T12:45:00+09:00",
+          "UnitNum": "1",
+          "IsLive": false,
+          "ShowResults": true,
+          "Counters": {
+            "Partics": 6,
+            "Orgs": 6
+          },
+          "Results": []
+        },
+        {
+          "Orgs": [
+            "CHN",
+            "KUW",
+            "IND",
+            "QAT",
+            "KAZ",
+            "JPN"
+          ],
+          "IsPhase": false,
+          "ResCode": "W.TRTW--------------.FNL-.000200--",
+          "ShowLink": true,
+          "Disc": "SHO",
+          "DiscDesc": "Shooting",
+          "Key": "W.TRTW--------------.FNL-.000200--",
+          "isH2H": false,
+          "Type": "T",
+          "Medal": "0",
+          "Status": "OFFICIAL",
+          "StatusDesc": "Official",
+          "DateTimeRaw": "2026-09-28T10:00:00+09:00",
+          "HideStartDate": false,
+          "Estimated": false,
+          "EstText": "Followed by",
+          "HideLocation": false,
+          "Venue": "PGS",
+          "VenueDesc": "Aichi Prefectural General Shooting Gallery",
+          "VenueDescS": "Aichi Pref. General Shooting Gallery",
+          "Loc": "SH5",
+          "LocDesc": "Shotgun Range",
+          "LocDescS": "Shotgun Range",
+          "Event": "W.TRTW--------------",
+          "EventDesc": "Trap Women Team",
+          "Phase": "W.TRTW--------------.FNL-",
+          "PhaseOrder": 2,
+          "PhaseDesc": "Trap Women Team Final",
+          "PhaseDescS": "Trap Women Team Final",
+          "PhaseDescA": "Final",
+          "UnitDesc": "Trap Women Team - Final - Day 2",
+          "UnitDescS": "Trap Women Team - Final - Day 2",
+          "UnitDescA": "Day 2",
+          "EndDateTimeRaw": "2026-09-28T12:45:00+09:00",
+          "ActualEndDateTimeRaw": "2026-09-28T12:45:00+09:00",
+          "UnitNum": "2",
+          "IsLive": false,
+          "ShowResults": true,
+          "Counters": {
+            "Partics": 6,
+            "Orgs": 6
+          },
+          "Results": []
+        },
+        {
+          "Orgs": [
+            "CHN",
+            "IND",
+            "KUW",
+            "QAT",
+            "JPN",
+            "KAZ"
+          ],
+          "IsPhase": false,
+          "ResCode": "W.TRTW--------------.FNL-.000300--",
+          "ShowLink": true,
+          "Disc": "SHO",
+          "DiscDesc": "Shooting",
+          "Key": "W.TRTW--------------.FNL-.000300--",
+          "isH2H": false,
+          "Type": "T",
+          "Medal": "1",
+          "Status": "OFFICIAL",
+          "StatusDesc": "Official",
+          "DateTimeRaw": "2026-09-29T10:00:00+09:00",
+          "HideStartDate": false,
+          "Estimated": false,
+          "EstText": "Followed by",
+          "HideLocation": false,
+          "Venue": "PGS",
+          "VenueDesc": "Aichi Prefectural General Shooting Gallery",
+          "VenueDescS": "Aichi Pref. General Shooting Gallery",
+          "Loc": "SH5",
+          "LocDesc": "Shotgun Range",
+          "LocDescS": "Shotgun Range",
+          "Event": "W.TRTW--------------",
+          "EventDesc": "Trap Women Team",
+          "Phase": "W.TRTW--------------.FNL-",
+          "PhaseOrder": 2,
+          "PhaseDesc": "Trap Women Team Final",
+          "PhaseDescS": "Trap Women Team Final",
+          "PhaseDescA": "Final",
+          "UnitDesc": "Trap Women Team - Final - Day 3",
+          "UnitDescS": "Trap Women Team - Final - Day 3",
+          "UnitDescA": "Day 3",
+          "EndDateTimeRaw": "2026-09-29T12:00:00+09:00",
+          "ActualEndDateTimeRaw": "2026-09-29T12:00:00+09:00",
+          "UnitNum": "3",
+          "IsLive": false,
+          "ShowResults": true,
+          "Counters": {
+            "Partics": 6,
+            "Orgs": 6
+          },
+          "Results": []
+        }
+      ],
+      "historical": null
+    }
+  },
+  {
+    "reg": "12617084",
+    "name": "AHLAWAT Aashima",
+    "org": "IND",
+    "org_desc": "India",
+    "disc": "SHO",
+    "disc_desc": "Shooting",
+    "photo_url": "https://results.asiangames2026.org/ag2026/photos/12617084.jpg",
+    "medals": [
+      {
+        "medal": "silver",
+        "event": "Trap Women Team"
+      }
+    ],
+    "bio_data": {
+      "participant": {
+        "Reg": "12617084",
+        "Disc": "SHO",
+        "DiscDesc": "Shooting",
+        "hasMembers": false,
+        "Org": "IND",
+        "OrgDesc": "India",
+        "Type": "A",
+        "MedClass": "",
+        "Gender": "W",
+        "BirthDateRaw": "2003-09-27",
+        "Name": "AHLAWAT Aashima",
+        "NameS": "AHLAWAT A",
+        "GivenName": "Aashima",
+        "FamilyName": "AHLAWAT",
+        "IFId": "SHINDW2709200301",
+        "Height": 0,
+        "Weight": 0
+      },
+      "entries": [
+        {
+          "Disc": "SHO",
+          "Reg": "12617084",
+          "EvKey": "W.TRTW--------------",
+          "Desc": "Trap Women Team",
+          "DescS": "Trap Women Team",
+          "isMember": true,
+          "TeamReg": "SHOWTRTW-------IND01",
+          "TeamOrg": "IND",
+          "TeamName": "India",
+          "Rank": "2",
+          "IRM": "",
+          "Result": "328",
+          "Medal": "ME_SILVER"
+        },
+        {
+          "Disc": "SHO",
+          "Reg": "12617084",
+          "EvKey": "W.TRW---------------",
+          "Desc": "Trap Women Individual",
+          "DescS": "Trap Women Individual",
+          "isMember": false
+        }
+      ],
+      "schedule": [
+        {
+          "Orgs": [
+            "IND",
+            "QAT",
+            "CHN",
+            "KOR",
+            "TPE",
+            "KUW",
+            "KAZ",
+            "THA",
+            "JPN",
+            "BRN",
+            "INA",
+            "IRI"
+          ],
+          "IsPhase": false,
+          "ResCode": "W.TRW---------------.QUAL.000100--",
+          "ShowLink": true,
+          "Disc": "SHO",
+          "DiscDesc": "Shooting",
+          "Key": "W.TRW---------------.QUAL.000100--",
+          "isH2H": false,
+          "Type": "A",
+          "Medal": "0",
+          "Status": "OFFICIAL",
+          "StatusDesc": "Official",
+          "DateTimeRaw": "2026-09-27T10:00:00+09:00",
+          "HideStartDate": false,
+          "Estimated": false,
+          "EstText": "Followed by",
+          "HideLocation": false,
+          "Venue": "PGS",
+          "VenueDesc": "Aichi Prefectural General Shooting Gallery",
+          "VenueDescS": "Aichi Pref. General Shooting Gallery",
+          "Loc": "SH5",
+          "LocDesc": "Shotgun Range",
+          "LocDescS": "Shotgun Range",
+          "Event": "W.TRW---------------",
+          "EventDesc": "Trap Women Individual",
+          "Phase": "W.TRW---------------.QUAL",
+          "PhaseOrder": 1,
+          "PhaseDesc": "Trap Women Individual Qualification",
+          "PhaseDescS": "Trap Women Individual Qualification",
+          "PhaseDescA": "Qualification",
+          "UnitDesc": "Trap Women Individual - Qualification - Qualification - Day 1",
+          "UnitDescS": "Trap Women Individual - Qualification - Qualification - Day 1",
+          "UnitDescA": "Day 1",
+          "EndDateTimeRaw": "2026-09-27T12:45:00+09:00",
+          "ActualEndDateTimeRaw": "2026-09-27T12:45:00+09:00",
+          "UnitNum": "1",
+          "IsLive": false,
+          "ShowResults": true,
+          "Counters": {
+            "Partics": 27,
+            "Orgs": 12
+          },
+          "Results": []
+        },
+        {
+          "Orgs": [
+            "CHN",
+            "IND",
+            "QAT",
+            "KUW",
+            "KAZ",
+            "JPN"
+          ],
+          "IsPhase": false,
+          "ResCode": "W.TRTW--------------.FNL-.000100--",
+          "ShowLink": true,
+          "Disc": "SHO",
+          "DiscDesc": "Shooting",
+          "Key": "W.TRTW--------------.FNL-.000100--",
+          "isH2H": false,
+          "Type": "T",
+          "Medal": "0",
+          "Status": "OFFICIAL",
+          "StatusDesc": "Official",
+          "DateTimeRaw": "2026-09-27T10:00:00+09:00",
+          "HideStartDate": false,
+          "Estimated": false,
+          "EstText": "Followed by",
+          "HideLocation": false,
+          "Venue": "PGS",
+          "VenueDesc": "Aichi Prefectural General Shooting Gallery",
+          "VenueDescS": "Aichi Pref. General Shooting Gallery",
+          "Loc": "SH5",
+          "LocDesc": "Shotgun Range",
+          "LocDescS": "Shotgun Range",
+          "Event": "W.TRTW--------------",
+          "EventDesc": "Trap Women Team",
+          "Phase": "W.TRTW--------------.FNL-",
+          "PhaseOrder": 2,
+          "PhaseDesc": "Trap Women Team Final",
+          "PhaseDescS": "Trap Women Team Final",
+          "PhaseDescA": "Final",
+          "UnitDesc": "Trap Women Team - Final - Day 1",
+          "UnitDescS": "Trap Women Team - Final - Day 1",
+          "UnitDescA": "Day 1",
+          "EndDateTimeRaw": "2026-09-27T12:45:00+09:00",
+          "ActualEndDateTimeRaw": "2026-09-27T12:45:00+09:00",
+          "UnitNum": "1",
+          "IsLive": false,
+          "ShowResults": true,
+          "Counters": {
+            "Partics": 6,
+            "Orgs": 6
+          },
+          "Results": []
+        },
+        {
+          "Orgs": [
+            "IND",
+            "QAT",
+            "CHN",
+            "TPE",
+            "KUW",
+            "KOR",
+            "THA",
+            "KAZ",
+            "JPN",
+            "IRI",
+            "BRN",
+            "INA"
+          ],
+          "IsPhase": false,
+          "ResCode": "W.TRW---------------.QUAL.000200--",
+          "ShowLink": true,
+          "Disc": "SHO",
+          "DiscDesc": "Shooting",
+          "Key": "W.TRW---------------.QUAL.000200--",
+          "isH2H": false,
+          "Type": "A",
+          "Medal": "0",
+          "Status": "OFFICIAL",
+          "StatusDesc": "Official",
+          "DateTimeRaw": "2026-09-28T10:00:00+09:00",
+          "HideStartDate": false,
+          "Estimated": false,
+          "EstText": "Followed by",
+          "HideLocation": false,
+          "Venue": "PGS",
+          "VenueDesc": "Aichi Prefectural General Shooting Gallery",
+          "VenueDescS": "Aichi Pref. General Shooting Gallery",
+          "Loc": "SH5",
+          "LocDesc": "Shotgun Range",
+          "LocDescS": "Shotgun Range",
+          "Event": "W.TRW---------------",
+          "EventDesc": "Trap Women Individual",
+          "Phase": "W.TRW---------------.QUAL",
+          "PhaseOrder": 1,
+          "PhaseDesc": "Trap Women Individual Qualification",
+          "PhaseDescS": "Trap Women Individual Qualification",
+          "PhaseDescA": "Qualification",
+          "UnitDesc": "Trap Women Individual - Qualification - Qualification - Day 2",
+          "UnitDescS": "Trap Women Individual - Qualification - Qualification - Day 2",
+          "UnitDescA": "Day 2",
+          "EndDateTimeRaw": "2026-09-28T12:45:00+09:00",
+          "ActualEndDateTimeRaw": "2026-09-28T12:45:00+09:00",
+          "UnitNum": "2",
+          "IsLive": false,
+          "ShowResults": true,
+          "Counters": {
+            "Partics": 27,
+            "Orgs": 12
+          },
+          "Results": []
+        },
+        {
+          "Orgs": [
+            "CHN",
+            "KUW",
+            "IND",
+            "QAT",
+            "KAZ",
+            "JPN"
+          ],
+          "IsPhase": false,
+          "ResCode": "W.TRTW--------------.FNL-.000200--",
+          "ShowLink": true,
+          "Disc": "SHO",
+          "DiscDesc": "Shooting",
+          "Key": "W.TRTW--------------.FNL-.000200--",
+          "isH2H": false,
+          "Type": "T",
+          "Medal": "0",
+          "Status": "OFFICIAL",
+          "StatusDesc": "Official",
+          "DateTimeRaw": "2026-09-28T10:00:00+09:00",
+          "HideStartDate": false,
+          "Estimated": false,
+          "EstText": "Followed by",
+          "HideLocation": false,
+          "Venue": "PGS",
+          "VenueDesc": "Aichi Prefectural General Shooting Gallery",
+          "VenueDescS": "Aichi Pref. General Shooting Gallery",
+          "Loc": "SH5",
+          "LocDesc": "Shotgun Range",
+          "LocDescS": "Shotgun Range",
+          "Event": "W.TRTW--------------",
+          "EventDesc": "Trap Women Team",
+          "Phase": "W.TRTW--------------.FNL-",
+          "PhaseOrder": 2,
+          "PhaseDesc": "Trap Women Team Final",
+          "PhaseDescS": "Trap Women Team Final",
+          "PhaseDescA": "Final",
+          "UnitDesc": "Trap Women Team - Final - Day 2",
+          "UnitDescS": "Trap Women Team - Final - Day 2",
+          "UnitDescA": "Day 2",
+          "EndDateTimeRaw": "2026-09-28T12:45:00+09:00",
+          "ActualEndDateTimeRaw": "2026-09-28T12:45:00+09:00",
+          "UnitNum": "2",
+          "IsLive": false,
+          "ShowResults": true,
+          "Counters": {
+            "Partics": 6,
+            "Orgs": 6
+          },
+          "Results": []
+        },
+        {
+          "Orgs": [
+            "QAT",
+            "IND",
+            "CHN",
+            "TPE",
+            "KUW",
+            "KAZ",
+            "JPN",
+            "KOR",
+            "IRI",
+            "THA",
+            "BRN",
+            "INA"
+          ],
+          "IsPhase": false,
+          "ResCode": "W.TRW---------------.QUAL.000300--",
+          "ShowLink": true,
+          "Disc": "SHO",
+          "DiscDesc": "Shooting",
+          "Key": "W.TRW---------------.QUAL.000300--",
+          "isH2H": false,
+          "Type": "A",
+          "Medal": "0",
+          "Status": "RUNNING",
+          "StatusDesc": "Running",
+          "DateTimeRaw": "2026-09-29T10:00:00+09:00",
+          "HideStartDate": false,
+          "Estimated": false,
+          "EstText": "Followed by",
+          "HideLocation": false,
+          "Venue": "PGS",
+          "VenueDesc": "Aichi Prefectural General Shooting Gallery",
+          "VenueDescS": "Aichi Pref. General Shooting Gallery",
+          "Loc": "SH5",
+          "LocDesc": "Shotgun Range",
+          "LocDescS": "Shotgun Range",
+          "Event": "W.TRW---------------",
+          "EventDesc": "Trap Women Individual",
+          "Phase": "W.TRW---------------.QUAL",
+          "PhaseOrder": 1,
+          "PhaseDesc": "Trap Women Individual Qualification",
+          "PhaseDescS": "Trap Women Individual Qualification",
+          "PhaseDescA": "Qualification",
+          "UnitDesc": "Trap Women Individual - Qualification - Qualification - Day 3",
+          "UnitDescS": "Trap Women Individual - Qualification - Qualification - Day 3",
+          "UnitDescA": "Day 3",
+          "EndDateTimeRaw": "2026-09-29T12:00:00+09:00",
+          "ActualEndDateTimeRaw": "2026-09-29T12:00:00+09:00",
+          "UnitNum": "3",
+          "IsLive": true,
+          "ShowResults": true,
+          "Counters": {
+            "Partics": 27,
+            "Orgs": 12
+          }
+        },
+        {
+          "Orgs": [
+            "CHN",
+            "IND",
+            "KUW",
+            "QAT",
+            "JPN",
+            "KAZ"
+          ],
+          "IsPhase": false,
+          "ResCode": "W.TRTW--------------.FNL-.000300--",
+          "ShowLink": true,
+          "Disc": "SHO",
+          "DiscDesc": "Shooting",
+          "Key": "W.TRTW--------------.FNL-.000300--",
+          "isH2H": false,
+          "Type": "T",
+          "Medal": "1",
+          "Status": "OFFICIAL",
+          "StatusDesc": "Official",
+          "DateTimeRaw": "2026-09-29T10:00:00+09:00",
+          "HideStartDate": false,
+          "Estimated": false,
+          "EstText": "Followed by",
+          "HideLocation": false,
+          "Venue": "PGS",
+          "VenueDesc": "Aichi Prefectural General Shooting Gallery",
+          "VenueDescS": "Aichi Pref. General Shooting Gallery",
+          "Loc": "SH5",
+          "LocDesc": "Shotgun Range",
+          "LocDescS": "Shotgun Range",
+          "Event": "W.TRTW--------------",
+          "EventDesc": "Trap Women Team",
+          "Phase": "W.TRTW--------------.FNL-",
+          "PhaseOrder": 2,
+          "PhaseDesc": "Trap Women Team Final",
+          "PhaseDescS": "Trap Women Team Final",
+          "PhaseDescA": "Final",
+          "UnitDesc": "Trap Women Team - Final - Day 3",
+          "UnitDescS": "Trap Women Team - Final - Day 3",
+          "UnitDescA": "Day 3",
+          "EndDateTimeRaw": "2026-09-29T12:00:00+09:00",
+          "ActualEndDateTimeRaw": "2026-09-29T12:00:00+09:00",
+          "UnitNum": "3",
+          "IsLive": false,
+          "ShowResults": true,
+          "Counters": {
+            "Partics": 6,
+            "Orgs": 6
+          },
+          "Results": []
+        }
+      ],
+      "historical": null
+    }
+  },
+  {
+    "reg": "13021576",
+    "name": "NEERU",
+    "org": "IND",
+    "org_desc": "India",
+    "disc": "SHO",
+    "disc_desc": "Shooting",
+    "photo_url": "https://results.asiangames2026.org/ag2026/photos/13021576.jpg",
+    "medals": [
+      {
+        "medal": "silver",
+        "event": "Trap Women Team"
+      }
+    ],
+    "bio_data": {
+      "participant": {
+        "Reg": "13021576",
+        "Disc": "SHO",
+        "DiscDesc": "Shooting",
+        "hasMembers": false,
+        "Org": "IND",
+        "OrgDesc": "India",
+        "Type": "A",
+        "MedClass": "",
+        "Gender": "W",
+        "BirthDateRaw": "2000-05-25",
+        "Name": "NEERU",
+        "NameS": "NEERU",
+        "GivenName": "",
+        "FamilyName": "NEERU",
+        "IFId": "",
+        "Height": 0,
+        "Weight": 0
+      },
+      "entries": [
+        {
+          "Disc": "SHO",
+          "Reg": "13021576",
+          "EvKey": "W.TRTW--------------",
+          "Desc": "Trap Women Team",
+          "DescS": "Trap Women Team",
+          "isMember": true,
+          "TeamReg": "SHOWTRTW-------IND01",
+          "TeamOrg": "IND",
+          "TeamName": "India",
+          "Medal": "ME_SILVER",
+          "Rank": "2",
+          "IRM": "",
+          "Result": "328"
+        },
+        {
+          "Disc": "SHO",
+          "Reg": "13021576",
+          "EvKey": "W.TRW---------------",
+          "Desc": "Trap Women Individual",
+          "DescS": "Trap Women Individual",
+          "isMember": false
+        },
+        {
+          "Disc": "SHO",
+          "Reg": "13021576",
+          "EvKey": "X.TRMT--------------",
+          "Desc": "Trap Mixed Team",
+          "DescS": "Trap Mixed Team",
+          "isMember": true,
+          "TeamReg": "SHOXTRMT-------IND01",
+          "TeamOrg": "IND",
+          "TeamName": "India"
+        }
+      ],
+      "schedule": [
+        {
+          "Orgs": [
+            "IND",
+            "QAT",
+            "CHN",
+            "KOR",
+            "TPE",
+            "KUW",
+            "KAZ",
+            "THA",
+            "JPN",
+            "BRN",
+            "INA",
+            "IRI"
+          ],
+          "IsPhase": false,
+          "ResCode": "W.TRW---------------.QUAL.000100--",
+          "ShowLink": true,
+          "Disc": "SHO",
+          "DiscDesc": "Shooting",
+          "Key": "W.TRW---------------.QUAL.000100--",
+          "isH2H": false,
+          "Type": "A",
+          "Medal": "0",
+          "Status": "OFFICIAL",
+          "StatusDesc": "Official",
+          "DateTimeRaw": "2026-09-27T10:00:00+09:00",
+          "HideStartDate": false,
+          "Estimated": false,
+          "EstText": "Followed by",
+          "HideLocation": false,
+          "Venue": "PGS",
+          "VenueDesc": "Aichi Prefectural General Shooting Gallery",
+          "VenueDescS": "Aichi Pref. General Shooting Gallery",
+          "Loc": "SH5",
+          "LocDesc": "Shotgun Range",
+          "LocDescS": "Shotgun Range",
+          "Event": "W.TRW---------------",
+          "EventDesc": "Trap Women Individual",
+          "Phase": "W.TRW---------------.QUAL",
+          "PhaseOrder": 1,
+          "PhaseDesc": "Trap Women Individual Qualification",
+          "PhaseDescS": "Trap Women Individual Qualification",
+          "PhaseDescA": "Qualification",
+          "UnitDesc": "Trap Women Individual - Qualification - Qualification - Day 1",
+          "UnitDescS": "Trap Women Individual - Qualification - Qualification - Day 1",
+          "UnitDescA": "Day 1",
+          "EndDateTimeRaw": "2026-09-27T12:45:00+09:00",
+          "ActualEndDateTimeRaw": "2026-09-27T12:45:00+09:00",
+          "UnitNum": "1",
+          "IsLive": false,
+          "ShowResults": true,
+          "Counters": {
+            "Partics": 27,
+            "Orgs": 12
+          },
+          "Results": []
+        },
+        {
+          "Orgs": [
+            "CHN",
+            "IND",
+            "QAT",
+            "KUW",
+            "KAZ",
+            "JPN"
+          ],
+          "IsPhase": false,
+          "ResCode": "W.TRTW--------------.FNL-.000100--",
+          "ShowLink": true,
+          "Disc": "SHO",
+          "DiscDesc": "Shooting",
+          "Key": "W.TRTW--------------.FNL-.000100--",
+          "isH2H": false,
+          "Type": "T",
+          "Medal": "0",
+          "Status": "OFFICIAL",
+          "StatusDesc": "Official",
+          "DateTimeRaw": "2026-09-27T10:00:00+09:00",
+          "HideStartDate": false,
+          "Estimated": false,
+          "EstText": "Followed by",
+          "HideLocation": false,
+          "Venue": "PGS",
+          "VenueDesc": "Aichi Prefectural General Shooting Gallery",
+          "VenueDescS": "Aichi Pref. General Shooting Gallery",
+          "Loc": "SH5",
+          "LocDesc": "Shotgun Range",
+          "LocDescS": "Shotgun Range",
+          "Event": "W.TRTW--------------",
+          "EventDesc": "Trap Women Team",
+          "Phase": "W.TRTW--------------.FNL-",
+          "PhaseOrder": 2,
+          "PhaseDesc": "Trap Women Team Final",
+          "PhaseDescS": "Trap Women Team Final",
+          "PhaseDescA": "Final",
+          "UnitDesc": "Trap Women Team - Final - Day 1",
+          "UnitDescS": "Trap Women Team - Final - Day 1",
+          "UnitDescA": "Day 1",
+          "EndDateTimeRaw": "2026-09-27T12:45:00+09:00",
+          "ActualEndDateTimeRaw": "2026-09-27T12:45:00+09:00",
+          "UnitNum": "1",
+          "IsLive": false,
+          "ShowResults": true,
+          "Counters": {
+            "Partics": 6,
+            "Orgs": 6
+          },
+          "Results": []
+        },
+        {
+          "Orgs": [
+            "IND",
+            "QAT",
+            "CHN",
+            "TPE",
+            "KUW",
+            "KOR",
+            "THA",
+            "KAZ",
+            "JPN",
+            "IRI",
+            "BRN",
+            "INA"
+          ],
+          "IsPhase": false,
+          "ResCode": "W.TRW---------------.QUAL.000200--",
+          "ShowLink": true,
+          "Disc": "SHO",
+          "DiscDesc": "Shooting",
+          "Key": "W.TRW---------------.QUAL.000200--",
+          "isH2H": false,
+          "Type": "A",
+          "Medal": "0",
+          "Status": "OFFICIAL",
+          "StatusDesc": "Official",
+          "DateTimeRaw": "2026-09-28T10:00:00+09:00",
+          "HideStartDate": false,
+          "Estimated": false,
+          "EstText": "Followed by",
+          "HideLocation": false,
+          "Venue": "PGS",
+          "VenueDesc": "Aichi Prefectural General Shooting Gallery",
+          "VenueDescS": "Aichi Pref. General Shooting Gallery",
+          "Loc": "SH5",
+          "LocDesc": "Shotgun Range",
+          "LocDescS": "Shotgun Range",
+          "Event": "W.TRW---------------",
+          "EventDesc": "Trap Women Individual",
+          "Phase": "W.TRW---------------.QUAL",
+          "PhaseOrder": 1,
+          "PhaseDesc": "Trap Women Individual Qualification",
+          "PhaseDescS": "Trap Women Individual Qualification",
+          "PhaseDescA": "Qualification",
+          "UnitDesc": "Trap Women Individual - Qualification - Qualification - Day 2",
+          "UnitDescS": "Trap Women Individual - Qualification - Qualification - Day 2",
+          "UnitDescA": "Day 2",
+          "EndDateTimeRaw": "2026-09-28T12:45:00+09:00",
+          "ActualEndDateTimeRaw": "2026-09-28T12:45:00+09:00",
+          "UnitNum": "2",
+          "IsLive": false,
+          "ShowResults": true,
+          "Counters": {
+            "Partics": 27,
+            "Orgs": 12
+          },
+          "Results": []
+        },
+        {
+          "Orgs": [
+            "CHN",
+            "KUW",
+            "IND",
+            "QAT",
+            "KAZ",
+            "JPN"
+          ],
+          "IsPhase": false,
+          "ResCode": "W.TRTW--------------.FNL-.000200--",
+          "ShowLink": true,
+          "Disc": "SHO",
+          "DiscDesc": "Shooting",
+          "Key": "W.TRTW--------------.FNL-.000200--",
+          "isH2H": false,
+          "Type": "T",
+          "Medal": "0",
+          "Status": "OFFICIAL",
+          "StatusDesc": "Official",
+          "DateTimeRaw": "2026-09-28T10:00:00+09:00",
+          "HideStartDate": false,
+          "Estimated": false,
+          "EstText": "Followed by",
+          "HideLocation": false,
+          "Venue": "PGS",
+          "VenueDesc": "Aichi Prefectural General Shooting Gallery",
+          "VenueDescS": "Aichi Pref. General Shooting Gallery",
+          "Loc": "SH5",
+          "LocDesc": "Shotgun Range",
+          "LocDescS": "Shotgun Range",
+          "Event": "W.TRTW--------------",
+          "EventDesc": "Trap Women Team",
+          "Phase": "W.TRTW--------------.FNL-",
+          "PhaseOrder": 2,
+          "PhaseDesc": "Trap Women Team Final",
+          "PhaseDescS": "Trap Women Team Final",
+          "PhaseDescA": "Final",
+          "UnitDesc": "Trap Women Team - Final - Day 2",
+          "UnitDescS": "Trap Women Team - Final - Day 2",
+          "UnitDescA": "Day 2",
+          "EndDateTimeRaw": "2026-09-28T12:45:00+09:00",
+          "ActualEndDateTimeRaw": "2026-09-28T12:45:00+09:00",
+          "UnitNum": "2",
+          "IsLive": false,
+          "ShowResults": true,
+          "Counters": {
+            "Partics": 6,
+            "Orgs": 6
+          },
+          "Results": []
+        },
+        {
+          "Orgs": [
+            "QAT",
+            "IND",
+            "CHN",
+            "TPE",
+            "KUW",
+            "KAZ",
+            "JPN",
+            "KOR",
+            "IRI",
+            "THA",
+            "BRN",
+            "INA"
+          ],
+          "IsPhase": false,
+          "ResCode": "W.TRW---------------.QUAL.000300--",
+          "ShowLink": true,
+          "Disc": "SHO",
+          "DiscDesc": "Shooting",
+          "Key": "W.TRW---------------.QUAL.000300--",
+          "isH2H": false,
+          "Type": "A",
+          "Medal": "0",
+          "Status": "RUNNING",
+          "StatusDesc": "Running",
+          "DateTimeRaw": "2026-09-29T10:00:00+09:00",
+          "HideStartDate": false,
+          "Estimated": false,
+          "EstText": "Followed by",
+          "HideLocation": false,
+          "Venue": "PGS",
+          "VenueDesc": "Aichi Prefectural General Shooting Gallery",
+          "VenueDescS": "Aichi Pref. General Shooting Gallery",
+          "Loc": "SH5",
+          "LocDesc": "Shotgun Range",
+          "LocDescS": "Shotgun Range",
+          "Event": "W.TRW---------------",
+          "EventDesc": "Trap Women Individual",
+          "Phase": "W.TRW---------------.QUAL",
+          "PhaseOrder": 1,
+          "PhaseDesc": "Trap Women Individual Qualification",
+          "PhaseDescS": "Trap Women Individual Qualification",
+          "PhaseDescA": "Qualification",
+          "UnitDesc": "Trap Women Individual - Qualification - Qualification - Day 3",
+          "UnitDescS": "Trap Women Individual - Qualification - Qualification - Day 3",
+          "UnitDescA": "Day 3",
+          "EndDateTimeRaw": "2026-09-29T12:00:00+09:00",
+          "ActualEndDateTimeRaw": "2026-09-29T12:00:00+09:00",
+          "UnitNum": "3",
+          "IsLive": true,
+          "ShowResults": true,
+          "Counters": {
+            "Partics": 27,
+            "Orgs": 12
+          }
+        },
+        {
+          "Orgs": [
+            "CHN",
+            "IND",
+            "KUW",
+            "QAT",
+            "JPN",
+            "KAZ"
+          ],
+          "IsPhase": false,
+          "ResCode": "W.TRTW--------------.FNL-.000300--",
+          "ShowLink": true,
+          "Disc": "SHO",
+          "DiscDesc": "Shooting",
+          "Key": "W.TRTW--------------.FNL-.000300--",
+          "isH2H": false,
+          "Type": "T",
+          "Medal": "1",
+          "Status": "OFFICIAL",
+          "StatusDesc": "Official",
+          "DateTimeRaw": "2026-09-29T10:00:00+09:00",
+          "HideStartDate": false,
+          "Estimated": false,
+          "EstText": "Followed by",
+          "HideLocation": false,
+          "Venue": "PGS",
+          "VenueDesc": "Aichi Prefectural General Shooting Gallery",
+          "VenueDescS": "Aichi Pref. General Shooting Gallery",
+          "Loc": "SH5",
+          "LocDesc": "Shotgun Range",
+          "LocDescS": "Shotgun Range",
+          "Event": "W.TRTW--------------",
+          "EventDesc": "Trap Women Team",
+          "Phase": "W.TRTW--------------.FNL-",
+          "PhaseOrder": 2,
+          "PhaseDesc": "Trap Women Team Final",
+          "PhaseDescS": "Trap Women Team Final",
+          "PhaseDescA": "Final",
+          "UnitDesc": "Trap Women Team - Final - Day 3",
+          "UnitDescS": "Trap Women Team - Final - Day 3",
+          "UnitDescA": "Day 3",
+          "EndDateTimeRaw": "2026-09-29T12:00:00+09:00",
+          "ActualEndDateTimeRaw": "2026-09-29T12:00:00+09:00",
+          "UnitNum": "3",
+          "IsLive": false,
+          "ShowResults": true,
+          "Counters": {
+            "Partics": 6,
+            "Orgs": 6
+          },
+          "Results": []
+        },
+        {
+          "Orgs": [
+            "BRN",
+            "CHN",
+            "INA",
+            "IND",
+            "IRI",
+            "JPN",
+            "KAZ",
+            "KOR",
+            "KUW",
+            "QAT",
+            "THA",
+            "TPE"
+          ],
+          "IsPhase": false,
+          "ResCode": "X.TRMT--------------.QUAL.000100--",
+          "ShowLink": true,
+          "Disc": "SHO",
+          "DiscDesc": "Shooting",
+          "Key": "X.TRMT--------------.QUAL.000100--",
+          "isH2H": false,
+          "Type": "T",
+          "Medal": "0",
+          "Status": "START_LIST",
+          "StatusDesc": "Start List",
+          "DateTimeRaw": "2026-09-30T10:00:00+09:00",
+          "HideStartDate": false,
+          "Estimated": false,
+          "EstText": "Followed by",
+          "HideLocation": false,
+          "Venue": "PGS",
+          "VenueDesc": "Aichi Prefectural General Shooting Gallery",
+          "VenueDescS": "Aichi Pref. General Shooting Gallery",
+          "Loc": "SH5",
+          "LocDesc": "Shotgun Range",
+          "LocDescS": "Shotgun Range",
+          "Event": "X.TRMT--------------",
+          "EventDesc": "Trap Mixed Team",
+          "Phase": "X.TRMT--------------.QUAL",
+          "PhaseOrder": 1,
+          "PhaseDesc": "Trap Mixed Team Qualification",
+          "PhaseDescS": "Trap Mixed Team Qualification",
+          "PhaseDescA": "Qualification",
+          "UnitDesc": "Trap Mixed Team - Qualification",
+          "UnitDescS": "Trap Mixed Team - Qualification",
+          "UnitDescA": "Qualification",
+          "EndDateTimeRaw": "2026-09-30T12:40:00+09:00",
+          "ActualEndDateTimeRaw": "2026-09-30T12:40:00+09:00",
+          "UnitNum": "1",
+          "IsLive": false,
+          "ShowResults": false,
+          "Counters": {
+            "Partics": 12,
+            "Orgs": 12
+          }
+        }
+      ],
+      "historical": null
+    }
+  },
+  {
+    "reg": "13031940",
+    "name": "KEER Manisha",
+    "org": "IND",
+    "org_desc": "India",
+    "disc": "SHO",
+    "disc_desc": "Shooting",
+    "photo_url": "https://results.asiangames2026.org/ag2026/photos/13031940.jpg",
+    "medals": [
+      {
+        "medal": "silver",
+        "event": "Trap Women Team"
+      }
+    ],
+    "bio_data": {
+      "participant": {
+        "Reg": "13031940",
+        "Disc": "SHO",
+        "DiscDesc": "Shooting",
+        "hasMembers": false,
+        "Org": "IND",
+        "OrgDesc": "India",
+        "Type": "A",
+        "MedClass": "",
+        "Gender": "W",
+        "BirthDateRaw": "1999-07-15",
+        "Name": "KEER Manisha",
+        "NameS": "KEER M",
+        "GivenName": "Manisha",
+        "FamilyName": "KEER",
+        "IFId": "SHINDW1507199901",
+        "Height": 0,
+        "Weight": 0
+      },
+      "entries": [
+        {
+          "Disc": "SHO",
+          "Reg": "13031940",
+          "EvKey": "W.TRTW--------------",
+          "Desc": "Trap Women Team",
+          "DescS": "Trap Women Team",
+          "isMember": true,
+          "TeamReg": "SHOWTRTW-------IND01",
+          "TeamOrg": "IND",
+          "TeamName": "India",
+          "Medal": "ME_SILVER",
+          "Rank": "2",
+          "IRM": "",
+          "Result": "328"
+        },
+        {
+          "Disc": "SHO",
+          "Reg": "13031940",
+          "EvKey": "W.TRW---------------",
+          "Desc": "Trap Women Individual",
+          "DescS": "Trap Women Individual",
+          "isMember": false
+        }
+      ],
+      "schedule": [
+        {
+          "Orgs": [
+            "IND",
+            "QAT",
+            "CHN",
+            "KOR",
+            "TPE",
+            "KUW",
+            "KAZ",
+            "THA",
+            "JPN",
+            "BRN",
+            "INA",
+            "IRI"
+          ],
+          "IsPhase": false,
+          "ResCode": "W.TRW---------------.QUAL.000100--",
+          "ShowLink": true,
+          "Disc": "SHO",
+          "DiscDesc": "Shooting",
+          "Key": "W.TRW---------------.QUAL.000100--",
+          "isH2H": false,
+          "Type": "A",
+          "Medal": "0",
+          "Status": "OFFICIAL",
+          "StatusDesc": "Official",
+          "DateTimeRaw": "2026-09-27T10:00:00+09:00",
+          "HideStartDate": false,
+          "Estimated": false,
+          "EstText": "Followed by",
+          "HideLocation": false,
+          "Venue": "PGS",
+          "VenueDesc": "Aichi Prefectural General Shooting Gallery",
+          "VenueDescS": "Aichi Pref. General Shooting Gallery",
+          "Loc": "SH5",
+          "LocDesc": "Shotgun Range",
+          "LocDescS": "Shotgun Range",
+          "Event": "W.TRW---------------",
+          "EventDesc": "Trap Women Individual",
+          "Phase": "W.TRW---------------.QUAL",
+          "PhaseOrder": 1,
+          "PhaseDesc": "Trap Women Individual Qualification",
+          "PhaseDescS": "Trap Women Individual Qualification",
+          "PhaseDescA": "Qualification",
+          "UnitDesc": "Trap Women Individual - Qualification - Qualification - Day 1",
+          "UnitDescS": "Trap Women Individual - Qualification - Qualification - Day 1",
+          "UnitDescA": "Day 1",
+          "EndDateTimeRaw": "2026-09-27T12:45:00+09:00",
+          "ActualEndDateTimeRaw": "2026-09-27T12:45:00+09:00",
+          "UnitNum": "1",
+          "IsLive": false,
+          "ShowResults": true,
+          "Counters": {
+            "Partics": 27,
+            "Orgs": 12
+          },
+          "Results": []
+        },
+        {
+          "Orgs": [
+            "CHN",
+            "IND",
+            "QAT",
+            "KUW",
+            "KAZ",
+            "JPN"
+          ],
+          "IsPhase": false,
+          "ResCode": "W.TRTW--------------.FNL-.000100--",
+          "ShowLink": true,
+          "Disc": "SHO",
+          "DiscDesc": "Shooting",
+          "Key": "W.TRTW--------------.FNL-.000100--",
+          "isH2H": false,
+          "Type": "T",
+          "Medal": "0",
+          "Status": "OFFICIAL",
+          "StatusDesc": "Official",
+          "DateTimeRaw": "2026-09-27T10:00:00+09:00",
+          "HideStartDate": false,
+          "Estimated": false,
+          "EstText": "Followed by",
+          "HideLocation": false,
+          "Venue": "PGS",
+          "VenueDesc": "Aichi Prefectural General Shooting Gallery",
+          "VenueDescS": "Aichi Pref. General Shooting Gallery",
+          "Loc": "SH5",
+          "LocDesc": "Shotgun Range",
+          "LocDescS": "Shotgun Range",
+          "Event": "W.TRTW--------------",
+          "EventDesc": "Trap Women Team",
+          "Phase": "W.TRTW--------------.FNL-",
+          "PhaseOrder": 2,
+          "PhaseDesc": "Trap Women Team Final",
+          "PhaseDescS": "Trap Women Team Final",
+          "PhaseDescA": "Final",
+          "UnitDesc": "Trap Women Team - Final - Day 1",
+          "UnitDescS": "Trap Women Team - Final - Day 1",
+          "UnitDescA": "Day 1",
+          "EndDateTimeRaw": "2026-09-27T12:45:00+09:00",
+          "ActualEndDateTimeRaw": "2026-09-27T12:45:00+09:00",
+          "UnitNum": "1",
+          "IsLive": false,
+          "ShowResults": true,
+          "Counters": {
+            "Partics": 6,
+            "Orgs": 6
+          },
+          "Results": []
+        },
+        {
+          "Orgs": [
+            "IND",
+            "QAT",
+            "CHN",
+            "TPE",
+            "KUW",
+            "KOR",
+            "THA",
+            "KAZ",
+            "JPN",
+            "IRI",
+            "BRN",
+            "INA"
+          ],
+          "IsPhase": false,
+          "ResCode": "W.TRW---------------.QUAL.000200--",
+          "ShowLink": true,
+          "Disc": "SHO",
+          "DiscDesc": "Shooting",
+          "Key": "W.TRW---------------.QUAL.000200--",
+          "isH2H": false,
+          "Type": "A",
+          "Medal": "0",
+          "Status": "OFFICIAL",
+          "StatusDesc": "Official",
+          "DateTimeRaw": "2026-09-28T10:00:00+09:00",
+          "HideStartDate": false,
+          "Estimated": false,
+          "EstText": "Followed by",
+          "HideLocation": false,
+          "Venue": "PGS",
+          "VenueDesc": "Aichi Prefectural General Shooting Gallery",
+          "VenueDescS": "Aichi Pref. General Shooting Gallery",
+          "Loc": "SH5",
+          "LocDesc": "Shotgun Range",
+          "LocDescS": "Shotgun Range",
+          "Event": "W.TRW---------------",
+          "EventDesc": "Trap Women Individual",
+          "Phase": "W.TRW---------------.QUAL",
+          "PhaseOrder": 1,
+          "PhaseDesc": "Trap Women Individual Qualification",
+          "PhaseDescS": "Trap Women Individual Qualification",
+          "PhaseDescA": "Qualification",
+          "UnitDesc": "Trap Women Individual - Qualification - Qualification - Day 2",
+          "UnitDescS": "Trap Women Individual - Qualification - Qualification - Day 2",
+          "UnitDescA": "Day 2",
+          "EndDateTimeRaw": "2026-09-28T12:45:00+09:00",
+          "ActualEndDateTimeRaw": "2026-09-28T12:45:00+09:00",
+          "UnitNum": "2",
+          "IsLive": false,
+          "ShowResults": true,
+          "Counters": {
+            "Partics": 27,
+            "Orgs": 12
+          },
+          "Results": []
+        },
+        {
+          "Orgs": [
+            "CHN",
+            "KUW",
+            "IND",
+            "QAT",
+            "KAZ",
+            "JPN"
+          ],
+          "IsPhase": false,
+          "ResCode": "W.TRTW--------------.FNL-.000200--",
+          "ShowLink": true,
+          "Disc": "SHO",
+          "DiscDesc": "Shooting",
+          "Key": "W.TRTW--------------.FNL-.000200--",
+          "isH2H": false,
+          "Type": "T",
+          "Medal": "0",
+          "Status": "OFFICIAL",
+          "StatusDesc": "Official",
+          "DateTimeRaw": "2026-09-28T10:00:00+09:00",
+          "HideStartDate": false,
+          "Estimated": false,
+          "EstText": "Followed by",
+          "HideLocation": false,
+          "Venue": "PGS",
+          "VenueDesc": "Aichi Prefectural General Shooting Gallery",
+          "VenueDescS": "Aichi Pref. General Shooting Gallery",
+          "Loc": "SH5",
+          "LocDesc": "Shotgun Range",
+          "LocDescS": "Shotgun Range",
+          "Event": "W.TRTW--------------",
+          "EventDesc": "Trap Women Team",
+          "Phase": "W.TRTW--------------.FNL-",
+          "PhaseOrder": 2,
+          "PhaseDesc": "Trap Women Team Final",
+          "PhaseDescS": "Trap Women Team Final",
+          "PhaseDescA": "Final",
+          "UnitDesc": "Trap Women Team - Final - Day 2",
+          "UnitDescS": "Trap Women Team - Final - Day 2",
+          "UnitDescA": "Day 2",
+          "EndDateTimeRaw": "2026-09-28T12:45:00+09:00",
+          "ActualEndDateTimeRaw": "2026-09-28T12:45:00+09:00",
+          "UnitNum": "2",
+          "IsLive": false,
+          "ShowResults": true,
+          "Counters": {
+            "Partics": 6,
+            "Orgs": 6
+          },
+          "Results": []
+        },
+        {
+          "Orgs": [
+            "QAT",
+            "IND",
+            "CHN",
+            "TPE",
+            "KUW",
+            "KAZ",
+            "JPN",
+            "KOR",
+            "IRI",
+            "THA",
+            "BRN",
+            "INA"
+          ],
+          "IsPhase": false,
+          "ResCode": "W.TRW---------------.QUAL.000300--",
+          "ShowLink": true,
+          "Disc": "SHO",
+          "DiscDesc": "Shooting",
+          "Key": "W.TRW---------------.QUAL.000300--",
+          "isH2H": false,
+          "Type": "A",
+          "Medal": "0",
+          "Status": "RUNNING",
+          "StatusDesc": "Running",
+          "DateTimeRaw": "2026-09-29T10:00:00+09:00",
+          "HideStartDate": false,
+          "Estimated": false,
+          "EstText": "Followed by",
+          "HideLocation": false,
+          "Venue": "PGS",
+          "VenueDesc": "Aichi Prefectural General Shooting Gallery",
+          "VenueDescS": "Aichi Pref. General Shooting Gallery",
+          "Loc": "SH5",
+          "LocDesc": "Shotgun Range",
+          "LocDescS": "Shotgun Range",
+          "Event": "W.TRW---------------",
+          "EventDesc": "Trap Women Individual",
+          "Phase": "W.TRW---------------.QUAL",
+          "PhaseOrder": 1,
+          "PhaseDesc": "Trap Women Individual Qualification",
+          "PhaseDescS": "Trap Women Individual Qualification",
+          "PhaseDescA": "Qualification",
+          "UnitDesc": "Trap Women Individual - Qualification - Qualification - Day 3",
+          "UnitDescS": "Trap Women Individual - Qualification - Qualification - Day 3",
+          "UnitDescA": "Day 3",
+          "EndDateTimeRaw": "2026-09-29T12:00:00+09:00",
+          "ActualEndDateTimeRaw": "2026-09-29T12:00:00+09:00",
+          "UnitNum": "3",
+          "IsLive": true,
+          "ShowResults": true,
+          "Counters": {
+            "Partics": 27,
+            "Orgs": 12
+          }
+        },
+        {
+          "Orgs": [
+            "CHN",
+            "IND",
+            "KUW",
+            "QAT",
+            "JPN",
+            "KAZ"
+          ],
+          "IsPhase": false,
+          "ResCode": "W.TRTW--------------.FNL-.000300--",
+          "ShowLink": true,
+          "Disc": "SHO",
+          "DiscDesc": "Shooting",
+          "Key": "W.TRTW--------------.FNL-.000300--",
+          "isH2H": false,
+          "Type": "T",
+          "Medal": "1",
+          "Status": "OFFICIAL",
+          "StatusDesc": "Official",
+          "DateTimeRaw": "2026-09-29T10:00:00+09:00",
+          "HideStartDate": false,
+          "Estimated": false,
+          "EstText": "Followed by",
+          "HideLocation": false,
+          "Venue": "PGS",
+          "VenueDesc": "Aichi Prefectural General Shooting Gallery",
+          "VenueDescS": "Aichi Pref. General Shooting Gallery",
+          "Loc": "SH5",
+          "LocDesc": "Shotgun Range",
+          "LocDescS": "Shotgun Range",
+          "Event": "W.TRTW--------------",
+          "EventDesc": "Trap Women Team",
+          "Phase": "W.TRTW--------------.FNL-",
+          "PhaseOrder": 2,
+          "PhaseDesc": "Trap Women Team Final",
+          "PhaseDescS": "Trap Women Team Final",
+          "PhaseDescA": "Final",
+          "UnitDesc": "Trap Women Team - Final - Day 3",
+          "UnitDescS": "Trap Women Team - Final - Day 3",
+          "UnitDescA": "Day 3",
+          "EndDateTimeRaw": "2026-09-29T12:00:00+09:00",
+          "ActualEndDateTimeRaw": "2026-09-29T12:00:00+09:00",
+          "UnitNum": "3",
+          "IsLive": false,
+          "ShowResults": true,
+          "Counters": {
+            "Partics": 6,
+            "Orgs": 6
+          },
+          "Results": []
+        }
+      ],
+      "historical": null
+    }
+  },
+  {
     "reg": "SHOMSKTM-------IND01",
     "name": "India",
     "org": "IND",
@@ -97543,10 +99041,10 @@
           "TeamReg": "SHOMSKTM-------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
+          "Medal": "ME_BRONZE",
           "Rank": "3",
           "IRM": "",
-          "Result": "346",
-          "Medal": "ME_BRONZE"
+          "Result": "346"
         }
       ],
       "schedule": [
@@ -97983,10 +99481,10 @@
           "TeamReg": "SHOMSKTM-------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
+          "Medal": "ME_BRONZE",
           "Rank": "3",
           "IRM": "",
-          "Result": "346",
-          "Medal": "ME_BRONZE"
+          "Result": "346"
         },
         {
           "Disc": "SHO",
@@ -97998,10 +99496,10 @@
           "TeamReg": "SHOXSKMT-------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
-          "Medal": "ME_BRONZE",
           "Rank": "3",
           "IRM": "",
-          "Result": "44"
+          "Result": "44",
+          "Medal": "ME_BRONZE"
         }
       ],
       "schedule": [
@@ -99277,10 +100775,10 @@
           "TeamReg": "SHOWSKTW-------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
-          "Medal": "ME_BRONZE",
           "Rank": "3",
           "IRM": "",
-          "Result": "331"
+          "Result": "331",
+          "Medal": "ME_BRONZE"
         },
         {
           "Disc": "SHO",
@@ -99303,10 +100801,10 @@
           "TeamReg": "SHOXSKMT-------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
+          "Medal": "ME_BRONZE",
           "Rank": "3",
           "IRM": "",
-          "Result": "44",
-          "Medal": "ME_BRONZE"
+          "Result": "44"
         }
       ],
       "schedule": [
@@ -106497,6 +107995,449 @@
               "Extensions": []
             }
           ]
+        },
+        {
+          "Orgs": [
+            "IND",
+            "SGP"
+          ],
+          "IsPhase": false,
+          "ResCode": "W.TEAM--------------.QFNL.00030000",
+          "ShowLink": true,
+          "Disc": "SQU",
+          "DiscDesc": "Squash",
+          "Key": "W.TEAM--------------.QFNL.00030000",
+          "isH2H": true,
+          "Type": "T",
+          "Medal": "",
+          "Status": "SCHEDULED",
+          "StatusDesc": "Scheduled",
+          "DateTimeRaw": "2026-09-30T10:00:00+09:00",
+          "HideStartDate": false,
+          "Estimated": false,
+          "EstText": "",
+          "HideLocation": false,
+          "Venue": "KFA",
+          "VenueDesc": "Nagoya Kinjo Futo Arena",
+          "VenueDescS": "Nagoya Kinjo Futo Arena",
+          "Loc": "001",
+          "LocDesc": "Court 1",
+          "LocDescS": "Court 1",
+          "Event": "W.TEAM--------------",
+          "EventDesc": "Women's Team",
+          "Phase": "W.TEAM--------------.QFNL",
+          "PhaseOrder": 10,
+          "PhaseDesc": "Women's Team Quarterfinals",
+          "PhaseDescS": "WT 1/4",
+          "PhaseDescA": "Quarterfinals",
+          "UnitDesc": "Women's Team Quarterfinals Match 3",
+          "UnitDescS": "WT 1/4 M 3",
+          "UnitDescA": "Match 3",
+          "EndDateTimeRaw": "",
+          "ActualEndDateTimeRaw": "",
+          "UnitNum": "21",
+          "IsLive": false,
+          "ShowResults": false,
+          "Periods": [
+            {
+              "Order": 1,
+              "Desc": "Game 1",
+              "DescS": "1"
+            },
+            {
+              "Order": 2,
+              "Desc": "Game 2",
+              "DescS": "2"
+            },
+            {
+              "Order": 3,
+              "Desc": "Game 3",
+              "DescS": "3"
+            },
+            {
+              "Order": 4,
+              "Desc": "Game 4",
+              "DescS": "4"
+            },
+            {
+              "Order": 5,
+              "Desc": "Game 5",
+              "DescS": "5"
+            }
+          ],
+          "Home": {
+            "Org": "IND",
+            "Reg": "SQUWTEAM-------IND01",
+            "Name": "India",
+            "Result": "",
+            "Winner": false,
+            "HasData": true,
+            "NameS": "India",
+            "Medal": "",
+            "Members": [
+              {
+                "Org": "IND",
+                "Bib": "",
+                "Name": "SINGH Anahat",
+                "NameS": "SINGH Anahat",
+                "FuncDesc": "Athlete",
+                "PosDesc": ""
+              },
+              {
+                "Org": "IND",
+                "Bib": "",
+                "Name": "KHANNA Tanvi",
+                "NameS": "KHANNA Tanvi",
+                "FuncDesc": "Athlete",
+                "PosDesc": ""
+              },
+              {
+                "Org": "IND",
+                "Bib": "",
+                "Name": "CHINAPPA Joshana",
+                "NameS": "CHINAPPA Joshana",
+                "FuncDesc": "Athlete",
+                "PosDesc": ""
+              },
+              {
+                "Org": "IND",
+                "Bib": "",
+                "Name": "RIAZ Shameena",
+                "NameS": "RIAZ Shameena",
+                "FuncDesc": "Athlete",
+                "PosDesc": ""
+              }
+            ],
+            "Splits": [],
+            "Extensions": [
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "Card1",
+                "Pos": 0,
+                "Value": "0",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "Card2",
+                "Pos": 0,
+                "Value": "0",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "CardT",
+                "Pos": 0,
+                "Value": "0",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "CardY",
+                "Pos": 0,
+                "Value": "0",
+                "Extensions": []
+              },
+              {
+                "Type": "PREV_RESULT",
+                "Code": "UNIT_KEY",
+                "Pos": 1,
+                "Value": "W.TEAM--------------.GPC-.00050000",
+                "Extensions": [
+                  {
+                    "Type": "RESULT",
+                    "Code": "Register",
+                    "Pos": 1,
+                    "Value": "SQUWTEAM-------IND01"
+                  },
+                  {
+                    "Type": "RESULT",
+                    "Code": "RegisterOpp",
+                    "Pos": 1,
+                    "Value": "SQUWTEAM-------CHN01"
+                  },
+                  {
+                    "Type": "RESULT",
+                    "Code": "Result",
+                    "Pos": 1,
+                    "Value": "2-1"
+                  }
+                ]
+              },
+              {
+                "Type": "PREV_RESULT",
+                "Code": "UNIT_KEY",
+                "Pos": 2,
+                "Value": "W.TEAM--------------.GPC-.00030000",
+                "Extensions": [
+                  {
+                    "Type": "RESULT",
+                    "Code": "Register",
+                    "Pos": 2,
+                    "Value": "SQUWTEAM-------IND01"
+                  },
+                  {
+                    "Type": "RESULT",
+                    "Code": "RegisterOpp",
+                    "Pos": 2,
+                    "Value": "SQUWTEAM-------JPN01"
+                  },
+                  {
+                    "Type": "RESULT",
+                    "Code": "Result",
+                    "Pos": 2,
+                    "Value": "2-1"
+                  }
+                ]
+              },
+              {
+                "Type": "PREV_RESULT",
+                "Code": "UNIT_KEY",
+                "Pos": 3,
+                "Value": "W.TEAM--------------.GPC-.00020000",
+                "Extensions": [
+                  {
+                    "Type": "RESULT",
+                    "Code": "Register",
+                    "Pos": 3,
+                    "Value": "SQUWTEAM-------IND01"
+                  },
+                  {
+                    "Type": "RESULT",
+                    "Code": "RegisterOpp",
+                    "Pos": 3,
+                    "Value": "SQUWTEAM-------IRI01"
+                  },
+                  {
+                    "Type": "RESULT",
+                    "Code": "Result",
+                    "Pos": 3,
+                    "Value": "3-0"
+                  }
+                ]
+              },
+              {
+                "Type": "SERVICE",
+                "Code": "MemberServer",
+                "Pos": 0,
+                "Value": "",
+                "Extensions": []
+              },
+              {
+                "Type": "SERVICE",
+                "Code": "Server",
+                "Pos": 0,
+                "Value": "false",
+                "Extensions": []
+              }
+            ]
+          },
+          "Away": {
+            "Org": "SGP",
+            "Reg": "SQUWTEAM-------SGP01",
+            "Name": "Singapore",
+            "Result": "",
+            "Winner": false,
+            "HasData": true,
+            "NameS": "Singapore",
+            "Medal": "",
+            "Members": [
+              {
+                "Org": "SGP",
+                "Bib": "",
+                "Name": "AU YEONG Wai Yhann",
+                "NameS": "AU YEONG Wai Yhann",
+                "FuncDesc": "Athlete",
+                "PosDesc": ""
+              },
+              {
+                "Org": "SGP",
+                "Bib": "",
+                "Name": "AU YEONG Wai Iynn",
+                "NameS": "AU YEONG Wai Iynn",
+                "FuncDesc": "Athlete",
+                "PosDesc": ""
+              },
+              {
+                "Org": "SGP",
+                "Bib": "",
+                "Name": "SINGH Naisha",
+                "NameS": "SINGH Naisha",
+                "FuncDesc": "Athlete",
+                "PosDesc": ""
+              },
+              {
+                "Org": "SGP",
+                "Bib": "",
+                "Name": "LIM Jayna",
+                "NameS": "LIM Jayna",
+                "FuncDesc": "Athlete",
+                "PosDesc": ""
+              }
+            ],
+            "Splits": [],
+            "Extensions": [
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "Card1",
+                "Pos": 0,
+                "Value": "0",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "Card2",
+                "Pos": 0,
+                "Value": "0",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "CardT",
+                "Pos": 0,
+                "Value": "0",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "CardY",
+                "Pos": 0,
+                "Value": "0",
+                "Extensions": []
+              },
+              {
+                "Type": "PREV_RESULT",
+                "Code": "UNIT_KEY",
+                "Pos": 1,
+                "Value": "W.TEAM--------------.GPA-.00010000",
+                "Extensions": [
+                  {
+                    "Type": "RESULT",
+                    "Code": "Register",
+                    "Pos": 1,
+                    "Value": "SQUWTEAM-------SGP01"
+                  },
+                  {
+                    "Type": "RESULT",
+                    "Code": "RegisterOpp",
+                    "Pos": 1,
+                    "Value": "SQUWTEAM-------MAC01"
+                  },
+                  {
+                    "Type": "RESULT",
+                    "Code": "Result",
+                    "Pos": 1,
+                    "Value": "2-1"
+                  }
+                ]
+              },
+              {
+                "Type": "PREV_RESULT",
+                "Code": "UNIT_KEY",
+                "Pos": 2,
+                "Value": "W.TEAM--------------.GPA-.00020000",
+                "Extensions": [
+                  {
+                    "Type": "RESULT",
+                    "Code": "Register",
+                    "Pos": 2,
+                    "Value": "SQUWTEAM-------SGP01"
+                  },
+                  {
+                    "Type": "RESULT",
+                    "Code": "RegisterOpp",
+                    "Pos": 2,
+                    "Value": "SQUWTEAM-------MAS01"
+                  },
+                  {
+                    "Type": "RESULT",
+                    "Code": "Result",
+                    "Pos": 2,
+                    "Value": "0-3"
+                  }
+                ]
+              },
+              {
+                "Type": "SERVICE",
+                "Code": "MemberServer",
+                "Pos": 0,
+                "Value": "",
+                "Extensions": []
+              },
+              {
+                "Type": "SERVICE",
+                "Code": "Server",
+                "Pos": 0,
+                "Value": "false",
+                "Extensions": []
+              }
+            ]
+          },
+          "Extensions": [
+            {
+              "Type": "UNIT_INFO",
+              "Code": "InfoMatch",
+              "Pos": 0,
+              "Value": "0",
+              "Extensions": []
+            },
+            {
+              "Type": "UNIT_INFO",
+              "Code": "InfoTeam",
+              "Pos": 0,
+              "Value": "0",
+              "Extensions": []
+            },
+            {
+              "Type": "UNIT_INFO",
+              "Code": "ReceivedDuration",
+              "Pos": 0,
+              "Value": "0min",
+              "Extensions": []
+            },
+            {
+              "Type": "UNIT_INFO",
+              "Code": "ResultDetailWinner",
+              "Pos": 0,
+              "Value": "",
+              "Extensions": []
+            },
+            {
+              "Type": "UNIT_INFO",
+              "Code": "RoundNum",
+              "Pos": 0,
+              "Value": "",
+              "Extensions": []
+            },
+            {
+              "Type": "UNIT_INFO",
+              "Code": "ServerHomeAway",
+              "Pos": 0,
+              "Value": "",
+              "Extensions": []
+            },
+            {
+              "Type": "UNIT_INFO",
+              "Code": "SubMatchNum",
+              "Pos": 0,
+              "Value": "",
+              "Extensions": []
+            },
+            {
+              "Type": "UNIT_INFO",
+              "Code": "SubunitOrder",
+              "Pos": 0,
+              "Value": "0",
+              "Extensions": []
+            },
+            {
+              "Type": "UNIT_INFO",
+              "Code": "TeamMatchDuration",
+              "Pos": 0,
+              "Value": "0min",
+              "Extensions": []
+            }
+          ]
         }
       ],
       "historical": null
@@ -109967,6 +111908,449 @@
               "Code": "TeamMatchDuration",
               "Pos": 0,
               "Value": "52min",
+              "Extensions": []
+            }
+          ]
+        },
+        {
+          "Orgs": [
+            "IND",
+            "SGP"
+          ],
+          "IsPhase": false,
+          "ResCode": "W.TEAM--------------.QFNL.00030000",
+          "ShowLink": true,
+          "Disc": "SQU",
+          "DiscDesc": "Squash",
+          "Key": "W.TEAM--------------.QFNL.00030000",
+          "isH2H": true,
+          "Type": "T",
+          "Medal": "",
+          "Status": "SCHEDULED",
+          "StatusDesc": "Scheduled",
+          "DateTimeRaw": "2026-09-30T10:00:00+09:00",
+          "HideStartDate": false,
+          "Estimated": false,
+          "EstText": "",
+          "HideLocation": false,
+          "Venue": "KFA",
+          "VenueDesc": "Nagoya Kinjo Futo Arena",
+          "VenueDescS": "Nagoya Kinjo Futo Arena",
+          "Loc": "001",
+          "LocDesc": "Court 1",
+          "LocDescS": "Court 1",
+          "Event": "W.TEAM--------------",
+          "EventDesc": "Women's Team",
+          "Phase": "W.TEAM--------------.QFNL",
+          "PhaseOrder": 10,
+          "PhaseDesc": "Women's Team Quarterfinals",
+          "PhaseDescS": "WT 1/4",
+          "PhaseDescA": "Quarterfinals",
+          "UnitDesc": "Women's Team Quarterfinals Match 3",
+          "UnitDescS": "WT 1/4 M 3",
+          "UnitDescA": "Match 3",
+          "EndDateTimeRaw": "",
+          "ActualEndDateTimeRaw": "",
+          "UnitNum": "21",
+          "IsLive": false,
+          "ShowResults": false,
+          "Periods": [
+            {
+              "Order": 1,
+              "Desc": "Game 1",
+              "DescS": "1"
+            },
+            {
+              "Order": 2,
+              "Desc": "Game 2",
+              "DescS": "2"
+            },
+            {
+              "Order": 3,
+              "Desc": "Game 3",
+              "DescS": "3"
+            },
+            {
+              "Order": 4,
+              "Desc": "Game 4",
+              "DescS": "4"
+            },
+            {
+              "Order": 5,
+              "Desc": "Game 5",
+              "DescS": "5"
+            }
+          ],
+          "Home": {
+            "Org": "IND",
+            "Reg": "SQUWTEAM-------IND01",
+            "Name": "India",
+            "Result": "",
+            "Winner": false,
+            "HasData": true,
+            "NameS": "India",
+            "Medal": "",
+            "Members": [
+              {
+                "Org": "IND",
+                "Bib": "",
+                "Name": "SINGH Anahat",
+                "NameS": "SINGH Anahat",
+                "FuncDesc": "Athlete",
+                "PosDesc": ""
+              },
+              {
+                "Org": "IND",
+                "Bib": "",
+                "Name": "KHANNA Tanvi",
+                "NameS": "KHANNA Tanvi",
+                "FuncDesc": "Athlete",
+                "PosDesc": ""
+              },
+              {
+                "Org": "IND",
+                "Bib": "",
+                "Name": "CHINAPPA Joshana",
+                "NameS": "CHINAPPA Joshana",
+                "FuncDesc": "Athlete",
+                "PosDesc": ""
+              },
+              {
+                "Org": "IND",
+                "Bib": "",
+                "Name": "RIAZ Shameena",
+                "NameS": "RIAZ Shameena",
+                "FuncDesc": "Athlete",
+                "PosDesc": ""
+              }
+            ],
+            "Splits": [],
+            "Extensions": [
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "Card1",
+                "Pos": 0,
+                "Value": "0",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "Card2",
+                "Pos": 0,
+                "Value": "0",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "CardT",
+                "Pos": 0,
+                "Value": "0",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "CardY",
+                "Pos": 0,
+                "Value": "0",
+                "Extensions": []
+              },
+              {
+                "Type": "PREV_RESULT",
+                "Code": "UNIT_KEY",
+                "Pos": 1,
+                "Value": "W.TEAM--------------.GPC-.00050000",
+                "Extensions": [
+                  {
+                    "Type": "RESULT",
+                    "Code": "Register",
+                    "Pos": 1,
+                    "Value": "SQUWTEAM-------IND01"
+                  },
+                  {
+                    "Type": "RESULT",
+                    "Code": "RegisterOpp",
+                    "Pos": 1,
+                    "Value": "SQUWTEAM-------CHN01"
+                  },
+                  {
+                    "Type": "RESULT",
+                    "Code": "Result",
+                    "Pos": 1,
+                    "Value": "2-1"
+                  }
+                ]
+              },
+              {
+                "Type": "PREV_RESULT",
+                "Code": "UNIT_KEY",
+                "Pos": 2,
+                "Value": "W.TEAM--------------.GPC-.00030000",
+                "Extensions": [
+                  {
+                    "Type": "RESULT",
+                    "Code": "Register",
+                    "Pos": 2,
+                    "Value": "SQUWTEAM-------IND01"
+                  },
+                  {
+                    "Type": "RESULT",
+                    "Code": "RegisterOpp",
+                    "Pos": 2,
+                    "Value": "SQUWTEAM-------JPN01"
+                  },
+                  {
+                    "Type": "RESULT",
+                    "Code": "Result",
+                    "Pos": 2,
+                    "Value": "2-1"
+                  }
+                ]
+              },
+              {
+                "Type": "PREV_RESULT",
+                "Code": "UNIT_KEY",
+                "Pos": 3,
+                "Value": "W.TEAM--------------.GPC-.00020000",
+                "Extensions": [
+                  {
+                    "Type": "RESULT",
+                    "Code": "Register",
+                    "Pos": 3,
+                    "Value": "SQUWTEAM-------IND01"
+                  },
+                  {
+                    "Type": "RESULT",
+                    "Code": "RegisterOpp",
+                    "Pos": 3,
+                    "Value": "SQUWTEAM-------IRI01"
+                  },
+                  {
+                    "Type": "RESULT",
+                    "Code": "Result",
+                    "Pos": 3,
+                    "Value": "3-0"
+                  }
+                ]
+              },
+              {
+                "Type": "SERVICE",
+                "Code": "MemberServer",
+                "Pos": 0,
+                "Value": "",
+                "Extensions": []
+              },
+              {
+                "Type": "SERVICE",
+                "Code": "Server",
+                "Pos": 0,
+                "Value": "false",
+                "Extensions": []
+              }
+            ]
+          },
+          "Away": {
+            "Org": "SGP",
+            "Reg": "SQUWTEAM-------SGP01",
+            "Name": "Singapore",
+            "Result": "",
+            "Winner": false,
+            "HasData": true,
+            "NameS": "Singapore",
+            "Medal": "",
+            "Members": [
+              {
+                "Org": "SGP",
+                "Bib": "",
+                "Name": "AU YEONG Wai Yhann",
+                "NameS": "AU YEONG Wai Yhann",
+                "FuncDesc": "Athlete",
+                "PosDesc": ""
+              },
+              {
+                "Org": "SGP",
+                "Bib": "",
+                "Name": "AU YEONG Wai Iynn",
+                "NameS": "AU YEONG Wai Iynn",
+                "FuncDesc": "Athlete",
+                "PosDesc": ""
+              },
+              {
+                "Org": "SGP",
+                "Bib": "",
+                "Name": "SINGH Naisha",
+                "NameS": "SINGH Naisha",
+                "FuncDesc": "Athlete",
+                "PosDesc": ""
+              },
+              {
+                "Org": "SGP",
+                "Bib": "",
+                "Name": "LIM Jayna",
+                "NameS": "LIM Jayna",
+                "FuncDesc": "Athlete",
+                "PosDesc": ""
+              }
+            ],
+            "Splits": [],
+            "Extensions": [
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "Card1",
+                "Pos": 0,
+                "Value": "0",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "Card2",
+                "Pos": 0,
+                "Value": "0",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "CardT",
+                "Pos": 0,
+                "Value": "0",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "CardY",
+                "Pos": 0,
+                "Value": "0",
+                "Extensions": []
+              },
+              {
+                "Type": "PREV_RESULT",
+                "Code": "UNIT_KEY",
+                "Pos": 1,
+                "Value": "W.TEAM--------------.GPA-.00010000",
+                "Extensions": [
+                  {
+                    "Type": "RESULT",
+                    "Code": "Register",
+                    "Pos": 1,
+                    "Value": "SQUWTEAM-------SGP01"
+                  },
+                  {
+                    "Type": "RESULT",
+                    "Code": "RegisterOpp",
+                    "Pos": 1,
+                    "Value": "SQUWTEAM-------MAC01"
+                  },
+                  {
+                    "Type": "RESULT",
+                    "Code": "Result",
+                    "Pos": 1,
+                    "Value": "2-1"
+                  }
+                ]
+              },
+              {
+                "Type": "PREV_RESULT",
+                "Code": "UNIT_KEY",
+                "Pos": 2,
+                "Value": "W.TEAM--------------.GPA-.00020000",
+                "Extensions": [
+                  {
+                    "Type": "RESULT",
+                    "Code": "Register",
+                    "Pos": 2,
+                    "Value": "SQUWTEAM-------SGP01"
+                  },
+                  {
+                    "Type": "RESULT",
+                    "Code": "RegisterOpp",
+                    "Pos": 2,
+                    "Value": "SQUWTEAM-------MAS01"
+                  },
+                  {
+                    "Type": "RESULT",
+                    "Code": "Result",
+                    "Pos": 2,
+                    "Value": "0-3"
+                  }
+                ]
+              },
+              {
+                "Type": "SERVICE",
+                "Code": "MemberServer",
+                "Pos": 0,
+                "Value": "",
+                "Extensions": []
+              },
+              {
+                "Type": "SERVICE",
+                "Code": "Server",
+                "Pos": 0,
+                "Value": "false",
+                "Extensions": []
+              }
+            ]
+          },
+          "Extensions": [
+            {
+              "Type": "UNIT_INFO",
+              "Code": "InfoMatch",
+              "Pos": 0,
+              "Value": "0",
+              "Extensions": []
+            },
+            {
+              "Type": "UNIT_INFO",
+              "Code": "InfoTeam",
+              "Pos": 0,
+              "Value": "0",
+              "Extensions": []
+            },
+            {
+              "Type": "UNIT_INFO",
+              "Code": "ReceivedDuration",
+              "Pos": 0,
+              "Value": "0min",
+              "Extensions": []
+            },
+            {
+              "Type": "UNIT_INFO",
+              "Code": "ResultDetailWinner",
+              "Pos": 0,
+              "Value": "",
+              "Extensions": []
+            },
+            {
+              "Type": "UNIT_INFO",
+              "Code": "RoundNum",
+              "Pos": 0,
+              "Value": "",
+              "Extensions": []
+            },
+            {
+              "Type": "UNIT_INFO",
+              "Code": "ServerHomeAway",
+              "Pos": 0,
+              "Value": "",
+              "Extensions": []
+            },
+            {
+              "Type": "UNIT_INFO",
+              "Code": "SubMatchNum",
+              "Pos": 0,
+              "Value": "",
+              "Extensions": []
+            },
+            {
+              "Type": "UNIT_INFO",
+              "Code": "SubunitOrder",
+              "Pos": 0,
+              "Value": "0",
+              "Extensions": []
+            },
+            {
+              "Type": "UNIT_INFO",
+              "Code": "TeamMatchDuration",
+              "Pos": 0,
+              "Value": "0min",
               "Extensions": []
             }
           ]
