@@ -105240,6 +105240,423 @@
               "Extensions": []
             }
           ]
+        },
+        {
+          "Orgs": [
+            "IND",
+            "KUW"
+          ],
+          "IsPhase": false,
+          "ResCode": "M.TEAM--------------.QFNL.00010000",
+          "ShowLink": true,
+          "Disc": "SQU",
+          "DiscDesc": "Squash",
+          "Key": "M.TEAM--------------.QFNL.00010000",
+          "isH2H": true,
+          "Type": "T",
+          "Medal": "",
+          "Status": "SCHEDULED",
+          "StatusDesc": "Scheduled",
+          "DateTimeRaw": "2026-09-30T14:30:00+09:00",
+          "HideStartDate": false,
+          "Estimated": false,
+          "EstText": "",
+          "HideLocation": false,
+          "Venue": "KFA",
+          "VenueDesc": "Nagoya Kinjo Futo Arena",
+          "VenueDescS": "Nagoya Kinjo Futo Arena",
+          "Loc": "001",
+          "LocDesc": "Court 1",
+          "LocDescS": "Court 1",
+          "Event": "M.TEAM--------------",
+          "EventDesc": "Men's Team",
+          "Phase": "M.TEAM--------------.QFNL",
+          "PhaseOrder": 10,
+          "PhaseDesc": "Men's Team Quarterfinals",
+          "PhaseDescS": "MT 1/4",
+          "PhaseDescA": "Quarterfinals",
+          "UnitDesc": "Men's Team Quarterfinals Match 1",
+          "UnitDescS": "MT 1/4 M 1",
+          "UnitDescA": "Match 1",
+          "EndDateTimeRaw": "",
+          "ActualEndDateTimeRaw": "",
+          "UnitNum": "13",
+          "IsLive": false,
+          "ShowResults": false,
+          "Periods": [
+            {
+              "Order": 1,
+              "Desc": "Game 1",
+              "DescS": "1"
+            },
+            {
+              "Order": 2,
+              "Desc": "Game 2",
+              "DescS": "2"
+            },
+            {
+              "Order": 3,
+              "Desc": "Game 3",
+              "DescS": "3"
+            },
+            {
+              "Order": 4,
+              "Desc": "Game 4",
+              "DescS": "4"
+            },
+            {
+              "Order": 5,
+              "Desc": "Game 5",
+              "DescS": "5"
+            }
+          ],
+          "Home": {
+            "Org": "IND",
+            "Reg": "SQUMTEAM-------IND01",
+            "Name": "India",
+            "Result": "",
+            "Winner": false,
+            "HasData": true,
+            "NameS": "India",
+            "Medal": "",
+            "Members": [
+              {
+                "Org": "IND",
+                "Bib": "",
+                "Name": "SINGH Abhay",
+                "NameS": "SINGH Abhay",
+                "FuncDesc": "Athlete",
+                "PosDesc": ""
+              },
+              {
+                "Org": "IND",
+                "Bib": "",
+                "Name": "CHOTRANI Veer",
+                "NameS": "CHOTRANI Veer",
+                "FuncDesc": "Athlete",
+                "PosDesc": ""
+              },
+              {
+                "Org": "IND",
+                "Bib": "",
+                "Name": "SENTHILKUMAR Velavan",
+                "NameS": "SENTHILKUMAR Velavan",
+                "FuncDesc": "Athlete",
+                "PosDesc": ""
+              },
+              {
+                "Org": "IND",
+                "Bib": "",
+                "Name": "CHAND Suraj",
+                "NameS": "CHAND Suraj",
+                "FuncDesc": "Athlete",
+                "PosDesc": ""
+              }
+            ],
+            "Splits": [],
+            "Extensions": [
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "Card1",
+                "Pos": 0,
+                "Value": "0",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "Card2",
+                "Pos": 0,
+                "Value": "0",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "CardT",
+                "Pos": 0,
+                "Value": "0",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "CardY",
+                "Pos": 0,
+                "Value": "0",
+                "Extensions": []
+              },
+              {
+                "Type": "PREV_RESULT",
+                "Code": "UNIT_KEY",
+                "Pos": 1,
+                "Value": "M.TEAM--------------.GPA-.00030000",
+                "Extensions": [
+                  {
+                    "Type": "RESULT",
+                    "Code": "Register",
+                    "Pos": 1,
+                    "Value": "SQUMTEAM-------IND01"
+                  },
+                  {
+                    "Type": "RESULT",
+                    "Code": "RegisterOpp",
+                    "Pos": 1,
+                    "Value": "SQUMTEAM-------CHN01"
+                  },
+                  {
+                    "Type": "RESULT",
+                    "Code": "Result",
+                    "Pos": 1,
+                    "Value": "3-0"
+                  }
+                ]
+              },
+              {
+                "Type": "PREV_RESULT",
+                "Code": "UNIT_KEY",
+                "Pos": 2,
+                "Value": "M.TEAM--------------.GPA-.00020000",
+                "Extensions": [
+                  {
+                    "Type": "RESULT",
+                    "Code": "Register",
+                    "Pos": 2,
+                    "Value": "SQUMTEAM-------IND01"
+                  },
+                  {
+                    "Type": "RESULT",
+                    "Code": "RegisterOpp",
+                    "Pos": 2,
+                    "Value": "SQUMTEAM-------KOR01"
+                  },
+                  {
+                    "Type": "RESULT",
+                    "Code": "Result",
+                    "Pos": 2,
+                    "Value": "3-0"
+                  }
+                ]
+              },
+              {
+                "Type": "SERVICE",
+                "Code": "MemberServer",
+                "Pos": 0,
+                "Value": "",
+                "Extensions": []
+              },
+              {
+                "Type": "SERVICE",
+                "Code": "Server",
+                "Pos": 0,
+                "Value": "false",
+                "Extensions": []
+              }
+            ]
+          },
+          "Away": {
+            "Org": "KUW",
+            "Reg": "SQUMTEAM-------KUW01",
+            "Name": "Kuwait",
+            "Result": "",
+            "Winner": false,
+            "HasData": true,
+            "NameS": "Kuwait",
+            "Medal": "",
+            "Members": [
+              {
+                "Org": "KUW",
+                "Bib": "",
+                "Name": "ALTAMIMI Ammar",
+                "NameS": "ALTAMIMI Ammar",
+                "FuncDesc": "Athlete",
+                "PosDesc": ""
+              },
+              {
+                "Org": "KUW",
+                "Bib": "",
+                "Name": "ALMOGHREBI Bader",
+                "NameS": "ALMOGHREBI Bader",
+                "FuncDesc": "Athlete",
+                "PosDesc": ""
+              },
+              {
+                "Org": "KUW",
+                "Bib": "",
+                "Name": "ALGHAREEB Jassim",
+                "NameS": "ALGHAREEB Jassim",
+                "FuncDesc": "Athlete",
+                "PosDesc": ""
+              },
+              {
+                "Org": "KUW",
+                "Bib": "",
+                "Name": "ALFOUZAN Khaled",
+                "NameS": "ALFOUZAN Khaled",
+                "FuncDesc": "Athlete",
+                "PosDesc": ""
+              }
+            ],
+            "Splits": [],
+            "Extensions": [
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "Card1",
+                "Pos": 0,
+                "Value": "0",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "Card2",
+                "Pos": 0,
+                "Value": "0",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "CardT",
+                "Pos": 0,
+                "Value": "0",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "CardY",
+                "Pos": 0,
+                "Value": "0",
+                "Extensions": []
+              },
+              {
+                "Type": "PREV_RESULT",
+                "Code": "UNIT_KEY",
+                "Pos": 1,
+                "Value": "M.TEAM--------------.GPB-.00020000",
+                "Extensions": [
+                  {
+                    "Type": "RESULT",
+                    "Code": "Register",
+                    "Pos": 1,
+                    "Value": "SQUMTEAM-------KUW01"
+                  },
+                  {
+                    "Type": "RESULT",
+                    "Code": "RegisterOpp",
+                    "Pos": 1,
+                    "Value": "SQUMTEAM-------PAK01"
+                  },
+                  {
+                    "Type": "RESULT",
+                    "Code": "Result",
+                    "Pos": 1,
+                    "Value": "0-3"
+                  }
+                ]
+              },
+              {
+                "Type": "PREV_RESULT",
+                "Code": "UNIT_KEY",
+                "Pos": 2,
+                "Value": "M.TEAM--------------.GPB-.00010000",
+                "Extensions": [
+                  {
+                    "Type": "RESULT",
+                    "Code": "Register",
+                    "Pos": 2,
+                    "Value": "SQUMTEAM-------KUW01"
+                  },
+                  {
+                    "Type": "RESULT",
+                    "Code": "RegisterOpp",
+                    "Pos": 2,
+                    "Value": "SQUMTEAM-------PHI01"
+                  },
+                  {
+                    "Type": "RESULT",
+                    "Code": "Result",
+                    "Pos": 2,
+                    "Value": "3-0"
+                  }
+                ]
+              },
+              {
+                "Type": "SERVICE",
+                "Code": "MemberServer",
+                "Pos": 0,
+                "Value": "",
+                "Extensions": []
+              },
+              {
+                "Type": "SERVICE",
+                "Code": "Server",
+                "Pos": 0,
+                "Value": "false",
+                "Extensions": []
+              }
+            ]
+          },
+          "Extensions": [
+            {
+              "Type": "UNIT_INFO",
+              "Code": "InfoMatch",
+              "Pos": 0,
+              "Value": "0",
+              "Extensions": []
+            },
+            {
+              "Type": "UNIT_INFO",
+              "Code": "InfoTeam",
+              "Pos": 0,
+              "Value": "0",
+              "Extensions": []
+            },
+            {
+              "Type": "UNIT_INFO",
+              "Code": "ReceivedDuration",
+              "Pos": 0,
+              "Value": "0min",
+              "Extensions": []
+            },
+            {
+              "Type": "UNIT_INFO",
+              "Code": "ResultDetailWinner",
+              "Pos": 0,
+              "Value": "",
+              "Extensions": []
+            },
+            {
+              "Type": "UNIT_INFO",
+              "Code": "RoundNum",
+              "Pos": 0,
+              "Value": "",
+              "Extensions": []
+            },
+            {
+              "Type": "UNIT_INFO",
+              "Code": "ServerHomeAway",
+              "Pos": 0,
+              "Value": "",
+              "Extensions": []
+            },
+            {
+              "Type": "UNIT_INFO",
+              "Code": "SubMatchNum",
+              "Pos": 0,
+              "Value": "",
+              "Extensions": []
+            },
+            {
+              "Type": "UNIT_INFO",
+              "Code": "SubunitOrder",
+              "Pos": 0,
+              "Value": "0",
+              "Extensions": []
+            },
+            {
+              "Type": "UNIT_INFO",
+              "Code": "TeamMatchDuration",
+              "Pos": 0,
+              "Value": "0min",
+              "Extensions": []
+            }
+          ]
         }
       ],
       "historical": null
@@ -114259,6 +114676,423 @@
               "Code": "TeamMatchDuration",
               "Pos": 0,
               "Value": "1h26min",
+              "Extensions": []
+            }
+          ]
+        },
+        {
+          "Orgs": [
+            "IND",
+            "KUW"
+          ],
+          "IsPhase": false,
+          "ResCode": "M.TEAM--------------.QFNL.00010000",
+          "ShowLink": true,
+          "Disc": "SQU",
+          "DiscDesc": "Squash",
+          "Key": "M.TEAM--------------.QFNL.00010000",
+          "isH2H": true,
+          "Type": "T",
+          "Medal": "",
+          "Status": "SCHEDULED",
+          "StatusDesc": "Scheduled",
+          "DateTimeRaw": "2026-09-30T14:30:00+09:00",
+          "HideStartDate": false,
+          "Estimated": false,
+          "EstText": "",
+          "HideLocation": false,
+          "Venue": "KFA",
+          "VenueDesc": "Nagoya Kinjo Futo Arena",
+          "VenueDescS": "Nagoya Kinjo Futo Arena",
+          "Loc": "001",
+          "LocDesc": "Court 1",
+          "LocDescS": "Court 1",
+          "Event": "M.TEAM--------------",
+          "EventDesc": "Men's Team",
+          "Phase": "M.TEAM--------------.QFNL",
+          "PhaseOrder": 10,
+          "PhaseDesc": "Men's Team Quarterfinals",
+          "PhaseDescS": "MT 1/4",
+          "PhaseDescA": "Quarterfinals",
+          "UnitDesc": "Men's Team Quarterfinals Match 1",
+          "UnitDescS": "MT 1/4 M 1",
+          "UnitDescA": "Match 1",
+          "EndDateTimeRaw": "",
+          "ActualEndDateTimeRaw": "",
+          "UnitNum": "13",
+          "IsLive": false,
+          "ShowResults": false,
+          "Periods": [
+            {
+              "Order": 1,
+              "Desc": "Game 1",
+              "DescS": "1"
+            },
+            {
+              "Order": 2,
+              "Desc": "Game 2",
+              "DescS": "2"
+            },
+            {
+              "Order": 3,
+              "Desc": "Game 3",
+              "DescS": "3"
+            },
+            {
+              "Order": 4,
+              "Desc": "Game 4",
+              "DescS": "4"
+            },
+            {
+              "Order": 5,
+              "Desc": "Game 5",
+              "DescS": "5"
+            }
+          ],
+          "Home": {
+            "Org": "IND",
+            "Reg": "SQUMTEAM-------IND01",
+            "Name": "India",
+            "Result": "",
+            "Winner": false,
+            "HasData": true,
+            "NameS": "India",
+            "Medal": "",
+            "Members": [
+              {
+                "Org": "IND",
+                "Bib": "",
+                "Name": "SINGH Abhay",
+                "NameS": "SINGH Abhay",
+                "FuncDesc": "Athlete",
+                "PosDesc": ""
+              },
+              {
+                "Org": "IND",
+                "Bib": "",
+                "Name": "CHOTRANI Veer",
+                "NameS": "CHOTRANI Veer",
+                "FuncDesc": "Athlete",
+                "PosDesc": ""
+              },
+              {
+                "Org": "IND",
+                "Bib": "",
+                "Name": "SENTHILKUMAR Velavan",
+                "NameS": "SENTHILKUMAR Velavan",
+                "FuncDesc": "Athlete",
+                "PosDesc": ""
+              },
+              {
+                "Org": "IND",
+                "Bib": "",
+                "Name": "CHAND Suraj",
+                "NameS": "CHAND Suraj",
+                "FuncDesc": "Athlete",
+                "PosDesc": ""
+              }
+            ],
+            "Splits": [],
+            "Extensions": [
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "Card1",
+                "Pos": 0,
+                "Value": "0",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "Card2",
+                "Pos": 0,
+                "Value": "0",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "CardT",
+                "Pos": 0,
+                "Value": "0",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "CardY",
+                "Pos": 0,
+                "Value": "0",
+                "Extensions": []
+              },
+              {
+                "Type": "PREV_RESULT",
+                "Code": "UNIT_KEY",
+                "Pos": 1,
+                "Value": "M.TEAM--------------.GPA-.00030000",
+                "Extensions": [
+                  {
+                    "Type": "RESULT",
+                    "Code": "Register",
+                    "Pos": 1,
+                    "Value": "SQUMTEAM-------IND01"
+                  },
+                  {
+                    "Type": "RESULT",
+                    "Code": "RegisterOpp",
+                    "Pos": 1,
+                    "Value": "SQUMTEAM-------CHN01"
+                  },
+                  {
+                    "Type": "RESULT",
+                    "Code": "Result",
+                    "Pos": 1,
+                    "Value": "3-0"
+                  }
+                ]
+              },
+              {
+                "Type": "PREV_RESULT",
+                "Code": "UNIT_KEY",
+                "Pos": 2,
+                "Value": "M.TEAM--------------.GPA-.00020000",
+                "Extensions": [
+                  {
+                    "Type": "RESULT",
+                    "Code": "Register",
+                    "Pos": 2,
+                    "Value": "SQUMTEAM-------IND01"
+                  },
+                  {
+                    "Type": "RESULT",
+                    "Code": "RegisterOpp",
+                    "Pos": 2,
+                    "Value": "SQUMTEAM-------KOR01"
+                  },
+                  {
+                    "Type": "RESULT",
+                    "Code": "Result",
+                    "Pos": 2,
+                    "Value": "3-0"
+                  }
+                ]
+              },
+              {
+                "Type": "SERVICE",
+                "Code": "MemberServer",
+                "Pos": 0,
+                "Value": "",
+                "Extensions": []
+              },
+              {
+                "Type": "SERVICE",
+                "Code": "Server",
+                "Pos": 0,
+                "Value": "false",
+                "Extensions": []
+              }
+            ]
+          },
+          "Away": {
+            "Org": "KUW",
+            "Reg": "SQUMTEAM-------KUW01",
+            "Name": "Kuwait",
+            "Result": "",
+            "Winner": false,
+            "HasData": true,
+            "NameS": "Kuwait",
+            "Medal": "",
+            "Members": [
+              {
+                "Org": "KUW",
+                "Bib": "",
+                "Name": "ALTAMIMI Ammar",
+                "NameS": "ALTAMIMI Ammar",
+                "FuncDesc": "Athlete",
+                "PosDesc": ""
+              },
+              {
+                "Org": "KUW",
+                "Bib": "",
+                "Name": "ALMOGHREBI Bader",
+                "NameS": "ALMOGHREBI Bader",
+                "FuncDesc": "Athlete",
+                "PosDesc": ""
+              },
+              {
+                "Org": "KUW",
+                "Bib": "",
+                "Name": "ALGHAREEB Jassim",
+                "NameS": "ALGHAREEB Jassim",
+                "FuncDesc": "Athlete",
+                "PosDesc": ""
+              },
+              {
+                "Org": "KUW",
+                "Bib": "",
+                "Name": "ALFOUZAN Khaled",
+                "NameS": "ALFOUZAN Khaled",
+                "FuncDesc": "Athlete",
+                "PosDesc": ""
+              }
+            ],
+            "Splits": [],
+            "Extensions": [
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "Card1",
+                "Pos": 0,
+                "Value": "0",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "Card2",
+                "Pos": 0,
+                "Value": "0",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "CardT",
+                "Pos": 0,
+                "Value": "0",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "CardY",
+                "Pos": 0,
+                "Value": "0",
+                "Extensions": []
+              },
+              {
+                "Type": "PREV_RESULT",
+                "Code": "UNIT_KEY",
+                "Pos": 1,
+                "Value": "M.TEAM--------------.GPB-.00020000",
+                "Extensions": [
+                  {
+                    "Type": "RESULT",
+                    "Code": "Register",
+                    "Pos": 1,
+                    "Value": "SQUMTEAM-------KUW01"
+                  },
+                  {
+                    "Type": "RESULT",
+                    "Code": "RegisterOpp",
+                    "Pos": 1,
+                    "Value": "SQUMTEAM-------PAK01"
+                  },
+                  {
+                    "Type": "RESULT",
+                    "Code": "Result",
+                    "Pos": 1,
+                    "Value": "0-3"
+                  }
+                ]
+              },
+              {
+                "Type": "PREV_RESULT",
+                "Code": "UNIT_KEY",
+                "Pos": 2,
+                "Value": "M.TEAM--------------.GPB-.00010000",
+                "Extensions": [
+                  {
+                    "Type": "RESULT",
+                    "Code": "Register",
+                    "Pos": 2,
+                    "Value": "SQUMTEAM-------KUW01"
+                  },
+                  {
+                    "Type": "RESULT",
+                    "Code": "RegisterOpp",
+                    "Pos": 2,
+                    "Value": "SQUMTEAM-------PHI01"
+                  },
+                  {
+                    "Type": "RESULT",
+                    "Code": "Result",
+                    "Pos": 2,
+                    "Value": "3-0"
+                  }
+                ]
+              },
+              {
+                "Type": "SERVICE",
+                "Code": "MemberServer",
+                "Pos": 0,
+                "Value": "",
+                "Extensions": []
+              },
+              {
+                "Type": "SERVICE",
+                "Code": "Server",
+                "Pos": 0,
+                "Value": "false",
+                "Extensions": []
+              }
+            ]
+          },
+          "Extensions": [
+            {
+              "Type": "UNIT_INFO",
+              "Code": "InfoMatch",
+              "Pos": 0,
+              "Value": "0",
+              "Extensions": []
+            },
+            {
+              "Type": "UNIT_INFO",
+              "Code": "InfoTeam",
+              "Pos": 0,
+              "Value": "0",
+              "Extensions": []
+            },
+            {
+              "Type": "UNIT_INFO",
+              "Code": "ReceivedDuration",
+              "Pos": 0,
+              "Value": "0min",
+              "Extensions": []
+            },
+            {
+              "Type": "UNIT_INFO",
+              "Code": "ResultDetailWinner",
+              "Pos": 0,
+              "Value": "",
+              "Extensions": []
+            },
+            {
+              "Type": "UNIT_INFO",
+              "Code": "RoundNum",
+              "Pos": 0,
+              "Value": "",
+              "Extensions": []
+            },
+            {
+              "Type": "UNIT_INFO",
+              "Code": "ServerHomeAway",
+              "Pos": 0,
+              "Value": "",
+              "Extensions": []
+            },
+            {
+              "Type": "UNIT_INFO",
+              "Code": "SubMatchNum",
+              "Pos": 0,
+              "Value": "",
+              "Extensions": []
+            },
+            {
+              "Type": "UNIT_INFO",
+              "Code": "SubunitOrder",
+              "Pos": 0,
+              "Value": "0",
+              "Extensions": []
+            },
+            {
+              "Type": "UNIT_INFO",
+              "Code": "TeamMatchDuration",
+              "Pos": 0,
+              "Value": "0min",
               "Extensions": []
             }
           ]
