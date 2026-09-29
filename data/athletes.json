@@ -6014,10 +6014,10 @@
           "Desc": "Men's Team",
           "DescS": "Men's Team",
           "isMember": false,
+          "Medal": "ME_BRONZE",
           "Rank": "3",
           "IRM": "OK",
-          "Result": "",
-          "Medal": "ME_BRONZE"
+          "Result": ""
         }
       ],
       "schedule": [
@@ -17280,10 +17280,10 @@
           "TeamReg": "BDMMTEAM-------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
+          "Medal": "ME_BRONZE",
           "Rank": "3",
           "IRM": "OK",
-          "Result": "",
-          "Medal": "ME_BRONZE"
+          "Result": ""
         }
       ],
       "schedule": [
@@ -24976,10 +24976,10 @@
           "TeamReg": "BDMMTEAM-------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
+          "Medal": "ME_BRONZE",
           "Rank": "3",
           "IRM": "OK",
-          "Result": "",
-          "Medal": "ME_BRONZE"
+          "Result": ""
         }
       ],
       "schedule": [
@@ -46367,10 +46367,10 @@
           "Desc": "Men's Team",
           "DescS": "Men's Team",
           "isMember": false,
+          "Medal": "ME_GOLD",
           "Rank": "1",
           "IRM": "",
-          "Result": "",
-          "Medal": "ME_GOLD"
+          "Result": ""
         }
       ],
       "schedule": [
@@ -55657,10 +55657,10 @@
           "TeamReg": "KABMTEAM7------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
-          "Medal": "ME_GOLD",
           "Rank": "1",
           "IRM": "",
-          "Result": ""
+          "Result": "",
+          "Medal": "ME_GOLD"
         }
       ],
       "schedule": [
@@ -92388,10 +92388,10 @@
           "TeamReg": "SHOWTRTW-------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
+          "Medal": "ME_SILVER",
           "Rank": "2",
           "IRM": "",
-          "Result": "328",
-          "Medal": "ME_SILVER"
+          "Result": "328"
         },
         {
           "Disc": "SHO",
@@ -92400,10 +92400,10 @@
           "Desc": "Trap Women Individual",
           "DescS": "Trap Women Individual",
           "isMember": false,
-          "Medal": "ME_GOLD",
           "Rank": "1",
           "IRM": "",
-          "Result": "28"
+          "Result": "28",
+          "Medal": "ME_GOLD"
         },
         {
           "Disc": "SHO",
@@ -93129,10 +93129,10 @@
           "TeamReg": "SHOXAPMT-------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
-          "Medal": "ME_GOLD",
           "Rank": "1",
           "IRM": "",
-          "Result": "484.6"
+          "Result": "484.6",
+          "Medal": "ME_GOLD"
         }
       ],
       "schedule": [
@@ -93778,10 +93778,10 @@
           "TeamReg": "SHOMARTM-------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
+          "Medal": "ME_SILVER",
           "Rank": "2",
           "IRM": "",
-          "Result": "1890.1",
-          "Medal": "ME_SILVER"
+          "Result": "1890.1"
         }
       ],
       "schedule": [
@@ -94209,10 +94209,10 @@
           "TeamReg": "SHOMR3PTM------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
+          "Medal": "ME_SILVER",
           "Rank": "2",
           "IRM": "",
-          "Result": "1762",
-          "Medal": "ME_SILVER"
+          "Result": "1762"
         }
       ],
       "schedule": [
@@ -94571,10 +94571,10 @@
           "TeamReg": "SHOMARTM-------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
-          "Medal": "ME_SILVER",
           "Rank": "2",
           "IRM": "",
-          "Result": "1890.1"
+          "Result": "1890.1",
+          "Medal": "ME_SILVER"
         },
         {
           "Disc": "SHO",
@@ -95681,10 +95681,10 @@
           "Desc": "10m Air Rifle Women Individual",
           "DescS": "10m Air Rifle Women Individual",
           "isMember": false,
+          "Medal": "ME_SILVER",
           "Rank": "2",
           "IRM": "",
-          "Result": "252.4",
-          "Medal": "ME_SILVER"
+          "Result": "252.4"
         },
         {
           "Disc": "SHO",
@@ -98042,10 +98042,10 @@
           "TeamReg": "SHOWTRTW-------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
+          "Medal": "ME_SILVER",
           "Rank": "2",
           "IRM": "",
-          "Result": "328",
-          "Medal": "ME_SILVER"
+          "Result": "328"
         },
         {
           "Disc": "SHO",
@@ -100844,10 +100844,10 @@
           "TeamReg": "SHOWSKTW-------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
-          "Medal": "ME_BRONZE",
           "Rank": "3",
           "IRM": "",
-          "Result": "331"
+          "Result": "331",
+          "Medal": "ME_BRONZE"
         },
         {
           "Disc": "SHO",
@@ -100870,10 +100870,10 @@
           "TeamReg": "SHOXSKMT-------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
+          "Medal": "ME_BRONZE",
           "Rank": "3",
           "IRM": "",
-          "Result": "44",
-          "Medal": "ME_BRONZE"
+          "Result": "44"
         }
       ],
       "schedule": [
@@ -101414,10 +101414,10 @@
           "TeamReg": "SHOWSKTW-------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
-          "Medal": "ME_BRONZE",
           "Rank": "3",
           "IRM": "",
-          "Result": "331"
+          "Result": "331",
+          "Medal": "ME_BRONZE"
         },
         {
           "Disc": "SHO",
@@ -102284,10 +102284,10 @@
           "Desc": "Skeet Mixed Team",
           "DescS": "Skeet Mixed Team",
           "isMember": false,
+          "Medal": "ME_BRONZE",
           "Rank": "3",
           "IRM": "",
-          "Result": "44",
-          "Medal": "ME_BRONZE"
+          "Result": "44"
         }
       ],
       "schedule": [
@@ -107627,6 +107627,32 @@
                 "Extensions": []
               },
               {
+                "Type": "PREV_RESULT",
+                "Code": "UNIT_KEY",
+                "Pos": 1,
+                "Value": "W.TEAM--------------.3RD-.00030000",
+                "Extensions": [
+                  {
+                    "Type": "RESULT",
+                    "Code": "Register",
+                    "Pos": 1,
+                    "Value": "SQUWTEAM-------CHN01"
+                  },
+                  {
+                    "Type": "RESULT",
+                    "Code": "RegisterOpp",
+                    "Pos": 1,
+                    "Value": "SQUWTEAM-------PAK01"
+                  },
+                  {
+                    "Type": "RESULT",
+                    "Code": "Result",
+                    "Pos": 1,
+                    "Value": ""
+                  }
+                ]
+              },
+              {
                 "Type": "SERVICE",
                 "Code": "MemberServer",
                 "Pos": 0,
@@ -110186,10 +110212,10 @@
           "TeamReg": "SQUXDOUBLES----IND02",
           "TeamOrg": "IND",
           "TeamName": "CHINAPPA J. /SENTHILKUMAR V.",
-          "Medal": "ME_BRONZE",
           "Rank": "3",
           "IRM": "OK",
-          "Result": ""
+          "Result": "",
+          "Medal": "ME_BRONZE"
         }
       ],
       "schedule": [
@@ -111541,6 +111567,32 @@
                 "Pos": 0,
                 "Value": "0",
                 "Extensions": []
+              },
+              {
+                "Type": "PREV_RESULT",
+                "Code": "UNIT_KEY",
+                "Pos": 1,
+                "Value": "W.TEAM--------------.3RD-.00030000",
+                "Extensions": [
+                  {
+                    "Type": "RESULT",
+                    "Code": "Register",
+                    "Pos": 1,
+                    "Value": "SQUWTEAM-------CHN01"
+                  },
+                  {
+                    "Type": "RESULT",
+                    "Code": "RegisterOpp",
+                    "Pos": 1,
+                    "Value": "SQUWTEAM-------PAK01"
+                  },
+                  {
+                    "Type": "RESULT",
+                    "Code": "Result",
+                    "Pos": 1,
+                    "Value": ""
+                  }
+                ]
               },
               {
                 "Type": "SERVICE",
@@ -115142,10 +115194,10 @@
           "Desc": "Men's Singles",
           "DescS": "Men's Singles",
           "isMember": false,
-          "Medal": "ME_BRONZE",
           "Rank": "3",
           "IRM": "OK",
-          "Result": ""
+          "Result": "",
+          "Medal": "ME_BRONZE"
         },
         {
           "Disc": "TST",
