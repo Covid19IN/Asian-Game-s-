@@ -2809,10 +2809,10 @@
           "TeamReg": "ATHX4X400M-----IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
+          "Medal": "ME_SILVER",
           "Rank": "2",
           "IRM": "OK",
-          "Result": "3:14.46",
-          "Medal": "ME_SILVER"
+          "Result": "3:14.46"
         }
       ],
       "schedule": [
@@ -3140,10 +3140,10 @@
           "TeamReg": "ATHX4X400M-----IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
-          "Medal": "ME_SILVER",
           "Rank": "2",
           "IRM": "OK",
-          "Result": "3:14.46"
+          "Result": "3:14.46",
+          "Medal": "ME_SILVER"
         }
       ],
       "schedule": [
@@ -6014,10 +6014,10 @@
           "Desc": "Men's Team",
           "DescS": "Men's Team",
           "isMember": false,
-          "Medal": "ME_BRONZE",
           "Rank": "3",
           "IRM": "OK",
-          "Result": ""
+          "Result": "",
+          "Medal": "ME_BRONZE"
         }
       ],
       "schedule": [
@@ -12568,10 +12568,10 @@
           "TeamReg": "BDMMTEAM-------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
+          "Medal": "ME_BRONZE",
           "Rank": "3",
           "IRM": "OK",
-          "Result": "",
-          "Medal": "ME_BRONZE"
+          "Result": ""
         }
       ],
       "schedule": [
@@ -17280,10 +17280,10 @@
           "TeamReg": "BDMMTEAM-------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
-          "Medal": "ME_BRONZE",
           "Rank": "3",
           "IRM": "OK",
-          "Result": ""
+          "Result": "",
+          "Medal": "ME_BRONZE"
         }
       ],
       "schedule": [
@@ -46367,10 +46367,10 @@
           "Desc": "Men's Team",
           "DescS": "Men's Team",
           "isMember": false,
-          "Medal": "ME_GOLD",
           "Rank": "1",
           "IRM": "",
-          "Result": ""
+          "Result": "",
+          "Medal": "ME_GOLD"
         }
       ],
       "schedule": [
@@ -48225,10 +48225,10 @@
           "TeamReg": "KABMTEAM7------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
-          "Medal": "ME_GOLD",
           "Rank": "1",
           "IRM": "",
-          "Result": ""
+          "Result": "",
+          "Medal": "ME_GOLD"
         }
       ],
       "schedule": [
@@ -59373,10 +59373,10 @@
           "TeamReg": "KABMTEAM7------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
+          "Medal": "ME_GOLD",
           "Rank": "1",
           "IRM": "",
-          "Result": "",
-          "Medal": "ME_GOLD"
+          "Result": ""
         }
       ],
       "schedule": [
@@ -73796,10 +73796,10 @@
           "TeamReg": "KABWTEAM7------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
+          "Medal": "ME_GOLD",
           "Rank": "1",
           "IRM": "",
-          "Result": "",
-          "Medal": "ME_GOLD"
+          "Result": ""
         }
       ],
       "schedule": [
@@ -76914,10 +76914,10 @@
           "TeamReg": "KABWTEAM7------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
+          "Medal": "ME_GOLD",
           "Rank": "1",
           "IRM": "",
-          "Result": "",
-          "Medal": "ME_GOLD"
+          "Result": ""
         }
       ],
       "schedule": [
@@ -81591,10 +81591,10 @@
           "TeamReg": "KABWTEAM7------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
+          "Medal": "ME_GOLD",
           "Rank": "1",
           "IRM": "",
-          "Result": "",
-          "Medal": "ME_GOLD"
+          "Result": ""
         }
       ],
       "schedule": [
@@ -83150,10 +83150,10 @@
           "TeamReg": "KABWTEAM7------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
+          "Medal": "ME_GOLD",
           "Rank": "1",
           "IRM": "",
-          "Result": "",
-          "Medal": "ME_GOLD"
+          "Result": ""
         }
       ],
       "schedule": [
@@ -84709,10 +84709,10 @@
           "TeamReg": "KABWTEAM7------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
+          "Medal": "ME_GOLD",
           "Rank": "1",
           "IRM": "",
-          "Result": "",
-          "Medal": "ME_GOLD"
+          "Result": ""
         }
       ],
       "schedule": [
@@ -86268,10 +86268,10 @@
           "TeamReg": "KABWTEAM7------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
-          "Medal": "ME_GOLD",
           "Rank": "1",
           "IRM": "",
-          "Result": ""
+          "Result": "",
+          "Medal": "ME_GOLD"
         }
       ],
       "schedule": [
@@ -89386,10 +89386,10 @@
           "TeamReg": "KABWTEAM7------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
+          "Medal": "ME_GOLD",
           "Rank": "1",
           "IRM": "",
-          "Result": "",
-          "Medal": "ME_GOLD"
+          "Result": ""
         }
       ],
       "schedule": [
@@ -90934,10 +90934,10 @@
           "Desc": "Women -78kg",
           "DescS": "Women -78kg",
           "isMember": false,
+          "Medal": "ME_BRONZE",
           "Rank": "3",
           "IRM": "",
-          "Result": "",
-          "Medal": "ME_BRONZE"
+          "Result": ""
         }
       ],
       "schedule": [
@@ -91431,10 +91431,10 @@
           "Desc": "Women's Traditional -60kg",
           "DescS": "Women's Traditional -60kg",
           "isMember": false,
-          "Medal": "ME_BRONZE",
           "Rank": "3",
           "IRM": "",
-          "Result": ""
+          "Result": "",
+          "Medal": "ME_BRONZE"
         }
       ],
       "schedule": [
@@ -91721,10 +91721,10 @@
           "Desc": "Men's Double Sculls",
           "DescS": "Men's Double Sculls",
           "isMember": false,
-          "Medal": "ME_BRONZE",
           "Rank": "3",
           "IRM": "",
-          "Result": "6:13.25"
+          "Result": "6:13.25",
+          "Medal": "ME_BRONZE"
         }
       ],
       "schedule": [
@@ -92340,6 +92340,528 @@
     }
   },
   {
+    "reg": "13021576",
+    "name": "NEERU",
+    "org": "IND",
+    "org_desc": "India",
+    "disc": "SHO",
+    "disc_desc": "Shooting",
+    "photo_url": "https://results.asiangames2026.org/ag2026/photos/13021576.jpg",
+    "medals": [
+      {
+        "medal": "gold",
+        "event": "Trap Women Individual"
+      },
+      {
+        "medal": "silver",
+        "event": "Trap Women Team"
+      }
+    ],
+    "bio_data": {
+      "participant": {
+        "Reg": "13021576",
+        "Disc": "SHO",
+        "DiscDesc": "Shooting",
+        "hasMembers": false,
+        "Org": "IND",
+        "OrgDesc": "India",
+        "Type": "A",
+        "MedClass": "",
+        "Gender": "W",
+        "BirthDateRaw": "2000-05-25",
+        "Name": "NEERU",
+        "NameS": "NEERU",
+        "GivenName": "",
+        "FamilyName": "NEERU",
+        "IFId": "",
+        "Height": 0,
+        "Weight": 0
+      },
+      "entries": [
+        {
+          "Disc": "SHO",
+          "Reg": "13021576",
+          "EvKey": "W.TRTW--------------",
+          "Desc": "Trap Women Team",
+          "DescS": "Trap Women Team",
+          "isMember": true,
+          "TeamReg": "SHOWTRTW-------IND01",
+          "TeamOrg": "IND",
+          "TeamName": "India",
+          "Rank": "2",
+          "IRM": "",
+          "Result": "328",
+          "Medal": "ME_SILVER"
+        },
+        {
+          "Disc": "SHO",
+          "Reg": "13021576",
+          "EvKey": "W.TRW---------------",
+          "Desc": "Trap Women Individual",
+          "DescS": "Trap Women Individual",
+          "isMember": false,
+          "Medal": "ME_GOLD",
+          "Rank": "1",
+          "IRM": "",
+          "Result": "28"
+        },
+        {
+          "Disc": "SHO",
+          "Reg": "13021576",
+          "EvKey": "X.TRMT--------------",
+          "Desc": "Trap Mixed Team",
+          "DescS": "Trap Mixed Team",
+          "isMember": true,
+          "TeamReg": "SHOXTRMT-------IND01",
+          "TeamOrg": "IND",
+          "TeamName": "India"
+        }
+      ],
+      "schedule": [
+        {
+          "Orgs": [
+            "IND",
+            "QAT",
+            "CHN",
+            "KOR",
+            "TPE",
+            "KUW",
+            "KAZ",
+            "THA",
+            "JPN",
+            "BRN",
+            "INA",
+            "IRI"
+          ],
+          "IsPhase": false,
+          "ResCode": "W.TRW---------------.QUAL.000100--",
+          "ShowLink": true,
+          "Disc": "SHO",
+          "DiscDesc": "Shooting",
+          "Key": "W.TRW---------------.QUAL.000100--",
+          "isH2H": false,
+          "Type": "A",
+          "Medal": "0",
+          "Status": "OFFICIAL",
+          "StatusDesc": "Official",
+          "DateTimeRaw": "2026-09-27T10:00:00+09:00",
+          "HideStartDate": false,
+          "Estimated": false,
+          "EstText": "Followed by",
+          "HideLocation": false,
+          "Venue": "PGS",
+          "VenueDesc": "Aichi Prefectural General Shooting Gallery",
+          "VenueDescS": "Aichi Pref. General Shooting Gallery",
+          "Loc": "SH5",
+          "LocDesc": "Shotgun Range",
+          "LocDescS": "Shotgun Range",
+          "Event": "W.TRW---------------",
+          "EventDesc": "Trap Women Individual",
+          "Phase": "W.TRW---------------.QUAL",
+          "PhaseOrder": 1,
+          "PhaseDesc": "Trap Women Individual Qualification",
+          "PhaseDescS": "Trap Women Individual Qualification",
+          "PhaseDescA": "Qualification",
+          "UnitDesc": "Trap Women Individual - Qualification - Qualification - Day 1",
+          "UnitDescS": "Trap Women Individual - Qualification - Qualification - Day 1",
+          "UnitDescA": "Day 1",
+          "EndDateTimeRaw": "2026-09-27T12:45:00+09:00",
+          "ActualEndDateTimeRaw": "2026-09-27T12:45:00+09:00",
+          "UnitNum": "1",
+          "IsLive": false,
+          "ShowResults": true,
+          "Counters": {
+            "Partics": 27,
+            "Orgs": 12
+          },
+          "Results": []
+        },
+        {
+          "Orgs": [
+            "CHN",
+            "IND",
+            "QAT",
+            "KUW",
+            "KAZ",
+            "JPN"
+          ],
+          "IsPhase": false,
+          "ResCode": "W.TRTW--------------.FNL-.000100--",
+          "ShowLink": true,
+          "Disc": "SHO",
+          "DiscDesc": "Shooting",
+          "Key": "W.TRTW--------------.FNL-.000100--",
+          "isH2H": false,
+          "Type": "T",
+          "Medal": "0",
+          "Status": "OFFICIAL",
+          "StatusDesc": "Official",
+          "DateTimeRaw": "2026-09-27T10:00:00+09:00",
+          "HideStartDate": false,
+          "Estimated": false,
+          "EstText": "Followed by",
+          "HideLocation": false,
+          "Venue": "PGS",
+          "VenueDesc": "Aichi Prefectural General Shooting Gallery",
+          "VenueDescS": "Aichi Pref. General Shooting Gallery",
+          "Loc": "SH5",
+          "LocDesc": "Shotgun Range",
+          "LocDescS": "Shotgun Range",
+          "Event": "W.TRTW--------------",
+          "EventDesc": "Trap Women Team",
+          "Phase": "W.TRTW--------------.FNL-",
+          "PhaseOrder": 2,
+          "PhaseDesc": "Trap Women Team Final",
+          "PhaseDescS": "Trap Women Team Final",
+          "PhaseDescA": "Final",
+          "UnitDesc": "Trap Women Team - Final - Day 1",
+          "UnitDescS": "Trap Women Team - Final - Day 1",
+          "UnitDescA": "Day 1",
+          "EndDateTimeRaw": "2026-09-27T12:45:00+09:00",
+          "ActualEndDateTimeRaw": "2026-09-27T12:45:00+09:00",
+          "UnitNum": "1",
+          "IsLive": false,
+          "ShowResults": true,
+          "Counters": {
+            "Partics": 6,
+            "Orgs": 6
+          },
+          "Results": []
+        },
+        {
+          "Orgs": [
+            "IND",
+            "QAT",
+            "CHN",
+            "TPE",
+            "KUW",
+            "KOR",
+            "THA",
+            "KAZ",
+            "JPN",
+            "IRI",
+            "BRN",
+            "INA"
+          ],
+          "IsPhase": false,
+          "ResCode": "W.TRW---------------.QUAL.000200--",
+          "ShowLink": true,
+          "Disc": "SHO",
+          "DiscDesc": "Shooting",
+          "Key": "W.TRW---------------.QUAL.000200--",
+          "isH2H": false,
+          "Type": "A",
+          "Medal": "0",
+          "Status": "OFFICIAL",
+          "StatusDesc": "Official",
+          "DateTimeRaw": "2026-09-28T10:00:00+09:00",
+          "HideStartDate": false,
+          "Estimated": false,
+          "EstText": "Followed by",
+          "HideLocation": false,
+          "Venue": "PGS",
+          "VenueDesc": "Aichi Prefectural General Shooting Gallery",
+          "VenueDescS": "Aichi Pref. General Shooting Gallery",
+          "Loc": "SH5",
+          "LocDesc": "Shotgun Range",
+          "LocDescS": "Shotgun Range",
+          "Event": "W.TRW---------------",
+          "EventDesc": "Trap Women Individual",
+          "Phase": "W.TRW---------------.QUAL",
+          "PhaseOrder": 1,
+          "PhaseDesc": "Trap Women Individual Qualification",
+          "PhaseDescS": "Trap Women Individual Qualification",
+          "PhaseDescA": "Qualification",
+          "UnitDesc": "Trap Women Individual - Qualification - Qualification - Day 2",
+          "UnitDescS": "Trap Women Individual - Qualification - Qualification - Day 2",
+          "UnitDescA": "Day 2",
+          "EndDateTimeRaw": "2026-09-28T12:45:00+09:00",
+          "ActualEndDateTimeRaw": "2026-09-28T12:45:00+09:00",
+          "UnitNum": "2",
+          "IsLive": false,
+          "ShowResults": true,
+          "Counters": {
+            "Partics": 27,
+            "Orgs": 12
+          },
+          "Results": []
+        },
+        {
+          "Orgs": [
+            "CHN",
+            "KUW",
+            "IND",
+            "QAT",
+            "KAZ",
+            "JPN"
+          ],
+          "IsPhase": false,
+          "ResCode": "W.TRTW--------------.FNL-.000200--",
+          "ShowLink": true,
+          "Disc": "SHO",
+          "DiscDesc": "Shooting",
+          "Key": "W.TRTW--------------.FNL-.000200--",
+          "isH2H": false,
+          "Type": "T",
+          "Medal": "0",
+          "Status": "OFFICIAL",
+          "StatusDesc": "Official",
+          "DateTimeRaw": "2026-09-28T10:00:00+09:00",
+          "HideStartDate": false,
+          "Estimated": false,
+          "EstText": "Followed by",
+          "HideLocation": false,
+          "Venue": "PGS",
+          "VenueDesc": "Aichi Prefectural General Shooting Gallery",
+          "VenueDescS": "Aichi Pref. General Shooting Gallery",
+          "Loc": "SH5",
+          "LocDesc": "Shotgun Range",
+          "LocDescS": "Shotgun Range",
+          "Event": "W.TRTW--------------",
+          "EventDesc": "Trap Women Team",
+          "Phase": "W.TRTW--------------.FNL-",
+          "PhaseOrder": 2,
+          "PhaseDesc": "Trap Women Team Final",
+          "PhaseDescS": "Trap Women Team Final",
+          "PhaseDescA": "Final",
+          "UnitDesc": "Trap Women Team - Final - Day 2",
+          "UnitDescS": "Trap Women Team - Final - Day 2",
+          "UnitDescA": "Day 2",
+          "EndDateTimeRaw": "2026-09-28T12:45:00+09:00",
+          "ActualEndDateTimeRaw": "2026-09-28T12:45:00+09:00",
+          "UnitNum": "2",
+          "IsLive": false,
+          "ShowResults": true,
+          "Counters": {
+            "Partics": 6,
+            "Orgs": 6
+          },
+          "Results": []
+        },
+        {
+          "Orgs": [
+            "IND",
+            "QAT",
+            "CHN",
+            "TPE",
+            "KUW",
+            "KAZ",
+            "JPN",
+            "KOR",
+            "IRI",
+            "THA",
+            "BRN",
+            "INA"
+          ],
+          "IsPhase": false,
+          "ResCode": "W.TRW---------------.QUAL.000300--",
+          "ShowLink": true,
+          "Disc": "SHO",
+          "DiscDesc": "Shooting",
+          "Key": "W.TRW---------------.QUAL.000300--",
+          "isH2H": false,
+          "Type": "A",
+          "Medal": "0",
+          "Status": "OFFICIAL",
+          "StatusDesc": "Official",
+          "DateTimeRaw": "2026-09-29T10:00:00+09:00",
+          "HideStartDate": false,
+          "Estimated": false,
+          "EstText": "Followed by",
+          "HideLocation": false,
+          "Venue": "PGS",
+          "VenueDesc": "Aichi Prefectural General Shooting Gallery",
+          "VenueDescS": "Aichi Pref. General Shooting Gallery",
+          "Loc": "SH5",
+          "LocDesc": "Shotgun Range",
+          "LocDescS": "Shotgun Range",
+          "Event": "W.TRW---------------",
+          "EventDesc": "Trap Women Individual",
+          "Phase": "W.TRW---------------.QUAL",
+          "PhaseOrder": 1,
+          "PhaseDesc": "Trap Women Individual Qualification",
+          "PhaseDescS": "Trap Women Individual Qualification",
+          "PhaseDescA": "Qualification",
+          "UnitDesc": "Trap Women Individual - Qualification - Qualification - Day 3",
+          "UnitDescS": "Trap Women Individual - Qualification - Qualification - Day 3",
+          "UnitDescA": "Day 3",
+          "EndDateTimeRaw": "2026-09-29T12:00:00+09:00",
+          "ActualEndDateTimeRaw": "2026-09-29T12:00:00+09:00",
+          "UnitNum": "3",
+          "IsLive": false,
+          "ShowResults": true,
+          "Counters": {
+            "Partics": 27,
+            "Orgs": 12
+          },
+          "Results": []
+        },
+        {
+          "Orgs": [
+            "CHN",
+            "IND",
+            "KUW",
+            "QAT",
+            "JPN",
+            "KAZ"
+          ],
+          "IsPhase": false,
+          "ResCode": "W.TRTW--------------.FNL-.000300--",
+          "ShowLink": true,
+          "Disc": "SHO",
+          "DiscDesc": "Shooting",
+          "Key": "W.TRTW--------------.FNL-.000300--",
+          "isH2H": false,
+          "Type": "T",
+          "Medal": "1",
+          "Status": "OFFICIAL",
+          "StatusDesc": "Official",
+          "DateTimeRaw": "2026-09-29T10:00:00+09:00",
+          "HideStartDate": false,
+          "Estimated": false,
+          "EstText": "Followed by",
+          "HideLocation": false,
+          "Venue": "PGS",
+          "VenueDesc": "Aichi Prefectural General Shooting Gallery",
+          "VenueDescS": "Aichi Pref. General Shooting Gallery",
+          "Loc": "SH5",
+          "LocDesc": "Shotgun Range",
+          "LocDescS": "Shotgun Range",
+          "Event": "W.TRTW--------------",
+          "EventDesc": "Trap Women Team",
+          "Phase": "W.TRTW--------------.FNL-",
+          "PhaseOrder": 2,
+          "PhaseDesc": "Trap Women Team Final",
+          "PhaseDescS": "Trap Women Team Final",
+          "PhaseDescA": "Final",
+          "UnitDesc": "Trap Women Team - Final - Day 3",
+          "UnitDescS": "Trap Women Team - Final - Day 3",
+          "UnitDescA": "Day 3",
+          "EndDateTimeRaw": "2026-09-29T12:00:00+09:00",
+          "ActualEndDateTimeRaw": "2026-09-29T12:00:00+09:00",
+          "UnitNum": "3",
+          "IsLive": false,
+          "ShowResults": true,
+          "Counters": {
+            "Partics": 6,
+            "Orgs": 6
+          },
+          "Results": []
+        },
+        {
+          "Orgs": [
+            "IND",
+            "CHN",
+            "KUW",
+            "QAT",
+            "TPE",
+            "KAZ"
+          ],
+          "IsPhase": false,
+          "ResCode": "W.TRW---------------.FNL-.000100--",
+          "ShowLink": true,
+          "Disc": "SHO",
+          "DiscDesc": "Shooting",
+          "Key": "W.TRW---------------.FNL-.000100--",
+          "isH2H": false,
+          "Type": "A",
+          "Medal": "1",
+          "Status": "OFFICIAL",
+          "StatusDesc": "Official",
+          "DateTimeRaw": "2026-09-29T14:00:00+09:00",
+          "HideStartDate": false,
+          "Estimated": false,
+          "EstText": "Followed by",
+          "HideLocation": false,
+          "Venue": "PGS",
+          "VenueDesc": "Aichi Prefectural General Shooting Gallery",
+          "VenueDescS": "Aichi Pref. General Shooting Gallery",
+          "Loc": "SH5",
+          "LocDesc": "Shotgun Range",
+          "LocDescS": "Shotgun Range",
+          "Event": "W.TRW---------------",
+          "EventDesc": "Trap Women Individual",
+          "Phase": "W.TRW---------------.FNL-",
+          "PhaseOrder": 2,
+          "PhaseDesc": "Trap Women Individual Final",
+          "PhaseDescS": "Trap Women Individual Final",
+          "PhaseDescA": "Final",
+          "UnitDesc": "Trap Women Individual - Final",
+          "UnitDescS": "Trap Women Individual - Final",
+          "UnitDescA": "Final",
+          "EndDateTimeRaw": "2026-09-29T14:30:00+09:00",
+          "ActualEndDateTimeRaw": "2026-09-29T14:30:00+09:00",
+          "UnitNum": "1",
+          "IsLive": false,
+          "ShowResults": true,
+          "Counters": {
+            "Partics": 8,
+            "Orgs": 6
+          },
+          "Results": []
+        },
+        {
+          "Orgs": [
+            "BRN",
+            "CHN",
+            "INA",
+            "IND",
+            "IRI",
+            "JPN",
+            "KAZ",
+            "KOR",
+            "KUW",
+            "QAT",
+            "THA",
+            "TPE"
+          ],
+          "IsPhase": false,
+          "ResCode": "X.TRMT--------------.QUAL.000100--",
+          "ShowLink": true,
+          "Disc": "SHO",
+          "DiscDesc": "Shooting",
+          "Key": "X.TRMT--------------.QUAL.000100--",
+          "isH2H": false,
+          "Type": "T",
+          "Medal": "0",
+          "Status": "START_LIST",
+          "StatusDesc": "Start List",
+          "DateTimeRaw": "2026-09-30T10:00:00+09:00",
+          "HideStartDate": false,
+          "Estimated": false,
+          "EstText": "Followed by",
+          "HideLocation": false,
+          "Venue": "PGS",
+          "VenueDesc": "Aichi Prefectural General Shooting Gallery",
+          "VenueDescS": "Aichi Pref. General Shooting Gallery",
+          "Loc": "SH5",
+          "LocDesc": "Shotgun Range",
+          "LocDescS": "Shotgun Range",
+          "Event": "X.TRMT--------------",
+          "EventDesc": "Trap Mixed Team",
+          "Phase": "X.TRMT--------------.QUAL",
+          "PhaseOrder": 1,
+          "PhaseDesc": "Trap Mixed Team Qualification",
+          "PhaseDescS": "Trap Mixed Team Qualification",
+          "PhaseDescA": "Qualification",
+          "UnitDesc": "Trap Mixed Team - Qualification",
+          "UnitDescS": "Trap Mixed Team - Qualification",
+          "UnitDescA": "Qualification",
+          "EndDateTimeRaw": "2026-09-30T12:40:00+09:00",
+          "ActualEndDateTimeRaw": "2026-09-30T12:40:00+09:00",
+          "UnitNum": "1",
+          "IsLive": false,
+          "ShowResults": false,
+          "Counters": {
+            "Partics": 12,
+            "Orgs": 12
+          }
+        }
+      ],
+      "historical": null
+    }
+  },
+  {
     "reg": "SHOXAPMT-------IND01",
     "name": "India",
     "org": "IND",
@@ -92936,10 +93458,10 @@
           "TeamReg": "SHOXAPMT-------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
+          "Medal": "ME_GOLD",
           "Rank": "1",
           "IRM": "",
-          "Result": "484.6",
-          "Medal": "ME_GOLD"
+          "Result": "484.6"
         }
       ],
       "schedule": [
@@ -93256,10 +93778,10 @@
           "TeamReg": "SHOMARTM-------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
-          "Medal": "ME_SILVER",
           "Rank": "2",
           "IRM": "",
-          "Result": "1890.1"
+          "Result": "1890.1",
+          "Medal": "ME_SILVER"
         }
       ],
       "schedule": [
@@ -93687,10 +94209,10 @@
           "TeamReg": "SHOMR3PTM------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
-          "Medal": "ME_SILVER",
           "Rank": "2",
           "IRM": "",
-          "Result": "1762"
+          "Result": "1762",
+          "Medal": "ME_SILVER"
         }
       ],
       "schedule": [
@@ -94519,10 +95041,10 @@
           "TeamReg": "SHOMR3PTM------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
+          "Medal": "ME_SILVER",
           "Rank": "2",
           "IRM": "",
-          "Result": "1762",
-          "Medal": "ME_SILVER"
+          "Result": "1762"
         }
       ],
       "schedule": [
@@ -94758,10 +95280,10 @@
           "TeamReg": "SHOMR3PTM------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
-          "Medal": "ME_SILVER",
           "Rank": "2",
           "IRM": "",
-          "Result": "1762"
+          "Result": "1762",
+          "Medal": "ME_SILVER"
         }
       ],
       "schedule": [
@@ -95159,10 +95681,10 @@
           "Desc": "10m Air Rifle Women Individual",
           "DescS": "10m Air Rifle Women Individual",
           "isMember": false,
-          "Medal": "ME_SILVER",
           "Rank": "2",
           "IRM": "",
-          "Result": "252.4"
+          "Result": "252.4",
+          "Medal": "ME_SILVER"
         },
         {
           "Disc": "SHO",
@@ -96508,10 +97030,10 @@
           "TeamReg": "SHOWR3PTW------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
+          "Medal": "ME_SILVER",
           "Rank": "2",
           "IRM": "",
-          "Result": "1763",
-          "Medal": "ME_SILVER"
+          "Result": "1763"
         },
         {
           "Disc": "SHO",
@@ -97531,412 +98053,10 @@
           "EvKey": "W.TRW---------------",
           "Desc": "Trap Women Individual",
           "DescS": "Trap Women Individual",
-          "isMember": false
-        }
-      ],
-      "schedule": [
-        {
-          "Orgs": [
-            "IND",
-            "QAT",
-            "CHN",
-            "KOR",
-            "TPE",
-            "KUW",
-            "KAZ",
-            "THA",
-            "JPN",
-            "BRN",
-            "INA",
-            "IRI"
-          ],
-          "IsPhase": false,
-          "ResCode": "W.TRW---------------.QUAL.000100--",
-          "ShowLink": true,
-          "Disc": "SHO",
-          "DiscDesc": "Shooting",
-          "Key": "W.TRW---------------.QUAL.000100--",
-          "isH2H": false,
-          "Type": "A",
-          "Medal": "0",
-          "Status": "OFFICIAL",
-          "StatusDesc": "Official",
-          "DateTimeRaw": "2026-09-27T10:00:00+09:00",
-          "HideStartDate": false,
-          "Estimated": false,
-          "EstText": "Followed by",
-          "HideLocation": false,
-          "Venue": "PGS",
-          "VenueDesc": "Aichi Prefectural General Shooting Gallery",
-          "VenueDescS": "Aichi Pref. General Shooting Gallery",
-          "Loc": "SH5",
-          "LocDesc": "Shotgun Range",
-          "LocDescS": "Shotgun Range",
-          "Event": "W.TRW---------------",
-          "EventDesc": "Trap Women Individual",
-          "Phase": "W.TRW---------------.QUAL",
-          "PhaseOrder": 1,
-          "PhaseDesc": "Trap Women Individual Qualification",
-          "PhaseDescS": "Trap Women Individual Qualification",
-          "PhaseDescA": "Qualification",
-          "UnitDesc": "Trap Women Individual - Qualification - Qualification - Day 1",
-          "UnitDescS": "Trap Women Individual - Qualification - Qualification - Day 1",
-          "UnitDescA": "Day 1",
-          "EndDateTimeRaw": "2026-09-27T12:45:00+09:00",
-          "ActualEndDateTimeRaw": "2026-09-27T12:45:00+09:00",
-          "UnitNum": "1",
-          "IsLive": false,
-          "ShowResults": true,
-          "Counters": {
-            "Partics": 27,
-            "Orgs": 12
-          },
-          "Results": []
-        },
-        {
-          "Orgs": [
-            "CHN",
-            "IND",
-            "QAT",
-            "KUW",
-            "KAZ",
-            "JPN"
-          ],
-          "IsPhase": false,
-          "ResCode": "W.TRTW--------------.FNL-.000100--",
-          "ShowLink": true,
-          "Disc": "SHO",
-          "DiscDesc": "Shooting",
-          "Key": "W.TRTW--------------.FNL-.000100--",
-          "isH2H": false,
-          "Type": "T",
-          "Medal": "0",
-          "Status": "OFFICIAL",
-          "StatusDesc": "Official",
-          "DateTimeRaw": "2026-09-27T10:00:00+09:00",
-          "HideStartDate": false,
-          "Estimated": false,
-          "EstText": "Followed by",
-          "HideLocation": false,
-          "Venue": "PGS",
-          "VenueDesc": "Aichi Prefectural General Shooting Gallery",
-          "VenueDescS": "Aichi Pref. General Shooting Gallery",
-          "Loc": "SH5",
-          "LocDesc": "Shotgun Range",
-          "LocDescS": "Shotgun Range",
-          "Event": "W.TRTW--------------",
-          "EventDesc": "Trap Women Team",
-          "Phase": "W.TRTW--------------.FNL-",
-          "PhaseOrder": 2,
-          "PhaseDesc": "Trap Women Team Final",
-          "PhaseDescS": "Trap Women Team Final",
-          "PhaseDescA": "Final",
-          "UnitDesc": "Trap Women Team - Final - Day 1",
-          "UnitDescS": "Trap Women Team - Final - Day 1",
-          "UnitDescA": "Day 1",
-          "EndDateTimeRaw": "2026-09-27T12:45:00+09:00",
-          "ActualEndDateTimeRaw": "2026-09-27T12:45:00+09:00",
-          "UnitNum": "1",
-          "IsLive": false,
-          "ShowResults": true,
-          "Counters": {
-            "Partics": 6,
-            "Orgs": 6
-          },
-          "Results": []
-        },
-        {
-          "Orgs": [
-            "IND",
-            "QAT",
-            "CHN",
-            "TPE",
-            "KUW",
-            "KOR",
-            "THA",
-            "KAZ",
-            "JPN",
-            "IRI",
-            "BRN",
-            "INA"
-          ],
-          "IsPhase": false,
-          "ResCode": "W.TRW---------------.QUAL.000200--",
-          "ShowLink": true,
-          "Disc": "SHO",
-          "DiscDesc": "Shooting",
-          "Key": "W.TRW---------------.QUAL.000200--",
-          "isH2H": false,
-          "Type": "A",
-          "Medal": "0",
-          "Status": "OFFICIAL",
-          "StatusDesc": "Official",
-          "DateTimeRaw": "2026-09-28T10:00:00+09:00",
-          "HideStartDate": false,
-          "Estimated": false,
-          "EstText": "Followed by",
-          "HideLocation": false,
-          "Venue": "PGS",
-          "VenueDesc": "Aichi Prefectural General Shooting Gallery",
-          "VenueDescS": "Aichi Pref. General Shooting Gallery",
-          "Loc": "SH5",
-          "LocDesc": "Shotgun Range",
-          "LocDescS": "Shotgun Range",
-          "Event": "W.TRW---------------",
-          "EventDesc": "Trap Women Individual",
-          "Phase": "W.TRW---------------.QUAL",
-          "PhaseOrder": 1,
-          "PhaseDesc": "Trap Women Individual Qualification",
-          "PhaseDescS": "Trap Women Individual Qualification",
-          "PhaseDescA": "Qualification",
-          "UnitDesc": "Trap Women Individual - Qualification - Qualification - Day 2",
-          "UnitDescS": "Trap Women Individual - Qualification - Qualification - Day 2",
-          "UnitDescA": "Day 2",
-          "EndDateTimeRaw": "2026-09-28T12:45:00+09:00",
-          "ActualEndDateTimeRaw": "2026-09-28T12:45:00+09:00",
-          "UnitNum": "2",
-          "IsLive": false,
-          "ShowResults": true,
-          "Counters": {
-            "Partics": 27,
-            "Orgs": 12
-          },
-          "Results": []
-        },
-        {
-          "Orgs": [
-            "CHN",
-            "KUW",
-            "IND",
-            "QAT",
-            "KAZ",
-            "JPN"
-          ],
-          "IsPhase": false,
-          "ResCode": "W.TRTW--------------.FNL-.000200--",
-          "ShowLink": true,
-          "Disc": "SHO",
-          "DiscDesc": "Shooting",
-          "Key": "W.TRTW--------------.FNL-.000200--",
-          "isH2H": false,
-          "Type": "T",
-          "Medal": "0",
-          "Status": "OFFICIAL",
-          "StatusDesc": "Official",
-          "DateTimeRaw": "2026-09-28T10:00:00+09:00",
-          "HideStartDate": false,
-          "Estimated": false,
-          "EstText": "Followed by",
-          "HideLocation": false,
-          "Venue": "PGS",
-          "VenueDesc": "Aichi Prefectural General Shooting Gallery",
-          "VenueDescS": "Aichi Pref. General Shooting Gallery",
-          "Loc": "SH5",
-          "LocDesc": "Shotgun Range",
-          "LocDescS": "Shotgun Range",
-          "Event": "W.TRTW--------------",
-          "EventDesc": "Trap Women Team",
-          "Phase": "W.TRTW--------------.FNL-",
-          "PhaseOrder": 2,
-          "PhaseDesc": "Trap Women Team Final",
-          "PhaseDescS": "Trap Women Team Final",
-          "PhaseDescA": "Final",
-          "UnitDesc": "Trap Women Team - Final - Day 2",
-          "UnitDescS": "Trap Women Team - Final - Day 2",
-          "UnitDescA": "Day 2",
-          "EndDateTimeRaw": "2026-09-28T12:45:00+09:00",
-          "ActualEndDateTimeRaw": "2026-09-28T12:45:00+09:00",
-          "UnitNum": "2",
-          "IsLive": false,
-          "ShowResults": true,
-          "Counters": {
-            "Partics": 6,
-            "Orgs": 6
-          },
-          "Results": []
-        },
-        {
-          "Orgs": [
-            "IND",
-            "QAT",
-            "CHN",
-            "TPE",
-            "KUW",
-            "KAZ",
-            "JPN",
-            "KOR",
-            "IRI",
-            "THA",
-            "BRN",
-            "INA"
-          ],
-          "IsPhase": false,
-          "ResCode": "W.TRW---------------.QUAL.000300--",
-          "ShowLink": true,
-          "Disc": "SHO",
-          "DiscDesc": "Shooting",
-          "Key": "W.TRW---------------.QUAL.000300--",
-          "isH2H": false,
-          "Type": "A",
-          "Medal": "0",
-          "Status": "OFFICIAL",
-          "StatusDesc": "Official",
-          "DateTimeRaw": "2026-09-29T10:00:00+09:00",
-          "HideStartDate": false,
-          "Estimated": false,
-          "EstText": "Followed by",
-          "HideLocation": false,
-          "Venue": "PGS",
-          "VenueDesc": "Aichi Prefectural General Shooting Gallery",
-          "VenueDescS": "Aichi Pref. General Shooting Gallery",
-          "Loc": "SH5",
-          "LocDesc": "Shotgun Range",
-          "LocDescS": "Shotgun Range",
-          "Event": "W.TRW---------------",
-          "EventDesc": "Trap Women Individual",
-          "Phase": "W.TRW---------------.QUAL",
-          "PhaseOrder": 1,
-          "PhaseDesc": "Trap Women Individual Qualification",
-          "PhaseDescS": "Trap Women Individual Qualification",
-          "PhaseDescA": "Qualification",
-          "UnitDesc": "Trap Women Individual - Qualification - Qualification - Day 3",
-          "UnitDescS": "Trap Women Individual - Qualification - Qualification - Day 3",
-          "UnitDescA": "Day 3",
-          "EndDateTimeRaw": "2026-09-29T12:00:00+09:00",
-          "ActualEndDateTimeRaw": "2026-09-29T12:00:00+09:00",
-          "UnitNum": "3",
-          "IsLive": false,
-          "ShowResults": true,
-          "Counters": {
-            "Partics": 27,
-            "Orgs": 12
-          },
-          "Results": []
-        },
-        {
-          "Orgs": [
-            "CHN",
-            "IND",
-            "KUW",
-            "QAT",
-            "JPN",
-            "KAZ"
-          ],
-          "IsPhase": false,
-          "ResCode": "W.TRTW--------------.FNL-.000300--",
-          "ShowLink": true,
-          "Disc": "SHO",
-          "DiscDesc": "Shooting",
-          "Key": "W.TRTW--------------.FNL-.000300--",
-          "isH2H": false,
-          "Type": "T",
-          "Medal": "1",
-          "Status": "OFFICIAL",
-          "StatusDesc": "Official",
-          "DateTimeRaw": "2026-09-29T10:00:00+09:00",
-          "HideStartDate": false,
-          "Estimated": false,
-          "EstText": "Followed by",
-          "HideLocation": false,
-          "Venue": "PGS",
-          "VenueDesc": "Aichi Prefectural General Shooting Gallery",
-          "VenueDescS": "Aichi Pref. General Shooting Gallery",
-          "Loc": "SH5",
-          "LocDesc": "Shotgun Range",
-          "LocDescS": "Shotgun Range",
-          "Event": "W.TRTW--------------",
-          "EventDesc": "Trap Women Team",
-          "Phase": "W.TRTW--------------.FNL-",
-          "PhaseOrder": 2,
-          "PhaseDesc": "Trap Women Team Final",
-          "PhaseDescS": "Trap Women Team Final",
-          "PhaseDescA": "Final",
-          "UnitDesc": "Trap Women Team - Final - Day 3",
-          "UnitDescS": "Trap Women Team - Final - Day 3",
-          "UnitDescA": "Day 3",
-          "EndDateTimeRaw": "2026-09-29T12:00:00+09:00",
-          "ActualEndDateTimeRaw": "2026-09-29T12:00:00+09:00",
-          "UnitNum": "3",
-          "IsLive": false,
-          "ShowResults": true,
-          "Counters": {
-            "Partics": 6,
-            "Orgs": 6
-          },
-          "Results": []
-        }
-      ],
-      "historical": null
-    }
-  },
-  {
-    "reg": "13021576",
-    "name": "NEERU",
-    "org": "IND",
-    "org_desc": "India",
-    "disc": "SHO",
-    "disc_desc": "Shooting",
-    "photo_url": "https://results.asiangames2026.org/ag2026/photos/13021576.jpg",
-    "medals": [
-      {
-        "medal": "silver",
-        "event": "Trap Women Team"
-      }
-    ],
-    "bio_data": {
-      "participant": {
-        "Reg": "13021576",
-        "Disc": "SHO",
-        "DiscDesc": "Shooting",
-        "hasMembers": false,
-        "Org": "IND",
-        "OrgDesc": "India",
-        "Type": "A",
-        "MedClass": "",
-        "Gender": "W",
-        "BirthDateRaw": "2000-05-25",
-        "Name": "NEERU",
-        "NameS": "NEERU",
-        "GivenName": "",
-        "FamilyName": "NEERU",
-        "IFId": "",
-        "Height": 0,
-        "Weight": 0
-      },
-      "entries": [
-        {
-          "Disc": "SHO",
-          "Reg": "13021576",
-          "EvKey": "W.TRTW--------------",
-          "Desc": "Trap Women Team",
-          "DescS": "Trap Women Team",
-          "isMember": true,
-          "TeamReg": "SHOWTRTW-------IND01",
-          "TeamOrg": "IND",
-          "TeamName": "India",
-          "Medal": "ME_SILVER",
-          "Rank": "2",
+          "isMember": false,
+          "Rank": "16",
           "IRM": "",
-          "Result": "328"
-        },
-        {
-          "Disc": "SHO",
-          "Reg": "13021576",
-          "EvKey": "W.TRW---------------",
-          "Desc": "Trap Women Individual",
-          "DescS": "Trap Women Individual",
-          "isMember": false
-        },
-        {
-          "Disc": "SHO",
-          "Reg": "13021576",
-          "EvKey": "X.TRMT--------------",
-          "Desc": "Trap Mixed Team",
-          "DescS": "Trap Mixed Team",
-          "isMember": true,
-          "TeamReg": "SHOXTRMT-------IND01",
-          "TeamOrg": "IND",
-          "TeamName": "India"
+          "Result": ""
         }
       ],
       "schedule": [
@@ -98269,63 +98389,6 @@
             "Orgs": 6
           },
           "Results": []
-        },
-        {
-          "Orgs": [
-            "BRN",
-            "CHN",
-            "INA",
-            "IND",
-            "IRI",
-            "JPN",
-            "KAZ",
-            "KOR",
-            "KUW",
-            "QAT",
-            "THA",
-            "TPE"
-          ],
-          "IsPhase": false,
-          "ResCode": "X.TRMT--------------.QUAL.000100--",
-          "ShowLink": true,
-          "Disc": "SHO",
-          "DiscDesc": "Shooting",
-          "Key": "X.TRMT--------------.QUAL.000100--",
-          "isH2H": false,
-          "Type": "T",
-          "Medal": "0",
-          "Status": "START_LIST",
-          "StatusDesc": "Start List",
-          "DateTimeRaw": "2026-09-30T10:00:00+09:00",
-          "HideStartDate": false,
-          "Estimated": false,
-          "EstText": "Followed by",
-          "HideLocation": false,
-          "Venue": "PGS",
-          "VenueDesc": "Aichi Prefectural General Shooting Gallery",
-          "VenueDescS": "Aichi Pref. General Shooting Gallery",
-          "Loc": "SH5",
-          "LocDesc": "Shotgun Range",
-          "LocDescS": "Shotgun Range",
-          "Event": "X.TRMT--------------",
-          "EventDesc": "Trap Mixed Team",
-          "Phase": "X.TRMT--------------.QUAL",
-          "PhaseOrder": 1,
-          "PhaseDesc": "Trap Mixed Team Qualification",
-          "PhaseDescS": "Trap Mixed Team Qualification",
-          "PhaseDescA": "Qualification",
-          "UnitDesc": "Trap Mixed Team - Qualification",
-          "UnitDescS": "Trap Mixed Team - Qualification",
-          "UnitDescA": "Qualification",
-          "EndDateTimeRaw": "2026-09-30T12:40:00+09:00",
-          "ActualEndDateTimeRaw": "2026-09-30T12:40:00+09:00",
-          "UnitNum": "1",
-          "IsLive": false,
-          "ShowResults": false,
-          "Counters": {
-            "Partics": 12,
-            "Orgs": 12
-          }
         }
       ],
       "historical": null
@@ -98387,7 +98450,10 @@
           "EvKey": "W.TRW---------------",
           "Desc": "Trap Women Individual",
           "DescS": "Trap Women Individual",
-          "isMember": false
+          "isMember": false,
+          "Rank": "23",
+          "IRM": "",
+          "Result": ""
         }
       ],
       "schedule": [
@@ -99484,10 +99550,10 @@
           "TeamReg": "SHOMSKTM-------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
-          "Medal": "ME_BRONZE",
           "Rank": "3",
           "IRM": "",
-          "Result": "346"
+          "Result": "346",
+          "Medal": "ME_BRONZE"
         },
         {
           "Disc": "SHO",
@@ -99499,10 +99565,10 @@
           "TeamReg": "SHOXSKMT-------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
+          "Medal": "ME_BRONZE",
           "Rank": "3",
           "IRM": "",
-          "Result": "44",
-          "Medal": "ME_BRONZE"
+          "Result": "44"
         }
       ],
       "schedule": [
@@ -100559,10 +100625,10 @@
           "Desc": "Skeet Women Team",
           "DescS": "Skeet Women Team",
           "isMember": false,
+          "Medal": "ME_BRONZE",
           "Rank": "3",
           "IRM": "",
-          "Result": "331",
-          "Medal": "ME_BRONZE"
+          "Result": "331"
         }
       ],
       "schedule": [
@@ -101348,10 +101414,10 @@
           "TeamReg": "SHOWSKTW-------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
+          "Medal": "ME_BRONZE",
           "Rank": "3",
           "IRM": "",
-          "Result": "331",
-          "Medal": "ME_BRONZE"
+          "Result": "331"
         },
         {
           "Disc": "SHO",
@@ -101745,10 +101811,10 @@
           "TeamReg": "SHOWSKTW-------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
+          "Medal": "ME_BRONZE",
           "Rank": "3",
           "IRM": "",
-          "Result": "331",
-          "Medal": "ME_BRONZE"
+          "Result": "331"
         },
         {
           "Disc": "SHO",
@@ -102218,10 +102284,10 @@
           "Desc": "Skeet Mixed Team",
           "DescS": "Skeet Mixed Team",
           "isMember": false,
-          "Medal": "ME_BRONZE",
           "Rank": "3",
           "IRM": "",
-          "Result": "44"
+          "Result": "44",
+          "Medal": "ME_BRONZE"
         }
       ],
       "schedule": [
@@ -122815,10 +122881,10 @@
           "TeamReg": "TTEXDOUBLES----IND01",
           "TeamOrg": "IND",
           "TeamName": "SHAH Manush/CHITALE Diya",
+          "Medal": "ME_BRONZE",
           "Rank": "3",
           "IRM": "OK",
-          "Result": "",
-          "Medal": "ME_BRONZE"
+          "Result": ""
         }
       ],
       "schedule": [
