@@ -586,10 +586,10 @@
           "Desc": "Men's Javelin Throw",
           "DescS": "Men's Javelin Throw",
           "isMember": false,
+          "Medal": "ME_SILVER",
           "Rank": "2",
           "IRM": "OK",
-          "Result": "85.72",
-          "Medal": "ME_SILVER"
+          "Result": "85.72"
         }
       ],
       "schedule": [
@@ -91431,10 +91431,10 @@
           "Desc": "Women's Traditional -60kg",
           "DescS": "Women's Traditional -60kg",
           "isMember": false,
+          "Medal": "ME_BRONZE",
           "Rank": "3",
           "IRM": "",
-          "Result": "",
-          "Medal": "ME_BRONZE"
+          "Result": ""
         }
       ],
       "schedule": [
@@ -93458,10 +93458,10 @@
           "TeamReg": "SHOXAPMT-------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
-          "Medal": "ME_GOLD",
           "Rank": "1",
           "IRM": "",
-          "Result": "484.6"
+          "Result": "484.6",
+          "Medal": "ME_GOLD"
         }
       ],
       "schedule": [
@@ -94209,10 +94209,10 @@
           "TeamReg": "SHOMR3PTM------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
-          "Medal": "ME_SILVER",
           "Rank": "2",
           "IRM": "",
-          "Result": "1762"
+          "Result": "1762",
+          "Medal": "ME_SILVER"
         }
       ],
       "schedule": [
@@ -94571,10 +94571,10 @@
           "TeamReg": "SHOMARTM-------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
+          "Medal": "ME_SILVER",
           "Rank": "2",
           "IRM": "",
-          "Result": "1890.1",
-          "Medal": "ME_SILVER"
+          "Result": "1890.1"
         },
         {
           "Disc": "SHO",
@@ -95280,10 +95280,10 @@
           "TeamReg": "SHOMR3PTM------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
+          "Medal": "ME_SILVER",
           "Rank": "2",
           "IRM": "",
-          "Result": "1762",
-          "Medal": "ME_SILVER"
+          "Result": "1762"
         }
       ],
       "schedule": [
@@ -97307,10 +97307,10 @@
           "Desc": "25m Pistol Women Individual",
           "DescS": "25m Pistol Women Individual",
           "isMember": false,
-          "Medal": "ME_SILVER",
           "Rank": "2",
           "IRM": "",
-          "Result": "38"
+          "Result": "38",
+          "Medal": "ME_SILVER"
         }
       ],
       "schedule": [
@@ -100625,10 +100625,10 @@
           "Desc": "Skeet Women Team",
           "DescS": "Skeet Women Team",
           "isMember": false,
-          "Medal": "ME_BRONZE",
           "Rank": "3",
           "IRM": "",
-          "Result": "331"
+          "Result": "331",
+          "Medal": "ME_BRONZE"
         }
       ],
       "schedule": [
@@ -102284,10 +102284,10 @@
           "Desc": "Skeet Mixed Team",
           "DescS": "Skeet Mixed Team",
           "isMember": false,
-          "Medal": "ME_BRONZE",
           "Rank": "3",
           "IRM": "",
-          "Result": "44"
+          "Result": "44",
+          "Medal": "ME_BRONZE"
         }
       ],
       "schedule": [
@@ -107627,32 +107627,6 @@
                 "Extensions": []
               },
               {
-                "Type": "PREV_RESULT",
-                "Code": "UNIT_KEY",
-                "Pos": 1,
-                "Value": "W.TEAM--------------.3RD-.00030000",
-                "Extensions": [
-                  {
-                    "Type": "RESULT",
-                    "Code": "Register",
-                    "Pos": 1,
-                    "Value": "SQUWTEAM-------CHN01"
-                  },
-                  {
-                    "Type": "RESULT",
-                    "Code": "RegisterOpp",
-                    "Pos": 1,
-                    "Value": "SQUWTEAM-------PAK01"
-                  },
-                  {
-                    "Type": "RESULT",
-                    "Code": "Result",
-                    "Pos": 1,
-                    "Value": ""
-                  }
-                ]
-              },
-              {
                 "Type": "SERVICE",
                 "Code": "MemberServer",
                 "Pos": 0,
@@ -110212,10 +110186,10 @@
           "TeamReg": "SQUXDOUBLES----IND02",
           "TeamOrg": "IND",
           "TeamName": "CHINAPPA J. /SENTHILKUMAR V.",
+          "Medal": "ME_BRONZE",
           "Rank": "3",
           "IRM": "OK",
-          "Result": "",
-          "Medal": "ME_BRONZE"
+          "Result": ""
         }
       ],
       "schedule": [
@@ -111567,32 +111541,6 @@
                 "Pos": 0,
                 "Value": "0",
                 "Extensions": []
-              },
-              {
-                "Type": "PREV_RESULT",
-                "Code": "UNIT_KEY",
-                "Pos": 1,
-                "Value": "W.TEAM--------------.3RD-.00030000",
-                "Extensions": [
-                  {
-                    "Type": "RESULT",
-                    "Code": "Register",
-                    "Pos": 1,
-                    "Value": "SQUWTEAM-------CHN01"
-                  },
-                  {
-                    "Type": "RESULT",
-                    "Code": "RegisterOpp",
-                    "Pos": 1,
-                    "Value": "SQUWTEAM-------PAK01"
-                  },
-                  {
-                    "Type": "RESULT",
-                    "Code": "Result",
-                    "Pos": 1,
-                    "Value": ""
-                  }
-                ]
               },
               {
                 "Type": "SERVICE",
@@ -115194,10 +115142,10 @@
           "Desc": "Men's Singles",
           "DescS": "Men's Singles",
           "isMember": false,
+          "Medal": "ME_BRONZE",
           "Rank": "3",
           "IRM": "OK",
-          "Result": "",
-          "Medal": "ME_BRONZE"
+          "Result": ""
         },
         {
           "Disc": "TST",
@@ -123767,10 +123715,10 @@
           "TeamReg": "TTEXDOUBLES----IND01",
           "TeamOrg": "IND",
           "TeamName": "SHAH Manush/CHITALE Diya",
-          "Medal": "ME_BRONZE",
           "Rank": "3",
           "IRM": "OK",
-          "Result": ""
+          "Result": "",
+          "Medal": "ME_BRONZE"
         }
       ],
       "schedule": [
