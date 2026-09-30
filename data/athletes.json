@@ -56589,10 +56589,10 @@
           "TeamReg": "ARCXCTEAM2-----IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
-          "Medal": "ME_GOLD",
           "Rank": "1",
           "IRM": "",
-          "Result": ""
+          "Result": "",
+          "Medal": "ME_GOLD"
         },
         {
           "Disc": "ARC",
@@ -76410,10 +76410,10 @@
           "TeamReg": "ARCXCTEAM2-----IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
+          "Medal": "ME_GOLD",
           "Rank": "1",
           "IRM": "",
-          "Result": "",
-          "Medal": "ME_GOLD"
+          "Result": ""
         }
       ],
       "schedule": [
@@ -84732,10 +84732,10 @@
           "TeamReg": "ARCWCTEAM------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
+          "Medal": "ME_GOLD",
           "Rank": "1",
           "IRM": "",
-          "Result": "",
-          "Medal": "ME_GOLD"
+          "Result": ""
         },
         {
           "Disc": "ARC",
@@ -84755,10 +84755,10 @@
           "TeamReg": "ARCXCTEAM2-----IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
+          "Medal": "ME_GOLD",
           "Rank": "1",
           "IRM": "",
-          "Result": "",
-          "Medal": "ME_GOLD"
+          "Result": ""
         }
       ],
       "schedule": [
@@ -218133,10 +218133,10 @@
           "Desc": "Women's Singles",
           "DescS": "Women's Singles",
           "isMember": false,
-          "Medal": "ME_SILVER",
           "Rank": "2",
           "IRM": "OK",
-          "Result": ""
+          "Result": "",
+          "Medal": "ME_SILVER"
         },
         {
           "Disc": "SQU",
@@ -249066,10 +249066,10 @@
           "Desc": "Men's Greco-Roman 87kg",
           "DescS": "Men's Greco-Roman 87kg",
           "isMember": false,
+          "Medal": "ME_BRONZE",
           "Rank": "3",
           "IRM": "",
-          "Result": "",
-          "Medal": "ME_BRONZE"
+          "Result": ""
         }
       ],
       "schedule": [
@@ -250529,10 +250529,10 @@
           "Desc": "Women's 60kg",
           "DescS": "Women's 60kg",
           "isMember": false,
-          "Medal": "ME_SILVER",
           "Rank": "2",
           "IRM": "OK",
-          "Result": ""
+          "Result": "",
+          "Medal": "ME_SILVER"
         }
       ],
       "schedule": [
