@@ -52859,7 +52859,7 @@
                     "Type": "SPLIT_RESULT",
                     "Code": "ShootFirst",
                     "Pos": 0,
-                    "Value": "Y",
+                    "Value": "N",
                     "Extensions": []
                   },
                   {
@@ -53668,7 +53668,7 @@
                     "Type": "SPLIT_RESULT",
                     "Code": "ShootFirst",
                     "Pos": 0,
-                    "Value": "N",
+                    "Value": "Y",
                     "Extensions": []
                   },
                   {
@@ -56566,10 +56566,10 @@
           "TeamReg": "ARCWCTEAM------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
-          "Medal": "ME_GOLD",
           "Rank": "1",
           "IRM": "",
-          "Result": ""
+          "Result": "",
+          "Medal": "ME_GOLD"
         },
         {
           "Disc": "ARC",
@@ -68544,7 +68544,7 @@
                     "Type": "SPLIT_RESULT",
                     "Code": "ShootFirst",
                     "Pos": 0,
-                    "Value": "Y",
+                    "Value": "N",
                     "Extensions": []
                   },
                   {
@@ -69353,7 +69353,7 @@
                     "Type": "SPLIT_RESULT",
                     "Code": "ShootFirst",
                     "Pos": 0,
-                    "Value": "N",
+                    "Value": "Y",
                     "Extensions": []
                   },
                   {
@@ -81025,7 +81025,7 @@
                     "Type": "SPLIT_RESULT",
                     "Code": "ShootFirst",
                     "Pos": 0,
-                    "Value": "Y",
+                    "Value": "N",
                     "Extensions": []
                   },
                   {
@@ -81834,7 +81834,7 @@
                     "Type": "SPLIT_RESULT",
                     "Code": "ShootFirst",
                     "Pos": 0,
-                    "Value": "N",
+                    "Value": "Y",
                     "Extensions": []
                   },
                   {
@@ -84732,10 +84732,10 @@
           "TeamReg": "ARCWCTEAM------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
-          "Medal": "ME_GOLD",
           "Rank": "1",
           "IRM": "",
-          "Result": ""
+          "Result": "",
+          "Medal": "ME_GOLD"
         },
         {
           "Disc": "ARC",
@@ -93064,7 +93064,7 @@
                     "Type": "SPLIT_RESULT",
                     "Code": "ShootFirst",
                     "Pos": 0,
-                    "Value": "Y",
+                    "Value": "N",
                     "Extensions": []
                   },
                   {
@@ -93873,7 +93873,7 @@
                     "Type": "SPLIT_RESULT",
                     "Code": "ShootFirst",
                     "Pos": 0,
-                    "Value": "N",
+                    "Value": "Y",
                     "Extensions": []
                   },
                   {
@@ -218133,10 +218133,10 @@
           "Desc": "Women's Singles",
           "DescS": "Women's Singles",
           "isMember": false,
+          "Medal": "ME_SILVER",
           "Rank": "2",
           "IRM": "OK",
-          "Result": "",
-          "Medal": "ME_SILVER"
+          "Result": ""
         },
         {
           "Disc": "SQU",
@@ -221357,7 +221357,8 @@
         },
         {
           "Orgs": [
-            "IND"
+            "IND",
+            "HKG"
           ],
           "IsPhase": false,
           "ResCode": "W.TEAM--------------.SFNL.00020000",
@@ -221617,14 +221618,48 @@
             ]
           },
           "Away": {
-            "Org": "",
-            "Reg": "",
-            "Name": "",
+            "Org": "HKG",
+            "Reg": "SQUWTEAM-------HKG01",
+            "Name": "Hong Kong, China",
             "Result": "",
             "Winner": false,
             "HasData": true,
-            "NameS": "",
+            "NameS": "Hong Kong, China",
             "Medal": "",
+            "Members": [
+              {
+                "Org": "HKG",
+                "Bib": "",
+                "Name": "CHAN Sin Yuk",
+                "NameS": "CHAN Sin Yuk",
+                "FuncDesc": "Athlete",
+                "PosDesc": ""
+              },
+              {
+                "Org": "HKG",
+                "Bib": "",
+                "Name": "LEE Ka Yi",
+                "NameS": "LEE Ka Yi",
+                "FuncDesc": "Athlete",
+                "PosDesc": ""
+              },
+              {
+                "Org": "HKG",
+                "Bib": "",
+                "Name": "HO Tze Lok",
+                "NameS": "HO Tze Lok",
+                "FuncDesc": "Athlete",
+                "PosDesc": ""
+              },
+              {
+                "Org": "HKG",
+                "Bib": "",
+                "Name": "TSE Yee Lam Toby",
+                "NameS": "TSE Yee Lam Toby",
+                "FuncDesc": "Athlete",
+                "PosDesc": ""
+              }
+            ],
             "Splits": [],
             "Extensions": [
               {
@@ -221654,6 +221689,110 @@
                 "Pos": 0,
                 "Value": "0",
                 "Extensions": []
+              },
+              {
+                "Type": "PREV_RESULT",
+                "Code": "UNIT_KEY",
+                "Pos": 1,
+                "Value": "W.TEAM--------------.GPB-.00050000",
+                "Extensions": [
+                  {
+                    "Type": "RESULT",
+                    "Code": "Register",
+                    "Pos": 1,
+                    "Value": "SQUWTEAM-------HKG01"
+                  },
+                  {
+                    "Type": "RESULT",
+                    "Code": "RegisterOpp",
+                    "Pos": 1,
+                    "Value": "SQUWTEAM-------PAK01"
+                  },
+                  {
+                    "Type": "RESULT",
+                    "Code": "Result",
+                    "Pos": 1,
+                    "Value": "3-0"
+                  }
+                ]
+              },
+              {
+                "Type": "PREV_RESULT",
+                "Code": "UNIT_KEY",
+                "Pos": 2,
+                "Value": "W.TEAM--------------.GPB-.00030000",
+                "Extensions": [
+                  {
+                    "Type": "RESULT",
+                    "Code": "Register",
+                    "Pos": 2,
+                    "Value": "SQUWTEAM-------HKG01"
+                  },
+                  {
+                    "Type": "RESULT",
+                    "Code": "RegisterOpp",
+                    "Pos": 2,
+                    "Value": "SQUWTEAM-------KOR01"
+                  },
+                  {
+                    "Type": "RESULT",
+                    "Code": "Result",
+                    "Pos": 2,
+                    "Value": "3-0"
+                  }
+                ]
+              },
+              {
+                "Type": "PREV_RESULT",
+                "Code": "UNIT_KEY",
+                "Pos": 3,
+                "Value": "W.TEAM--------------.GPB-.00020000",
+                "Extensions": [
+                  {
+                    "Type": "RESULT",
+                    "Code": "Register",
+                    "Pos": 3,
+                    "Value": "SQUWTEAM-------HKG01"
+                  },
+                  {
+                    "Type": "RESULT",
+                    "Code": "RegisterOpp",
+                    "Pos": 3,
+                    "Value": "SQUWTEAM-------MGL01"
+                  },
+                  {
+                    "Type": "RESULT",
+                    "Code": "Result",
+                    "Pos": 3,
+                    "Value": "3-0"
+                  }
+                ]
+              },
+              {
+                "Type": "PREV_RESULT",
+                "Code": "UNIT_KEY",
+                "Pos": 4,
+                "Value": "W.TEAM--------------.QFNL.00040000",
+                "Extensions": [
+                  {
+                    "Type": "RESULT",
+                    "Code": "Register",
+                    "Pos": 4,
+                    "Value": "SQUWTEAM-------HKG01"
+                  },
+                  {
+                    "Type": "RESULT",
+                    "Code": "RegisterOpp",
+                    "Pos": 4,
+                    "Value": "SQUWTEAM-------CHN01"
+                  },
+                  {
+                    "Type": "RESULT",
+                    "Code": "Result",
+                    "Pos": 4,
+                    "Value": "2-0"
+                  }
+                ]
               },
               {
                 "Type": "SERVICE",
@@ -225655,7 +225794,8 @@
         },
         {
           "Orgs": [
-            "IND"
+            "IND",
+            "HKG"
           ],
           "IsPhase": false,
           "ResCode": "W.TEAM--------------.SFNL.00020000",
@@ -225915,14 +226055,48 @@
             ]
           },
           "Away": {
-            "Org": "",
-            "Reg": "",
-            "Name": "",
+            "Org": "HKG",
+            "Reg": "SQUWTEAM-------HKG01",
+            "Name": "Hong Kong, China",
             "Result": "",
             "Winner": false,
             "HasData": true,
-            "NameS": "",
+            "NameS": "Hong Kong, China",
             "Medal": "",
+            "Members": [
+              {
+                "Org": "HKG",
+                "Bib": "",
+                "Name": "CHAN Sin Yuk",
+                "NameS": "CHAN Sin Yuk",
+                "FuncDesc": "Athlete",
+                "PosDesc": ""
+              },
+              {
+                "Org": "HKG",
+                "Bib": "",
+                "Name": "LEE Ka Yi",
+                "NameS": "LEE Ka Yi",
+                "FuncDesc": "Athlete",
+                "PosDesc": ""
+              },
+              {
+                "Org": "HKG",
+                "Bib": "",
+                "Name": "HO Tze Lok",
+                "NameS": "HO Tze Lok",
+                "FuncDesc": "Athlete",
+                "PosDesc": ""
+              },
+              {
+                "Org": "HKG",
+                "Bib": "",
+                "Name": "TSE Yee Lam Toby",
+                "NameS": "TSE Yee Lam Toby",
+                "FuncDesc": "Athlete",
+                "PosDesc": ""
+              }
+            ],
             "Splits": [],
             "Extensions": [
               {
@@ -225952,6 +226126,110 @@
                 "Pos": 0,
                 "Value": "0",
                 "Extensions": []
+              },
+              {
+                "Type": "PREV_RESULT",
+                "Code": "UNIT_KEY",
+                "Pos": 1,
+                "Value": "W.TEAM--------------.GPB-.00050000",
+                "Extensions": [
+                  {
+                    "Type": "RESULT",
+                    "Code": "Register",
+                    "Pos": 1,
+                    "Value": "SQUWTEAM-------HKG01"
+                  },
+                  {
+                    "Type": "RESULT",
+                    "Code": "RegisterOpp",
+                    "Pos": 1,
+                    "Value": "SQUWTEAM-------PAK01"
+                  },
+                  {
+                    "Type": "RESULT",
+                    "Code": "Result",
+                    "Pos": 1,
+                    "Value": "3-0"
+                  }
+                ]
+              },
+              {
+                "Type": "PREV_RESULT",
+                "Code": "UNIT_KEY",
+                "Pos": 2,
+                "Value": "W.TEAM--------------.GPB-.00030000",
+                "Extensions": [
+                  {
+                    "Type": "RESULT",
+                    "Code": "Register",
+                    "Pos": 2,
+                    "Value": "SQUWTEAM-------HKG01"
+                  },
+                  {
+                    "Type": "RESULT",
+                    "Code": "RegisterOpp",
+                    "Pos": 2,
+                    "Value": "SQUWTEAM-------KOR01"
+                  },
+                  {
+                    "Type": "RESULT",
+                    "Code": "Result",
+                    "Pos": 2,
+                    "Value": "3-0"
+                  }
+                ]
+              },
+              {
+                "Type": "PREV_RESULT",
+                "Code": "UNIT_KEY",
+                "Pos": 3,
+                "Value": "W.TEAM--------------.GPB-.00020000",
+                "Extensions": [
+                  {
+                    "Type": "RESULT",
+                    "Code": "Register",
+                    "Pos": 3,
+                    "Value": "SQUWTEAM-------HKG01"
+                  },
+                  {
+                    "Type": "RESULT",
+                    "Code": "RegisterOpp",
+                    "Pos": 3,
+                    "Value": "SQUWTEAM-------MGL01"
+                  },
+                  {
+                    "Type": "RESULT",
+                    "Code": "Result",
+                    "Pos": 3,
+                    "Value": "3-0"
+                  }
+                ]
+              },
+              {
+                "Type": "PREV_RESULT",
+                "Code": "UNIT_KEY",
+                "Pos": 4,
+                "Value": "W.TEAM--------------.QFNL.00040000",
+                "Extensions": [
+                  {
+                    "Type": "RESULT",
+                    "Code": "Register",
+                    "Pos": 4,
+                    "Value": "SQUWTEAM-------HKG01"
+                  },
+                  {
+                    "Type": "RESULT",
+                    "Code": "RegisterOpp",
+                    "Pos": 4,
+                    "Value": "SQUWTEAM-------CHN01"
+                  },
+                  {
+                    "Type": "RESULT",
+                    "Code": "Result",
+                    "Pos": 4,
+                    "Value": "2-0"
+                  }
+                ]
               },
               {
                 "Type": "SERVICE",
