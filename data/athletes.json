@@ -104333,10 +104333,10 @@
           "TeamReg": "ATHW4X400M-----IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
-          "Medal": "ME_GOLD",
           "Rank": "1",
           "IRM": "OK",
-          "Result": "3:29.69"
+          "Result": "3:29.69",
+          "Medal": "ME_GOLD"
         },
         {
           "Disc": "ATH",
@@ -104348,10 +104348,10 @@
           "TeamReg": "ATHX4X400M-----IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
+          "Medal": "ME_SILVER",
           "Rank": "2",
           "IRM": "OK",
-          "Result": "3:14.46",
-          "Medal": "ME_SILVER"
+          "Result": "3:14.46"
         }
       ],
       "schedule": [
@@ -106427,10 +106427,10 @@
           "Desc": "Men's Javelin Throw",
           "DescS": "Men's Javelin Throw",
           "isMember": false,
-          "Medal": "ME_SILVER",
           "Rank": "2",
           "IRM": "OK",
-          "Result": "85.72"
+          "Result": "85.72",
+          "Medal": "ME_SILVER"
         }
       ],
       "schedule": [
@@ -130777,10 +130777,10 @@
           "TeamReg": "BDMMTEAM-------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
-          "Medal": "ME_BRONZE",
           "Rank": "3",
           "IRM": "OK",
-          "Result": ""
+          "Result": "",
+          "Medal": "ME_BRONZE"
         }
       ],
       "schedule": [
@@ -132931,10 +132931,10 @@
           "TeamReg": "BDMMTEAM-------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
+          "Medal": "ME_BRONZE",
           "Rank": "3",
           "IRM": "OK",
-          "Result": "",
-          "Medal": "ME_BRONZE"
+          "Result": ""
         }
       ],
       "schedule": [
@@ -135085,10 +135085,10 @@
           "TeamReg": "BDMMTEAM-------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
-          "Medal": "ME_BRONZE",
           "Rank": "3",
           "IRM": "OK",
-          "Result": ""
+          "Result": "",
+          "Medal": "ME_BRONZE"
         }
       ],
       "schedule": [
@@ -202095,10 +202095,10 @@
           "Desc": "Women -78kg",
           "DescS": "Women -78kg",
           "isMember": false,
+          "Medal": "ME_BRONZE",
           "Rank": "3",
           "IRM": "",
-          "Result": "",
-          "Medal": "ME_BRONZE"
+          "Result": ""
         }
       ],
       "schedule": [
@@ -206170,10 +206170,10 @@
           "TeamReg": "SHOMR3PTM------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
+          "Medal": "ME_SILVER",
           "Rank": "2",
           "IRM": "",
-          "Result": "1762",
-          "Medal": "ME_SILVER"
+          "Result": "1762"
         }
       ],
       "schedule": [
@@ -207642,10 +207642,10 @@
           "Desc": "10m Air Rifle Women Individual",
           "DescS": "10m Air Rifle Women Individual",
           "isMember": false,
+          "Medal": "ME_SILVER",
           "Rank": "2",
           "IRM": "",
-          "Result": "252.4",
-          "Medal": "ME_SILVER"
+          "Result": "252.4"
         },
         {
           "Disc": "SHO",
@@ -209791,10 +209791,10 @@
           "Desc": "Trap Women Team",
           "DescS": "Trap Women Team",
           "isMember": false,
+          "Medal": "ME_SILVER",
           "Rank": "2",
           "IRM": "",
-          "Result": "328",
-          "Medal": "ME_SILVER"
+          "Result": "328"
         }
       ],
       "schedule": [
@@ -237656,10 +237656,10 @@
           "TeamReg": "TTEXDOUBLES----IND01",
           "TeamOrg": "IND",
           "TeamName": "SHAH Manush/CHITALE Diya",
+          "Medal": "ME_BRONZE",
           "Rank": "3",
           "IRM": "OK",
-          "Result": "",
-          "Medal": "ME_BRONZE"
+          "Result": ""
         }
       ],
       "schedule": [
@@ -243401,10 +243401,10 @@
           "TeamReg": "TTEXDOUBLES----IND01",
           "TeamOrg": "IND",
           "TeamName": "SHAH Manush/CHITALE Diya",
+          "Medal": "ME_BRONZE",
           "Rank": "3",
           "IRM": "OK",
-          "Result": "",
-          "Medal": "ME_BRONZE"
+          "Result": ""
         }
       ],
       "schedule": [
