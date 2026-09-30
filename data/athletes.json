@@ -118014,6 +118014,2016 @@
     }
   },
   {
+    "reg": "9197810",
+    "name": "NARENDER",
+    "org": "IND",
+    "org_desc": "India",
+    "disc": "BOX",
+    "disc_desc": "Boxing",
+    "photo_url": "https://results.asiangames2026.org/ag2026/photos/9197810.jpg",
+    "medals": [
+      {
+        "medal": "bronze",
+        "event": "Men's +90kg"
+      }
+    ],
+    "bio_data": {
+      "participant": {
+        "Reg": "9197810",
+        "Disc": "BOX",
+        "DiscDesc": "Boxing",
+        "hasMembers": false,
+        "Org": "IND",
+        "OrgDesc": "India",
+        "Type": "A",
+        "MedClass": "",
+        "Gender": "M",
+        "BirthDateRaw": "1994-11-14",
+        "Name": "NARENDER",
+        "NameS": "NARENDER",
+        "GivenName": "",
+        "FamilyName": "Narender",
+        "IFId": "000000",
+        "Height": 0,
+        "Weight": 0
+      },
+      "entries": [
+        {
+          "Disc": "BOX",
+          "Reg": "9197810",
+          "EvKey": "M.O90KG-------------",
+          "Desc": "Men's +90kg",
+          "DescS": "Men's +90kg",
+          "isMember": false,
+          "Medal": "ME_BRONZE"
+        }
+      ],
+      "schedule": [
+        {
+          "Orgs": [
+            "THA",
+            "IND"
+          ],
+          "IsPhase": false,
+          "ResCode": "M.O90KG-------------.QFNL.000200--",
+          "ShowLink": true,
+          "Disc": "BOX",
+          "DiscDesc": "Boxing",
+          "Key": "M.O90KG-------------.QFNL.000200--",
+          "isH2H": true,
+          "Type": "A",
+          "Medal": "0",
+          "Status": "OFFICIAL",
+          "StatusDesc": "Official",
+          "DateTimeRaw": "2026-09-27T19:15:00+09:00",
+          "HideStartDate": false,
+          "Estimated": true,
+          "EstText": "FOLLOW BY",
+          "HideLocation": false,
+          "Venue": "NIS",
+          "VenueDesc": "Nishio Gymnasium",
+          "VenueDescS": "Nishio Gymnasium",
+          "Loc": "NIS",
+          "LocDesc": "Ring 1",
+          "LocDescS": "Ring 1",
+          "Event": "M.O90KG-------------",
+          "EventDesc": "Men's +90kg",
+          "Phase": "M.O90KG-------------.QFNL",
+          "PhaseOrder": 2,
+          "PhaseDesc": "Men's +90KG Quarterfinal",
+          "PhaseDescS": "Men's +90KG Quarterfinal",
+          "PhaseDescA": "Quarterfinal",
+          "UnitDesc": "Men's +90KG - Quarterfinal",
+          "UnitDescS": "+90KG - Quarterfinal",
+          "UnitDescA": "Quarterfinal",
+          "EndDateTimeRaw": "2026-09-27T19:30:00+09:00",
+          "ActualEndDateTimeRaw": "2026-09-27T19:30:00+09:00",
+          "UnitNum": "120",
+          "IsLive": false,
+          "ShowResults": true,
+          "Periods": [
+            {
+              "Order": 1,
+              "Desc": "Round 1",
+              "DescS": "R 1",
+              "Extensions": [
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueKnockdowns",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 1,
+                  "Value": "0",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 2,
+                  "Value": "0",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 3,
+                  "Value": "0",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 4,
+                  "Value": "0",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 5,
+                  "Value": "0",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueWarnings",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedKnockdowns",
+                  "Pos": 0,
+                  "Value": "2",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 1,
+                  "Value": "0",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 2,
+                  "Value": "0",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 3,
+                  "Value": "0",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 4,
+                  "Value": "0",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 5,
+                  "Value": "0",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedWarnings",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                }
+              ]
+            },
+            {
+              "Order": 2,
+              "Desc": "Round 2",
+              "DescS": "R 2",
+              "Extensions": [
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueKnockdowns",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 1,
+                  "Value": "0",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 2,
+                  "Value": "0",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 3,
+                  "Value": "0",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 4,
+                  "Value": "0",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 5,
+                  "Value": "0",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueWarnings",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedKnockdowns",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 1,
+                  "Value": "0",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 2,
+                  "Value": "0",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 3,
+                  "Value": "0",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 4,
+                  "Value": "0",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 5,
+                  "Value": "0",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedWarnings",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                }
+              ]
+            },
+            {
+              "Order": 3,
+              "Desc": "Round 3",
+              "DescS": "R 3",
+              "Extensions": [
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueKnockdowns",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 1,
+                  "Value": "0",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 2,
+                  "Value": "0",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 3,
+                  "Value": "0",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 4,
+                  "Value": "0",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 5,
+                  "Value": "0",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueWarnings",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedKnockdowns",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 1,
+                  "Value": "0",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 2,
+                  "Value": "0",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 3,
+                  "Value": "0",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 4,
+                  "Value": "0",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 5,
+                  "Value": "0",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedWarnings",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                }
+              ]
+            }
+          ],
+          "Home": {
+            "Org": "THA",
+            "Reg": "2150904",
+            "Name": "SAENGTEP Adthapong",
+            "Result": "RSC",
+            "Winner": false,
+            "HasData": true,
+            "NameS": "SAENGTEP A",
+            "Medal": "",
+            "Splits": []
+          },
+          "Away": {
+            "Org": "IND",
+            "Reg": "9197810",
+            "Name": "NARENDER",
+            "Result": "W",
+            "Winner": true,
+            "HasData": true,
+            "NameS": "NARENDER",
+            "Medal": "",
+            "Splits": []
+          }
+        },
+        {
+          "Orgs": [
+            "KAZ",
+            "IND"
+          ],
+          "IsPhase": false,
+          "ResCode": "M.O90KG-------------.SFNL.000100--",
+          "ShowLink": true,
+          "Disc": "BOX",
+          "DiscDesc": "Boxing",
+          "Key": "M.O90KG-------------.SFNL.000100--",
+          "isH2H": true,
+          "Type": "A",
+          "Medal": "2",
+          "Status": "OFFICIAL",
+          "StatusDesc": "Official",
+          "DateTimeRaw": "2026-09-29T15:00:00+09:00",
+          "HideStartDate": false,
+          "Estimated": true,
+          "EstText": "FOLLOW BY",
+          "HideLocation": false,
+          "Venue": "NIS",
+          "VenueDesc": "Nishio Gymnasium",
+          "VenueDescS": "Nishio Gymnasium",
+          "Loc": "NIS",
+          "LocDesc": "Ring 1",
+          "LocDescS": "Ring 1",
+          "Event": "M.O90KG-------------",
+          "EventDesc": "Men's +90kg",
+          "Phase": "M.O90KG-------------.SFNL",
+          "PhaseOrder": 3,
+          "PhaseDesc": "Men's +90KG Semifinal",
+          "PhaseDescS": "Men's +90KG Semifinal",
+          "PhaseDescA": "Semifinal",
+          "UnitDesc": "Men's +90KG - Semifinal",
+          "UnitDescS": "+90KG - Semifinal",
+          "UnitDescA": "Semifinal",
+          "EndDateTimeRaw": "2026-09-29T15:15:00+09:00",
+          "ActualEndDateTimeRaw": "2026-09-29T15:15:00+09:00",
+          "UnitNum": "155",
+          "IsLive": false,
+          "ShowResults": true,
+          "Periods": [
+            {
+              "Order": 1,
+              "Desc": "Round 1",
+              "DescS": "R 1",
+              "Extensions": [
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueKnockdowns",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 1,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 2,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 3,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 4,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 5,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueWarnings",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedKnockdowns",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 1,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 2,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 3,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 4,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 5,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedWarnings",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                }
+              ]
+            },
+            {
+              "Order": 2,
+              "Desc": "Round 2",
+              "DescS": "R 2",
+              "Extensions": [
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueKnockdowns",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 1,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 2,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 3,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 4,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 5,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueWarnings",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedKnockdowns",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 1,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 2,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 3,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 4,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 5,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedWarnings",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                }
+              ]
+            },
+            {
+              "Order": 3,
+              "Desc": "Round 3",
+              "DescS": "R 3",
+              "Extensions": [
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueKnockdowns",
+                  "Pos": 0,
+                  "Value": "1",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 1,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 2,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 3,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 4,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 5,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueWarnings",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedKnockdowns",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 1,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 2,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 3,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 4,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 5,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedWarnings",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                }
+              ]
+            }
+          ],
+          "Home": {
+            "Org": "KAZ",
+            "Reg": "11352994",
+            "Name": "ORALBAY Aibek",
+            "Result": "5",
+            "Winner": true,
+            "HasData": true,
+            "NameS": "ORALBAY A",
+            "Medal": "",
+            "Splits": []
+          },
+          "Away": {
+            "Org": "IND",
+            "Reg": "9197810",
+            "Name": "NARENDER",
+            "Result": "0",
+            "Winner": false,
+            "HasData": true,
+            "NameS": "NARENDER",
+            "Medal": "ME_BRONZE",
+            "Splits": []
+          }
+        }
+      ],
+      "historical": null
+    }
+  },
+  {
+    "reg": "9207646",
+    "name": "PRIYA",
+    "org": "IND",
+    "org_desc": "India",
+    "disc": "BOX",
+    "disc_desc": "Boxing",
+    "photo_url": "https://results.asiangames2026.org/ag2026/photos/9207646.jpg",
+    "medals": [
+      {
+        "medal": "bronze",
+        "event": "Women's 60kg"
+      }
+    ],
+    "bio_data": {
+      "participant": {
+        "Reg": "9207646",
+        "Disc": "BOX",
+        "DiscDesc": "Boxing",
+        "hasMembers": false,
+        "Org": "IND",
+        "OrgDesc": "India",
+        "Type": "A",
+        "MedClass": "",
+        "Gender": "W",
+        "BirthDateRaw": "2005-10-03",
+        "Name": "PRIYA",
+        "NameS": "PRIYA",
+        "GivenName": "",
+        "FamilyName": "Priya",
+        "IFId": "000000",
+        "Height": 0,
+        "Weight": 0
+      },
+      "entries": [
+        {
+          "Disc": "BOX",
+          "Reg": "9207646",
+          "EvKey": "W.60KG--------------",
+          "Desc": "Women's 60kg",
+          "DescS": "Women's 60kg",
+          "isMember": false,
+          "Medal": "ME_BRONZE"
+        }
+      ],
+      "schedule": [
+        {
+          "Orgs": [
+            "KOR",
+            "IND"
+          ],
+          "IsPhase": false,
+          "ResCode": "W.60KG--------------.8FNL.000800--",
+          "ShowLink": true,
+          "Disc": "BOX",
+          "DiscDesc": "Boxing",
+          "Key": "W.60KG--------------.8FNL.000800--",
+          "isH2H": true,
+          "Type": "A",
+          "Medal": "0",
+          "Status": "OFFICIAL",
+          "StatusDesc": "Official",
+          "DateTimeRaw": "2026-09-26T17:45:00+09:00",
+          "HideStartDate": false,
+          "Estimated": true,
+          "EstText": "FOLLOW BY",
+          "HideLocation": false,
+          "Venue": "NIS",
+          "VenueDesc": "Nishio Gymnasium",
+          "VenueDescS": "Nishio Gymnasium",
+          "Loc": "NIS",
+          "LocDesc": "Ring 1",
+          "LocDescS": "Ring 1",
+          "Event": "W.60KG--------------",
+          "EventDesc": "Women's 60kg",
+          "Phase": "W.60KG--------------.8FNL",
+          "PhaseOrder": 1,
+          "PhaseDesc": "Women's 60KG Preliminaries - Round of 16",
+          "PhaseDescS": "Women's 60KG Prelims - Round of 16",
+          "PhaseDescA": "Preliminaries - Round of 16",
+          "UnitDesc": "Women's 60KG - Preliminaries - Round of 16",
+          "UnitDescS": "60KG - Prelims - Round of 16",
+          "UnitDescA": "Preliminaries - Round of 16",
+          "EndDateTimeRaw": "2026-09-26T18:00:00+09:00",
+          "ActualEndDateTimeRaw": "2026-09-26T18:00:00+09:00",
+          "UnitNum": "96",
+          "IsLive": false,
+          "ShowResults": true,
+          "Periods": [
+            {
+              "Order": 1,
+              "Desc": "Round 1",
+              "DescS": "R 1",
+              "Extensions": [
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueKnockdowns",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 1,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 2,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 3,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 4,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 5,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueWarnings",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedKnockdowns",
+                  "Pos": 0,
+                  "Value": "1",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 1,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 2,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 3,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 4,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 5,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedWarnings",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                }
+              ]
+            },
+            {
+              "Order": 2,
+              "Desc": "Round 2",
+              "DescS": "R 2",
+              "Extensions": [
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueKnockdowns",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 1,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 2,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 3,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 4,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 5,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueWarnings",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedKnockdowns",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 1,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 2,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 3,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 4,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 5,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedWarnings",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                }
+              ]
+            },
+            {
+              "Order": 3,
+              "Desc": "Round 3",
+              "DescS": "R 3",
+              "Extensions": [
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueKnockdowns",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 1,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 2,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 3,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 4,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 5,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueWarnings",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedKnockdowns",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 1,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 2,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 3,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 4,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 5,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedWarnings",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                }
+              ]
+            }
+          ],
+          "Home": {
+            "Org": "KOR",
+            "Reg": "305827",
+            "Name": "OH Yeonji",
+            "Result": "0",
+            "Winner": false,
+            "HasData": true,
+            "NameS": "OH Y",
+            "Medal": "",
+            "Splits": []
+          },
+          "Away": {
+            "Org": "IND",
+            "Reg": "9207646",
+            "Name": "PRIYA",
+            "Result": "5",
+            "Winner": true,
+            "HasData": true,
+            "NameS": "PRIYA",
+            "Medal": "",
+            "Splits": []
+          }
+        },
+        {
+          "Orgs": [
+            "TJK",
+            "IND"
+          ],
+          "IsPhase": false,
+          "ResCode": "W.60KG--------------.QFNL.000400--",
+          "ShowLink": true,
+          "Disc": "BOX",
+          "DiscDesc": "Boxing",
+          "Key": "W.60KG--------------.QFNL.000400--",
+          "isH2H": true,
+          "Type": "A",
+          "Medal": "0",
+          "Status": "OFFICIAL",
+          "StatusDesc": "Official",
+          "DateTimeRaw": "2026-09-28T17:45:00+09:00",
+          "HideStartDate": false,
+          "Estimated": true,
+          "EstText": "FOLLOW BY",
+          "HideLocation": false,
+          "Venue": "NIS",
+          "VenueDesc": "Nishio Gymnasium",
+          "VenueDescS": "Nishio Gymnasium",
+          "Loc": "NIS",
+          "LocDesc": "Ring 1",
+          "LocDescS": "Ring 1",
+          "Event": "W.60KG--------------",
+          "EventDesc": "Women's 60kg",
+          "Phase": "W.60KG--------------.QFNL",
+          "PhaseOrder": 2,
+          "PhaseDesc": "Women's 60KG Quarterfinal",
+          "PhaseDescS": "Women's 60KG Quarterfinal",
+          "PhaseDescA": "Quarterfinal",
+          "UnitDesc": "Women's 60KG - Quarterfinal",
+          "UnitDescS": "60KG - Quarterfinal",
+          "UnitDescA": "Quarterfinal",
+          "EndDateTimeRaw": "2026-09-28T18:00:00+09:00",
+          "ActualEndDateTimeRaw": "2026-09-28T18:00:00+09:00",
+          "UnitNum": "138",
+          "IsLive": false,
+          "ShowResults": true,
+          "Periods": [
+            {
+              "Order": 1,
+              "Desc": "Round 1",
+              "DescS": "R 1",
+              "Extensions": [
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueKnockdowns",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 1,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 2,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 3,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 4,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 5,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueWarnings",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedKnockdowns",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 1,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 2,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 3,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 4,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 5,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedWarnings",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                }
+              ]
+            },
+            {
+              "Order": 2,
+              "Desc": "Round 2",
+              "DescS": "R 2",
+              "Extensions": [
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueKnockdowns",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 1,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 2,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 3,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 4,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 5,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueWarnings",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedKnockdowns",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 1,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 2,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 3,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 4,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 5,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedWarnings",
+                  "Pos": 0,
+                  "Value": "1",
+                  "Extensions": []
+                }
+              ]
+            },
+            {
+              "Order": 3,
+              "Desc": "Round 3",
+              "DescS": "R 3",
+              "Extensions": [
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueKnockdowns",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 1,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 2,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 3,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 4,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 5,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueWarnings",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedKnockdowns",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 1,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 2,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 3,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 4,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 5,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedWarnings",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                }
+              ]
+            }
+          ],
+          "Home": {
+            "Org": "TJK",
+            "Reg": "5215527",
+            "Name": "SAMADOVA Mijgona",
+            "Result": "0",
+            "Winner": false,
+            "HasData": true,
+            "NameS": "SAMADOVA M",
+            "Medal": "",
+            "Splits": []
+          },
+          "Away": {
+            "Org": "IND",
+            "Reg": "9207646",
+            "Name": "PRIYA",
+            "Result": "5",
+            "Winner": true,
+            "HasData": true,
+            "NameS": "PRIYA",
+            "Medal": "",
+            "Splits": []
+          }
+        },
+        {
+          "Orgs": [
+            "CHN",
+            "IND"
+          ],
+          "IsPhase": false,
+          "ResCode": "W.60KG--------------.SFNL.000200--",
+          "ShowLink": true,
+          "Disc": "BOX",
+          "DiscDesc": "Boxing",
+          "Key": "W.60KG--------------.SFNL.000200--",
+          "isH2H": true,
+          "Type": "A",
+          "Medal": "2",
+          "Status": "OFFICIAL",
+          "StatusDesc": "Official",
+          "DateTimeRaw": "2026-09-30T13:45:00+09:00",
+          "HideStartDate": false,
+          "Estimated": true,
+          "EstText": "FOLLOW BY",
+          "HideLocation": false,
+          "Venue": "NIS",
+          "VenueDesc": "Nishio Gymnasium",
+          "VenueDescS": "Nishio Gymnasium",
+          "Loc": "NIS",
+          "LocDesc": "Ring 1",
+          "LocDescS": "Ring 1",
+          "Event": "W.60KG--------------",
+          "EventDesc": "Women's 60kg",
+          "Phase": "W.60KG--------------.SFNL",
+          "PhaseOrder": 3,
+          "PhaseDesc": "Women's 60KG Semifinal",
+          "PhaseDescS": "Women's 60KG Semifinal",
+          "PhaseDescA": "Semifinal",
+          "UnitDesc": "Women's 60KG - Semifinal",
+          "UnitDescS": "60KG - Semifinal",
+          "UnitDescA": "Semifinal",
+          "EndDateTimeRaw": "2026-09-30T14:00:00+09:00",
+          "ActualEndDateTimeRaw": "2026-09-30T14:00:00+09:00",
+          "UnitNum": "160",
+          "IsLive": false,
+          "ShowResults": true,
+          "Periods": [
+            {
+              "Order": 1,
+              "Desc": "Round 1",
+              "DescS": "R 1",
+              "Extensions": [
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueKnockdowns",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 1,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 2,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 3,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 4,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 5,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueWarnings",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedKnockdowns",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 1,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 2,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 3,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 4,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 5,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedWarnings",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                }
+              ]
+            },
+            {
+              "Order": 2,
+              "Desc": "Round 2",
+              "DescS": "R 2",
+              "Extensions": [
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueKnockdowns",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 1,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 2,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 3,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 4,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 5,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueWarnings",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedKnockdowns",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 1,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 2,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 3,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 4,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 5,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedWarnings",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                }
+              ]
+            },
+            {
+              "Order": 3,
+              "Desc": "Round 3",
+              "DescS": "R 3",
+              "Extensions": [
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueKnockdowns",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 1,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 2,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 3,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 4,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 5,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueWarnings",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedKnockdowns",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 1,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 2,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 3,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 4,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 5,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedWarnings",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                }
+              ]
+            }
+          ],
+          "Home": {
+            "Org": "CHN",
+            "Reg": "4354916",
+            "Name": "YANG Chengyu",
+            "Result": "4",
+            "Winner": true,
+            "HasData": true,
+            "NameS": "YANG C",
+            "Medal": "",
+            "Splits": []
+          },
+          "Away": {
+            "Org": "IND",
+            "Reg": "9207646",
+            "Name": "PRIYA",
+            "Result": "1",
+            "Winner": false,
+            "HasData": true,
+            "NameS": "PRIYA",
+            "Medal": "ME_BRONZE",
+            "Splits": []
+          }
+        }
+      ],
+      "historical": null
+    }
+  },
+  {
     "reg": "CKTWTEAM-------IND01",
     "name": "India",
     "org": "IND",
@@ -162556,1550 +164566,7 @@
         "event": "Women's Team Final"
       }
     ],
-    "bio_data": {
-      "participant": {
-        "Reg": "10116091",
-        "Disc": "KAB",
-        "DiscDesc": "Kabaddi",
-        "hasMembers": false,
-        "Org": "IND",
-        "OrgDesc": "India",
-        "Type": "A",
-        "MedClass": "",
-        "Gender": "W",
-        "BirthDateRaw": "1998-12-28",
-        "Name": "RAJ RANI",
-        "NameS": "RAJ RANI",
-        "GivenName": "",
-        "FamilyName": "Raj Rani",
-        "IFId": "0196",
-        "Height": null,
-        "Weight": null
-      },
-      "entries": [
-        {
-          "Disc": "KAB",
-          "Reg": "10116091",
-          "EvKey": "W.TEAM7-------------",
-          "Desc": "Women's Team",
-          "DescS": "Women's Team",
-          "isMember": false
-        },
-        {
-          "Disc": "KAB",
-          "Reg": "10116091",
-          "EvKey": "W.TEAM7-------------",
-          "Desc": "Women's Team",
-          "DescS": "Women's Team",
-          "isMember": true,
-          "TeamReg": "KABWTEAM7------IND01",
-          "TeamOrg": "IND",
-          "TeamName": "India",
-          "Medal": "ME_GOLD",
-          "Rank": "1",
-          "IRM": "",
-          "Result": ""
-        }
-      ],
-      "schedule": [
-        {
-          "Orgs": [
-            "BAN",
-            "IND"
-          ],
-          "IsPhase": false,
-          "ResCode": "W.TEAM7-------------.GPA-.000200--",
-          "ShowLink": true,
-          "Disc": "KAB",
-          "DiscDesc": "Kabaddi",
-          "Key": "W.TEAM7-------------.GPA-.000200--",
-          "isH2H": true,
-          "Type": "T",
-          "Medal": "0",
-          "Status": "OFFICIAL",
-          "StatusDesc": "Official",
-          "DateTimeRaw": "2026-09-21T19:45:00+09:00",
-          "HideStartDate": false,
-          "Estimated": false,
-          "EstText": "",
-          "HideLocation": false,
-          "Venue": "TCG",
-          "VenueDesc": "Tokai Citizen Gymnasium",
-          "VenueDescS": "Tokai Citizen Gymnasium",
-          "Loc": "KA2",
-          "LocDesc": "TCG Crt 2",
-          "LocDescS": "TCG Crt 2",
-          "Event": "W.TEAM7-------------",
-          "EventDesc": "Women's Team",
-          "Phase": "W.TEAM7-------------.GPA-",
-          "PhaseOrder": 10,
-          "PhaseDesc": "Women's Team Group A",
-          "PhaseDescS": "Women's Team Group A",
-          "PhaseDescA": "Group A",
-          "UnitDesc": "Game 2",
-          "UnitDescS": "Game 2",
-          "UnitDescA": "Game 2",
-          "EndDateTimeRaw": "2026-09-21T21:03:43+09:00",
-          "ActualEndDateTimeRaw": "2026-09-21T21:03:43+09:00",
-          "UnitNum": "8",
-          "IsLive": false,
-          "ShowResults": true,
-          "Periods": [
-            {
-              "Order": 1,
-              "Desc": "1st Half",
-              "DescS": "1H"
-            },
-            {
-              "Order": 2,
-              "Desc": "2nd Half",
-              "DescS": "2H"
-            }
-          ],
-          "Home": {
-            "Org": "BAN",
-            "Reg": "KABWTEAM7------BAN01",
-            "Name": "Bangladesh",
-            "Result": "21",
-            "Winner": false,
-            "HasData": true,
-            "NameS": "Bangladesh",
-            "Medal": "",
-            "Members": [
-              {
-                "Org": "BAN",
-                "Bib": "5",
-                "Name": "RATRY Anzuara",
-                "NameS": "RATRY Anzuara",
-                "FuncDesc": "",
-                "PosDesc": ""
-              },
-              {
-                "Org": "BAN",
-                "Bib": "9",
-                "Name": "CHAKMA Sucharita",
-                "NameS": "CHAKMA Sucharita",
-                "FuncDesc": "",
-                "PosDesc": ""
-              },
-              {
-                "Org": "BAN",
-                "Bib": "7",
-                "Name": "AKTER Rupali",
-                "NameS": "AKTER Rupali",
-                "FuncDesc": "",
-                "PosDesc": ""
-              },
-              {
-                "Org": "BAN",
-                "Bib": "1",
-                "Name": "MOLLICK Sraboni",
-                "NameS": "MOLLICK Sraboni",
-                "FuncDesc": "",
-                "PosDesc": ""
-              },
-              {
-                "Org": "BAN",
-                "Bib": "11",
-                "Name": "KHANOM Mst Yasmin",
-                "NameS": "KHANOM Mst Yasmin",
-                "FuncDesc": "",
-                "PosDesc": ""
-              },
-              {
-                "Org": "BAN",
-                "Bib": "2",
-                "Name": "BISWAS Brishti",
-                "NameS": "BISWAS Brishti",
-                "FuncDesc": "",
-                "PosDesc": ""
-              },
-              {
-                "Org": "BAN",
-                "Bib": "3",
-                "Name": "AKTERY Rekha",
-                "NameS": "AKTERY Rekha",
-                "FuncDesc": "",
-                "PosDesc": ""
-              },
-              {
-                "Org": "BAN",
-                "Bib": "4",
-                "Name": "CHAKMA Meybi",
-                "NameS": "CHAKMA Meybi",
-                "FuncDesc": "",
-                "PosDesc": ""
-              },
-              {
-                "Org": "BAN",
-                "Bib": "10",
-                "Name": "KHATUN Khadiza",
-                "NameS": "KHATUN Khadiza",
-                "FuncDesc": "",
-                "PosDesc": ""
-              },
-              {
-                "Org": "BAN",
-                "Bib": "12",
-                "Name": "AKTER Mst Nahida",
-                "NameS": "AKTER Mst Nahida",
-                "FuncDesc": "",
-                "PosDesc": ""
-              },
-              {
-                "Org": "BAN",
-                "Bib": "8",
-                "Name": "SADIKA Mst Israt Jahan",
-                "NameS": "SADIKA Mst Israt Jahan",
-                "FuncDesc": "",
-                "PosDesc": ""
-              },
-              {
-                "Org": "BAN",
-                "Bib": "6",
-                "Name": "AKTER Loba",
-                "NameS": "AKTER Loba",
-                "FuncDesc": "",
-                "PosDesc": ""
-              }
-            ],
-            "Splits": [
-              {
-                "Rk": "",
-                "RkPo": 0,
-                "Res": "10",
-                "Extensions": []
-              },
-              {
-                "Rk": "",
-                "RkPo": 0,
-                "Res": "11",
-                "Extensions": []
-              }
-            ]
-          },
-          "Away": {
-            "Org": "IND",
-            "Reg": "KABWTEAM7------IND01",
-            "Name": "India",
-            "Result": "42",
-            "Winner": true,
-            "HasData": true,
-            "NameS": "India",
-            "Medal": "",
-            "Members": [
-              {
-                "Org": "IND",
-                "Bib": "14",
-                "Name": "DEVI Sanju",
-                "NameS": "DEVI Sanju",
-                "FuncDesc": "",
-                "PosDesc": ""
-              },
-              {
-                "Org": "IND",
-                "Bib": "7",
-                "Name": "NEGI Ritu",
-                "NameS": "NEGI Ritu",
-                "FuncDesc": "",
-                "PosDesc": ""
-              },
-              {
-                "Org": "IND",
-                "Bib": "2",
-                "Name": "KUMARI Manisha",
-                "NameS": "KUMARI Manisha",
-                "FuncDesc": "",
-                "PosDesc": ""
-              },
-              {
-                "Org": "IND",
-                "Bib": "12",
-                "Name": "ROY Pinki",
-                "NameS": "ROY Pinki",
-                "FuncDesc": "",
-                "PosDesc": ""
-              },
-              {
-                "Org": "IND",
-                "Bib": "1",
-                "Name": "JYOTI",
-                "NameS": "JYOTI",
-                "FuncDesc": "",
-                "PosDesc": ""
-              },
-              {
-                "Org": "IND",
-                "Bib": "4",
-                "Name": "NIKITA",
-                "NameS": "NIKITA",
-                "FuncDesc": "",
-                "PosDesc": ""
-              },
-              {
-                "Org": "IND",
-                "Bib": "9",
-                "Name": "POOJA",
-                "NameS": "POOJA",
-                "FuncDesc": "",
-                "PosDesc": ""
-              },
-              {
-                "Org": "IND",
-                "Bib": "8",
-                "Name": "RAJ RANI",
-                "NameS": "RAJ RANI",
-                "FuncDesc": "",
-                "PosDesc": ""
-              },
-              {
-                "Org": "IND",
-                "Bib": "5",
-                "Name": "SHINGATE Sonali Vishnu",
-                "NameS": "SHINGATE Sonali Vishnu",
-                "FuncDesc": "",
-                "PosDesc": ""
-              },
-              {
-                "Org": "IND",
-                "Bib": "3",
-                "Name": "PUSHPA",
-                "NameS": "PUSHPA",
-                "FuncDesc": "",
-                "PosDesc": ""
-              },
-              {
-                "Org": "IND",
-                "Bib": "11",
-                "Name": "DEVI Bhavna",
-                "NameS": "DEVI Bhavna",
-                "FuncDesc": "",
-                "PosDesc": ""
-              },
-              {
-                "Org": "IND",
-                "Bib": "10",
-                "Name": "RITU",
-                "NameS": "RITU",
-                "FuncDesc": "",
-                "PosDesc": ""
-              }
-            ],
-            "Splits": [
-              {
-                "Rk": "",
-                "RkPo": 0,
-                "Res": "21",
-                "Extensions": []
-              },
-              {
-                "Rk": "",
-                "RkPo": 0,
-                "Res": "21",
-                "Extensions": []
-              }
-            ]
-          }
-        },
-        {
-          "Orgs": [
-            "IRI",
-            "IND"
-          ],
-          "IsPhase": false,
-          "ResCode": "W.TEAM7-------------.GPA-.000400--",
-          "ShowLink": true,
-          "Disc": "KAB",
-          "DiscDesc": "Kabaddi",
-          "Key": "W.TEAM7-------------.GPA-.000400--",
-          "isH2H": true,
-          "Type": "T",
-          "Medal": "0",
-          "Status": "OFFICIAL",
-          "StatusDesc": "Official",
-          "DateTimeRaw": "2026-09-23T12:00:00+09:00",
-          "HideStartDate": false,
-          "Estimated": false,
-          "EstText": "",
-          "HideLocation": false,
-          "Venue": "TCG",
-          "VenueDesc": "Tokai Citizen Gymnasium",
-          "VenueDescS": "Tokai Citizen Gymnasium",
-          "Loc": "KA2",
-          "LocDesc": "TCG Crt 2",
-          "LocDescS": "TCG Crt 2",
-          "Event": "W.TEAM7-------------",
-          "EventDesc": "Women's Team",
-          "Phase": "W.TEAM7-------------.GPA-",
-          "PhaseOrder": 10,
-          "PhaseDesc": "Women's Team Group A",
-          "PhaseDescS": "Women's Team Group A",
-          "PhaseDescA": "Group A",
-          "UnitDesc": "Game 4",
-          "UnitDescS": "Game 4",
-          "UnitDescA": "Game 4",
-          "EndDateTimeRaw": "2026-09-23T13:04:59+09:00",
-          "ActualEndDateTimeRaw": "2026-09-23T13:04:59+09:00",
-          "UnitNum": "19",
-          "IsLive": false,
-          "ShowResults": true,
-          "Periods": [
-            {
-              "Order": 1,
-              "Desc": "1st Half",
-              "DescS": "1H"
-            },
-            {
-              "Order": 2,
-              "Desc": "2nd Half",
-              "DescS": "2H"
-            }
-          ],
-          "Home": {
-            "Org": "IRI",
-            "Reg": "KABWTEAM7------IRI01",
-            "Name": "Islamic Republic of Iran",
-            "Result": "23",
-            "Winner": false,
-            "HasData": true,
-            "NameS": "IR Iran",
-            "Medal": "",
-            "Members": [
-              {
-                "Org": "IRI",
-                "Bib": "12",
-                "Name": "MALMALI Zakiyeh",
-                "NameS": "MALMALI Zakiyeh",
-                "FuncDesc": "",
-                "PosDesc": ""
-              },
-              {
-                "Org": "IRI",
-                "Bib": "5",
-                "Name": "FARAMARZI ZOBARAN Aynaz",
-                "NameS": "FARAMARZI ZOBARAN Aynaz",
-                "FuncDesc": "",
-                "PosDesc": ""
-              },
-              {
-                "Org": "IRI",
-                "Bib": "2",
-                "Name": "MADADI Atena",
-                "NameS": "MADADI Atena",
-                "FuncDesc": "",
-                "PosDesc": ""
-              },
-              {
-                "Org": "IRI",
-                "Bib": "3",
-                "Name": "KARIMI Zahra",
-                "NameS": "KARIMI Zahra",
-                "FuncDesc": "",
-                "PosDesc": ""
-              },
-              {
-                "Org": "IRI",
-                "Bib": "11",
-                "Name": "KOLAGAR Fereshte",
-                "NameS": "KOLAGAR Fereshte",
-                "FuncDesc": "",
-                "PosDesc": ""
-              },
-              {
-                "Org": "IRI",
-                "Bib": "9",
-                "Name": "YARISARAROUDI Sahar",
-                "NameS": "YARISARAROUDI Sahar",
-                "FuncDesc": "",
-                "PosDesc": ""
-              },
-              {
-                "Org": "IRI",
-                "Bib": "10",
-                "Name": "LAKALIABADI Mahtab",
-                "NameS": "LAKALIABADI Mahtab",
-                "FuncDesc": "",
-                "PosDesc": ""
-              },
-              {
-                "Org": "IRI",
-                "Bib": "1",
-                "Name": "ASTEREKI Zahra",
-                "NameS": "ASTEREKI Zahra",
-                "FuncDesc": "",
-                "PosDesc": ""
-              },
-              {
-                "Org": "IRI",
-                "Bib": "4",
-                "Name": "NAEIMI MARANI Saniya",
-                "NameS": "NAEIMI MARANI Saniya",
-                "FuncDesc": "",
-                "PosDesc": ""
-              },
-              {
-                "Org": "IRI",
-                "Bib": "7",
-                "Name": "VARASTEHKALMARZI Hadiseh",
-                "NameS": "VARASTEHKALMARZI Hadiseh",
-                "FuncDesc": "",
-                "PosDesc": ""
-              },
-              {
-                "Org": "IRI",
-                "Bib": "6",
-                "Name": "JALALVAND Nikta",
-                "NameS": "JALALVAND Nikta",
-                "FuncDesc": "",
-                "PosDesc": ""
-              },
-              {
-                "Org": "IRI",
-                "Bib": "8",
-                "Name": "KHODABANDEHLOO Zahra",
-                "NameS": "KHODABANDEHLOO Zahra",
-                "FuncDesc": "",
-                "PosDesc": ""
-              }
-            ],
-            "Splits": [
-              {
-                "Rk": "",
-                "RkPo": 0,
-                "Res": "15",
-                "Extensions": []
-              },
-              {
-                "Rk": "",
-                "RkPo": 0,
-                "Res": "8",
-                "Extensions": []
-              }
-            ]
-          },
-          "Away": {
-            "Org": "IND",
-            "Reg": "KABWTEAM7------IND01",
-            "Name": "India",
-            "Result": "37",
-            "Winner": true,
-            "HasData": true,
-            "NameS": "India",
-            "Medal": "",
-            "Members": [
-              {
-                "Org": "IND",
-                "Bib": "9",
-                "Name": "POOJA",
-                "NameS": "POOJA",
-                "FuncDesc": "",
-                "PosDesc": ""
-              },
-              {
-                "Org": "IND",
-                "Bib": "8",
-                "Name": "RAJ RANI",
-                "NameS": "RAJ RANI",
-                "FuncDesc": "",
-                "PosDesc": ""
-              },
-              {
-                "Org": "IND",
-                "Bib": "5",
-                "Name": "SHINGATE Sonali Vishnu",
-                "NameS": "SHINGATE Sonali Vishnu",
-                "FuncDesc": "",
-                "PosDesc": ""
-              },
-              {
-                "Org": "IND",
-                "Bib": "3",
-                "Name": "PUSHPA",
-                "NameS": "PUSHPA",
-                "FuncDesc": "",
-                "PosDesc": ""
-              },
-              {
-                "Org": "IND",
-                "Bib": "11",
-                "Name": "DEVI Bhavna",
-                "NameS": "DEVI Bhavna",
-                "FuncDesc": "",
-                "PosDesc": ""
-              },
-              {
-                "Org": "IND",
-                "Bib": "10",
-                "Name": "RITU",
-                "NameS": "RITU",
-                "FuncDesc": "",
-                "PosDesc": ""
-              },
-              {
-                "Org": "IND",
-                "Bib": "14",
-                "Name": "DEVI Sanju",
-                "NameS": "DEVI Sanju",
-                "FuncDesc": "",
-                "PosDesc": ""
-              },
-              {
-                "Org": "IND",
-                "Bib": "7",
-                "Name": "NEGI Ritu",
-                "NameS": "NEGI Ritu",
-                "FuncDesc": "",
-                "PosDesc": ""
-              },
-              {
-                "Org": "IND",
-                "Bib": "2",
-                "Name": "KUMARI Manisha",
-                "NameS": "KUMARI Manisha",
-                "FuncDesc": "",
-                "PosDesc": ""
-              },
-              {
-                "Org": "IND",
-                "Bib": "12",
-                "Name": "ROY Pinki",
-                "NameS": "ROY Pinki",
-                "FuncDesc": "",
-                "PosDesc": ""
-              },
-              {
-                "Org": "IND",
-                "Bib": "1",
-                "Name": "JYOTI",
-                "NameS": "JYOTI",
-                "FuncDesc": "",
-                "PosDesc": ""
-              },
-              {
-                "Org": "IND",
-                "Bib": "4",
-                "Name": "NIKITA",
-                "NameS": "NIKITA",
-                "FuncDesc": "",
-                "PosDesc": ""
-              }
-            ],
-            "Splits": [
-              {
-                "Rk": "",
-                "RkPo": 0,
-                "Res": "19",
-                "Extensions": []
-              },
-              {
-                "Rk": "",
-                "RkPo": 0,
-                "Res": "18",
-                "Extensions": []
-              }
-            ]
-          }
-        },
-        {
-          "Orgs": [
-            "JPN",
-            "IND"
-          ],
-          "IsPhase": false,
-          "ResCode": "W.TEAM7-------------.GPA-.000600--",
-          "ShowLink": true,
-          "Disc": "KAB",
-          "DiscDesc": "Kabaddi",
-          "Key": "W.TEAM7-------------.GPA-.000600--",
-          "isH2H": true,
-          "Type": "T",
-          "Medal": "0",
-          "Status": "OFFICIAL",
-          "StatusDesc": "Official",
-          "DateTimeRaw": "2026-09-24T19:45:00+09:00",
-          "HideStartDate": false,
-          "Estimated": false,
-          "EstText": "",
-          "HideLocation": false,
-          "Venue": "TCG",
-          "VenueDesc": "Tokai Citizen Gymnasium",
-          "VenueDescS": "Tokai Citizen Gymnasium",
-          "Loc": "KA2",
-          "LocDesc": "TCG Crt 2",
-          "LocDescS": "TCG Crt 2",
-          "Event": "W.TEAM7-------------",
-          "EventDesc": "Women's Team",
-          "Phase": "W.TEAM7-------------.GPA-",
-          "PhaseOrder": 10,
-          "PhaseDesc": "Women's Team Group A",
-          "PhaseDescS": "Women's Team Group A",
-          "PhaseDescA": "Group A",
-          "UnitDesc": "Game 6",
-          "UnitDescS": "Game 6",
-          "UnitDescA": "Game 6",
-          "EndDateTimeRaw": "2026-09-24T20:41:56+09:00",
-          "ActualEndDateTimeRaw": "2026-09-24T20:41:56+09:00",
-          "UnitNum": "32",
-          "IsLive": false,
-          "ShowResults": true,
-          "Periods": [
-            {
-              "Order": 1,
-              "Desc": "1st Half",
-              "DescS": "1H"
-            },
-            {
-              "Order": 2,
-              "Desc": "2nd Half",
-              "DescS": "2H"
-            }
-          ],
-          "Home": {
-            "Org": "JPN",
-            "Reg": "KABWTEAM7------JPN01",
-            "Name": "Japan",
-            "Result": "25",
-            "Winner": false,
-            "HasData": true,
-            "NameS": "Japan",
-            "Medal": "",
-            "Members": [
-              {
-                "Org": "JPN",
-                "Bib": "4",
-                "Name": "KUROYANAGI Yuri",
-                "NameS": "KUROYANAGI Yuri",
-                "FuncDesc": "",
-                "PosDesc": ""
-              },
-              {
-                "Org": "JPN",
-                "Bib": "2",
-                "Name": "TERAO Miki",
-                "NameS": "TERAO Miki",
-                "FuncDesc": "",
-                "PosDesc": ""
-              },
-              {
-                "Org": "JPN",
-                "Bib": "1",
-                "Name": "OTA Yoko",
-                "NameS": "OTA Yoko",
-                "FuncDesc": "",
-                "PosDesc": ""
-              },
-              {
-                "Org": "JPN",
-                "Bib": "11",
-                "Name": "OYA Futaba",
-                "NameS": "OYA Futaba",
-                "FuncDesc": "",
-                "PosDesc": ""
-              },
-              {
-                "Org": "JPN",
-                "Bib": "3",
-                "Name": "KITO Yawara",
-                "NameS": "KITO Yawara",
-                "FuncDesc": "",
-                "PosDesc": ""
-              },
-              {
-                "Org": "JPN",
-                "Bib": "12",
-                "Name": "ICHIJO Natsumi",
-                "NameS": "ICHIJO Natsumi",
-                "FuncDesc": "",
-                "PosDesc": ""
-              },
-              {
-                "Org": "JPN",
-                "Bib": "8",
-                "Name": "ISHIO Misato",
-                "NameS": "ISHIO Misato",
-                "FuncDesc": "",
-                "PosDesc": ""
-              },
-              {
-                "Org": "JPN",
-                "Bib": "10",
-                "Name": "MASUKO Tomomi",
-                "NameS": "MASUKO Tomomi",
-                "FuncDesc": "",
-                "PosDesc": ""
-              },
-              {
-                "Org": "JPN",
-                "Bib": "7",
-                "Name": "ONDA Risa",
-                "NameS": "ONDA Risa",
-                "FuncDesc": "",
-                "PosDesc": ""
-              },
-              {
-                "Org": "JPN",
-                "Bib": "9",
-                "Name": "SUGANUMA Miho",
-                "NameS": "SUGANUMA Miho",
-                "FuncDesc": "",
-                "PosDesc": ""
-              },
-              {
-                "Org": "JPN",
-                "Bib": "5",
-                "Name": "AKATSU Mari",
-                "NameS": "AKATSU Mari",
-                "FuncDesc": "",
-                "PosDesc": ""
-              },
-              {
-                "Org": "JPN",
-                "Bib": "6",
-                "Name": "HIKICHI Shiho",
-                "NameS": "HIKICHI Shiho",
-                "FuncDesc": "",
-                "PosDesc": ""
-              }
-            ],
-            "Splits": [
-              {
-                "Rk": "",
-                "RkPo": 0,
-                "Res": "13",
-                "Extensions": []
-              },
-              {
-                "Rk": "",
-                "RkPo": 0,
-                "Res": "12",
-                "Extensions": []
-              }
-            ]
-          },
-          "Away": {
-            "Org": "IND",
-            "Reg": "KABWTEAM7------IND01",
-            "Name": "India",
-            "Result": "50",
-            "Winner": true,
-            "HasData": true,
-            "NameS": "India",
-            "Medal": "",
-            "Members": [
-              {
-                "Org": "IND",
-                "Bib": "9",
-                "Name": "POOJA",
-                "NameS": "POOJA",
-                "FuncDesc": "",
-                "PosDesc": ""
-              },
-              {
-                "Org": "IND",
-                "Bib": "8",
-                "Name": "RAJ RANI",
-                "NameS": "RAJ RANI",
-                "FuncDesc": "",
-                "PosDesc": ""
-              },
-              {
-                "Org": "IND",
-                "Bib": "5",
-                "Name": "SHINGATE Sonali Vishnu",
-                "NameS": "SHINGATE Sonali Vishnu",
-                "FuncDesc": "",
-                "PosDesc": ""
-              },
-              {
-                "Org": "IND",
-                "Bib": "3",
-                "Name": "PUSHPA",
-                "NameS": "PUSHPA",
-                "FuncDesc": "",
-                "PosDesc": ""
-              },
-              {
-                "Org": "IND",
-                "Bib": "11",
-                "Name": "DEVI Bhavna",
-                "NameS": "DEVI Bhavna",
-                "FuncDesc": "",
-                "PosDesc": ""
-              },
-              {
-                "Org": "IND",
-                "Bib": "10",
-                "Name": "RITU",
-                "NameS": "RITU",
-                "FuncDesc": "",
-                "PosDesc": ""
-              },
-              {
-                "Org": "IND",
-                "Bib": "14",
-                "Name": "DEVI Sanju",
-                "NameS": "DEVI Sanju",
-                "FuncDesc": "",
-                "PosDesc": ""
-              },
-              {
-                "Org": "IND",
-                "Bib": "7",
-                "Name": "NEGI Ritu",
-                "NameS": "NEGI Ritu",
-                "FuncDesc": "",
-                "PosDesc": ""
-              },
-              {
-                "Org": "IND",
-                "Bib": "2",
-                "Name": "KUMARI Manisha",
-                "NameS": "KUMARI Manisha",
-                "FuncDesc": "",
-                "PosDesc": ""
-              },
-              {
-                "Org": "IND",
-                "Bib": "12",
-                "Name": "ROY Pinki",
-                "NameS": "ROY Pinki",
-                "FuncDesc": "",
-                "PosDesc": ""
-              },
-              {
-                "Org": "IND",
-                "Bib": "1",
-                "Name": "JYOTI",
-                "NameS": "JYOTI",
-                "FuncDesc": "",
-                "PosDesc": ""
-              },
-              {
-                "Org": "IND",
-                "Bib": "4",
-                "Name": "NIKITA",
-                "NameS": "NIKITA",
-                "FuncDesc": "",
-                "PosDesc": ""
-              }
-            ],
-            "Splits": [
-              {
-                "Rk": "",
-                "RkPo": 0,
-                "Res": "32",
-                "Extensions": []
-              },
-              {
-                "Rk": "",
-                "RkPo": 0,
-                "Res": "18",
-                "Extensions": []
-              }
-            ]
-          }
-        },
-        {
-          "Orgs": [
-            "IND",
-            "NEP"
-          ],
-          "IsPhase": false,
-          "ResCode": "W.TEAM7-------------.SFNL.000100--",
-          "ShowLink": true,
-          "Disc": "KAB",
-          "DiscDesc": "Kabaddi",
-          "Key": "W.TEAM7-------------.SFNL.000100--",
-          "isH2H": true,
-          "Type": "T",
-          "Medal": "2",
-          "Status": "OFFICIAL",
-          "StatusDesc": "Official",
-          "DateTimeRaw": "2026-09-25T13:00:00+09:00",
-          "HideStartDate": false,
-          "Estimated": false,
-          "EstText": "",
-          "HideLocation": false,
-          "Venue": "TCG",
-          "VenueDesc": "Tokai Citizen Gymnasium",
-          "VenueDescS": "Tokai Citizen Gymnasium",
-          "Loc": "KA2",
-          "LocDesc": "TCG Crt 2",
-          "LocDescS": "TCG Crt 2",
-          "Event": "W.TEAM7-------------",
-          "EventDesc": "Women's Team",
-          "Phase": "W.TEAM7-------------.SFNL",
-          "PhaseOrder": 15,
-          "PhaseDesc": "Women's Team Semifinals",
-          "PhaseDescS": "Women's Team Semifinals",
-          "PhaseDescA": "Semifinals",
-          "UnitDesc": "",
-          "UnitDescS": "",
-          "UnitDescA": "",
-          "EndDateTimeRaw": "2026-09-25T13:50:46+09:00",
-          "ActualEndDateTimeRaw": "2026-09-25T13:50:46+09:00",
-          "UnitNum": "33",
-          "IsLive": false,
-          "ShowResults": true,
-          "Periods": [
-            {
-              "Order": 1,
-              "Desc": "1st Half",
-              "DescS": "1H"
-            },
-            {
-              "Order": 2,
-              "Desc": "2nd Half",
-              "DescS": "2H"
-            }
-          ],
-          "Home": {
-            "Org": "IND",
-            "Reg": "KABWTEAM7------IND01",
-            "Name": "India",
-            "Result": "48",
-            "Winner": true,
-            "HasData": true,
-            "NameS": "India",
-            "Medal": "",
-            "Members": [
-              {
-                "Org": "IND",
-                "Bib": "9",
-                "Name": "POOJA",
-                "NameS": "POOJA",
-                "FuncDesc": "",
-                "PosDesc": ""
-              },
-              {
-                "Org": "IND",
-                "Bib": "8",
-                "Name": "RAJ RANI",
-                "NameS": "RAJ RANI",
-                "FuncDesc": "",
-                "PosDesc": ""
-              },
-              {
-                "Org": "IND",
-                "Bib": "5",
-                "Name": "SHINGATE Sonali Vishnu",
-                "NameS": "SHINGATE Sonali Vishnu",
-                "FuncDesc": "",
-                "PosDesc": ""
-              },
-              {
-                "Org": "IND",
-                "Bib": "3",
-                "Name": "PUSHPA",
-                "NameS": "PUSHPA",
-                "FuncDesc": "",
-                "PosDesc": ""
-              },
-              {
-                "Org": "IND",
-                "Bib": "11",
-                "Name": "DEVI Bhavna",
-                "NameS": "DEVI Bhavna",
-                "FuncDesc": "",
-                "PosDesc": ""
-              },
-              {
-                "Org": "IND",
-                "Bib": "10",
-                "Name": "RITU",
-                "NameS": "RITU",
-                "FuncDesc": "",
-                "PosDesc": ""
-              },
-              {
-                "Org": "IND",
-                "Bib": "14",
-                "Name": "DEVI Sanju",
-                "NameS": "DEVI Sanju",
-                "FuncDesc": "",
-                "PosDesc": ""
-              },
-              {
-                "Org": "IND",
-                "Bib": "7",
-                "Name": "NEGI Ritu",
-                "NameS": "NEGI Ritu",
-                "FuncDesc": "",
-                "PosDesc": ""
-              },
-              {
-                "Org": "IND",
-                "Bib": "2",
-                "Name": "KUMARI Manisha",
-                "NameS": "KUMARI Manisha",
-                "FuncDesc": "",
-                "PosDesc": ""
-              },
-              {
-                "Org": "IND",
-                "Bib": "12",
-                "Name": "ROY Pinki",
-                "NameS": "ROY Pinki",
-                "FuncDesc": "",
-                "PosDesc": ""
-              },
-              {
-                "Org": "IND",
-                "Bib": "1",
-                "Name": "JYOTI",
-                "NameS": "JYOTI",
-                "FuncDesc": "",
-                "PosDesc": ""
-              },
-              {
-                "Org": "IND",
-                "Bib": "4",
-                "Name": "NIKITA",
-                "NameS": "NIKITA",
-                "FuncDesc": "",
-                "PosDesc": ""
-              }
-            ],
-            "Splits": [
-              {
-                "Rk": "",
-                "RkPo": 0,
-                "Res": "31",
-                "Extensions": []
-              },
-              {
-                "Rk": "",
-                "RkPo": 0,
-                "Res": "17",
-                "Extensions": []
-              }
-            ]
-          },
-          "Away": {
-            "Org": "NEP",
-            "Reg": "KABWTEAM7------NEP01",
-            "Name": "Nepal",
-            "Result": "24",
-            "Winner": false,
-            "HasData": true,
-            "NameS": "Nepal",
-            "Medal": "ME_BRONZE",
-            "Members": [
-              {
-                "Org": "NEP",
-                "Bib": "3",
-                "Name": "RAJBANSHI Menuka Kumari",
-                "NameS": "RAJBANSHI Menuka Kumari",
-                "FuncDesc": "",
-                "PosDesc": ""
-              },
-              {
-                "Org": "NEP",
-                "Bib": "8",
-                "Name": "NEPALI Mina",
-                "NameS": "NEPALI Mina",
-                "FuncDesc": "",
-                "PosDesc": ""
-              },
-              {
-                "Org": "NEP",
-                "Bib": "6",
-                "Name": "YADAV Asma",
-                "NameS": "YADAV Asma",
-                "FuncDesc": "",
-                "PosDesc": ""
-              },
-              {
-                "Org": "NEP",
-                "Bib": "1",
-                "Name": "PARAJULI Nanu Maya",
-                "NameS": "PARAJULI Nanu Maya",
-                "FuncDesc": "",
-                "PosDesc": ""
-              },
-              {
-                "Org": "NEP",
-                "Bib": "5",
-                "Name": "PANDIT CHHETRI Binita",
-                "NameS": "PANDIT CHHETRI Binita",
-                "FuncDesc": "",
-                "PosDesc": ""
-              },
-              {
-                "Org": "NEP",
-                "Bib": "2",
-                "Name": "JOSHI Manisha",
-                "NameS": "JOSHI Manisha",
-                "FuncDesc": "",
-                "PosDesc": ""
-              },
-              {
-                "Org": "NEP",
-                "Bib": "9",
-                "Name": "CHAUDHARY Rabina",
-                "NameS": "CHAUDHARY Rabina",
-                "FuncDesc": "",
-                "PosDesc": ""
-              },
-              {
-                "Org": "NEP",
-                "Bib": "10",
-                "Name": "THARU Srijana Kumari",
-                "NameS": "THARU Srijana Kumari",
-                "FuncDesc": "",
-                "PosDesc": ""
-              },
-              {
-                "Org": "NEP",
-                "Bib": "12",
-                "Name": "GHIMIRE Ganga",
-                "NameS": "GHIMIRE Ganga",
-                "FuncDesc": "",
-                "PosDesc": ""
-              },
-              {
-                "Org": "NEP",
-                "Bib": "7",
-                "Name": "BIST Manmati",
-                "NameS": "BIST Manmati",
-                "FuncDesc": "",
-                "PosDesc": ""
-              },
-              {
-                "Org": "NEP",
-                "Bib": "4",
-                "Name": "BADU Jayanti",
-                "NameS": "BADU Jayanti",
-                "FuncDesc": "",
-                "PosDesc": ""
-              },
-              {
-                "Org": "NEP",
-                "Bib": "11",
-                "Name": "KHATRI Khim Maya",
-                "NameS": "KHATRI Khim Maya",
-                "FuncDesc": "",
-                "PosDesc": ""
-              }
-            ],
-            "Splits": [
-              {
-                "Rk": "",
-                "RkPo": 0,
-                "Res": "17",
-                "Extensions": []
-              },
-              {
-                "Rk": "",
-                "RkPo": 0,
-                "Res": "7",
-                "Extensions": []
-              }
-            ]
-          }
-        },
-        {
-          "Orgs": [
-            "IND",
-            "IRI"
-          ],
-          "IsPhase": false,
-          "ResCode": "W.TEAM7-------------.FNL-.000100--",
-          "ShowLink": true,
-          "Disc": "KAB",
-          "DiscDesc": "Kabaddi",
-          "Key": "W.TEAM7-------------.FNL-.000100--",
-          "isH2H": true,
-          "Type": "T",
-          "Medal": "1",
-          "Status": "OFFICIAL",
-          "StatusDesc": "Official",
-          "DateTimeRaw": "2026-09-26T13:00:00+09:00",
-          "HideStartDate": false,
-          "Estimated": false,
-          "EstText": "",
-          "HideLocation": false,
-          "Venue": "TCG",
-          "VenueDesc": "Tokai Citizen Gymnasium",
-          "VenueDescS": "Tokai Citizen Gymnasium",
-          "Loc": "KA2",
-          "LocDesc": "TCG Crt 2",
-          "LocDescS": "TCG Crt 2",
-          "Event": "W.TEAM7-------------",
-          "EventDesc": "Women's Team",
-          "Phase": "W.TEAM7-------------.FNL-",
-          "PhaseOrder": 16,
-          "PhaseDesc": "Women's Team Final",
-          "PhaseDescS": "Women's Team Final",
-          "PhaseDescA": "Final",
-          "UnitDesc": "Gold Medal Match",
-          "UnitDescS": "Gold Medal Match",
-          "UnitDescA": "Gold Medal Match",
-          "EndDateTimeRaw": "2026-09-26T14:04:15+09:00",
-          "ActualEndDateTimeRaw": "2026-09-26T14:04:15+09:00",
-          "UnitNum": "37",
-          "IsLive": false,
-          "ShowResults": true,
-          "Periods": [
-            {
-              "Order": 1,
-              "Desc": "1st Half",
-              "DescS": "1H"
-            },
-            {
-              "Order": 2,
-              "Desc": "2nd Half",
-              "DescS": "2H"
-            }
-          ],
-          "Home": {
-            "Org": "IND",
-            "Reg": "KABWTEAM7------IND01",
-            "Name": "India",
-            "Result": "37",
-            "Winner": true,
-            "HasData": true,
-            "NameS": "India",
-            "Medal": "ME_GOLD",
-            "Members": [
-              {
-                "Org": "IND",
-                "Bib": "9",
-                "Name": "POOJA",
-                "NameS": "POOJA",
-                "FuncDesc": "",
-                "PosDesc": ""
-              },
-              {
-                "Org": "IND",
-                "Bib": "8",
-                "Name": "RAJ RANI",
-                "NameS": "RAJ RANI",
-                "FuncDesc": "",
-                "PosDesc": ""
-              },
-              {
-                "Org": "IND",
-                "Bib": "5",
-                "Name": "SHINGATE Sonali Vishnu",
-                "NameS": "SHINGATE Sonali Vishnu",
-                "FuncDesc": "",
-                "PosDesc": ""
-              },
-              {
-                "Org": "IND",
-                "Bib": "3",
-                "Name": "PUSHPA",
-                "NameS": "PUSHPA",
-                "FuncDesc": "",
-                "PosDesc": ""
-              },
-              {
-                "Org": "IND",
-                "Bib": "11",
-                "Name": "DEVI Bhavna",
-                "NameS": "DEVI Bhavna",
-                "FuncDesc": "",
-                "PosDesc": ""
-              },
-              {
-                "Org": "IND",
-                "Bib": "10",
-                "Name": "RITU",
-                "NameS": "RITU",
-                "FuncDesc": "",
-                "PosDesc": ""
-              },
-              {
-                "Org": "IND",
-                "Bib": "14",
-                "Name": "DEVI Sanju",
-                "NameS": "DEVI Sanju",
-                "FuncDesc": "",
-                "PosDesc": ""
-              },
-              {
-                "Org": "IND",
-                "Bib": "7",
-                "Name": "NEGI Ritu",
-                "NameS": "NEGI Ritu",
-                "FuncDesc": "",
-                "PosDesc": ""
-              },
-              {
-                "Org": "IND",
-                "Bib": "2",
-                "Name": "KUMARI Manisha",
-                "NameS": "KUMARI Manisha",
-                "FuncDesc": "",
-                "PosDesc": ""
-              },
-              {
-                "Org": "IND",
-                "Bib": "12",
-                "Name": "ROY Pinki",
-                "NameS": "ROY Pinki",
-                "FuncDesc": "",
-                "PosDesc": ""
-              },
-              {
-                "Org": "IND",
-                "Bib": "1",
-                "Name": "JYOTI",
-                "NameS": "JYOTI",
-                "FuncDesc": "",
-                "PosDesc": ""
-              },
-              {
-                "Org": "IND",
-                "Bib": "4",
-                "Name": "NIKITA",
-                "NameS": "NIKITA",
-                "FuncDesc": "",
-                "PosDesc": ""
-              }
-            ],
-            "Splits": [
-              {
-                "Rk": "",
-                "RkPo": 0,
-                "Res": "22",
-                "Extensions": []
-              },
-              {
-                "Rk": "",
-                "RkPo": 0,
-                "Res": "15",
-                "Extensions": []
-              }
-            ]
-          },
-          "Away": {
-            "Org": "IRI",
-            "Reg": "KABWTEAM7------IRI01",
-            "Name": "Islamic Republic of Iran",
-            "Result": "34",
-            "Winner": false,
-            "HasData": true,
-            "NameS": "IR Iran",
-            "Medal": "ME_SILVER",
-            "Members": [
-              {
-                "Org": "IRI",
-                "Bib": "12",
-                "Name": "MALMALI Zakiyeh",
-                "NameS": "MALMALI Zakiyeh",
-                "FuncDesc": "",
-                "PosDesc": ""
-              },
-              {
-                "Org": "IRI",
-                "Bib": "5",
-                "Name": "FARAMARZI ZOBARAN Aynaz",
-                "NameS": "FARAMARZI ZOBARAN Aynaz",
-                "FuncDesc": "",
-                "PosDesc": ""
-              },
-              {
-                "Org": "IRI",
-                "Bib": "2",
-                "Name": "MADADI Atena",
-                "NameS": "MADADI Atena",
-                "FuncDesc": "",
-                "PosDesc": ""
-              },
-              {
-                "Org": "IRI",
-                "Bib": "3",
-                "Name": "KARIMI Zahra",
-                "NameS": "KARIMI Zahra",
-                "FuncDesc": "",
-                "PosDesc": ""
-              },
-              {
-                "Org": "IRI",
-                "Bib": "11",
-                "Name": "KOLAGAR Fereshte",
-                "NameS": "KOLAGAR Fereshte",
-                "FuncDesc": "",
-                "PosDesc": ""
-              },
-              {
-                "Org": "IRI",
-                "Bib": "9",
-                "Name": "YARISARAROUDI Sahar",
-                "NameS": "YARISARAROUDI Sahar",
-                "FuncDesc": "",
-                "PosDesc": ""
-              },
-              {
-                "Org": "IRI",
-                "Bib": "10",
-                "Name": "LAKALIABADI Mahtab",
-                "NameS": "LAKALIABADI Mahtab",
-                "FuncDesc": "",
-                "PosDesc": ""
-              },
-              {
-                "Org": "IRI",
-                "Bib": "1",
-                "Name": "ASTEREKI Zahra",
-                "NameS": "ASTEREKI Zahra",
-                "FuncDesc": "",
-                "PosDesc": ""
-              },
-              {
-                "Org": "IRI",
-                "Bib": "4",
-                "Name": "NAEIMI MARANI Saniya",
-                "NameS": "NAEIMI MARANI Saniya",
-                "FuncDesc": "",
-                "PosDesc": ""
-              },
-              {
-                "Org": "IRI",
-                "Bib": "7",
-                "Name": "VARASTEHKALMARZI Hadiseh",
-                "NameS": "VARASTEHKALMARZI Hadiseh",
-                "FuncDesc": "",
-                "PosDesc": ""
-              },
-              {
-                "Org": "IRI",
-                "Bib": "6",
-                "Name": "JALALVAND Nikta",
-                "NameS": "JALALVAND Nikta",
-                "FuncDesc": "",
-                "PosDesc": ""
-              },
-              {
-                "Org": "IRI",
-                "Bib": "8",
-                "Name": "KHODABANDEHLOO Zahra",
-                "NameS": "KHODABANDEHLOO Zahra",
-                "FuncDesc": "",
-                "PosDesc": ""
-              }
-            ],
-            "Splits": [
-              {
-                "Rk": "",
-                "RkPo": 0,
-                "Res": "16",
-                "Extensions": []
-              },
-              {
-                "Rk": "",
-                "RkPo": 0,
-                "Res": "18",
-                "Extensions": []
-              }
-            ]
-          }
-        }
-      ],
-      "historical": null
-    }
+    "bio_data": null
   },
   {
     "reg": "14051515",
@@ -181152,6 +181619,10 @@
         "event": "Trap Women Individual"
       },
       {
+        "medal": "gold",
+        "event": "Trap Mixed Team"
+      },
+      {
         "medal": "silver",
         "event": "Trap Women Team"
       }
@@ -181187,10 +181658,10 @@
           "TeamReg": "SHOWTRTW-------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
+          "Medal": "ME_SILVER",
           "Rank": "2",
           "IRM": "",
-          "Result": "328",
-          "Medal": "ME_SILVER"
+          "Result": "328"
         },
         {
           "Disc": "SHO",
@@ -181199,10 +181670,10 @@
           "Desc": "Trap Women Individual",
           "DescS": "Trap Women Individual",
           "isMember": false,
+          "Medal": "ME_GOLD",
           "Rank": "1",
           "IRM": "",
-          "Result": "28",
-          "Medal": "ME_GOLD"
+          "Result": "28"
         },
         {
           "Disc": "SHO",
@@ -181213,7 +181684,11 @@
           "isMember": true,
           "TeamReg": "SHOXTRMT-------IND01",
           "TeamOrg": "IND",
-          "TeamName": "India"
+          "TeamName": "India",
+          "Rank": "1",
+          "IRM": "",
+          "Result": "34",
+          "Medal": "ME_GOLD"
         }
       ],
       "schedule": [
@@ -181659,10 +182134,10 @@
         },
         {
           "Orgs": [
-            "CHN",
             "IND",
-            "IRI",
-            "QAT"
+            "QAT",
+            "CHN",
+            "IRI"
           ],
           "IsPhase": false,
           "ResCode": "X.TRMT--------------.FNL-.000100--",
@@ -181673,8 +182148,8 @@
           "isH2H": false,
           "Type": "T",
           "Medal": "1",
-          "Status": "START_LIST",
-          "StatusDesc": "Start List",
+          "Status": "OFFICIAL",
+          "StatusDesc": "Official",
           "DateTimeRaw": "2026-09-30T14:30:00+09:00",
           "HideStartDate": false,
           "Estimated": false,
@@ -181700,11 +182175,12 @@
           "ActualEndDateTimeRaw": "2026-09-30T15:00:00+09:00",
           "UnitNum": "1",
           "IsLive": false,
-          "ShowResults": false,
+          "ShowResults": true,
           "Counters": {
             "Partics": 4,
             "Orgs": 4
-          }
+          },
+          "Results": []
         }
       ],
       "historical": null
@@ -182553,6 +183029,747 @@
           "UnitDescA": "Final",
           "EndDateTimeRaw": "2026-09-25T12:45:00+09:00",
           "ActualEndDateTimeRaw": "2026-09-25T12:45:00+09:00",
+          "UnitNum": "1",
+          "IsLive": false,
+          "ShowResults": true,
+          "Counters": {
+            "Partics": 4,
+            "Orgs": 4
+          },
+          "Results": []
+        }
+      ],
+      "historical": null
+    }
+  },
+  {
+    "reg": "SHOXTRMT-------IND01",
+    "name": "India",
+    "org": "IND",
+    "org_desc": "India",
+    "disc": "SHO",
+    "disc_desc": "Shooting",
+    "photo_url": null,
+    "medals": [
+      {
+        "medal": "gold",
+        "event": "Trap Mixed Team"
+      }
+    ],
+    "bio_data": {
+      "participant": {
+        "Reg": "SHOXTRMT-------IND01",
+        "Disc": "SHO",
+        "DiscDesc": "Shooting",
+        "hasMembers": true,
+        "Org": "IND",
+        "OrgDesc": "India",
+        "Type": "T",
+        "MedClass": "",
+        "Gender": "X",
+        "Name": "India",
+        "NameS": "India",
+        "GivenName": "",
+        "FamilyName": "",
+        "Height": 0,
+        "Weight": 0,
+        "Members": [
+          {
+            "Reg": "12559510",
+            "Org": "IND",
+            "Gender": "M",
+            "Order": 1,
+            "Bib": "1084",
+            "Name": "CHENAI Kynan",
+            "BirthDateRaw": "1991-01-29",
+            "Position": "",
+            "PosDesc": "",
+            "Function": "AA01",
+            "FuncDesc": "Athlete",
+            "Substitute": false
+          },
+          {
+            "Reg": "13021576",
+            "Org": "IND",
+            "Gender": "W",
+            "Order": 2,
+            "Bib": "1095",
+            "Name": "NEERU",
+            "BirthDateRaw": "2000-05-25",
+            "Position": "",
+            "PosDesc": "",
+            "Function": "AA01",
+            "FuncDesc": "Athlete",
+            "Substitute": false
+          }
+        ]
+      },
+      "entries": [
+        {
+          "Disc": "SHO",
+          "Reg": "SHOXTRMT-------IND01",
+          "EvKey": "X.TRMT--------------",
+          "Desc": "Trap Mixed Team",
+          "DescS": "Trap Mixed Team",
+          "isMember": false,
+          "Rank": "1",
+          "IRM": "",
+          "Result": "34",
+          "Medal": "ME_GOLD"
+        }
+      ],
+      "schedule": [
+        {
+          "Orgs": [
+            "CHN",
+            "QAT",
+            "IRI",
+            "IND",
+            "TPE",
+            "KAZ",
+            "KOR",
+            "JPN",
+            "KUW",
+            "THA",
+            "BRN",
+            "INA"
+          ],
+          "IsPhase": false,
+          "ResCode": "X.TRMT--------------.QUAL.000100--",
+          "ShowLink": true,
+          "Disc": "SHO",
+          "DiscDesc": "Shooting",
+          "Key": "X.TRMT--------------.QUAL.000100--",
+          "isH2H": false,
+          "Type": "T",
+          "Medal": "0",
+          "Status": "OFFICIAL",
+          "StatusDesc": "Official",
+          "DateTimeRaw": "2026-09-30T10:00:00+09:00",
+          "HideStartDate": false,
+          "Estimated": false,
+          "EstText": "Followed by",
+          "HideLocation": false,
+          "Venue": "PGS",
+          "VenueDesc": "Aichi Prefectural General Shooting Gallery",
+          "VenueDescS": "Aichi Pref. General Shooting Gallery",
+          "Loc": "SH5",
+          "LocDesc": "Shotgun Range",
+          "LocDescS": "Shotgun Range",
+          "Event": "X.TRMT--------------",
+          "EventDesc": "Trap Mixed Team",
+          "Phase": "X.TRMT--------------.QUAL",
+          "PhaseOrder": 1,
+          "PhaseDesc": "Trap Mixed Team Qualification",
+          "PhaseDescS": "Trap Mixed Team Qualification",
+          "PhaseDescA": "Qualification",
+          "UnitDesc": "Trap Mixed Team - Qualification",
+          "UnitDescS": "Trap Mixed Team - Qualification",
+          "UnitDescA": "Qualification",
+          "EndDateTimeRaw": "2026-09-30T12:40:00+09:00",
+          "ActualEndDateTimeRaw": "2026-09-30T12:40:00+09:00",
+          "UnitNum": "1",
+          "IsLive": false,
+          "ShowResults": true,
+          "Counters": {
+            "Partics": 12,
+            "Orgs": 12
+          },
+          "Results": []
+        },
+        {
+          "Orgs": [
+            "IND",
+            "QAT",
+            "CHN",
+            "IRI"
+          ],
+          "IsPhase": false,
+          "ResCode": "X.TRMT--------------.FNL-.000100--",
+          "ShowLink": true,
+          "Disc": "SHO",
+          "DiscDesc": "Shooting",
+          "Key": "X.TRMT--------------.FNL-.000100--",
+          "isH2H": false,
+          "Type": "T",
+          "Medal": "1",
+          "Status": "OFFICIAL",
+          "StatusDesc": "Official",
+          "DateTimeRaw": "2026-09-30T14:30:00+09:00",
+          "HideStartDate": false,
+          "Estimated": false,
+          "EstText": "Followed by",
+          "HideLocation": false,
+          "Venue": "PGS",
+          "VenueDesc": "Aichi Prefectural General Shooting Gallery",
+          "VenueDescS": "Aichi Pref. General Shooting Gallery",
+          "Loc": "SH5",
+          "LocDesc": "Shotgun Range",
+          "LocDescS": "Shotgun Range",
+          "Event": "X.TRMT--------------",
+          "EventDesc": "Trap Mixed Team",
+          "Phase": "X.TRMT--------------.FNL-",
+          "PhaseOrder": 2,
+          "PhaseDesc": "Trap Mixed Team Final",
+          "PhaseDescS": "Trap Mixed Team Final",
+          "PhaseDescA": "Final",
+          "UnitDesc": "Trap Mixed Team - Final",
+          "UnitDescS": "Trap Mixed Team - Final",
+          "UnitDescA": "Final",
+          "EndDateTimeRaw": "2026-09-30T15:00:00+09:00",
+          "ActualEndDateTimeRaw": "2026-09-30T15:00:00+09:00",
+          "UnitNum": "1",
+          "IsLive": false,
+          "ShowResults": true,
+          "Counters": {
+            "Partics": 4,
+            "Orgs": 4
+          },
+          "Results": []
+        }
+      ],
+      "historical": null
+    }
+  },
+  {
+    "reg": "12559510",
+    "name": "CHENAI Kynan",
+    "org": "IND",
+    "org_desc": "India",
+    "disc": "SHO",
+    "disc_desc": "Shooting",
+    "photo_url": "https://results.asiangames2026.org/ag2026/photos/12559510.jpg",
+    "medals": [
+      {
+        "medal": "gold",
+        "event": "Trap Mixed Team"
+      }
+    ],
+    "bio_data": {
+      "participant": {
+        "Reg": "12559510",
+        "Disc": "SHO",
+        "DiscDesc": "Shooting",
+        "hasMembers": false,
+        "Org": "IND",
+        "OrgDesc": "India",
+        "Type": "A",
+        "MedClass": "",
+        "Gender": "M",
+        "BirthDateRaw": "1991-01-29",
+        "Name": "CHENAI Kynan",
+        "NameS": "CHENAI K",
+        "GivenName": "Kynan",
+        "FamilyName": "CHENAI",
+        "IFId": "",
+        "Height": 0,
+        "Weight": 0
+      },
+      "entries": [
+        {
+          "Disc": "SHO",
+          "Reg": "12559510",
+          "EvKey": "M.TRM---------------",
+          "Desc": "Trap Men Individual",
+          "DescS": "Trap Men Individual",
+          "isMember": false,
+          "Rank": "16",
+          "IRM": "",
+          "Result": ""
+        },
+        {
+          "Disc": "SHO",
+          "Reg": "12559510",
+          "EvKey": "M.TRTM--------------",
+          "Desc": "Trap Men Team",
+          "DescS": "Trap Men Team",
+          "isMember": true,
+          "TeamReg": "SHOMTRTM-------IND01",
+          "TeamOrg": "IND",
+          "TeamName": "India",
+          "Rank": "6",
+          "IRM": "",
+          "Result": "339"
+        },
+        {
+          "Disc": "SHO",
+          "Reg": "12559510",
+          "EvKey": "X.TRMT--------------",
+          "Desc": "Trap Mixed Team",
+          "DescS": "Trap Mixed Team",
+          "isMember": true,
+          "TeamReg": "SHOXTRMT-------IND01",
+          "TeamOrg": "IND",
+          "TeamName": "India",
+          "Medal": "ME_GOLD",
+          "Rank": "1",
+          "IRM": "",
+          "Result": "34"
+        }
+      ],
+      "schedule": [
+        {
+          "Orgs": [
+            "CHN",
+            "KUW",
+            "KAZ",
+            "TPE",
+            "UAE",
+            "QAT",
+            "UZB",
+            "PHI",
+            "IND",
+            "THA",
+            "IRI",
+            "LBN",
+            "OMA",
+            "BRN",
+            "KOR",
+            "INA",
+            "JPN",
+            "SYR",
+            "PAK"
+          ],
+          "IsPhase": false,
+          "ResCode": "M.TRM---------------.QUAL.000100--",
+          "ShowLink": true,
+          "Disc": "SHO",
+          "DiscDesc": "Shooting",
+          "Key": "M.TRM---------------.QUAL.000100--",
+          "isH2H": false,
+          "Type": "A",
+          "Medal": "0",
+          "Status": "OFFICIAL",
+          "StatusDesc": "Official",
+          "DateTimeRaw": "2026-09-27T10:00:00+09:00",
+          "HideStartDate": false,
+          "Estimated": false,
+          "EstText": "Followed by",
+          "HideLocation": false,
+          "Venue": "PGS",
+          "VenueDesc": "Aichi Prefectural General Shooting Gallery",
+          "VenueDescS": "Aichi Pref. General Shooting Gallery",
+          "Loc": "SH5",
+          "LocDesc": "Shotgun Range",
+          "LocDescS": "Shotgun Range",
+          "Event": "M.TRM---------------",
+          "EventDesc": "Trap Men Individual",
+          "Phase": "M.TRM---------------.QUAL",
+          "PhaseOrder": 1,
+          "PhaseDesc": "Trap Men Individual Qualification",
+          "PhaseDescS": "Trap Men Individual Qualification",
+          "PhaseDescA": "Qualification",
+          "UnitDesc": "Trap Men Individual - Qualification - Qualification - Day 1",
+          "UnitDescS": "Trap Men Individual - Qualification - Qualification - Day 1",
+          "UnitDescA": "Day 1",
+          "EndDateTimeRaw": "2026-09-27T12:45:00+09:00",
+          "ActualEndDateTimeRaw": "2026-09-27T12:45:00+09:00",
+          "UnitNum": "1",
+          "IsLive": false,
+          "ShowResults": true,
+          "Counters": {
+            "Partics": 41,
+            "Orgs": 19
+          },
+          "Results": []
+        },
+        {
+          "Orgs": [
+            "KUW",
+            "QAT",
+            "KAZ",
+            "CHN",
+            "UZB",
+            "LBN",
+            "IND",
+            "PHI",
+            "THA",
+            "JPN"
+          ],
+          "IsPhase": false,
+          "ResCode": "M.TRTM--------------.FNL-.000100--",
+          "ShowLink": true,
+          "Disc": "SHO",
+          "DiscDesc": "Shooting",
+          "Key": "M.TRTM--------------.FNL-.000100--",
+          "isH2H": false,
+          "Type": "T",
+          "Medal": "0",
+          "Status": "OFFICIAL",
+          "StatusDesc": "Official",
+          "DateTimeRaw": "2026-09-27T10:00:00+09:00",
+          "HideStartDate": false,
+          "Estimated": false,
+          "EstText": "Followed by",
+          "HideLocation": false,
+          "Venue": "PGS",
+          "VenueDesc": "Aichi Prefectural General Shooting Gallery",
+          "VenueDescS": "Aichi Pref. General Shooting Gallery",
+          "Loc": "SH5",
+          "LocDesc": "Shotgun Range",
+          "LocDescS": "Shotgun Range",
+          "Event": "M.TRTM--------------",
+          "EventDesc": "Trap Men Team",
+          "Phase": "M.TRTM--------------.FNL-",
+          "PhaseOrder": 2,
+          "PhaseDesc": "Trap Men Team Final",
+          "PhaseDescS": "Trap Men Team Final",
+          "PhaseDescA": "Final",
+          "UnitDesc": "Trap Men Team - Final - Day 1",
+          "UnitDescS": "Trap Men Team - Final - Day 1",
+          "UnitDescA": "Day 1",
+          "EndDateTimeRaw": "2026-09-27T12:45:00+09:00",
+          "ActualEndDateTimeRaw": "2026-09-27T12:45:00+09:00",
+          "UnitNum": "1",
+          "IsLive": false,
+          "ShowResults": true,
+          "Counters": {
+            "Partics": 10,
+            "Orgs": 10
+          },
+          "Results": []
+        },
+        {
+          "Orgs": [
+            "TPE",
+            "CHN",
+            "KUW",
+            "IND",
+            "QAT",
+            "UAE",
+            "KAZ",
+            "UZB",
+            "KOR",
+            "LBN",
+            "OMA",
+            "IRI",
+            "PHI",
+            "THA",
+            "INA",
+            "JPN",
+            "BRN",
+            "SYR",
+            "PAK"
+          ],
+          "IsPhase": false,
+          "ResCode": "M.TRM---------------.QUAL.000200--",
+          "ShowLink": true,
+          "Disc": "SHO",
+          "DiscDesc": "Shooting",
+          "Key": "M.TRM---------------.QUAL.000200--",
+          "isH2H": false,
+          "Type": "A",
+          "Medal": "0",
+          "Status": "OFFICIAL",
+          "StatusDesc": "Official",
+          "DateTimeRaw": "2026-09-28T10:00:00+09:00",
+          "HideStartDate": false,
+          "Estimated": false,
+          "EstText": "Followed by",
+          "HideLocation": false,
+          "Venue": "PGS",
+          "VenueDesc": "Aichi Prefectural General Shooting Gallery",
+          "VenueDescS": "Aichi Pref. General Shooting Gallery",
+          "Loc": "SH5",
+          "LocDesc": "Shotgun Range",
+          "LocDescS": "Shotgun Range",
+          "Event": "M.TRM---------------",
+          "EventDesc": "Trap Men Individual",
+          "Phase": "M.TRM---------------.QUAL",
+          "PhaseOrder": 1,
+          "PhaseDesc": "Trap Men Individual Qualification",
+          "PhaseDescS": "Trap Men Individual Qualification",
+          "PhaseDescA": "Qualification",
+          "UnitDesc": "Trap Men Individual - Qualification - Qualification - Day 2",
+          "UnitDescS": "Trap Men Individual - Qualification - Qualification - Day 2",
+          "UnitDescA": "Day 2",
+          "EndDateTimeRaw": "2026-09-28T12:45:00+09:00",
+          "ActualEndDateTimeRaw": "2026-09-28T12:45:00+09:00",
+          "UnitNum": "2",
+          "IsLive": false,
+          "ShowResults": true,
+          "Counters": {
+            "Partics": 41,
+            "Orgs": 19
+          },
+          "Results": []
+        },
+        {
+          "Orgs": [
+            "KUW",
+            "QAT",
+            "KAZ",
+            "CHN",
+            "IND",
+            "UZB",
+            "LBN",
+            "PHI",
+            "JPN",
+            "THA"
+          ],
+          "IsPhase": false,
+          "ResCode": "M.TRTM--------------.FNL-.000200--",
+          "ShowLink": true,
+          "Disc": "SHO",
+          "DiscDesc": "Shooting",
+          "Key": "M.TRTM--------------.FNL-.000200--",
+          "isH2H": false,
+          "Type": "T",
+          "Medal": "0",
+          "Status": "OFFICIAL",
+          "StatusDesc": "Official",
+          "DateTimeRaw": "2026-09-28T10:00:00+09:00",
+          "HideStartDate": false,
+          "Estimated": false,
+          "EstText": "Followed by",
+          "HideLocation": false,
+          "Venue": "PGS",
+          "VenueDesc": "Aichi Prefectural General Shooting Gallery",
+          "VenueDescS": "Aichi Pref. General Shooting Gallery",
+          "Loc": "SH5",
+          "LocDesc": "Shotgun Range",
+          "LocDescS": "Shotgun Range",
+          "Event": "M.TRTM--------------",
+          "EventDesc": "Trap Men Team",
+          "Phase": "M.TRTM--------------.FNL-",
+          "PhaseOrder": 2,
+          "PhaseDesc": "Trap Men Team Final",
+          "PhaseDescS": "Trap Men Team Final",
+          "PhaseDescA": "Final",
+          "UnitDesc": "Trap Men Team - Final - Day 2",
+          "UnitDescS": "Trap Men Team - Final - Day 2",
+          "UnitDescA": "Day 2",
+          "EndDateTimeRaw": "2026-09-28T12:45:00+09:00",
+          "ActualEndDateTimeRaw": "2026-09-28T12:45:00+09:00",
+          "UnitNum": "2",
+          "IsLive": false,
+          "ShowResults": true,
+          "Counters": {
+            "Partics": 10,
+            "Orgs": 10
+          },
+          "Results": []
+        },
+        {
+          "Orgs": [
+            "TPE",
+            "CHN",
+            "KUW",
+            "QAT",
+            "UZB",
+            "KAZ",
+            "IND",
+            "OMA",
+            "LBN",
+            "IRI",
+            "KOR",
+            "UAE",
+            "INA",
+            "PHI",
+            "THA",
+            "BRN",
+            "JPN",
+            "SYR",
+            "PAK"
+          ],
+          "IsPhase": false,
+          "ResCode": "M.TRM---------------.QUAL.000300--",
+          "ShowLink": true,
+          "Disc": "SHO",
+          "DiscDesc": "Shooting",
+          "Key": "M.TRM---------------.QUAL.000300--",
+          "isH2H": false,
+          "Type": "A",
+          "Medal": "0",
+          "Status": "OFFICIAL",
+          "StatusDesc": "Official",
+          "DateTimeRaw": "2026-09-29T10:00:00+09:00",
+          "HideStartDate": false,
+          "Estimated": false,
+          "EstText": "Followed by",
+          "HideLocation": false,
+          "Venue": "PGS",
+          "VenueDesc": "Aichi Prefectural General Shooting Gallery",
+          "VenueDescS": "Aichi Pref. General Shooting Gallery",
+          "Loc": "SH5",
+          "LocDesc": "Shotgun Range",
+          "LocDescS": "Shotgun Range",
+          "Event": "M.TRM---------------",
+          "EventDesc": "Trap Men Individual",
+          "Phase": "M.TRM---------------.QUAL",
+          "PhaseOrder": 1,
+          "PhaseDesc": "Trap Men Individual Qualification",
+          "PhaseDescS": "Trap Men Individual Qualification",
+          "PhaseDescA": "Qualification",
+          "UnitDesc": "Trap Men Individual - Qualification - Qualification - Day 3",
+          "UnitDescS": "Trap Men Individual - Qualification - Qualification - Day 3",
+          "UnitDescA": "Day 3",
+          "EndDateTimeRaw": "2026-09-29T12:00:00+09:00",
+          "ActualEndDateTimeRaw": "2026-09-29T12:00:00+09:00",
+          "UnitNum": "3",
+          "IsLive": false,
+          "ShowResults": true,
+          "Counters": {
+            "Partics": 41,
+            "Orgs": 19
+          },
+          "Results": []
+        },
+        {
+          "Orgs": [
+            "KUW",
+            "QAT",
+            "KAZ",
+            "CHN",
+            "LBN",
+            "IND",
+            "UZB",
+            "PHI",
+            "THA",
+            "JPN"
+          ],
+          "IsPhase": false,
+          "ResCode": "M.TRTM--------------.FNL-.000300--",
+          "ShowLink": true,
+          "Disc": "SHO",
+          "DiscDesc": "Shooting",
+          "Key": "M.TRTM--------------.FNL-.000300--",
+          "isH2H": false,
+          "Type": "T",
+          "Medal": "1",
+          "Status": "OFFICIAL",
+          "StatusDesc": "Official",
+          "DateTimeRaw": "2026-09-29T10:00:00+09:00",
+          "HideStartDate": false,
+          "Estimated": false,
+          "EstText": "Followed by",
+          "HideLocation": false,
+          "Venue": "PGS",
+          "VenueDesc": "Aichi Prefectural General Shooting Gallery",
+          "VenueDescS": "Aichi Pref. General Shooting Gallery",
+          "Loc": "SH5",
+          "LocDesc": "Shotgun Range",
+          "LocDescS": "Shotgun Range",
+          "Event": "M.TRTM--------------",
+          "EventDesc": "Trap Men Team",
+          "Phase": "M.TRTM--------------.FNL-",
+          "PhaseOrder": 2,
+          "PhaseDesc": "Trap Men Team Final",
+          "PhaseDescS": "Trap Men Team Final",
+          "PhaseDescA": "Final",
+          "UnitDesc": "Trap Men Team - Final - Day 3",
+          "UnitDescS": "Trap Men Team - Final - Day 3",
+          "UnitDescA": "Day 3",
+          "EndDateTimeRaw": "2026-09-29T12:00:00+09:00",
+          "ActualEndDateTimeRaw": "2026-09-29T12:00:00+09:00",
+          "UnitNum": "3",
+          "IsLive": false,
+          "ShowResults": true,
+          "Counters": {
+            "Partics": 10,
+            "Orgs": 10
+          },
+          "Results": []
+        },
+        {
+          "Orgs": [
+            "CHN",
+            "QAT",
+            "IRI",
+            "IND",
+            "TPE",
+            "KAZ",
+            "KOR",
+            "JPN",
+            "KUW",
+            "THA",
+            "BRN",
+            "INA"
+          ],
+          "IsPhase": false,
+          "ResCode": "X.TRMT--------------.QUAL.000100--",
+          "ShowLink": true,
+          "Disc": "SHO",
+          "DiscDesc": "Shooting",
+          "Key": "X.TRMT--------------.QUAL.000100--",
+          "isH2H": false,
+          "Type": "T",
+          "Medal": "0",
+          "Status": "OFFICIAL",
+          "StatusDesc": "Official",
+          "DateTimeRaw": "2026-09-30T10:00:00+09:00",
+          "HideStartDate": false,
+          "Estimated": false,
+          "EstText": "Followed by",
+          "HideLocation": false,
+          "Venue": "PGS",
+          "VenueDesc": "Aichi Prefectural General Shooting Gallery",
+          "VenueDescS": "Aichi Pref. General Shooting Gallery",
+          "Loc": "SH5",
+          "LocDesc": "Shotgun Range",
+          "LocDescS": "Shotgun Range",
+          "Event": "X.TRMT--------------",
+          "EventDesc": "Trap Mixed Team",
+          "Phase": "X.TRMT--------------.QUAL",
+          "PhaseOrder": 1,
+          "PhaseDesc": "Trap Mixed Team Qualification",
+          "PhaseDescS": "Trap Mixed Team Qualification",
+          "PhaseDescA": "Qualification",
+          "UnitDesc": "Trap Mixed Team - Qualification",
+          "UnitDescS": "Trap Mixed Team - Qualification",
+          "UnitDescA": "Qualification",
+          "EndDateTimeRaw": "2026-09-30T12:40:00+09:00",
+          "ActualEndDateTimeRaw": "2026-09-30T12:40:00+09:00",
+          "UnitNum": "1",
+          "IsLive": false,
+          "ShowResults": true,
+          "Counters": {
+            "Partics": 12,
+            "Orgs": 12
+          },
+          "Results": []
+        },
+        {
+          "Orgs": [
+            "IND",
+            "QAT",
+            "CHN",
+            "IRI"
+          ],
+          "IsPhase": false,
+          "ResCode": "X.TRMT--------------.FNL-.000100--",
+          "ShowLink": true,
+          "Disc": "SHO",
+          "DiscDesc": "Shooting",
+          "Key": "X.TRMT--------------.FNL-.000100--",
+          "isH2H": false,
+          "Type": "T",
+          "Medal": "1",
+          "Status": "OFFICIAL",
+          "StatusDesc": "Official",
+          "DateTimeRaw": "2026-09-30T14:30:00+09:00",
+          "HideStartDate": false,
+          "Estimated": false,
+          "EstText": "Followed by",
+          "HideLocation": false,
+          "Venue": "PGS",
+          "VenueDesc": "Aichi Prefectural General Shooting Gallery",
+          "VenueDescS": "Aichi Pref. General Shooting Gallery",
+          "Loc": "SH5",
+          "LocDesc": "Shotgun Range",
+          "LocDescS": "Shotgun Range",
+          "Event": "X.TRMT--------------",
+          "EventDesc": "Trap Mixed Team",
+          "Phase": "X.TRMT--------------.FNL-",
+          "PhaseOrder": 2,
+          "PhaseDesc": "Trap Mixed Team Final",
+          "PhaseDescS": "Trap Mixed Team Final",
+          "PhaseDescA": "Final",
+          "UnitDesc": "Trap Mixed Team - Final",
+          "UnitDescS": "Trap Mixed Team - Final",
+          "UnitDescA": "Final",
+          "EndDateTimeRaw": "2026-09-30T15:00:00+09:00",
+          "ActualEndDateTimeRaw": "2026-09-30T15:00:00+09:00",
           "UnitNum": "1",
           "IsLive": false,
           "ShowResults": true,
@@ -191292,10 +192509,10 @@
           "Desc": "Men's Singles",
           "DescS": "Men's Singles",
           "isMember": false,
-          "Medal": "ME_SILVER",
           "Rank": "2",
           "IRM": "OK",
-          "Result": ""
+          "Result": "",
+          "Medal": "ME_SILVER"
         },
         {
           "Disc": "SQU",
@@ -194104,8 +195321,8 @@
           "isH2H": true,
           "Type": "T",
           "Medal": "",
-          "Status": "SCHEDULED",
-          "StatusDesc": "Scheduled",
+          "Status": "RUNNING",
+          "StatusDesc": "Running",
           "DateTimeRaw": "2026-09-30T14:30:00+09:00",
           "HideStartDate": false,
           "Estimated": false,
@@ -194130,8 +195347,8 @@
           "EndDateTimeRaw": "",
           "ActualEndDateTimeRaw": "",
           "UnitNum": "13",
-          "IsLive": false,
-          "ShowResults": false,
+          "IsLive": true,
+          "ShowResults": true,
           "Periods": [
             {
               "Order": 1,
@@ -194163,7 +195380,7 @@
             "Org": "IND",
             "Reg": "SQUMTEAM-------IND01",
             "Name": "India",
-            "Result": "",
+            "Result": "1",
             "Winner": false,
             "HasData": true,
             "NameS": "India",
@@ -194304,7 +195521,7 @@
             "Org": "KUW",
             "Reg": "SQUMTEAM-------KUW01",
             "Name": "Kuwait",
-            "Result": "",
+            "Result": "0",
             "Winner": false,
             "HasData": true,
             "NameS": "Kuwait",
@@ -194502,7 +195719,7 @@
               "Type": "UNIT_INFO",
               "Code": "TeamMatchDuration",
               "Pos": 0,
-              "Value": "0min",
+              "Value": "27min",
               "Extensions": []
             }
           ]
@@ -202516,10 +203733,10 @@
           "TeamReg": "SQUXDOUBLES----IND02",
           "TeamOrg": "IND",
           "TeamName": "CHINAPPA J. /SENTHILKUMAR V.",
+          "Medal": "ME_BRONZE",
           "Rank": "3",
           "IRM": "OK",
-          "Result": "",
-          "Medal": "ME_BRONZE"
+          "Result": ""
         }
       ],
       "schedule": [
@@ -204307,8 +205524,8 @@
           "isH2H": true,
           "Type": "T",
           "Medal": "",
-          "Status": "SCHEDULED",
-          "StatusDesc": "Scheduled",
+          "Status": "RUNNING",
+          "StatusDesc": "Running",
           "DateTimeRaw": "2026-09-30T14:30:00+09:00",
           "HideStartDate": false,
           "Estimated": false,
@@ -204333,8 +205550,8 @@
           "EndDateTimeRaw": "",
           "ActualEndDateTimeRaw": "",
           "UnitNum": "13",
-          "IsLive": false,
-          "ShowResults": false,
+          "IsLive": true,
+          "ShowResults": true,
           "Periods": [
             {
               "Order": 1,
@@ -204366,7 +205583,7 @@
             "Org": "IND",
             "Reg": "SQUMTEAM-------IND01",
             "Name": "India",
-            "Result": "",
+            "Result": "1",
             "Winner": false,
             "HasData": true,
             "NameS": "India",
@@ -204507,7 +205724,7 @@
             "Org": "KUW",
             "Reg": "SQUMTEAM-------KUW01",
             "Name": "Kuwait",
-            "Result": "",
+            "Result": "0",
             "Winner": false,
             "HasData": true,
             "NameS": "Kuwait",
@@ -204705,7 +205922,7 @@
               "Type": "UNIT_INFO",
               "Code": "TeamMatchDuration",
               "Pos": 0,
-              "Value": "0min",
+              "Value": "27min",
               "Extensions": []
             }
           ]
