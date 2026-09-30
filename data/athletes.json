@@ -84,7 +84,7 @@
           "DescS": "Compound Women's Team",
           "isMember": false,
           "Medal": "ME_GOLD",
-          "Rank": "",
+          "Rank": "1",
           "IRM": "",
           "Result": ""
         }
@@ -5161,6 +5161,32 @@
                 ]
               },
               {
+                "Type": "PREV_RESULT",
+                "Code": "UNIT_KEY",
+                "Pos": 4,
+                "Value": " ",
+                "Extensions": [
+                  {
+                    "Type": "RESULT",
+                    "Code": "Register",
+                    "Pos": 4,
+                    "Value": "ARCWCTEAM------KOR01"
+                  },
+                  {
+                    "Type": "RESULT",
+                    "Code": "RegisterOpp",
+                    "Pos": 4,
+                    "Value": "ARCWCTEAM------TPE01"
+                  },
+                  {
+                    "Type": "RESULT",
+                    "Code": "Result",
+                    "Pos": 4,
+                    "Value": "229-228"
+                  }
+                ]
+              },
+              {
                 "Type": "RESULT_INFO",
                 "Code": "DisplayRank",
                 "Pos": 0,
@@ -5944,6 +5970,32 @@
                 ]
               },
               {
+                "Type": "PREV_RESULT",
+                "Code": "UNIT_KEY",
+                "Pos": 4,
+                "Value": " ",
+                "Extensions": [
+                  {
+                    "Type": "RESULT",
+                    "Code": "Register",
+                    "Pos": 4,
+                    "Value": "ARCWCTEAM------IND01"
+                  },
+                  {
+                    "Type": "RESULT",
+                    "Code": "RegisterOpp",
+                    "Pos": 4,
+                    "Value": "ARCWCTEAM------CHN01"
+                  },
+                  {
+                    "Type": "RESULT",
+                    "Code": "Result",
+                    "Pos": 4,
+                    "Value": "238-234"
+                  }
+                ]
+              },
+              {
                 "Type": "RESULT_INFO",
                 "Code": "DisplayRank",
                 "Pos": 0,
@@ -6069,7 +6121,7 @@
               "Type": "UNIT_INFO",
               "Code": "NextPhaseStarted",
               "Pos": 0,
-              "Value": "N",
+              "Value": "Y",
               "Extensions": []
             },
             {
@@ -6104,7 +6156,7 @@
               "Type": "UNIT_INFO",
               "Code": "PhaseFinished",
               "Pos": 0,
-              "Value": "N",
+              "Value": "Y",
               "Extensions": []
             },
             {
@@ -6144,8 +6196,8 @@
           "isH2H": true,
           "Type": "T",
           "Medal": "1",
-          "Status": "UNOFFICIAL",
-          "StatusDesc": "Unofficial",
+          "Status": "OFFICIAL",
+          "StatusDesc": "Official",
           "DateTimeRaw": "2026-09-30T10:50:00+09:00",
           "HideStartDate": false,
           "Estimated": false,
@@ -6167,8 +6219,8 @@
           "UnitDesc": "Compound Women's Team Gold Medal Match",
           "UnitDescS": "Compound Women's Team Gold Medal Match",
           "UnitDescA": "",
-          "EndDateTimeRaw": "2026-09-30T11:12:32+09:00",
-          "ActualEndDateTimeRaw": "2026-09-30T11:12:32+09:00",
+          "EndDateTimeRaw": "2026-09-30T11:13:00+09:00",
+          "ActualEndDateTimeRaw": "2026-09-30T11:13:00+09:00",
           "UnitNum": "316",
           "IsLive": false,
           "ShowResults": true,
@@ -8156,7 +8208,7 @@
               "Type": "UNIT_INFO",
               "Code": "PhaseFinished",
               "Pos": 0,
-              "Value": "N",
+              "Value": "Y",
               "Extensions": []
             },
             {
@@ -8251,7 +8303,7 @@
           "TeamOrg": "IND",
           "TeamName": "India",
           "Medal": "ME_GOLD",
-          "Rank": "",
+          "Rank": "1",
           "IRM": "",
           "Result": ""
         },
@@ -20789,6 +20841,32 @@
                 ]
               },
               {
+                "Type": "PREV_RESULT",
+                "Code": "UNIT_KEY",
+                "Pos": 4,
+                "Value": " ",
+                "Extensions": [
+                  {
+                    "Type": "RESULT",
+                    "Code": "Register",
+                    "Pos": 4,
+                    "Value": "ARCWCTEAM------KOR01"
+                  },
+                  {
+                    "Type": "RESULT",
+                    "Code": "RegisterOpp",
+                    "Pos": 4,
+                    "Value": "ARCWCTEAM------TPE01"
+                  },
+                  {
+                    "Type": "RESULT",
+                    "Code": "Result",
+                    "Pos": 4,
+                    "Value": "229-228"
+                  }
+                ]
+              },
+              {
                 "Type": "RESULT_INFO",
                 "Code": "DisplayRank",
                 "Pos": 0,
@@ -21572,6 +21650,32 @@
                 ]
               },
               {
+                "Type": "PREV_RESULT",
+                "Code": "UNIT_KEY",
+                "Pos": 4,
+                "Value": " ",
+                "Extensions": [
+                  {
+                    "Type": "RESULT",
+                    "Code": "Register",
+                    "Pos": 4,
+                    "Value": "ARCWCTEAM------IND01"
+                  },
+                  {
+                    "Type": "RESULT",
+                    "Code": "RegisterOpp",
+                    "Pos": 4,
+                    "Value": "ARCWCTEAM------CHN01"
+                  },
+                  {
+                    "Type": "RESULT",
+                    "Code": "Result",
+                    "Pos": 4,
+                    "Value": "238-234"
+                  }
+                ]
+              },
+              {
                 "Type": "RESULT_INFO",
                 "Code": "DisplayRank",
                 "Pos": 0,
@@ -21697,7 +21801,7 @@
               "Type": "UNIT_INFO",
               "Code": "NextPhaseStarted",
               "Pos": 0,
-              "Value": "N",
+              "Value": "Y",
               "Extensions": []
             },
             {
@@ -21732,7 +21836,7 @@
               "Type": "UNIT_INFO",
               "Code": "PhaseFinished",
               "Pos": 0,
-              "Value": "N",
+              "Value": "Y",
               "Extensions": []
             },
             {
@@ -21772,8 +21876,8 @@
           "isH2H": true,
           "Type": "T",
           "Medal": "1",
-          "Status": "UNOFFICIAL",
-          "StatusDesc": "Unofficial",
+          "Status": "OFFICIAL",
+          "StatusDesc": "Official",
           "DateTimeRaw": "2026-09-30T10:50:00+09:00",
           "HideStartDate": false,
           "Estimated": false,
@@ -21795,8 +21899,8 @@
           "UnitDesc": "Compound Women's Team Gold Medal Match",
           "UnitDescS": "Compound Women's Team Gold Medal Match",
           "UnitDescA": "",
-          "EndDateTimeRaw": "2026-09-30T11:12:32+09:00",
-          "ActualEndDateTimeRaw": "2026-09-30T11:12:32+09:00",
+          "EndDateTimeRaw": "2026-09-30T11:13:00+09:00",
+          "ActualEndDateTimeRaw": "2026-09-30T11:13:00+09:00",
           "UnitNum": "316",
           "IsLive": false,
           "ShowResults": true,
@@ -23784,7 +23888,7 @@
               "Type": "UNIT_INFO",
               "Code": "PhaseFinished",
               "Pos": 0,
-              "Value": "N",
+              "Value": "Y",
               "Extensions": []
             },
             {
@@ -23824,8 +23928,8 @@
           "isH2H": true,
           "Type": "T",
           "Medal": "0",
-          "Status": "START_LIST",
-          "StatusDesc": "Start List",
+          "Status": "RUNNING",
+          "StatusDesc": "Running",
           "DateTimeRaw": "2026-09-30T11:25:00+09:00",
           "HideStartDate": false,
           "Estimated": false,
@@ -23850,14 +23954,246 @@
           "EndDateTimeRaw": "",
           "ActualEndDateTimeRaw": "",
           "UnitNum": "317",
-          "IsLive": false,
-          "ShowResults": false,
-          "Periods": [],
+          "IsLive": true,
+          "ShowResults": true,
+          "Periods": [
+            {
+              "Order": 1,
+              "Desc": "End 1",
+              "DescS": "E1",
+              "Extensions": [
+                {
+                  "Type": "SPLIT_INFO",
+                  "Code": "HomePoints",
+                  "Pos": 0,
+                  "Value": "39",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_INFO",
+                  "Code": "HomeRank",
+                  "Pos": 0,
+                  "Value": "1",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_INFO",
+                  "Code": "HomeShootFirst",
+                  "Pos": 0,
+                  "Value": "N",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_INFO",
+                  "Code": "AwayPoints",
+                  "Pos": 0,
+                  "Value": "37",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_INFO",
+                  "Code": "AwayRank",
+                  "Pos": 0,
+                  "Value": "2",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_INFO",
+                  "Code": "AwayShootFirst",
+                  "Pos": 0,
+                  "Value": "N",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_INFO",
+                  "Code": "Played",
+                  "Pos": 0,
+                  "Value": "Y",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_INFO",
+                  "Code": "ShootOff",
+                  "Pos": 0,
+                  "Value": "N",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_INFO",
+                  "Code": "EndKey",
+                  "Pos": 1,
+                  "Value": "X.CTEAM2------------.SFNL.000100--.1.1",
+                  "Extensions": [
+                    {
+                      "Type": "ARROWS_INFO",
+                      "Code": "NArrows",
+                      "Pos": 0,
+                      "Value": "4"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "Order": 2,
+              "Desc": "End 2",
+              "DescS": "E2",
+              "Extensions": [
+                {
+                  "Type": "SPLIT_INFO",
+                  "Code": "HomePoints",
+                  "Pos": 0,
+                  "Value": "38",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_INFO",
+                  "Code": "HomeRank",
+                  "Pos": 0,
+                  "Value": "1",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_INFO",
+                  "Code": "HomeShootFirst",
+                  "Pos": 0,
+                  "Value": "N",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_INFO",
+                  "Code": "AwayPoints",
+                  "Pos": 0,
+                  "Value": "38",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_INFO",
+                  "Code": "AwayRank",
+                  "Pos": 0,
+                  "Value": "1",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_INFO",
+                  "Code": "AwayShootFirst",
+                  "Pos": 0,
+                  "Value": "N",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_INFO",
+                  "Code": "Played",
+                  "Pos": 0,
+                  "Value": "Y",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_INFO",
+                  "Code": "ShootOff",
+                  "Pos": 0,
+                  "Value": "N",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_INFO",
+                  "Code": "EndKey",
+                  "Pos": 1,
+                  "Value": "X.CTEAM2------------.SFNL.000100--.2.1",
+                  "Extensions": [
+                    {
+                      "Type": "ARROWS_INFO",
+                      "Code": "NArrows",
+                      "Pos": 0,
+                      "Value": "4"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "Order": 3,
+              "Desc": "End 3",
+              "DescS": "E3",
+              "Extensions": [
+                {
+                  "Type": "SPLIT_INFO",
+                  "Code": "HomePoints",
+                  "Pos": 0,
+                  "Value": "40",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_INFO",
+                  "Code": "HomeRank",
+                  "Pos": 0,
+                  "Value": "1",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_INFO",
+                  "Code": "HomeShootFirst",
+                  "Pos": 0,
+                  "Value": "N",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_INFO",
+                  "Code": "AwayPoints",
+                  "Pos": 0,
+                  "Value": "40",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_INFO",
+                  "Code": "AwayRank",
+                  "Pos": 0,
+                  "Value": "1",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_INFO",
+                  "Code": "AwayShootFirst",
+                  "Pos": 0,
+                  "Value": "N",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_INFO",
+                  "Code": "Played",
+                  "Pos": 0,
+                  "Value": "Y",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_INFO",
+                  "Code": "ShootOff",
+                  "Pos": 0,
+                  "Value": "N",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_INFO",
+                  "Code": "EndKey",
+                  "Pos": 1,
+                  "Value": "X.CTEAM2------------.SFNL.000100--.3.1",
+                  "Extensions": [
+                    {
+                      "Type": "ARROWS_INFO",
+                      "Code": "NArrows",
+                      "Pos": 0,
+                      "Value": "4"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
           "Home": {
             "Org": "IND",
             "Reg": "ARCXCTEAM2-----IND01",
             "Name": "India",
-            "Result": "",
+            "Result": "156",
             "Winner": false,
             "HasData": true,
             "NameS": "India",
@@ -23880,7 +24216,365 @@
                 "PosDesc": ""
               }
             ],
-            "Splits": [],
+            "Splits": [
+              {
+                "Rk": "1",
+                "RkPo": 1,
+                "Res": "39",
+                "Extensions": [
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ARROW",
+                    "Pos": 1,
+                    "Value": "10",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ARROW",
+                    "Pos": 2,
+                    "Value": "X",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ARROW",
+                    "Pos": 3,
+                    "Value": "9",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ARROW",
+                    "Pos": 4,
+                    "Value": "10",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ARROW_POSITION",
+                    "Pos": 1,
+                    "Value": "0:0|0|0|0|0|122",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ARROW_POSITION",
+                    "Pos": 2,
+                    "Value": "0:0|0|0|0|0|122",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ARROW_POSITION",
+                    "Pos": 3,
+                    "Value": "0:0|0|0|0|0|122",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ARROW_POSITION",
+                    "Pos": 4,
+                    "Value": "0:0|0|0|0|0|122",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "MemberReg",
+                    "Pos": 0,
+                    "Value": "ARCXCTEAM2-----IND01",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "SetPoints",
+                    "Pos": 0,
+                    "Value": "39",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ShootFirst",
+                    "Pos": 0,
+                    "Value": "Y",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ShootOff",
+                    "Pos": 0,
+                    "Value": "N",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "Tens",
+                    "Pos": 0,
+                    "Value": "3",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "XTens",
+                    "Pos": 0,
+                    "Value": "1",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "SplitPlayed",
+                    "Pos": 0,
+                    "Value": "Y",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "CLOSEST_END",
+                    "Pos": 0,
+                    "Value": "",
+                    "Extensions": []
+                  }
+                ]
+              },
+              {
+                "Rk": "1",
+                "RkPo": 1,
+                "Res": "38",
+                "Extensions": [
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ARROW",
+                    "Pos": 1,
+                    "Value": "X",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ARROW",
+                    "Pos": 2,
+                    "Value": "10",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ARROW",
+                    "Pos": 3,
+                    "Value": "9",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ARROW",
+                    "Pos": 4,
+                    "Value": "9",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ARROW_POSITION",
+                    "Pos": 1,
+                    "Value": "0:0|0|0|0|0|122",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ARROW_POSITION",
+                    "Pos": 2,
+                    "Value": "0:0|0|0|0|0|122",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ARROW_POSITION",
+                    "Pos": 3,
+                    "Value": "0:0|0|0|0|0|122",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ARROW_POSITION",
+                    "Pos": 4,
+                    "Value": "0:0|0|0|0|0|122",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "MemberReg",
+                    "Pos": 0,
+                    "Value": "ARCXCTEAM2-----IND01",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "SetPoints",
+                    "Pos": 0,
+                    "Value": "38",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ShootFirst",
+                    "Pos": 0,
+                    "Value": "N",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ShootOff",
+                    "Pos": 0,
+                    "Value": "N",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "Tens",
+                    "Pos": 0,
+                    "Value": "2",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "XTens",
+                    "Pos": 0,
+                    "Value": "1",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "SplitPlayed",
+                    "Pos": 0,
+                    "Value": "Y",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "CLOSEST_END",
+                    "Pos": 0,
+                    "Value": "",
+                    "Extensions": []
+                  }
+                ]
+              },
+              {
+                "Rk": "",
+                "RkPo": 0,
+                "Res": "40",
+                "Extensions": [
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ARROW",
+                    "Pos": 1,
+                    "Value": "10",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ARROW",
+                    "Pos": 2,
+                    "Value": "10",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ARROW",
+                    "Pos": 3,
+                    "Value": "X",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ARROW",
+                    "Pos": 4,
+                    "Value": "10",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ARROW_POSITION",
+                    "Pos": 1,
+                    "Value": "0:0|0|0|0|0|122",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ARROW_POSITION",
+                    "Pos": 2,
+                    "Value": "0:0|0|0|0|0|122",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ARROW_POSITION",
+                    "Pos": 3,
+                    "Value": "0:0|0|0|0|0|122",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ARROW_POSITION",
+                    "Pos": 4,
+                    "Value": "0:0|0|0|0|0|122",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "MemberReg",
+                    "Pos": 0,
+                    "Value": "ARCXCTEAM2-----IND01",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "SetPoints",
+                    "Pos": 0,
+                    "Value": "40",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ShootFirst",
+                    "Pos": 0,
+                    "Value": "N",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ShootOff",
+                    "Pos": 0,
+                    "Value": "N",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "Tens",
+                    "Pos": 0,
+                    "Value": "4",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "XTens",
+                    "Pos": 0,
+                    "Value": "1",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "SplitPlayed",
+                    "Pos": 0,
+                    "Value": "Y",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "CLOSEST_END",
+                    "Pos": 0,
+                    "Value": "",
+                    "Extensions": []
+                  }
+                ]
+              }
+            ],
             "Extensions": [
               {
                 "Type": "PREV_RESULT",
@@ -23987,14 +24681,14 @@
                 "Type": "RESULT_INFO",
                 "Code": "Tens",
                 "Pos": 0,
-                "Value": "",
+                "Value": "10",
                 "Extensions": []
               },
               {
                 "Type": "RESULT_INFO",
                 "Code": "XTens",
                 "Pos": 0,
-                "Value": "",
+                "Value": "3",
                 "Extensions": []
               },
               {
@@ -24017,7 +24711,7 @@
             "Org": "THA",
             "Reg": "ARCXCTEAM2-----THA01",
             "Name": "Thailand",
-            "Result": "",
+            "Result": "155",
             "Winner": false,
             "HasData": true,
             "NameS": "Thailand",
@@ -24040,7 +24734,365 @@
                 "PosDesc": ""
               }
             ],
-            "Splits": [],
+            "Splits": [
+              {
+                "Rk": "2",
+                "RkPo": 2,
+                "Res": "37",
+                "Extensions": [
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ARROW",
+                    "Pos": 1,
+                    "Value": "9",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ARROW",
+                    "Pos": 2,
+                    "Value": "8",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ARROW",
+                    "Pos": 3,
+                    "Value": "X",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ARROW",
+                    "Pos": 4,
+                    "Value": "10",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ARROW_POSITION",
+                    "Pos": 1,
+                    "Value": "0:0|0|0|0|0|122",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ARROW_POSITION",
+                    "Pos": 2,
+                    "Value": "0:0|0|0|0|0|122",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ARROW_POSITION",
+                    "Pos": 3,
+                    "Value": "0:0|0|0|0|0|122",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ARROW_POSITION",
+                    "Pos": 4,
+                    "Value": "0:0|0|0|0|0|122",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "MemberReg",
+                    "Pos": 0,
+                    "Value": "ARCXCTEAM2-----THA01",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "SetPoints",
+                    "Pos": 0,
+                    "Value": "37",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ShootFirst",
+                    "Pos": 0,
+                    "Value": "N",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ShootOff",
+                    "Pos": 0,
+                    "Value": "N",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "Tens",
+                    "Pos": 0,
+                    "Value": "2",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "XTens",
+                    "Pos": 0,
+                    "Value": "1",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "SplitPlayed",
+                    "Pos": 0,
+                    "Value": "Y",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "CLOSEST_END",
+                    "Pos": 0,
+                    "Value": "",
+                    "Extensions": []
+                  }
+                ]
+              },
+              {
+                "Rk": "1",
+                "RkPo": 1,
+                "Res": "38",
+                "Extensions": [
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ARROW",
+                    "Pos": 1,
+                    "Value": "9",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ARROW",
+                    "Pos": 2,
+                    "Value": "X",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ARROW",
+                    "Pos": 3,
+                    "Value": "9",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ARROW",
+                    "Pos": 4,
+                    "Value": "10",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ARROW_POSITION",
+                    "Pos": 1,
+                    "Value": "0:0|0|0|0|0|122",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ARROW_POSITION",
+                    "Pos": 2,
+                    "Value": "0:0|0|0|0|0|122",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ARROW_POSITION",
+                    "Pos": 3,
+                    "Value": "0:0|0|0|0|0|122",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ARROW_POSITION",
+                    "Pos": 4,
+                    "Value": "0:0|0|0|0|0|122",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "MemberReg",
+                    "Pos": 0,
+                    "Value": "ARCXCTEAM2-----THA01",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "SetPoints",
+                    "Pos": 0,
+                    "Value": "38",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ShootFirst",
+                    "Pos": 0,
+                    "Value": "Y",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ShootOff",
+                    "Pos": 0,
+                    "Value": "N",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "Tens",
+                    "Pos": 0,
+                    "Value": "2",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "XTens",
+                    "Pos": 0,
+                    "Value": "1",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "SplitPlayed",
+                    "Pos": 0,
+                    "Value": "Y",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "CLOSEST_END",
+                    "Pos": 0,
+                    "Value": "",
+                    "Extensions": []
+                  }
+                ]
+              },
+              {
+                "Rk": "",
+                "RkPo": 0,
+                "Res": "40",
+                "Extensions": [
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ARROW",
+                    "Pos": 1,
+                    "Value": "10",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ARROW",
+                    "Pos": 2,
+                    "Value": "X",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ARROW",
+                    "Pos": 3,
+                    "Value": "10",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ARROW",
+                    "Pos": 4,
+                    "Value": "X",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ARROW_POSITION",
+                    "Pos": 1,
+                    "Value": "0:0|0|0|0|0|122",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ARROW_POSITION",
+                    "Pos": 2,
+                    "Value": "0:0|0|0|0|0|122",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ARROW_POSITION",
+                    "Pos": 3,
+                    "Value": "0:0|0|0|0|0|122",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ARROW_POSITION",
+                    "Pos": 4,
+                    "Value": "0:0|0|0|0|0|122",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "MemberReg",
+                    "Pos": 0,
+                    "Value": "ARCXCTEAM2-----THA01",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "SetPoints",
+                    "Pos": 0,
+                    "Value": "40",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ShootFirst",
+                    "Pos": 0,
+                    "Value": "Y",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ShootOff",
+                    "Pos": 0,
+                    "Value": "N",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "Tens",
+                    "Pos": 0,
+                    "Value": "4",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "XTens",
+                    "Pos": 0,
+                    "Value": "2",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "SplitPlayed",
+                    "Pos": 0,
+                    "Value": "Y",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "CLOSEST_END",
+                    "Pos": 0,
+                    "Value": "",
+                    "Extensions": []
+                  }
+                ]
+              }
+            ],
             "Extensions": [
               {
                 "Type": "PREV_RESULT",
@@ -24147,14 +25199,14 @@
                 "Type": "RESULT_INFO",
                 "Code": "Tens",
                 "Pos": 0,
-                "Value": "",
+                "Value": "9",
                 "Extensions": []
               },
               {
                 "Type": "RESULT_INFO",
                 "Code": "XTens",
                 "Pos": 0,
-                "Value": "",
+                "Value": "4",
                 "Extensions": []
               },
               {
@@ -24206,7 +25258,7 @@
               "Type": "UNIT_INFO",
               "Code": "NEnds",
               "Pos": 0,
-              "Value": "",
+              "Value": "3",
               "Extensions": []
             },
             {
@@ -24785,7 +25837,7 @@
           "TeamOrg": "IND",
           "TeamName": "India",
           "Medal": "ME_GOLD",
-          "Rank": "",
+          "Rank": "1",
           "IRM": "",
           "Result": ""
         },
@@ -29983,6 +31035,32 @@
                 ]
               },
               {
+                "Type": "PREV_RESULT",
+                "Code": "UNIT_KEY",
+                "Pos": 4,
+                "Value": " ",
+                "Extensions": [
+                  {
+                    "Type": "RESULT",
+                    "Code": "Register",
+                    "Pos": 4,
+                    "Value": "ARCWCTEAM------KOR01"
+                  },
+                  {
+                    "Type": "RESULT",
+                    "Code": "RegisterOpp",
+                    "Pos": 4,
+                    "Value": "ARCWCTEAM------TPE01"
+                  },
+                  {
+                    "Type": "RESULT",
+                    "Code": "Result",
+                    "Pos": 4,
+                    "Value": "229-228"
+                  }
+                ]
+              },
+              {
                 "Type": "RESULT_INFO",
                 "Code": "DisplayRank",
                 "Pos": 0,
@@ -30766,6 +31844,32 @@
                 ]
               },
               {
+                "Type": "PREV_RESULT",
+                "Code": "UNIT_KEY",
+                "Pos": 4,
+                "Value": " ",
+                "Extensions": [
+                  {
+                    "Type": "RESULT",
+                    "Code": "Register",
+                    "Pos": 4,
+                    "Value": "ARCWCTEAM------IND01"
+                  },
+                  {
+                    "Type": "RESULT",
+                    "Code": "RegisterOpp",
+                    "Pos": 4,
+                    "Value": "ARCWCTEAM------CHN01"
+                  },
+                  {
+                    "Type": "RESULT",
+                    "Code": "Result",
+                    "Pos": 4,
+                    "Value": "238-234"
+                  }
+                ]
+              },
+              {
                 "Type": "RESULT_INFO",
                 "Code": "DisplayRank",
                 "Pos": 0,
@@ -30891,7 +31995,7 @@
               "Type": "UNIT_INFO",
               "Code": "NextPhaseStarted",
               "Pos": 0,
-              "Value": "N",
+              "Value": "Y",
               "Extensions": []
             },
             {
@@ -30926,7 +32030,7 @@
               "Type": "UNIT_INFO",
               "Code": "PhaseFinished",
               "Pos": 0,
-              "Value": "N",
+              "Value": "Y",
               "Extensions": []
             },
             {
@@ -30966,8 +32070,8 @@
           "isH2H": true,
           "Type": "T",
           "Medal": "1",
-          "Status": "UNOFFICIAL",
-          "StatusDesc": "Unofficial",
+          "Status": "OFFICIAL",
+          "StatusDesc": "Official",
           "DateTimeRaw": "2026-09-30T10:50:00+09:00",
           "HideStartDate": false,
           "Estimated": false,
@@ -30989,8 +32093,8 @@
           "UnitDesc": "Compound Women's Team Gold Medal Match",
           "UnitDescS": "Compound Women's Team Gold Medal Match",
           "UnitDescA": "",
-          "EndDateTimeRaw": "2026-09-30T11:12:32+09:00",
-          "ActualEndDateTimeRaw": "2026-09-30T11:12:32+09:00",
+          "EndDateTimeRaw": "2026-09-30T11:13:00+09:00",
+          "ActualEndDateTimeRaw": "2026-09-30T11:13:00+09:00",
           "UnitNum": "316",
           "IsLive": false,
           "ShowResults": true,
@@ -32978,7 +34082,7 @@
               "Type": "UNIT_INFO",
               "Code": "PhaseFinished",
               "Pos": 0,
-              "Value": "N",
+              "Value": "Y",
               "Extensions": []
             },
             {
@@ -33073,7 +34177,7 @@
           "TeamOrg": "IND",
           "TeamName": "India",
           "Medal": "ME_GOLD",
-          "Rank": "",
+          "Rank": "1",
           "IRM": "",
           "Result": ""
         },
@@ -41965,6 +43069,32 @@
                 ]
               },
               {
+                "Type": "PREV_RESULT",
+                "Code": "UNIT_KEY",
+                "Pos": 4,
+                "Value": " ",
+                "Extensions": [
+                  {
+                    "Type": "RESULT",
+                    "Code": "Register",
+                    "Pos": 4,
+                    "Value": "ARCWCTEAM------KOR01"
+                  },
+                  {
+                    "Type": "RESULT",
+                    "Code": "RegisterOpp",
+                    "Pos": 4,
+                    "Value": "ARCWCTEAM------TPE01"
+                  },
+                  {
+                    "Type": "RESULT",
+                    "Code": "Result",
+                    "Pos": 4,
+                    "Value": "229-228"
+                  }
+                ]
+              },
+              {
                 "Type": "RESULT_INFO",
                 "Code": "DisplayRank",
                 "Pos": 0,
@@ -42748,6 +43878,32 @@
                 ]
               },
               {
+                "Type": "PREV_RESULT",
+                "Code": "UNIT_KEY",
+                "Pos": 4,
+                "Value": " ",
+                "Extensions": [
+                  {
+                    "Type": "RESULT",
+                    "Code": "Register",
+                    "Pos": 4,
+                    "Value": "ARCWCTEAM------IND01"
+                  },
+                  {
+                    "Type": "RESULT",
+                    "Code": "RegisterOpp",
+                    "Pos": 4,
+                    "Value": "ARCWCTEAM------CHN01"
+                  },
+                  {
+                    "Type": "RESULT",
+                    "Code": "Result",
+                    "Pos": 4,
+                    "Value": "238-234"
+                  }
+                ]
+              },
+              {
                 "Type": "RESULT_INFO",
                 "Code": "DisplayRank",
                 "Pos": 0,
@@ -42873,7 +44029,7 @@
               "Type": "UNIT_INFO",
               "Code": "NextPhaseStarted",
               "Pos": 0,
-              "Value": "N",
+              "Value": "Y",
               "Extensions": []
             },
             {
@@ -42908,7 +44064,7 @@
               "Type": "UNIT_INFO",
               "Code": "PhaseFinished",
               "Pos": 0,
-              "Value": "N",
+              "Value": "Y",
               "Extensions": []
             },
             {
@@ -42948,8 +44104,8 @@
           "isH2H": true,
           "Type": "T",
           "Medal": "1",
-          "Status": "UNOFFICIAL",
-          "StatusDesc": "Unofficial",
+          "Status": "OFFICIAL",
+          "StatusDesc": "Official",
           "DateTimeRaw": "2026-09-30T10:50:00+09:00",
           "HideStartDate": false,
           "Estimated": false,
@@ -42971,8 +44127,8 @@
           "UnitDesc": "Compound Women's Team Gold Medal Match",
           "UnitDescS": "Compound Women's Team Gold Medal Match",
           "UnitDescA": "",
-          "EndDateTimeRaw": "2026-09-30T11:12:32+09:00",
-          "ActualEndDateTimeRaw": "2026-09-30T11:12:32+09:00",
+          "EndDateTimeRaw": "2026-09-30T11:13:00+09:00",
+          "ActualEndDateTimeRaw": "2026-09-30T11:13:00+09:00",
           "UnitNum": "316",
           "IsLive": false,
           "ShowResults": true,
@@ -44960,7 +46116,7 @@
               "Type": "UNIT_INFO",
               "Code": "PhaseFinished",
               "Pos": 0,
-              "Value": "N",
+              "Value": "Y",
               "Extensions": []
             },
             {
@@ -46009,10 +47165,10 @@
           "TeamReg": "ATHW4X400M-----IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
+          "Medal": "ME_GOLD",
           "Rank": "1",
           "IRM": "OK",
-          "Result": "3:29.69",
-          "Medal": "ME_GOLD"
+          "Result": "3:29.69"
         }
       ],
       "schedule": [
@@ -46787,10 +47943,10 @@
           "Desc": "Men's 5000m",
           "DescS": "Men's 5000m",
           "isMember": false,
+          "Medal": "ME_BRONZE",
           "Rank": "3",
           "IRM": "OK",
-          "Result": "13:32.75",
-          "Medal": "ME_BRONZE"
+          "Result": "13:32.75"
         }
       ],
       "schedule": [
@@ -48469,10 +49625,10 @@
           "TeamReg": "ATHX4X400M-----IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
+          "Medal": "ME_SILVER",
           "Rank": "2",
           "IRM": "OK",
-          "Result": "3:14.46",
-          "Medal": "ME_SILVER"
+          "Result": "3:14.46"
         }
       ],
       "schedule": [
@@ -49224,10 +50380,10 @@
           "TeamReg": "ATHX4X400M-----IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
-          "Medal": "ME_SILVER",
           "Rank": "2",
           "IRM": "OK",
-          "Result": "3:14.46"
+          "Result": "3:14.46",
+          "Medal": "ME_SILVER"
         }
       ],
       "schedule": [
@@ -51552,10 +52708,10 @@
           "Desc": "Women's 200m",
           "DescS": "Women's 200m",
           "isMember": false,
-          "Medal": "ME_BRONZE",
           "Rank": "3",
           "IRM": "OK",
-          "Result": "23.20"
+          "Result": "23.20",
+          "Medal": "ME_BRONZE"
         },
         {
           "Disc": "ATH",
@@ -51978,10 +53134,10 @@
           "Desc": "Women's 3000m Steeplechase",
           "DescS": "Women's 3000m Steeplechase",
           "isMember": false,
-          "Medal": "ME_BRONZE",
           "Rank": "3",
           "IRM": "OK",
-          "Result": "9:08.67"
+          "Result": "9:08.67",
+          "Medal": "ME_BRONZE"
         },
         {
           "Disc": "ATH",
@@ -51990,10 +53146,10 @@
           "Desc": "Women's 5000m",
           "DescS": "Women's 5000m",
           "isMember": false,
-          "Medal": "ME_BRONZE",
           "Rank": "3",
           "IRM": "OK",
-          "Result": "15:14.61"
+          "Result": "15:14.61",
+          "Medal": "ME_BRONZE"
         }
       ],
       "schedule": [
@@ -54883,10 +56039,10 @@
           "Desc": "Men's Team",
           "DescS": "Men's Team",
           "isMember": false,
-          "Medal": "ME_BRONZE",
           "Rank": "3",
           "IRM": "OK",
-          "Result": ""
+          "Result": "",
+          "Medal": "ME_BRONZE"
         }
       ],
       "schedule": [
@@ -61437,10 +62593,10 @@
           "TeamReg": "BDMMTEAM-------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
+          "Medal": "ME_BRONZE",
           "Rank": "3",
           "IRM": "OK",
-          "Result": "",
-          "Medal": "ME_BRONZE"
+          "Result": ""
         }
       ],
       "schedule": [
@@ -63576,10 +64732,10 @@
           "TeamReg": "BDMMTEAM-------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
-          "Medal": "ME_BRONZE",
           "Rank": "3",
           "IRM": "OK",
-          "Result": ""
+          "Result": "",
+          "Medal": "ME_BRONZE"
         }
       ],
       "schedule": [
@@ -75999,10 +77155,10 @@
           "TeamReg": "BDMMTEAM-------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
-          "Medal": "ME_BRONZE",
           "Rank": "3",
           "IRM": "OK",
-          "Result": ""
+          "Result": "",
+          "Medal": "ME_BRONZE"
         }
       ],
       "schedule": [
@@ -78335,10 +79491,10 @@
           "Desc": "Women",
           "DescS": "Women",
           "isMember": false,
+          "Medal": "ME_GOLD",
           "Rank": "1",
           "IRM": "",
-          "Result": "",
-          "Medal": "ME_GOLD"
+          "Result": ""
         }
       ],
       "schedule": [
@@ -82519,10 +83675,10 @@
           "TeamReg": "CKTWTEAM-------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
+          "Medal": "ME_GOLD",
           "Rank": "1",
           "IRM": "",
-          "Result": "",
-          "Medal": "ME_GOLD"
+          "Result": ""
         }
       ],
       "schedule": [
@@ -83565,10 +84721,10 @@
           "TeamReg": "CKTWTEAM-------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
-          "Medal": "ME_GOLD",
           "Rank": "1",
           "IRM": "",
-          "Result": ""
+          "Result": "",
+          "Medal": "ME_GOLD"
         }
       ],
       "schedule": [
@@ -87749,10 +88905,10 @@
           "TeamReg": "CKTWTEAM-------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
-          "Medal": "ME_GOLD",
           "Rank": "1",
           "IRM": "",
-          "Result": ""
+          "Result": "",
+          "Medal": "ME_GOLD"
         }
       ],
       "schedule": [
@@ -94025,10 +95181,10 @@
           "TeamReg": "CKTWTEAM-------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
+          "Medal": "ME_GOLD",
           "Rank": "1",
           "IRM": "",
-          "Result": "",
-          "Medal": "ME_GOLD"
+          "Result": ""
         }
       ],
       "schedule": [
@@ -102668,10 +103824,10 @@
           "TeamReg": "KABMTEAM7------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
-          "Medal": "ME_GOLD",
           "Rank": "1",
           "IRM": "",
-          "Result": ""
+          "Result": "",
+          "Medal": "ME_GOLD"
         }
       ],
       "schedule": [
@@ -111958,10 +113114,10 @@
           "TeamReg": "KABMTEAM7------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
-          "Medal": "ME_GOLD",
           "Rank": "1",
           "IRM": "",
-          "Result": ""
+          "Result": "",
+          "Medal": "ME_GOLD"
         }
       ],
       "schedule": [
@@ -119547,10 +120703,10 @@
           "Desc": "Women's Team",
           "DescS": "Women's Team",
           "isMember": false,
-          "Medal": "ME_GOLD",
           "Rank": "1",
           "IRM": "",
-          "Result": ""
+          "Result": "",
+          "Medal": "ME_GOLD"
         }
       ],
       "schedule": [
@@ -138255,10 +139411,10 @@
           "TeamReg": "KABWTEAM7------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
+          "Medal": "ME_GOLD",
           "Rank": "1",
           "IRM": "",
-          "Result": "",
-          "Medal": "ME_GOLD"
+          "Result": ""
         }
       ],
       "schedule": [
@@ -140300,10 +141456,10 @@
           "Desc": "Women's Traditional -60kg",
           "DescS": "Women's Traditional -60kg",
           "isMember": false,
-          "Medal": "ME_BRONZE",
           "Rank": "3",
           "IRM": "",
-          "Result": ""
+          "Result": "",
+          "Medal": "ME_BRONZE"
         }
       ],
       "schedule": [
@@ -141269,10 +142425,10 @@
           "Desc": "Trap Women Individual",
           "DescS": "Trap Women Individual",
           "isMember": false,
+          "Medal": "ME_GOLD",
           "Rank": "1",
           "IRM": "",
-          "Result": "28",
-          "Medal": "ME_GOLD"
+          "Result": "28"
         },
         {
           "Disc": "SHO",
@@ -141671,18 +142827,18 @@
         },
         {
           "Orgs": [
-            "KAZ",
-            "QAT",
             "CHN",
-            "IRI",
+            "QAT",
             "IND",
-            "JPN",
-            "KUW",
+            "IRI",
             "TPE",
-            "BRN",
+            "JPN",
+            "KAZ",
             "KOR",
-            "INA",
-            "THA"
+            "BRN",
+            "KUW",
+            "THA",
+            "INA"
           ],
           "IsPhase": false,
           "ResCode": "X.TRMT--------------.QUAL.000100--",
@@ -141998,10 +143154,10 @@
           "TeamReg": "SHOXAPMT-------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
+          "Medal": "ME_GOLD",
           "Rank": "1",
           "IRM": "",
-          "Result": "484.6",
-          "Medal": "ME_GOLD"
+          "Result": "484.6"
         }
       ],
       "schedule": [
@@ -143037,10 +144193,10 @@
           "Desc": "10m Air Rifle Men Individual",
           "DescS": "10m Air Rifle Men Individual",
           "isMember": false,
+          "Medal": "ME_BRONZE",
           "Rank": "3",
           "IRM": "",
-          "Result": "230.9",
-          "Medal": "ME_BRONZE"
+          "Result": "230.9"
         },
         {
           "Disc": "SHO",
@@ -143052,10 +144208,10 @@
           "TeamReg": "SHOMARTM-------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
-          "Medal": "ME_SILVER",
           "Rank": "2",
           "IRM": "",
-          "Result": "1890.1"
+          "Result": "1890.1",
+          "Medal": "ME_SILVER"
         },
         {
           "Disc": "SHO",
@@ -143078,10 +144234,10 @@
           "TeamReg": "SHOMR3PTM------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
+          "Medal": "ME_SILVER",
           "Rank": "2",
           "IRM": "",
-          "Result": "1762",
-          "Medal": "ME_SILVER"
+          "Result": "1762"
         }
       ],
       "schedule": [
@@ -143440,10 +144596,10 @@
           "TeamReg": "SHOMARTM-------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
+          "Medal": "ME_SILVER",
           "Rank": "2",
           "IRM": "",
-          "Result": "1890.1",
-          "Medal": "ME_SILVER"
+          "Result": "1890.1"
         },
         {
           "Disc": "SHO",
@@ -144149,10 +145305,10 @@
           "TeamReg": "SHOMR3PTM------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
+          "Medal": "ME_SILVER",
           "Rank": "2",
           "IRM": "",
-          "Result": "1762",
-          "Medal": "ME_SILVER"
+          "Result": "1762"
         }
       ],
       "schedule": [
@@ -144916,10 +146072,10 @@
           "TeamReg": "SHOWARTW-------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
+          "Medal": "ME_SILVER",
           "Rank": "2",
           "IRM": "",
-          "Result": "1898.0",
-          "Medal": "ME_SILVER"
+          "Result": "1898.0"
         },
         {
           "Disc": "SHO",
@@ -144942,10 +146098,10 @@
           "TeamReg": "SHOWR3PTW------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
+          "Medal": "ME_SILVER",
           "Rank": "2",
           "IRM": "",
-          "Result": "1763",
-          "Medal": "ME_SILVER"
+          "Result": "1763"
         },
         {
           "Disc": "SHO",
@@ -146699,10 +147855,10 @@
           "Desc": "Trap Women Team",
           "DescS": "Trap Women Team",
           "isMember": false,
+          "Medal": "ME_SILVER",
           "Rank": "2",
           "IRM": "",
-          "Result": "328",
-          "Medal": "ME_SILVER"
+          "Result": "328"
         }
       ],
       "schedule": [
@@ -147308,10 +148464,10 @@
           "TeamReg": "SHOWTRTW-------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
+          "Medal": "ME_SILVER",
           "Rank": "2",
           "IRM": "",
-          "Result": "328",
-          "Medal": "ME_SILVER"
+          "Result": "328"
         },
         {
           "Disc": "SHO",
@@ -149494,10 +150650,10 @@
           "Desc": "Skeet Women Team",
           "DescS": "Skeet Women Team",
           "isMember": false,
-          "Medal": "ME_BRONZE",
           "Rank": "3",
           "IRM": "",
-          "Result": "331"
+          "Result": "331",
+          "Medal": "ME_BRONZE"
         }
       ],
       "schedule": [
@@ -149713,10 +150869,10 @@
           "TeamReg": "SHOWSKTW-------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
-          "Medal": "ME_BRONZE",
           "Rank": "3",
           "IRM": "",
-          "Result": "331"
+          "Result": "331",
+          "Medal": "ME_BRONZE"
         },
         {
           "Disc": "SHO",
@@ -149739,10 +150895,10 @@
           "TeamReg": "SHOXSKMT-------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
+          "Medal": "ME_BRONZE",
           "Rank": "3",
           "IRM": "",
-          "Result": "44",
-          "Medal": "ME_BRONZE"
+          "Result": "44"
         }
       ],
       "schedule": [
@@ -159437,10 +160593,10 @@
           "TeamReg": "SQUXDOUBLES----IND02",
           "TeamOrg": "IND",
           "TeamName": "CHINAPPA J. /SENTHILKUMAR V.",
+          "Medal": "ME_BRONZE",
           "Rank": "3",
           "IRM": "OK",
-          "Result": "",
-          "Medal": "ME_BRONZE"
+          "Result": ""
         }
       ],
       "schedule": [
@@ -164775,10 +165931,10 @@
           "Desc": "Men's Singles",
           "DescS": "Men's Singles",
           "isMember": false,
+          "Medal": "ME_BRONZE",
           "Rank": "3",
           "IRM": "OK",
-          "Result": "",
-          "Medal": "ME_BRONZE"
+          "Result": ""
         },
         {
           "Disc": "TST",
@@ -184652,10 +185808,10 @@
           "Desc": "Women's 49kg",
           "DescS": "Women's 49kg",
           "isMember": false,
-          "Medal": "ME_SILVER",
           "Rank": "2",
           "IRM": "",
-          "Result": "198"
+          "Result": "198",
+          "Medal": "ME_SILVER"
         }
       ],
       "schedule": [
