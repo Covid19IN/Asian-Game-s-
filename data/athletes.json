@@ -8302,10 +8302,10 @@
           "TeamReg": "ARCXCTEAM2-----IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
+          "Medal": "ME_GOLD",
           "Rank": "1",
           "IRM": "",
-          "Result": "",
-          "Medal": "ME_GOLD"
+          "Result": ""
         }
       ],
       "schedule": [
@@ -16615,10 +16615,10 @@
           "TeamReg": "ARCXCTEAM2-----IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
-          "Medal": "ME_GOLD",
           "Rank": "1",
           "IRM": "",
-          "Result": ""
+          "Result": "",
+          "Medal": "ME_GOLD"
         }
       ],
       "schedule": [
@@ -35860,10 +35860,10 @@
           "TeamReg": "ARCMCTEAM------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
+          "Medal": "ME_GOLD",
           "Rank": "",
           "IRM": "",
-          "Result": "",
-          "Medal": "ME_GOLD"
+          "Result": ""
         },
         {
           "Disc": "ARC",
@@ -104333,10 +104333,10 @@
           "TeamReg": "ATHW4X400M-----IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
-          "Medal": "ME_GOLD",
           "Rank": "1",
           "IRM": "OK",
-          "Result": "3:29.69"
+          "Result": "3:29.69",
+          "Medal": "ME_GOLD"
         },
         {
           "Disc": "ATH",
@@ -104348,10 +104348,10 @@
           "TeamReg": "ATHX4X400M-----IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
-          "Medal": "ME_SILVER",
           "Rank": "2",
           "IRM": "OK",
-          "Result": "3:14.46"
+          "Result": "3:14.46",
+          "Medal": "ME_SILVER"
         }
       ],
       "schedule": [
@@ -104764,10 +104764,10 @@
           "TeamReg": "ATHX4X400M-----IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
+          "Medal": "ME_SILVER",
           "Rank": "2",
           "IRM": "OK",
-          "Result": "3:14.46",
-          "Medal": "ME_SILVER"
+          "Result": "3:14.46"
         }
       ],
       "schedule": [
@@ -105861,10 +105861,10 @@
           "Desc": "Men's 1500m",
           "DescS": "Men's 1500m",
           "isMember": false,
+          "Medal": "ME_SILVER",
           "Rank": "2",
           "IRM": "OK",
-          "Result": "3:36.72",
-          "Medal": "ME_SILVER"
+          "Result": "3:36.72"
         },
         {
           "Disc": "ATH",
@@ -105873,10 +105873,10 @@
           "Desc": "Men's 5000m",
           "DescS": "Men's 5000m",
           "isMember": false,
+          "Medal": "ME_BRONZE",
           "Rank": "3",
           "IRM": "OK",
-          "Result": "13:32.75",
-          "Medal": "ME_BRONZE"
+          "Result": "13:32.75"
         }
       ],
       "schedule": [
@@ -111076,10 +111076,10 @@
           "Desc": "Women's 5000m",
           "DescS": "Women's 5000m",
           "isMember": false,
-          "Medal": "ME_BRONZE",
           "Rank": "3",
           "IRM": "OK",
-          "Result": "15:14.61"
+          "Result": "15:14.61",
+          "Medal": "ME_BRONZE"
         }
       ],
       "schedule": [
@@ -113180,10 +113180,10 @@
           "TeamReg": "ATHX4X100M-----IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
+          "Medal": "ME_BRONZE",
           "Rank": "3",
           "IRM": "OK",
-          "Result": "41.06",
-          "Medal": "ME_BRONZE"
+          "Result": "41.06"
         }
       ],
       "schedule": [
@@ -130777,10 +130777,10 @@
           "TeamReg": "BDMMTEAM-------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
+          "Medal": "ME_BRONZE",
           "Rank": "3",
           "IRM": "OK",
-          "Result": "",
-          "Medal": "ME_BRONZE"
+          "Result": ""
         }
       ],
       "schedule": [
@@ -132931,10 +132931,10 @@
           "TeamReg": "BDMMTEAM-------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
+          "Medal": "ME_BRONZE",
           "Rank": "3",
           "IRM": "OK",
-          "Result": "",
-          "Medal": "ME_BRONZE"
+          "Result": ""
         }
       ],
       "schedule": [
@@ -135085,10 +135085,10 @@
           "TeamReg": "BDMMTEAM-------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
+          "Medal": "ME_BRONZE",
           "Rank": "3",
           "IRM": "OK",
-          "Result": "",
-          "Medal": "ME_BRONZE"
+          "Result": ""
         }
       ],
       "schedule": [
@@ -145857,10 +145857,10 @@
           "TeamReg": "CKTWTEAM-------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
+          "Medal": "ME_GOLD",
           "Rank": "1",
           "IRM": "",
-          "Result": "",
-          "Medal": "ME_GOLD"
+          "Result": ""
         }
       ],
       "schedule": [
@@ -146903,10 +146903,10 @@
           "TeamReg": "CKTWTEAM-------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
-          "Medal": "ME_GOLD",
           "Rank": "1",
           "IRM": "",
-          "Result": ""
+          "Result": "",
+          "Medal": "ME_GOLD"
         }
       ],
       "schedule": [
@@ -154225,10 +154225,10 @@
           "TeamReg": "CKTWTEAM-------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
-          "Medal": "ME_GOLD",
           "Rank": "1",
           "IRM": "",
-          "Result": ""
+          "Result": "",
+          "Medal": "ME_GOLD"
         }
       ],
       "schedule": [
@@ -163102,10 +163102,10 @@
           "TeamReg": "KABMTEAM7------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
-          "Medal": "ME_GOLD",
           "Rank": "1",
           "IRM": "",
-          "Result": ""
+          "Result": "",
+          "Medal": "ME_GOLD"
         }
       ],
       "schedule": [
@@ -174250,10 +174250,10 @@
           "TeamReg": "KABMTEAM7------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
-          "Medal": "ME_GOLD",
           "Rank": "1",
           "IRM": "",
-          "Result": ""
+          "Result": "",
+          "Medal": "ME_GOLD"
         }
       ],
       "schedule": [
@@ -177966,10 +177966,10 @@
           "TeamReg": "KABMTEAM7------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
+          "Medal": "ME_GOLD",
           "Rank": "1",
           "IRM": "",
-          "Result": "",
-          "Medal": "ME_GOLD"
+          "Result": ""
         }
       ],
       "schedule": [
@@ -183398,10 +183398,10 @@
           "TeamReg": "KABWTEAM7------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
+          "Medal": "ME_GOLD",
           "Rank": "1",
           "IRM": "",
-          "Result": "",
-          "Medal": "ME_GOLD"
+          "Result": ""
         }
       ],
       "schedule": [
@@ -191193,10 +191193,10 @@
           "TeamReg": "KABWTEAM7------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
-          "Medal": "ME_GOLD",
           "Rank": "1",
           "IRM": "",
-          "Result": ""
+          "Result": "",
+          "Medal": "ME_GOLD"
         }
       ],
       "schedule": [
@@ -192752,10 +192752,10 @@
           "TeamReg": "KABWTEAM7------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
-          "Medal": "ME_GOLD",
           "Rank": "1",
           "IRM": "",
-          "Result": ""
+          "Result": "",
+          "Medal": "ME_GOLD"
         }
       ],
       "schedule": [
@@ -194311,10 +194311,10 @@
           "TeamReg": "KABWTEAM7------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
-          "Medal": "ME_GOLD",
           "Rank": "1",
           "IRM": "",
-          "Result": ""
+          "Result": "",
+          "Medal": "ME_GOLD"
         }
       ],
       "schedule": [
@@ -197429,10 +197429,10 @@
           "TeamReg": "KABWTEAM7------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
-          "Medal": "ME_GOLD",
           "Rank": "1",
           "IRM": "",
-          "Result": ""
+          "Result": "",
+          "Medal": "ME_GOLD"
         }
       ],
       "schedule": [
@@ -198988,10 +198988,10 @@
           "TeamReg": "KABWTEAM7------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
+          "Medal": "ME_GOLD",
           "Rank": "1",
           "IRM": "",
-          "Result": "",
-          "Medal": "ME_GOLD"
+          "Result": ""
         }
       ],
       "schedule": [
@@ -202592,10 +202592,10 @@
           "Desc": "Women's Traditional -60kg",
           "DescS": "Women's Traditional -60kg",
           "isMember": false,
+          "Medal": "ME_BRONZE",
           "Rank": "3",
           "IRM": "",
-          "Result": "",
-          "Medal": "ME_BRONZE"
+          "Result": ""
         }
       ],
       "schedule": [
@@ -203324,10 +203324,10 @@
           "TeamReg": "ROWMSCULL2-----IND01",
           "TeamOrg": "IND",
           "TeamName": "Satnam Singh/KHAN Salman",
+          "Medal": "ME_BRONZE",
           "Rank": "3",
           "IRM": "",
-          "Result": "6:13.25",
-          "Medal": "ME_BRONZE"
+          "Result": "6:13.25"
         }
       ],
       "schedule": [
@@ -203580,10 +203580,10 @@
           "TeamReg": "SHOXTRMT-------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
-          "Medal": "ME_GOLD",
           "Rank": "1",
           "IRM": "",
-          "Result": "34"
+          "Result": "34",
+          "Medal": "ME_GOLD"
         }
       ],
       "schedule": [
@@ -204349,10 +204349,10 @@
           "TeamReg": "SHOXAPMT-------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
-          "Medal": "ME_GOLD",
           "Rank": "1",
           "IRM": "",
-          "Result": "484.6"
+          "Result": "484.6",
+          "Medal": "ME_GOLD"
         }
       ],
       "schedule": [
@@ -205007,10 +205007,10 @@
           "Desc": "Trap Mixed Team",
           "DescS": "Trap Mixed Team",
           "isMember": false,
+          "Medal": "ME_GOLD",
           "Rank": "1",
           "IRM": "",
-          "Result": "34",
-          "Medal": "ME_GOLD"
+          "Result": "34"
         }
       ],
       "schedule": [
@@ -205196,10 +205196,10 @@
           "TeamReg": "SHOXTRMT-------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
-          "Medal": "ME_GOLD",
           "Rank": "1",
           "IRM": "",
-          "Result": "34"
+          "Result": "34",
+          "Medal": "ME_GOLD"
         }
       ],
       "schedule": [
@@ -206532,10 +206532,10 @@
           "TeamReg": "SHOMARTM-------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
-          "Medal": "ME_SILVER",
           "Rank": "2",
           "IRM": "",
-          "Result": "1890.1"
+          "Result": "1890.1",
+          "Medal": "ME_SILVER"
         },
         {
           "Disc": "SHO",
@@ -207630,10 +207630,10 @@
           "TeamReg": "SHOWARTW-------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
+          "Medal": "ME_SILVER",
           "Rank": "2",
           "IRM": "",
-          "Result": "1898.0",
-          "Medal": "ME_SILVER"
+          "Result": "1898.0"
         },
         {
           "Disc": "SHO",
@@ -207642,10 +207642,10 @@
           "Desc": "10m Air Rifle Women Individual",
           "DescS": "10m Air Rifle Women Individual",
           "isMember": false,
+          "Medal": "ME_SILVER",
           "Rank": "2",
           "IRM": "",
-          "Result": "252.4",
-          "Medal": "ME_SILVER"
+          "Result": "252.4"
         },
         {
           "Disc": "SHO",
@@ -208034,10 +208034,10 @@
           "TeamReg": "SHOWR3PTW------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
+          "Medal": "ME_SILVER",
           "Rank": "2",
           "IRM": "",
-          "Result": "1763",
-          "Medal": "ME_SILVER"
+          "Result": "1763"
         },
         {
           "Disc": "SHO",
@@ -209791,10 +209791,10 @@
           "Desc": "Trap Women Team",
           "DescS": "Trap Women Team",
           "isMember": false,
+          "Medal": "ME_SILVER",
           "Rank": "2",
           "IRM": "",
-          "Result": "328",
-          "Medal": "ME_SILVER"
+          "Result": "328"
         }
       ],
       "schedule": [
@@ -210003,10 +210003,10 @@
           "TeamReg": "SHOWTRTW-------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
+          "Medal": "ME_SILVER",
           "Rank": "2",
           "IRM": "",
-          "Result": "328",
-          "Medal": "ME_SILVER"
+          "Result": "328"
         },
         {
           "Disc": "SHO",
@@ -211526,10 +211526,10 @@
           "TeamReg": "SHOXSKMT-------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
+          "Medal": "ME_BRONZE",
           "Rank": "3",
           "IRM": "",
-          "Result": "44",
-          "Medal": "ME_BRONZE"
+          "Result": "44"
         }
       ],
       "schedule": [
@@ -212586,10 +212586,10 @@
           "Desc": "Skeet Women Team",
           "DescS": "Skeet Women Team",
           "isMember": false,
+          "Medal": "ME_BRONZE",
           "Rank": "3",
           "IRM": "",
-          "Result": "331",
-          "Medal": "ME_BRONZE"
+          "Result": "331"
         }
       ],
       "schedule": [
@@ -212831,10 +212831,10 @@
           "TeamReg": "SHOXSKMT-------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
-          "Medal": "ME_BRONZE",
           "Rank": "3",
           "IRM": "",
-          "Result": "44"
+          "Result": "44",
+          "Medal": "ME_BRONZE"
         }
       ],
       "schedule": [
@@ -214245,10 +214245,10 @@
           "Desc": "Skeet Mixed Team",
           "DescS": "Skeet Mixed Team",
           "isMember": false,
+          "Medal": "ME_BRONZE",
           "Rank": "3",
           "IRM": "",
-          "Result": "44",
-          "Medal": "ME_BRONZE"
+          "Result": "44"
         }
       ],
       "schedule": [
@@ -229083,10 +229083,10 @@
           "Desc": "Men's Singles",
           "DescS": "Men's Singles",
           "isMember": false,
+          "Medal": "ME_BRONZE",
           "Rank": "3",
           "IRM": "OK",
-          "Result": "",
-          "Medal": "ME_BRONZE"
+          "Result": ""
         },
         {
           "Disc": "TST",
@@ -248960,10 +248960,10 @@
           "Desc": "Women's 49kg",
           "DescS": "Women's 49kg",
           "isMember": false,
+          "Medal": "ME_SILVER",
           "Rank": "2",
           "IRM": "",
-          "Result": "198",
-          "Medal": "ME_SILVER"
+          "Result": "198"
         }
       ],
       "schedule": [
@@ -249019,6 +249019,1469 @@
             "Orgs": 7
           },
           "Results": []
+        }
+      ],
+      "historical": null
+    }
+  },
+  {
+    "reg": "13324752",
+    "name": "SUNIL KUMAR",
+    "org": "IND",
+    "org_desc": "India",
+    "disc": "WRE",
+    "disc_desc": "Wrestling",
+    "photo_url": "https://results.asiangames2026.org/ag2026/photos/13324752.jpg",
+    "medals": [
+      {
+        "medal": "bronze",
+        "event": "Men's Greco-Roman 87kg Final"
+      }
+    ],
+    "bio_data": {
+      "participant": {
+        "Reg": "13324752",
+        "Disc": "WRE",
+        "DiscDesc": "Wrestling",
+        "hasMembers": false,
+        "Org": "IND",
+        "OrgDesc": "India",
+        "Type": "A",
+        "MedClass": "",
+        "Gender": "M",
+        "BirthDateRaw": "1999-09-29",
+        "Name": "SUNIL KUMAR",
+        "NameS": "SUNIL KUMAR",
+        "GivenName": "Sunil Kumar",
+        "FamilyName": "Sunil Kumar",
+        "IFId": "36796",
+        "Height": null,
+        "Weight": null
+      },
+      "entries": [
+        {
+          "Disc": "WRE",
+          "Reg": "13324752",
+          "EvKey": "M.GR87KG------------",
+          "Desc": "Men's Greco-Roman 87kg",
+          "DescS": "Men's Greco-Roman 87kg",
+          "isMember": false,
+          "Medal": "ME_BRONZE",
+          "Rank": "3",
+          "IRM": "",
+          "Result": ""
+        }
+      ],
+      "schedule": [
+        {
+          "Orgs": [
+            "IND",
+            "TJK"
+          ],
+          "IsPhase": false,
+          "ResCode": "M.GR87KG------------.QFNL.000300--",
+          "ShowLink": true,
+          "Disc": "WRE",
+          "DiscDesc": "Wrestling",
+          "Key": "M.GR87KG------------.QFNL.000300--",
+          "isH2H": true,
+          "Type": "A",
+          "Medal": "0",
+          "Status": "OFFICIAL",
+          "StatusDesc": "Official",
+          "DateTimeRaw": "2026-09-30T11:17:00+09:00",
+          "HideStartDate": false,
+          "Estimated": false,
+          "EstText": "",
+          "HideLocation": false,
+          "Venue": "ISC",
+          "VenueDesc": "Nagoya City Inae Sports Center",
+          "VenueDescS": "Nagoya City Inae Sports Center",
+          "Loc": "IS2",
+          "LocDesc": "ISC  MAT B",
+          "LocDescS": "ISC  MAT B",
+          "Event": "M.GR87KG------------",
+          "EventDesc": "Men's Greco-Roman 87kg",
+          "Phase": "M.GR87KG------------.QFNL",
+          "PhaseOrder": 27,
+          "PhaseDesc": "Men's Greco-Roman 87kg 1/4 Finals",
+          "PhaseDescS": "MGR 87kg 1/4 Finals",
+          "PhaseDescA": "1/4 Finals",
+          "UnitDesc": "1/4 Final",
+          "UnitDescS": "1/4 Final",
+          "UnitDescA": "1/4 Final",
+          "EndDateTimeRaw": "2026-09-30T11:32:15+09:00",
+          "ActualEndDateTimeRaw": "2026-09-30T11:32:15+09:00",
+          "UnitNum": "22",
+          "IsLive": false,
+          "ShowResults": true,
+          "Periods": [
+            {
+              "Order": 1,
+              "Desc": "1",
+              "DescS": "1"
+            }
+          ],
+          "Home": {
+            "Org": "IND",
+            "Reg": "13324752",
+            "Name": "SUNIL KUMAR",
+            "Result": "9",
+            "Winner": true,
+            "HasData": true,
+            "NameS": "SUNIL KUMAR",
+            "Medal": "",
+            "Splits": [
+              {
+                "Rk": "",
+                "RkPo": 0,
+                "Res": "9",
+                "Extensions": [
+                  {
+                    "Type": "SPLIT_INFO",
+                    "Code": "Action 0",
+                    "Pos": 0,
+                    "Value": "1PT",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_INFO",
+                    "Code": "Action 1",
+                    "Pos": 0,
+                    "Value": "2PT",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_INFO",
+                    "Code": "Action 2",
+                    "Pos": 0,
+                    "Value": "2PT",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_INFO",
+                    "Code": "Action 3",
+                    "Pos": 0,
+                    "Value": "2PT",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_INFO",
+                    "Code": "Action 4",
+                    "Pos": 0,
+                    "Value": "2PT",
+                    "Extensions": []
+                  }
+                ]
+              }
+            ],
+            "Extensions": [
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "Activity",
+                "Pos": 0,
+                "Value": "False",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "ChallengeState",
+                "Pos": 0,
+                "Value": "0",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "ChallFlag",
+                "Pos": 0,
+                "Value": "1",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "LastPoint",
+                "Pos": 0,
+                "Value": "2",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "Position",
+                "Pos": 0,
+                "Value": "1",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "UnitFrom",
+                "Pos": 0,
+                "Value": "False",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "Warning",
+                "Pos": 0,
+                "Value": "False",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "ClassificationPoints",
+                "Pos": 0,
+                "Value": "4",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "Winner",
+                "Pos": 0,
+                "Value": "True",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "Tie",
+                "Pos": 0,
+                "Value": "False",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "Tie Decision",
+                "Pos": 0,
+                "Value": "",
+                "Extensions": []
+              },
+              {
+                "Type": "RESULT_INFO",
+                "Code": "Colour",
+                "Pos": 0,
+                "Value": "1",
+                "Extensions": []
+              },
+              {
+                "Type": "PREV_INFO",
+                "Code": "Register",
+                "Pos": 0,
+                "Value": "13324752",
+                "Extensions": []
+              },
+              {
+                "Type": "PREV_INFO",
+                "Code": "RegisterOpp",
+                "Pos": 0,
+                "Value": "2973796",
+                "Extensions": []
+              },
+              {
+                "Type": "PREV_INFO",
+                "Code": "Result",
+                "Pos": 0,
+                "Value": "4-0",
+                "Extensions": []
+              }
+            ]
+          },
+          "Away": {
+            "Org": "TJK",
+            "Reg": "2973796",
+            "Name": "SULTONZODA Muhammad",
+            "Result": "0",
+            "Winner": false,
+            "HasData": true,
+            "NameS": "SULTONZODA M",
+            "Medal": "",
+            "Splits": [
+              {
+                "Rk": "",
+                "RkPo": 0,
+                "Res": "0",
+                "Extensions": []
+              }
+            ],
+            "Extensions": [
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "Activity",
+                "Pos": 0,
+                "Value": "False",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "ChallengeState",
+                "Pos": 0,
+                "Value": "0",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "ChallFlag",
+                "Pos": 0,
+                "Value": "1",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "LastPoint",
+                "Pos": 0,
+                "Value": "",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "Position",
+                "Pos": 0,
+                "Value": "2",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "UnitFrom",
+                "Pos": 0,
+                "Value": "False",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "Warning",
+                "Pos": 0,
+                "Value": "False",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "ClassificationPoints",
+                "Pos": 0,
+                "Value": "0",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "Winner",
+                "Pos": 0,
+                "Value": "False",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "Tie",
+                "Pos": 0,
+                "Value": "False",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "Tie Decision",
+                "Pos": 0,
+                "Value": "",
+                "Extensions": []
+              },
+              {
+                "Type": "RESULT_INFO",
+                "Code": "Colour",
+                "Pos": 0,
+                "Value": "2",
+                "Extensions": []
+              },
+              {
+                "Type": "PREV_INFO",
+                "Code": "Register",
+                "Pos": 0,
+                "Value": "2973796",
+                "Extensions": []
+              },
+              {
+                "Type": "PREV_INFO",
+                "Code": "RegisterOpp",
+                "Pos": 0,
+                "Value": "14764285",
+                "Extensions": []
+              },
+              {
+                "Type": "PREV_INFO",
+                "Code": "Result",
+                "Pos": 0,
+                "Value": "4-0",
+                "Extensions": []
+              },
+              {
+                "Type": "PREV_INFO",
+                "Code": "Register",
+                "Pos": 1,
+                "Value": "2973796",
+                "Extensions": []
+              },
+              {
+                "Type": "PREV_INFO",
+                "Code": "RegisterOpp",
+                "Pos": 1,
+                "Value": "13324752",
+                "Extensions": []
+              },
+              {
+                "Type": "PREV_INFO",
+                "Code": "Result",
+                "Pos": 1,
+                "Value": "0-4",
+                "Extensions": []
+              }
+            ]
+          },
+          "Extensions": [
+            {
+              "Type": "UNIT_INFO",
+              "Code": "Activity",
+              "Pos": 0,
+              "Value": "0",
+              "Extensions": []
+            },
+            {
+              "Type": "UNIT_INFO",
+              "Code": "Challenge",
+              "Pos": 0,
+              "Value": "False",
+              "Extensions": []
+            },
+            {
+              "Type": "UNIT_INFO",
+              "Code": "ResultDetail",
+              "Pos": 0,
+              "Value": "VSU (4-0 -> Victory by technical superiority - without any point scored by the opponent (4:0))",
+              "Extensions": []
+            },
+            {
+              "Type": "UNIT_INFO",
+              "Code": "Session",
+              "Pos": 0,
+              "Value": "WRE.SES.MOR.20260930",
+              "Extensions": []
+            },
+            {
+              "Type": "UNIT_INFO",
+              "Code": "VictoryType",
+              "Pos": 0,
+              "Value": "VSU",
+              "Extensions": []
+            },
+            {
+              "Type": "UNIT_INFO",
+              "Code": "Cpoint",
+              "Pos": 0,
+              "Value": "4-0",
+              "Extensions": []
+            },
+            {
+              "Type": "UNIT_INFO",
+              "Code": "VictoryDescription",
+              "Pos": 0,
+              "Value": "Victory by technical superiority - without any point scored by the opponent (4:0)",
+              "Extensions": []
+            },
+            {
+              "Type": "UNIT_INFO",
+              "Code": "Weight",
+              "Pos": 0,
+              "Value": "87kg",
+              "Extensions": []
+            },
+            {
+              "Type": "UNIT_INFO",
+              "Code": "WinnerTime",
+              "Pos": 0,
+              "Value": "02:31",
+              "Extensions": []
+            },
+            {
+              "Type": "UNIT_INFO",
+              "Code": "Tie",
+              "Pos": 0,
+              "Value": "False",
+              "Extensions": []
+            },
+            {
+              "Type": "UNIT_INFO",
+              "Code": "TieDecision",
+              "Pos": 0,
+              "Value": "",
+              "Extensions": []
+            }
+          ]
+        },
+        {
+          "Orgs": [
+            "IND",
+            "JPN"
+          ],
+          "IsPhase": false,
+          "ResCode": "M.GR87KG------------.SFNL.000200--",
+          "ShowLink": true,
+          "Disc": "WRE",
+          "DiscDesc": "Wrestling",
+          "Key": "M.GR87KG------------.SFNL.000200--",
+          "isH2H": true,
+          "Type": "A",
+          "Medal": "0",
+          "Status": "OFFICIAL",
+          "StatusDesc": "Official",
+          "DateTimeRaw": "2026-09-30T11:57:00+09:00",
+          "HideStartDate": false,
+          "Estimated": false,
+          "EstText": "",
+          "HideLocation": false,
+          "Venue": "ISC",
+          "VenueDesc": "Nagoya City Inae Sports Center",
+          "VenueDescS": "Nagoya City Inae Sports Center",
+          "Loc": "IS1",
+          "LocDesc": "ISC  MAT A",
+          "LocDescS": "ISC  MAT A",
+          "Event": "M.GR87KG------------",
+          "EventDesc": "Men's Greco-Roman 87kg",
+          "Phase": "M.GR87KG------------.SFNL",
+          "PhaseOrder": 28,
+          "PhaseDesc": "Men's Greco-Roman 87kg Semifinals",
+          "PhaseDescS": "MGR 87kg Semifinals",
+          "PhaseDescA": "Semifinals",
+          "UnitDesc": "Semifinal",
+          "UnitDescS": "Semifinal",
+          "UnitDescA": "Semifinal",
+          "EndDateTimeRaw": "2026-09-30T12:23:20+09:00",
+          "ActualEndDateTimeRaw": "2026-09-30T12:23:20+09:00",
+          "UnitNum": "11",
+          "IsLive": false,
+          "ShowResults": true,
+          "Periods": [
+            {
+              "Order": 1,
+              "Desc": "1",
+              "DescS": "1"
+            },
+            {
+              "Order": 2,
+              "Desc": "2",
+              "DescS": "2"
+            }
+          ],
+          "Home": {
+            "Org": "IND",
+            "Reg": "13324752",
+            "Name": "SUNIL KUMAR",
+            "Result": "0",
+            "Winner": false,
+            "HasData": true,
+            "NameS": "SUNIL KUMAR",
+            "Medal": "",
+            "Splits": [
+              {
+                "Rk": "",
+                "RkPo": 0,
+                "Res": "0",
+                "Extensions": []
+              },
+              {
+                "Rk": "",
+                "RkPo": 0,
+                "Res": "0",
+                "Extensions": []
+              }
+            ],
+            "Extensions": [
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "Activity",
+                "Pos": 0,
+                "Value": "False",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "ChallengeState",
+                "Pos": 0,
+                "Value": "3",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "ChallFlag",
+                "Pos": 0,
+                "Value": "0",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "LastPoint",
+                "Pos": 0,
+                "Value": "",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "Position",
+                "Pos": 0,
+                "Value": "1",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "UnitFrom",
+                "Pos": 0,
+                "Value": "False",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "Warning",
+                "Pos": 0,
+                "Value": "False",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "ClassificationPoints",
+                "Pos": 0,
+                "Value": "0",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "Winner",
+                "Pos": 0,
+                "Value": "False",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "Tie",
+                "Pos": 0,
+                "Value": "False",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "Tie Decision",
+                "Pos": 0,
+                "Value": "",
+                "Extensions": []
+              },
+              {
+                "Type": "RESULT_INFO",
+                "Code": "Colour",
+                "Pos": 0,
+                "Value": "1",
+                "Extensions": []
+              },
+              {
+                "Type": "PREV_INFO",
+                "Code": "Register",
+                "Pos": 0,
+                "Value": "13324752",
+                "Extensions": []
+              },
+              {
+                "Type": "PREV_INFO",
+                "Code": "RegisterOpp",
+                "Pos": 0,
+                "Value": "2973796",
+                "Extensions": []
+              },
+              {
+                "Type": "PREV_INFO",
+                "Code": "Result",
+                "Pos": 0,
+                "Value": "4-0",
+                "Extensions": []
+              },
+              {
+                "Type": "PREV_INFO",
+                "Code": "Register",
+                "Pos": 1,
+                "Value": "13324752",
+                "Extensions": []
+              },
+              {
+                "Type": "PREV_INFO",
+                "Code": "RegisterOpp",
+                "Pos": 1,
+                "Value": "6400904",
+                "Extensions": []
+              },
+              {
+                "Type": "PREV_INFO",
+                "Code": "Result",
+                "Pos": 1,
+                "Value": "0-4",
+                "Extensions": []
+              }
+            ]
+          },
+          "Away": {
+            "Org": "JPN",
+            "Reg": "6400904",
+            "Name": "YOSHIDA Taizo",
+            "Result": "11",
+            "Winner": true,
+            "HasData": true,
+            "NameS": "YOSHIDA T",
+            "Medal": "",
+            "Splits": [
+              {
+                "Rk": "",
+                "RkPo": 0,
+                "Res": "6",
+                "Extensions": [
+                  {
+                    "Type": "SPLIT_INFO",
+                    "Code": "Action 0",
+                    "Pos": 0,
+                    "Value": "1PT",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_INFO",
+                    "Code": "Action 1",
+                    "Pos": 0,
+                    "Value": "1PT",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_INFO",
+                    "Code": "Action 2",
+                    "Pos": 0,
+                    "Value": "4PT",
+                    "Extensions": []
+                  }
+                ]
+              },
+              {
+                "Rk": "",
+                "RkPo": 0,
+                "Res": "5",
+                "Extensions": [
+                  {
+                    "Type": "SPLIT_INFO",
+                    "Code": "Action 0",
+                    "Pos": 0,
+                    "Value": "4PT",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_INFO",
+                    "Code": "Action 1",
+                    "Pos": 0,
+                    "Value": "1PT",
+                    "Extensions": []
+                  }
+                ]
+              }
+            ],
+            "Extensions": [
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "Activity",
+                "Pos": 0,
+                "Value": "False",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "ChallengeState",
+                "Pos": 0,
+                "Value": "0",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "ChallFlag",
+                "Pos": 0,
+                "Value": "1",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "LastPoint",
+                "Pos": 0,
+                "Value": "1",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "Position",
+                "Pos": 0,
+                "Value": "2",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "UnitFrom",
+                "Pos": 0,
+                "Value": "False",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "Warning",
+                "Pos": 0,
+                "Value": "False",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "ClassificationPoints",
+                "Pos": 0,
+                "Value": "4",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "Winner",
+                "Pos": 0,
+                "Value": "True",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "Tie",
+                "Pos": 0,
+                "Value": "False",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "Tie Decision",
+                "Pos": 0,
+                "Value": "",
+                "Extensions": []
+              },
+              {
+                "Type": "RESULT_INFO",
+                "Code": "Colour",
+                "Pos": 0,
+                "Value": "2",
+                "Extensions": []
+              },
+              {
+                "Type": "PREV_INFO",
+                "Code": "Register",
+                "Pos": 0,
+                "Value": "6400904",
+                "Extensions": []
+              },
+              {
+                "Type": "PREV_INFO",
+                "Code": "RegisterOpp",
+                "Pos": 0,
+                "Value": "15833550",
+                "Extensions": []
+              },
+              {
+                "Type": "PREV_INFO",
+                "Code": "Result",
+                "Pos": 0,
+                "Value": "4-0",
+                "Extensions": []
+              },
+              {
+                "Type": "PREV_INFO",
+                "Code": "Register",
+                "Pos": 1,
+                "Value": "6400904",
+                "Extensions": []
+              },
+              {
+                "Type": "PREV_INFO",
+                "Code": "RegisterOpp",
+                "Pos": 1,
+                "Value": "13324752",
+                "Extensions": []
+              },
+              {
+                "Type": "PREV_INFO",
+                "Code": "Result",
+                "Pos": 1,
+                "Value": "4-0",
+                "Extensions": []
+              }
+            ]
+          },
+          "Extensions": [
+            {
+              "Type": "UNIT_INFO",
+              "Code": "Activity",
+              "Pos": 0,
+              "Value": "0",
+              "Extensions": []
+            },
+            {
+              "Type": "UNIT_INFO",
+              "Code": "Challenge",
+              "Pos": 0,
+              "Value": "False",
+              "Extensions": []
+            },
+            {
+              "Type": "UNIT_INFO",
+              "Code": "ResultDetail",
+              "Pos": 0,
+              "Value": "VSU (4-0 -> Victory by technical superiority - without any point scored by the opponent (4:0))",
+              "Extensions": []
+            },
+            {
+              "Type": "UNIT_INFO",
+              "Code": "Session",
+              "Pos": 0,
+              "Value": "WRE.SES.MOR.20260930",
+              "Extensions": []
+            },
+            {
+              "Type": "UNIT_INFO",
+              "Code": "VictoryType",
+              "Pos": 0,
+              "Value": "VSU",
+              "Extensions": []
+            },
+            {
+              "Type": "UNIT_INFO",
+              "Code": "Cpoint",
+              "Pos": 0,
+              "Value": "4-0",
+              "Extensions": []
+            },
+            {
+              "Type": "UNIT_INFO",
+              "Code": "VictoryDescription",
+              "Pos": 0,
+              "Value": "Victory by technical superiority - without any point scored by the opponent (4:0)",
+              "Extensions": []
+            },
+            {
+              "Type": "UNIT_INFO",
+              "Code": "Weight",
+              "Pos": 0,
+              "Value": "87kg",
+              "Extensions": []
+            },
+            {
+              "Type": "UNIT_INFO",
+              "Code": "WinnerTime",
+              "Pos": 0,
+              "Value": "04:03",
+              "Extensions": []
+            },
+            {
+              "Type": "UNIT_INFO",
+              "Code": "Tie",
+              "Pos": 0,
+              "Value": "False",
+              "Extensions": []
+            },
+            {
+              "Type": "UNIT_INFO",
+              "Code": "TieDecision",
+              "Pos": 0,
+              "Value": "",
+              "Extensions": []
+            }
+          ]
+        },
+        {
+          "Orgs": [
+            "PHI",
+            "IND"
+          ],
+          "IsPhase": false,
+          "ResCode": "M.GR87KG------------.REPF.000200--",
+          "ShowLink": true,
+          "Disc": "WRE",
+          "DiscDesc": "Wrestling",
+          "Key": "M.GR87KG------------.REPF.000200--",
+          "isH2H": true,
+          "Type": "A",
+          "Medal": "2",
+          "Status": "OFFICIAL",
+          "StatusDesc": "Official",
+          "DateTimeRaw": "2026-09-30T18:30:00+09:00",
+          "HideStartDate": false,
+          "Estimated": false,
+          "EstText": "",
+          "HideLocation": false,
+          "Venue": "ISC",
+          "VenueDesc": "Nagoya City Inae Sports Center",
+          "VenueDescS": "Nagoya City Inae Sports Center",
+          "Loc": "IS2",
+          "LocDesc": "ISC  MAT B",
+          "LocDescS": "ISC  MAT B",
+          "Event": "M.GR87KG------------",
+          "EventDesc": "Men's Greco-Roman 87kg",
+          "Phase": "M.GR87KG------------.REPF",
+          "PhaseOrder": 31,
+          "PhaseDesc": "Men's Greco-Roman 87kg Bronze Medal Matches",
+          "PhaseDescS": "MGR 87kg Bronze Medal Matches",
+          "PhaseDescA": "Bronze Medal Matches",
+          "UnitDesc": "Bronze Medal Match",
+          "UnitDescS": "Bronze Medal Match",
+          "UnitDescA": "Bronze Medal Match",
+          "EndDateTimeRaw": "2026-09-30T18:56:42+09:00",
+          "ActualEndDateTimeRaw": "2026-09-30T18:56:42+09:00",
+          "UnitNum": "51",
+          "IsLive": false,
+          "ShowResults": true,
+          "Periods": [
+            {
+              "Order": 1,
+              "Desc": "1",
+              "DescS": "1"
+            }
+          ],
+          "Home": {
+            "Org": "PHI",
+            "Reg": "15833550",
+            "Name": "ROBERTS Callum Johnston",
+            "Result": "0",
+            "Winner": false,
+            "HasData": true,
+            "NameS": "ROBERTS CJ",
+            "Medal": "",
+            "Splits": [
+              {
+                "Rk": "",
+                "RkPo": 0,
+                "Res": "0",
+                "Extensions": []
+              }
+            ],
+            "Extensions": [
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "Activity",
+                "Pos": 0,
+                "Value": "False",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "ChallengeState",
+                "Pos": 0,
+                "Value": "0",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "ChallFlag",
+                "Pos": 0,
+                "Value": "1",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "LastPoint",
+                "Pos": 0,
+                "Value": "",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "Position",
+                "Pos": 0,
+                "Value": "1",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "UnitFrom",
+                "Pos": 0,
+                "Value": "False",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "Warning",
+                "Pos": 0,
+                "Value": "False",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "ClassificationPoints",
+                "Pos": 0,
+                "Value": "0",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "Winner",
+                "Pos": 0,
+                "Value": "False",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "Tie",
+                "Pos": 0,
+                "Value": "False",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "Tie Decision",
+                "Pos": 0,
+                "Value": "",
+                "Extensions": []
+              },
+              {
+                "Type": "RESULT_INFO",
+                "Code": "Colour",
+                "Pos": 0,
+                "Value": "1",
+                "Extensions": []
+              },
+              {
+                "Type": "PREV_INFO",
+                "Code": "Register",
+                "Pos": 0,
+                "Value": "15833550",
+                "Extensions": []
+              },
+              {
+                "Type": "PREV_INFO",
+                "Code": "RegisterOpp",
+                "Pos": 0,
+                "Value": "5836509",
+                "Extensions": []
+              },
+              {
+                "Type": "PREV_INFO",
+                "Code": "Result",
+                "Pos": 0,
+                "Value": "5-0",
+                "Extensions": []
+              },
+              {
+                "Type": "PREV_INFO",
+                "Code": "Register",
+                "Pos": 1,
+                "Value": "15833550",
+                "Extensions": []
+              },
+              {
+                "Type": "PREV_INFO",
+                "Code": "RegisterOpp",
+                "Pos": 1,
+                "Value": "6400904",
+                "Extensions": []
+              },
+              {
+                "Type": "PREV_INFO",
+                "Code": "Result",
+                "Pos": 1,
+                "Value": "0-4",
+                "Extensions": []
+              },
+              {
+                "Type": "PREV_INFO",
+                "Code": "Register",
+                "Pos": 2,
+                "Value": "15833550",
+                "Extensions": []
+              },
+              {
+                "Type": "PREV_INFO",
+                "Code": "RegisterOpp",
+                "Pos": 2,
+                "Value": "13324752",
+                "Extensions": []
+              },
+              {
+                "Type": "PREV_INFO",
+                "Code": "Result",
+                "Pos": 2,
+                "Value": "0-4",
+                "Extensions": []
+              }
+            ]
+          },
+          "Away": {
+            "Org": "IND",
+            "Reg": "13324752",
+            "Name": "SUNIL KUMAR",
+            "Result": "9",
+            "Winner": true,
+            "HasData": true,
+            "NameS": "SUNIL KUMAR",
+            "Medal": "ME_BRONZE",
+            "Splits": [
+              {
+                "Rk": "",
+                "RkPo": 0,
+                "Res": "9",
+                "Extensions": [
+                  {
+                    "Type": "SPLIT_INFO",
+                    "Code": "Action 0",
+                    "Pos": 0,
+                    "Value": "2PT",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_INFO",
+                    "Code": "Action 1",
+                    "Pos": 0,
+                    "Value": "2PT",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_INFO",
+                    "Code": "Action 2",
+                    "Pos": 0,
+                    "Value": "1PT",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_INFO",
+                    "Code": "Action 3",
+                    "Pos": 0,
+                    "Value": "2PT",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_INFO",
+                    "Code": "Action 4",
+                    "Pos": 0,
+                    "Value": "2PT",
+                    "Extensions": []
+                  }
+                ]
+              }
+            ],
+            "Extensions": [
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "Activity",
+                "Pos": 0,
+                "Value": "False",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "ChallengeState",
+                "Pos": 0,
+                "Value": "0",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "ChallFlag",
+                "Pos": 0,
+                "Value": "1",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "LastPoint",
+                "Pos": 0,
+                "Value": "2",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "Position",
+                "Pos": 0,
+                "Value": "2",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "UnitFrom",
+                "Pos": 0,
+                "Value": "False",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "Warning",
+                "Pos": 0,
+                "Value": "False",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "ClassificationPoints",
+                "Pos": 0,
+                "Value": "4",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "Winner",
+                "Pos": 0,
+                "Value": "True",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "Tie",
+                "Pos": 0,
+                "Value": "False",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "Tie Decision",
+                "Pos": 0,
+                "Value": "",
+                "Extensions": []
+              },
+              {
+                "Type": "RESULT_INFO",
+                "Code": "Colour",
+                "Pos": 0,
+                "Value": "2",
+                "Extensions": []
+              },
+              {
+                "Type": "PREV_INFO",
+                "Code": "Register",
+                "Pos": 0,
+                "Value": "13324752",
+                "Extensions": []
+              },
+              {
+                "Type": "PREV_INFO",
+                "Code": "RegisterOpp",
+                "Pos": 0,
+                "Value": "2973796",
+                "Extensions": []
+              },
+              {
+                "Type": "PREV_INFO",
+                "Code": "Result",
+                "Pos": 0,
+                "Value": "4-0",
+                "Extensions": []
+              },
+              {
+                "Type": "PREV_INFO",
+                "Code": "Register",
+                "Pos": 1,
+                "Value": "13324752",
+                "Extensions": []
+              },
+              {
+                "Type": "PREV_INFO",
+                "Code": "RegisterOpp",
+                "Pos": 1,
+                "Value": "15833550",
+                "Extensions": []
+              },
+              {
+                "Type": "PREV_INFO",
+                "Code": "Result",
+                "Pos": 1,
+                "Value": "4-0",
+                "Extensions": []
+              },
+              {
+                "Type": "PREV_INFO",
+                "Code": "Register",
+                "Pos": 2,
+                "Value": "13324752",
+                "Extensions": []
+              },
+              {
+                "Type": "PREV_INFO",
+                "Code": "RegisterOpp",
+                "Pos": 2,
+                "Value": "6400904",
+                "Extensions": []
+              },
+              {
+                "Type": "PREV_INFO",
+                "Code": "Result",
+                "Pos": 2,
+                "Value": "0-4",
+                "Extensions": []
+              }
+            ]
+          },
+          "Extensions": [
+            {
+              "Type": "UNIT_INFO",
+              "Code": "Activity",
+              "Pos": 0,
+              "Value": "0",
+              "Extensions": []
+            },
+            {
+              "Type": "UNIT_INFO",
+              "Code": "Challenge",
+              "Pos": 0,
+              "Value": "False",
+              "Extensions": []
+            },
+            {
+              "Type": "UNIT_INFO",
+              "Code": "ResultDetail",
+              "Pos": 0,
+              "Value": "VSU (4-0 -> Victory by technical superiority - without any point scored by the opponent (4:0))",
+              "Extensions": []
+            },
+            {
+              "Type": "UNIT_INFO",
+              "Code": "Session",
+              "Pos": 0,
+              "Value": "WRE.SES.AFT.20260930",
+              "Extensions": []
+            },
+            {
+              "Type": "UNIT_INFO",
+              "Code": "VictoryType",
+              "Pos": 0,
+              "Value": "VSU",
+              "Extensions": []
+            },
+            {
+              "Type": "UNIT_INFO",
+              "Code": "Cpoint",
+              "Pos": 0,
+              "Value": "4-0",
+              "Extensions": []
+            },
+            {
+              "Type": "UNIT_INFO",
+              "Code": "VictoryDescription",
+              "Pos": 0,
+              "Value": "Victory by technical superiority - without any point scored by the opponent (4:0)",
+              "Extensions": []
+            },
+            {
+              "Type": "UNIT_INFO",
+              "Code": "Weight",
+              "Pos": 0,
+              "Value": "87kg",
+              "Extensions": []
+            },
+            {
+              "Type": "UNIT_INFO",
+              "Code": "WinnerTime",
+              "Pos": 0,
+              "Value": "01:56",
+              "Extensions": []
+            },
+            {
+              "Type": "UNIT_INFO",
+              "Code": "Tie",
+              "Pos": 0,
+              "Value": "False",
+              "Extensions": []
+            },
+            {
+              "Type": "UNIT_INFO",
+              "Code": "TieDecision",
+              "Pos": 0,
+              "Value": "",
+              "Extensions": []
+            }
+          ]
         }
       ],
       "historical": null
