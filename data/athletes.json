@@ -5160,6 +5160,32 @@
                 ]
               },
               {
+                "Type": "PREV_RESULT",
+                "Code": "UNIT_KEY",
+                "Pos": 4,
+                "Value": " ",
+                "Extensions": [
+                  {
+                    "Type": "RESULT",
+                    "Code": "Register",
+                    "Pos": 4,
+                    "Value": "ARCMCTEAM------IND01"
+                  },
+                  {
+                    "Type": "RESULT",
+                    "Code": "RegisterOpp",
+                    "Pos": 4,
+                    "Value": "ARCMCTEAM------CHN01"
+                  },
+                  {
+                    "Type": "RESULT",
+                    "Code": "Result",
+                    "Pos": 4,
+                    "Value": "238-237"
+                  }
+                ]
+              },
+              {
                 "Type": "RESULT_INFO",
                 "Code": "DisplayRank",
                 "Pos": 0,
@@ -6143,8 +6169,8 @@
           "isH2H": true,
           "Type": "T",
           "Medal": "1",
-          "Status": "UNOFFICIAL",
-          "StatusDesc": "Unofficial",
+          "Status": "OFFICIAL",
+          "StatusDesc": "Official",
           "DateTimeRaw": "2026-09-30T15:50:00+09:00",
           "HideStartDate": false,
           "Estimated": false,
@@ -6166,8 +6192,8 @@
           "UnitDesc": "Compound Men's Team Gold Medal Match",
           "UnitDescS": "Compound Men's Team Gold Medal Match",
           "UnitDescA": "",
-          "EndDateTimeRaw": "2026-09-30T16:11:46+09:00",
-          "ActualEndDateTimeRaw": "2026-09-30T16:11:46+09:00",
+          "EndDateTimeRaw": "2026-09-30T16:12:00+09:00",
+          "ActualEndDateTimeRaw": "2026-09-30T16:12:00+09:00",
           "UnitNum": "324",
           "IsLive": false,
           "ShowResults": true,
@@ -8155,7 +8181,7 @@
               "Type": "UNIT_INFO",
               "Code": "PhaseFinished",
               "Pos": 0,
-              "Value": "N",
+              "Value": "Y",
               "Extensions": []
             },
             {
@@ -13447,6 +13473,32 @@
                 ]
               },
               {
+                "Type": "PREV_RESULT",
+                "Code": "UNIT_KEY",
+                "Pos": 4,
+                "Value": " ",
+                "Extensions": [
+                  {
+                    "Type": "RESULT",
+                    "Code": "Register",
+                    "Pos": 4,
+                    "Value": "ARCMCTEAM------IND01"
+                  },
+                  {
+                    "Type": "RESULT",
+                    "Code": "RegisterOpp",
+                    "Pos": 4,
+                    "Value": "ARCMCTEAM------CHN01"
+                  },
+                  {
+                    "Type": "RESULT",
+                    "Code": "Result",
+                    "Pos": 4,
+                    "Value": "238-237"
+                  }
+                ]
+              },
+              {
                 "Type": "RESULT_INFO",
                 "Code": "DisplayRank",
                 "Pos": 0,
@@ -14430,8 +14482,8 @@
           "isH2H": true,
           "Type": "T",
           "Medal": "1",
-          "Status": "UNOFFICIAL",
-          "StatusDesc": "Unofficial",
+          "Status": "OFFICIAL",
+          "StatusDesc": "Official",
           "DateTimeRaw": "2026-09-30T15:50:00+09:00",
           "HideStartDate": false,
           "Estimated": false,
@@ -14453,8 +14505,8 @@
           "UnitDesc": "Compound Men's Team Gold Medal Match",
           "UnitDescS": "Compound Men's Team Gold Medal Match",
           "UnitDescA": "",
-          "EndDateTimeRaw": "2026-09-30T16:11:46+09:00",
-          "ActualEndDateTimeRaw": "2026-09-30T16:11:46+09:00",
+          "EndDateTimeRaw": "2026-09-30T16:12:00+09:00",
+          "ActualEndDateTimeRaw": "2026-09-30T16:12:00+09:00",
           "UnitNum": "324",
           "IsLive": false,
           "ShowResults": true,
@@ -16442,7 +16494,7 @@
               "Type": "UNIT_INFO",
               "Code": "PhaseFinished",
               "Pos": 0,
-              "Value": "N",
+              "Value": "Y",
               "Extensions": []
             },
             {
@@ -16563,10 +16615,10 @@
           "TeamReg": "ARCXCTEAM2-----IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
+          "Medal": "ME_GOLD",
           "Rank": "1",
           "IRM": "",
-          "Result": "",
-          "Medal": "ME_GOLD"
+          "Result": ""
         }
       ],
       "schedule": [
@@ -32689,6 +32741,32 @@
                 ]
               },
               {
+                "Type": "PREV_RESULT",
+                "Code": "UNIT_KEY",
+                "Pos": 4,
+                "Value": " ",
+                "Extensions": [
+                  {
+                    "Type": "RESULT",
+                    "Code": "Register",
+                    "Pos": 4,
+                    "Value": "ARCMCTEAM------IND01"
+                  },
+                  {
+                    "Type": "RESULT",
+                    "Code": "RegisterOpp",
+                    "Pos": 4,
+                    "Value": "ARCMCTEAM------CHN01"
+                  },
+                  {
+                    "Type": "RESULT",
+                    "Code": "Result",
+                    "Pos": 4,
+                    "Value": "238-237"
+                  }
+                ]
+              },
+              {
                 "Type": "RESULT_INFO",
                 "Code": "DisplayRank",
                 "Pos": 0,
@@ -33672,8 +33750,8 @@
           "isH2H": true,
           "Type": "T",
           "Medal": "1",
-          "Status": "UNOFFICIAL",
-          "StatusDesc": "Unofficial",
+          "Status": "OFFICIAL",
+          "StatusDesc": "Official",
           "DateTimeRaw": "2026-09-30T15:50:00+09:00",
           "HideStartDate": false,
           "Estimated": false,
@@ -33695,8 +33773,8 @@
           "UnitDesc": "Compound Men's Team Gold Medal Match",
           "UnitDescS": "Compound Men's Team Gold Medal Match",
           "UnitDescA": "",
-          "EndDateTimeRaw": "2026-09-30T16:11:46+09:00",
-          "ActualEndDateTimeRaw": "2026-09-30T16:11:46+09:00",
+          "EndDateTimeRaw": "2026-09-30T16:12:00+09:00",
+          "ActualEndDateTimeRaw": "2026-09-30T16:12:00+09:00",
           "UnitNum": "324",
           "IsLive": false,
           "ShowResults": true,
@@ -35684,7 +35762,7 @@
               "Type": "UNIT_INFO",
               "Code": "PhaseFinished",
               "Pos": 0,
-              "Value": "N",
+              "Value": "Y",
               "Extensions": []
             },
             {
@@ -44695,6 +44773,32 @@
                 ]
               },
               {
+                "Type": "PREV_RESULT",
+                "Code": "UNIT_KEY",
+                "Pos": 4,
+                "Value": " ",
+                "Extensions": [
+                  {
+                    "Type": "RESULT",
+                    "Code": "Register",
+                    "Pos": 4,
+                    "Value": "ARCMCTEAM------IND01"
+                  },
+                  {
+                    "Type": "RESULT",
+                    "Code": "RegisterOpp",
+                    "Pos": 4,
+                    "Value": "ARCMCTEAM------CHN01"
+                  },
+                  {
+                    "Type": "RESULT",
+                    "Code": "Result",
+                    "Pos": 4,
+                    "Value": "238-237"
+                  }
+                ]
+              },
+              {
                 "Type": "RESULT_INFO",
                 "Code": "DisplayRank",
                 "Pos": 0,
@@ -45678,8 +45782,8 @@
           "isH2H": true,
           "Type": "T",
           "Medal": "1",
-          "Status": "UNOFFICIAL",
-          "StatusDesc": "Unofficial",
+          "Status": "OFFICIAL",
+          "StatusDesc": "Official",
           "DateTimeRaw": "2026-09-30T15:50:00+09:00",
           "HideStartDate": false,
           "Estimated": false,
@@ -45701,8 +45805,8 @@
           "UnitDesc": "Compound Men's Team Gold Medal Match",
           "UnitDescS": "Compound Men's Team Gold Medal Match",
           "UnitDescA": "",
-          "EndDateTimeRaw": "2026-09-30T16:11:46+09:00",
-          "ActualEndDateTimeRaw": "2026-09-30T16:11:46+09:00",
+          "EndDateTimeRaw": "2026-09-30T16:12:00+09:00",
+          "ActualEndDateTimeRaw": "2026-09-30T16:12:00+09:00",
           "UnitNum": "324",
           "IsLive": false,
           "ShowResults": true,
@@ -47690,7 +47794,7 @@
               "Type": "UNIT_INFO",
               "Code": "PhaseFinished",
               "Pos": 0,
-              "Value": "N",
+              "Value": "Y",
               "Extensions": []
             },
             {
@@ -137066,6 +137170,1202 @@
     }
   },
   {
+    "reg": "5455376",
+    "name": "POKHARIYA Kapil",
+    "org": "IND",
+    "org_desc": "India",
+    "disc": "BOX",
+    "disc_desc": "Boxing",
+    "photo_url": "https://results.asiangames2026.org/ag2026/photos/5455376.jpg",
+    "medals": [
+      {
+        "medal": "bronze",
+        "event": "Men's 90kg"
+      }
+    ],
+    "bio_data": {
+      "participant": {
+        "Reg": "5455376",
+        "Disc": "BOX",
+        "DiscDesc": "Boxing",
+        "hasMembers": false,
+        "Org": "IND",
+        "OrgDesc": "India",
+        "Type": "A",
+        "MedClass": "",
+        "Gender": "M",
+        "BirthDateRaw": "2000-09-28",
+        "Name": "POKHARIYA Kapil",
+        "NameS": "POKHARIYA K",
+        "GivenName": "Kapil",
+        "FamilyName": "POKHARIYA",
+        "IFId": "000000",
+        "Height": 0,
+        "Weight": 0
+      },
+      "entries": [
+        {
+          "Disc": "BOX",
+          "Reg": "5455376",
+          "EvKey": "M.90KG--------------",
+          "Desc": "Men's 90kg",
+          "DescS": "Men's 90kg",
+          "isMember": false,
+          "Medal": "ME_BRONZE"
+        }
+      ],
+      "schedule": [
+        {
+          "Orgs": [
+            "IND",
+            "IRI"
+          ],
+          "IsPhase": false,
+          "ResCode": "M.90KG--------------.8FNL.000300--",
+          "ShowLink": true,
+          "Disc": "BOX",
+          "DiscDesc": "Boxing",
+          "Key": "M.90KG--------------.8FNL.000300--",
+          "isH2H": true,
+          "Type": "A",
+          "Medal": "0",
+          "Status": "OFFICIAL",
+          "StatusDesc": "Official",
+          "DateTimeRaw": "2026-09-26T14:15:00+09:00",
+          "HideStartDate": false,
+          "Estimated": true,
+          "EstText": "FOLLOW BY",
+          "HideLocation": false,
+          "Venue": "NIS",
+          "VenueDesc": "Nishio Gymnasium",
+          "VenueDescS": "Nishio Gymnasium",
+          "Loc": "NIS",
+          "LocDesc": "Ring 1",
+          "LocDescS": "Ring 1",
+          "Event": "M.90KG--------------",
+          "EventDesc": "Men's 90kg",
+          "Phase": "M.90KG--------------.8FNL",
+          "PhaseOrder": 1,
+          "PhaseDesc": "Men's 90KG Preliminaries - Round of 16",
+          "PhaseDescS": "Men's 90KG Prelims - Round of 16",
+          "PhaseDescA": "Preliminaries - Round of 16",
+          "UnitDesc": "Men's 90KG - Preliminaries - Round of 16",
+          "UnitDescS": "90KG - Prelims - Round of 16",
+          "UnitDescA": "Preliminaries - Round of 16",
+          "EndDateTimeRaw": "2026-09-26T14:30:00+09:00",
+          "ActualEndDateTimeRaw": "2026-09-26T14:30:00+09:00",
+          "UnitNum": "91",
+          "IsLive": false,
+          "ShowResults": true,
+          "Periods": [
+            {
+              "Order": 1,
+              "Desc": "Round 1",
+              "DescS": "R 1",
+              "Extensions": [
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueKnockdowns",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 1,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 2,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 3,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 4,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 5,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueWarnings",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedKnockdowns",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 1,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 2,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 3,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 4,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 5,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedWarnings",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                }
+              ]
+            },
+            {
+              "Order": 2,
+              "Desc": "Round 2",
+              "DescS": "R 2",
+              "Extensions": [
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueKnockdowns",
+                  "Pos": 0,
+                  "Value": "1",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 1,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 2,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 3,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 4,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 5,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueWarnings",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedKnockdowns",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 1,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 2,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 3,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 4,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 5,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedWarnings",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                }
+              ]
+            },
+            {
+              "Order": 3,
+              "Desc": "Round 3",
+              "DescS": "R 3",
+              "Extensions": [
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueKnockdowns",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 1,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 2,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 3,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 4,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 5,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueWarnings",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedKnockdowns",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 1,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 2,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 3,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 4,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 5,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedWarnings",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                }
+              ]
+            }
+          ],
+          "Home": {
+            "Org": "IND",
+            "Reg": "5455376",
+            "Name": "POKHARIYA Kapil",
+            "Result": "5",
+            "Winner": true,
+            "HasData": true,
+            "NameS": "POKHARIYA K",
+            "Medal": "",
+            "Splits": []
+          },
+          "Away": {
+            "Org": "IRI",
+            "Reg": "12342925",
+            "Name": "ESTAKI Sam",
+            "Result": "0",
+            "Winner": false,
+            "HasData": true,
+            "NameS": "ESTAKI S",
+            "Medal": "",
+            "Splits": []
+          }
+        },
+        {
+          "Orgs": [
+            "IND",
+            "KOR"
+          ],
+          "IsPhase": false,
+          "ResCode": "M.90KG--------------.QFNL.000200--",
+          "ShowLink": true,
+          "Disc": "BOX",
+          "DiscDesc": "Boxing",
+          "Key": "M.90KG--------------.QFNL.000200--",
+          "isH2H": true,
+          "Type": "A",
+          "Medal": "0",
+          "Status": "OFFICIAL",
+          "StatusDesc": "Official",
+          "DateTimeRaw": "2026-09-28T19:15:00+09:00",
+          "HideStartDate": false,
+          "Estimated": true,
+          "EstText": "FOLLOW BY",
+          "HideLocation": false,
+          "Venue": "NIS",
+          "VenueDesc": "Nishio Gymnasium",
+          "VenueDescS": "Nishio Gymnasium",
+          "Loc": "NIS",
+          "LocDesc": "Ring 1",
+          "LocDescS": "Ring 1",
+          "Event": "M.90KG--------------",
+          "EventDesc": "Men's 90kg",
+          "Phase": "M.90KG--------------.QFNL",
+          "PhaseOrder": 2,
+          "PhaseDesc": "Men's 90KG Quarterfinal",
+          "PhaseDescS": "Men's 90KG Quarterfinal",
+          "PhaseDescA": "Quarterfinal",
+          "UnitDesc": "Men's 90KG - Quarterfinal",
+          "UnitDescS": "90KG - Quarterfinal",
+          "UnitDescA": "Quarterfinal",
+          "EndDateTimeRaw": "2026-09-28T19:30:00+09:00",
+          "ActualEndDateTimeRaw": "2026-09-28T19:30:00+09:00",
+          "UnitNum": "144",
+          "IsLive": false,
+          "ShowResults": true,
+          "Periods": [
+            {
+              "Order": 1,
+              "Desc": "Round 1",
+              "DescS": "R 1",
+              "Extensions": [
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueKnockdowns",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 1,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 2,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 3,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 4,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 5,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueWarnings",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedKnockdowns",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 1,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 2,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 3,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 4,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 5,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedWarnings",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                }
+              ]
+            },
+            {
+              "Order": 2,
+              "Desc": "Round 2",
+              "DescS": "R 2",
+              "Extensions": [
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueKnockdowns",
+                  "Pos": 0,
+                  "Value": "1",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 1,
+                  "Value": "8",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 2,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 3,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 4,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 5,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueWarnings",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedKnockdowns",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 1,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 2,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 3,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 4,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 5,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedWarnings",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                }
+              ]
+            },
+            {
+              "Order": 3,
+              "Desc": "Round 3",
+              "DescS": "R 3",
+              "Extensions": [
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueKnockdowns",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 1,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 2,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 3,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 4,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 5,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueWarnings",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedKnockdowns",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 1,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 2,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 3,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 4,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 5,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedWarnings",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                }
+              ]
+            }
+          ],
+          "Home": {
+            "Org": "IND",
+            "Reg": "5455376",
+            "Name": "POKHARIYA Kapil",
+            "Result": "5",
+            "Winner": true,
+            "HasData": true,
+            "NameS": "POKHARIYA K",
+            "Medal": "",
+            "Splits": []
+          },
+          "Away": {
+            "Org": "KOR",
+            "Reg": "305381",
+            "Name": "KIM Gichae",
+            "Result": "0",
+            "Winner": false,
+            "HasData": true,
+            "NameS": "KIM G",
+            "Medal": "",
+            "Splits": []
+          }
+        },
+        {
+          "Orgs": [
+            "UZB",
+            "IND"
+          ],
+          "IsPhase": false,
+          "ResCode": "M.90KG--------------.SFNL.000100--",
+          "ShowLink": true,
+          "Disc": "BOX",
+          "DiscDesc": "Boxing",
+          "Key": "M.90KG--------------.SFNL.000100--",
+          "isH2H": true,
+          "Type": "A",
+          "Medal": "2",
+          "Status": "OFFICIAL",
+          "StatusDesc": "Official",
+          "DateTimeRaw": "2026-09-30T15:30:00+09:00",
+          "HideStartDate": false,
+          "Estimated": true,
+          "EstText": "FOLLOW BY",
+          "HideLocation": false,
+          "Venue": "NIS",
+          "VenueDesc": "Nishio Gymnasium",
+          "VenueDescS": "Nishio Gymnasium",
+          "Loc": "NIS",
+          "LocDesc": "Ring 1",
+          "LocDescS": "Ring 1",
+          "Event": "M.90KG--------------",
+          "EventDesc": "Men's 90kg",
+          "Phase": "M.90KG--------------.SFNL",
+          "PhaseOrder": 3,
+          "PhaseDesc": "Men's 90KG Semifinal",
+          "PhaseDescS": "Men's 90KG Semifinal",
+          "PhaseDescA": "Semifinal",
+          "UnitDesc": "Men's 90KG - Semifinal",
+          "UnitDescS": "90KG - Semifinal",
+          "UnitDescA": "Semifinal",
+          "EndDateTimeRaw": "2026-09-30T15:45:00+09:00",
+          "ActualEndDateTimeRaw": "2026-09-30T15:45:00+09:00",
+          "UnitNum": "167",
+          "IsLive": false,
+          "ShowResults": true,
+          "Periods": [
+            {
+              "Order": 1,
+              "Desc": "Round 1",
+              "DescS": "R 1",
+              "Extensions": [
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueKnockdowns",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 1,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 2,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 3,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 4,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 5,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueWarnings",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedKnockdowns",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 1,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 2,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 3,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 4,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 5,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedWarnings",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                }
+              ]
+            },
+            {
+              "Order": 2,
+              "Desc": "Round 2",
+              "DescS": "R 2",
+              "Extensions": [
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueKnockdowns",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 1,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 2,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 3,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 4,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 5,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueWarnings",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedKnockdowns",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 1,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 2,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 3,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 4,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 5,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedWarnings",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                }
+              ]
+            },
+            {
+              "Order": 3,
+              "Desc": "Round 3",
+              "DescS": "R 3",
+              "Extensions": [
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueKnockdowns",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 1,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 2,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 3,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 4,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 5,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueWarnings",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedKnockdowns",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 1,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 2,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 3,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 4,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 5,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedWarnings",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                }
+              ]
+            }
+          ],
+          "Home": {
+            "Org": "UZB",
+            "Reg": "4174056",
+            "Name": "KHABIBULLAEV Turabek",
+            "Result": "4",
+            "Winner": true,
+            "HasData": true,
+            "NameS": "KHABIBULLAEV T",
+            "Medal": "",
+            "Splits": []
+          },
+          "Away": {
+            "Org": "IND",
+            "Reg": "5455376",
+            "Name": "POKHARIYA Kapil",
+            "Result": "1",
+            "Winner": false,
+            "HasData": true,
+            "NameS": "POKHARIYA K",
+            "Medal": "ME_BRONZE",
+            "Splits": []
+          }
+        }
+      ],
+      "historical": null
+    }
+  },
+  {
     "reg": "9197810",
     "name": "NARENDER",
     "org": "IND",
@@ -202265,10 +203565,10 @@
           "Desc": "Trap Women Individual",
           "DescS": "Trap Women Individual",
           "isMember": false,
-          "Medal": "ME_GOLD",
           "Rank": "1",
           "IRM": "",
-          "Result": "28"
+          "Result": "28",
+          "Medal": "ME_GOLD"
         },
         {
           "Disc": "SHO",
@@ -202280,10 +203580,10 @@
           "TeamReg": "SHOXTRMT-------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
+          "Medal": "ME_GOLD",
           "Rank": "1",
           "IRM": "",
-          "Result": "34",
-          "Medal": "ME_GOLD"
+          "Result": "34"
         }
       ],
       "schedule": [
@@ -216833,10 +218133,10 @@
           "Desc": "Women's Singles",
           "DescS": "Women's Singles",
           "isMember": false,
-          "Medal": "ME_SILVER",
           "Rank": "2",
           "IRM": "OK",
-          "Result": ""
+          "Result": "",
+          "Medal": "ME_SILVER"
         },
         {
           "Disc": "SQU",
@@ -221698,10 +222998,10 @@
           "TeamReg": "SQUXDOUBLES----IND02",
           "TeamOrg": "IND",
           "TeamName": "CHINAPPA J. /SENTHILKUMAR V.",
+          "Medal": "ME_BRONZE",
           "Rank": "3",
           "IRM": "OK",
-          "Result": "",
-          "Medal": "ME_BRONZE"
+          "Result": ""
         }
       ],
       "schedule": [
