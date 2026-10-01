@@ -8279,10 +8279,10 @@
           "TeamReg": "ARCMCTEAM------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
-          "Medal": "ME_GOLD",
           "Rank": "",
           "IRM": "",
-          "Result": ""
+          "Result": "",
+          "Medal": "ME_GOLD"
         },
         {
           "Disc": "ARC",
@@ -16592,10 +16592,10 @@
           "TeamReg": "ARCMCTEAM------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
+          "Medal": "ME_GOLD",
           "Rank": "",
           "IRM": "",
-          "Result": "",
-          "Medal": "ME_GOLD"
+          "Result": ""
         },
         {
           "Disc": "ARC",
@@ -35808,6 +35808,10 @@
       {
         "medal": "gold",
         "event": "Compound Mixed Team Finals"
+      },
+      {
+        "medal": "bronze",
+        "event": "Compound Men's Individual Finals"
       }
     ],
     "bio_data": {
@@ -35838,6 +35842,7 @@
           "Desc": "Compound Men's Individual",
           "DescS": "Compound Men's Individual",
           "isMember": false,
+          "Medal": "ME_BRONZE",
           "Rank": "",
           "IRM": "",
           "Result": ""
@@ -49684,7 +49689,7 @@
               "Type": "UNIT_INFO",
               "Code": "NextPhaseStarted",
               "Pos": 0,
-              "Value": "N",
+              "Value": "Y",
               "Extensions": []
             },
             {
@@ -49719,7 +49724,7 @@
               "Type": "UNIT_INFO",
               "Code": "PhaseFinished",
               "Pos": 0,
-              "Value": "N",
+              "Value": "Y",
               "Extensions": []
             },
             {
@@ -49759,8 +49764,8 @@
           "isH2H": true,
           "Type": "A",
           "Medal": "0",
-          "Status": "START_LIST",
-          "StatusDesc": "Start List",
+          "Status": "OFFICIAL",
+          "StatusDesc": "Official",
           "DateTimeRaw": "2026-10-01T14:08:00+09:00",
           "HideStartDate": false,
           "Estimated": false,
@@ -49782,22 +49787,934 @@
           "UnitDesc": "Compound Men's Individual Semifinal",
           "UnitDescS": "Compound Men's Ind. Semifinal",
           "UnitDescA": "",
-          "EndDateTimeRaw": "",
-          "ActualEndDateTimeRaw": "",
+          "EndDateTimeRaw": "2026-10-01T14:17:00+09:00",
+          "ActualEndDateTimeRaw": "2026-10-01T14:17:00+09:00",
           "UnitNum": "337",
           "IsLive": false,
-          "ShowResults": false,
-          "Periods": [],
+          "ShowResults": true,
+          "Periods": [
+            {
+              "Order": 1,
+              "Desc": "End 1",
+              "DescS": "E1",
+              "Extensions": [
+                {
+                  "Type": "SPLIT_INFO",
+                  "Code": "HomePoints",
+                  "Pos": 0,
+                  "Value": "30",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_INFO",
+                  "Code": "HomeRank",
+                  "Pos": 0,
+                  "Value": "1",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_INFO",
+                  "Code": "HomeShootFirst",
+                  "Pos": 0,
+                  "Value": "N",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_INFO",
+                  "Code": "AwayPoints",
+                  "Pos": 0,
+                  "Value": "29",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_INFO",
+                  "Code": "AwayRank",
+                  "Pos": 0,
+                  "Value": "2",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_INFO",
+                  "Code": "AwayShootFirst",
+                  "Pos": 0,
+                  "Value": "N",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_INFO",
+                  "Code": "Played",
+                  "Pos": 0,
+                  "Value": "Y",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_INFO",
+                  "Code": "ShootOff",
+                  "Pos": 0,
+                  "Value": "N",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_INFO",
+                  "Code": "EndKey",
+                  "Pos": 1,
+                  "Value": "M.CINDIVID----------.SFNL.000100--.1.1",
+                  "Extensions": [
+                    {
+                      "Type": "ARROWS_INFO",
+                      "Code": "NArrows",
+                      "Pos": 0,
+                      "Value": "3"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "Order": 2,
+              "Desc": "End 2",
+              "DescS": "E2",
+              "Extensions": [
+                {
+                  "Type": "SPLIT_INFO",
+                  "Code": "HomePoints",
+                  "Pos": 0,
+                  "Value": "30",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_INFO",
+                  "Code": "HomeRank",
+                  "Pos": 0,
+                  "Value": "1",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_INFO",
+                  "Code": "HomeShootFirst",
+                  "Pos": 0,
+                  "Value": "N",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_INFO",
+                  "Code": "AwayPoints",
+                  "Pos": 0,
+                  "Value": "29",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_INFO",
+                  "Code": "AwayRank",
+                  "Pos": 0,
+                  "Value": "2",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_INFO",
+                  "Code": "AwayShootFirst",
+                  "Pos": 0,
+                  "Value": "N",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_INFO",
+                  "Code": "Played",
+                  "Pos": 0,
+                  "Value": "Y",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_INFO",
+                  "Code": "ShootOff",
+                  "Pos": 0,
+                  "Value": "N",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_INFO",
+                  "Code": "EndKey",
+                  "Pos": 1,
+                  "Value": "M.CINDIVID----------.SFNL.000100--.2.1",
+                  "Extensions": [
+                    {
+                      "Type": "ARROWS_INFO",
+                      "Code": "NArrows",
+                      "Pos": 0,
+                      "Value": "3"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "Order": 3,
+              "Desc": "End 3",
+              "DescS": "E3",
+              "Extensions": [
+                {
+                  "Type": "SPLIT_INFO",
+                  "Code": "HomePoints",
+                  "Pos": 0,
+                  "Value": "28",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_INFO",
+                  "Code": "HomeRank",
+                  "Pos": 0,
+                  "Value": "2",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_INFO",
+                  "Code": "HomeShootFirst",
+                  "Pos": 0,
+                  "Value": "N",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_INFO",
+                  "Code": "AwayPoints",
+                  "Pos": 0,
+                  "Value": "29",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_INFO",
+                  "Code": "AwayRank",
+                  "Pos": 0,
+                  "Value": "1",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_INFO",
+                  "Code": "AwayShootFirst",
+                  "Pos": 0,
+                  "Value": "N",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_INFO",
+                  "Code": "Played",
+                  "Pos": 0,
+                  "Value": "Y",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_INFO",
+                  "Code": "ShootOff",
+                  "Pos": 0,
+                  "Value": "N",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_INFO",
+                  "Code": "EndKey",
+                  "Pos": 1,
+                  "Value": "M.CINDIVID----------.SFNL.000100--.3.1",
+                  "Extensions": [
+                    {
+                      "Type": "ARROWS_INFO",
+                      "Code": "NArrows",
+                      "Pos": 0,
+                      "Value": "3"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "Order": 4,
+              "Desc": "End 4",
+              "DescS": "E4",
+              "Extensions": [
+                {
+                  "Type": "SPLIT_INFO",
+                  "Code": "HomePoints",
+                  "Pos": 0,
+                  "Value": "30",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_INFO",
+                  "Code": "HomeRank",
+                  "Pos": 0,
+                  "Value": "1",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_INFO",
+                  "Code": "HomeShootFirst",
+                  "Pos": 0,
+                  "Value": "N",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_INFO",
+                  "Code": "AwayPoints",
+                  "Pos": 0,
+                  "Value": "29",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_INFO",
+                  "Code": "AwayRank",
+                  "Pos": 0,
+                  "Value": "2",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_INFO",
+                  "Code": "AwayShootFirst",
+                  "Pos": 0,
+                  "Value": "N",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_INFO",
+                  "Code": "Played",
+                  "Pos": 0,
+                  "Value": "Y",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_INFO",
+                  "Code": "ShootOff",
+                  "Pos": 0,
+                  "Value": "N",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_INFO",
+                  "Code": "EndKey",
+                  "Pos": 1,
+                  "Value": "M.CINDIVID----------.SFNL.000100--.4.1",
+                  "Extensions": [
+                    {
+                      "Type": "ARROWS_INFO",
+                      "Code": "NArrows",
+                      "Pos": 0,
+                      "Value": "3"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "Order": 5,
+              "Desc": "End 5",
+              "DescS": "E5",
+              "Extensions": [
+                {
+                  "Type": "SPLIT_INFO",
+                  "Code": "HomePoints",
+                  "Pos": 0,
+                  "Value": "30",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_INFO",
+                  "Code": "HomeRank",
+                  "Pos": 0,
+                  "Value": "1",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_INFO",
+                  "Code": "HomeShootFirst",
+                  "Pos": 0,
+                  "Value": "N",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_INFO",
+                  "Code": "AwayPoints",
+                  "Pos": 0,
+                  "Value": "28",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_INFO",
+                  "Code": "AwayRank",
+                  "Pos": 0,
+                  "Value": "2",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_INFO",
+                  "Code": "AwayShootFirst",
+                  "Pos": 0,
+                  "Value": "N",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_INFO",
+                  "Code": "Played",
+                  "Pos": 0,
+                  "Value": "Y",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_INFO",
+                  "Code": "ShootOff",
+                  "Pos": 0,
+                  "Value": "N",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_INFO",
+                  "Code": "EndKey",
+                  "Pos": 1,
+                  "Value": "M.CINDIVID----------.SFNL.000100--.5.1",
+                  "Extensions": [
+                    {
+                      "Type": "ARROWS_INFO",
+                      "Code": "NArrows",
+                      "Pos": 0,
+                      "Value": "3"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
           "Home": {
             "Org": "KOR",
             "Reg": "10419527",
             "Name": "KIM Jongho",
-            "Result": "",
-            "Winner": false,
+            "Result": "148",
+            "Winner": true,
             "HasData": true,
             "NameS": "KIM J",
             "Medal": "",
-            "Splits": [],
+            "Splits": [
+              {
+                "Rk": "1",
+                "RkPo": 1,
+                "Res": "30",
+                "Extensions": [
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ARROW",
+                    "Pos": 1,
+                    "Value": "X",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ARROW",
+                    "Pos": 2,
+                    "Value": "10",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ARROW",
+                    "Pos": 3,
+                    "Value": "X",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ARROW_POSITION",
+                    "Pos": 1,
+                    "Value": "0:0|0|0|0|0|122",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ARROW_POSITION",
+                    "Pos": 2,
+                    "Value": "0:0|0|0|0|0|122",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ARROW_POSITION",
+                    "Pos": 3,
+                    "Value": "0:0|0|0|0|0|122",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "MemberReg",
+                    "Pos": 0,
+                    "Value": "10419527",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "SetPoints",
+                    "Pos": 0,
+                    "Value": "30",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ShootFirst",
+                    "Pos": 0,
+                    "Value": "Y",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ShootOff",
+                    "Pos": 0,
+                    "Value": "N",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "Tens",
+                    "Pos": 0,
+                    "Value": "3",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "XTens",
+                    "Pos": 0,
+                    "Value": "2",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "SplitPlayed",
+                    "Pos": 0,
+                    "Value": "Y",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "CLOSEST_END",
+                    "Pos": 0,
+                    "Value": "",
+                    "Extensions": []
+                  }
+                ]
+              },
+              {
+                "Rk": "1",
+                "RkPo": 1,
+                "Res": "30",
+                "Extensions": [
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ARROW",
+                    "Pos": 1,
+                    "Value": "X",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ARROW",
+                    "Pos": 2,
+                    "Value": "X",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ARROW",
+                    "Pos": 3,
+                    "Value": "X",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ARROW_POSITION",
+                    "Pos": 1,
+                    "Value": "0:0|0|0|0|0|122",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ARROW_POSITION",
+                    "Pos": 2,
+                    "Value": "0:0|0|0|0|0|122",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ARROW_POSITION",
+                    "Pos": 3,
+                    "Value": "0:0|0|0|0|0|122",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "MemberReg",
+                    "Pos": 0,
+                    "Value": "10419527",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "SetPoints",
+                    "Pos": 0,
+                    "Value": "30",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ShootFirst",
+                    "Pos": 0,
+                    "Value": "N",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ShootOff",
+                    "Pos": 0,
+                    "Value": "N",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "Tens",
+                    "Pos": 0,
+                    "Value": "3",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "XTens",
+                    "Pos": 0,
+                    "Value": "3",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "SplitPlayed",
+                    "Pos": 0,
+                    "Value": "Y",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "CLOSEST_END",
+                    "Pos": 0,
+                    "Value": "",
+                    "Extensions": []
+                  }
+                ]
+              },
+              {
+                "Rk": "2",
+                "RkPo": 2,
+                "Res": "28",
+                "Extensions": [
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ARROW",
+                    "Pos": 1,
+                    "Value": "9",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ARROW",
+                    "Pos": 2,
+                    "Value": "X",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ARROW",
+                    "Pos": 3,
+                    "Value": "9",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ARROW_POSITION",
+                    "Pos": 1,
+                    "Value": "0:0|0|0|0|0|122",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ARROW_POSITION",
+                    "Pos": 2,
+                    "Value": "0:0|0|0|0|0|122",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ARROW_POSITION",
+                    "Pos": 3,
+                    "Value": "0:0|0|0|0|0|122",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "MemberReg",
+                    "Pos": 0,
+                    "Value": "10419527",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "SetPoints",
+                    "Pos": 0,
+                    "Value": "28",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ShootFirst",
+                    "Pos": 0,
+                    "Value": "N",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ShootOff",
+                    "Pos": 0,
+                    "Value": "N",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "Tens",
+                    "Pos": 0,
+                    "Value": "1",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "XTens",
+                    "Pos": 0,
+                    "Value": "1",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "SplitPlayed",
+                    "Pos": 0,
+                    "Value": "Y",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "CLOSEST_END",
+                    "Pos": 0,
+                    "Value": "",
+                    "Extensions": []
+                  }
+                ]
+              },
+              {
+                "Rk": "1",
+                "RkPo": 1,
+                "Res": "30",
+                "Extensions": [
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ARROW",
+                    "Pos": 1,
+                    "Value": "10",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ARROW",
+                    "Pos": 2,
+                    "Value": "X",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ARROW",
+                    "Pos": 3,
+                    "Value": "X",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ARROW_POSITION",
+                    "Pos": 1,
+                    "Value": "0:0|0|0|0|0|122",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ARROW_POSITION",
+                    "Pos": 2,
+                    "Value": "0:0|0|0|0|0|122",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ARROW_POSITION",
+                    "Pos": 3,
+                    "Value": "0:0|0|0|0|0|122",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "MemberReg",
+                    "Pos": 0,
+                    "Value": "10419527",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "SetPoints",
+                    "Pos": 0,
+                    "Value": "30",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ShootFirst",
+                    "Pos": 0,
+                    "Value": "N",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ShootOff",
+                    "Pos": 0,
+                    "Value": "N",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "Tens",
+                    "Pos": 0,
+                    "Value": "3",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "XTens",
+                    "Pos": 0,
+                    "Value": "2",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "SplitPlayed",
+                    "Pos": 0,
+                    "Value": "Y",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "CLOSEST_END",
+                    "Pos": 0,
+                    "Value": "",
+                    "Extensions": []
+                  }
+                ]
+              },
+              {
+                "Rk": "1",
+                "RkPo": 1,
+                "Res": "30",
+                "Extensions": [
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ARROW",
+                    "Pos": 1,
+                    "Value": "10",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ARROW",
+                    "Pos": 2,
+                    "Value": "X",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ARROW",
+                    "Pos": 3,
+                    "Value": "10",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ARROW_POSITION",
+                    "Pos": 1,
+                    "Value": "0:0|0|0|0|0|122",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ARROW_POSITION",
+                    "Pos": 2,
+                    "Value": "0:0|0|0|0|0|122",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ARROW_POSITION",
+                    "Pos": 3,
+                    "Value": "0:0|0|0|0|0|122",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "MemberReg",
+                    "Pos": 0,
+                    "Value": "10419527",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "SetPoints",
+                    "Pos": 0,
+                    "Value": "30",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ShootFirst",
+                    "Pos": 0,
+                    "Value": "N",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ShootOff",
+                    "Pos": 0,
+                    "Value": "N",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "Tens",
+                    "Pos": 0,
+                    "Value": "3",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "XTens",
+                    "Pos": 0,
+                    "Value": "1",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "SplitPlayed",
+                    "Pos": 0,
+                    "Value": "Y",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "CLOSEST_END",
+                    "Pos": 0,
+                    "Value": "",
+                    "Extensions": []
+                  }
+                ]
+              }
+            ],
             "Extensions": [
               {
                 "Type": "PREV_RESULT",
@@ -49878,6 +50795,32 @@
                 ]
               },
               {
+                "Type": "PREV_RESULT",
+                "Code": "UNIT_KEY",
+                "Pos": 4,
+                "Value": " ",
+                "Extensions": [
+                  {
+                    "Type": "RESULT",
+                    "Code": "Register",
+                    "Pos": 4,
+                    "Value": "10419527"
+                  },
+                  {
+                    "Type": "RESULT",
+                    "Code": "RegisterOpp",
+                    "Pos": 4,
+                    "Value": "8772997"
+                  },
+                  {
+                    "Type": "RESULT",
+                    "Code": "Result",
+                    "Pos": 4,
+                    "Value": "148-144"
+                  }
+                ]
+              },
+              {
                 "Type": "RESULT_INFO",
                 "Code": "DisplayRank",
                 "Pos": 0,
@@ -49930,14 +50873,14 @@
                 "Type": "RESULT_INFO",
                 "Code": "Tens",
                 "Pos": 0,
-                "Value": "",
+                "Value": "13",
                 "Extensions": []
               },
               {
                 "Type": "RESULT_INFO",
                 "Code": "XTens",
                 "Pos": 0,
-                "Value": "",
+                "Value": "9",
                 "Extensions": []
               },
               {
@@ -49960,12 +50903,538 @@
             "Org": "IND",
             "Reg": "8772997",
             "Name": "THIRUMURU Ganesh Mani Ratnam",
-            "Result": "",
+            "Result": "144",
             "Winner": false,
             "HasData": true,
             "NameS": "THIRUMURU GMR",
             "Medal": "",
-            "Splits": [],
+            "Splits": [
+              {
+                "Rk": "2",
+                "RkPo": 2,
+                "Res": "29",
+                "Extensions": [
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ARROW",
+                    "Pos": 1,
+                    "Value": "X",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ARROW",
+                    "Pos": 2,
+                    "Value": "X",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ARROW",
+                    "Pos": 3,
+                    "Value": "9",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ARROW_POSITION",
+                    "Pos": 1,
+                    "Value": "0:0|0|0|0|0|122",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ARROW_POSITION",
+                    "Pos": 2,
+                    "Value": "0:0|0|0|0|0|122",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ARROW_POSITION",
+                    "Pos": 3,
+                    "Value": "0:0|0|0|0|0|122",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "MemberReg",
+                    "Pos": 0,
+                    "Value": "8772997",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "SetPoints",
+                    "Pos": 0,
+                    "Value": "29",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ShootFirst",
+                    "Pos": 0,
+                    "Value": "N",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ShootOff",
+                    "Pos": 0,
+                    "Value": "N",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "Tens",
+                    "Pos": 0,
+                    "Value": "2",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "XTens",
+                    "Pos": 0,
+                    "Value": "2",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "SplitPlayed",
+                    "Pos": 0,
+                    "Value": "Y",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "CLOSEST_END",
+                    "Pos": 0,
+                    "Value": "",
+                    "Extensions": []
+                  }
+                ]
+              },
+              {
+                "Rk": "2",
+                "RkPo": 2,
+                "Res": "29",
+                "Extensions": [
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ARROW",
+                    "Pos": 1,
+                    "Value": "9",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ARROW",
+                    "Pos": 2,
+                    "Value": "10",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ARROW",
+                    "Pos": 3,
+                    "Value": "X",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ARROW_POSITION",
+                    "Pos": 1,
+                    "Value": "0:0|0|0|0|0|122",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ARROW_POSITION",
+                    "Pos": 2,
+                    "Value": "0:0|0|0|0|0|122",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ARROW_POSITION",
+                    "Pos": 3,
+                    "Value": "0:0|0|0|0|0|122",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "MemberReg",
+                    "Pos": 0,
+                    "Value": "8772997",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "SetPoints",
+                    "Pos": 0,
+                    "Value": "29",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ShootFirst",
+                    "Pos": 0,
+                    "Value": "Y",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ShootOff",
+                    "Pos": 0,
+                    "Value": "N",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "Tens",
+                    "Pos": 0,
+                    "Value": "2",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "XTens",
+                    "Pos": 0,
+                    "Value": "1",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "SplitPlayed",
+                    "Pos": 0,
+                    "Value": "Y",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "CLOSEST_END",
+                    "Pos": 0,
+                    "Value": "",
+                    "Extensions": []
+                  }
+                ]
+              },
+              {
+                "Rk": "1",
+                "RkPo": 1,
+                "Res": "29",
+                "Extensions": [
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ARROW",
+                    "Pos": 1,
+                    "Value": "9",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ARROW",
+                    "Pos": 2,
+                    "Value": "10",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ARROW",
+                    "Pos": 3,
+                    "Value": "10",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ARROW_POSITION",
+                    "Pos": 1,
+                    "Value": "0:0|0|0|0|0|122",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ARROW_POSITION",
+                    "Pos": 2,
+                    "Value": "0:0|0|0|0|0|122",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ARROW_POSITION",
+                    "Pos": 3,
+                    "Value": "0:0|0|0|0|0|122",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "MemberReg",
+                    "Pos": 0,
+                    "Value": "8772997",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "SetPoints",
+                    "Pos": 0,
+                    "Value": "29",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ShootFirst",
+                    "Pos": 0,
+                    "Value": "Y",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ShootOff",
+                    "Pos": 0,
+                    "Value": "N",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "Tens",
+                    "Pos": 0,
+                    "Value": "2",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "XTens",
+                    "Pos": 0,
+                    "Value": "0",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "SplitPlayed",
+                    "Pos": 0,
+                    "Value": "Y",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "CLOSEST_END",
+                    "Pos": 0,
+                    "Value": "",
+                    "Extensions": []
+                  }
+                ]
+              },
+              {
+                "Rk": "2",
+                "RkPo": 2,
+                "Res": "29",
+                "Extensions": [
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ARROW",
+                    "Pos": 1,
+                    "Value": "X",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ARROW",
+                    "Pos": 2,
+                    "Value": "9",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ARROW",
+                    "Pos": 3,
+                    "Value": "X",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ARROW_POSITION",
+                    "Pos": 1,
+                    "Value": "0:0|0|0|0|0|122",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ARROW_POSITION",
+                    "Pos": 2,
+                    "Value": "0:0|0|0|0|0|122",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ARROW_POSITION",
+                    "Pos": 3,
+                    "Value": "0:0|0|0|0|0|122",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "MemberReg",
+                    "Pos": 0,
+                    "Value": "8772997",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "SetPoints",
+                    "Pos": 0,
+                    "Value": "29",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ShootFirst",
+                    "Pos": 0,
+                    "Value": "Y",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ShootOff",
+                    "Pos": 0,
+                    "Value": "N",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "Tens",
+                    "Pos": 0,
+                    "Value": "2",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "XTens",
+                    "Pos": 0,
+                    "Value": "2",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "SplitPlayed",
+                    "Pos": 0,
+                    "Value": "Y",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "CLOSEST_END",
+                    "Pos": 0,
+                    "Value": "",
+                    "Extensions": []
+                  }
+                ]
+              },
+              {
+                "Rk": "2",
+                "RkPo": 2,
+                "Res": "28",
+                "Extensions": [
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ARROW",
+                    "Pos": 1,
+                    "Value": "9",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ARROW",
+                    "Pos": 2,
+                    "Value": "9",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ARROW",
+                    "Pos": 3,
+                    "Value": "10",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ARROW_POSITION",
+                    "Pos": 1,
+                    "Value": "0:0|0|0|0|0|122",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ARROW_POSITION",
+                    "Pos": 2,
+                    "Value": "0:0|0|0|0|0|122",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ARROW_POSITION",
+                    "Pos": 3,
+                    "Value": "0:0|0|0|0|0|122",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "MemberReg",
+                    "Pos": 0,
+                    "Value": "8772997",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "SetPoints",
+                    "Pos": 0,
+                    "Value": "28",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ShootFirst",
+                    "Pos": 0,
+                    "Value": "Y",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ShootOff",
+                    "Pos": 0,
+                    "Value": "N",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "Tens",
+                    "Pos": 0,
+                    "Value": "1",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "XTens",
+                    "Pos": 0,
+                    "Value": "0",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "SplitPlayed",
+                    "Pos": 0,
+                    "Value": "Y",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "CLOSEST_END",
+                    "Pos": 0,
+                    "Value": "",
+                    "Extensions": []
+                  }
+                ]
+              }
+            ],
             "Extensions": [
               {
                 "Type": "PREV_RESULT",
@@ -50046,6 +51515,32 @@
                 ]
               },
               {
+                "Type": "PREV_RESULT",
+                "Code": "UNIT_KEY",
+                "Pos": 4,
+                "Value": " ",
+                "Extensions": [
+                  {
+                    "Type": "RESULT",
+                    "Code": "Register",
+                    "Pos": 4,
+                    "Value": "8772997"
+                  },
+                  {
+                    "Type": "RESULT",
+                    "Code": "RegisterOpp",
+                    "Pos": 4,
+                    "Value": "10419527"
+                  },
+                  {
+                    "Type": "RESULT",
+                    "Code": "Result",
+                    "Pos": 4,
+                    "Value": "144-148"
+                  }
+                ]
+              },
+              {
                 "Type": "RESULT_INFO",
                 "Code": "DisplayRank",
                 "Pos": 0,
@@ -50098,14 +51593,14 @@
                 "Type": "RESULT_INFO",
                 "Code": "Tens",
                 "Pos": 0,
-                "Value": "",
+                "Value": "9",
                 "Extensions": []
               },
               {
                 "Type": "RESULT_INFO",
                 "Code": "XTens",
                 "Pos": 0,
-                "Value": "",
+                "Value": "5",
                 "Extensions": []
               },
               {
@@ -50157,7 +51652,2036 @@
               "Type": "UNIT_INFO",
               "Code": "NEnds",
               "Pos": 0,
+              "Value": "5",
+              "Extensions": []
+            },
+            {
+              "Type": "UNIT_INFO",
+              "Code": "NEndsSO",
+              "Pos": 0,
+              "Value": "1",
+              "Extensions": []
+            },
+            {
+              "Type": "UNIT_INFO",
+              "Code": "NextPhaseStarted",
+              "Pos": 0,
+              "Value": "Y",
+              "Extensions": []
+            },
+            {
+              "Type": "UNIT_INFO",
+              "Code": "NSOSplits",
+              "Pos": 0,
+              "Value": "1",
+              "Extensions": []
+            },
+            {
+              "Type": "UNIT_INFO",
+              "Code": "NSOSplitsPlayed",
+              "Pos": 0,
+              "Value": "0",
+              "Extensions": []
+            },
+            {
+              "Type": "UNIT_INFO",
+              "Code": "NSplits",
+              "Pos": 0,
+              "Value": "5",
+              "Extensions": []
+            },
+            {
+              "Type": "UNIT_INFO",
+              "Code": "NTotalArrows",
+              "Pos": 0,
+              "Value": "15",
+              "Extensions": []
+            },
+            {
+              "Type": "UNIT_INFO",
+              "Code": "PhaseFinished",
+              "Pos": 0,
+              "Value": "Y",
+              "Extensions": []
+            },
+            {
+              "Type": "UNIT_INFO",
+              "Code": "WindDirection",
+              "Pos": 0,
               "Value": "",
+              "Extensions": []
+            },
+            {
+              "Type": "UNIT_INFO",
+              "Code": "WindSpeed",
+              "Pos": 0,
+              "Value": "",
+              "Extensions": []
+            },
+            {
+              "Type": "UNIT_INFO",
+              "Code": "WindSpeedUnit",
+              "Pos": 0,
+              "Value": "",
+              "Extensions": []
+            }
+          ]
+        },
+        {
+          "Orgs": [
+            "IND",
+            "VIE"
+          ],
+          "IsPhase": false,
+          "ResCode": "M.CINDIVID----------.FNL-.000200--",
+          "ShowLink": true,
+          "Disc": "ARC",
+          "DiscDesc": "Archery",
+          "Key": "M.CINDIVID----------.FNL-.000200--",
+          "isH2H": true,
+          "Type": "A",
+          "Medal": "2",
+          "Status": "OFFICIAL",
+          "StatusDesc": "Official",
+          "DateTimeRaw": "2026-10-01T14:44:00+09:00",
+          "HideStartDate": false,
+          "Estimated": false,
+          "EstText": "",
+          "HideLocation": true,
+          "Venue": "OCM",
+          "VenueDesc": "Okazaki Chuo Sogo Park Multipurpose Square",
+          "VenueDescS": "Okazaki Chuo Sogo Park Multipurpose Sq.",
+          "Loc": "OCM",
+          "LocDesc": "Okazaki Chuso Park Multipurpose Sq.",
+          "LocDescS": "Okazaki Chuo Sogo Park Multipurpose Sq.",
+          "Event": "M.CINDIVID----------",
+          "EventDesc": "Compound Men's Individual",
+          "Phase": "M.CINDIVID----------.FNL-",
+          "PhaseOrder": 7,
+          "PhaseDesc": "Compound Men's Individual Finals",
+          "PhaseDescS": "Compound Men's Ind. Finals",
+          "PhaseDescA": "Finals",
+          "UnitDesc": "Compound Men's Individual Bronze Medal Match",
+          "UnitDescS": "Compound Men's Ind. Bronze Medal Match",
+          "UnitDescA": "",
+          "EndDateTimeRaw": "2026-10-01T14:52:00+09:00",
+          "ActualEndDateTimeRaw": "2026-10-01T14:52:00+09:00",
+          "UnitNum": "339",
+          "IsLive": false,
+          "ShowResults": true,
+          "Periods": [
+            {
+              "Order": 1,
+              "Desc": "End 1",
+              "DescS": "E1",
+              "Extensions": [
+                {
+                  "Type": "SPLIT_INFO",
+                  "Code": "HomePoints",
+                  "Pos": 0,
+                  "Value": "30",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_INFO",
+                  "Code": "HomeRank",
+                  "Pos": 0,
+                  "Value": "1",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_INFO",
+                  "Code": "HomeShootFirst",
+                  "Pos": 0,
+                  "Value": "N",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_INFO",
+                  "Code": "AwayPoints",
+                  "Pos": 0,
+                  "Value": "29",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_INFO",
+                  "Code": "AwayRank",
+                  "Pos": 0,
+                  "Value": "2",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_INFO",
+                  "Code": "AwayShootFirst",
+                  "Pos": 0,
+                  "Value": "N",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_INFO",
+                  "Code": "Played",
+                  "Pos": 0,
+                  "Value": "Y",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_INFO",
+                  "Code": "ShootOff",
+                  "Pos": 0,
+                  "Value": "N",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_INFO",
+                  "Code": "EndKey",
+                  "Pos": 1,
+                  "Value": "M.CINDIVID----------.FNL-.000200--.1.1",
+                  "Extensions": [
+                    {
+                      "Type": "ARROWS_INFO",
+                      "Code": "NArrows",
+                      "Pos": 0,
+                      "Value": "3"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "Order": 2,
+              "Desc": "End 2",
+              "DescS": "E2",
+              "Extensions": [
+                {
+                  "Type": "SPLIT_INFO",
+                  "Code": "HomePoints",
+                  "Pos": 0,
+                  "Value": "30",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_INFO",
+                  "Code": "HomeRank",
+                  "Pos": 0,
+                  "Value": "1",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_INFO",
+                  "Code": "HomeShootFirst",
+                  "Pos": 0,
+                  "Value": "N",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_INFO",
+                  "Code": "AwayPoints",
+                  "Pos": 0,
+                  "Value": "29",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_INFO",
+                  "Code": "AwayRank",
+                  "Pos": 0,
+                  "Value": "2",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_INFO",
+                  "Code": "AwayShootFirst",
+                  "Pos": 0,
+                  "Value": "N",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_INFO",
+                  "Code": "Played",
+                  "Pos": 0,
+                  "Value": "Y",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_INFO",
+                  "Code": "ShootOff",
+                  "Pos": 0,
+                  "Value": "N",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_INFO",
+                  "Code": "EndKey",
+                  "Pos": 1,
+                  "Value": "M.CINDIVID----------.FNL-.000200--.2.1",
+                  "Extensions": [
+                    {
+                      "Type": "ARROWS_INFO",
+                      "Code": "NArrows",
+                      "Pos": 0,
+                      "Value": "3"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "Order": 3,
+              "Desc": "End 3",
+              "DescS": "E3",
+              "Extensions": [
+                {
+                  "Type": "SPLIT_INFO",
+                  "Code": "HomePoints",
+                  "Pos": 0,
+                  "Value": "30",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_INFO",
+                  "Code": "HomeRank",
+                  "Pos": 0,
+                  "Value": "1",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_INFO",
+                  "Code": "HomeShootFirst",
+                  "Pos": 0,
+                  "Value": "N",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_INFO",
+                  "Code": "AwayPoints",
+                  "Pos": 0,
+                  "Value": "30",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_INFO",
+                  "Code": "AwayRank",
+                  "Pos": 0,
+                  "Value": "1",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_INFO",
+                  "Code": "AwayShootFirst",
+                  "Pos": 0,
+                  "Value": "N",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_INFO",
+                  "Code": "Played",
+                  "Pos": 0,
+                  "Value": "Y",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_INFO",
+                  "Code": "ShootOff",
+                  "Pos": 0,
+                  "Value": "N",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_INFO",
+                  "Code": "EndKey",
+                  "Pos": 1,
+                  "Value": "M.CINDIVID----------.FNL-.000200--.3.1",
+                  "Extensions": [
+                    {
+                      "Type": "ARROWS_INFO",
+                      "Code": "NArrows",
+                      "Pos": 0,
+                      "Value": "3"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "Order": 4,
+              "Desc": "End 4",
+              "DescS": "E4",
+              "Extensions": [
+                {
+                  "Type": "SPLIT_INFO",
+                  "Code": "HomePoints",
+                  "Pos": 0,
+                  "Value": "29",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_INFO",
+                  "Code": "HomeRank",
+                  "Pos": 0,
+                  "Value": "1",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_INFO",
+                  "Code": "HomeShootFirst",
+                  "Pos": 0,
+                  "Value": "N",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_INFO",
+                  "Code": "AwayPoints",
+                  "Pos": 0,
+                  "Value": "28",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_INFO",
+                  "Code": "AwayRank",
+                  "Pos": 0,
+                  "Value": "2",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_INFO",
+                  "Code": "AwayShootFirst",
+                  "Pos": 0,
+                  "Value": "N",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_INFO",
+                  "Code": "Played",
+                  "Pos": 0,
+                  "Value": "Y",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_INFO",
+                  "Code": "ShootOff",
+                  "Pos": 0,
+                  "Value": "N",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_INFO",
+                  "Code": "EndKey",
+                  "Pos": 1,
+                  "Value": "M.CINDIVID----------.FNL-.000200--.4.1",
+                  "Extensions": [
+                    {
+                      "Type": "ARROWS_INFO",
+                      "Code": "NArrows",
+                      "Pos": 0,
+                      "Value": "3"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "Order": 5,
+              "Desc": "End 5",
+              "DescS": "E5",
+              "Extensions": [
+                {
+                  "Type": "SPLIT_INFO",
+                  "Code": "HomePoints",
+                  "Pos": 0,
+                  "Value": "30",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_INFO",
+                  "Code": "HomeRank",
+                  "Pos": 0,
+                  "Value": "1",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_INFO",
+                  "Code": "HomeShootFirst",
+                  "Pos": 0,
+                  "Value": "N",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_INFO",
+                  "Code": "AwayPoints",
+                  "Pos": 0,
+                  "Value": "28",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_INFO",
+                  "Code": "AwayRank",
+                  "Pos": 0,
+                  "Value": "2",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_INFO",
+                  "Code": "AwayShootFirst",
+                  "Pos": 0,
+                  "Value": "N",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_INFO",
+                  "Code": "Played",
+                  "Pos": 0,
+                  "Value": "Y",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_INFO",
+                  "Code": "ShootOff",
+                  "Pos": 0,
+                  "Value": "N",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_INFO",
+                  "Code": "EndKey",
+                  "Pos": 1,
+                  "Value": "M.CINDIVID----------.FNL-.000200--.5.1",
+                  "Extensions": [
+                    {
+                      "Type": "ARROWS_INFO",
+                      "Code": "NArrows",
+                      "Pos": 0,
+                      "Value": "3"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "Home": {
+            "Org": "IND",
+            "Reg": "8772997",
+            "Name": "THIRUMURU Ganesh Mani Ratnam",
+            "Result": "149",
+            "Winner": true,
+            "HasData": true,
+            "NameS": "THIRUMURU GMR",
+            "Medal": "ME_BRONZE",
+            "Splits": [
+              {
+                "Rk": "1",
+                "RkPo": 1,
+                "Res": "30",
+                "Extensions": [
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ARROW",
+                    "Pos": 1,
+                    "Value": "X",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ARROW",
+                    "Pos": 2,
+                    "Value": "10",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ARROW",
+                    "Pos": 3,
+                    "Value": "X",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ARROW_POSITION",
+                    "Pos": 1,
+                    "Value": "0:0|0|0|0|0|122",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ARROW_POSITION",
+                    "Pos": 2,
+                    "Value": "0:0|0|0|0|0|122",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ARROW_POSITION",
+                    "Pos": 3,
+                    "Value": "0:0|0|0|0|0|122",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "MemberReg",
+                    "Pos": 0,
+                    "Value": "8772997",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "SetPoints",
+                    "Pos": 0,
+                    "Value": "30",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ShootFirst",
+                    "Pos": 0,
+                    "Value": "N",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ShootOff",
+                    "Pos": 0,
+                    "Value": "N",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "Tens",
+                    "Pos": 0,
+                    "Value": "3",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "XTens",
+                    "Pos": 0,
+                    "Value": "2",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "SplitPlayed",
+                    "Pos": 0,
+                    "Value": "Y",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "CLOSEST_END",
+                    "Pos": 0,
+                    "Value": "",
+                    "Extensions": []
+                  }
+                ]
+              },
+              {
+                "Rk": "1",
+                "RkPo": 1,
+                "Res": "30",
+                "Extensions": [
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ARROW",
+                    "Pos": 1,
+                    "Value": "X",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ARROW",
+                    "Pos": 2,
+                    "Value": "10",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ARROW",
+                    "Pos": 3,
+                    "Value": "10",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ARROW_POSITION",
+                    "Pos": 1,
+                    "Value": "0:0|0|0|0|0|122",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ARROW_POSITION",
+                    "Pos": 2,
+                    "Value": "0:0|0|0|0|0|122",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ARROW_POSITION",
+                    "Pos": 3,
+                    "Value": "0:0|0|0|0|0|122",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "MemberReg",
+                    "Pos": 0,
+                    "Value": "8772997",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "SetPoints",
+                    "Pos": 0,
+                    "Value": "30",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ShootFirst",
+                    "Pos": 0,
+                    "Value": "N",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ShootOff",
+                    "Pos": 0,
+                    "Value": "N",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "Tens",
+                    "Pos": 0,
+                    "Value": "3",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "XTens",
+                    "Pos": 0,
+                    "Value": "1",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "SplitPlayed",
+                    "Pos": 0,
+                    "Value": "Y",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "CLOSEST_END",
+                    "Pos": 0,
+                    "Value": "",
+                    "Extensions": []
+                  }
+                ]
+              },
+              {
+                "Rk": "1",
+                "RkPo": 1,
+                "Res": "30",
+                "Extensions": [
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ARROW",
+                    "Pos": 1,
+                    "Value": "10",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ARROW",
+                    "Pos": 2,
+                    "Value": "X",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ARROW",
+                    "Pos": 3,
+                    "Value": "10",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ARROW_POSITION",
+                    "Pos": 1,
+                    "Value": "0:0|0|0|0|0|122",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ARROW_POSITION",
+                    "Pos": 2,
+                    "Value": "0:0|0|0|0|0|122",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ARROW_POSITION",
+                    "Pos": 3,
+                    "Value": "0:0|0|0|0|0|122",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "MemberReg",
+                    "Pos": 0,
+                    "Value": "8772997",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "SetPoints",
+                    "Pos": 0,
+                    "Value": "30",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ShootFirst",
+                    "Pos": 0,
+                    "Value": "N",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ShootOff",
+                    "Pos": 0,
+                    "Value": "N",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "Tens",
+                    "Pos": 0,
+                    "Value": "3",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "XTens",
+                    "Pos": 0,
+                    "Value": "1",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "SplitPlayed",
+                    "Pos": 0,
+                    "Value": "Y",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "CLOSEST_END",
+                    "Pos": 0,
+                    "Value": "",
+                    "Extensions": []
+                  }
+                ]
+              },
+              {
+                "Rk": "1",
+                "RkPo": 1,
+                "Res": "29",
+                "Extensions": [
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ARROW",
+                    "Pos": 1,
+                    "Value": "X",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ARROW",
+                    "Pos": 2,
+                    "Value": "9",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ARROW",
+                    "Pos": 3,
+                    "Value": "10",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ARROW_POSITION",
+                    "Pos": 1,
+                    "Value": "0:0|0|0|0|0|122",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ARROW_POSITION",
+                    "Pos": 2,
+                    "Value": "0:0|0|0|0|0|122",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ARROW_POSITION",
+                    "Pos": 3,
+                    "Value": "0:0|0|0|0|0|122",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "MemberReg",
+                    "Pos": 0,
+                    "Value": "8772997",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "SetPoints",
+                    "Pos": 0,
+                    "Value": "29",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ShootFirst",
+                    "Pos": 0,
+                    "Value": "N",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ShootOff",
+                    "Pos": 0,
+                    "Value": "N",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "Tens",
+                    "Pos": 0,
+                    "Value": "2",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "XTens",
+                    "Pos": 0,
+                    "Value": "1",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "SplitPlayed",
+                    "Pos": 0,
+                    "Value": "Y",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "CLOSEST_END",
+                    "Pos": 0,
+                    "Value": "",
+                    "Extensions": []
+                  }
+                ]
+              },
+              {
+                "Rk": "1",
+                "RkPo": 1,
+                "Res": "30",
+                "Extensions": [
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ARROW",
+                    "Pos": 1,
+                    "Value": "X",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ARROW",
+                    "Pos": 2,
+                    "Value": "X",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ARROW",
+                    "Pos": 3,
+                    "Value": "X",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ARROW_POSITION",
+                    "Pos": 1,
+                    "Value": "0:0|0|0|0|0|122",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ARROW_POSITION",
+                    "Pos": 2,
+                    "Value": "0:0|0|0|0|0|122",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ARROW_POSITION",
+                    "Pos": 3,
+                    "Value": "0:0|0|0|0|0|122",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "MemberReg",
+                    "Pos": 0,
+                    "Value": "8772997",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "SetPoints",
+                    "Pos": 0,
+                    "Value": "30",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ShootFirst",
+                    "Pos": 0,
+                    "Value": "N",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ShootOff",
+                    "Pos": 0,
+                    "Value": "N",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "Tens",
+                    "Pos": 0,
+                    "Value": "3",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "XTens",
+                    "Pos": 0,
+                    "Value": "3",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "SplitPlayed",
+                    "Pos": 0,
+                    "Value": "Y",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "CLOSEST_END",
+                    "Pos": 0,
+                    "Value": "",
+                    "Extensions": []
+                  }
+                ]
+              }
+            ],
+            "Extensions": [
+              {
+                "Type": "PREV_RESULT",
+                "Code": "UNIT_KEY",
+                "Pos": 1,
+                "Value": " ",
+                "Extensions": [
+                  {
+                    "Type": "RESULT",
+                    "Code": "Register",
+                    "Pos": 1,
+                    "Value": "8772997"
+                  },
+                  {
+                    "Type": "RESULT",
+                    "Code": "RegisterOpp",
+                    "Pos": 1,
+                    "Value": "10386766"
+                  },
+                  {
+                    "Type": "RESULT",
+                    "Code": "Result",
+                    "Pos": 1,
+                    "Value": "144-142"
+                  }
+                ]
+              },
+              {
+                "Type": "PREV_RESULT",
+                "Code": "UNIT_KEY",
+                "Pos": 2,
+                "Value": " ",
+                "Extensions": [
+                  {
+                    "Type": "RESULT",
+                    "Code": "Register",
+                    "Pos": 2,
+                    "Value": "8772997"
+                  },
+                  {
+                    "Type": "RESULT",
+                    "Code": "RegisterOpp",
+                    "Pos": 2,
+                    "Value": "4887824"
+                  },
+                  {
+                    "Type": "RESULT",
+                    "Code": "Result",
+                    "Pos": 2,
+                    "Value": "149-148"
+                  }
+                ]
+              },
+              {
+                "Type": "PREV_RESULT",
+                "Code": "UNIT_KEY",
+                "Pos": 3,
+                "Value": " ",
+                "Extensions": [
+                  {
+                    "Type": "RESULT",
+                    "Code": "Register",
+                    "Pos": 3,
+                    "Value": "8772997"
+                  },
+                  {
+                    "Type": "RESULT",
+                    "Code": "RegisterOpp",
+                    "Pos": 3,
+                    "Value": "3175093"
+                  },
+                  {
+                    "Type": "RESULT",
+                    "Code": "Result",
+                    "Pos": 3,
+                    "Value": "148-138"
+                  }
+                ]
+              },
+              {
+                "Type": "PREV_RESULT",
+                "Code": "UNIT_KEY",
+                "Pos": 4,
+                "Value": " ",
+                "Extensions": [
+                  {
+                    "Type": "RESULT",
+                    "Code": "Register",
+                    "Pos": 4,
+                    "Value": "8772997"
+                  },
+                  {
+                    "Type": "RESULT",
+                    "Code": "RegisterOpp",
+                    "Pos": 4,
+                    "Value": "10419527"
+                  },
+                  {
+                    "Type": "RESULT",
+                    "Code": "Result",
+                    "Pos": 4,
+                    "Value": "144-148"
+                  }
+                ]
+              },
+              {
+                "Type": "PREV_RESULT",
+                "Code": "UNIT_KEY",
+                "Pos": 5,
+                "Value": " ",
+                "Extensions": [
+                  {
+                    "Type": "RESULT",
+                    "Code": "Register",
+                    "Pos": 5,
+                    "Value": "8772997"
+                  },
+                  {
+                    "Type": "RESULT",
+                    "Code": "RegisterOpp",
+                    "Pos": 5,
+                    "Value": "11850154"
+                  },
+                  {
+                    "Type": "RESULT",
+                    "Code": "Result",
+                    "Pos": 5,
+                    "Value": "149-144"
+                  }
+                ]
+              },
+              {
+                "Type": "RESULT_INFO",
+                "Code": "DisplayRank",
+                "Pos": 0,
+                "Value": "",
+                "Extensions": []
+              },
+              {
+                "Type": "RESULT_INFO",
+                "Code": "EndConfirmed",
+                "Pos": 0,
+                "Value": "",
+                "Extensions": []
+              },
+              {
+                "Type": "RESULT_INFO",
+                "Code": "PB",
+                "Pos": 0,
+                "Value": "",
+                "Extensions": []
+              },
+              {
+                "Type": "RESULT_INFO",
+                "Code": "SB",
+                "Pos": 0,
+                "Value": "",
+                "Extensions": []
+              },
+              {
+                "Type": "RESULT_INFO",
+                "Code": "PointToWin",
+                "Pos": 0,
+                "Value": "",
+                "Extensions": []
+              },
+              {
+                "Type": "RESULT_INFO",
+                "Code": "TargetNumber",
+                "Pos": 0,
+                "Value": "31A",
+                "Extensions": []
+              },
+              {
+                "Type": "RESULT_INFO",
+                "Code": "TargetPosition",
+                "Pos": 0,
+                "Value": "31A",
+                "Extensions": []
+              },
+              {
+                "Type": "RESULT_INFO",
+                "Code": "Tens",
+                "Pos": 0,
+                "Value": "14",
+                "Extensions": []
+              },
+              {
+                "Type": "RESULT_INFO",
+                "Code": "XTens",
+                "Pos": 0,
+                "Value": "8",
+                "Extensions": []
+              },
+              {
+                "Type": "RESULT_INFO",
+                "Code": "TieIndicator",
+                "Pos": 0,
+                "Value": "",
+                "Extensions": []
+              },
+              {
+                "Type": "RESULT_INFO",
+                "Code": "WR",
+                "Pos": 0,
+                "Value": "92",
+                "Extensions": []
+              }
+            ]
+          },
+          "Away": {
+            "Org": "VIE",
+            "Reg": "11850154",
+            "Name": "DANG Cong Duc",
+            "Result": "144",
+            "Winner": false,
+            "HasData": true,
+            "NameS": "DANG CD",
+            "Medal": "",
+            "Splits": [
+              {
+                "Rk": "2",
+                "RkPo": 2,
+                "Res": "29",
+                "Extensions": [
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ARROW",
+                    "Pos": 1,
+                    "Value": "X",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ARROW",
+                    "Pos": 2,
+                    "Value": "9",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ARROW",
+                    "Pos": 3,
+                    "Value": "X",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ARROW_POSITION",
+                    "Pos": 1,
+                    "Value": "0:0|0|0|0|0|122",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ARROW_POSITION",
+                    "Pos": 2,
+                    "Value": "0:0|0|0|0|0|122",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ARROW_POSITION",
+                    "Pos": 3,
+                    "Value": "0:0|0|0|0|0|122",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "MemberReg",
+                    "Pos": 0,
+                    "Value": "11850154",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "SetPoints",
+                    "Pos": 0,
+                    "Value": "29",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ShootFirst",
+                    "Pos": 0,
+                    "Value": "Y",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ShootOff",
+                    "Pos": 0,
+                    "Value": "N",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "Tens",
+                    "Pos": 0,
+                    "Value": "2",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "XTens",
+                    "Pos": 0,
+                    "Value": "2",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "SplitPlayed",
+                    "Pos": 0,
+                    "Value": "Y",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "CLOSEST_END",
+                    "Pos": 0,
+                    "Value": "",
+                    "Extensions": []
+                  }
+                ]
+              },
+              {
+                "Rk": "2",
+                "RkPo": 2,
+                "Res": "29",
+                "Extensions": [
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ARROW",
+                    "Pos": 1,
+                    "Value": "10",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ARROW",
+                    "Pos": 2,
+                    "Value": "9",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ARROW",
+                    "Pos": 3,
+                    "Value": "X",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ARROW_POSITION",
+                    "Pos": 1,
+                    "Value": "0:0|0|0|0|0|122",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ARROW_POSITION",
+                    "Pos": 2,
+                    "Value": "0:0|0|0|0|0|122",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ARROW_POSITION",
+                    "Pos": 3,
+                    "Value": "0:0|0|0|0|0|122",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "MemberReg",
+                    "Pos": 0,
+                    "Value": "11850154",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "SetPoints",
+                    "Pos": 0,
+                    "Value": "29",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ShootFirst",
+                    "Pos": 0,
+                    "Value": "Y",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ShootOff",
+                    "Pos": 0,
+                    "Value": "N",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "Tens",
+                    "Pos": 0,
+                    "Value": "2",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "XTens",
+                    "Pos": 0,
+                    "Value": "1",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "SplitPlayed",
+                    "Pos": 0,
+                    "Value": "Y",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "CLOSEST_END",
+                    "Pos": 0,
+                    "Value": "",
+                    "Extensions": []
+                  }
+                ]
+              },
+              {
+                "Rk": "1",
+                "RkPo": 1,
+                "Res": "30",
+                "Extensions": [
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ARROW",
+                    "Pos": 1,
+                    "Value": "10",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ARROW",
+                    "Pos": 2,
+                    "Value": "10",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ARROW",
+                    "Pos": 3,
+                    "Value": "10",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ARROW_POSITION",
+                    "Pos": 1,
+                    "Value": "0:0|0|0|0|0|122",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ARROW_POSITION",
+                    "Pos": 2,
+                    "Value": "0:0|0|0|0|0|122",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ARROW_POSITION",
+                    "Pos": 3,
+                    "Value": "0:0|0|0|0|0|122",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "MemberReg",
+                    "Pos": 0,
+                    "Value": "11850154",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "SetPoints",
+                    "Pos": 0,
+                    "Value": "30",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ShootFirst",
+                    "Pos": 0,
+                    "Value": "Y",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ShootOff",
+                    "Pos": 0,
+                    "Value": "N",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "Tens",
+                    "Pos": 0,
+                    "Value": "3",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "XTens",
+                    "Pos": 0,
+                    "Value": "0",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "SplitPlayed",
+                    "Pos": 0,
+                    "Value": "Y",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "CLOSEST_END",
+                    "Pos": 0,
+                    "Value": "",
+                    "Extensions": []
+                  }
+                ]
+              },
+              {
+                "Rk": "2",
+                "RkPo": 2,
+                "Res": "28",
+                "Extensions": [
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ARROW",
+                    "Pos": 1,
+                    "Value": "9",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ARROW",
+                    "Pos": 2,
+                    "Value": "10",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ARROW",
+                    "Pos": 3,
+                    "Value": "9",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ARROW_POSITION",
+                    "Pos": 1,
+                    "Value": "0:0|0|0|0|0|122",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ARROW_POSITION",
+                    "Pos": 2,
+                    "Value": "0:0|0|0|0|0|122",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ARROW_POSITION",
+                    "Pos": 3,
+                    "Value": "0:0|0|0|0|0|122",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "MemberReg",
+                    "Pos": 0,
+                    "Value": "11850154",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "SetPoints",
+                    "Pos": 0,
+                    "Value": "28",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ShootFirst",
+                    "Pos": 0,
+                    "Value": "Y",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ShootOff",
+                    "Pos": 0,
+                    "Value": "N",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "Tens",
+                    "Pos": 0,
+                    "Value": "1",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "XTens",
+                    "Pos": 0,
+                    "Value": "0",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "SplitPlayed",
+                    "Pos": 0,
+                    "Value": "Y",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "CLOSEST_END",
+                    "Pos": 0,
+                    "Value": "",
+                    "Extensions": []
+                  }
+                ]
+              },
+              {
+                "Rk": "2",
+                "RkPo": 2,
+                "Res": "28",
+                "Extensions": [
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ARROW",
+                    "Pos": 1,
+                    "Value": "8",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ARROW",
+                    "Pos": 2,
+                    "Value": "X",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ARROW",
+                    "Pos": 3,
+                    "Value": "X",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ARROW_POSITION",
+                    "Pos": 1,
+                    "Value": "0:0|0|0|0|0|122",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ARROW_POSITION",
+                    "Pos": 2,
+                    "Value": "0:0|0|0|0|0|122",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ARROW_POSITION",
+                    "Pos": 3,
+                    "Value": "0:0|0|0|0|0|122",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "MemberReg",
+                    "Pos": 0,
+                    "Value": "11850154",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "SetPoints",
+                    "Pos": 0,
+                    "Value": "28",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ShootFirst",
+                    "Pos": 0,
+                    "Value": "Y",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "ShootOff",
+                    "Pos": 0,
+                    "Value": "N",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "Tens",
+                    "Pos": 0,
+                    "Value": "2",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "XTens",
+                    "Pos": 0,
+                    "Value": "2",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "SplitPlayed",
+                    "Pos": 0,
+                    "Value": "Y",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_RESULT",
+                    "Code": "CLOSEST_END",
+                    "Pos": 0,
+                    "Value": "",
+                    "Extensions": []
+                  }
+                ]
+              }
+            ],
+            "Extensions": [
+              {
+                "Type": "PREV_RESULT",
+                "Code": "UNIT_KEY",
+                "Pos": 1,
+                "Value": " ",
+                "Extensions": [
+                  {
+                    "Type": "RESULT",
+                    "Code": "Register",
+                    "Pos": 1,
+                    "Value": "11850154"
+                  },
+                  {
+                    "Type": "RESULT",
+                    "Code": "RegisterOpp",
+                    "Pos": 1,
+                    "Value": "2344679"
+                  },
+                  {
+                    "Type": "RESULT",
+                    "Code": "Result",
+                    "Pos": 1,
+                    "Value": "147-136"
+                  }
+                ]
+              },
+              {
+                "Type": "PREV_RESULT",
+                "Code": "UNIT_KEY",
+                "Pos": 2,
+                "Value": " ",
+                "Extensions": [
+                  {
+                    "Type": "RESULT",
+                    "Code": "Register",
+                    "Pos": 2,
+                    "Value": "11850154"
+                  },
+                  {
+                    "Type": "RESULT",
+                    "Code": "RegisterOpp",
+                    "Pos": 2,
+                    "Value": "9057098"
+                  },
+                  {
+                    "Type": "RESULT",
+                    "Code": "Result",
+                    "Pos": 2,
+                    "Value": "148-146"
+                  }
+                ]
+              },
+              {
+                "Type": "PREV_RESULT",
+                "Code": "UNIT_KEY",
+                "Pos": 3,
+                "Value": " ",
+                "Extensions": [
+                  {
+                    "Type": "RESULT",
+                    "Code": "Register",
+                    "Pos": 3,
+                    "Value": "11850154"
+                  },
+                  {
+                    "Type": "RESULT",
+                    "Code": "RegisterOpp",
+                    "Pos": 3,
+                    "Value": "10418832"
+                  },
+                  {
+                    "Type": "RESULT",
+                    "Code": "Result",
+                    "Pos": 3,
+                    "Value": "146-143"
+                  }
+                ]
+              },
+              {
+                "Type": "PREV_RESULT",
+                "Code": "UNIT_KEY",
+                "Pos": 4,
+                "Value": " ",
+                "Extensions": [
+                  {
+                    "Type": "RESULT",
+                    "Code": "Register",
+                    "Pos": 4,
+                    "Value": "11850154"
+                  },
+                  {
+                    "Type": "RESULT",
+                    "Code": "RegisterOpp",
+                    "Pos": 4,
+                    "Value": "2036175"
+                  },
+                  {
+                    "Type": "RESULT",
+                    "Code": "Result",
+                    "Pos": 4,
+                    "Value": "144-145"
+                  }
+                ]
+              },
+              {
+                "Type": "PREV_RESULT",
+                "Code": "UNIT_KEY",
+                "Pos": 5,
+                "Value": " ",
+                "Extensions": [
+                  {
+                    "Type": "RESULT",
+                    "Code": "Register",
+                    "Pos": 5,
+                    "Value": "11850154"
+                  },
+                  {
+                    "Type": "RESULT",
+                    "Code": "RegisterOpp",
+                    "Pos": 5,
+                    "Value": "8772997"
+                  },
+                  {
+                    "Type": "RESULT",
+                    "Code": "Result",
+                    "Pos": 5,
+                    "Value": "144-149"
+                  }
+                ]
+              },
+              {
+                "Type": "RESULT_INFO",
+                "Code": "DisplayRank",
+                "Pos": 0,
+                "Value": "",
+                "Extensions": []
+              },
+              {
+                "Type": "RESULT_INFO",
+                "Code": "EndConfirmed",
+                "Pos": 0,
+                "Value": "",
+                "Extensions": []
+              },
+              {
+                "Type": "RESULT_INFO",
+                "Code": "PB",
+                "Pos": 0,
+                "Value": "",
+                "Extensions": []
+              },
+              {
+                "Type": "RESULT_INFO",
+                "Code": "SB",
+                "Pos": 0,
+                "Value": "",
+                "Extensions": []
+              },
+              {
+                "Type": "RESULT_INFO",
+                "Code": "PointToWin",
+                "Pos": 0,
+                "Value": "",
+                "Extensions": []
+              },
+              {
+                "Type": "RESULT_INFO",
+                "Code": "TargetNumber",
+                "Pos": 0,
+                "Value": "25D",
+                "Extensions": []
+              },
+              {
+                "Type": "RESULT_INFO",
+                "Code": "TargetPosition",
+                "Pos": 0,
+                "Value": "25D",
+                "Extensions": []
+              },
+              {
+                "Type": "RESULT_INFO",
+                "Code": "Tens",
+                "Pos": 0,
+                "Value": "10",
+                "Extensions": []
+              },
+              {
+                "Type": "RESULT_INFO",
+                "Code": "XTens",
+                "Pos": 0,
+                "Value": "5",
+                "Extensions": []
+              },
+              {
+                "Type": "RESULT_INFO",
+                "Code": "TieIndicator",
+                "Pos": 0,
+                "Value": "",
+                "Extensions": []
+              },
+              {
+                "Type": "RESULT_INFO",
+                "Code": "WR",
+                "Pos": 0,
+                "Value": "140",
+                "Extensions": []
+              }
+            ]
+          },
+          "Extensions": [
+            {
+              "Type": "UNIT_INFO",
+              "Code": "Mixed",
+              "Pos": 0,
+              "Value": "N",
+              "Extensions": []
+            },
+            {
+              "Type": "UNIT_INFO",
+              "Code": "ModeResult",
+              "Pos": 0,
+              "Value": "SPLIT_SCORES",
+              "Extensions": []
+            },
+            {
+              "Type": "UNIT_INFO",
+              "Code": "NArrows",
+              "Pos": 0,
+              "Value": "3",
+              "Extensions": []
+            },
+            {
+              "Type": "UNIT_INFO",
+              "Code": "NArrowsSO",
+              "Pos": 0,
+              "Value": "0",
+              "Extensions": []
+            },
+            {
+              "Type": "UNIT_INFO",
+              "Code": "NEnds",
+              "Pos": 0,
+              "Value": "5",
               "Extensions": []
             },
             {
@@ -58566,10 +62090,10 @@
           "TeamReg": "ARCXCTEAM2-----IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
+          "Medal": "ME_GOLD",
           "Rank": "1",
           "IRM": "",
-          "Result": "",
-          "Medal": "ME_GOLD"
+          "Result": ""
         },
         {
           "Disc": "ARC",
@@ -79877,10 +83401,10 @@
           "TeamReg": "ARCXCTEAM2-----IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
+          "Medal": "ME_GOLD",
           "Rank": "1",
           "IRM": "",
-          "Result": "",
-          "Medal": "ME_GOLD"
+          "Result": ""
         }
       ],
       "schedule": [
@@ -88222,10 +91746,10 @@
           "TeamReg": "ARCXCTEAM2-----IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
-          "Medal": "ME_GOLD",
           "Rank": "1",
           "IRM": "",
-          "Result": ""
+          "Result": "",
+          "Medal": "ME_GOLD"
         }
       ],
       "schedule": [
@@ -107800,10 +111324,10 @@
           "TeamReg": "ATHW4X400M-----IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
+          "Medal": "ME_GOLD",
           "Rank": "1",
           "IRM": "OK",
-          "Result": "3:29.69",
-          "Medal": "ME_GOLD"
+          "Result": "3:29.69"
         },
         {
           "Disc": "ATH",
@@ -110261,10 +113785,10 @@
           "Desc": "Men's Marathon",
           "DescS": "Men's Marathon",
           "isMember": false,
-          "Medal": "ME_SILVER",
           "Rank": "2",
           "IRM": "OK",
-          "Result": "2:11:37"
+          "Result": "2:11:37",
+          "Medal": "ME_SILVER"
         }
       ],
       "schedule": [
@@ -111007,10 +114531,10 @@
           "TeamReg": "ATHM4X400M-----IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
+          "Medal": "ME_BRONZE",
           "Rank": "3",
           "IRM": "OK",
-          "Result": "3:01.61",
-          "Medal": "ME_BRONZE"
+          "Result": "3:01.61"
         },
         {
           "Disc": "ATH",
@@ -111022,10 +114546,10 @@
           "TeamReg": "ATHX4X400M-----IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
+          "Medal": "ME_SILVER",
           "Rank": "2",
           "IRM": "OK",
-          "Result": "3:14.46",
-          "Medal": "ME_SILVER"
+          "Result": "3:14.46"
         }
       ],
       "schedule": [
@@ -114531,10 +118055,10 @@
           "Desc": "Women's 3000m Steeplechase",
           "DescS": "Women's 3000m Steeplechase",
           "isMember": false,
-          "Medal": "ME_BRONZE",
           "Rank": "3",
           "IRM": "OK",
-          "Result": "9:08.67"
+          "Result": "9:08.67",
+          "Medal": "ME_BRONZE"
         },
         {
           "Disc": "ATH",
@@ -115580,10 +119104,10 @@
           "TeamReg": "ATHX4X100M-----IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
+          "Medal": "ME_BRONZE",
           "Rank": "3",
           "IRM": "OK",
-          "Result": "41.06",
-          "Medal": "ME_BRONZE"
+          "Result": "41.06"
         }
       ],
       "schedule": [
@@ -116316,10 +119840,10 @@
           "TeamReg": "ATHX4X100M-----IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
-          "Medal": "ME_BRONZE",
           "Rank": "3",
           "IRM": "OK",
-          "Result": "41.06"
+          "Result": "41.06",
+          "Medal": "ME_BRONZE"
         }
       ],
       "schedule": [
@@ -128702,10 +132226,10 @@
           "TeamReg": "BDMMTEAM-------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
+          "Medal": "ME_BRONZE",
           "Rank": "3",
           "IRM": "OK",
-          "Result": "",
-          "Medal": "ME_BRONZE"
+          "Result": ""
         }
       ],
       "schedule": [
@@ -134244,10 +137768,10 @@
           "TeamReg": "BDMMTEAM-------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
-          "Medal": "ME_BRONZE",
           "Rank": "3",
           "IRM": "OK",
-          "Result": ""
+          "Result": "",
+          "Medal": "ME_BRONZE"
         }
       ],
       "schedule": [
@@ -136398,10 +139922,10 @@
           "TeamReg": "BDMMTEAM-------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
-          "Medal": "ME_BRONZE",
           "Rank": "3",
           "IRM": "OK",
-          "Result": ""
+          "Result": "",
+          "Medal": "ME_BRONZE"
         }
       ],
       "schedule": [
@@ -138552,10 +142076,10 @@
           "TeamReg": "BDMMTEAM-------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
+          "Medal": "ME_BRONZE",
           "Rank": "3",
           "IRM": "OK",
-          "Result": "",
-          "Medal": "ME_BRONZE"
+          "Result": ""
         }
       ],
       "schedule": [
@@ -162853,10 +166377,10 @@
           "TeamReg": "KABMTEAM7------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
-          "Medal": "ME_GOLD",
           "Rank": "1",
           "IRM": "",
-          "Result": ""
+          "Result": "",
+          "Medal": "ME_GOLD"
         }
       ],
       "schedule": [
@@ -164711,10 +168235,10 @@
           "TeamReg": "KABMTEAM7------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
+          "Medal": "ME_GOLD",
           "Rank": "1",
           "IRM": "",
-          "Result": "",
-          "Medal": "ME_GOLD"
+          "Result": ""
         }
       ],
       "schedule": [
@@ -166569,10 +170093,10 @@
           "TeamReg": "KABMTEAM7------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
+          "Medal": "ME_GOLD",
           "Rank": "1",
           "IRM": "",
-          "Result": "",
-          "Medal": "ME_GOLD"
+          "Result": ""
         }
       ],
       "schedule": [
@@ -177717,10 +181241,10 @@
           "TeamReg": "KABMTEAM7------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
-          "Medal": "ME_GOLD",
           "Rank": "1",
           "IRM": "",
-          "Result": ""
+          "Result": "",
+          "Medal": "ME_GOLD"
         }
       ],
       "schedule": [
@@ -179575,10 +183099,10 @@
           "TeamReg": "KABMTEAM7------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
+          "Medal": "ME_GOLD",
           "Rank": "1",
           "IRM": "",
-          "Result": "",
-          "Medal": "ME_GOLD"
+          "Result": ""
         }
       ],
       "schedule": [
@@ -189983,10 +193507,10 @@
           "TeamReg": "KABWTEAM7------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
+          "Medal": "ME_GOLD",
           "Rank": "1",
           "IRM": "",
-          "Result": "",
-          "Medal": "ME_GOLD"
+          "Result": ""
         }
       ],
       "schedule": [
@@ -191542,10 +195066,10 @@
           "TeamReg": "KABWTEAM7------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
-          "Medal": "ME_GOLD",
           "Rank": "1",
           "IRM": "",
-          "Result": ""
+          "Result": "",
+          "Medal": "ME_GOLD"
         }
       ],
       "schedule": [
@@ -194660,10 +198184,10 @@
           "TeamReg": "KABWTEAM7------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
+          "Medal": "ME_GOLD",
           "Rank": "1",
           "IRM": "",
-          "Result": "",
-          "Medal": "ME_GOLD"
+          "Result": ""
         }
       ],
       "schedule": [
@@ -200896,10 +204420,10 @@
           "TeamReg": "KABWTEAM7------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
+          "Medal": "ME_GOLD",
           "Rank": "1",
           "IRM": "",
-          "Result": "",
-          "Medal": "ME_GOLD"
+          "Result": ""
         }
       ],
       "schedule": [
@@ -204014,10 +207538,10 @@
           "TeamReg": "KABWTEAM7------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
-          "Medal": "ME_GOLD",
           "Rank": "1",
           "IRM": "",
-          "Result": ""
+          "Result": "",
+          "Medal": "ME_GOLD"
         }
       ],
       "schedule": [
@@ -206968,1617 +210492,6 @@
     }
   },
   {
-    "reg": "SALM49ER-------IND01",
-    "name": "India",
-    "org": "IND",
-    "org_desc": "India",
-    "disc": "SAL",
-    "disc_desc": "Sailing",
-    "photo_url": null,
-    "medals": [
-      {
-        "medal": "silver",
-        "event": "Men's Skiff"
-      }
-    ],
-    "bio_data": {
-      "participant": {
-        "Reg": "SALM49ER-------IND01",
-        "Disc": "SAL",
-        "DiscDesc": "Sailing",
-        "hasMembers": true,
-        "Org": "IND",
-        "OrgDesc": "India",
-        "Type": "T",
-        "Gender": "M",
-        "Name": "India",
-        "NameS": "India",
-        "GivenName": "",
-        "FamilyName": "",
-        "IFId": "",
-        "Height": 0,
-        "Weight": 0,
-        "Members": [
-          {
-            "Reg": "13408966",
-            "Org": "IND",
-            "Gender": "M",
-            "Order": 1,
-            "Bib": "",
-            "Name": "KURISINKAL NOBLE Prince",
-            "BirthDateRaw": "1996-03-12",
-            "Position": "H",
-            "PosDesc": "Helm",
-            "Function": "AA01",
-            "FuncDesc": "Athlete",
-            "Substitute": false
-          },
-          {
-            "Reg": "12995998",
-            "Org": "IND",
-            "Gender": "M",
-            "Order": 2,
-            "Bib": "",
-            "Name": "FRANCIS Manu",
-            "BirthDateRaw": "1995-02-26",
-            "Position": "C",
-            "PosDesc": "Crew",
-            "Function": "AA01",
-            "FuncDesc": "Athlete",
-            "Substitute": false
-          }
-        ]
-      },
-      "entries": [
-        {
-          "Disc": "SAL",
-          "Reg": "SALM49ER-------IND01",
-          "EvKey": "M.49ER--------------",
-          "Desc": "Men's Skiff",
-          "DescS": "Men's Skiff",
-          "isMember": false,
-          "Rank": "2",
-          "IRM": "",
-          "Result": "",
-          "Medal": "ME_SILVER"
-        }
-      ],
-      "schedule": [
-        {
-          "Orgs": [
-            "OMA",
-            "IND",
-            "KOR",
-            "CHN",
-            "HKG",
-            "JPN"
-          ],
-          "IsPhase": false,
-          "ResCode": "M.49ER--------------.PREL.000100--",
-          "ShowLink": true,
-          "Disc": "SAL",
-          "DiscDesc": "Sailing",
-          "Key": "M.49ER--------------.PREL.000100--",
-          "isH2H": false,
-          "Type": "D",
-          "Medal": "0",
-          "Status": "OFFICIAL",
-          "StatusDesc": "Official",
-          "DateTimeRaw": "2026-09-28T11:00:00+09:00",
-          "HideStartDate": false,
-          "Estimated": false,
-          "EstText": "TBD",
-          "HideLocation": false,
-          "Venue": "KYH",
-          "VenueDesc": "Kaiyoh Yacht Harbor",
-          "VenueDescS": "Kaiyoh Yacht Harbor",
-          "Loc": "KY4",
-          "LocDesc": "Racing Area D",
-          "LocDescS": "Racing Area D",
-          "Event": "M.49ER--------------",
-          "EventDesc": "Men's Skiff",
-          "Phase": "M.49ER--------------.PREL",
-          "PhaseOrder": 1,
-          "PhaseDesc": "Opening Series",
-          "PhaseDescS": "Opening Series",
-          "PhaseDescA": "Opening Series",
-          "UnitDesc": "Race 1",
-          "UnitDescS": "Race 1",
-          "UnitDescA": "Race 1",
-          "EndDateTimeRaw": "2026-09-28T15:20:29+09:00",
-          "ActualEndDateTimeRaw": "2026-09-28T15:20:29+09:00",
-          "UnitNum": "1",
-          "IsLive": false,
-          "ShowResults": true,
-          "Counters": {
-            "Partics": 6,
-            "Orgs": 6
-          },
-          "Results": []
-        },
-        {
-          "Orgs": [
-            "CHN",
-            "KOR",
-            "IND",
-            "HKG",
-            "JPN",
-            "OMA"
-          ],
-          "IsPhase": false,
-          "ResCode": "M.49ER--------------.PREL.000200--",
-          "ShowLink": true,
-          "Disc": "SAL",
-          "DiscDesc": "Sailing",
-          "Key": "M.49ER--------------.PREL.000200--",
-          "isH2H": false,
-          "Type": "D",
-          "Medal": "0",
-          "Status": "OFFICIAL",
-          "StatusDesc": "Official",
-          "DateTimeRaw": "2026-09-28T11:00:00+09:00",
-          "HideStartDate": false,
-          "Estimated": false,
-          "EstText": "TBD",
-          "HideLocation": false,
-          "Venue": "KYH",
-          "VenueDesc": "Kaiyoh Yacht Harbor",
-          "VenueDescS": "Kaiyoh Yacht Harbor",
-          "Loc": "KY4",
-          "LocDesc": "Racing Area D",
-          "LocDescS": "Racing Area D",
-          "Event": "M.49ER--------------",
-          "EventDesc": "Men's Skiff",
-          "Phase": "M.49ER--------------.PREL",
-          "PhaseOrder": 1,
-          "PhaseDesc": "Opening Series",
-          "PhaseDescS": "Opening Series",
-          "PhaseDescA": "Opening Series",
-          "UnitDesc": "Race 2",
-          "UnitDescS": "Race 2",
-          "UnitDescA": "Race 2",
-          "EndDateTimeRaw": "2026-09-28T16:10:57+09:00",
-          "ActualEndDateTimeRaw": "2026-09-28T16:10:57+09:00",
-          "UnitNum": "2",
-          "IsLive": false,
-          "ShowResults": true,
-          "Counters": {
-            "Partics": 6,
-            "Orgs": 6
-          },
-          "Results": []
-        },
-        {
-          "Orgs": [
-            "IND",
-            "HKG",
-            "CHN",
-            "OMA",
-            "KOR",
-            "JPN"
-          ],
-          "IsPhase": false,
-          "ResCode": "M.49ER--------------.PREL.000300--",
-          "ShowLink": true,
-          "Disc": "SAL",
-          "DiscDesc": "Sailing",
-          "Key": "M.49ER--------------.PREL.000300--",
-          "isH2H": false,
-          "Type": "D",
-          "Medal": "0",
-          "Status": "OFFICIAL",
-          "StatusDesc": "Official",
-          "DateTimeRaw": "2026-09-30T11:00:00+09:00",
-          "HideStartDate": false,
-          "Estimated": false,
-          "EstText": "TBD",
-          "HideLocation": false,
-          "Venue": "KYH",
-          "VenueDesc": "Kaiyoh Yacht Harbor",
-          "VenueDescS": "Kaiyoh Yacht Harbor",
-          "Loc": "KY4",
-          "LocDesc": "Racing Area D",
-          "LocDescS": "Racing Area D",
-          "Event": "M.49ER--------------",
-          "EventDesc": "Men's Skiff",
-          "Phase": "M.49ER--------------.PREL",
-          "PhaseOrder": 1,
-          "PhaseDesc": "Opening Series",
-          "PhaseDescS": "Opening Series",
-          "PhaseDescA": "Opening Series",
-          "UnitDesc": "Race 3",
-          "UnitDescS": "Race 3",
-          "UnitDescA": "Race 3",
-          "EndDateTimeRaw": "2026-09-30T14:02:48+09:00",
-          "ActualEndDateTimeRaw": "2026-09-30T14:02:48+09:00",
-          "UnitNum": "3",
-          "IsLive": false,
-          "ShowResults": true,
-          "Counters": {
-            "Partics": 6,
-            "Orgs": 6
-          },
-          "Results": []
-        },
-        {
-          "Orgs": [
-            "CHN",
-            "HKG",
-            "OMA",
-            "IND",
-            "KOR",
-            "JPN"
-          ],
-          "IsPhase": false,
-          "ResCode": "M.49ER--------------.PREL.000400--",
-          "ShowLink": true,
-          "Disc": "SAL",
-          "DiscDesc": "Sailing",
-          "Key": "M.49ER--------------.PREL.000400--",
-          "isH2H": false,
-          "Type": "D",
-          "Medal": "0",
-          "Status": "OFFICIAL",
-          "StatusDesc": "Official",
-          "DateTimeRaw": "2026-09-30T11:00:00+09:00",
-          "HideStartDate": false,
-          "Estimated": false,
-          "EstText": "TBD",
-          "HideLocation": false,
-          "Venue": "KYH",
-          "VenueDesc": "Kaiyoh Yacht Harbor",
-          "VenueDescS": "Kaiyoh Yacht Harbor",
-          "Loc": "KY4",
-          "LocDesc": "Racing Area D",
-          "LocDescS": "Racing Area D",
-          "Event": "M.49ER--------------",
-          "EventDesc": "Men's Skiff",
-          "Phase": "M.49ER--------------.PREL",
-          "PhaseOrder": 1,
-          "PhaseDesc": "Opening Series",
-          "PhaseDescS": "Opening Series",
-          "PhaseDescA": "Opening Series",
-          "UnitDesc": "Race 4",
-          "UnitDescS": "Race 4",
-          "UnitDescA": "Race 4",
-          "EndDateTimeRaw": "2026-09-30T14:39:19+09:00",
-          "ActualEndDateTimeRaw": "2026-09-30T14:39:19+09:00",
-          "UnitNum": "4",
-          "IsLive": false,
-          "ShowResults": true,
-          "Counters": {
-            "Partics": 6,
-            "Orgs": 6
-          },
-          "Results": []
-        },
-        {
-          "Orgs": [
-            "KOR",
-            "IND",
-            "HKG",
-            "OMA",
-            "CHN",
-            "JPN"
-          ],
-          "IsPhase": false,
-          "ResCode": "M.49ER--------------.PREL.000500--",
-          "ShowLink": true,
-          "Disc": "SAL",
-          "DiscDesc": "Sailing",
-          "Key": "M.49ER--------------.PREL.000500--",
-          "isH2H": false,
-          "Type": "D",
-          "Medal": "0",
-          "Status": "OFFICIAL",
-          "StatusDesc": "Official",
-          "DateTimeRaw": "2026-09-30T11:00:00+09:00",
-          "HideStartDate": false,
-          "Estimated": false,
-          "EstText": "TBD",
-          "HideLocation": false,
-          "Venue": "KYH",
-          "VenueDesc": "Kaiyoh Yacht Harbor",
-          "VenueDescS": "Kaiyoh Yacht Harbor",
-          "Loc": "KY4",
-          "LocDesc": "Racing Area D",
-          "LocDescS": "Racing Area D",
-          "Event": "M.49ER--------------",
-          "EventDesc": "Men's Skiff",
-          "Phase": "M.49ER--------------.PREL",
-          "PhaseOrder": 1,
-          "PhaseDesc": "Opening Series",
-          "PhaseDescS": "Opening Series",
-          "PhaseDescA": "Opening Series",
-          "UnitDesc": "Race 5",
-          "UnitDescS": "Race 5",
-          "UnitDescA": "Race 5",
-          "EndDateTimeRaw": "2026-09-30T15:27:37+09:00",
-          "ActualEndDateTimeRaw": "2026-09-30T15:27:37+09:00",
-          "UnitNum": "5",
-          "IsLive": false,
-          "ShowResults": true,
-          "Counters": {
-            "Partics": 6,
-            "Orgs": 6
-          },
-          "Results": []
-        },
-        {
-          "Orgs": [
-            "CHN",
-            "JPN",
-            "HKG",
-            "OMA",
-            "IND",
-            "KOR"
-          ],
-          "IsPhase": false,
-          "ResCode": "M.49ER--------------.PREL.000600--",
-          "ShowLink": true,
-          "Disc": "SAL",
-          "DiscDesc": "Sailing",
-          "Key": "M.49ER--------------.PREL.000600--",
-          "isH2H": false,
-          "Type": "D",
-          "Medal": "0",
-          "Status": "OFFICIAL",
-          "StatusDesc": "Official",
-          "DateTimeRaw": "2026-10-01T10:00:00+09:00",
-          "HideStartDate": false,
-          "Estimated": false,
-          "EstText": "TBD",
-          "HideLocation": false,
-          "Venue": "KYH",
-          "VenueDesc": "Kaiyoh Yacht Harbor",
-          "VenueDescS": "Kaiyoh Yacht Harbor",
-          "Loc": "KY4",
-          "LocDesc": "Racing Area D",
-          "LocDescS": "Racing Area D",
-          "Event": "M.49ER--------------",
-          "EventDesc": "Men's Skiff",
-          "Phase": "M.49ER--------------.PREL",
-          "PhaseOrder": 1,
-          "PhaseDesc": "Opening Series",
-          "PhaseDescS": "Opening Series",
-          "PhaseDescA": "Opening Series",
-          "UnitDesc": "Race 6",
-          "UnitDescS": "Race 6",
-          "UnitDescA": "Race 6",
-          "EndDateTimeRaw": "2026-10-01T10:42:02+09:00",
-          "ActualEndDateTimeRaw": "2026-10-01T10:42:02+09:00",
-          "UnitNum": "6",
-          "IsLive": false,
-          "ShowResults": true,
-          "Counters": {
-            "Partics": 6,
-            "Orgs": 6
-          },
-          "Results": []
-        },
-        {
-          "Orgs": [
-            "HKG",
-            "CHN",
-            "KOR",
-            "IND",
-            "JPN",
-            "OMA"
-          ],
-          "IsPhase": false,
-          "ResCode": "M.49ER--------------.PREL.000700--",
-          "ShowLink": true,
-          "Disc": "SAL",
-          "DiscDesc": "Sailing",
-          "Key": "M.49ER--------------.PREL.000700--",
-          "isH2H": false,
-          "Type": "D",
-          "Medal": "0",
-          "Status": "OFFICIAL",
-          "StatusDesc": "Official",
-          "DateTimeRaw": "2026-10-01T10:00:00+09:00",
-          "HideStartDate": false,
-          "Estimated": false,
-          "EstText": "TBD",
-          "HideLocation": false,
-          "Venue": "KYH",
-          "VenueDesc": "Kaiyoh Yacht Harbor",
-          "VenueDescS": "Kaiyoh Yacht Harbor",
-          "Loc": "KY4",
-          "LocDesc": "Racing Area D",
-          "LocDescS": "Racing Area D",
-          "Event": "M.49ER--------------",
-          "EventDesc": "Men's Skiff",
-          "Phase": "M.49ER--------------.PREL",
-          "PhaseOrder": 1,
-          "PhaseDesc": "Opening Series",
-          "PhaseDescS": "Opening Series",
-          "PhaseDescA": "Opening Series",
-          "UnitDesc": "Race 7",
-          "UnitDescS": "Race 7",
-          "UnitDescA": "Race 7",
-          "EndDateTimeRaw": "2026-10-01T11:31:59+09:00",
-          "ActualEndDateTimeRaw": "2026-10-01T11:31:59+09:00",
-          "UnitNum": "7",
-          "IsLive": false,
-          "ShowResults": true,
-          "Counters": {
-            "Partics": 6,
-            "Orgs": 6
-          },
-          "Results": []
-        },
-        {
-          "Orgs": [
-            "JPN",
-            "KOR",
-            "CHN",
-            "HKG",
-            "OMA",
-            "IND"
-          ],
-          "IsPhase": false,
-          "ResCode": "M.49ER--------------.PREL.000800--",
-          "ShowLink": true,
-          "Disc": "SAL",
-          "DiscDesc": "Sailing",
-          "Key": "M.49ER--------------.PREL.000800--",
-          "isH2H": false,
-          "Type": "D",
-          "Medal": "0",
-          "Status": "OFFICIAL",
-          "StatusDesc": "Official",
-          "DateTimeRaw": "2026-10-01T10:00:00+09:00",
-          "HideStartDate": false,
-          "Estimated": false,
-          "EstText": "TBD",
-          "HideLocation": false,
-          "Venue": "KYH",
-          "VenueDesc": "Kaiyoh Yacht Harbor",
-          "VenueDescS": "Kaiyoh Yacht Harbor",
-          "Loc": "KY4",
-          "LocDesc": "Racing Area D",
-          "LocDescS": "Racing Area D",
-          "Event": "M.49ER--------------",
-          "EventDesc": "Men's Skiff",
-          "Phase": "M.49ER--------------.PREL",
-          "PhaseOrder": 1,
-          "PhaseDesc": "Opening Series",
-          "PhaseDescS": "Opening Series",
-          "PhaseDescA": "Opening Series",
-          "UnitDesc": "Race 8",
-          "UnitDescS": "Race 8",
-          "UnitDescA": "Race 8",
-          "EndDateTimeRaw": "2026-10-01T12:11:50+09:00",
-          "ActualEndDateTimeRaw": "2026-10-01T12:11:50+09:00",
-          "UnitNum": "8",
-          "IsLive": false,
-          "ShowResults": true,
-          "Counters": {
-            "Partics": 6,
-            "Orgs": 6
-          },
-          "Results": []
-        },
-        {
-          "Orgs": [
-            "CHN",
-            "IND",
-            "JPN",
-            "OMA",
-            "HKG",
-            "KOR"
-          ],
-          "IsPhase": false,
-          "ResCode": "M.49ER--------------.PREL.000900--",
-          "ShowLink": true,
-          "Disc": "SAL",
-          "DiscDesc": "Sailing",
-          "Key": "M.49ER--------------.PREL.000900--",
-          "isH2H": false,
-          "Type": "D",
-          "Medal": "1",
-          "Status": "OFFICIAL",
-          "StatusDesc": "Official",
-          "DateTimeRaw": "2026-10-01T10:00:00+09:00",
-          "HideStartDate": false,
-          "Estimated": false,
-          "EstText": "TBD",
-          "HideLocation": false,
-          "Venue": "KYH",
-          "VenueDesc": "Kaiyoh Yacht Harbor",
-          "VenueDescS": "Kaiyoh Yacht Harbor",
-          "Loc": "KY4",
-          "LocDesc": "Racing Area D",
-          "LocDescS": "Racing Area D",
-          "Event": "M.49ER--------------",
-          "EventDesc": "Men's Skiff",
-          "Phase": "M.49ER--------------.PREL",
-          "PhaseOrder": 1,
-          "PhaseDesc": "Opening Series",
-          "PhaseDescS": "Opening Series",
-          "PhaseDescA": "Opening Series",
-          "UnitDesc": "Race 9",
-          "UnitDescS": "Race 9",
-          "UnitDescA": "Race 9",
-          "EndDateTimeRaw": "2026-10-01T12:50:15+09:00",
-          "ActualEndDateTimeRaw": "2026-10-01T12:50:15+09:00",
-          "UnitNum": "9",
-          "IsLive": false,
-          "ShowResults": true,
-          "Counters": {
-            "Partics": 6,
-            "Orgs": 6
-          },
-          "Results": []
-        }
-      ],
-      "historical": null
-    }
-  },
-  {
-    "reg": "13408966",
-    "name": "KURISINKAL NOBLE Prince",
-    "org": "IND",
-    "org_desc": "India",
-    "disc": "SAL",
-    "disc_desc": "Sailing",
-    "photo_url": "https://results.asiangames2026.org/ag2026/photos/13408966.jpg",
-    "medals": [
-      {
-        "medal": "silver",
-        "event": "Men's Skiff"
-      }
-    ],
-    "bio_data": {
-      "participant": {
-        "Reg": "13408966",
-        "Disc": "SAL",
-        "DiscDesc": "Sailing",
-        "hasMembers": false,
-        "Org": "IND",
-        "OrgDesc": "India",
-        "Type": "A",
-        "Gender": "M",
-        "BirthDateRaw": "1996-03-12",
-        "Name": "KURISINKAL NOBLE Prince",
-        "NameS": "KURISINKAL NOBLE P",
-        "GivenName": "",
-        "FamilyName": "",
-        "IFId": "",
-        "Height": null,
-        "Weight": null
-      },
-      "entries": [
-        {
-          "Disc": "SAL",
-          "Reg": "13408966",
-          "EvKey": "M.49ER--------------",
-          "Desc": "Men's Skiff",
-          "DescS": "Men's Skiff",
-          "isMember": false
-        },
-        {
-          "Disc": "SAL",
-          "Reg": "13408966",
-          "EvKey": "M.49ER--------------",
-          "Desc": "Men's Skiff",
-          "DescS": "Men's Skiff",
-          "isMember": true,
-          "TeamReg": "SALM49ER-------IND01",
-          "TeamOrg": "IND",
-          "TeamName": "India",
-          "Medal": "ME_SILVER",
-          "Rank": "2",
-          "IRM": "",
-          "Result": ""
-        }
-      ],
-      "schedule": [
-        {
-          "Orgs": [
-            "OMA",
-            "IND",
-            "KOR",
-            "CHN",
-            "HKG",
-            "JPN"
-          ],
-          "IsPhase": false,
-          "ResCode": "M.49ER--------------.PREL.000100--",
-          "ShowLink": true,
-          "Disc": "SAL",
-          "DiscDesc": "Sailing",
-          "Key": "M.49ER--------------.PREL.000100--",
-          "isH2H": false,
-          "Type": "D",
-          "Medal": "0",
-          "Status": "OFFICIAL",
-          "StatusDesc": "Official",
-          "DateTimeRaw": "2026-09-28T11:00:00+09:00",
-          "HideStartDate": false,
-          "Estimated": false,
-          "EstText": "TBD",
-          "HideLocation": false,
-          "Venue": "KYH",
-          "VenueDesc": "Kaiyoh Yacht Harbor",
-          "VenueDescS": "Kaiyoh Yacht Harbor",
-          "Loc": "KY4",
-          "LocDesc": "Racing Area D",
-          "LocDescS": "Racing Area D",
-          "Event": "M.49ER--------------",
-          "EventDesc": "Men's Skiff",
-          "Phase": "M.49ER--------------.PREL",
-          "PhaseOrder": 1,
-          "PhaseDesc": "Opening Series",
-          "PhaseDescS": "Opening Series",
-          "PhaseDescA": "Opening Series",
-          "UnitDesc": "Race 1",
-          "UnitDescS": "Race 1",
-          "UnitDescA": "Race 1",
-          "EndDateTimeRaw": "2026-09-28T15:20:29+09:00",
-          "ActualEndDateTimeRaw": "2026-09-28T15:20:29+09:00",
-          "UnitNum": "1",
-          "IsLive": false,
-          "ShowResults": true,
-          "Counters": {
-            "Partics": 6,
-            "Orgs": 6
-          },
-          "Results": []
-        },
-        {
-          "Orgs": [
-            "CHN",
-            "KOR",
-            "IND",
-            "HKG",
-            "JPN",
-            "OMA"
-          ],
-          "IsPhase": false,
-          "ResCode": "M.49ER--------------.PREL.000200--",
-          "ShowLink": true,
-          "Disc": "SAL",
-          "DiscDesc": "Sailing",
-          "Key": "M.49ER--------------.PREL.000200--",
-          "isH2H": false,
-          "Type": "D",
-          "Medal": "0",
-          "Status": "OFFICIAL",
-          "StatusDesc": "Official",
-          "DateTimeRaw": "2026-09-28T11:00:00+09:00",
-          "HideStartDate": false,
-          "Estimated": false,
-          "EstText": "TBD",
-          "HideLocation": false,
-          "Venue": "KYH",
-          "VenueDesc": "Kaiyoh Yacht Harbor",
-          "VenueDescS": "Kaiyoh Yacht Harbor",
-          "Loc": "KY4",
-          "LocDesc": "Racing Area D",
-          "LocDescS": "Racing Area D",
-          "Event": "M.49ER--------------",
-          "EventDesc": "Men's Skiff",
-          "Phase": "M.49ER--------------.PREL",
-          "PhaseOrder": 1,
-          "PhaseDesc": "Opening Series",
-          "PhaseDescS": "Opening Series",
-          "PhaseDescA": "Opening Series",
-          "UnitDesc": "Race 2",
-          "UnitDescS": "Race 2",
-          "UnitDescA": "Race 2",
-          "EndDateTimeRaw": "2026-09-28T16:10:57+09:00",
-          "ActualEndDateTimeRaw": "2026-09-28T16:10:57+09:00",
-          "UnitNum": "2",
-          "IsLive": false,
-          "ShowResults": true,
-          "Counters": {
-            "Partics": 6,
-            "Orgs": 6
-          },
-          "Results": []
-        },
-        {
-          "Orgs": [
-            "IND",
-            "HKG",
-            "CHN",
-            "OMA",
-            "KOR",
-            "JPN"
-          ],
-          "IsPhase": false,
-          "ResCode": "M.49ER--------------.PREL.000300--",
-          "ShowLink": true,
-          "Disc": "SAL",
-          "DiscDesc": "Sailing",
-          "Key": "M.49ER--------------.PREL.000300--",
-          "isH2H": false,
-          "Type": "D",
-          "Medal": "0",
-          "Status": "OFFICIAL",
-          "StatusDesc": "Official",
-          "DateTimeRaw": "2026-09-30T11:00:00+09:00",
-          "HideStartDate": false,
-          "Estimated": false,
-          "EstText": "TBD",
-          "HideLocation": false,
-          "Venue": "KYH",
-          "VenueDesc": "Kaiyoh Yacht Harbor",
-          "VenueDescS": "Kaiyoh Yacht Harbor",
-          "Loc": "KY4",
-          "LocDesc": "Racing Area D",
-          "LocDescS": "Racing Area D",
-          "Event": "M.49ER--------------",
-          "EventDesc": "Men's Skiff",
-          "Phase": "M.49ER--------------.PREL",
-          "PhaseOrder": 1,
-          "PhaseDesc": "Opening Series",
-          "PhaseDescS": "Opening Series",
-          "PhaseDescA": "Opening Series",
-          "UnitDesc": "Race 3",
-          "UnitDescS": "Race 3",
-          "UnitDescA": "Race 3",
-          "EndDateTimeRaw": "2026-09-30T14:02:48+09:00",
-          "ActualEndDateTimeRaw": "2026-09-30T14:02:48+09:00",
-          "UnitNum": "3",
-          "IsLive": false,
-          "ShowResults": true,
-          "Counters": {
-            "Partics": 6,
-            "Orgs": 6
-          },
-          "Results": []
-        },
-        {
-          "Orgs": [
-            "CHN",
-            "HKG",
-            "OMA",
-            "IND",
-            "KOR",
-            "JPN"
-          ],
-          "IsPhase": false,
-          "ResCode": "M.49ER--------------.PREL.000400--",
-          "ShowLink": true,
-          "Disc": "SAL",
-          "DiscDesc": "Sailing",
-          "Key": "M.49ER--------------.PREL.000400--",
-          "isH2H": false,
-          "Type": "D",
-          "Medal": "0",
-          "Status": "OFFICIAL",
-          "StatusDesc": "Official",
-          "DateTimeRaw": "2026-09-30T11:00:00+09:00",
-          "HideStartDate": false,
-          "Estimated": false,
-          "EstText": "TBD",
-          "HideLocation": false,
-          "Venue": "KYH",
-          "VenueDesc": "Kaiyoh Yacht Harbor",
-          "VenueDescS": "Kaiyoh Yacht Harbor",
-          "Loc": "KY4",
-          "LocDesc": "Racing Area D",
-          "LocDescS": "Racing Area D",
-          "Event": "M.49ER--------------",
-          "EventDesc": "Men's Skiff",
-          "Phase": "M.49ER--------------.PREL",
-          "PhaseOrder": 1,
-          "PhaseDesc": "Opening Series",
-          "PhaseDescS": "Opening Series",
-          "PhaseDescA": "Opening Series",
-          "UnitDesc": "Race 4",
-          "UnitDescS": "Race 4",
-          "UnitDescA": "Race 4",
-          "EndDateTimeRaw": "2026-09-30T14:39:19+09:00",
-          "ActualEndDateTimeRaw": "2026-09-30T14:39:19+09:00",
-          "UnitNum": "4",
-          "IsLive": false,
-          "ShowResults": true,
-          "Counters": {
-            "Partics": 6,
-            "Orgs": 6
-          },
-          "Results": []
-        },
-        {
-          "Orgs": [
-            "KOR",
-            "IND",
-            "HKG",
-            "OMA",
-            "CHN",
-            "JPN"
-          ],
-          "IsPhase": false,
-          "ResCode": "M.49ER--------------.PREL.000500--",
-          "ShowLink": true,
-          "Disc": "SAL",
-          "DiscDesc": "Sailing",
-          "Key": "M.49ER--------------.PREL.000500--",
-          "isH2H": false,
-          "Type": "D",
-          "Medal": "0",
-          "Status": "OFFICIAL",
-          "StatusDesc": "Official",
-          "DateTimeRaw": "2026-09-30T11:00:00+09:00",
-          "HideStartDate": false,
-          "Estimated": false,
-          "EstText": "TBD",
-          "HideLocation": false,
-          "Venue": "KYH",
-          "VenueDesc": "Kaiyoh Yacht Harbor",
-          "VenueDescS": "Kaiyoh Yacht Harbor",
-          "Loc": "KY4",
-          "LocDesc": "Racing Area D",
-          "LocDescS": "Racing Area D",
-          "Event": "M.49ER--------------",
-          "EventDesc": "Men's Skiff",
-          "Phase": "M.49ER--------------.PREL",
-          "PhaseOrder": 1,
-          "PhaseDesc": "Opening Series",
-          "PhaseDescS": "Opening Series",
-          "PhaseDescA": "Opening Series",
-          "UnitDesc": "Race 5",
-          "UnitDescS": "Race 5",
-          "UnitDescA": "Race 5",
-          "EndDateTimeRaw": "2026-09-30T15:27:37+09:00",
-          "ActualEndDateTimeRaw": "2026-09-30T15:27:37+09:00",
-          "UnitNum": "5",
-          "IsLive": false,
-          "ShowResults": true,
-          "Counters": {
-            "Partics": 6,
-            "Orgs": 6
-          },
-          "Results": []
-        },
-        {
-          "Orgs": [
-            "CHN",
-            "JPN",
-            "HKG",
-            "OMA",
-            "IND",
-            "KOR"
-          ],
-          "IsPhase": false,
-          "ResCode": "M.49ER--------------.PREL.000600--",
-          "ShowLink": true,
-          "Disc": "SAL",
-          "DiscDesc": "Sailing",
-          "Key": "M.49ER--------------.PREL.000600--",
-          "isH2H": false,
-          "Type": "D",
-          "Medal": "0",
-          "Status": "OFFICIAL",
-          "StatusDesc": "Official",
-          "DateTimeRaw": "2026-10-01T10:00:00+09:00",
-          "HideStartDate": false,
-          "Estimated": false,
-          "EstText": "TBD",
-          "HideLocation": false,
-          "Venue": "KYH",
-          "VenueDesc": "Kaiyoh Yacht Harbor",
-          "VenueDescS": "Kaiyoh Yacht Harbor",
-          "Loc": "KY4",
-          "LocDesc": "Racing Area D",
-          "LocDescS": "Racing Area D",
-          "Event": "M.49ER--------------",
-          "EventDesc": "Men's Skiff",
-          "Phase": "M.49ER--------------.PREL",
-          "PhaseOrder": 1,
-          "PhaseDesc": "Opening Series",
-          "PhaseDescS": "Opening Series",
-          "PhaseDescA": "Opening Series",
-          "UnitDesc": "Race 6",
-          "UnitDescS": "Race 6",
-          "UnitDescA": "Race 6",
-          "EndDateTimeRaw": "2026-10-01T10:42:02+09:00",
-          "ActualEndDateTimeRaw": "2026-10-01T10:42:02+09:00",
-          "UnitNum": "6",
-          "IsLive": false,
-          "ShowResults": true,
-          "Counters": {
-            "Partics": 6,
-            "Orgs": 6
-          },
-          "Results": []
-        },
-        {
-          "Orgs": [
-            "HKG",
-            "CHN",
-            "KOR",
-            "IND",
-            "JPN",
-            "OMA"
-          ],
-          "IsPhase": false,
-          "ResCode": "M.49ER--------------.PREL.000700--",
-          "ShowLink": true,
-          "Disc": "SAL",
-          "DiscDesc": "Sailing",
-          "Key": "M.49ER--------------.PREL.000700--",
-          "isH2H": false,
-          "Type": "D",
-          "Medal": "0",
-          "Status": "OFFICIAL",
-          "StatusDesc": "Official",
-          "DateTimeRaw": "2026-10-01T10:00:00+09:00",
-          "HideStartDate": false,
-          "Estimated": false,
-          "EstText": "TBD",
-          "HideLocation": false,
-          "Venue": "KYH",
-          "VenueDesc": "Kaiyoh Yacht Harbor",
-          "VenueDescS": "Kaiyoh Yacht Harbor",
-          "Loc": "KY4",
-          "LocDesc": "Racing Area D",
-          "LocDescS": "Racing Area D",
-          "Event": "M.49ER--------------",
-          "EventDesc": "Men's Skiff",
-          "Phase": "M.49ER--------------.PREL",
-          "PhaseOrder": 1,
-          "PhaseDesc": "Opening Series",
-          "PhaseDescS": "Opening Series",
-          "PhaseDescA": "Opening Series",
-          "UnitDesc": "Race 7",
-          "UnitDescS": "Race 7",
-          "UnitDescA": "Race 7",
-          "EndDateTimeRaw": "2026-10-01T11:31:59+09:00",
-          "ActualEndDateTimeRaw": "2026-10-01T11:31:59+09:00",
-          "UnitNum": "7",
-          "IsLive": false,
-          "ShowResults": true,
-          "Counters": {
-            "Partics": 6,
-            "Orgs": 6
-          },
-          "Results": []
-        },
-        {
-          "Orgs": [
-            "JPN",
-            "KOR",
-            "CHN",
-            "HKG",
-            "OMA",
-            "IND"
-          ],
-          "IsPhase": false,
-          "ResCode": "M.49ER--------------.PREL.000800--",
-          "ShowLink": true,
-          "Disc": "SAL",
-          "DiscDesc": "Sailing",
-          "Key": "M.49ER--------------.PREL.000800--",
-          "isH2H": false,
-          "Type": "D",
-          "Medal": "0",
-          "Status": "OFFICIAL",
-          "StatusDesc": "Official",
-          "DateTimeRaw": "2026-10-01T10:00:00+09:00",
-          "HideStartDate": false,
-          "Estimated": false,
-          "EstText": "TBD",
-          "HideLocation": false,
-          "Venue": "KYH",
-          "VenueDesc": "Kaiyoh Yacht Harbor",
-          "VenueDescS": "Kaiyoh Yacht Harbor",
-          "Loc": "KY4",
-          "LocDesc": "Racing Area D",
-          "LocDescS": "Racing Area D",
-          "Event": "M.49ER--------------",
-          "EventDesc": "Men's Skiff",
-          "Phase": "M.49ER--------------.PREL",
-          "PhaseOrder": 1,
-          "PhaseDesc": "Opening Series",
-          "PhaseDescS": "Opening Series",
-          "PhaseDescA": "Opening Series",
-          "UnitDesc": "Race 8",
-          "UnitDescS": "Race 8",
-          "UnitDescA": "Race 8",
-          "EndDateTimeRaw": "2026-10-01T12:11:50+09:00",
-          "ActualEndDateTimeRaw": "2026-10-01T12:11:50+09:00",
-          "UnitNum": "8",
-          "IsLive": false,
-          "ShowResults": true,
-          "Counters": {
-            "Partics": 6,
-            "Orgs": 6
-          },
-          "Results": []
-        },
-        {
-          "Orgs": [
-            "CHN",
-            "IND",
-            "JPN",
-            "OMA",
-            "HKG",
-            "KOR"
-          ],
-          "IsPhase": false,
-          "ResCode": "M.49ER--------------.PREL.000900--",
-          "ShowLink": true,
-          "Disc": "SAL",
-          "DiscDesc": "Sailing",
-          "Key": "M.49ER--------------.PREL.000900--",
-          "isH2H": false,
-          "Type": "D",
-          "Medal": "1",
-          "Status": "OFFICIAL",
-          "StatusDesc": "Official",
-          "DateTimeRaw": "2026-10-01T10:00:00+09:00",
-          "HideStartDate": false,
-          "Estimated": false,
-          "EstText": "TBD",
-          "HideLocation": false,
-          "Venue": "KYH",
-          "VenueDesc": "Kaiyoh Yacht Harbor",
-          "VenueDescS": "Kaiyoh Yacht Harbor",
-          "Loc": "KY4",
-          "LocDesc": "Racing Area D",
-          "LocDescS": "Racing Area D",
-          "Event": "M.49ER--------------",
-          "EventDesc": "Men's Skiff",
-          "Phase": "M.49ER--------------.PREL",
-          "PhaseOrder": 1,
-          "PhaseDesc": "Opening Series",
-          "PhaseDescS": "Opening Series",
-          "PhaseDescA": "Opening Series",
-          "UnitDesc": "Race 9",
-          "UnitDescS": "Race 9",
-          "UnitDescA": "Race 9",
-          "EndDateTimeRaw": "2026-10-01T12:50:15+09:00",
-          "ActualEndDateTimeRaw": "2026-10-01T12:50:15+09:00",
-          "UnitNum": "9",
-          "IsLive": false,
-          "ShowResults": true,
-          "Counters": {
-            "Partics": 6,
-            "Orgs": 6
-          },
-          "Results": []
-        }
-      ],
-      "historical": null
-    }
-  },
-  {
-    "reg": "12995998",
-    "name": "FRANCIS Manu",
-    "org": "IND",
-    "org_desc": "India",
-    "disc": "SAL",
-    "disc_desc": "Sailing",
-    "photo_url": "https://results.asiangames2026.org/ag2026/photos/12995998.jpg",
-    "medals": [
-      {
-        "medal": "silver",
-        "event": "Men's Skiff"
-      }
-    ],
-    "bio_data": {
-      "participant": {
-        "Reg": "12995998",
-        "Disc": "SAL",
-        "DiscDesc": "Sailing",
-        "hasMembers": false,
-        "Org": "IND",
-        "OrgDesc": "India",
-        "Type": "A",
-        "Gender": "M",
-        "BirthDateRaw": "1995-02-26",
-        "Name": "FRANCIS Manu",
-        "NameS": "FRANCIS M",
-        "GivenName": "",
-        "FamilyName": "",
-        "IFId": "",
-        "Height": null,
-        "Weight": null
-      },
-      "entries": [
-        {
-          "Disc": "SAL",
-          "Reg": "12995998",
-          "EvKey": "M.49ER--------------",
-          "Desc": "Men's Skiff",
-          "DescS": "Men's Skiff",
-          "isMember": false
-        },
-        {
-          "Disc": "SAL",
-          "Reg": "12995998",
-          "EvKey": "M.49ER--------------",
-          "Desc": "Men's Skiff",
-          "DescS": "Men's Skiff",
-          "isMember": true,
-          "TeamReg": "SALM49ER-------IND01",
-          "TeamOrg": "IND",
-          "TeamName": "India",
-          "Medal": "ME_SILVER",
-          "Rank": "2",
-          "IRM": "",
-          "Result": ""
-        }
-      ],
-      "schedule": [
-        {
-          "Orgs": [
-            "OMA",
-            "IND",
-            "KOR",
-            "CHN",
-            "HKG",
-            "JPN"
-          ],
-          "IsPhase": false,
-          "ResCode": "M.49ER--------------.PREL.000100--",
-          "ShowLink": true,
-          "Disc": "SAL",
-          "DiscDesc": "Sailing",
-          "Key": "M.49ER--------------.PREL.000100--",
-          "isH2H": false,
-          "Type": "D",
-          "Medal": "0",
-          "Status": "OFFICIAL",
-          "StatusDesc": "Official",
-          "DateTimeRaw": "2026-09-28T11:00:00+09:00",
-          "HideStartDate": false,
-          "Estimated": false,
-          "EstText": "TBD",
-          "HideLocation": false,
-          "Venue": "KYH",
-          "VenueDesc": "Kaiyoh Yacht Harbor",
-          "VenueDescS": "Kaiyoh Yacht Harbor",
-          "Loc": "KY4",
-          "LocDesc": "Racing Area D",
-          "LocDescS": "Racing Area D",
-          "Event": "M.49ER--------------",
-          "EventDesc": "Men's Skiff",
-          "Phase": "M.49ER--------------.PREL",
-          "PhaseOrder": 1,
-          "PhaseDesc": "Opening Series",
-          "PhaseDescS": "Opening Series",
-          "PhaseDescA": "Opening Series",
-          "UnitDesc": "Race 1",
-          "UnitDescS": "Race 1",
-          "UnitDescA": "Race 1",
-          "EndDateTimeRaw": "2026-09-28T15:20:29+09:00",
-          "ActualEndDateTimeRaw": "2026-09-28T15:20:29+09:00",
-          "UnitNum": "1",
-          "IsLive": false,
-          "ShowResults": true,
-          "Counters": {
-            "Partics": 6,
-            "Orgs": 6
-          },
-          "Results": []
-        },
-        {
-          "Orgs": [
-            "CHN",
-            "KOR",
-            "IND",
-            "HKG",
-            "JPN",
-            "OMA"
-          ],
-          "IsPhase": false,
-          "ResCode": "M.49ER--------------.PREL.000200--",
-          "ShowLink": true,
-          "Disc": "SAL",
-          "DiscDesc": "Sailing",
-          "Key": "M.49ER--------------.PREL.000200--",
-          "isH2H": false,
-          "Type": "D",
-          "Medal": "0",
-          "Status": "OFFICIAL",
-          "StatusDesc": "Official",
-          "DateTimeRaw": "2026-09-28T11:00:00+09:00",
-          "HideStartDate": false,
-          "Estimated": false,
-          "EstText": "TBD",
-          "HideLocation": false,
-          "Venue": "KYH",
-          "VenueDesc": "Kaiyoh Yacht Harbor",
-          "VenueDescS": "Kaiyoh Yacht Harbor",
-          "Loc": "KY4",
-          "LocDesc": "Racing Area D",
-          "LocDescS": "Racing Area D",
-          "Event": "M.49ER--------------",
-          "EventDesc": "Men's Skiff",
-          "Phase": "M.49ER--------------.PREL",
-          "PhaseOrder": 1,
-          "PhaseDesc": "Opening Series",
-          "PhaseDescS": "Opening Series",
-          "PhaseDescA": "Opening Series",
-          "UnitDesc": "Race 2",
-          "UnitDescS": "Race 2",
-          "UnitDescA": "Race 2",
-          "EndDateTimeRaw": "2026-09-28T16:10:57+09:00",
-          "ActualEndDateTimeRaw": "2026-09-28T16:10:57+09:00",
-          "UnitNum": "2",
-          "IsLive": false,
-          "ShowResults": true,
-          "Counters": {
-            "Partics": 6,
-            "Orgs": 6
-          },
-          "Results": []
-        },
-        {
-          "Orgs": [
-            "IND",
-            "HKG",
-            "CHN",
-            "OMA",
-            "KOR",
-            "JPN"
-          ],
-          "IsPhase": false,
-          "ResCode": "M.49ER--------------.PREL.000300--",
-          "ShowLink": true,
-          "Disc": "SAL",
-          "DiscDesc": "Sailing",
-          "Key": "M.49ER--------------.PREL.000300--",
-          "isH2H": false,
-          "Type": "D",
-          "Medal": "0",
-          "Status": "OFFICIAL",
-          "StatusDesc": "Official",
-          "DateTimeRaw": "2026-09-30T11:00:00+09:00",
-          "HideStartDate": false,
-          "Estimated": false,
-          "EstText": "TBD",
-          "HideLocation": false,
-          "Venue": "KYH",
-          "VenueDesc": "Kaiyoh Yacht Harbor",
-          "VenueDescS": "Kaiyoh Yacht Harbor",
-          "Loc": "KY4",
-          "LocDesc": "Racing Area D",
-          "LocDescS": "Racing Area D",
-          "Event": "M.49ER--------------",
-          "EventDesc": "Men's Skiff",
-          "Phase": "M.49ER--------------.PREL",
-          "PhaseOrder": 1,
-          "PhaseDesc": "Opening Series",
-          "PhaseDescS": "Opening Series",
-          "PhaseDescA": "Opening Series",
-          "UnitDesc": "Race 3",
-          "UnitDescS": "Race 3",
-          "UnitDescA": "Race 3",
-          "EndDateTimeRaw": "2026-09-30T14:02:48+09:00",
-          "ActualEndDateTimeRaw": "2026-09-30T14:02:48+09:00",
-          "UnitNum": "3",
-          "IsLive": false,
-          "ShowResults": true,
-          "Counters": {
-            "Partics": 6,
-            "Orgs": 6
-          },
-          "Results": []
-        },
-        {
-          "Orgs": [
-            "CHN",
-            "HKG",
-            "OMA",
-            "IND",
-            "KOR",
-            "JPN"
-          ],
-          "IsPhase": false,
-          "ResCode": "M.49ER--------------.PREL.000400--",
-          "ShowLink": true,
-          "Disc": "SAL",
-          "DiscDesc": "Sailing",
-          "Key": "M.49ER--------------.PREL.000400--",
-          "isH2H": false,
-          "Type": "D",
-          "Medal": "0",
-          "Status": "OFFICIAL",
-          "StatusDesc": "Official",
-          "DateTimeRaw": "2026-09-30T11:00:00+09:00",
-          "HideStartDate": false,
-          "Estimated": false,
-          "EstText": "TBD",
-          "HideLocation": false,
-          "Venue": "KYH",
-          "VenueDesc": "Kaiyoh Yacht Harbor",
-          "VenueDescS": "Kaiyoh Yacht Harbor",
-          "Loc": "KY4",
-          "LocDesc": "Racing Area D",
-          "LocDescS": "Racing Area D",
-          "Event": "M.49ER--------------",
-          "EventDesc": "Men's Skiff",
-          "Phase": "M.49ER--------------.PREL",
-          "PhaseOrder": 1,
-          "PhaseDesc": "Opening Series",
-          "PhaseDescS": "Opening Series",
-          "PhaseDescA": "Opening Series",
-          "UnitDesc": "Race 4",
-          "UnitDescS": "Race 4",
-          "UnitDescA": "Race 4",
-          "EndDateTimeRaw": "2026-09-30T14:39:19+09:00",
-          "ActualEndDateTimeRaw": "2026-09-30T14:39:19+09:00",
-          "UnitNum": "4",
-          "IsLive": false,
-          "ShowResults": true,
-          "Counters": {
-            "Partics": 6,
-            "Orgs": 6
-          },
-          "Results": []
-        },
-        {
-          "Orgs": [
-            "KOR",
-            "IND",
-            "HKG",
-            "OMA",
-            "CHN",
-            "JPN"
-          ],
-          "IsPhase": false,
-          "ResCode": "M.49ER--------------.PREL.000500--",
-          "ShowLink": true,
-          "Disc": "SAL",
-          "DiscDesc": "Sailing",
-          "Key": "M.49ER--------------.PREL.000500--",
-          "isH2H": false,
-          "Type": "D",
-          "Medal": "0",
-          "Status": "OFFICIAL",
-          "StatusDesc": "Official",
-          "DateTimeRaw": "2026-09-30T11:00:00+09:00",
-          "HideStartDate": false,
-          "Estimated": false,
-          "EstText": "TBD",
-          "HideLocation": false,
-          "Venue": "KYH",
-          "VenueDesc": "Kaiyoh Yacht Harbor",
-          "VenueDescS": "Kaiyoh Yacht Harbor",
-          "Loc": "KY4",
-          "LocDesc": "Racing Area D",
-          "LocDescS": "Racing Area D",
-          "Event": "M.49ER--------------",
-          "EventDesc": "Men's Skiff",
-          "Phase": "M.49ER--------------.PREL",
-          "PhaseOrder": 1,
-          "PhaseDesc": "Opening Series",
-          "PhaseDescS": "Opening Series",
-          "PhaseDescA": "Opening Series",
-          "UnitDesc": "Race 5",
-          "UnitDescS": "Race 5",
-          "UnitDescA": "Race 5",
-          "EndDateTimeRaw": "2026-09-30T15:27:37+09:00",
-          "ActualEndDateTimeRaw": "2026-09-30T15:27:37+09:00",
-          "UnitNum": "5",
-          "IsLive": false,
-          "ShowResults": true,
-          "Counters": {
-            "Partics": 6,
-            "Orgs": 6
-          },
-          "Results": []
-        },
-        {
-          "Orgs": [
-            "CHN",
-            "JPN",
-            "HKG",
-            "OMA",
-            "IND",
-            "KOR"
-          ],
-          "IsPhase": false,
-          "ResCode": "M.49ER--------------.PREL.000600--",
-          "ShowLink": true,
-          "Disc": "SAL",
-          "DiscDesc": "Sailing",
-          "Key": "M.49ER--------------.PREL.000600--",
-          "isH2H": false,
-          "Type": "D",
-          "Medal": "0",
-          "Status": "OFFICIAL",
-          "StatusDesc": "Official",
-          "DateTimeRaw": "2026-10-01T10:00:00+09:00",
-          "HideStartDate": false,
-          "Estimated": false,
-          "EstText": "TBD",
-          "HideLocation": false,
-          "Venue": "KYH",
-          "VenueDesc": "Kaiyoh Yacht Harbor",
-          "VenueDescS": "Kaiyoh Yacht Harbor",
-          "Loc": "KY4",
-          "LocDesc": "Racing Area D",
-          "LocDescS": "Racing Area D",
-          "Event": "M.49ER--------------",
-          "EventDesc": "Men's Skiff",
-          "Phase": "M.49ER--------------.PREL",
-          "PhaseOrder": 1,
-          "PhaseDesc": "Opening Series",
-          "PhaseDescS": "Opening Series",
-          "PhaseDescA": "Opening Series",
-          "UnitDesc": "Race 6",
-          "UnitDescS": "Race 6",
-          "UnitDescA": "Race 6",
-          "EndDateTimeRaw": "2026-10-01T10:42:02+09:00",
-          "ActualEndDateTimeRaw": "2026-10-01T10:42:02+09:00",
-          "UnitNum": "6",
-          "IsLive": false,
-          "ShowResults": true,
-          "Counters": {
-            "Partics": 6,
-            "Orgs": 6
-          },
-          "Results": []
-        },
-        {
-          "Orgs": [
-            "HKG",
-            "CHN",
-            "KOR",
-            "IND",
-            "JPN",
-            "OMA"
-          ],
-          "IsPhase": false,
-          "ResCode": "M.49ER--------------.PREL.000700--",
-          "ShowLink": true,
-          "Disc": "SAL",
-          "DiscDesc": "Sailing",
-          "Key": "M.49ER--------------.PREL.000700--",
-          "isH2H": false,
-          "Type": "D",
-          "Medal": "0",
-          "Status": "OFFICIAL",
-          "StatusDesc": "Official",
-          "DateTimeRaw": "2026-10-01T10:00:00+09:00",
-          "HideStartDate": false,
-          "Estimated": false,
-          "EstText": "TBD",
-          "HideLocation": false,
-          "Venue": "KYH",
-          "VenueDesc": "Kaiyoh Yacht Harbor",
-          "VenueDescS": "Kaiyoh Yacht Harbor",
-          "Loc": "KY4",
-          "LocDesc": "Racing Area D",
-          "LocDescS": "Racing Area D",
-          "Event": "M.49ER--------------",
-          "EventDesc": "Men's Skiff",
-          "Phase": "M.49ER--------------.PREL",
-          "PhaseOrder": 1,
-          "PhaseDesc": "Opening Series",
-          "PhaseDescS": "Opening Series",
-          "PhaseDescA": "Opening Series",
-          "UnitDesc": "Race 7",
-          "UnitDescS": "Race 7",
-          "UnitDescA": "Race 7",
-          "EndDateTimeRaw": "2026-10-01T11:31:59+09:00",
-          "ActualEndDateTimeRaw": "2026-10-01T11:31:59+09:00",
-          "UnitNum": "7",
-          "IsLive": false,
-          "ShowResults": true,
-          "Counters": {
-            "Partics": 6,
-            "Orgs": 6
-          },
-          "Results": []
-        },
-        {
-          "Orgs": [
-            "JPN",
-            "KOR",
-            "CHN",
-            "HKG",
-            "OMA",
-            "IND"
-          ],
-          "IsPhase": false,
-          "ResCode": "M.49ER--------------.PREL.000800--",
-          "ShowLink": true,
-          "Disc": "SAL",
-          "DiscDesc": "Sailing",
-          "Key": "M.49ER--------------.PREL.000800--",
-          "isH2H": false,
-          "Type": "D",
-          "Medal": "0",
-          "Status": "OFFICIAL",
-          "StatusDesc": "Official",
-          "DateTimeRaw": "2026-10-01T10:00:00+09:00",
-          "HideStartDate": false,
-          "Estimated": false,
-          "EstText": "TBD",
-          "HideLocation": false,
-          "Venue": "KYH",
-          "VenueDesc": "Kaiyoh Yacht Harbor",
-          "VenueDescS": "Kaiyoh Yacht Harbor",
-          "Loc": "KY4",
-          "LocDesc": "Racing Area D",
-          "LocDescS": "Racing Area D",
-          "Event": "M.49ER--------------",
-          "EventDesc": "Men's Skiff",
-          "Phase": "M.49ER--------------.PREL",
-          "PhaseOrder": 1,
-          "PhaseDesc": "Opening Series",
-          "PhaseDescS": "Opening Series",
-          "PhaseDescA": "Opening Series",
-          "UnitDesc": "Race 8",
-          "UnitDescS": "Race 8",
-          "UnitDescA": "Race 8",
-          "EndDateTimeRaw": "2026-10-01T12:11:50+09:00",
-          "ActualEndDateTimeRaw": "2026-10-01T12:11:50+09:00",
-          "UnitNum": "8",
-          "IsLive": false,
-          "ShowResults": true,
-          "Counters": {
-            "Partics": 6,
-            "Orgs": 6
-          },
-          "Results": []
-        },
-        {
-          "Orgs": [
-            "CHN",
-            "IND",
-            "JPN",
-            "OMA",
-            "HKG",
-            "KOR"
-          ],
-          "IsPhase": false,
-          "ResCode": "M.49ER--------------.PREL.000900--",
-          "ShowLink": true,
-          "Disc": "SAL",
-          "DiscDesc": "Sailing",
-          "Key": "M.49ER--------------.PREL.000900--",
-          "isH2H": false,
-          "Type": "D",
-          "Medal": "1",
-          "Status": "OFFICIAL",
-          "StatusDesc": "Official",
-          "DateTimeRaw": "2026-10-01T10:00:00+09:00",
-          "HideStartDate": false,
-          "Estimated": false,
-          "EstText": "TBD",
-          "HideLocation": false,
-          "Venue": "KYH",
-          "VenueDesc": "Kaiyoh Yacht Harbor",
-          "VenueDescS": "Kaiyoh Yacht Harbor",
-          "Loc": "KY4",
-          "LocDesc": "Racing Area D",
-          "LocDescS": "Racing Area D",
-          "Event": "M.49ER--------------",
-          "EventDesc": "Men's Skiff",
-          "Phase": "M.49ER--------------.PREL",
-          "PhaseOrder": 1,
-          "PhaseDesc": "Opening Series",
-          "PhaseDescS": "Opening Series",
-          "PhaseDescA": "Opening Series",
-          "UnitDesc": "Race 9",
-          "UnitDescS": "Race 9",
-          "UnitDescA": "Race 9",
-          "EndDateTimeRaw": "2026-10-01T12:50:15+09:00",
-          "ActualEndDateTimeRaw": "2026-10-01T12:50:15+09:00",
-          "UnitNum": "9",
-          "IsLive": false,
-          "ShowResults": true,
-          "Counters": {
-            "Partics": 6,
-            "Orgs": 6
-          },
-          "Results": []
-        }
-      ],
-      "historical": null
-    }
-  },
-  {
     "reg": "13021576",
     "name": "NEERU",
     "org": "IND",
@@ -208643,10 +210556,10 @@
           "Desc": "Trap Women Individual",
           "DescS": "Trap Women Individual",
           "isMember": false,
+          "Medal": "ME_GOLD",
           "Rank": "1",
           "IRM": "",
-          "Result": "28",
-          "Medal": "ME_GOLD"
+          "Result": "28"
         },
         {
           "Disc": "SHO",
@@ -210085,10 +211998,10 @@
           "Desc": "Trap Mixed Team",
           "DescS": "Trap Mixed Team",
           "isMember": false,
-          "Medal": "ME_GOLD",
           "Rank": "1",
           "IRM": "",
-          "Result": "34"
+          "Result": "34",
+          "Medal": "ME_GOLD"
         }
       ],
       "schedule": [
@@ -210802,10 +212715,10 @@
           "Desc": "10m Air Rifle Men Individual",
           "DescS": "10m Air Rifle Men Individual",
           "isMember": false,
-          "Medal": "ME_SILVER",
           "Rank": "2",
           "IRM": "",
-          "Result": "252.4"
+          "Result": "252.4",
+          "Medal": "ME_SILVER"
         },
         {
           "Disc": "SHO",
@@ -210817,10 +212730,10 @@
           "TeamReg": "SHOMARTM-------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
-          "Medal": "ME_SILVER",
           "Rank": "2",
           "IRM": "",
-          "Result": "1890.1"
+          "Result": "1890.1",
+          "Medal": "ME_SILVER"
         }
       ],
       "schedule": [
@@ -211222,10 +213135,10 @@
           "TeamReg": "SHOMARTM-------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
+          "Medal": "ME_SILVER",
           "Rank": "2",
           "IRM": "",
-          "Result": "1890.1",
-          "Medal": "ME_SILVER"
+          "Result": "1890.1"
         },
         {
           "Disc": "SHO",
@@ -212708,10 +214621,10 @@
           "TeamReg": "SHOWARTW-------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
-          "Medal": "ME_SILVER",
           "Rank": "2",
           "IRM": "",
-          "Result": "1898.0"
+          "Result": "1898.0",
+          "Medal": "ME_SILVER"
         },
         {
           "Disc": "SHO",
@@ -213880,10 +215793,10 @@
           "TeamReg": "SHOWR3PTW------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
-          "Medal": "ME_SILVER",
           "Rank": "2",
           "IRM": "",
-          "Result": "1763"
+          "Result": "1763",
+          "Medal": "ME_SILVER"
         },
         {
           "Disc": "SHO",
@@ -214069,10 +215982,10 @@
           "TeamReg": "SHOWR3PTW------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
-          "Medal": "ME_SILVER",
           "Rank": "2",
           "IRM": "",
-          "Result": "1763"
+          "Result": "1763",
+          "Medal": "ME_SILVER"
         },
         {
           "Disc": "SHO",
@@ -215478,10 +217391,10 @@
           "TeamReg": "SHOWTRTW-------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
-          "Medal": "ME_SILVER",
           "Rank": "2",
           "IRM": "",
-          "Result": "328"
+          "Result": "328",
+          "Medal": "ME_SILVER"
         },
         {
           "Disc": "SHO",
@@ -216589,10 +218502,10 @@
           "TeamReg": "SHOMSKTM-------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
-          "Medal": "ME_BRONZE",
           "Rank": "3",
           "IRM": "",
-          "Result": "346"
+          "Result": "346",
+          "Medal": "ME_BRONZE"
         },
         {
           "Disc": "SHO",
@@ -216604,10 +218517,10 @@
           "TeamReg": "SHOXSKMT-------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
+          "Medal": "ME_BRONZE",
           "Rank": "3",
           "IRM": "",
-          "Result": "44",
-          "Medal": "ME_BRONZE"
+          "Result": "44"
         }
       ],
       "schedule": [
@@ -217200,10 +219113,10 @@
           "TeamReg": "SHOMSKTM-------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
-          "Medal": "ME_BRONZE",
           "Rank": "3",
           "IRM": "",
-          "Result": "346"
+          "Result": "346",
+          "Medal": "ME_BRONZE"
         }
       ],
       "schedule": [
@@ -217664,10 +219577,10 @@
           "Desc": "Skeet Women Team",
           "DescS": "Skeet Women Team",
           "isMember": false,
-          "Medal": "ME_BRONZE",
           "Rank": "3",
           "IRM": "",
-          "Result": "331"
+          "Result": "331",
+          "Medal": "ME_BRONZE"
         }
       ],
       "schedule": [
@@ -218453,10 +220366,10 @@
           "TeamReg": "SHOWSKTW-------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
-          "Medal": "ME_BRONZE",
           "Rank": "3",
           "IRM": "",
-          "Result": "331"
+          "Result": "331",
+          "Medal": "ME_BRONZE"
         },
         {
           "Disc": "SHO",
@@ -226452,8 +228365,8 @@
           "isH2H": true,
           "Type": "T",
           "Medal": "2",
-          "Status": "OFFICIAL",
-          "StatusDesc": "Official",
+          "Status": "START_LIST",
+          "StatusDesc": "Start List",
           "DateTimeRaw": "2026-10-01T10:30:00+09:00",
           "HideStartDate": false,
           "Estimated": false,
@@ -226479,7 +228392,7 @@
           "ActualEndDateTimeRaw": "",
           "UnitNum": "24",
           "IsLive": false,
-          "ShowResults": true,
+          "ShowResults": false,
           "Periods": [
             {
               "Order": 1,
@@ -228612,8 +230525,8 @@
           "isH2H": true,
           "Type": "T",
           "Medal": "2",
-          "Status": "OFFICIAL",
-          "StatusDesc": "Official",
+          "Status": "START_LIST",
+          "StatusDesc": "Start List",
           "DateTimeRaw": "2026-10-01T10:30:00+09:00",
           "HideStartDate": false,
           "Estimated": false,
@@ -228639,7 +230552,7 @@
           "ActualEndDateTimeRaw": "",
           "UnitNum": "24",
           "IsLive": false,
-          "ShowResults": true,
+          "ShowResults": false,
           "Periods": [
             {
               "Order": 1,
@@ -229178,10 +231091,10 @@
           "TeamReg": "SQUWTEAM-------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
+          "Medal": "ME_BRONZE",
           "Rank": "3",
           "IRM": "OK",
-          "Result": "",
-          "Medal": "ME_BRONZE"
+          "Result": ""
         }
       ],
       "schedule": [
@@ -231833,8 +233746,8 @@
           "isH2H": true,
           "Type": "T",
           "Medal": "2",
-          "Status": "OFFICIAL",
-          "StatusDesc": "Official",
+          "Status": "START_LIST",
+          "StatusDesc": "Start List",
           "DateTimeRaw": "2026-10-01T10:30:00+09:00",
           "HideStartDate": false,
           "Estimated": false,
@@ -231860,7 +233773,7 @@
           "ActualEndDateTimeRaw": "",
           "UnitNum": "24",
           "IsLive": false,
-          "ShowResults": true,
+          "ShowResults": false,
           "Periods": [
             {
               "Order": 1,
@@ -235076,8 +236989,8 @@
           "isH2H": true,
           "Type": "T",
           "Medal": "2",
-          "Status": "OFFICIAL",
-          "StatusDesc": "Official",
+          "Status": "START_LIST",
+          "StatusDesc": "Start List",
           "DateTimeRaw": "2026-10-01T10:30:00+09:00",
           "HideStartDate": false,
           "Estimated": false,
@@ -235103,7 +237016,7 @@
           "ActualEndDateTimeRaw": "",
           "UnitNum": "24",
           "IsLive": false,
-          "ShowResults": true,
+          "ShowResults": false,
           "Periods": [
             {
               "Order": 1,
@@ -237512,8 +239425,8 @@
           "isH2H": true,
           "Type": "T",
           "Medal": "2",
-          "Status": "OFFICIAL",
-          "StatusDesc": "Official",
+          "Status": "START_LIST",
+          "StatusDesc": "Start List",
           "DateTimeRaw": "2026-10-01T10:30:00+09:00",
           "HideStartDate": false,
           "Estimated": false,
@@ -237539,7 +239452,7 @@
           "ActualEndDateTimeRaw": "",
           "UnitNum": "24",
           "IsLive": false,
-          "ShowResults": true,
+          "ShowResults": false,
           "Periods": [
             {
               "Order": 1,
@@ -256306,10 +258219,10 @@
           "TeamReg": "TTEXDOUBLES----IND01",
           "TeamOrg": "IND",
           "TeamName": "SHAH Manush/CHITALE Diya",
+          "Medal": "ME_BRONZE",
           "Rank": "3",
           "IRM": "OK",
-          "Result": "",
-          "Medal": "ME_BRONZE"
+          "Result": ""
         }
       ],
       "schedule": [
@@ -261971,10 +263884,10 @@
           "Desc": "Men's Greco-Roman 87kg",
           "DescS": "Men's Greco-Roman 87kg",
           "isMember": false,
+          "Medal": "ME_BRONZE",
           "Rank": "3",
           "IRM": "",
-          "Result": "",
-          "Medal": "ME_BRONZE"
+          "Result": ""
         }
       ],
       "schedule": [
@@ -263434,10 +265347,10 @@
           "Desc": "Women's 60kg",
           "DescS": "Women's 60kg",
           "isMember": false,
-          "Medal": "ME_SILVER",
           "Rank": "2",
           "IRM": "OK",
-          "Result": ""
+          "Result": "",
+          "Medal": "ME_SILVER"
         }
       ],
       "schedule": [
