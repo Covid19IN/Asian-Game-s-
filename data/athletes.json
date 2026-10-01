@@ -8279,10 +8279,10 @@
           "TeamReg": "ARCMCTEAM------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
+          "Medal": "ME_GOLD",
           "Rank": "",
           "IRM": "",
-          "Result": "",
-          "Medal": "ME_GOLD"
+          "Result": ""
         },
         {
           "Disc": "ARC",
@@ -16592,10 +16592,10 @@
           "TeamReg": "ARCMCTEAM------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
-          "Medal": "ME_GOLD",
           "Rank": "",
           "IRM": "",
-          "Result": ""
+          "Result": "",
+          "Medal": "ME_GOLD"
         },
         {
           "Disc": "ARC",
@@ -35843,7 +35843,7 @@
           "DescS": "Compound Men's Individual",
           "isMember": false,
           "Medal": "ME_BRONZE",
-          "Rank": "",
+          "Rank": "3",
           "IRM": "",
           "Result": ""
         },
@@ -35865,10 +35865,10 @@
           "TeamReg": "ARCMCTEAM------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
-          "Medal": "ME_GOLD",
           "Rank": "",
           "IRM": "",
-          "Result": ""
+          "Result": "",
+          "Medal": "ME_GOLD"
         },
         {
           "Disc": "ARC",
@@ -50821,6 +50821,32 @@
                 ]
               },
               {
+                "Type": "PREV_RESULT",
+                "Code": "UNIT_KEY",
+                "Pos": 5,
+                "Value": " ",
+                "Extensions": [
+                  {
+                    "Type": "RESULT",
+                    "Code": "Register",
+                    "Pos": 5,
+                    "Value": "10419527"
+                  },
+                  {
+                    "Type": "RESULT",
+                    "Code": "RegisterOpp",
+                    "Pos": 5,
+                    "Value": "2036175"
+                  },
+                  {
+                    "Type": "RESULT",
+                    "Code": "Result",
+                    "Pos": 5,
+                    "Value": "149-145"
+                  }
+                ]
+              },
+              {
                 "Type": "RESULT_INFO",
                 "Code": "DisplayRank",
                 "Pos": 0,
@@ -51537,6 +51563,32 @@
                     "Code": "Result",
                     "Pos": 4,
                     "Value": "144-148"
+                  }
+                ]
+              },
+              {
+                "Type": "PREV_RESULT",
+                "Code": "UNIT_KEY",
+                "Pos": 5,
+                "Value": " ",
+                "Extensions": [
+                  {
+                    "Type": "RESULT",
+                    "Code": "Register",
+                    "Pos": 5,
+                    "Value": "8772997"
+                  },
+                  {
+                    "Type": "RESULT",
+                    "Code": "RegisterOpp",
+                    "Pos": 5,
+                    "Value": "11850154"
+                  },
+                  {
+                    "Type": "RESULT",
+                    "Code": "Result",
+                    "Pos": 5,
+                    "Value": "149-144"
                   }
                 ]
               },
@@ -53730,7 +53782,7 @@
               "Type": "UNIT_INFO",
               "Code": "PhaseFinished",
               "Pos": 0,
-              "Value": "N",
+              "Value": "Y",
               "Extensions": []
             },
             {
@@ -228365,8 +228417,8 @@
           "isH2H": true,
           "Type": "T",
           "Medal": "2",
-          "Status": "START_LIST",
-          "StatusDesc": "Start List",
+          "Status": "OFFICIAL",
+          "StatusDesc": "Official",
           "DateTimeRaw": "2026-10-01T10:30:00+09:00",
           "HideStartDate": false,
           "Estimated": false,
@@ -228392,7 +228444,7 @@
           "ActualEndDateTimeRaw": "",
           "UnitNum": "24",
           "IsLive": false,
-          "ShowResults": false,
+          "ShowResults": true,
           "Periods": [
             {
               "Order": 1,
@@ -230525,8 +230577,8 @@
           "isH2H": true,
           "Type": "T",
           "Medal": "2",
-          "Status": "START_LIST",
-          "StatusDesc": "Start List",
+          "Status": "OFFICIAL",
+          "StatusDesc": "Official",
           "DateTimeRaw": "2026-10-01T10:30:00+09:00",
           "HideStartDate": false,
           "Estimated": false,
@@ -230552,7 +230604,7 @@
           "ActualEndDateTimeRaw": "",
           "UnitNum": "24",
           "IsLive": false,
-          "ShowResults": false,
+          "ShowResults": true,
           "Periods": [
             {
               "Order": 1,
@@ -233746,8 +233798,8 @@
           "isH2H": true,
           "Type": "T",
           "Medal": "2",
-          "Status": "START_LIST",
-          "StatusDesc": "Start List",
+          "Status": "OFFICIAL",
+          "StatusDesc": "Official",
           "DateTimeRaw": "2026-10-01T10:30:00+09:00",
           "HideStartDate": false,
           "Estimated": false,
@@ -233773,7 +233825,7 @@
           "ActualEndDateTimeRaw": "",
           "UnitNum": "24",
           "IsLive": false,
-          "ShowResults": false,
+          "ShowResults": true,
           "Periods": [
             {
               "Order": 1,
@@ -236989,8 +237041,8 @@
           "isH2H": true,
           "Type": "T",
           "Medal": "2",
-          "Status": "START_LIST",
-          "StatusDesc": "Start List",
+          "Status": "OFFICIAL",
+          "StatusDesc": "Official",
           "DateTimeRaw": "2026-10-01T10:30:00+09:00",
           "HideStartDate": false,
           "Estimated": false,
@@ -237016,7 +237068,7 @@
           "ActualEndDateTimeRaw": "",
           "UnitNum": "24",
           "IsLive": false,
-          "ShowResults": false,
+          "ShowResults": true,
           "Periods": [
             {
               "Order": 1,
@@ -239425,8 +239477,8 @@
           "isH2H": true,
           "Type": "T",
           "Medal": "2",
-          "Status": "START_LIST",
-          "StatusDesc": "Start List",
+          "Status": "OFFICIAL",
+          "StatusDesc": "Official",
           "DateTimeRaw": "2026-10-01T10:30:00+09:00",
           "HideStartDate": false,
           "Estimated": false,
@@ -239452,7 +239504,7 @@
           "ActualEndDateTimeRaw": "",
           "UnitNum": "24",
           "IsLive": false,
-          "ShowResults": false,
+          "ShowResults": true,
           "Periods": [
             {
               "Order": 1,
