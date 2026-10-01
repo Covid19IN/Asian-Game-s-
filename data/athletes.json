@@ -35865,10 +35865,10 @@
           "TeamReg": "ARCMCTEAM------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
+          "Medal": "ME_GOLD",
           "Rank": "",
           "IRM": "",
-          "Result": "",
-          "Medal": "ME_GOLD"
+          "Result": ""
         },
         {
           "Disc": "ARC",
@@ -35888,10 +35888,10 @@
           "TeamReg": "ARCXCTEAM2-----IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
-          "Medal": "ME_GOLD",
           "Rank": "1",
           "IRM": "",
-          "Result": ""
+          "Result": "",
+          "Medal": "ME_GOLD"
         }
       ],
       "schedule": [
@@ -166429,10 +166429,10 @@
           "TeamReg": "KABMTEAM7------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
+          "Medal": "ME_GOLD",
           "Rank": "1",
           "IRM": "",
-          "Result": "",
-          "Medal": "ME_GOLD"
+          "Result": ""
         }
       ],
       "schedule": [
@@ -170145,10 +170145,10 @@
           "TeamReg": "KABMTEAM7------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
-          "Medal": "ME_GOLD",
           "Rank": "1",
           "IRM": "",
-          "Result": ""
+          "Result": "",
+          "Medal": "ME_GOLD"
         }
       ],
       "schedule": [
@@ -213575,10 +213575,10 @@
           "TeamReg": "SHOMARTM-------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
-          "Medal": "ME_SILVER",
           "Rank": "2",
           "IRM": "",
-          "Result": "1890.1"
+          "Result": "1890.1",
+          "Medal": "ME_SILVER"
         },
         {
           "Disc": "SHO",
@@ -215549,6 +215549,7 @@
             "THA",
             "MAS",
             "MDV",
+            "UAE",
             "QAT"
           ],
           "IsPhase": false,
@@ -215589,8 +215590,8 @@
           "IsLive": false,
           "ShowResults": true,
           "Counters": {
-            "Partics": 16,
-            "Orgs": 16
+            "Partics": 17,
+            "Orgs": 17
           },
           "Results": []
         },
@@ -215845,10 +215846,10 @@
           "TeamReg": "SHOWR3PTW------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
+          "Medal": "ME_SILVER",
           "Rank": "2",
           "IRM": "",
-          "Result": "1763",
-          "Medal": "ME_SILVER"
+          "Result": "1763"
         },
         {
           "Disc": "SHO",
@@ -216034,10 +216035,10 @@
           "TeamReg": "SHOWR3PTW------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
+          "Medal": "ME_SILVER",
           "Rank": "2",
           "IRM": "",
-          "Result": "1763",
-          "Medal": "ME_SILVER"
+          "Result": "1763"
         },
         {
           "Disc": "SHO",
@@ -217443,10 +217444,10 @@
           "TeamReg": "SHOWTRTW-------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
+          "Medal": "ME_SILVER",
           "Rank": "2",
           "IRM": "",
-          "Result": "328",
-          "Medal": "ME_SILVER"
+          "Result": "328"
         },
         {
           "Disc": "SHO",
@@ -218114,10 +218115,10 @@
           "TeamReg": "SHOMSKTM-------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
-          "Medal": "ME_BRONZE",
           "Rank": "3",
           "IRM": "",
-          "Result": "346"
+          "Result": "346",
+          "Medal": "ME_BRONZE"
         }
       ],
       "schedule": [
@@ -218554,10 +218555,10 @@
           "TeamReg": "SHOMSKTM-------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
+          "Medal": "ME_BRONZE",
           "Rank": "3",
           "IRM": "",
-          "Result": "346",
-          "Medal": "ME_BRONZE"
+          "Result": "346"
         },
         {
           "Disc": "SHO",
@@ -218569,10 +218570,10 @@
           "TeamReg": "SHOXSKMT-------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
-          "Medal": "ME_BRONZE",
           "Rank": "3",
           "IRM": "",
-          "Result": "44"
+          "Result": "44",
+          "Medal": "ME_BRONZE"
         }
       ],
       "schedule": [
@@ -219165,10 +219166,10 @@
           "TeamReg": "SHOMSKTM-------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
+          "Medal": "ME_BRONZE",
           "Rank": "3",
           "IRM": "",
-          "Result": "346",
-          "Medal": "ME_BRONZE"
+          "Result": "346"
         }
       ],
       "schedule": [
@@ -219874,10 +219875,10 @@
           "TeamReg": "SHOXSKMT-------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
-          "Medal": "ME_BRONZE",
           "Rank": "3",
           "IRM": "",
-          "Result": "44"
+          "Result": "44",
+          "Medal": "ME_BRONZE"
         }
       ],
       "schedule": [
@@ -224676,8 +224677,8 @@
           "isH2H": true,
           "Type": "T",
           "Medal": "2",
-          "Status": "SCHEDULED",
-          "StatusDesc": "Scheduled",
+          "Status": "INTERMEDIATE",
+          "StatusDesc": "Intermediate",
           "DateTimeRaw": "2026-10-01T16:30:00+09:00",
           "HideStartDate": false,
           "Estimated": false,
@@ -224702,8 +224703,8 @@
           "EndDateTimeRaw": "",
           "ActualEndDateTimeRaw": "",
           "UnitNum": "17",
-          "IsLive": false,
-          "ShowResults": false,
+          "IsLive": true,
+          "ShowResults": true,
           "Periods": [
             {
               "Order": 1,
@@ -224735,7 +224736,7 @@
             "Org": "IND",
             "Reg": "SQUMTEAM-------IND01",
             "Name": "India",
-            "Result": "",
+            "Result": "0",
             "Winner": false,
             "HasData": true,
             "NameS": "India",
@@ -224902,7 +224903,7 @@
             "Org": "MAS",
             "Reg": "SQUMTEAM-------MAS01",
             "Name": "Malaysia",
-            "Result": "",
+            "Result": "1",
             "Winner": false,
             "HasData": true,
             "NameS": "Malaysia",
@@ -225126,7 +225127,7 @@
               "Type": "UNIT_INFO",
               "Code": "TeamMatchDuration",
               "Pos": 0,
-              "Value": "0min",
+              "Value": "27min",
               "Extensions": []
             }
           ]
@@ -241245,10 +241246,10 @@
           "TeamReg": "SQUXDOUBLES----IND02",
           "TeamOrg": "IND",
           "TeamName": "CHINAPPA J. /SENTHILKUMAR V.",
-          "Medal": "ME_BRONZE",
           "Rank": "3",
           "IRM": "OK",
-          "Result": ""
+          "Result": "",
+          "Medal": "ME_BRONZE"
         }
       ],
       "schedule": [
@@ -243453,8 +243454,8 @@
           "isH2H": true,
           "Type": "T",
           "Medal": "2",
-          "Status": "SCHEDULED",
-          "StatusDesc": "Scheduled",
+          "Status": "INTERMEDIATE",
+          "StatusDesc": "Intermediate",
           "DateTimeRaw": "2026-10-01T16:30:00+09:00",
           "HideStartDate": false,
           "Estimated": false,
@@ -243479,8 +243480,8 @@
           "EndDateTimeRaw": "",
           "ActualEndDateTimeRaw": "",
           "UnitNum": "17",
-          "IsLive": false,
-          "ShowResults": false,
+          "IsLive": true,
+          "ShowResults": true,
           "Periods": [
             {
               "Order": 1,
@@ -243512,7 +243513,7 @@
             "Org": "IND",
             "Reg": "SQUMTEAM-------IND01",
             "Name": "India",
-            "Result": "",
+            "Result": "0",
             "Winner": false,
             "HasData": true,
             "NameS": "India",
@@ -243679,7 +243680,7 @@
             "Org": "MAS",
             "Reg": "SQUMTEAM-------MAS01",
             "Name": "Malaysia",
-            "Result": "",
+            "Result": "1",
             "Winner": false,
             "HasData": true,
             "NameS": "Malaysia",
@@ -243903,7 +243904,7 @@
               "Type": "UNIT_INFO",
               "Code": "TeamMatchDuration",
               "Pos": 0,
-              "Value": "0min",
+              "Value": "27min",
               "Extensions": []
             }
           ]
