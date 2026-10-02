@@ -84,7 +84,7 @@
           "DescS": "Compound Men's Team",
           "isMember": false,
           "Medal": "ME_GOLD",
-          "Rank": "",
+          "Rank": "1",
           "IRM": "",
           "Result": ""
         }
@@ -8280,7 +8280,7 @@
           "TeamOrg": "IND",
           "TeamName": "India",
           "Medal": "ME_GOLD",
-          "Rank": "",
+          "Rank": "1",
           "IRM": "",
           "Result": ""
         },
@@ -8302,10 +8302,10 @@
           "TeamReg": "ARCXCTEAM2-----IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
-          "Medal": "ME_GOLD",
           "Rank": "1",
           "IRM": "",
-          "Result": ""
+          "Result": "",
+          "Medal": "ME_GOLD"
         }
       ],
       "schedule": [
@@ -16593,7 +16593,7 @@
           "TeamOrg": "IND",
           "TeamName": "India",
           "Medal": "ME_GOLD",
-          "Rank": "",
+          "Rank": "1",
           "IRM": "",
           "Result": ""
         },
@@ -35866,7 +35866,7 @@
           "TeamOrg": "IND",
           "TeamName": "India",
           "Medal": "ME_GOLD",
-          "Rank": "",
+          "Rank": "1",
           "IRM": "",
           "Result": ""
         },
@@ -62119,10 +62119,10 @@
           "TeamReg": "ARCWCTEAM------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
-          "Medal": "ME_GOLD",
           "Rank": "1",
           "IRM": "",
-          "Result": ""
+          "Result": "",
+          "Medal": "ME_GOLD"
         },
         {
           "Disc": "ARC",
@@ -134941,10 +134941,10 @@
           "TeamReg": "ARCXRTEAM2-----IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
+          "Medal": "ME_SILVER",
           "Rank": "2",
           "IRM": "",
-          "Result": "",
-          "Medal": "ME_SILVER"
+          "Result": ""
         }
       ],
       "schedule": [
@@ -208375,10 +208375,10 @@
           "Desc": "Women's 3000m Steeplechase",
           "DescS": "Women's 3000m Steeplechase",
           "isMember": false,
-          "Medal": "ME_BRONZE",
           "Rank": "3",
           "IRM": "OK",
-          "Result": "9:08.67"
+          "Result": "9:08.67",
+          "Medal": "ME_BRONZE"
         },
         {
           "Disc": "ATH",
@@ -405591,10 +405591,10 @@
           "TeamReg": "KABWTEAM7------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
-          "Medal": "ME_GOLD",
           "Rank": "1",
           "IRM": "",
-          "Result": ""
+          "Result": "",
+          "Medal": "ME_GOLD"
         }
       ],
       "schedule": [
