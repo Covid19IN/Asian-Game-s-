@@ -186496,10 +186496,10 @@
           "TeamReg": "ATHX4X400M-----IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
-          "Medal": "ME_SILVER",
           "Rank": "2",
           "IRM": "OK",
-          "Result": "3:14.46"
+          "Result": "3:14.46",
+          "Medal": "ME_SILVER"
         }
       ],
       "schedule": [
@@ -189287,10 +189287,10 @@
           "TeamReg": "ATHX4X400M-----IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
-          "Medal": "ME_SILVER",
           "Rank": "2",
           "IRM": "OK",
-          "Result": "3:14.46"
+          "Result": "3:14.46",
+          "Medal": "ME_SILVER"
         }
       ],
       "schedule": [
@@ -192808,10 +192808,10 @@
           "Desc": "Women's 5000m",
           "DescS": "Women's 5000m",
           "isMember": false,
-          "Medal": "ME_BRONZE",
           "Rank": "3",
           "IRM": "OK",
-          "Result": "15:14.61"
+          "Result": "15:14.61",
+          "Medal": "ME_BRONZE"
         }
       ],
       "schedule": [
@@ -218902,6 +218902,1205 @@
     }
   },
   {
+    "reg": "5471473",
+    "name": "BORGOHAIN Lovlina",
+    "org": "IND",
+    "org_desc": "India",
+    "disc": "BOX",
+    "disc_desc": "Boxing",
+    "photo_url": "https://results.asiangames2026.org/ag2026/photos/5471473.jpg",
+    "medals": [
+      {
+        "medal": "gold",
+        "event": "Women's 75kg"
+      }
+    ],
+    "bio_data": {
+      "participant": {
+        "Reg": "5471473",
+        "Disc": "BOX",
+        "DiscDesc": "Boxing",
+        "hasMembers": false,
+        "Org": "IND",
+        "OrgDesc": "India",
+        "Type": "A",
+        "MedClass": "",
+        "Gender": "W",
+        "BirthDateRaw": "1997-01-02",
+        "Name": "BORGOHAIN Lovlina",
+        "NameS": "BORGOHAIN L",
+        "GivenName": "Lovlina",
+        "FamilyName": "BORGOHAIN",
+        "IFId": "000000",
+        "Height": 0,
+        "Weight": 0
+      },
+      "entries": [
+        {
+          "Disc": "BOX",
+          "Reg": "5471473",
+          "EvKey": "W.75KG--------------",
+          "Desc": "Women's 75kg",
+          "DescS": "Women's 75kg",
+          "isMember": false,
+          "Medal": "ME_GOLD",
+          "Rank": "1",
+          "IRM": "OK",
+          "Result": ""
+        }
+      ],
+      "schedule": [
+        {
+          "Orgs": [
+            "KOR",
+            "IND"
+          ],
+          "IsPhase": false,
+          "ResCode": "W.75KG--------------.QFNL.000300--",
+          "ShowLink": true,
+          "Disc": "BOX",
+          "DiscDesc": "Boxing",
+          "Key": "W.75KG--------------.QFNL.000300--",
+          "isH2H": true,
+          "Type": "A",
+          "Medal": "0",
+          "Status": "OFFICIAL",
+          "StatusDesc": "Official",
+          "DateTimeRaw": "2026-09-28T13:30:00+09:00",
+          "HideStartDate": false,
+          "Estimated": true,
+          "EstText": "FOLLOW BY",
+          "HideLocation": false,
+          "Venue": "NIS",
+          "VenueDesc": "Nishio Gymnasium",
+          "VenueDescS": "Nishio Gymnasium",
+          "Loc": "NIS",
+          "LocDesc": "Ring 1",
+          "LocDescS": "Ring 1",
+          "Event": "W.75KG--------------",
+          "EventDesc": "Women's 75kg",
+          "Phase": "W.75KG--------------.QFNL",
+          "PhaseOrder": 1,
+          "PhaseDesc": "Women's 75KG Quarterfinal",
+          "PhaseDescS": "Women's 75KG Quarterfinal",
+          "PhaseDescA": "Quarterfinal",
+          "UnitDesc": "Women's 75KG - Quarterfinal",
+          "UnitDescS": "75KG - Quarterfinal",
+          "UnitDescA": "Quarterfinal",
+          "EndDateTimeRaw": "2026-09-28T13:45:00+09:00",
+          "ActualEndDateTimeRaw": "2026-09-28T13:45:00+09:00",
+          "UnitNum": "129",
+          "IsLive": false,
+          "ShowResults": true,
+          "Periods": [
+            {
+              "Order": 1,
+              "Desc": "Round 1",
+              "DescS": "R 1",
+              "Extensions": [
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueKnockdowns",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 1,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 2,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 3,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 4,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 5,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueWarnings",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedKnockdowns",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 1,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 2,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 3,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 4,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 5,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedWarnings",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                }
+              ]
+            },
+            {
+              "Order": 2,
+              "Desc": "Round 2",
+              "DescS": "R 2",
+              "Extensions": [
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueKnockdowns",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 1,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 2,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 3,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 4,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 5,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueWarnings",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedKnockdowns",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 1,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 2,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 3,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 4,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 5,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedWarnings",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                }
+              ]
+            },
+            {
+              "Order": 3,
+              "Desc": "Round 3",
+              "DescS": "R 3",
+              "Extensions": [
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueKnockdowns",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 1,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 2,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 3,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 4,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 5,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueWarnings",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedKnockdowns",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 1,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 2,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 3,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 4,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 5,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedWarnings",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                }
+              ]
+            }
+          ],
+          "Home": {
+            "Org": "KOR",
+            "Reg": "304893",
+            "Name": "SEONG Suyeon",
+            "Result": "0",
+            "Winner": false,
+            "HasData": true,
+            "NameS": "SEONG S",
+            "Medal": "",
+            "Splits": []
+          },
+          "Away": {
+            "Org": "IND",
+            "Reg": "5471473",
+            "Name": "BORGOHAIN Lovlina",
+            "Result": "5",
+            "Winner": true,
+            "HasData": true,
+            "NameS": "BORGOHAIN L",
+            "Medal": "",
+            "Splits": []
+          }
+        },
+        {
+          "Orgs": [
+            "IND",
+            "KAZ"
+          ],
+          "IsPhase": false,
+          "ResCode": "W.75KG--------------.SFNL.000200--",
+          "ShowLink": true,
+          "Disc": "BOX",
+          "DiscDesc": "Boxing",
+          "Key": "W.75KG--------------.SFNL.000200--",
+          "isH2H": true,
+          "Type": "A",
+          "Medal": "2",
+          "Status": "OFFICIAL",
+          "StatusDesc": "Official",
+          "DateTimeRaw": "2026-09-30T14:15:00+09:00",
+          "HideStartDate": false,
+          "Estimated": true,
+          "EstText": "FOLLOW BY",
+          "HideLocation": false,
+          "Venue": "NIS",
+          "VenueDesc": "Nishio Gymnasium",
+          "VenueDescS": "Nishio Gymnasium",
+          "Loc": "NIS",
+          "LocDesc": "Ring 1",
+          "LocDescS": "Ring 1",
+          "Event": "W.75KG--------------",
+          "EventDesc": "Women's 75kg",
+          "Phase": "W.75KG--------------.SFNL",
+          "PhaseOrder": 2,
+          "PhaseDesc": "Women's 75KG Semifinal",
+          "PhaseDescS": "Women's 75KG Semifinal",
+          "PhaseDescA": "Semifinal",
+          "UnitDesc": "Women's 75KG - Semifinal",
+          "UnitDescS": "75KG - Semifinal",
+          "UnitDescA": "Semifinal",
+          "EndDateTimeRaw": "2026-09-30T14:30:00+09:00",
+          "ActualEndDateTimeRaw": "2026-09-30T14:30:00+09:00",
+          "UnitNum": "162",
+          "IsLive": false,
+          "ShowResults": true,
+          "Periods": [
+            {
+              "Order": 1,
+              "Desc": "Round 1",
+              "DescS": "R 1",
+              "Extensions": [
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueKnockdowns",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 1,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 2,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 3,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 4,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 5,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueWarnings",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedKnockdowns",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 1,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 2,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 3,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 4,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 5,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedWarnings",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                }
+              ]
+            },
+            {
+              "Order": 2,
+              "Desc": "Round 2",
+              "DescS": "R 2",
+              "Extensions": [
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueKnockdowns",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 1,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 2,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 3,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 4,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 5,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueWarnings",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedKnockdowns",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 1,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 2,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 3,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 4,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 5,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedWarnings",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                }
+              ]
+            },
+            {
+              "Order": 3,
+              "Desc": "Round 3",
+              "DescS": "R 3",
+              "Extensions": [
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueKnockdowns",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 1,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 2,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 3,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 4,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 5,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueWarnings",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedKnockdowns",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 1,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 2,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 3,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 4,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 5,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedWarnings",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                }
+              ]
+            }
+          ],
+          "Home": {
+            "Org": "IND",
+            "Reg": "5471473",
+            "Name": "BORGOHAIN Lovlina",
+            "Result": "3",
+            "Winner": true,
+            "HasData": true,
+            "NameS": "BORGOHAIN L",
+            "Medal": "",
+            "Splits": []
+          },
+          "Away": {
+            "Org": "KAZ",
+            "Reg": "11348292",
+            "Name": "BOGDANOVA Natalya",
+            "Result": "2",
+            "Winner": false,
+            "HasData": true,
+            "NameS": "BOGDANOVA N",
+            "Medal": "ME_BRONZE",
+            "Splits": []
+          }
+        },
+        {
+          "Orgs": [
+            "CHN",
+            "IND"
+          ],
+          "IsPhase": false,
+          "ResCode": "W.75KG--------------.FNL-.000100--",
+          "ShowLink": true,
+          "Disc": "BOX",
+          "DiscDesc": "Boxing",
+          "Key": "W.75KG--------------.FNL-.000100--",
+          "isH2H": true,
+          "Type": "A",
+          "Medal": "1",
+          "Status": "OFFICIAL",
+          "StatusDesc": "Official",
+          "DateTimeRaw": "2026-10-02T13:30:00+09:00",
+          "HideStartDate": false,
+          "Estimated": true,
+          "EstText": "FOLLOW BY",
+          "HideLocation": false,
+          "Venue": "NIS",
+          "VenueDesc": "Nishio Gymnasium",
+          "VenueDescS": "Nishio Gymnasium",
+          "Loc": "NIS",
+          "LocDesc": "Ring 1",
+          "LocDescS": "Ring 1",
+          "Event": "W.75KG--------------",
+          "EventDesc": "Women's 75kg",
+          "Phase": "W.75KG--------------.FNL-",
+          "PhaseOrder": 3,
+          "PhaseDesc": "Women's 75KG Final",
+          "PhaseDescS": "Women's 75KG Final",
+          "PhaseDescA": "Final",
+          "UnitDesc": "Women's 75KG - Final",
+          "UnitDescS": "75KG - Final",
+          "UnitDescA": "Final",
+          "EndDateTimeRaw": "2026-10-02T13:45:00+09:00",
+          "ActualEndDateTimeRaw": "2026-10-02T13:45:00+09:00",
+          "UnitNum": "171",
+          "IsLive": false,
+          "ShowResults": true,
+          "Periods": [
+            {
+              "Order": 1,
+              "Desc": "Round 1",
+              "DescS": "R 1",
+              "Extensions": [
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueKnockdowns",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 1,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 2,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 3,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 4,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 5,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueWarnings",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedKnockdowns",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 1,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 2,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 3,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 4,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 5,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedWarnings",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                }
+              ]
+            },
+            {
+              "Order": 2,
+              "Desc": "Round 2",
+              "DescS": "R 2",
+              "Extensions": [
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueKnockdowns",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 1,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 2,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 3,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 4,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 5,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueWarnings",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedKnockdowns",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 1,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 2,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 3,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 4,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 5,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedWarnings",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                }
+              ]
+            },
+            {
+              "Order": 3,
+              "Desc": "Round 3",
+              "DescS": "R 3",
+              "Extensions": [
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueKnockdowns",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 1,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 2,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 3,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 4,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 5,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueWarnings",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedKnockdowns",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 1,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 2,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 3,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 4,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 5,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedWarnings",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                }
+              ]
+            }
+          ],
+          "Home": {
+            "Org": "CHN",
+            "Reg": "4356307",
+            "Name": "BAO Ziyi",
+            "Result": "0",
+            "Winner": false,
+            "HasData": true,
+            "NameS": "BAO Z",
+            "Medal": "ME_SILVER",
+            "Splits": []
+          },
+          "Away": {
+            "Org": "IND",
+            "Reg": "5471473",
+            "Name": "BORGOHAIN Lovlina",
+            "Result": "5",
+            "Winner": true,
+            "HasData": true,
+            "NameS": "BORGOHAIN L",
+            "Medal": "ME_GOLD",
+            "Splits": []
+          }
+        }
+      ],
+      "historical": null
+    }
+  },
+  {
     "reg": "5455376",
     "name": "POKHARIYA Kapil",
     "org": "IND",
@@ -220953,7 +222152,10 @@
           "Desc": "Women's 60kg",
           "DescS": "Women's 60kg",
           "isMember": false,
-          "Medal": "ME_BRONZE"
+          "Medal": "ME_BRONZE",
+          "Rank": "3",
+          "IRM": "OK",
+          "Result": ""
         }
       ],
       "schedule": [
@@ -285056,10 +286258,10 @@
           "TeamReg": "ROWMSCULL2-----IND01",
           "TeamOrg": "IND",
           "TeamName": "Satnam Singh/KHAN Salman",
+          "Medal": "ME_BRONZE",
           "Rank": "3",
           "IRM": "",
-          "Result": "6:13.25",
-          "Medal": "ME_BRONZE"
+          "Result": "6:13.25"
         }
       ],
       "schedule": [
@@ -288401,6 +289603,701 @@
     }
   },
   {
+    "reg": "13521906",
+    "name": "KUMANAN Nethra",
+    "org": "IND",
+    "org_desc": "India",
+    "disc": "SAL",
+    "disc_desc": "Sailing",
+    "photo_url": "https://results.asiangames2026.org/ag2026/photos/13521906.jpg",
+    "medals": [
+      {
+        "medal": "bronze",
+        "event": "Women's Dinghy"
+      }
+    ],
+    "bio_data": {
+      "participant": {
+        "Reg": "13521906",
+        "Disc": "SAL",
+        "DiscDesc": "Sailing",
+        "hasMembers": false,
+        "Org": "IND",
+        "OrgDesc": "India",
+        "Type": "A",
+        "Gender": "W",
+        "BirthDateRaw": "1997-08-21",
+        "Name": "KUMANAN Nethra",
+        "NameS": "KUMANAN N",
+        "GivenName": "",
+        "FamilyName": "",
+        "IFId": "",
+        "Height": null,
+        "Weight": null
+      },
+      "entries": [
+        {
+          "Disc": "SAL",
+          "Reg": "13521906",
+          "EvKey": "W.ILCA6-------------",
+          "Desc": "Women's Dinghy",
+          "DescS": "Women's Dinghy",
+          "isMember": false,
+          "Medal": "ME_BRONZE",
+          "Rank": "3",
+          "IRM": "",
+          "Result": ""
+        }
+      ],
+      "schedule": [
+        {
+          "Orgs": [
+            "SGP",
+            "THA",
+            "HKG",
+            "JPN",
+            "IND",
+            "CHN",
+            "UAE",
+            "KOR",
+            "MAS",
+            "KUW",
+            "SRI",
+            "KAZ",
+            "VIE"
+          ],
+          "IsPhase": false,
+          "ResCode": "W.ILCA6-------------.PREL.000100--",
+          "ShowLink": true,
+          "Disc": "SAL",
+          "DiscDesc": "Sailing",
+          "Key": "W.ILCA6-------------.PREL.000100--",
+          "isH2H": false,
+          "Type": "A",
+          "Medal": "0",
+          "Status": "OFFICIAL",
+          "StatusDesc": "Official",
+          "DateTimeRaw": "2026-09-28T11:10:00+09:00",
+          "HideStartDate": false,
+          "Estimated": false,
+          "EstText": "TBD",
+          "HideLocation": false,
+          "Venue": "KYH",
+          "VenueDesc": "Kaiyoh Yacht Harbor",
+          "VenueDescS": "Kaiyoh Yacht Harbor",
+          "Loc": "KY2",
+          "LocDesc": "Racing Area B",
+          "LocDescS": "Racing Area B",
+          "Event": "W.ILCA6-------------",
+          "EventDesc": "Women's Dinghy",
+          "Phase": "W.ILCA6-------------.PREL",
+          "PhaseOrder": 1,
+          "PhaseDesc": "Qualification Series",
+          "PhaseDescS": "Qualification Series",
+          "PhaseDescA": "Qualification Series",
+          "UnitDesc": "Race 1",
+          "UnitDescS": "Race 1",
+          "UnitDescA": "Race 1",
+          "EndDateTimeRaw": "2026-09-28T15:26:42+09:00",
+          "ActualEndDateTimeRaw": "2026-09-28T15:26:42+09:00",
+          "UnitNum": "1",
+          "IsLive": false,
+          "ShowResults": true,
+          "Counters": {
+            "Partics": 13,
+            "Orgs": 13
+          },
+          "Results": []
+        },
+        {
+          "Orgs": [
+            "HKG",
+            "THA",
+            "IND",
+            "MAS",
+            "JPN",
+            "CHN",
+            "SGP",
+            "KUW",
+            "KOR",
+            "UAE",
+            "SRI",
+            "KAZ",
+            "VIE"
+          ],
+          "IsPhase": false,
+          "ResCode": "W.ILCA6-------------.PREL.000200--",
+          "ShowLink": true,
+          "Disc": "SAL",
+          "DiscDesc": "Sailing",
+          "Key": "W.ILCA6-------------.PREL.000200--",
+          "isH2H": false,
+          "Type": "A",
+          "Medal": "0",
+          "Status": "OFFICIAL",
+          "StatusDesc": "Official",
+          "DateTimeRaw": "2026-09-28T11:10:00+09:00",
+          "HideStartDate": false,
+          "Estimated": false,
+          "EstText": "TBD",
+          "HideLocation": false,
+          "Venue": "KYH",
+          "VenueDesc": "Kaiyoh Yacht Harbor",
+          "VenueDescS": "Kaiyoh Yacht Harbor",
+          "Loc": "KY2",
+          "LocDesc": "Racing Area B",
+          "LocDescS": "Racing Area B",
+          "Event": "W.ILCA6-------------",
+          "EventDesc": "Women's Dinghy",
+          "Phase": "W.ILCA6-------------.PREL",
+          "PhaseOrder": 1,
+          "PhaseDesc": "Qualification Series",
+          "PhaseDescS": "Qualification Series",
+          "PhaseDescA": "Qualification Series",
+          "UnitDesc": "Race 2",
+          "UnitDescS": "Race 2",
+          "UnitDescA": "Race 2",
+          "EndDateTimeRaw": "2026-09-28T16:05:14+09:00",
+          "ActualEndDateTimeRaw": "2026-09-28T16:05:14+09:00",
+          "UnitNum": "2",
+          "IsLive": false,
+          "ShowResults": true,
+          "Counters": {
+            "Partics": 13,
+            "Orgs": 13
+          },
+          "Results": []
+        },
+        {
+          "Orgs": [
+            "SGP",
+            "THA",
+            "MAS",
+            "IND",
+            "JPN",
+            "KOR",
+            "CHN",
+            "HKG",
+            "UAE",
+            "KUW",
+            "VIE",
+            "KAZ",
+            "SRI"
+          ],
+          "IsPhase": false,
+          "ResCode": "W.ILCA6-------------.PREL.000300--",
+          "ShowLink": true,
+          "Disc": "SAL",
+          "DiscDesc": "Sailing",
+          "Key": "W.ILCA6-------------.PREL.000300--",
+          "isH2H": false,
+          "Type": "A",
+          "Medal": "0",
+          "Status": "OFFICIAL",
+          "StatusDesc": "Official",
+          "DateTimeRaw": "2026-09-30T11:10:00+09:00",
+          "HideStartDate": false,
+          "Estimated": false,
+          "EstText": "TBD",
+          "HideLocation": false,
+          "Venue": "KYH",
+          "VenueDesc": "Kaiyoh Yacht Harbor",
+          "VenueDescS": "Kaiyoh Yacht Harbor",
+          "Loc": "KY2",
+          "LocDesc": "Racing Area B",
+          "LocDescS": "Racing Area B",
+          "Event": "W.ILCA6-------------",
+          "EventDesc": "Women's Dinghy",
+          "Phase": "W.ILCA6-------------.PREL",
+          "PhaseOrder": 1,
+          "PhaseDesc": "Qualification Series",
+          "PhaseDescS": "Qualification Series",
+          "PhaseDescA": "Qualification Series",
+          "UnitDesc": "Race 3",
+          "UnitDescS": "Race 3",
+          "UnitDescA": "Race 3",
+          "EndDateTimeRaw": "2026-09-30T15:36:36+09:00",
+          "ActualEndDateTimeRaw": "2026-09-30T15:36:36+09:00",
+          "UnitNum": "3",
+          "IsLive": false,
+          "ShowResults": true,
+          "Counters": {
+            "Partics": 13,
+            "Orgs": 13
+          },
+          "Results": []
+        },
+        {
+          "Orgs": [
+            "HKG",
+            "JPN",
+            "SGP",
+            "KOR",
+            "IND",
+            "THA",
+            "CHN",
+            "KUW",
+            "MAS",
+            "UAE",
+            "VIE",
+            "KAZ",
+            "SRI"
+          ],
+          "IsPhase": false,
+          "ResCode": "W.ILCA6-------------.PREL.000400--",
+          "ShowLink": true,
+          "Disc": "SAL",
+          "DiscDesc": "Sailing",
+          "Key": "W.ILCA6-------------.PREL.000400--",
+          "isH2H": false,
+          "Type": "A",
+          "Medal": "0",
+          "Status": "OFFICIAL",
+          "StatusDesc": "Official",
+          "DateTimeRaw": "2026-09-30T11:10:00+09:00",
+          "HideStartDate": false,
+          "Estimated": false,
+          "EstText": "TBD",
+          "HideLocation": false,
+          "Venue": "KYH",
+          "VenueDesc": "Kaiyoh Yacht Harbor",
+          "VenueDescS": "Kaiyoh Yacht Harbor",
+          "Loc": "KY2",
+          "LocDesc": "Racing Area B",
+          "LocDescS": "Racing Area B",
+          "Event": "W.ILCA6-------------",
+          "EventDesc": "Women's Dinghy",
+          "Phase": "W.ILCA6-------------.PREL",
+          "PhaseOrder": 1,
+          "PhaseDesc": "Qualification Series",
+          "PhaseDescS": "Qualification Series",
+          "PhaseDescA": "Qualification Series",
+          "UnitDesc": "Race 4",
+          "UnitDescS": "Race 4",
+          "UnitDescA": "Race 4",
+          "EndDateTimeRaw": "2026-09-30T16:41:04+09:00",
+          "ActualEndDateTimeRaw": "2026-09-30T16:41:04+09:00",
+          "UnitNum": "4",
+          "IsLive": false,
+          "ShowResults": true,
+          "Counters": {
+            "Partics": 13,
+            "Orgs": 13
+          },
+          "Results": []
+        },
+        {
+          "Orgs": [
+            "KOR",
+            "IND",
+            "UAE",
+            "JPN",
+            "THA",
+            "CHN",
+            "SGP",
+            "KUW",
+            "MAS",
+            "HKG",
+            "SRI",
+            "VIE",
+            "KAZ"
+          ],
+          "IsPhase": false,
+          "ResCode": "W.ILCA6-------------.PREL.000500--",
+          "ShowLink": true,
+          "Disc": "SAL",
+          "DiscDesc": "Sailing",
+          "Key": "W.ILCA6-------------.PREL.000500--",
+          "isH2H": false,
+          "Type": "A",
+          "Medal": "0",
+          "Status": "OFFICIAL",
+          "StatusDesc": "Official",
+          "DateTimeRaw": "2026-09-30T11:10:00+09:00",
+          "HideStartDate": false,
+          "Estimated": false,
+          "EstText": "TBD",
+          "HideLocation": false,
+          "Venue": "KYH",
+          "VenueDesc": "Kaiyoh Yacht Harbor",
+          "VenueDescS": "Kaiyoh Yacht Harbor",
+          "Loc": "KY2",
+          "LocDesc": "Racing Area B",
+          "LocDescS": "Racing Area B",
+          "Event": "W.ILCA6-------------",
+          "EventDesc": "Women's Dinghy",
+          "Phase": "W.ILCA6-------------.PREL",
+          "PhaseOrder": 1,
+          "PhaseDesc": "Qualification Series",
+          "PhaseDescS": "Qualification Series",
+          "PhaseDescA": "Qualification Series",
+          "UnitDesc": "Race 5",
+          "UnitDescS": "Race 5",
+          "UnitDescA": "Race 5",
+          "EndDateTimeRaw": "2026-09-30T17:45:37+09:00",
+          "ActualEndDateTimeRaw": "2026-09-30T17:45:37+09:00",
+          "UnitNum": "5",
+          "IsLive": false,
+          "ShowResults": true,
+          "Counters": {
+            "Partics": 13,
+            "Orgs": 13
+          },
+          "Results": []
+        },
+        {
+          "Orgs": [
+            "THA",
+            "MAS",
+            "HKG",
+            "SGP",
+            "IND",
+            "KOR",
+            "CHN",
+            "JPN",
+            "KUW",
+            "KAZ",
+            "UAE",
+            "SRI",
+            "VIE"
+          ],
+          "IsPhase": false,
+          "ResCode": "W.ILCA6-------------.PREL.000600--",
+          "ShowLink": true,
+          "Disc": "SAL",
+          "DiscDesc": "Sailing",
+          "Key": "W.ILCA6-------------.PREL.000600--",
+          "isH2H": false,
+          "Type": "A",
+          "Medal": "0",
+          "Status": "OFFICIAL",
+          "StatusDesc": "Official",
+          "DateTimeRaw": "2026-10-01T10:10:00+09:00",
+          "HideStartDate": false,
+          "Estimated": false,
+          "EstText": "TBD",
+          "HideLocation": false,
+          "Venue": "KYH",
+          "VenueDesc": "Kaiyoh Yacht Harbor",
+          "VenueDescS": "Kaiyoh Yacht Harbor",
+          "Loc": "KY2",
+          "LocDesc": "Racing Area B",
+          "LocDescS": "Racing Area B",
+          "Event": "W.ILCA6-------------",
+          "EventDesc": "Women's Dinghy",
+          "Phase": "W.ILCA6-------------.PREL",
+          "PhaseOrder": 1,
+          "PhaseDesc": "Qualification Series",
+          "PhaseDescS": "Qualification Series",
+          "PhaseDescA": "Qualification Series",
+          "UnitDesc": "Race 6",
+          "UnitDescS": "Race 6",
+          "UnitDescA": "Race 6",
+          "EndDateTimeRaw": "2026-10-01T11:10:08+09:00",
+          "ActualEndDateTimeRaw": "2026-10-01T11:10:08+09:00",
+          "UnitNum": "6",
+          "IsLive": false,
+          "ShowResults": true,
+          "Counters": {
+            "Partics": 13,
+            "Orgs": 13
+          },
+          "Results": []
+        },
+        {
+          "Orgs": [
+            "HKG",
+            "IND",
+            "THA",
+            "JPN",
+            "SGP",
+            "CHN",
+            "MAS",
+            "KOR",
+            "KUW",
+            "KAZ",
+            "SRI",
+            "UAE",
+            "VIE"
+          ],
+          "IsPhase": false,
+          "ResCode": "W.ILCA6-------------.PREL.000700--",
+          "ShowLink": true,
+          "Disc": "SAL",
+          "DiscDesc": "Sailing",
+          "Key": "W.ILCA6-------------.PREL.000700--",
+          "isH2H": false,
+          "Type": "A",
+          "Medal": "0",
+          "Status": "OFFICIAL",
+          "StatusDesc": "Official",
+          "DateTimeRaw": "2026-10-01T10:10:00+09:00",
+          "HideStartDate": false,
+          "Estimated": false,
+          "EstText": "TBD",
+          "HideLocation": false,
+          "Venue": "KYH",
+          "VenueDesc": "Kaiyoh Yacht Harbor",
+          "VenueDescS": "Kaiyoh Yacht Harbor",
+          "Loc": "KY2",
+          "LocDesc": "Racing Area B",
+          "LocDescS": "Racing Area B",
+          "Event": "W.ILCA6-------------",
+          "EventDesc": "Women's Dinghy",
+          "Phase": "W.ILCA6-------------.PREL",
+          "PhaseOrder": 1,
+          "PhaseDesc": "Qualification Series",
+          "PhaseDescS": "Qualification Series",
+          "PhaseDescA": "Qualification Series",
+          "UnitDesc": "Race 7",
+          "UnitDescS": "Race 7",
+          "UnitDescA": "Race 7",
+          "EndDateTimeRaw": "2026-10-01T12:50:01+09:00",
+          "ActualEndDateTimeRaw": "2026-10-01T12:50:01+09:00",
+          "UnitNum": "7",
+          "IsLive": false,
+          "ShowResults": true,
+          "Counters": {
+            "Partics": 13,
+            "Orgs": 13
+          },
+          "Results": []
+        },
+        {
+          "Orgs": [
+            "SGP",
+            "CHN",
+            "IND",
+            "THA",
+            "HKG",
+            "MAS",
+            "KOR",
+            "JPN",
+            "KUW",
+            "KAZ",
+            "UAE",
+            "VIE",
+            "SRI"
+          ],
+          "IsPhase": false,
+          "ResCode": "W.ILCA6-------------.PREL.000800--",
+          "ShowLink": true,
+          "Disc": "SAL",
+          "DiscDesc": "Sailing",
+          "Key": "W.ILCA6-------------.PREL.000800--",
+          "isH2H": false,
+          "Type": "A",
+          "Medal": "0",
+          "Status": "OFFICIAL",
+          "StatusDesc": "Official",
+          "DateTimeRaw": "2026-10-01T10:10:00+09:00",
+          "HideStartDate": false,
+          "Estimated": false,
+          "EstText": "TBD",
+          "HideLocation": false,
+          "Venue": "KYH",
+          "VenueDesc": "Kaiyoh Yacht Harbor",
+          "VenueDescS": "Kaiyoh Yacht Harbor",
+          "Loc": "KY2",
+          "LocDesc": "Racing Area B",
+          "LocDescS": "Racing Area B",
+          "Event": "W.ILCA6-------------",
+          "EventDesc": "Women's Dinghy",
+          "Phase": "W.ILCA6-------------.PREL",
+          "PhaseOrder": 1,
+          "PhaseDesc": "Qualification Series",
+          "PhaseDescS": "Qualification Series",
+          "PhaseDescA": "Qualification Series",
+          "UnitDesc": "Race 8",
+          "UnitDescS": "Race 8",
+          "UnitDescA": "Race 8",
+          "EndDateTimeRaw": "2026-10-01T12:50:32+09:00",
+          "ActualEndDateTimeRaw": "2026-10-01T12:50:32+09:00",
+          "UnitNum": "8",
+          "IsLive": false,
+          "ShowResults": true,
+          "Counters": {
+            "Partics": 13,
+            "Orgs": 13
+          },
+          "Results": []
+        },
+        {
+          "Orgs": [
+            "JPN",
+            "THA",
+            "KUW",
+            "IND",
+            "MAS",
+            "CHN",
+            "HKG",
+            "KOR",
+            "SGP",
+            "UAE",
+            "KAZ",
+            "SRI",
+            "VIE"
+          ],
+          "IsPhase": false,
+          "ResCode": "W.ILCA6-------------.PREL.000900--",
+          "ShowLink": true,
+          "Disc": "SAL",
+          "DiscDesc": "Sailing",
+          "Key": "W.ILCA6-------------.PREL.000900--",
+          "isH2H": false,
+          "Type": "A",
+          "Medal": "0",
+          "Status": "OFFICIAL",
+          "StatusDesc": "Official",
+          "DateTimeRaw": "2026-10-01T10:10:00+09:00",
+          "HideStartDate": false,
+          "Estimated": false,
+          "EstText": "TBD",
+          "HideLocation": false,
+          "Venue": "KYH",
+          "VenueDesc": "Kaiyoh Yacht Harbor",
+          "VenueDescS": "Kaiyoh Yacht Harbor",
+          "Loc": "KY2",
+          "LocDesc": "Racing Area B",
+          "LocDescS": "Racing Area B",
+          "Event": "W.ILCA6-------------",
+          "EventDesc": "Women's Dinghy",
+          "Phase": "W.ILCA6-------------.PREL",
+          "PhaseOrder": 1,
+          "PhaseDesc": "Qualification Series",
+          "PhaseDescS": "Qualification Series",
+          "PhaseDescA": "Qualification Series",
+          "UnitDesc": "Race 9",
+          "UnitDescS": "Race 9",
+          "UnitDescA": "Race 9",
+          "EndDateTimeRaw": "2026-10-01T13:52:35+09:00",
+          "ActualEndDateTimeRaw": "2026-10-01T13:52:35+09:00",
+          "UnitNum": "9",
+          "IsLive": false,
+          "ShowResults": true,
+          "Counters": {
+            "Partics": 13,
+            "Orgs": 13
+          },
+          "Results": []
+        },
+        {
+          "Orgs": [
+            "HKG",
+            "THA",
+            "SGP",
+            "JPN",
+            "CHN",
+            "IND",
+            "KOR",
+            "MAS",
+            "KUW",
+            "UAE"
+          ],
+          "IsPhase": false,
+          "ResCode": "W.ILCA6-------------.FNL-.000100--",
+          "ShowLink": true,
+          "Disc": "SAL",
+          "DiscDesc": "Sailing",
+          "Key": "W.ILCA6-------------.FNL-.000100--",
+          "isH2H": false,
+          "Type": "A",
+          "Medal": "0",
+          "Status": "OFFICIAL",
+          "StatusDesc": "Official",
+          "DateTimeRaw": "2026-10-02T12:15:00+09:00",
+          "HideStartDate": false,
+          "Estimated": false,
+          "EstText": "TBD",
+          "HideLocation": false,
+          "Venue": "KYH",
+          "VenueDesc": "Kaiyoh Yacht Harbor",
+          "VenueDescS": "Kaiyoh Yacht Harbor",
+          "Loc": "KY5",
+          "LocDesc": "Racing Area E",
+          "LocDescS": "Racing Area E",
+          "Event": "W.ILCA6-------------",
+          "EventDesc": "Women's Dinghy",
+          "Phase": "W.ILCA6-------------.FNL-",
+          "PhaseOrder": 2,
+          "PhaseDesc": "Final",
+          "PhaseDescS": "Final",
+          "PhaseDescA": "Final",
+          "UnitDesc": "Final 1",
+          "UnitDescS": "Final 1",
+          "UnitDescA": "Final 1",
+          "EndDateTimeRaw": "2026-10-02T12:42:50+09:00",
+          "ActualEndDateTimeRaw": "2026-10-02T12:42:50+09:00",
+          "UnitNum": "10",
+          "IsLive": false,
+          "ShowResults": true,
+          "Counters": {
+            "Partics": 10,
+            "Orgs": 10
+          },
+          "Results": []
+        },
+        {
+          "Orgs": [
+            "IND",
+            "SGP",
+            "THA",
+            "CHN",
+            "HKG",
+            "MAS",
+            "JPN",
+            "KOR",
+            "UAE",
+            "KUW"
+          ],
+          "IsPhase": false,
+          "ResCode": "W.ILCA6-------------.FNL-.000200--",
+          "ShowLink": true,
+          "Disc": "SAL",
+          "DiscDesc": "Sailing",
+          "Key": "W.ILCA6-------------.FNL-.000200--",
+          "isH2H": false,
+          "Type": "A",
+          "Medal": "1",
+          "Status": "OFFICIAL",
+          "StatusDesc": "Official",
+          "DateTimeRaw": "2026-10-02T12:15:00+09:00",
+          "HideStartDate": false,
+          "Estimated": false,
+          "EstText": "TBD",
+          "HideLocation": false,
+          "Venue": "KYH",
+          "VenueDesc": "Kaiyoh Yacht Harbor",
+          "VenueDescS": "Kaiyoh Yacht Harbor",
+          "Loc": "KY5",
+          "LocDesc": "Racing Area E",
+          "LocDescS": "Racing Area E",
+          "Event": "W.ILCA6-------------",
+          "EventDesc": "Women's Dinghy",
+          "Phase": "W.ILCA6-------------.FNL-",
+          "PhaseOrder": 2,
+          "PhaseDesc": "Final",
+          "PhaseDescS": "Final",
+          "PhaseDescA": "Final",
+          "UnitDesc": "Final 2",
+          "UnitDescS": "Final 2",
+          "UnitDescA": "Final 2",
+          "EndDateTimeRaw": "2026-10-02T13:10:44+09:00",
+          "ActualEndDateTimeRaw": "2026-10-02T13:10:44+09:00",
+          "UnitNum": "11",
+          "IsLive": false,
+          "ShowResults": true,
+          "Counters": {
+            "Partics": 10,
+            "Orgs": 10
+          },
+          "Results": []
+        }
+      ],
+      "historical": null
+    }
+  },
+  {
     "reg": "13021576",
     "name": "NEERU",
     "org": "IND",
@@ -290096,10 +291993,10 @@
           "TeamReg": "SHOXTRMT-------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
-          "Medal": "ME_GOLD",
           "Rank": "1",
           "IRM": "",
-          "Result": "34"
+          "Result": "34",
+          "Medal": "ME_GOLD"
         }
       ],
       "schedule": [
@@ -290639,10 +292536,10 @@
           "TeamReg": "SHOMARTM-------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
+          "Medal": "ME_SILVER",
           "Rank": "2",
           "IRM": "",
-          "Result": "1890.1",
-          "Medal": "ME_SILVER"
+          "Result": "1890.1"
         }
       ],
       "schedule": [
@@ -318068,10 +319965,10 @@
           "TeamReg": "SQUWTEAM-------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
-          "Medal": "ME_BRONZE",
           "Rank": "3",
           "IRM": "OK",
-          "Result": ""
+          "Result": "",
+          "Medal": "ME_BRONZE"
         }
       ],
       "schedule": [
