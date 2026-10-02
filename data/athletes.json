@@ -35888,10 +35888,10 @@
           "TeamReg": "ARCXCTEAM2-----IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
-          "Medal": "ME_GOLD",
           "Rank": "1",
           "IRM": "",
-          "Result": ""
+          "Result": "",
+          "Medal": "ME_GOLD"
         }
       ],
       "schedule": [
@@ -62142,10 +62142,10 @@
           "TeamReg": "ARCXCTEAM2-----IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
+          "Medal": "ME_GOLD",
           "Rank": "1",
           "IRM": "",
-          "Result": "",
-          "Medal": "ME_GOLD"
+          "Result": ""
         },
         {
           "Disc": "ARC",
@@ -83430,10 +83430,10 @@
           "TeamReg": "ARCWCTEAM------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
+          "Medal": "ME_GOLD",
           "Rank": "1",
           "IRM": "",
-          "Result": "",
-          "Medal": "ME_GOLD"
+          "Result": ""
         },
         {
           "Disc": "ARC",
@@ -83453,10 +83453,10 @@
           "TeamReg": "ARCXCTEAM2-----IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
+          "Medal": "ME_GOLD",
           "Rank": "1",
           "IRM": "",
-          "Result": "",
-          "Medal": "ME_GOLD"
+          "Result": ""
         }
       ],
       "schedule": [
@@ -91775,10 +91775,10 @@
           "TeamReg": "ARCWCTEAM------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
-          "Medal": "ME_GOLD",
           "Rank": "1",
           "IRM": "",
-          "Result": ""
+          "Result": "",
+          "Medal": "ME_GOLD"
         },
         {
           "Disc": "ARC",
@@ -110937,10 +110937,10 @@
           "TeamReg": "ARCXRTEAM2-----IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
+          "Medal": "ME_SILVER",
           "Rank": "2",
           "IRM": "",
-          "Result": "",
-          "Medal": "ME_SILVER"
+          "Result": ""
         }
       ],
       "schedule": [
@@ -127712,10 +127712,10 @@
           "TeamReg": "ARCWRTEAM------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
+          "Medal": "ME_GOLD",
           "Rank": "1",
           "IRM": "",
-          "Result": "",
-          "Medal": "ME_GOLD"
+          "Result": ""
         },
         {
           "Disc": "ARC",
@@ -127735,10 +127735,10 @@
           "TeamReg": "ARCXRTEAM2-----IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
+          "Medal": "ME_SILVER",
           "Rank": "2",
           "IRM": "",
-          "Result": "",
-          "Medal": "ME_SILVER"
+          "Result": ""
         }
       ],
       "schedule": [
@@ -159974,10 +159974,10 @@
           "TeamReg": "ARCMRTEAM------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
+          "Medal": "ME_SILVER",
           "Rank": "2",
           "IRM": "",
-          "Result": "",
-          "Medal": "ME_SILVER"
+          "Result": ""
         },
         {
           "Disc": "ARC",
@@ -176770,10 +176770,10 @@
           "TeamReg": "ARCMRTEAM------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
-          "Medal": "ME_SILVER",
           "Rank": "2",
           "IRM": "",
-          "Result": ""
+          "Result": "",
+          "Medal": "ME_SILVER"
         },
         {
           "Disc": "ARC",
@@ -201659,10 +201659,10 @@
           "TeamReg": "ATHX4X400M-----IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
+          "Medal": "ME_SILVER",
           "Rank": "2",
           "IRM": "OK",
-          "Result": "3:14.46",
-          "Medal": "ME_SILVER"
+          "Result": "3:14.46"
         }
       ],
       "schedule": [
@@ -202406,10 +202406,10 @@
           "TeamReg": "ATHW4X400M-----IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
-          "Medal": "ME_GOLD",
           "Rank": "1",
           "IRM": "OK",
-          "Result": "3:29.69"
+          "Result": "3:29.69",
+          "Medal": "ME_GOLD"
         }
       ],
       "schedule": [
@@ -202740,10 +202740,10 @@
           "TeamReg": "ATHW4X400M-----IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
+          "Medal": "ME_GOLD",
           "Rank": "1",
           "IRM": "OK",
-          "Result": "3:29.69",
-          "Medal": "ME_GOLD"
+          "Result": "3:29.69"
         },
         {
           "Disc": "ATH",
@@ -203172,10 +203172,10 @@
           "Desc": "Men's 1500m",
           "DescS": "Men's 1500m",
           "isMember": false,
+          "Medal": "ME_SILVER",
           "Rank": "2",
           "IRM": "OK",
-          "Result": "3:36.72",
-          "Medal": "ME_SILVER"
+          "Result": "3:36.72"
         },
         {
           "Disc": "ATH",
@@ -228088,10 +228088,10 @@
           "TeamReg": "BDMMTEAM-------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
-          "Medal": "ME_BRONZE",
           "Rank": "3",
           "IRM": "OK",
-          "Result": ""
+          "Result": "",
+          "Medal": "ME_BRONZE"
         }
       ],
       "schedule": [
@@ -234481,6 +234481,1587 @@
     }
   },
   {
+    "reg": "8600061",
+    "name": "ANKUSH",
+    "org": "IND",
+    "org_desc": "India",
+    "disc": "BOX",
+    "disc_desc": "Boxing",
+    "photo_url": "https://results.asiangames2026.org/ag2026/photos/8600061.jpg",
+    "medals": [
+      {
+        "medal": "gold",
+        "event": "Men's 80kg"
+      }
+    ],
+    "bio_data": {
+      "participant": {
+        "Reg": "8600061",
+        "Disc": "BOX",
+        "DiscDesc": "Boxing",
+        "hasMembers": false,
+        "Org": "IND",
+        "OrgDesc": "India",
+        "Type": "A",
+        "MedClass": "",
+        "Gender": "M",
+        "BirthDateRaw": "2005-08-13",
+        "Name": "ANKUSH",
+        "NameS": "ANKUSH",
+        "GivenName": "",
+        "FamilyName": "Ankush",
+        "IFId": "000000",
+        "Height": 0,
+        "Weight": 0
+      },
+      "entries": [
+        {
+          "Disc": "BOX",
+          "Reg": "8600061",
+          "EvKey": "M.80KG--------------",
+          "Desc": "Men's 80kg",
+          "DescS": "Men's 80kg",
+          "isMember": false,
+          "Medal": "ME_GOLD",
+          "Rank": "1",
+          "IRM": "OK",
+          "Result": ""
+        }
+      ],
+      "schedule": [
+        {
+          "Orgs": [
+            "IND",
+            "BRN"
+          ],
+          "IsPhase": false,
+          "ResCode": "M.80KG--------------.8FNL.000300--",
+          "ShowLink": true,
+          "Disc": "BOX",
+          "DiscDesc": "Boxing",
+          "Key": "M.80KG--------------.8FNL.000300--",
+          "isH2H": true,
+          "Type": "A",
+          "Medal": "0",
+          "Status": "OFFICIAL",
+          "StatusDesc": "Official",
+          "DateTimeRaw": "2026-09-23T13:45:00+09:00",
+          "HideStartDate": false,
+          "Estimated": true,
+          "EstText": "FOLLOW BY",
+          "HideLocation": false,
+          "Venue": "NIS",
+          "VenueDesc": "Nishio Gymnasium",
+          "VenueDescS": "Nishio Gymnasium",
+          "Loc": "NIS",
+          "LocDesc": "Ring 1",
+          "LocDescS": "Ring 1",
+          "Event": "M.80KG--------------",
+          "EventDesc": "Men's 80kg",
+          "Phase": "M.80KG--------------.8FNL",
+          "PhaseOrder": 1,
+          "PhaseDesc": "Men's 80KG Preliminaries - Round of 16",
+          "PhaseDescS": "Men's 80KG Prelims - Round of 16",
+          "PhaseDescA": "Preliminaries - Round of 16",
+          "UnitDesc": "Men's 80KG - Preliminaries",
+          "UnitDescS": "80KG - Preliminaries",
+          "UnitDescA": "Preliminaries",
+          "EndDateTimeRaw": "2026-09-23T14:00:00+09:00",
+          "ActualEndDateTimeRaw": "2026-09-23T14:00:00+09:00",
+          "UnitNum": "30",
+          "IsLive": false,
+          "ShowResults": true,
+          "Periods": [
+            {
+              "Order": 1,
+              "Desc": "Round 1",
+              "DescS": "R 1",
+              "Extensions": [
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueKnockdowns",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 1,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 2,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 3,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 4,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 5,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueWarnings",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedKnockdowns",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 1,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 2,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 3,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 4,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 5,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedWarnings",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                }
+              ]
+            },
+            {
+              "Order": 2,
+              "Desc": "Round 2",
+              "DescS": "R 2",
+              "Extensions": [
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueKnockdowns",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 1,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 2,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 3,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 4,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 5,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueWarnings",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedKnockdowns",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 1,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 2,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 3,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 4,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 5,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedWarnings",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                }
+              ]
+            },
+            {
+              "Order": 3,
+              "Desc": "Round 3",
+              "DescS": "R 3",
+              "Extensions": [
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueKnockdowns",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 1,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 2,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 3,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 4,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 5,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueWarnings",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedKnockdowns",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 1,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 2,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 3,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 4,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 5,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedWarnings",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                }
+              ]
+            }
+          ],
+          "Home": {
+            "Org": "IND",
+            "Reg": "8600061",
+            "Name": "ANKUSH",
+            "Result": "5",
+            "Winner": true,
+            "HasData": true,
+            "NameS": "ANKUSH",
+            "Medal": "",
+            "Splits": []
+          },
+          "Away": {
+            "Org": "BRN",
+            "Reg": "1528624",
+            "Name": "VOGEL Hamsa",
+            "Result": "0",
+            "Winner": false,
+            "HasData": true,
+            "NameS": "VOGEL H",
+            "Medal": "",
+            "Splits": []
+          }
+        },
+        {
+          "Orgs": [
+            "IND",
+            "TJK"
+          ],
+          "IsPhase": false,
+          "ResCode": "M.80KG--------------.QFNL.000200--",
+          "ShowLink": true,
+          "Disc": "BOX",
+          "DiscDesc": "Boxing",
+          "Key": "M.80KG--------------.QFNL.000200--",
+          "isH2H": true,
+          "Type": "A",
+          "Medal": "0",
+          "Status": "OFFICIAL",
+          "StatusDesc": "Official",
+          "DateTimeRaw": "2026-09-27T13:15:00+09:00",
+          "HideStartDate": false,
+          "Estimated": true,
+          "EstText": "FOLLOW BY",
+          "HideLocation": false,
+          "Venue": "NIS",
+          "VenueDesc": "Nishio Gymnasium",
+          "VenueDescS": "Nishio Gymnasium",
+          "Loc": "NIS",
+          "LocDesc": "Ring 1",
+          "LocDescS": "Ring 1",
+          "Event": "M.80KG--------------",
+          "EventDesc": "Men's 80kg",
+          "Phase": "M.80KG--------------.QFNL",
+          "PhaseOrder": 2,
+          "PhaseDesc": "Men's 80KG Quarterfinal",
+          "PhaseDescS": "Men's 80KG Quarterfinal",
+          "PhaseDescA": "Quarterfinal",
+          "UnitDesc": "Men's 80KG - Quarterfinal",
+          "UnitDescS": "80KG - Quarterfinal",
+          "UnitDescA": "Quarterfinal",
+          "EndDateTimeRaw": "2026-09-27T13:30:00+09:00",
+          "ActualEndDateTimeRaw": "2026-09-27T13:30:00+09:00",
+          "UnitNum": "108",
+          "IsLive": false,
+          "ShowResults": true,
+          "Periods": [
+            {
+              "Order": 1,
+              "Desc": "Round 1",
+              "DescS": "R 1",
+              "Extensions": [
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueKnockdowns",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 1,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 2,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 3,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 4,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 5,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueWarnings",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedKnockdowns",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 1,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 2,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 3,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 4,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 5,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedWarnings",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                }
+              ]
+            },
+            {
+              "Order": 2,
+              "Desc": "Round 2",
+              "DescS": "R 2",
+              "Extensions": [
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueKnockdowns",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 1,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 2,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 3,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 4,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 5,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueWarnings",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedKnockdowns",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 1,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 2,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 3,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 4,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 5,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedWarnings",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                }
+              ]
+            },
+            {
+              "Order": 3,
+              "Desc": "Round 3",
+              "DescS": "R 3",
+              "Extensions": [
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueKnockdowns",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 1,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 2,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 3,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 4,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 5,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueWarnings",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedKnockdowns",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 1,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 2,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 3,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 4,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 5,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedWarnings",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                }
+              ]
+            }
+          ],
+          "Home": {
+            "Org": "IND",
+            "Reg": "8600061",
+            "Name": "ANKUSH",
+            "Result": "5",
+            "Winner": true,
+            "HasData": true,
+            "NameS": "ANKUSH",
+            "Medal": "",
+            "Splits": []
+          },
+          "Away": {
+            "Org": "TJK",
+            "Reg": "7409756",
+            "Name": "SALIMOV Nekruz",
+            "Result": "0",
+            "Winner": false,
+            "HasData": true,
+            "NameS": "SALIMOV N",
+            "Medal": "",
+            "Splits": []
+          }
+        },
+        {
+          "Orgs": [
+            "UZB",
+            "IND"
+          ],
+          "IsPhase": false,
+          "ResCode": "M.80KG--------------.SFNL.000100--",
+          "ShowLink": true,
+          "Disc": "BOX",
+          "DiscDesc": "Boxing",
+          "Key": "M.80KG--------------.SFNL.000100--",
+          "isH2H": true,
+          "Type": "A",
+          "Medal": "2",
+          "Status": "OFFICIAL",
+          "StatusDesc": "Official",
+          "DateTimeRaw": "2026-09-29T14:30:00+09:00",
+          "HideStartDate": false,
+          "Estimated": true,
+          "EstText": "FOLLOW BY",
+          "HideLocation": false,
+          "Venue": "NIS",
+          "VenueDesc": "Nishio Gymnasium",
+          "VenueDescS": "Nishio Gymnasium",
+          "Loc": "NIS",
+          "LocDesc": "Ring 1",
+          "LocDescS": "Ring 1",
+          "Event": "M.80KG--------------",
+          "EventDesc": "Men's 80kg",
+          "Phase": "M.80KG--------------.SFNL",
+          "PhaseOrder": 3,
+          "PhaseDesc": "Men's 80KG Semifinal",
+          "PhaseDescS": "Men's 80KG Semifinal",
+          "PhaseDescA": "Semifinal",
+          "UnitDesc": "Men's 80KG - Semifinal",
+          "UnitDescS": "80KG - Semifinal",
+          "UnitDescA": "Semifinal",
+          "EndDateTimeRaw": "2026-09-29T14:45:00+09:00",
+          "ActualEndDateTimeRaw": "2026-09-29T14:45:00+09:00",
+          "UnitNum": "153",
+          "IsLive": false,
+          "ShowResults": true,
+          "Periods": [
+            {
+              "Order": 1,
+              "Desc": "Round 1",
+              "DescS": "R 1",
+              "Extensions": [
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueKnockdowns",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 1,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 2,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 3,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 4,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 5,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueWarnings",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedKnockdowns",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 1,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 2,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 3,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 4,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 5,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedWarnings",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                }
+              ]
+            },
+            {
+              "Order": 2,
+              "Desc": "Round 2",
+              "DescS": "R 2",
+              "Extensions": [
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueKnockdowns",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 1,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 2,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 3,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 4,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 5,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueWarnings",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedKnockdowns",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 1,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 2,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 3,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 4,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 5,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedWarnings",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                }
+              ]
+            },
+            {
+              "Order": 3,
+              "Desc": "Round 3",
+              "DescS": "R 3",
+              "Extensions": [
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueKnockdowns",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 1,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 2,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 3,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 4,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 5,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueWarnings",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedKnockdowns",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 1,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 2,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 3,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 4,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 5,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedWarnings",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                }
+              ]
+            }
+          ],
+          "Home": {
+            "Org": "UZB",
+            "Reg": "4175303",
+            "Name": "ERKINBOEV Fazliddin",
+            "Result": "1",
+            "Winner": false,
+            "HasData": true,
+            "NameS": "ERKINBOEV F",
+            "Medal": "ME_BRONZE",
+            "Splits": []
+          },
+          "Away": {
+            "Org": "IND",
+            "Reg": "8600061",
+            "Name": "ANKUSH",
+            "Result": "4",
+            "Winner": true,
+            "HasData": true,
+            "NameS": "ANKUSH",
+            "Medal": "",
+            "Splits": []
+          }
+        },
+        {
+          "Orgs": [
+            "IND",
+            "KOR"
+          ],
+          "IsPhase": false,
+          "ResCode": "M.80KG--------------.FNL-.000100--",
+          "ShowLink": true,
+          "Disc": "BOX",
+          "DiscDesc": "Boxing",
+          "Key": "M.80KG--------------.FNL-.000100--",
+          "isH2H": true,
+          "Type": "A",
+          "Medal": "1",
+          "Status": "OFFICIAL",
+          "StatusDesc": "Official",
+          "DateTimeRaw": "2026-10-02T18:15:00+09:00",
+          "HideStartDate": false,
+          "Estimated": true,
+          "EstText": "FOLLOW BY",
+          "HideLocation": false,
+          "Venue": "NIS",
+          "VenueDesc": "Nishio Gymnasium",
+          "VenueDescS": "Nishio Gymnasium",
+          "Loc": "NIS",
+          "LocDesc": "Ring 1",
+          "LocDescS": "Ring 1",
+          "Event": "M.80KG--------------",
+          "EventDesc": "Men's 80kg",
+          "Phase": "M.80KG--------------.FNL-",
+          "PhaseOrder": 4,
+          "PhaseDesc": "Men's 80KG Final",
+          "PhaseDescS": "Men's 80KG Final",
+          "PhaseDescA": "Final",
+          "UnitDesc": "Men's 80KG - Final",
+          "UnitDescS": "80KG - Final",
+          "UnitDescA": "Final",
+          "EndDateTimeRaw": "2026-10-02T18:30:00+09:00",
+          "ActualEndDateTimeRaw": "2026-10-02T18:30:00+09:00",
+          "UnitNum": "178",
+          "IsLive": false,
+          "ShowResults": true,
+          "Periods": [
+            {
+              "Order": 1,
+              "Desc": "Round 1",
+              "DescS": "R 1",
+              "Extensions": [
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueKnockdowns",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 1,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 2,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 3,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 4,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 5,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueWarnings",
+                  "Pos": 0,
+                  "Value": "1",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedKnockdowns",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 1,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 2,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 3,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 4,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 5,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedWarnings",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                }
+              ]
+            },
+            {
+              "Order": 2,
+              "Desc": "Round 2",
+              "DescS": "R 2",
+              "Extensions": [
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueKnockdowns",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 1,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 2,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 3,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 4,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 5,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueWarnings",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedKnockdowns",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 1,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 2,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 3,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 4,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 5,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedWarnings",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                }
+              ]
+            },
+            {
+              "Order": 3,
+              "Desc": "Round 3",
+              "DescS": "R 3",
+              "Extensions": [
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueKnockdowns",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 1,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 2,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 3,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 4,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 5,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueWarnings",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedKnockdowns",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 1,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 2,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 3,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 4,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 5,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedWarnings",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                }
+              ]
+            }
+          ],
+          "Home": {
+            "Org": "IND",
+            "Reg": "8600061",
+            "Name": "ANKUSH",
+            "Result": "4",
+            "Winner": true,
+            "HasData": true,
+            "NameS": "ANKUSH",
+            "Medal": "ME_GOLD",
+            "Splits": []
+          },
+          "Away": {
+            "Org": "KOR",
+            "Reg": "303709",
+            "Name": "KIM Minseong",
+            "Result": "0",
+            "Winner": false,
+            "HasData": true,
+            "NameS": "KIM M",
+            "Medal": "ME_SILVER",
+            "Splits": []
+          }
+        }
+      ],
+      "historical": null
+    }
+  },
+  {
     "reg": "8621436",
     "name": "PARVEEN",
     "org": "IND",
@@ -237092,10 +238673,10 @@
           "Desc": "Men's 90kg",
           "DescS": "Men's 90kg",
           "isMember": false,
+          "Medal": "ME_BRONZE",
           "Rank": "3",
           "IRM": "OK",
-          "Result": "",
-          "Medal": "ME_BRONZE"
+          "Result": ""
         }
       ],
       "schedule": [
@@ -238291,7 +239872,10 @@
           "Desc": "Men's +90kg",
           "DescS": "Men's +90kg",
           "isMember": false,
-          "Medal": "ME_BRONZE"
+          "Medal": "ME_BRONZE",
+          "Rank": "3",
+          "IRM": "OK",
+          "Result": ""
         }
       ],
       "schedule": [
@@ -281726,10 +283310,10 @@
           "Desc": "Women's Team",
           "DescS": "Women's Team",
           "isMember": false,
-          "Medal": "ME_GOLD",
           "Rank": "1",
           "IRM": "",
-          "Result": ""
+          "Result": "",
+          "Medal": "ME_GOLD"
         }
       ],
       "schedule": [
@@ -307330,10 +308914,10 @@
           "TeamReg": "SHOXTRMT-------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
-          "Medal": "ME_GOLD",
           "Rank": "1",
           "IRM": "",
-          "Result": "34"
+          "Result": "34",
+          "Medal": "ME_GOLD"
         }
       ],
       "schedule": [
@@ -311393,10 +312977,10 @@
           "Desc": "10m Air Rifle Women Individual",
           "DescS": "10m Air Rifle Women Individual",
           "isMember": false,
+          "Medal": "ME_SILVER",
           "Rank": "2",
           "IRM": "",
-          "Result": "252.4",
-          "Medal": "ME_SILVER"
+          "Result": "252.4"
         },
         {
           "Disc": "SHO",
@@ -313022,10 +314606,10 @@
           "Desc": "25m Pistol Women Individual",
           "DescS": "25m Pistol Women Individual",
           "isMember": false,
+          "Medal": "ME_SILVER",
           "Rank": "2",
           "IRM": "",
-          "Result": "38",
-          "Medal": "ME_SILVER"
+          "Result": "38"
         }
       ],
       "schedule": [
@@ -313545,10 +315129,10 @@
           "Desc": "Trap Women Team",
           "DescS": "Trap Women Team",
           "isMember": false,
-          "Medal": "ME_SILVER",
           "Rank": "2",
           "IRM": "",
-          "Result": "328"
+          "Result": "328",
+          "Medal": "ME_SILVER"
         }
       ],
       "schedule": [
@@ -315280,10 +316864,10 @@
           "TeamReg": "SHOXSKMT-------IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
+          "Medal": "ME_BRONZE",
           "Rank": "3",
           "IRM": "",
-          "Result": "44",
-          "Medal": "ME_BRONZE"
+          "Result": "44"
         }
       ],
       "schedule": [
@@ -316340,10 +317924,10 @@
           "Desc": "Skeet Women Team",
           "DescS": "Skeet Women Team",
           "isMember": false,
+          "Medal": "ME_BRONZE",
           "Rank": "3",
           "IRM": "",
-          "Result": "331",
-          "Medal": "ME_BRONZE"
+          "Result": "331"
         }
       ],
       "schedule": [
@@ -318890,8 +320474,8 @@
           "isH2H": true,
           "Type": "T",
           "Medal": "2",
-          "Status": "UNOFFICIAL",
-          "StatusDesc": "Unofficial",
+          "Status": "OFFICIAL",
+          "StatusDesc": "Official",
           "DateTimeRaw": "2026-10-02T15:30:00+09:00",
           "HideStartDate": false,
           "Estimated": false,
@@ -319136,10 +320720,10 @@
           "TeamReg": "SPKMQUADRANT---IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
+          "Medal": "ME_BRONZE",
           "Rank": "3",
           "IRM": "",
-          "Result": "",
-          "Medal": "ME_BRONZE"
+          "Result": ""
         },
         {
           "Disc": "SPK",
@@ -326576,10 +328160,10 @@
           "TeamReg": "SPKMQUADRANT---IND01",
           "TeamOrg": "IND",
           "TeamName": "India",
+          "Medal": "ME_BRONZE",
           "Rank": "3",
           "IRM": "",
-          "Result": "",
-          "Medal": "ME_BRONZE"
+          "Result": ""
         },
         {
           "Disc": "SPK",
@@ -328190,8 +329774,8 @@
           "isH2H": true,
           "Type": "T",
           "Medal": "2",
-          "Status": "UNOFFICIAL",
-          "StatusDesc": "Unofficial",
+          "Status": "OFFICIAL",
+          "StatusDesc": "Official",
           "DateTimeRaw": "2026-10-02T15:30:00+09:00",
           "HideStartDate": false,
           "Estimated": false,
@@ -346927,10 +348511,10 @@
           "Desc": "Women's Team",
           "DescS": "Women's Team",
           "isMember": false,
+          "Medal": "ME_BRONZE",
           "Rank": "3",
           "IRM": "OK",
-          "Result": "",
-          "Medal": "ME_BRONZE"
+          "Result": ""
         }
       ],
       "schedule": [
@@ -352273,10 +353857,10 @@
           "TeamReg": "SQUXDOUBLES----IND02",
           "TeamOrg": "IND",
           "TeamName": "CHINAPPA J. /SENTHILKUMAR V.",
+          "Medal": "ME_BRONZE",
           "Rank": "3",
           "IRM": "OK",
-          "Result": "",
-          "Medal": "ME_BRONZE"
+          "Result": ""
         }
       ],
       "schedule": [
@@ -379065,6 +380649,2102 @@
             "Orgs": 7
           },
           "Results": []
+        }
+      ],
+      "historical": null
+    }
+  },
+  {
+    "reg": "4943117",
+    "name": "SUJEET",
+    "org": "IND",
+    "org_desc": "India",
+    "disc": "WRE",
+    "disc_desc": "Wrestling",
+    "photo_url": "https://results.asiangames2026.org/ag2026/photos/4943117.jpg",
+    "medals": [
+      {
+        "medal": "gold",
+        "event": "Men's Freestyle 65kg Final"
+      }
+    ],
+    "bio_data": {
+      "participant": {
+        "Reg": "4943117",
+        "Disc": "WRE",
+        "DiscDesc": "Wrestling",
+        "hasMembers": false,
+        "Org": "IND",
+        "OrgDesc": "India",
+        "Type": "A",
+        "MedClass": "",
+        "Gender": "M",
+        "BirthDateRaw": "2002-11-05",
+        "Name": "SUJEET",
+        "NameS": "SUJEET",
+        "GivenName": "Sujeet",
+        "FamilyName": "Sujeet",
+        "IFId": "83593",
+        "Height": null,
+        "Weight": null
+      },
+      "entries": [
+        {
+          "Disc": "WRE",
+          "Reg": "4943117",
+          "EvKey": "M.FS65KG------------",
+          "Desc": "Men's Freestyle 65kg",
+          "DescS": "Men's Freestyle 65kg",
+          "isMember": false,
+          "Rank": "1",
+          "IRM": "",
+          "Result": "",
+          "Medal": "ME_GOLD"
+        }
+      ],
+      "schedule": [
+        {
+          "Orgs": [
+            "IND",
+            "AFG"
+          ],
+          "IsPhase": false,
+          "ResCode": "M.FS65KG------------.8FNL.000300--",
+          "ShowLink": true,
+          "Disc": "WRE",
+          "DiscDesc": "Wrestling",
+          "Key": "M.FS65KG------------.8FNL.000300--",
+          "isH2H": true,
+          "Type": "A",
+          "Medal": "0",
+          "Status": "OFFICIAL",
+          "StatusDesc": "Official",
+          "DateTimeRaw": "2026-10-02T11:32:00+09:00",
+          "HideStartDate": false,
+          "Estimated": false,
+          "EstText": "",
+          "HideLocation": false,
+          "Venue": "ISC",
+          "VenueDesc": "Nagoya City Inae Sports Center",
+          "VenueDescS": "Nagoya City Inae Sports Center",
+          "Loc": "IS2",
+          "LocDesc": "ISC  MAT B",
+          "LocDescS": "ISC  MAT B",
+          "Event": "M.FS65KG------------",
+          "EventDesc": "Men's Freestyle 65kg",
+          "Phase": "M.FS65KG------------.8FNL",
+          "PhaseOrder": 112,
+          "PhaseDesc": "Men's Freestyle 65kg 1/8 Finals",
+          "PhaseDescS": "MFS 65kg 1/8 Finals",
+          "PhaseDescA": "1/8 Finals",
+          "UnitDesc": "1/8 Final",
+          "UnitDescS": "1/8 Final",
+          "UnitDescA": "1/8 Final",
+          "EndDateTimeRaw": "2026-10-02T11:47:02+09:00",
+          "ActualEndDateTimeRaw": "2026-10-02T11:47:02+09:00",
+          "UnitNum": "153",
+          "IsLive": false,
+          "ShowResults": true,
+          "Periods": [
+            {
+              "Order": 1,
+              "Desc": "1",
+              "DescS": "1"
+            },
+            {
+              "Order": 2,
+              "Desc": "2",
+              "DescS": "2"
+            }
+          ],
+          "Home": {
+            "Org": "IND",
+            "Reg": "4943117",
+            "Name": "SUJEET",
+            "Result": "13",
+            "Winner": true,
+            "HasData": true,
+            "NameS": "SUJEET",
+            "Medal": "",
+            "Splits": [
+              {
+                "Rk": "",
+                "RkPo": 0,
+                "Res": "9",
+                "Extensions": [
+                  {
+                    "Type": "SPLIT_INFO",
+                    "Code": "Action 0",
+                    "Pos": 0,
+                    "Value": "1PT",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_INFO",
+                    "Code": "Action 1",
+                    "Pos": 0,
+                    "Value": "4PT",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_INFO",
+                    "Code": "Action 2",
+                    "Pos": 0,
+                    "Value": "2PT",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_INFO",
+                    "Code": "Action 3",
+                    "Pos": 0,
+                    "Value": "2PT",
+                    "Extensions": []
+                  }
+                ]
+              },
+              {
+                "Rk": "",
+                "RkPo": 0,
+                "Res": "4",
+                "Extensions": [
+                  {
+                    "Type": "SPLIT_INFO",
+                    "Code": "Action 0",
+                    "Pos": 0,
+                    "Value": "2PT",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_INFO",
+                    "Code": "Action 1",
+                    "Pos": 0,
+                    "Value": "2PT",
+                    "Extensions": []
+                  }
+                ]
+              }
+            ],
+            "Extensions": [
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "Activity",
+                "Pos": 0,
+                "Value": "False",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "ChallengeState",
+                "Pos": 0,
+                "Value": "0",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "ChallFlag",
+                "Pos": 0,
+                "Value": "1",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "LastPoint",
+                "Pos": 0,
+                "Value": "2",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "Position",
+                "Pos": 0,
+                "Value": "1",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "UnitFrom",
+                "Pos": 0,
+                "Value": "False",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "Warning",
+                "Pos": 0,
+                "Value": "False",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "ClassificationPoints",
+                "Pos": 0,
+                "Value": "4",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "Winner",
+                "Pos": 0,
+                "Value": "True",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "Tie",
+                "Pos": 0,
+                "Value": "False",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "Tie Decision",
+                "Pos": 0,
+                "Value": "",
+                "Extensions": []
+              },
+              {
+                "Type": "RESULT_INFO",
+                "Code": "Colour",
+                "Pos": 0,
+                "Value": "1",
+                "Extensions": []
+              },
+              {
+                "Type": "PREV_INFO",
+                "Code": "Register",
+                "Pos": 0,
+                "Value": "4943117",
+                "Extensions": []
+              },
+              {
+                "Type": "PREV_INFO",
+                "Code": "RegisterOpp",
+                "Pos": 0,
+                "Value": "10634463",
+                "Extensions": []
+              },
+              {
+                "Type": "PREV_INFO",
+                "Code": "Result",
+                "Pos": 0,
+                "Value": "4-1",
+                "Extensions": []
+              }
+            ]
+          },
+          "Away": {
+            "Org": "AFG",
+            "Reg": "10634463",
+            "Name": "ZAZAI Sayed Omar",
+            "Result": "3",
+            "Winner": false,
+            "HasData": true,
+            "NameS": "ZAZAI SO",
+            "Medal": "",
+            "Splits": [
+              {
+                "Rk": "",
+                "RkPo": 0,
+                "Res": "3",
+                "Extensions": [
+                  {
+                    "Type": "SPLIT_INFO",
+                    "Code": "Action 0",
+                    "Pos": 0,
+                    "Value": "2PT",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_INFO",
+                    "Code": "Action 1",
+                    "Pos": 0,
+                    "Value": "1PT",
+                    "Extensions": []
+                  }
+                ]
+              },
+              {
+                "Rk": "",
+                "RkPo": 0,
+                "Res": "0",
+                "Extensions": []
+              }
+            ],
+            "Extensions": [
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "Activity",
+                "Pos": 0,
+                "Value": "False",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "ChallengeState",
+                "Pos": 0,
+                "Value": "0",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "ChallFlag",
+                "Pos": 0,
+                "Value": "1",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "LastPoint",
+                "Pos": 0,
+                "Value": "2",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "Position",
+                "Pos": 0,
+                "Value": "2",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "UnitFrom",
+                "Pos": 0,
+                "Value": "False",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "Warning",
+                "Pos": 0,
+                "Value": "False",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "ClassificationPoints",
+                "Pos": 0,
+                "Value": "1",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "Winner",
+                "Pos": 0,
+                "Value": "False",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "Tie",
+                "Pos": 0,
+                "Value": "False",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "Tie Decision",
+                "Pos": 0,
+                "Value": "",
+                "Extensions": []
+              },
+              {
+                "Type": "RESULT_INFO",
+                "Code": "Colour",
+                "Pos": 0,
+                "Value": "2",
+                "Extensions": []
+              },
+              {
+                "Type": "PREV_INFO",
+                "Code": "Register",
+                "Pos": 0,
+                "Value": "10634463",
+                "Extensions": []
+              },
+              {
+                "Type": "PREV_INFO",
+                "Code": "RegisterOpp",
+                "Pos": 0,
+                "Value": "4943117",
+                "Extensions": []
+              },
+              {
+                "Type": "PREV_INFO",
+                "Code": "Result",
+                "Pos": 0,
+                "Value": "1-4",
+                "Extensions": []
+              }
+            ]
+          },
+          "Extensions": [
+            {
+              "Type": "UNIT_INFO",
+              "Code": "Activity",
+              "Pos": 0,
+              "Value": "0",
+              "Extensions": []
+            },
+            {
+              "Type": "UNIT_INFO",
+              "Code": "Challenge",
+              "Pos": 0,
+              "Value": "False",
+              "Extensions": []
+            },
+            {
+              "Type": "UNIT_INFO",
+              "Code": "ResultDetail",
+              "Pos": 0,
+              "Value": "VSU1 (4-1 -> Victory by technical superiority - with point(s) scored by the opponent (4:1))",
+              "Extensions": []
+            },
+            {
+              "Type": "UNIT_INFO",
+              "Code": "Session",
+              "Pos": 0,
+              "Value": "WRE.SES.MOR.20261002",
+              "Extensions": []
+            },
+            {
+              "Type": "UNIT_INFO",
+              "Code": "VictoryType",
+              "Pos": 0,
+              "Value": "VSU1",
+              "Extensions": []
+            },
+            {
+              "Type": "UNIT_INFO",
+              "Code": "Cpoint",
+              "Pos": 0,
+              "Value": "4-1",
+              "Extensions": []
+            },
+            {
+              "Type": "UNIT_INFO",
+              "Code": "VictoryDescription",
+              "Pos": 0,
+              "Value": "Victory by technical superiority - with point(s) scored by the opponent (4:1)",
+              "Extensions": []
+            },
+            {
+              "Type": "UNIT_INFO",
+              "Code": "Weight",
+              "Pos": 0,
+              "Value": "65kg",
+              "Extensions": []
+            },
+            {
+              "Type": "UNIT_INFO",
+              "Code": "WinnerTime",
+              "Pos": 0,
+              "Value": "04:36",
+              "Extensions": []
+            },
+            {
+              "Type": "UNIT_INFO",
+              "Code": "Tie",
+              "Pos": 0,
+              "Value": "False",
+              "Extensions": []
+            },
+            {
+              "Type": "UNIT_INFO",
+              "Code": "TieDecision",
+              "Pos": 0,
+              "Value": "",
+              "Extensions": []
+            }
+          ]
+        },
+        {
+          "Orgs": [
+            "IND",
+            "IRI"
+          ],
+          "IsPhase": false,
+          "ResCode": "M.FS65KG------------.QFNL.000200--",
+          "ShowLink": true,
+          "Disc": "WRE",
+          "DiscDesc": "Wrestling",
+          "Key": "M.FS65KG------------.QFNL.000200--",
+          "isH2H": true,
+          "Type": "A",
+          "Medal": "0",
+          "Status": "OFFICIAL",
+          "StatusDesc": "Official",
+          "DateTimeRaw": "2026-10-02T12:48:00+09:00",
+          "HideStartDate": false,
+          "Estimated": false,
+          "EstText": "",
+          "HideLocation": false,
+          "Venue": "ISC",
+          "VenueDesc": "Nagoya City Inae Sports Center",
+          "VenueDescS": "Nagoya City Inae Sports Center",
+          "Loc": "IS2",
+          "LocDesc": "ISC  MAT B",
+          "LocDescS": "ISC  MAT B",
+          "Event": "M.FS65KG------------",
+          "EventDesc": "Men's Freestyle 65kg",
+          "Phase": "M.FS65KG------------.QFNL",
+          "PhaseOrder": 113,
+          "PhaseDesc": "Men's Freestyle 65kg 1/4 Finals",
+          "PhaseDescS": "MFS 65kg 1/4 Finals",
+          "PhaseDescA": "1/4 Finals",
+          "UnitDesc": "1/4 Final",
+          "UnitDescS": "1/4 Final",
+          "UnitDescA": "1/4 Final",
+          "EndDateTimeRaw": "2026-10-02T13:17:28+09:00",
+          "ActualEndDateTimeRaw": "2026-10-02T13:17:28+09:00",
+          "UnitNum": "162",
+          "IsLive": false,
+          "ShowResults": true,
+          "Periods": [
+            {
+              "Order": 1,
+              "Desc": "1",
+              "DescS": "1"
+            },
+            {
+              "Order": 2,
+              "Desc": "2",
+              "DescS": "2"
+            }
+          ],
+          "Home": {
+            "Org": "IND",
+            "Reg": "4943117",
+            "Name": "SUJEET",
+            "Result": "10",
+            "Winner": true,
+            "HasData": true,
+            "NameS": "SUJEET",
+            "Medal": "",
+            "Splits": [
+              {
+                "Rk": "",
+                "RkPo": 0,
+                "Res": "8",
+                "Extensions": [
+                  {
+                    "Type": "SPLIT_INFO",
+                    "Code": "Action 0",
+                    "Pos": 0,
+                    "Value": "2PT",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_INFO",
+                    "Code": "Action 1",
+                    "Pos": 0,
+                    "Value": "2PT",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_INFO",
+                    "Code": "Action 2",
+                    "Pos": 0,
+                    "Value": "2PT",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_INFO",
+                    "Code": "Action 3",
+                    "Pos": 0,
+                    "Value": "2PT",
+                    "Extensions": []
+                  }
+                ]
+              },
+              {
+                "Rk": "",
+                "RkPo": 0,
+                "Res": "2",
+                "Extensions": [
+                  {
+                    "Type": "SPLIT_INFO",
+                    "Code": "Action 0",
+                    "Pos": 0,
+                    "Value": "2PT",
+                    "Extensions": []
+                  }
+                ]
+              }
+            ],
+            "Extensions": [
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "Activity",
+                "Pos": 0,
+                "Value": "False",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "ChallengeState",
+                "Pos": 0,
+                "Value": "0",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "ChallFlag",
+                "Pos": 0,
+                "Value": "1",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "LastPoint",
+                "Pos": 0,
+                "Value": "2",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "Position",
+                "Pos": 0,
+                "Value": "1",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "UnitFrom",
+                "Pos": 0,
+                "Value": "False",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "Warning",
+                "Pos": 0,
+                "Value": "False",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "ClassificationPoints",
+                "Pos": 0,
+                "Value": "4",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "Winner",
+                "Pos": 0,
+                "Value": "True",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "Tie",
+                "Pos": 0,
+                "Value": "False",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "Tie Decision",
+                "Pos": 0,
+                "Value": "",
+                "Extensions": []
+              },
+              {
+                "Type": "RESULT_INFO",
+                "Code": "Colour",
+                "Pos": 0,
+                "Value": "1",
+                "Extensions": []
+              },
+              {
+                "Type": "PREV_INFO",
+                "Code": "Register",
+                "Pos": 0,
+                "Value": "4943117",
+                "Extensions": []
+              },
+              {
+                "Type": "PREV_INFO",
+                "Code": "RegisterOpp",
+                "Pos": 0,
+                "Value": "10634463",
+                "Extensions": []
+              },
+              {
+                "Type": "PREV_INFO",
+                "Code": "Result",
+                "Pos": 0,
+                "Value": "4-1",
+                "Extensions": []
+              },
+              {
+                "Type": "PREV_INFO",
+                "Code": "Register",
+                "Pos": 1,
+                "Value": "4943117",
+                "Extensions": []
+              },
+              {
+                "Type": "PREV_INFO",
+                "Code": "RegisterOpp",
+                "Pos": 1,
+                "Value": "1344623",
+                "Extensions": []
+              },
+              {
+                "Type": "PREV_INFO",
+                "Code": "Result",
+                "Pos": 1,
+                "Value": "4-0",
+                "Extensions": []
+              }
+            ]
+          },
+          "Away": {
+            "Org": "IRI",
+            "Reg": "1344623",
+            "Name": "EBRAHIMZADEHSAVADKOUHI Abbas",
+            "Result": "0",
+            "Winner": false,
+            "HasData": true,
+            "NameS": "EBRAHIMZADEHSAVADKOUHI A",
+            "Medal": "",
+            "Splits": [
+              {
+                "Rk": "",
+                "RkPo": 0,
+                "Res": "0",
+                "Extensions": []
+              },
+              {
+                "Rk": "",
+                "RkPo": 0,
+                "Res": "0",
+                "Extensions": []
+              }
+            ],
+            "Extensions": [
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "Activity",
+                "Pos": 0,
+                "Value": "False",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "ChallengeState",
+                "Pos": 0,
+                "Value": "2",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "ChallFlag",
+                "Pos": 0,
+                "Value": "1",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "LastPoint",
+                "Pos": 0,
+                "Value": "",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "Position",
+                "Pos": 0,
+                "Value": "2",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "UnitFrom",
+                "Pos": 0,
+                "Value": "False",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "Warning",
+                "Pos": 0,
+                "Value": "False",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "ClassificationPoints",
+                "Pos": 0,
+                "Value": "0",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "Winner",
+                "Pos": 0,
+                "Value": "False",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "Tie",
+                "Pos": 0,
+                "Value": "False",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "Tie Decision",
+                "Pos": 0,
+                "Value": "",
+                "Extensions": []
+              },
+              {
+                "Type": "RESULT_INFO",
+                "Code": "Colour",
+                "Pos": 0,
+                "Value": "2",
+                "Extensions": []
+              },
+              {
+                "Type": "PREV_INFO",
+                "Code": "Register",
+                "Pos": 0,
+                "Value": "1344623",
+                "Extensions": []
+              },
+              {
+                "Type": "PREV_INFO",
+                "Code": "RegisterOpp",
+                "Pos": 0,
+                "Value": "4641363",
+                "Extensions": []
+              },
+              {
+                "Type": "PREV_INFO",
+                "Code": "Result",
+                "Pos": 0,
+                "Value": "4-0",
+                "Extensions": []
+              },
+              {
+                "Type": "PREV_INFO",
+                "Code": "Register",
+                "Pos": 1,
+                "Value": "1344623",
+                "Extensions": []
+              },
+              {
+                "Type": "PREV_INFO",
+                "Code": "RegisterOpp",
+                "Pos": 1,
+                "Value": "4943117",
+                "Extensions": []
+              },
+              {
+                "Type": "PREV_INFO",
+                "Code": "Result",
+                "Pos": 1,
+                "Value": "0-4",
+                "Extensions": []
+              }
+            ]
+          },
+          "Extensions": [
+            {
+              "Type": "UNIT_INFO",
+              "Code": "Activity",
+              "Pos": 0,
+              "Value": "0",
+              "Extensions": []
+            },
+            {
+              "Type": "UNIT_INFO",
+              "Code": "Challenge",
+              "Pos": 0,
+              "Value": "False",
+              "Extensions": []
+            },
+            {
+              "Type": "UNIT_INFO",
+              "Code": "ResultDetail",
+              "Pos": 0,
+              "Value": "VSU (4-0 -> Victory by technical superiority - without any point scored by the opponent (4:0))",
+              "Extensions": []
+            },
+            {
+              "Type": "UNIT_INFO",
+              "Code": "Session",
+              "Pos": 0,
+              "Value": "WRE.SES.MOR.20261002",
+              "Extensions": []
+            },
+            {
+              "Type": "UNIT_INFO",
+              "Code": "VictoryType",
+              "Pos": 0,
+              "Value": "VSU",
+              "Extensions": []
+            },
+            {
+              "Type": "UNIT_INFO",
+              "Code": "Cpoint",
+              "Pos": 0,
+              "Value": "4-0",
+              "Extensions": []
+            },
+            {
+              "Type": "UNIT_INFO",
+              "Code": "VictoryDescription",
+              "Pos": 0,
+              "Value": "Victory by technical superiority - without any point scored by the opponent (4:0)",
+              "Extensions": []
+            },
+            {
+              "Type": "UNIT_INFO",
+              "Code": "Weight",
+              "Pos": 0,
+              "Value": "65kg",
+              "Extensions": []
+            },
+            {
+              "Type": "UNIT_INFO",
+              "Code": "WinnerTime",
+              "Pos": 0,
+              "Value": "03:21",
+              "Extensions": []
+            },
+            {
+              "Type": "UNIT_INFO",
+              "Code": "Tie",
+              "Pos": 0,
+              "Value": "False",
+              "Extensions": []
+            },
+            {
+              "Type": "UNIT_INFO",
+              "Code": "TieDecision",
+              "Pos": 0,
+              "Value": "",
+              "Extensions": []
+            }
+          ]
+        },
+        {
+          "Orgs": [
+            "JPN",
+            "IND"
+          ],
+          "IsPhase": false,
+          "ResCode": "M.FS65KG------------.SFNL.000100--",
+          "ShowLink": true,
+          "Disc": "WRE",
+          "DiscDesc": "Wrestling",
+          "Key": "M.FS65KG------------.SFNL.000100--",
+          "isH2H": true,
+          "Type": "A",
+          "Medal": "0",
+          "Status": "OFFICIAL",
+          "StatusDesc": "Official",
+          "DateTimeRaw": "2026-10-02T13:15:00+09:00",
+          "HideStartDate": false,
+          "Estimated": false,
+          "EstText": "",
+          "HideLocation": false,
+          "Venue": "ISC",
+          "VenueDesc": "Nagoya City Inae Sports Center",
+          "VenueDescS": "Nagoya City Inae Sports Center",
+          "Loc": "IS3",
+          "LocDesc": "ISC  MAT C",
+          "LocDescS": "ISC  MAT C",
+          "Event": "M.FS65KG------------",
+          "EventDesc": "Men's Freestyle 65kg",
+          "Phase": "M.FS65KG------------.SFNL",
+          "PhaseOrder": 114,
+          "PhaseDesc": "Men's Freestyle 65kg Semifinals",
+          "PhaseDescS": "MFS 65kg Semifinals",
+          "PhaseDescA": "Semifinals",
+          "UnitDesc": "Semifinal",
+          "UnitDescS": "Semifinal",
+          "UnitDescA": "Semifinal",
+          "EndDateTimeRaw": "2026-10-02T07:48:42+09:00",
+          "ActualEndDateTimeRaw": "2026-10-02T07:48:42+09:00",
+          "UnitNum": "189",
+          "IsLive": false,
+          "ShowResults": true,
+          "Periods": [
+            {
+              "Order": 1,
+              "Desc": "1",
+              "DescS": "1"
+            },
+            {
+              "Order": 2,
+              "Desc": "2",
+              "DescS": "2"
+            }
+          ],
+          "Home": {
+            "Org": "JPN",
+            "Reg": "12231398",
+            "Name": "KIYOOKA Kotaro",
+            "Result": "3",
+            "Winner": false,
+            "HasData": true,
+            "NameS": "KIYOOKA K",
+            "Medal": "",
+            "Splits": [
+              {
+                "Rk": "",
+                "RkPo": 0,
+                "Res": "2",
+                "Extensions": [
+                  {
+                    "Type": "SPLIT_INFO",
+                    "Code": "Action 0",
+                    "Pos": 0,
+                    "Value": "1PT",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_INFO",
+                    "Code": "Action 1",
+                    "Pos": 0,
+                    "Value": "1PT",
+                    "Extensions": []
+                  }
+                ]
+              },
+              {
+                "Rk": "",
+                "RkPo": 0,
+                "Res": "1",
+                "Extensions": [
+                  {
+                    "Type": "SPLIT_INFO",
+                    "Code": "Action 0",
+                    "Pos": 0,
+                    "Value": "1PT",
+                    "Extensions": []
+                  }
+                ]
+              }
+            ],
+            "Extensions": [
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "Activity",
+                "Pos": 0,
+                "Value": "False",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "ChallengeState",
+                "Pos": 0,
+                "Value": "2",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "ChallFlag",
+                "Pos": 0,
+                "Value": "1",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "LastPoint",
+                "Pos": 0,
+                "Value": "1",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "Position",
+                "Pos": 0,
+                "Value": "1",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "UnitFrom",
+                "Pos": 0,
+                "Value": "False",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "Warning",
+                "Pos": 0,
+                "Value": "False",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "ClassificationPoints",
+                "Pos": 0,
+                "Value": "1",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "Winner",
+                "Pos": 0,
+                "Value": "False",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "Tie",
+                "Pos": 0,
+                "Value": "True",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "Tie Decision",
+                "Pos": 0,
+                "Value": "High technical points scored",
+                "Extensions": []
+              },
+              {
+                "Type": "RESULT_INFO",
+                "Code": "Colour",
+                "Pos": 0,
+                "Value": "1",
+                "Extensions": []
+              },
+              {
+                "Type": "PREV_INFO",
+                "Code": "Register",
+                "Pos": 0,
+                "Value": "12231398",
+                "Extensions": []
+              },
+              {
+                "Type": "PREV_INFO",
+                "Code": "RegisterOpp",
+                "Pos": 0,
+                "Value": "8096054",
+                "Extensions": []
+              },
+              {
+                "Type": "PREV_INFO",
+                "Code": "Result",
+                "Pos": 0,
+                "Value": "3-1",
+                "Extensions": []
+              },
+              {
+                "Type": "PREV_INFO",
+                "Code": "Register",
+                "Pos": 1,
+                "Value": "12231398",
+                "Extensions": []
+              },
+              {
+                "Type": "PREV_INFO",
+                "Code": "RegisterOpp",
+                "Pos": 1,
+                "Value": "7931053",
+                "Extensions": []
+              },
+              {
+                "Type": "PREV_INFO",
+                "Code": "Result",
+                "Pos": 1,
+                "Value": "3-0",
+                "Extensions": []
+              },
+              {
+                "Type": "PREV_INFO",
+                "Code": "Register",
+                "Pos": 2,
+                "Value": "12231398",
+                "Extensions": []
+              },
+              {
+                "Type": "PREV_INFO",
+                "Code": "RegisterOpp",
+                "Pos": 2,
+                "Value": "4943117",
+                "Extensions": []
+              },
+              {
+                "Type": "PREV_INFO",
+                "Code": "Result",
+                "Pos": 2,
+                "Value": "1-3",
+                "Extensions": []
+              }
+            ]
+          },
+          "Away": {
+            "Org": "IND",
+            "Reg": "4943117",
+            "Name": "SUJEET",
+            "Result": "3",
+            "Winner": true,
+            "HasData": true,
+            "NameS": "SUJEET",
+            "Medal": "",
+            "Splits": [
+              {
+                "Rk": "",
+                "RkPo": 0,
+                "Res": "0",
+                "Extensions": []
+              },
+              {
+                "Rk": "",
+                "RkPo": 0,
+                "Res": "3",
+                "Extensions": [
+                  {
+                    "Type": "SPLIT_INFO",
+                    "Code": "Action 0",
+                    "Pos": 0,
+                    "Value": "2PT",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_INFO",
+                    "Code": "Action 1",
+                    "Pos": 0,
+                    "Value": "1PT",
+                    "Extensions": []
+                  }
+                ]
+              }
+            ],
+            "Extensions": [
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "Activity",
+                "Pos": 0,
+                "Value": "False",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "ChallengeState",
+                "Pos": 0,
+                "Value": "0",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "ChallFlag",
+                "Pos": 0,
+                "Value": "1",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "LastPoint",
+                "Pos": 0,
+                "Value": "1",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "Position",
+                "Pos": 0,
+                "Value": "2",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "UnitFrom",
+                "Pos": 0,
+                "Value": "False",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "Warning",
+                "Pos": 0,
+                "Value": "False",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "ClassificationPoints",
+                "Pos": 0,
+                "Value": "3",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "Winner",
+                "Pos": 0,
+                "Value": "True",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "Tie",
+                "Pos": 0,
+                "Value": "True",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "Tie Decision",
+                "Pos": 0,
+                "Value": "High technical points scored",
+                "Extensions": []
+              },
+              {
+                "Type": "RESULT_INFO",
+                "Code": "Colour",
+                "Pos": 0,
+                "Value": "2",
+                "Extensions": []
+              },
+              {
+                "Type": "PREV_INFO",
+                "Code": "Register",
+                "Pos": 0,
+                "Value": "4943117",
+                "Extensions": []
+              },
+              {
+                "Type": "PREV_INFO",
+                "Code": "RegisterOpp",
+                "Pos": 0,
+                "Value": "10634463",
+                "Extensions": []
+              },
+              {
+                "Type": "PREV_INFO",
+                "Code": "Result",
+                "Pos": 0,
+                "Value": "4-1",
+                "Extensions": []
+              },
+              {
+                "Type": "PREV_INFO",
+                "Code": "Register",
+                "Pos": 1,
+                "Value": "4943117",
+                "Extensions": []
+              },
+              {
+                "Type": "PREV_INFO",
+                "Code": "RegisterOpp",
+                "Pos": 1,
+                "Value": "1344623",
+                "Extensions": []
+              },
+              {
+                "Type": "PREV_INFO",
+                "Code": "Result",
+                "Pos": 1,
+                "Value": "4-0",
+                "Extensions": []
+              },
+              {
+                "Type": "PREV_INFO",
+                "Code": "Register",
+                "Pos": 2,
+                "Value": "4943117",
+                "Extensions": []
+              },
+              {
+                "Type": "PREV_INFO",
+                "Code": "RegisterOpp",
+                "Pos": 2,
+                "Value": "12231398",
+                "Extensions": []
+              },
+              {
+                "Type": "PREV_INFO",
+                "Code": "Result",
+                "Pos": 2,
+                "Value": "3-1",
+                "Extensions": []
+              }
+            ]
+          },
+          "Extensions": [
+            {
+              "Type": "UNIT_INFO",
+              "Code": "Activity",
+              "Pos": 0,
+              "Value": "0",
+              "Extensions": []
+            },
+            {
+              "Type": "UNIT_INFO",
+              "Code": "Challenge",
+              "Pos": 0,
+              "Value": "False",
+              "Extensions": []
+            },
+            {
+              "Type": "UNIT_INFO",
+              "Code": "ResultDetail",
+              "Pos": 0,
+              "Value": "VPO1 (3-1 -> Victory by points - with point(s) scored by the opponent (3:1))",
+              "Extensions": []
+            },
+            {
+              "Type": "UNIT_INFO",
+              "Code": "Session",
+              "Pos": 0,
+              "Value": "WRE.SES.MOR.20261002",
+              "Extensions": []
+            },
+            {
+              "Type": "UNIT_INFO",
+              "Code": "VictoryType",
+              "Pos": 0,
+              "Value": "VPO1",
+              "Extensions": []
+            },
+            {
+              "Type": "UNIT_INFO",
+              "Code": "Cpoint",
+              "Pos": 0,
+              "Value": "3-1",
+              "Extensions": []
+            },
+            {
+              "Type": "UNIT_INFO",
+              "Code": "VictoryDescription",
+              "Pos": 0,
+              "Value": "Victory by points - with point(s) scored by the opponent (3:1)",
+              "Extensions": []
+            },
+            {
+              "Type": "UNIT_INFO",
+              "Code": "Weight",
+              "Pos": 0,
+              "Value": "65kg",
+              "Extensions": []
+            },
+            {
+              "Type": "UNIT_INFO",
+              "Code": "WinnerTime",
+              "Pos": 0,
+              "Value": "6:00",
+              "Extensions": []
+            },
+            {
+              "Type": "UNIT_INFO",
+              "Code": "Tie",
+              "Pos": 0,
+              "Value": "True",
+              "Extensions": []
+            },
+            {
+              "Type": "UNIT_INFO",
+              "Code": "TieDecision",
+              "Pos": 0,
+              "Value": "High technical points scored",
+              "Extensions": []
+            }
+          ]
+        },
+        {
+          "Orgs": [
+            "IND",
+            "TJK"
+          ],
+          "IsPhase": false,
+          "ResCode": "M.FS65KG------------.FNL-.000100--",
+          "ShowLink": true,
+          "Disc": "WRE",
+          "DiscDesc": "Wrestling",
+          "Key": "M.FS65KG------------.FNL-.000100--",
+          "isH2H": true,
+          "Type": "A",
+          "Medal": "1",
+          "Status": "OFFICIAL",
+          "StatusDesc": "Official",
+          "DateTimeRaw": "2026-10-02T18:16:00+09:00",
+          "HideStartDate": false,
+          "Estimated": false,
+          "EstText": "",
+          "HideLocation": false,
+          "Venue": "ISC",
+          "VenueDesc": "Nagoya City Inae Sports Center",
+          "VenueDescS": "Nagoya City Inae Sports Center",
+          "Loc": "IS2",
+          "LocDesc": "ISC  MAT B",
+          "LocDescS": "ISC  MAT B",
+          "Event": "M.FS65KG------------",
+          "EventDesc": "Men's Freestyle 65kg",
+          "Phase": "M.FS65KG------------.FNL-",
+          "PhaseOrder": 118,
+          "PhaseDesc": "Men's Freestyle 65kg Final",
+          "PhaseDescS": "MFS 65kg Final",
+          "PhaseDescA": "Final",
+          "UnitDesc": "Final",
+          "UnitDescS": "Final",
+          "UnitDescA": "Final",
+          "EndDateTimeRaw": "2026-10-02T18:36:50+09:00",
+          "ActualEndDateTimeRaw": "2026-10-02T18:36:50+09:00",
+          "UnitNum": "196",
+          "IsLive": false,
+          "ShowResults": true,
+          "Periods": [
+            {
+              "Order": 1,
+              "Desc": "1",
+              "DescS": "1"
+            },
+            {
+              "Order": 2,
+              "Desc": "2",
+              "DescS": "2"
+            }
+          ],
+          "Home": {
+            "Org": "IND",
+            "Reg": "4943117",
+            "Name": "SUJEET",
+            "Result": "10",
+            "Winner": true,
+            "HasData": true,
+            "NameS": "SUJEET",
+            "Medal": "ME_GOLD",
+            "Splits": [
+              {
+                "Rk": "",
+                "RkPo": 0,
+                "Res": "2",
+                "Extensions": [
+                  {
+                    "Type": "SPLIT_INFO",
+                    "Code": "Action 0",
+                    "Pos": 0,
+                    "Value": "2PT",
+                    "Extensions": []
+                  }
+                ]
+              },
+              {
+                "Rk": "",
+                "RkPo": 0,
+                "Res": "8",
+                "Extensions": [
+                  {
+                    "Type": "SPLIT_INFO",
+                    "Code": "Action 0",
+                    "Pos": 0,
+                    "Value": "2PT",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_INFO",
+                    "Code": "Action 1",
+                    "Pos": 0,
+                    "Value": "2PT",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_INFO",
+                    "Code": "Action 2",
+                    "Pos": 0,
+                    "Value": "2PT",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_INFO",
+                    "Code": "Action 3",
+                    "Pos": 0,
+                    "Value": "2PT",
+                    "Extensions": []
+                  }
+                ]
+              }
+            ],
+            "Extensions": [
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "Activity",
+                "Pos": 0,
+                "Value": "False",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "ChallengeState",
+                "Pos": 0,
+                "Value": "0",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "ChallFlag",
+                "Pos": 0,
+                "Value": "1",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "LastPoint",
+                "Pos": 0,
+                "Value": "2",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "Position",
+                "Pos": 0,
+                "Value": "1",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "UnitFrom",
+                "Pos": 0,
+                "Value": "False",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "Warning",
+                "Pos": 0,
+                "Value": "False",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "ClassificationPoints",
+                "Pos": 0,
+                "Value": "3",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "Winner",
+                "Pos": 0,
+                "Value": "True",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "Tie",
+                "Pos": 0,
+                "Value": "False",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "Tie Decision",
+                "Pos": 0,
+                "Value": "",
+                "Extensions": []
+              },
+              {
+                "Type": "RESULT_INFO",
+                "Code": "Colour",
+                "Pos": 0,
+                "Value": "1",
+                "Extensions": []
+              },
+              {
+                "Type": "PREV_INFO",
+                "Code": "Register",
+                "Pos": 0,
+                "Value": "4943117",
+                "Extensions": []
+              },
+              {
+                "Type": "PREV_INFO",
+                "Code": "RegisterOpp",
+                "Pos": 0,
+                "Value": "10634463",
+                "Extensions": []
+              },
+              {
+                "Type": "PREV_INFO",
+                "Code": "Result",
+                "Pos": 0,
+                "Value": "4-1",
+                "Extensions": []
+              },
+              {
+                "Type": "PREV_INFO",
+                "Code": "Register",
+                "Pos": 1,
+                "Value": "4943117",
+                "Extensions": []
+              },
+              {
+                "Type": "PREV_INFO",
+                "Code": "RegisterOpp",
+                "Pos": 1,
+                "Value": "16287157",
+                "Extensions": []
+              },
+              {
+                "Type": "PREV_INFO",
+                "Code": "Result",
+                "Pos": 1,
+                "Value": "3-1",
+                "Extensions": []
+              },
+              {
+                "Type": "PREV_INFO",
+                "Code": "Register",
+                "Pos": 2,
+                "Value": "4943117",
+                "Extensions": []
+              },
+              {
+                "Type": "PREV_INFO",
+                "Code": "RegisterOpp",
+                "Pos": 2,
+                "Value": "1344623",
+                "Extensions": []
+              },
+              {
+                "Type": "PREV_INFO",
+                "Code": "Result",
+                "Pos": 2,
+                "Value": "4-0",
+                "Extensions": []
+              },
+              {
+                "Type": "PREV_INFO",
+                "Code": "Register",
+                "Pos": 3,
+                "Value": "4943117",
+                "Extensions": []
+              },
+              {
+                "Type": "PREV_INFO",
+                "Code": "RegisterOpp",
+                "Pos": 3,
+                "Value": "12231398",
+                "Extensions": []
+              },
+              {
+                "Type": "PREV_INFO",
+                "Code": "Result",
+                "Pos": 3,
+                "Value": "3-1",
+                "Extensions": []
+              }
+            ]
+          },
+          "Away": {
+            "Org": "TJK",
+            "Reg": "16287157",
+            "Name": "KUDIEV Abdulmazhid",
+            "Result": "9",
+            "Winner": false,
+            "HasData": true,
+            "NameS": "KUDIEV A",
+            "Medal": "ME_SILVER",
+            "Splits": [
+              {
+                "Rk": "",
+                "RkPo": 0,
+                "Res": "9",
+                "Extensions": [
+                  {
+                    "Type": "SPLIT_INFO",
+                    "Code": "Action 0",
+                    "Pos": 0,
+                    "Value": "2PT",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_INFO",
+                    "Code": "Action 1",
+                    "Pos": 0,
+                    "Value": "2PT",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_INFO",
+                    "Code": "Action 2",
+                    "Pos": 0,
+                    "Value": "1PT",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_INFO",
+                    "Code": "Action 3",
+                    "Pos": 0,
+                    "Value": "2PT",
+                    "Extensions": []
+                  },
+                  {
+                    "Type": "SPLIT_INFO",
+                    "Code": "Action 4",
+                    "Pos": 0,
+                    "Value": "2PT",
+                    "Extensions": []
+                  }
+                ]
+              },
+              {
+                "Rk": "",
+                "RkPo": 0,
+                "Res": "0",
+                "Extensions": []
+              }
+            ],
+            "Extensions": [
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "Activity",
+                "Pos": 0,
+                "Value": "False",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "ChallengeState",
+                "Pos": 0,
+                "Value": "0",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "ChallFlag",
+                "Pos": 0,
+                "Value": "0",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "LastPoint",
+                "Pos": 0,
+                "Value": "2",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "Position",
+                "Pos": 0,
+                "Value": "2",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "UnitFrom",
+                "Pos": 0,
+                "Value": "False",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "Warning",
+                "Pos": 0,
+                "Value": "False",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "ClassificationPoints",
+                "Pos": 0,
+                "Value": "1",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "Winner",
+                "Pos": 0,
+                "Value": "False",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "Tie",
+                "Pos": 0,
+                "Value": "False",
+                "Extensions": []
+              },
+              {
+                "Type": "COMPETITOR_INFO",
+                "Code": "Tie Decision",
+                "Pos": 0,
+                "Value": "",
+                "Extensions": []
+              },
+              {
+                "Type": "RESULT_INFO",
+                "Code": "Colour",
+                "Pos": 0,
+                "Value": "2",
+                "Extensions": []
+              },
+              {
+                "Type": "PREV_INFO",
+                "Code": "Register",
+                "Pos": 0,
+                "Value": "16287157",
+                "Extensions": []
+              },
+              {
+                "Type": "PREV_INFO",
+                "Code": "RegisterOpp",
+                "Pos": 0,
+                "Value": "10755106",
+                "Extensions": []
+              },
+              {
+                "Type": "PREV_INFO",
+                "Code": "Result",
+                "Pos": 0,
+                "Value": "4-1",
+                "Extensions": []
+              },
+              {
+                "Type": "PREV_INFO",
+                "Code": "Register",
+                "Pos": 1,
+                "Value": "16287157",
+                "Extensions": []
+              },
+              {
+                "Type": "PREV_INFO",
+                "Code": "RegisterOpp",
+                "Pos": 1,
+                "Value": "4943117",
+                "Extensions": []
+              },
+              {
+                "Type": "PREV_INFO",
+                "Code": "Result",
+                "Pos": 1,
+                "Value": "1-3",
+                "Extensions": []
+              },
+              {
+                "Type": "PREV_INFO",
+                "Code": "Register",
+                "Pos": 2,
+                "Value": "16287157",
+                "Extensions": []
+              },
+              {
+                "Type": "PREV_INFO",
+                "Code": "RegisterOpp",
+                "Pos": 2,
+                "Value": "16666232",
+                "Extensions": []
+              },
+              {
+                "Type": "PREV_INFO",
+                "Code": "Result",
+                "Pos": 2,
+                "Value": "4-0",
+                "Extensions": []
+              },
+              {
+                "Type": "PREV_INFO",
+                "Code": "Register",
+                "Pos": 3,
+                "Value": "16287157",
+                "Extensions": []
+              },
+              {
+                "Type": "PREV_INFO",
+                "Code": "RegisterOpp",
+                "Pos": 3,
+                "Value": "476570",
+                "Extensions": []
+              },
+              {
+                "Type": "PREV_INFO",
+                "Code": "Result",
+                "Pos": 3,
+                "Value": "4-0",
+                "Extensions": []
+              }
+            ]
+          },
+          "Extensions": [
+            {
+              "Type": "UNIT_INFO",
+              "Code": "Activity",
+              "Pos": 0,
+              "Value": "0",
+              "Extensions": []
+            },
+            {
+              "Type": "UNIT_INFO",
+              "Code": "Challenge",
+              "Pos": 0,
+              "Value": "False",
+              "Extensions": []
+            },
+            {
+              "Type": "UNIT_INFO",
+              "Code": "ResultDetail",
+              "Pos": 0,
+              "Value": "VPO1 (3-1 -> Victory by points - with point(s) scored by the opponent (3:1))",
+              "Extensions": []
+            },
+            {
+              "Type": "UNIT_INFO",
+              "Code": "Session",
+              "Pos": 0,
+              "Value": "WRE.SES.AFT.20261002",
+              "Extensions": []
+            },
+            {
+              "Type": "UNIT_INFO",
+              "Code": "VictoryType",
+              "Pos": 0,
+              "Value": "VPO1",
+              "Extensions": []
+            },
+            {
+              "Type": "UNIT_INFO",
+              "Code": "Cpoint",
+              "Pos": 0,
+              "Value": "3-1",
+              "Extensions": []
+            },
+            {
+              "Type": "UNIT_INFO",
+              "Code": "VictoryDescription",
+              "Pos": 0,
+              "Value": "Victory by points - with point(s) scored by the opponent (3:1)",
+              "Extensions": []
+            },
+            {
+              "Type": "UNIT_INFO",
+              "Code": "Weight",
+              "Pos": 0,
+              "Value": "65kg",
+              "Extensions": []
+            },
+            {
+              "Type": "UNIT_INFO",
+              "Code": "WinnerTime",
+              "Pos": 0,
+              "Value": "6:00",
+              "Extensions": []
+            },
+            {
+              "Type": "UNIT_INFO",
+              "Code": "Tie",
+              "Pos": 0,
+              "Value": "False",
+              "Extensions": []
+            },
+            {
+              "Type": "UNIT_INFO",
+              "Code": "TieDecision",
+              "Pos": 0,
+              "Value": "",
+              "Extensions": []
+            }
+          ]
         }
       ],
       "historical": null
