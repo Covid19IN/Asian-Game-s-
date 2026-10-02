@@ -234481,6 +234481,1377 @@
     }
   },
   {
+    "reg": "8621436",
+    "name": "PARVEEN",
+    "org": "IND",
+    "org_desc": "India",
+    "disc": "BOX",
+    "disc_desc": "Boxing",
+    "photo_url": "https://results.asiangames2026.org/ag2026/photos/8621436.jpg",
+    "medals": [
+      {
+        "medal": "gold",
+        "event": "Women's 65kg"
+      }
+    ],
+    "bio_data": {
+      "participant": {
+        "Reg": "8621436",
+        "Disc": "BOX",
+        "DiscDesc": "Boxing",
+        "hasMembers": false,
+        "Org": "IND",
+        "OrgDesc": "India",
+        "Type": "A",
+        "MedClass": "",
+        "Gender": "W",
+        "BirthDateRaw": "2000-04-15",
+        "Name": "PARVEEN",
+        "NameS": "PARVEEN",
+        "GivenName": "",
+        "FamilyName": "Parveen",
+        "IFId": "000000",
+        "Height": 0,
+        "Weight": 0
+      },
+      "entries": [
+        {
+          "Disc": "BOX",
+          "Reg": "8621436",
+          "EvKey": "W.65KG--------------",
+          "Desc": "Women's 65kg",
+          "DescS": "Women's 65kg",
+          "isMember": false,
+          "Rank": "1",
+          "IRM": "OK",
+          "Result": "",
+          "Medal": "ME_GOLD"
+        }
+      ],
+      "schedule": [
+        {
+          "Orgs": [
+            "IND",
+            "TJK"
+          ],
+          "IsPhase": false,
+          "ResCode": "W.65KG--------------.8FNL.000600--",
+          "ShowLink": true,
+          "Disc": "BOX",
+          "DiscDesc": "Boxing",
+          "Key": "W.65KG--------------.8FNL.000600--",
+          "isH2H": true,
+          "Type": "A",
+          "Medal": "0",
+          "Status": "OFFICIAL",
+          "StatusDesc": "Official",
+          "DateTimeRaw": "2026-09-24T18:15:00+09:00",
+          "HideStartDate": false,
+          "Estimated": true,
+          "EstText": "FOLLOW BY",
+          "HideLocation": false,
+          "Venue": "NIS",
+          "VenueDesc": "Nishio Gymnasium",
+          "VenueDescS": "Nishio Gymnasium",
+          "Loc": "NIS",
+          "LocDesc": "Ring 1",
+          "LocDescS": "Ring 1",
+          "Event": "W.65KG--------------",
+          "EventDesc": "Women's 65kg",
+          "Phase": "W.65KG--------------.8FNL",
+          "PhaseOrder": 1,
+          "PhaseDesc": "Women's 65KG Preliminaries - Round of 16",
+          "PhaseDescS": "Women's 65KG Prelims - Round of 16",
+          "PhaseDescA": "Preliminaries - Round of 16",
+          "UnitDesc": "Women's 65KG - Preliminaries - Round of 16",
+          "UnitDescS": "65KG - Prelims - Round of 16",
+          "UnitDescA": "Preliminaries - Round of 16",
+          "EndDateTimeRaw": "2026-09-24T18:30:00+09:00",
+          "ActualEndDateTimeRaw": "2026-09-24T18:30:00+09:00",
+          "UnitNum": "58",
+          "IsLive": false,
+          "ShowResults": true,
+          "Periods": [
+            {
+              "Order": 0,
+              "Desc": "",
+              "DescS": "",
+              "Extensions": [
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueKnockdowns",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 1,
+                  "Value": "0",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 2,
+                  "Value": "0",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 3,
+                  "Value": "0",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 4,
+                  "Value": "0",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 5,
+                  "Value": "0",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueWarnings",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedKnockdowns",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 1,
+                  "Value": "0",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 2,
+                  "Value": "0",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 3,
+                  "Value": "0",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 4,
+                  "Value": "0",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 5,
+                  "Value": "0",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedWarnings",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                }
+              ]
+            }
+          ],
+          "Home": {
+            "Org": "IND",
+            "Reg": "8621436",
+            "Name": "PARVEEN",
+            "Result": "W",
+            "Winner": true,
+            "HasData": true,
+            "NameS": "PARVEEN",
+            "Medal": "",
+            "Splits": []
+          },
+          "Away": {
+            "Org": "TJK",
+            "Reg": "14875640",
+            "Name": "NOZIMOVA Malika",
+            "Result": "WO",
+            "Winner": false,
+            "HasData": true,
+            "NameS": "NOZIMOVA M",
+            "Medal": "",
+            "Splits": []
+          }
+        },
+        {
+          "Orgs": [
+            "UZB",
+            "IND"
+          ],
+          "IsPhase": false,
+          "ResCode": "W.65KG--------------.QFNL.000300--",
+          "ShowLink": true,
+          "Disc": "BOX",
+          "DiscDesc": "Boxing",
+          "Key": "W.65KG--------------.QFNL.000300--",
+          "isH2H": true,
+          "Type": "A",
+          "Medal": "0",
+          "Status": "OFFICIAL",
+          "StatusDesc": "Official",
+          "DateTimeRaw": "2026-09-27T17:30:00+09:00",
+          "HideStartDate": false,
+          "Estimated": true,
+          "EstText": "FOLLOW BY",
+          "HideLocation": false,
+          "Venue": "NIS",
+          "VenueDesc": "Nishio Gymnasium",
+          "VenueDescS": "Nishio Gymnasium",
+          "Loc": "NIS",
+          "LocDesc": "Ring 1",
+          "LocDescS": "Ring 1",
+          "Event": "W.65KG--------------",
+          "EventDesc": "Women's 65kg",
+          "Phase": "W.65KG--------------.QFNL",
+          "PhaseOrder": 2,
+          "PhaseDesc": "Women's 65KG Quarterfinal",
+          "PhaseDescS": "Women's 65KG Quarterfinal",
+          "PhaseDescA": "Quarterfinal",
+          "UnitDesc": "Women's 65KG - Quarterfinal",
+          "UnitDescS": "65KG - Quarterfinal",
+          "UnitDescA": "Quarterfinal",
+          "EndDateTimeRaw": "2026-09-27T17:45:00+09:00",
+          "ActualEndDateTimeRaw": "2026-09-27T17:45:00+09:00",
+          "UnitNum": "113",
+          "IsLive": false,
+          "ShowResults": true,
+          "Periods": [
+            {
+              "Order": 1,
+              "Desc": "Round 1",
+              "DescS": "R 1",
+              "Extensions": [
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueKnockdowns",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 1,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 2,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 3,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 4,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 5,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueWarnings",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedKnockdowns",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 1,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 2,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 3,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 4,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 5,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedWarnings",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                }
+              ]
+            },
+            {
+              "Order": 2,
+              "Desc": "Round 2",
+              "DescS": "R 2",
+              "Extensions": [
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueKnockdowns",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 1,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 2,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 3,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 4,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 5,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueWarnings",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedKnockdowns",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 1,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 2,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 3,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 4,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 5,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedWarnings",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                }
+              ]
+            },
+            {
+              "Order": 3,
+              "Desc": "Round 3",
+              "DescS": "R 3",
+              "Extensions": [
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueKnockdowns",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 1,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 2,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 3,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 4,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 5,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueWarnings",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedKnockdowns",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 1,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 2,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 3,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 4,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 5,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedWarnings",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                }
+              ]
+            }
+          ],
+          "Home": {
+            "Org": "UZB",
+            "Reg": "4171588",
+            "Name": "KHAMIDOVA Navbakhor",
+            "Result": "0",
+            "Winner": false,
+            "HasData": true,
+            "NameS": "KHAMIDOVA N",
+            "Medal": "",
+            "Splits": []
+          },
+          "Away": {
+            "Org": "IND",
+            "Reg": "8621436",
+            "Name": "PARVEEN",
+            "Result": "5",
+            "Winner": true,
+            "HasData": true,
+            "NameS": "PARVEEN",
+            "Medal": "",
+            "Splits": []
+          }
+        },
+        {
+          "Orgs": [
+            "IND",
+            "CHN"
+          ],
+          "IsPhase": false,
+          "ResCode": "W.65KG--------------.SFNL.000200--",
+          "ShowLink": true,
+          "Disc": "BOX",
+          "DiscDesc": "Boxing",
+          "Key": "W.65KG--------------.SFNL.000200--",
+          "isH2H": true,
+          "Type": "A",
+          "Medal": "2",
+          "Status": "OFFICIAL",
+          "StatusDesc": "Official",
+          "DateTimeRaw": "2026-09-29T13:45:00+09:00",
+          "HideStartDate": false,
+          "Estimated": true,
+          "EstText": "FOLLOW BY",
+          "HideLocation": false,
+          "Venue": "NIS",
+          "VenueDesc": "Nishio Gymnasium",
+          "VenueDescS": "Nishio Gymnasium",
+          "Loc": "NIS",
+          "LocDesc": "Ring 1",
+          "LocDescS": "Ring 1",
+          "Event": "W.65KG--------------",
+          "EventDesc": "Women's 65kg",
+          "Phase": "W.65KG--------------.SFNL",
+          "PhaseOrder": 3,
+          "PhaseDesc": "Women's 65KG Semifinal",
+          "PhaseDescS": "Women's 65KG Semifinal",
+          "PhaseDescA": "Semifinal",
+          "UnitDesc": "Women's 65KG - Semifinal",
+          "UnitDescS": "65KG - Semifinal",
+          "UnitDescA": "Semifinal",
+          "EndDateTimeRaw": "2026-09-29T14:00:00+09:00",
+          "ActualEndDateTimeRaw": "2026-09-29T14:00:00+09:00",
+          "UnitNum": "150",
+          "IsLive": false,
+          "ShowResults": true,
+          "Periods": [
+            {
+              "Order": 1,
+              "Desc": "Round 1",
+              "DescS": "R 1",
+              "Extensions": [
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueKnockdowns",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 1,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 2,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 3,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 4,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 5,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueWarnings",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedKnockdowns",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 1,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 2,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 3,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 4,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 5,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedWarnings",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                }
+              ]
+            },
+            {
+              "Order": 2,
+              "Desc": "Round 2",
+              "DescS": "R 2",
+              "Extensions": [
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueKnockdowns",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 1,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 2,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 3,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 4,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 5,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueWarnings",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedKnockdowns",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 1,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 2,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 3,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 4,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 5,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedWarnings",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                }
+              ]
+            },
+            {
+              "Order": 3,
+              "Desc": "Round 3",
+              "DescS": "R 3",
+              "Extensions": [
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueKnockdowns",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 1,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 2,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 3,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 4,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 5,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueWarnings",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedKnockdowns",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 1,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 2,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 3,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 4,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 5,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedWarnings",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                }
+              ]
+            }
+          ],
+          "Home": {
+            "Org": "IND",
+            "Reg": "8621436",
+            "Name": "PARVEEN",
+            "Result": "5",
+            "Winner": true,
+            "HasData": true,
+            "NameS": "PARVEEN",
+            "Medal": "",
+            "Splits": []
+          },
+          "Away": {
+            "Org": "CHN",
+            "Reg": "4355646",
+            "Name": "LI Shu",
+            "Result": "0",
+            "Winner": false,
+            "HasData": true,
+            "NameS": "LI S",
+            "Medal": "ME_BRONZE",
+            "Splits": []
+          }
+        },
+        {
+          "Orgs": [
+            "TPE",
+            "IND"
+          ],
+          "IsPhase": false,
+          "ResCode": "W.65KG--------------.FNL-.000100--",
+          "ShowLink": true,
+          "Disc": "BOX",
+          "DiscDesc": "Boxing",
+          "Key": "W.65KG--------------.FNL-.000100--",
+          "isH2H": true,
+          "Type": "A",
+          "Medal": "1",
+          "Status": "OFFICIAL",
+          "StatusDesc": "Official",
+          "DateTimeRaw": "2026-10-02T17:45:00+09:00",
+          "HideStartDate": false,
+          "Estimated": true,
+          "EstText": "FOLLOW BY",
+          "HideLocation": false,
+          "Venue": "NIS",
+          "VenueDesc": "Nishio Gymnasium",
+          "VenueDescS": "Nishio Gymnasium",
+          "Loc": "NIS",
+          "LocDesc": "Ring 1",
+          "LocDescS": "Ring 1",
+          "Event": "W.65KG--------------",
+          "EventDesc": "Women's 65kg",
+          "Phase": "W.65KG--------------.FNL-",
+          "PhaseOrder": 4,
+          "PhaseDesc": "Women's 65KG Final",
+          "PhaseDescS": "Women's 65KG Final",
+          "PhaseDescA": "Final",
+          "UnitDesc": "Women's 65KG - Final",
+          "UnitDescS": "65KG - Final",
+          "UnitDescA": "Final",
+          "EndDateTimeRaw": "2026-10-02T18:00:00+09:00",
+          "ActualEndDateTimeRaw": "2026-10-02T18:00:00+09:00",
+          "UnitNum": "176",
+          "IsLive": false,
+          "ShowResults": true,
+          "Periods": [
+            {
+              "Order": 1,
+              "Desc": "Round 1",
+              "DescS": "R 1",
+              "Extensions": [
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueKnockdowns",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 1,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 2,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 3,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 4,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 5,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueWarnings",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedKnockdowns",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 1,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 2,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 3,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 4,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 5,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedWarnings",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                }
+              ]
+            },
+            {
+              "Order": 2,
+              "Desc": "Round 2",
+              "DescS": "R 2",
+              "Extensions": [
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueKnockdowns",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 1,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 2,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 3,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 4,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 5,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueWarnings",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedKnockdowns",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 1,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 2,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 3,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 4,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 5,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedWarnings",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                }
+              ]
+            },
+            {
+              "Order": 3,
+              "Desc": "Round 3",
+              "DescS": "R 3",
+              "Extensions": [
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueKnockdowns",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 1,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 2,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 3,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 4,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueScore",
+                  "Pos": 5,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "BlueWarnings",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedKnockdowns",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 1,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 2,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 3,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 4,
+                  "Value": "10",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedScore",
+                  "Pos": 5,
+                  "Value": "9",
+                  "Extensions": []
+                },
+                {
+                  "Type": "SPLIT_RESULT",
+                  "Code": "RedWarnings",
+                  "Pos": 0,
+                  "Value": "0",
+                  "Extensions": []
+                }
+              ]
+            }
+          ],
+          "Home": {
+            "Org": "TPE",
+            "Reg": "6112606",
+            "Name": "CHEN Nien-chin",
+            "Result": "2",
+            "Winner": false,
+            "HasData": true,
+            "NameS": "CHEN N",
+            "Medal": "ME_SILVER",
+            "Splits": []
+          },
+          "Away": {
+            "Org": "IND",
+            "Reg": "8621436",
+            "Name": "PARVEEN",
+            "Result": "3",
+            "Winner": true,
+            "HasData": true,
+            "NameS": "PARVEEN",
+            "Medal": "ME_GOLD",
+            "Splits": []
+          }
+        }
+      ],
+      "historical": null
+    }
+  },
+  {
     "reg": "5471473",
     "name": "BORGOHAIN Lovlina",
     "org": "IND",
@@ -379173,10 +380544,10 @@
           "Desc": "Men's Greco-Roman 87kg",
           "DescS": "Men's Greco-Roman 87kg",
           "isMember": false,
+          "Medal": "ME_BRONZE",
           "Rank": "3",
           "IRM": "",
-          "Result": "",
-          "Medal": "ME_BRONZE"
+          "Result": ""
         }
       ],
       "schedule": [
